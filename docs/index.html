@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BC Route Planner (demo)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>BC Route Planner</h1>
+    <p class="sub">Companion to BC Godfat's seed tracker. Demo build: the server API isn't connected yet.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>1. Get tracks</h2>
+      <p class="hint">Paste a bc.godfat.org link that includes a seed and event.</p>
+      <div class="row">
+        <input id="godfat-url" type="url" placeholder="https://bc.godfat.org/?seed=...&amp;event=...">
+        <button id="fetch-btn">Fetch tracks</button>
+      </div>
+      <p id="fetch-status" class="status" role="status"></p>
+    </section>
+
+    <section class="card">
+      <h2>2. Your saved data</h2>
+      <p class="hint">Stored in this browser only (IndexedDB). Export it as a backup, and import it on another device or after clearing browser data.</p>
+      <ul id="dataset-list" class="datasets"></ul>
+      <div class="row">
+        <button id="export-btn" class="secondary">Export all</button>
+        <label class="file-btn secondary">
+          Import
+          <input id="import-file" type="file" accept=".json,.csv" hidden>
+        </label>
+      </div>
+      <p id="data-status" class="status" role="status"></p>
+    </section>
+
+    <section class="card">
+      <h2>3. Optimize</h2>
+      <p class="hint">Find the route that collects the most target units within a roll limit.</p>
+      <div class="grid">
+        <label>Dataset
+          <select id="opt-dataset"></select>
+        </label>
+        <label>Roll limit
+          <input id="opt-limit" type="number" min="1" max="200" value="60">
+        </label>
+        <label class="wide">Target units (one per line)
+          <textarea id="opt-targets" rows="4" placeholder="Shirou Emiya&#10;True Assassin"></textarea>
+        </label>
+      </div>
+      <div class="row">
+        <button id="opt-btn">Run optimizer</button>
+      </div>
+      <p id="opt-status" class="status" role="status"></p>
+      <ol id="opt-result" class="result"></ol>
+    </section>
+  </main>
+
+  <footer>Not affiliated with BC Godfat or PONOS.</footer>
+  <script src="app.js"></script>
+</body>
+</html>
