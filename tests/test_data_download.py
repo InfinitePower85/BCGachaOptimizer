@@ -9,6 +9,7 @@ tests/fixtures/mini_tracks.html.
 import csv
 import json
 import os
+import re
 import sys
 import time
 from pathlib import Path
@@ -30,9 +31,67 @@ def no_network(monkeypatch):
     monkeypatch.setattr(data_download.requests, "get", boom)
 
 
+@pytest.fixture(autouse=True)
+def seed_dir(monkeypatch, tmp_path):
+    """Every test writes to a temp folder, never to the real data/seed_tracks."""
+    monkeypatch.setattr(data_download, "SEED_TRACKS_DIR", tmp_path)
+    return tmp_path
+
+
 @pytest.fixture
 def html():
     return FIXTURE.read_text(encoding="utf-8")
+
+
+class FakeWeb:
+    """Stands in for requests.get: records calls, returns the fixture page (or fails)."""
+
+    def __init__(self, html):
+        self.html = html
+        self.calls = []
+        self.fail = False
+
+    def __call__(self, url, **kwargs):
+        self.calls.append((url, kwargs))
+        web = self
+
+        class Response:
+            text = web.html
+
+            def raise_for_status(self):
+                if web.fail:
+                    raise RuntimeError("HTTP 500")
+
+        return Response()
+
+
+@pytest.fixture
+def fake_web(monkeypatch, html):
+    web = FakeWeb(html)
+    monkeypatch.setattr(data_download.requests, "get", web)
+    return web
+
+
+def write_cache(url, text):
+    path = data_download.cache_path(url)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+    return path
+
+
+def seed_log(times, append=False):
+    log = data_download.fetch_log_path()
+    log.parent.mkdir(parents=True, exist_ok=True)
+    with open(log, "a" if append else "w", encoding="utf-8") as f:
+        for t in times:
+            f.write(json.dumps({"t": t, "url": "x"}) + "\n")
+
+
+def read_log():
+    log = data_download.fetch_log_path()
+    if not log.exists():
+        return []
+    return [json.loads(line) for line in log.read_text(encoding="utf-8").splitlines()]
 
 
 # ---------- validate_url ----------
@@ -173,65 +232,195 @@ def test_truncated_html_does_not_crash(html):
     assert isinstance(cells, list)
 
 
-# ---------- download() cache behaviour (still no network) ----------
+# ---------- event id safety ----------
 
-def test_fresh_cache_is_used_without_a_request(tmp_path, html):
-    (tmp_path / "raw.html").write_text(html, encoding="utf-8")
-    assert data_download.download(GOOD_URL, tmp_path) == html   # boom() would fail the test
+@pytest.mark.parametrize("event", ["../x", "a/b", "a\\b", "a b", "..", "x;y", "%2e%2e"])
+def test_rejects_unsafe_event_ids(event):
+    with pytest.raises(ValueError, match="unexpected characters"):
+        validate_url(f"https://bc.godfat.org/?seed=1&event={event}")
 
 
-def test_stale_cache_triggers_a_request(tmp_path, html):
-    raw = tmp_path / "raw.html"
-    raw.write_text(html, encoding="utf-8")
+# ---------- URL normalization and cache keys ----------
+
+def test_normalize_ignores_order_scheme_and_irrelevant_params():
+    a = "https://bc.godfat.org/?seed=1&event=e_1&ui=en&last=5&count=120"
+    b = "http://bc.godfat.org/?count=120&last=5&ui=en&event=e_1&seed=1&pick=2AX&pos=3B"
+    assert data_download.normalize_url(a) == data_download.normalize_url(b)
+    assert data_download.cache_path(a) == data_download.cache_path(b)
+
+
+@pytest.mark.parametrize("changed", [
+    "seed=2&event=e_1&ui=en&last=5&count=120",     # different seed
+    "seed=1&event=e_2&ui=en&last=5&count=120",     # different banner
+    "seed=1&event=e_1&ui=tw&last=5&count=120",     # different language
+    "seed=1&event=e_1&ui=en&last=6&count=120",     # different last cat
+    "seed=1&event=e_1&ui=en&last=5&count=60",      # different row count
+])
+def test_content_params_change_the_cache_key(changed):
+    base = "https://bc.godfat.org/?seed=1&event=e_1&ui=en&last=5&count=120"
+    assert data_download.cache_path(base) != data_download.cache_path("https://bc.godfat.org/?" + changed)
+
+
+def test_cache_files_live_under_dot_cache(seed_dir):
+    path = data_download.cache_path(GOOD_URL)
+    assert path.parent == seed_dir / ".cache"
+    assert path.suffix == ".html"
+
+
+# ---------- download(): caching (no network) ----------
+
+def test_fresh_cache_is_used_without_a_request_or_log_entry(seed_dir, html):
+    write_cache(GOOD_URL, html)
+    assert data_download.download(GOOD_URL) == html   # the autouse boom() would fail the test
+    assert read_log() == []
+
+
+def test_reordered_url_hits_the_same_cache(seed_dir, html):
+    write_cache(GOOD_URL, html)
+    reordered = "https://bc.godfat.org/?event=2026-09-28_1081&seed=1234567890&last=523&ui=en&count=120&pick=9A"
+    assert data_download.download(reordered) == html
+
+
+def test_a_different_url_is_not_served_from_another_urls_cache(seed_dir, html, fake_web):
+    write_cache(GOOD_URL, html)
+    other = GOOD_URL.replace("2026-09-28_1081", "2026-09-30_947")
+    data_download.download(other)
+    assert len(fake_web.calls) == 1        # different gacha: no waiting on the first one's cache
+
+
+def test_stale_cache_triggers_a_request(seed_dir, html, fake_web):
+    raw = write_cache(GOOD_URL, html)
     old = time.time() - data_download.CACHE_MAX_AGE - 60
     os.utime(raw, (old, old))
-    with pytest.raises(AssertionError, match="real HTTP request"):
-        data_download.download(GOOD_URL, tmp_path)
+    data_download.download(GOOD_URL)
+    assert len(fake_web.calls) == 1
 
 
-def test_force_bypasses_a_fresh_cache(tmp_path, html):
-    (tmp_path / "raw.html").write_text(html, encoding="utf-8")
-    with pytest.raises(AssertionError, match="real HTTP request"):
-        data_download.download(GOOD_URL, tmp_path, force=True)
+def test_cache_younger_than_a_day_is_still_fresh(seed_dir, html):
+    raw = write_cache(GOOD_URL, html)
+    almost = time.time() - data_download.CACHE_MAX_AGE + 300
+    os.utime(raw, (almost, almost))
+    assert data_download.download(GOOD_URL) == html
 
 
-def test_download_saves_response_using_fake_request(tmp_path, html, monkeypatch):
-    class FakeResponse:
-        text = html
+def test_force_bypasses_a_fresh_cache(seed_dir, html, fake_web):
+    write_cache(GOOD_URL, html)
+    data_download.download(GOOD_URL, force=True)
+    assert len(fake_web.calls) == 1
 
-        def raise_for_status(self):
-            pass
 
-    calls = []
-
-    def fake_get(url, **kwargs):
-        calls.append((url, kwargs))
-        return FakeResponse()
-
-    monkeypatch.setattr(data_download.requests, "get", fake_get)
-    out_dir = tmp_path / "new_event"
-    assert data_download.download(GOOD_URL, out_dir) == html
-    assert (out_dir / "raw.html").read_text(encoding="utf-8") == html
-    assert len(calls) == 1
-    assert calls[0][1]["headers"]["User-Agent"] == data_download.USER_AGENT
+def test_real_request_saves_cache_and_sends_user_agent(seed_dir, html, fake_web):
+    assert data_download.download(GOOD_URL) == html
+    assert data_download.cache_path(GOOD_URL).read_text(encoding="utf-8") == html
+    assert len(fake_web.calls) == 1
+    assert fake_web.calls[0][1]["headers"]["User-Agent"] == data_download.USER_AGENT
     assert data_download.USER_AGENT.strip()
 
 
-# ---------- main() end to end, from cache ----------
+# ---------- download(): hourly cap ----------
 
-def run_main(monkeypatch, tmp_path, *argv):
-    monkeypatch.setattr(data_download, "SEED_TRACKS_DIR", tmp_path)
+def test_real_request_is_logged(seed_dir, fake_web):
+    data_download.download(GOOD_URL)
+    log = read_log()
+    assert len(log) == 1
+    assert log[0]["url"] == data_download.normalize_url(GOOD_URL)
+    assert abs(log[0]["t"] - time.time()) < 5
+
+
+def test_tenth_request_is_allowed_and_eleventh_is_refused(seed_dir, fake_web):
+    seed_log([time.time() - 60] * 9)
+    data_download.download(GOOD_URL)                                   # 10th in the window: allowed
+    with pytest.raises(data_download.RateLimitError, match="Hourly limit"):
+        data_download.download(GOOD_URL.replace("1081", "999"))        # 11th, a new URL: refused
+    assert len(fake_web.calls) == 1
+
+
+def test_cap_blocks_a_new_real_request(seed_dir, fake_web):
+    seed_log([time.time() - 60] * 10)
+    with pytest.raises(data_download.RateLimitError, match="Hourly limit"):
+        data_download.download(GOOD_URL)
+    assert fake_web.calls == []
+
+
+def test_refusal_does_not_log_anything(seed_dir, fake_web):
+    seed_log([time.time() - 60] * 10)
+    with pytest.raises(data_download.RateLimitError):
+        data_download.download(GOOD_URL)
+    assert len(read_log()) == 10
+
+
+def test_cache_hits_are_free_even_at_the_cap(seed_dir, html):
+    seed_log([time.time() - 60] * 10)
+    write_cache(GOOD_URL, html)
+    assert data_download.download(GOOD_URL) == html
+    assert len(read_log()) == 10
+
+
+def test_requests_older_than_an_hour_do_not_count(seed_dir, fake_web):
+    seed_log([time.time() - data_download.RATE_WINDOW - 5] * 10)
+    data_download.download(GOOD_URL)
+    assert len(fake_web.calls) == 1
+
+
+def test_window_is_rolling_not_fixed(seed_dir, fake_web):
+    now = time.time()
+    # 9 old ones just outside the window, 1 recent: only 1 counts
+    seed_log([now - data_download.RATE_WINDOW - 1] * 9 + [now - 10])
+    data_download.download(GOOD_URL)
+    assert len(fake_web.calls) == 1
+
+
+def test_refusal_message_says_roughly_how_long_to_wait(seed_dir):
+    now = time.time()
+    seed_log([now - data_download.RATE_WINDOW + 600] + [now - 5] * 9)   # oldest expires in ~10 min
+    with pytest.raises(data_download.RateLimitError) as err:
+        data_download.download(GOOD_URL)
+    minutes = int(re.search(r"about (\d+) minute", str(err.value)).group(1))
+    assert 10 <= minutes <= 11
+
+
+def test_force_bypasses_the_cap_but_is_still_logged(seed_dir, fake_web):
+    seed_log([time.time() - 60] * 10)
+    data_download.download(GOOD_URL, force=True)
+    assert len(fake_web.calls) == 1
+    assert len(read_log()) == 11
+    # ...and the forced request counts toward the cap for normal runs
+    with pytest.raises(data_download.RateLimitError):
+        data_download.download(GOOD_URL.replace("1081", "999"))
+
+
+def test_failed_request_still_counts(seed_dir, fake_web):
+    fake_web.fail = True
+    with pytest.raises(RuntimeError, match="HTTP 500"):
+        data_download.download(GOOD_URL)
+    assert len(read_log()) == 1
+    assert not data_download.cache_path(GOOD_URL).exists()   # nothing cached from the failure
+
+
+def test_damaged_log_lines_are_skipped(seed_dir, fake_web):
+    log = data_download.fetch_log_path()
+    log.write_text('not json\n{"no_t": 1}\n{"t": "text"}\n', encoding="utf-8")
+    seed_log([time.time() - 60] * 3, append=True)
+    assert len(data_download.recent_fetches(time.time())) == 3
+    data_download.download(GOOD_URL)
+
+
+def test_missing_log_means_no_recent_fetches(seed_dir):
+    assert data_download.recent_fetches(time.time()) == []
+
+
+# ---------- main() end to end (no network) ----------
+
+def run_main(monkeypatch, *argv):
     monkeypatch.setattr(sys, "argv", ["data_download.py", *argv])
     data_download.main()
 
 
-def test_main_writes_csv_and_meta(monkeypatch, tmp_path, html):
-    out = tmp_path / "2026-09-28_1081"
-    out.mkdir()
-    (out / "raw.html").write_text(html, encoding="utf-8")
+def test_main_writes_csv_and_meta_under_seed_and_event(monkeypatch, seed_dir, html):
+    write_cache(GOOD_URL, html)
+    run_main(monkeypatch, GOOD_URL)
 
-    run_main(monkeypatch, tmp_path, GOOD_URL)
-
+    out = seed_dir / "1234567890" / "2026-09-28_1081"
     with open(out / "tracks.csv", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
     assert len(rows) == 5
@@ -241,18 +430,40 @@ def test_main_writes_csv_and_meta(monkeypatch, tmp_path, html):
     assert meta["event"] == "2026-09-28_1081"
     assert meta["cells"] == 5
     assert "Test banner" in meta["banner"]
+    assert read_log() == []                      # served from cache: not a real request
 
 
-def test_main_exits_on_bad_link_without_touching_disk(monkeypatch, tmp_path):
+def test_two_events_for_one_seed_do_not_overwrite_each_other(monkeypatch, seed_dir, html, fake_web):
+    other = GOOD_URL.replace("2026-09-28_1081", "2026-09-30_947")
+    run_main(monkeypatch, GOOD_URL)
+    run_main(monkeypatch, other)
+    assert (seed_dir / "1234567890" / "2026-09-28_1081" / "tracks.csv").exists()
+    assert (seed_dir / "1234567890" / "2026-09-30_947" / "tracks.csv").exists()
+    assert len(fake_web.calls) == 2
+
+
+def test_main_exits_with_message_when_rate_limited(monkeypatch, seed_dir, fake_web):
+    seed_log([time.time() - 60] * 10)
+    with pytest.raises(SystemExit, match="Hourly limit"):
+        run_main(monkeypatch, GOOD_URL)
+    assert fake_web.calls == []
+    assert not (seed_dir / "1234567890").exists()
+
+
+def test_main_force_flag_reaches_download(monkeypatch, seed_dir, html, fake_web):
+    write_cache(GOOD_URL, html)
+    run_main(monkeypatch, GOOD_URL, "--force")
+    assert len(fake_web.calls) == 1
+
+
+def test_main_exits_on_bad_link_without_touching_disk(monkeypatch, seed_dir):
     with pytest.raises(SystemExit, match="Bad link"):
-        run_main(monkeypatch, tmp_path, "https://example.com/?seed=1&event=x")
-    assert list(tmp_path.iterdir()) == []
+        run_main(monkeypatch, "https://example.com/?seed=1&event=x")
+    assert list(seed_dir.iterdir()) == []
 
 
-def test_main_exits_when_page_has_no_cells(monkeypatch, tmp_path):
-    out = tmp_path / "2026-09-28_1081"
-    out.mkdir()
-    (out / "raw.html").write_text("<html>layout changed</html>", encoding="utf-8")
+def test_main_exits_when_page_has_no_cells(monkeypatch, seed_dir):
+    write_cache(GOOD_URL, "<html>layout changed</html>")
     with pytest.raises(SystemExit, match="0 cells"):
-        run_main(monkeypatch, tmp_path, GOOD_URL)
-    assert not (out / "tracks.csv").exists()
+        run_main(monkeypatch, GOOD_URL)
+    assert not (seed_dir / "1234567890").exists()
