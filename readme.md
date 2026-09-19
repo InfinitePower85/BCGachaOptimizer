@@ -4,19 +4,6 @@ Essentially, it is a brute force tool for determining an optimal path (among fin
 
 We should find a better way to store units to collect, and extract units to collect. 
 
-Also we are working towards the following features:
-
-1. Dataset fetching (from BC Godfat) - Ensure not too many request made at once, as BC Godfat is a small fan website. 
-2. Battle Cats Wiki fetching for Gacha units. 
-    - note that the gacha should be backend stuff, just to populate an internal data store / data table every so often. Not to be triggered by the user. 
-    - We must organize how the data will be stored. 
-3. Ability to specify whether a unit is collected or not. 
-
-4. UI for the cli tool, maybe a website or HTML. Will figure out what to do for this
-    - ex: select gacha pool to use
-    - ex: select seed to use
-5. Unit tests to check for correctness of impl / simulation 
-
 Intricacies of how Battle Cats rolls are done: 
 1. Two types of rolls:
     - Single Roll (1 rare ticket)

@@ -8,3 +8,11 @@ requests==2.34.2
 six==1.17.0
 tzdata==2026.4
 urllib3==2.8.0
+
+# --- dev tools only (testing); not needed to run the project ---
+pytest==9.1.1
+colorama==0.4.6
+iniconfig==2.3.0
+packaging==26.3
+pluggy==1.6.0
+Pygments==2.21.0
