@@ -93,6 +93,15 @@ def test_rejects_missing_event():
         validate_url("https://bc.godfat.org/?seed=1")
 
 
+@pytest.mark.parametrize("url", [
+    "https://bc.godfat.org/?seed=1234567890",   # what the shell passes when '&' is unquoted
+    "https://bc.godfat.org/?event=x",
+])
+def test_truncated_link_errors_suggest_quoting(url):
+    with pytest.raises(ValueError, match="in quotes"):
+        validate_url(url)
+
+
 # ---------- parse_tracks ----------
 
 def test_banner_name_is_selected_event_only(html):
@@ -204,13 +213,14 @@ def test_download_saves_response_using_fake_request(tmp_path, html, monkeypatch)
     assert data_download.download(GOOD_URL, out_dir) == html
     assert (out_dir / "raw.html").read_text(encoding="utf-8") == html
     assert len(calls) == 1
-    assert "bc-route-tool" in calls[0][1]["headers"]["User-Agent"]
+    assert calls[0][1]["headers"]["User-Agent"] == data_download.USER_AGENT
+    assert data_download.USER_AGENT.strip()
 
 
 # ---------- main() end to end, from cache ----------
 
 def run_main(monkeypatch, tmp_path, *argv):
-    monkeypatch.setattr(data_download, "DATA_DIR", tmp_path)
+    monkeypatch.setattr(data_download, "SEED_TRACKS_DIR", tmp_path)
     monkeypatch.setattr(sys, "argv", ["data_download.py", *argv])
     data_download.main()
 

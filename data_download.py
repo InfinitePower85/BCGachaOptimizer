@@ -10,7 +10,7 @@ BC Godfat is a small fan site, so this is deliberately gentle:
   - the raw HTML is cached, and a fresh cache is reused instead of re-fetching
     (use --force to override)
 
-Output goes to data/<event id>/:
+Output goes to data/seed_tracks/<event id>/ (gitignored, since seeds are personal):
   raw.html      the page exactly as downloaded
   meta.json     seed, event id, banner name, source url, fetch time
   tracks.csv    one row per cell: position, track, roll number, guaranteed?,
@@ -29,14 +29,17 @@ from urllib.parse import parse_qs, urlparse
 
 import requests
 
-DATA_DIR = Path(__file__).parent / "data"
+SEED_TRACKS_DIR = Path(__file__).parent / "data" / "seed_tracks"  # per-user seed data; gitignored
 CACHE_MAX_AGE = 60 * 60  # seconds a cached download is considered fresh
-USER_AGENT = "bc-route-tool/0.1 (personal hobby project; one request per run)"
+USER_AGENT = "export my rolls - 10 Requests per hour max"
 
 POSITION_RE = re.compile(r"pick\('(\d+)([AB])(G?)'\)")
 CAT_ID_RE = re.compile(r"/cats/(\d+)")
 LINK_RE = re.compile(r"(<-|->)\s*(\d+[AB])")
 RARITY_RE = re.compile(r"\bmajor_(\w+)")
+
+
+QUOTE_HINT = " (If the link was cut short, put it in quotes: the shell treats '&' as 'run in background'.)"
 
 
 def validate_url(url):
@@ -48,9 +51,9 @@ def validate_url(url):
         raise ValueError("Expected the main tracks page (path '/'), not a sub-page.")
     query = parse_qs(parsed.query)
     if "seed" not in query or not query["seed"][0].isdigit():
-        raise ValueError("Link has no numeric 'seed' parameter.")
+        raise ValueError("Link has no numeric 'seed' parameter." + QUOTE_HINT)
     if "event" not in query:
-        raise ValueError("Link has no 'event' parameter (which banner to show).")
+        raise ValueError("Link has no 'event' parameter (which banner to show)." + QUOTE_HINT)
     return query
 
 
@@ -155,7 +158,7 @@ def main():
         sys.exit(f"Bad link: {e}")
 
     event_id = query["event"][0]
-    out_dir = DATA_DIR / event_id
+    out_dir = SEED_TRACKS_DIR / event_id
     html = download(args.url, out_dir, args.force)
 
     cells, event_name = parse_tracks(html)
