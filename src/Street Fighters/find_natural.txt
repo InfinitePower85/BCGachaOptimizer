@@ -1,0 +1,171 @@
+======================================== BLANKA ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+     No   Result   Guaranteed
+55  28B  Blanka🐾  <- 39A Ken🐾
+======================================== JURI ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+     No Result        Guaranteed
+42  22A  Juri🐾  E. Honda🐾 -> 32B
+======================================== LUKE ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== KEN ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+      No Result        Guaranteed
+12    7A   Ken🐾   Dhalsim🐾 -> 17B
+113  57B   Ken🐾  <- 68A M. Bison🐾
+158  79B   Ken🐾      <- 90A Juri🐾
+190  95B   Ken🐾   <- 106A Blanka🐾
+======================================== M. BISON ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+      No     Result     Guaranteed
+96   49A  M. Bison🐾   Luke🐾 -> 59B
+178  89B  M. Bison🐾  <- 100A Luke🐾
+======================================== SAGAT ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+      No  Result        Guaranteed
+21   11B  Sagat🐾  <- 22A E. Honda🐾
+59   30B  Sagat🐾    <- 41A Blanka🐾
+128  65A  Sagat🐾      <- 76A Juri🐾
+======================================== DHALSIM ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== E. HONDA ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+     No     Result    Guaranteed
+23  12B  E. Honda🐾  <- 23A Juri🐾
+======================================== CHUN-LI ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== CAMMY ========================================
+     No  Result       Guaranteed
+42  22A  Cammy🐾  Zangief🐾 -> 32B
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== SAKURA ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== BALROG ========================================
+      No   Result       Guaranteed
+21   11B  Balrog🐾  <- 22A Zangief🐾
+59   30B  Balrog🐾      <- 41A Ryu🐾
+128  65A  Balrog🐾    <- 76A Cammy🐾
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== RYU ========================================
+     No Result     Guaranteed
+55  28B   Ryu🐾  <- 39A Guile🐾
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== VEGA ========================================
+      No Result       Guaranteed
+96   49A  Vega🐾   Sakura🐾 -> 59B
+178  89B  Vega🐾  <- 100A Sakura🐾
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== GUILE ========================================
+      No  Result       Guaranteed
+12    7A  Guile🐾  Chun-Li🐾 -> 17B
+113  57B  Guile🐾     <- 68A Vega🐾
+158  79B  Guile🐾    <- 90A Cammy🐾
+190  95B  Guile🐾     <- 106A Ryu🐾
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== ZANGIEF ========================================
+     No    Result     Guaranteed
+23  12B  Zangief🐾  <- 23A Cammy🐾
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== ZANGIEF CAT ========================================
+      No        Result       Guaranteed
+14    8A  Zangief Cat🐾  Chun-Li🐾 -> 18B
+176  88B  Zangief Cat🐾  <- 99A Zangief🐾
+      No        Result        Guaranteed
+14    8A  Zangief Cat🐾   Dhalsim🐾 -> 18B
+176  88B  Zangief Cat🐾  <- 99A E. Honda🐾
+======================================== JAMIE CAT ========================================
+     No      Result     Guaranteed
+94  48A  Jamie Cat🐾  Guile🐾 -> 58B
+     No      Result   Guaranteed
+94  48A  Jamie Cat🐾  Ken🐾 -> 58B
+======================================== M. BISON CAT ========================================
+      No         Result        Guaranteed
+27   14B  M. Bison Cat🐾   <- 25A Chun-Li🐾
+115  58B  M. Bison Cat🐾   <- 69A Chun-Li🐾
+119  60B  M. Bison Cat🐾       <- 71A Ryu🐾
+179  90A  M. Bison Cat🐾  Zangief🐾 -> 100B
+      No         Result         Guaranteed
+27   14B  M. Bison Cat🐾    <- 25A Dhalsim🐾
+115  58B  M. Bison Cat🐾    <- 69A Dhalsim🐾
+119  60B  M. Bison Cat🐾     <- 71A Blanka🐾
+179  90A  M. Bison Cat🐾  E. Honda🐾 -> 100B
+======================================== SAGAT CAT ========================================
+     No      Result      Guaranteed
+40  21A  Sagat Cat🐾  Balrog🐾 -> 31B
+     No      Result     Guaranteed
+40  21A  Sagat Cat🐾  Sagat🐾 -> 31B
+======================================== VEGA CAT ========================================
+      No     Result      Guaranteed
+36   19A  Vega Cat🐾     Ryu🐾 -> 29B
+48   25A  Vega Cat🐾     Ryu🐾 -> 35B
+145  73A  Vega Cat🐾  Balrog🐾 -> 83B
+      No     Result      Guaranteed
+36   19A  Vega Cat🐾  Blanka🐾 -> 29B
+48   25A  Vega Cat🐾  Blanka🐾 -> 35B
+145  73A  Vega Cat🐾   Sagat🐾 -> 83B
+======================================== BALROG CAT ========================================
+      No       Result       Guaranteed
+28   15A  Balrog Cat🐾  Chun-Li🐾 -> 25B
+69   35B  Balrog Cat🐾      <- 46A Ryu🐾
+72   37A  Balrog Cat🐾    Cammy🐾 -> 47B
+99   50B  Balrog Cat🐾  <- 61A Zangief🐾
+136  69A  Balrog Cat🐾   <- 80A Balrog🐾
+147  74A  Balrog Cat🐾  Zangief🐾 -> 84B
+198  99B  Balrog Cat🐾  <- 110A Balrog🐾
+      No       Result        Guaranteed
+28   15A  Balrog Cat🐾   Dhalsim🐾 -> 25B
+69   35B  Balrog Cat🐾    <- 46A Blanka🐾
+72   37A  Balrog Cat🐾      Juri🐾 -> 47B
+99   50B  Balrog Cat🐾  <- 61A E. Honda🐾
+136  69A  Balrog Cat🐾     <- 80A Sagat🐾
+147  74A  Balrog Cat🐾  E. Honda🐾 -> 84B
+198  99B  Balrog Cat🐾    <- 110A Sagat🐾
+======================================== AKUMA ========================================
+      No  Result        Guaranteed
+186  93B  Akuma🐾  <- 104A Chun-Li🐾
+      No  Result        Guaranteed
+186  93B  Akuma🐾  <- 104A Dhalsim🐾

@@ -1,0 +1,587 @@
+======================================== BLANKA ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+      No               Result       Guaranteed
+7     4B          Pirate Cat🐾   <- 15A Blanka🐾
+13    7B       Swordsman Cat🐾   <- 18A Blanka🐾
+30   16A           Apple Cat🐾   Blanka🐾 -> 26B
+36   19A            Vega Cat🐾   Blanka🐾 -> 29B
+48   25A            Vega Cat🐾   Blanka🐾 -> 35B
+55   28B              Blanka🐾      <- 39A Ken🐾
+59   30B               Sagat🐾   <- 41A Blanka🐾
+60   31A          Rocker Cat🐾   Blanka🐾 -> 41B
+63   32B         Matador Cat🐾   <- 43A Blanka🐾
+67   34B            Nerd Cat🐾   <- 45A Blanka🐾
+69   35B          Balrog Cat🐾   <- 46A Blanka🐾
+79   40B    Welterweight Cat🐾   <- 51A Blanka🐾
+88   45A           Witch Cat🐾   Blanka🐾 -> 55B
+89   45B         Onmyoji Cat🐾   <- 56A Blanka🐾
+119  60B        M. Bison Cat🐾   <- 71A Blanka🐾
+124  63A          Shaman Cat🐾   <- 74A Blanka🐾
+125  63B  Fortune Teller Cat🐾   <- 74A Blanka🐾
+146  73B          Archer Cat🐾   <- 84A Blanka🐾
+152  76B  Fortune Teller Cat🐾   <- 87A Blanka🐾
+167  84A          Archer Cat🐾   Blanka🐾 -> 94B
+173  87A          Rocker Cat🐾   Blanka🐾 -> 97B
+184  92B         Hip Hop Cat🐾  <- 103A Blanka🐾
+190  95B                 Ken🐾  <- 106A Blanka🐾
+194  97B          Viking Cat🐾  <- 108A Blanka🐾
+======================================== JURI ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+       No                Result        Guaranteed
+16     9A             Pogo Cat🐾      Juri🐾 -> 19B
+20    11A          Swimmer Cat🐾      Juri🐾 -> 21B
+23    12B             E. Honda🐾      <- 23A Juri🐾
+42    22A                 Juri🐾  E. Honda🐾 -> 32B
+44    23A           Pirate Cat🐾      Juri🐾 -> 33B
+45    23B            Sushi Cat🐾      <- 34A Juri🐾
+47    24B         Gardener Cat🐾      <- 35A Juri🐾
+61    31B          Kotatsu Cat🐾      <- 42A Juri🐾
+65    33B           Fencer Cat🐾      <- 44A Juri🐾
+68    35A            Thief Cat🐾      Juri🐾 -> 45B
+70    36A           Archer Cat🐾      Juri🐾 -> 46B
+71    36B             Bath Cat🐾      <- 47A Juri🐾
+72    37A           Balrog Cat🐾      Juri🐾 -> 47B
+112   57A          Vaulter Cat🐾      Juri🐾 -> 67B
+114   58A  Figure Skating Cats🐾      Juri🐾 -> 68B
+121   61B          Swimmer Cat🐾      <- 72A Juri🐾
+128   65A                Sagat🐾      <- 76A Juri🐾
+129   65B             Pogo Cat🐾      <- 76A Juri🐾
+140   71A              Tin Cat🐾      Juri🐾 -> 81B
+149   75A           Bishop Cat🐾      Juri🐾 -> 85B
+158   79B                  Ken🐾      <- 90A Juri🐾
+162   81B             Pogo Cat🐾      <- 92A Juri🐾
+163   82A            Thief Cat🐾      Juri🐾 -> 92B
+175   88A             Pogo Cat🐾      Juri🐾 -> 98B
+196   98B            Wheel Cat🐾     <- 109A Juri🐾
+199  100A           Bishop Cat🐾     Juri🐾 -> 110B
+201  101A           Archer Cat🐾     Juri🐾 -> 111B
+======================================== LUKE ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+       No               Result     Guaranteed
+17     9B          Surfer Cat🐾   <- 20A Luke🐾
+34    18A      Delinquent Cat🐾   Luke🐾 -> 28B
+37    19B    Welterweight Cat🐾   <- 30A Luke🐾
+54    28A         Cat Toaster🐾   Luke🐾 -> 38B
+58    30A    Weightlifter Cat🐾   Luke🐾 -> 40B
+73    37B    Weightlifter Cat🐾   <- 48A Luke🐾
+75    38B             Mer-Cat🐾   <- 49A Luke🐾
+78    40A        Jurassic Cat🐾   Luke🐾 -> 50B
+80    41A         Onmyoji Cat🐾   Luke🐾 -> 51B
+82    42A            Pogo Cat🐾   Luke🐾 -> 52B
+93    47B           Salon Cat🐾   <- 58A Luke🐾
+96    49A            M. Bison🐾   Luke🐾 -> 59B
+101   51B          Rocker Cat🐾   <- 62A Luke🐾
+148   74B             Mer-Cat🐾   <- 85A Luke🐾
+154   77B             Mer-Cat🐾   <- 88A Luke🐾
+155   78A             Tin Cat🐾   Luke🐾 -> 88B
+165   83A  Fortune Teller Cat🐾   Luke🐾 -> 93B
+166   83B             Tin Cat🐾   <- 94A Luke🐾
+170   85B          Surfer Cat🐾   <- 96A Luke🐾
+178   89B            M. Bison🐾  <- 100A Luke🐾
+185   93A           Apple Cat🐾  Luke🐾 -> 103B
+200  100B    Welterweight Cat🐾  <- 111A Luke🐾
+======================================== KEN ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+      No               Result        Guaranteed
+10    6A             Mer-Cat🐾       Ken🐾 -> 16B
+11    6B        Gardener Cat🐾       <- 17A Ken🐾
+12    7A                 Ken🐾   Dhalsim🐾 -> 17B
+38   20A          Stilts Cat🐾       Ken🐾 -> 30B
+39   20B          Stilts Cat🐾       <- 31A Ken🐾
+41   21B         Cat Toaster🐾       <- 32A Ken🐾
+50   26A           Witch Cat🐾       Ken🐾 -> 36B
+55   28B              Blanka🐾       <- 39A Ken🐾
+57   29B          Viking Cat🐾       <- 40A Ken🐾
+62   32A          Bishop Cat🐾       Ken🐾 -> 42B
+64   33A  Fortune Teller Cat🐾       Ken🐾 -> 43B
+66   34A          Pirate Cat🐾       Ken🐾 -> 44B
+86   44A          Stilts Cat🐾       Ken🐾 -> 54B
+92   47A          Rocker Cat🐾       Ken🐾 -> 57B
+94   48A           Jamie Cat🐾       Ken🐾 -> 58B
+103  52B     Bodhisattva Cat🐾       <- 63A Ken🐾
+106  54A         Onmyoji Cat🐾       Ken🐾 -> 64B
+113  57B                 Ken🐾  <- 68A M. Bison🐾
+116  59A           Wushu Cat🐾       Ken🐾 -> 69B
+117  59B        Gardener Cat🐾       <- 70A Ken🐾
+122  62A      Cat Gunslinger🐾       <- 73A Ken🐾
+123  62B             Tin Cat🐾       <- 73A Ken🐾
+143  72A          Pirate Cat🐾       Ken🐾 -> 82B
+153  77A           Rover Cat🐾       Ken🐾 -> 87B
+158  79B                 Ken🐾      <- 90A Juri🐾
+169  85A           Rover Cat🐾       Ken🐾 -> 95B
+171  86A          Archer Cat🐾       Ken🐾 -> 96B
+174  87B       Swordsman Cat🐾       <- 98A Ken🐾
+181  91A          Fencer Cat🐾      Ken🐾 -> 101B
+187  94A         Matador Cat🐾      Ken🐾 -> 104B
+190  95B                 Ken🐾   <- 106A Blanka🐾
+======================================== M. BISON ========================================
+      No         Result        Guaranteed
+27   14B  M. Bison Cat🐾   <- 25A Chun-Li🐾
+115  58B  M. Bison Cat🐾   <- 69A Chun-Li🐾
+119  60B  M. Bison Cat🐾       <- 71A Ryu🐾
+179  90A  M. Bison Cat🐾  Zangief🐾 -> 100B
+      No               Result         Guaranteed
+1     1B             Mer-Cat🐾   <- 12A M. Bison🐾
+5     3B           Salon Cat🐾   <- 14A M. Bison🐾
+8     5A            Bath Cat🐾   M. Bison🐾 -> 15B
+9     5B          Viking Cat🐾   <- 16A M. Bison🐾
+27   14B        M. Bison Cat🐾    <- 25A Dhalsim🐾
+32   17A           Thief Cat🐾   M. Bison🐾 -> 27B
+43   22B           Wheel Cat🐾   <- 33A M. Bison🐾
+49   25B           Rover Cat🐾   <- 36A M. Bison🐾
+56   29A        Jurassic Cat🐾   M. Bison🐾 -> 39B
+77   39B  Fortune Teller Cat🐾   <- 50A M. Bison🐾
+83   42B           Salon Cat🐾   <- 53A M. Bison🐾
+96   49A            M. Bison🐾       Luke🐾 -> 59B
+97   49B         Vaulter Cat🐾   <- 60A M. Bison🐾
+100  51A          Juliet Cat🐾   M. Bison🐾 -> 61B
+102  52A             Tin Cat🐾   M. Bison🐾 -> 62B
+107  54B         Cat Toaster🐾   <- 65A M. Bison🐾
+113  57B                 Ken🐾   <- 68A M. Bison🐾
+115  58B        M. Bison Cat🐾    <- 69A Dhalsim🐾
+119  60B        M. Bison Cat🐾     <- 71A Blanka🐾
+126  64A       Swordsman Cat🐾   <- 75A M. Bison🐾
+127  64B      Cat Gunslinger🐾   <- 75A M. Bison🐾
+132  67A          Juliet Cat🐾   <- 78A M. Bison🐾
+133  67B          Pirate Cat🐾   <- 78A M. Bison🐾
+144  72B        Gardener Cat🐾   <- 83A M. Bison🐾
+156  78B           Wushu Cat🐾   <- 89A M. Bison🐾
+159  80A            C. Honda🐾   M. Bison🐾 -> 90B
+160  80B           Rover Cat🐾   <- 91A M. Bison🐾
+161  81A           Salon Cat🐾   M. Bison🐾 -> 91B
+178  89B            M. Bison🐾      <- 100A Luke🐾
+179  90A        M. Bison Cat🐾  E. Honda🐾 -> 100B
+192  96B        Gardener Cat🐾  <- 107A M. Bison🐾
+======================================== SAGAT ========================================
+     No      Result      Guaranteed
+40  21A  Sagat Cat🐾  Balrog🐾 -> 31B
+      No               Result        Guaranteed
+2     2A         Matador Cat🐾     Sagat🐾 -> 12B
+18   10A         Onmyoji Cat🐾     Sagat🐾 -> 20B
+21   11B               Sagat🐾  <- 22A E. Honda🐾
+22   12A          Stilts Cat🐾     Sagat🐾 -> 22B
+26   14A    Welterweight Cat🐾     Sagat🐾 -> 24B
+29   15B           Salon Cat🐾     <- 26A Sagat🐾
+35   18B  Fortune Teller Cat🐾     <- 29A Sagat🐾
+40   21A           Sagat Cat🐾     Sagat🐾 -> 31B
+59   30B               Sagat🐾    <- 41A Blanka🐾
+76   39A         Hip Hop Cat🐾     Sagat🐾 -> 49B
+84   43A        Jurassic Cat🐾     Sagat🐾 -> 53B
+85   43B         Vaulter Cat🐾     <- 54A Sagat🐾
+87   44B        Jurassic Cat🐾     <- 55A Sagat🐾
+109  55B       Swordsman Cat🐾     <- 66A Sagat🐾
+118  60A           Psychocat🐾     Sagat🐾 -> 70B
+128  65A               Sagat🐾      <- 76A Juri🐾
+136  69A          Balrog Cat🐾     <- 80A Sagat🐾
+137  69B             Tin Cat🐾     <- 80A Sagat🐾
+145  73A            Vega Cat🐾     Sagat🐾 -> 83B
+150  75B          Bishop Cat🐾     <- 86A Sagat🐾
+180  90B         Onmyoji Cat🐾    <- 101A Sagat🐾
+183  92A           Psychocat🐾    Sagat🐾 -> 102B
+189  95A           Salon Cat🐾    Sagat🐾 -> 105B
+193  97A           Wheel Cat🐾    Sagat🐾 -> 107B
+195  98A        Gardener Cat🐾    Sagat🐾 -> 108B
+197  99A           Witch Cat🐾    Sagat🐾 -> 109B
+198  99B          Balrog Cat🐾    <- 110A Sagat🐾
+======================================== DHALSIM ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+      No                Result        Guaranteed
+12    7A                  Ken🐾   Dhalsim🐾 -> 17B
+14    8A          Zangief Cat🐾   Dhalsim🐾 -> 18B
+15    8B     Welterweight Cat🐾   <- 19A Dhalsim🐾
+19   10B  Figure Skating Cats🐾   <- 21A Dhalsim🐾
+25   13B           Pirate Cat🐾   <- 24A Dhalsim🐾
+27   14B         M. Bison Cat🐾   <- 25A Dhalsim🐾
+28   15A           Balrog Cat🐾   Dhalsim🐾 -> 25B
+31   16B          Swimmer Cat🐾   <- 27A Dhalsim🐾
+51   26B            Salon Cat🐾   <- 37A Dhalsim🐾
+53   27B           Archer Cat🐾   <- 38A Dhalsim🐾
+74   38A     Weightlifter Cat🐾   Dhalsim🐾 -> 48B
+81   41B           Bishop Cat🐾   <- 52A Dhalsim🐾
+90   46A        Swordsman Cat🐾   Dhalsim🐾 -> 56B
+98   50A            Thief Cat🐾   Dhalsim🐾 -> 60B
+104  53A            Nymph Cat🐾   Dhalsim🐾 -> 63B
+105  53B          Hip Hop Cat🐾   <- 64A Dhalsim🐾
+108  55A            Nymph Cat🐾   Dhalsim🐾 -> 65B
+115  58B         M. Bison Cat🐾   <- 69A Dhalsim🐾
+120  61A            Wushu Cat🐾   Dhalsim🐾 -> 71B
+130  66A              Tin Cat🐾   <- 77A Dhalsim🐾
+131  66B           Fencer Cat🐾   <- 77A Dhalsim🐾
+134  68A           Archer Cat🐾   <- 79A Dhalsim🐾
+135  68B         Gardener Cat🐾   <- 79A Dhalsim🐾
+138  70A              Tin Cat🐾   <- 81A Dhalsim🐾
+139  70B           Surfer Cat🐾   <- 81A Dhalsim🐾
+151  76A         Gardener Cat🐾   Dhalsim🐾 -> 86B
+164  82B           Pirate Cat🐾   <- 93A Dhalsim🐾
+182  91B  Figure Skating Cats🐾  <- 102A Dhalsim🐾
+186  93B                Akuma🐾  <- 104A Dhalsim🐾
+188  94B         Gardener Cat🐾  <- 105A Dhalsim🐾
+======================================== E. HONDA ========================================
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+                         No             Result         Guaranteed
+0                        1A          Bath Cat🐾   E. Honda🐾 -> 11B
+3                        2B         Rover Cat🐾   <- 13A E. Honda🐾
+4                        3A         Sushi Cat🐾   E. Honda🐾 -> 13B
+6                        4A         Psychocat🐾   E. Honda🐾 -> 14B
+21                      11B             Sagat🐾   <- 22A E. Honda🐾
+23                      12B          E. Honda🐾       <- 23A Juri🐾
+24                      13A    Delinquent Cat🐾   E. Honda🐾 -> 23B
+33                      17B        Surfer Cat🐾   <- 28A E. Honda🐾
+42                      22A              Juri🐾   E. Honda🐾 -> 32B
+46                      24A        Juliet Cat🐾   E. Honda🐾 -> 34B
+52                      27A      Gardener Cat🐾   E. Honda🐾 -> 37B
+91                      46B           Tin Cat🐾   <- 57A E. Honda🐾
+95                      48B         Wheel Cat🐾   <- 59A E. Honda🐾
+99                      50B        Balrog Cat🐾   <- 61A E. Honda🐾
+110                     56A        Pirate Cat🐾   E. Honda🐾 -> 66B
+111                     56B       Hip Hop Cat🐾   <- 67A E. Honda🐾
+141                     71B  Psychocat🐾 -> 72B   <- 82A E. Honda🐾
+142  DUPLICATE TRACK SWITCH         Wushu Cat🐾   <- 82A E. Honda🐾
+147                     74A        Balrog Cat🐾   E. Honda🐾 -> 84B
+157                     79A         Thief Cat🐾   E. Honda🐾 -> 89B
+168                     84B        Rocker Cat🐾   <- 95A E. Honda🐾
+172                     86B           Tin Cat🐾   <- 97A E. Honda🐾
+176                     88B       Zangief Cat🐾   <- 99A E. Honda🐾
+177                     89A       Kotatsu Cat🐾   E. Honda🐾 -> 99B
+179                     90A      M. Bison Cat🐾  E. Honda🐾 -> 100B
+191                     96A    Cat Gunslinger🐾  E. Honda🐾 -> 106B
+======================================== CHUN-LI ========================================
+      No                Result        Guaranteed
+12    7A                Guile🐾   Chun-Li🐾 -> 17B
+14    8A          Zangief Cat🐾   Chun-Li🐾 -> 18B
+15    8B     Welterweight Cat🐾   <- 19A Chun-Li🐾
+19   10B  Figure Skating Cats🐾   <- 21A Chun-Li🐾
+25   13B           Pirate Cat🐾   <- 24A Chun-Li🐾
+27   14B         M. Bison Cat🐾   <- 25A Chun-Li🐾
+28   15A           Balrog Cat🐾   Chun-Li🐾 -> 25B
+31   16B          Swimmer Cat🐾   <- 27A Chun-Li🐾
+51   26B            Salon Cat🐾   <- 37A Chun-Li🐾
+53   27B           Archer Cat🐾   <- 38A Chun-Li🐾
+74   38A     Weightlifter Cat🐾   Chun-Li🐾 -> 48B
+81   41B           Bishop Cat🐾   <- 52A Chun-Li🐾
+90   46A        Swordsman Cat🐾   Chun-Li🐾 -> 56B
+98   50A            Thief Cat🐾   Chun-Li🐾 -> 60B
+104  53A            Nymph Cat🐾   Chun-Li🐾 -> 63B
+105  53B          Hip Hop Cat🐾   <- 64A Chun-Li🐾
+108  55A            Nymph Cat🐾   Chun-Li🐾 -> 65B
+115  58B         M. Bison Cat🐾   <- 69A Chun-Li🐾
+120  61A            Wushu Cat🐾   Chun-Li🐾 -> 71B
+130  66A              Tin Cat🐾   <- 77A Chun-Li🐾
+131  66B           Fencer Cat🐾   <- 77A Chun-Li🐾
+134  68A           Archer Cat🐾   <- 79A Chun-Li🐾
+135  68B         Gardener Cat🐾   <- 79A Chun-Li🐾
+138  70A              Tin Cat🐾   <- 81A Chun-Li🐾
+139  70B           Surfer Cat🐾   <- 81A Chun-Li🐾
+151  76A         Gardener Cat🐾   Chun-Li🐾 -> 86B
+164  82B           Pirate Cat🐾   <- 93A Chun-Li🐾
+182  91B  Figure Skating Cats🐾  <- 102A Chun-Li🐾
+186  93B                Akuma🐾  <- 104A Chun-Li🐾
+188  94B         Gardener Cat🐾  <- 105A Chun-Li🐾
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== CAMMY ========================================
+       No                Result       Guaranteed
+16     9A             Pogo Cat🐾    Cammy🐾 -> 19B
+20    11A          Swimmer Cat🐾    Cammy🐾 -> 21B
+23    12B              Zangief🐾    <- 23A Cammy🐾
+42    22A                Cammy🐾  Zangief🐾 -> 32B
+44    23A           Pirate Cat🐾    Cammy🐾 -> 33B
+45    23B            Sushi Cat🐾    <- 34A Cammy🐾
+47    24B         Gardener Cat🐾    <- 35A Cammy🐾
+61    31B          Kotatsu Cat🐾    <- 42A Cammy🐾
+65    33B           Fencer Cat🐾    <- 44A Cammy🐾
+68    35A            Thief Cat🐾    Cammy🐾 -> 45B
+70    36A           Archer Cat🐾    Cammy🐾 -> 46B
+71    36B             Bath Cat🐾    <- 47A Cammy🐾
+72    37A           Balrog Cat🐾    Cammy🐾 -> 47B
+112   57A          Vaulter Cat🐾    Cammy🐾 -> 67B
+114   58A  Figure Skating Cats🐾    Cammy🐾 -> 68B
+121   61B          Swimmer Cat🐾    <- 72A Cammy🐾
+128   65A               Balrog🐾    <- 76A Cammy🐾
+129   65B             Pogo Cat🐾    <- 76A Cammy🐾
+140   71A              Tin Cat🐾    Cammy🐾 -> 81B
+149   75A           Bishop Cat🐾    Cammy🐾 -> 85B
+158   79B                Guile🐾    <- 90A Cammy🐾
+162   81B             Pogo Cat🐾    <- 92A Cammy🐾
+163   82A            Thief Cat🐾    Cammy🐾 -> 92B
+175   88A             Pogo Cat🐾    Cammy🐾 -> 98B
+196   98B            Wheel Cat🐾   <- 109A Cammy🐾
+199  100A           Bishop Cat🐾   Cammy🐾 -> 110B
+201  101A           Archer Cat🐾   Cammy🐾 -> 111B
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== SAKURA ========================================
+       No               Result       Guaranteed
+17     9B          Surfer Cat🐾   <- 20A Sakura🐾
+34    18A      Delinquent Cat🐾   Sakura🐾 -> 28B
+37    19B    Welterweight Cat🐾   <- 30A Sakura🐾
+54    28A         Cat Toaster🐾   Sakura🐾 -> 38B
+58    30A    Weightlifter Cat🐾   Sakura🐾 -> 40B
+73    37B    Weightlifter Cat🐾   <- 48A Sakura🐾
+75    38B             Mer-Cat🐾   <- 49A Sakura🐾
+78    40A        Jurassic Cat🐾   Sakura🐾 -> 50B
+80    41A         Onmyoji Cat🐾   Sakura🐾 -> 51B
+82    42A            Pogo Cat🐾   Sakura🐾 -> 52B
+93    47B           Salon Cat🐾   <- 58A Sakura🐾
+96    49A                Vega🐾   Sakura🐾 -> 59B
+101   51B          Rocker Cat🐾   <- 62A Sakura🐾
+148   74B             Mer-Cat🐾   <- 85A Sakura🐾
+154   77B             Mer-Cat🐾   <- 88A Sakura🐾
+155   78A             Tin Cat🐾   Sakura🐾 -> 88B
+165   83A  Fortune Teller Cat🐾   Sakura🐾 -> 93B
+166   83B             Tin Cat🐾   <- 94A Sakura🐾
+170   85B          Surfer Cat🐾   <- 96A Sakura🐾
+178   89B                Vega🐾  <- 100A Sakura🐾
+185   93A           Apple Cat🐾  Sakura🐾 -> 103B
+200  100B    Welterweight Cat🐾  <- 111A Sakura🐾
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== BALROG ========================================
+      No               Result       Guaranteed
+2     2A         Matador Cat🐾   Balrog🐾 -> 12B
+18   10A         Onmyoji Cat🐾   Balrog🐾 -> 20B
+21   11B              Balrog🐾  <- 22A Zangief🐾
+22   12A          Stilts Cat🐾   Balrog🐾 -> 22B
+26   14A    Welterweight Cat🐾   Balrog🐾 -> 24B
+28   15A          Balrog Cat🐾  Chun-Li🐾 -> 25B
+29   15B           Salon Cat🐾   <- 26A Balrog🐾
+35   18B  Fortune Teller Cat🐾   <- 29A Balrog🐾
+40   21A           Sagat Cat🐾   Balrog🐾 -> 31B
+59   30B              Balrog🐾      <- 41A Ryu🐾
+69   35B          Balrog Cat🐾      <- 46A Ryu🐾
+72   37A          Balrog Cat🐾    Cammy🐾 -> 47B
+76   39A         Hip Hop Cat🐾   Balrog🐾 -> 49B
+84   43A        Jurassic Cat🐾   Balrog🐾 -> 53B
+85   43B         Vaulter Cat🐾   <- 54A Balrog🐾
+87   44B        Jurassic Cat🐾   <- 55A Balrog🐾
+99   50B          Balrog Cat🐾  <- 61A Zangief🐾
+109  55B       Swordsman Cat🐾   <- 66A Balrog🐾
+118  60A           Psychocat🐾   Balrog🐾 -> 70B
+128  65A              Balrog🐾    <- 76A Cammy🐾
+136  69A          Balrog Cat🐾   <- 80A Balrog🐾
+137  69B             Tin Cat🐾   <- 80A Balrog🐾
+145  73A            Vega Cat🐾   Balrog🐾 -> 83B
+147  74A          Balrog Cat🐾  Zangief🐾 -> 84B
+150  75B          Bishop Cat🐾   <- 86A Balrog🐾
+180  90B         Onmyoji Cat🐾  <- 101A Balrog🐾
+183  92A           Psychocat🐾  Balrog🐾 -> 102B
+189  95A           Salon Cat🐾  Balrog🐾 -> 105B
+193  97A           Wheel Cat🐾  Balrog🐾 -> 107B
+195  98A        Gardener Cat🐾  Balrog🐾 -> 108B
+197  99A           Witch Cat🐾  Balrog🐾 -> 109B
+198  99B          Balrog Cat🐾  <- 110A Balrog🐾
+      No       Result        Guaranteed
+28   15A  Balrog Cat🐾   Dhalsim🐾 -> 25B
+69   35B  Balrog Cat🐾    <- 46A Blanka🐾
+72   37A  Balrog Cat🐾      Juri🐾 -> 47B
+99   50B  Balrog Cat🐾  <- 61A E. Honda🐾
+136  69A  Balrog Cat🐾     <- 80A Sagat🐾
+147  74A  Balrog Cat🐾  E. Honda🐾 -> 84B
+198  99B  Balrog Cat🐾    <- 110A Sagat🐾
+======================================== RYU ========================================
+      No               Result     Guaranteed
+7     4B          Pirate Cat🐾    <- 15A Ryu🐾
+13    7B       Swordsman Cat🐾    <- 18A Ryu🐾
+30   16A           Apple Cat🐾    Ryu🐾 -> 26B
+36   19A            Vega Cat🐾    Ryu🐾 -> 29B
+48   25A            Vega Cat🐾    Ryu🐾 -> 35B
+55   28B                 Ryu🐾  <- 39A Guile🐾
+59   30B              Balrog🐾    <- 41A Ryu🐾
+60   31A          Rocker Cat🐾    Ryu🐾 -> 41B
+63   32B         Matador Cat🐾    <- 43A Ryu🐾
+67   34B            Nerd Cat🐾    <- 45A Ryu🐾
+69   35B          Balrog Cat🐾    <- 46A Ryu🐾
+79   40B    Welterweight Cat🐾    <- 51A Ryu🐾
+88   45A           Witch Cat🐾    Ryu🐾 -> 55B
+89   45B         Onmyoji Cat🐾    <- 56A Ryu🐾
+119  60B        M. Bison Cat🐾    <- 71A Ryu🐾
+124  63A          Shaman Cat🐾    <- 74A Ryu🐾
+125  63B  Fortune Teller Cat🐾    <- 74A Ryu🐾
+146  73B          Archer Cat🐾    <- 84A Ryu🐾
+152  76B  Fortune Teller Cat🐾    <- 87A Ryu🐾
+167  84A          Archer Cat🐾    Ryu🐾 -> 94B
+173  87A          Rocker Cat🐾    Ryu🐾 -> 97B
+184  92B         Hip Hop Cat🐾   <- 103A Ryu🐾
+190  95B               Guile🐾   <- 106A Ryu🐾
+194  97B          Viking Cat🐾   <- 108A Ryu🐾
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== VEGA ========================================
+      No               Result       Guaranteed
+1     1B             Mer-Cat🐾     <- 12A Vega🐾
+5     3B           Salon Cat🐾     <- 14A Vega🐾
+8     5A            Bath Cat🐾     Vega🐾 -> 15B
+9     5B          Viking Cat🐾     <- 16A Vega🐾
+32   17A           Thief Cat🐾     Vega🐾 -> 27B
+36   19A            Vega Cat🐾      Ryu🐾 -> 29B
+43   22B           Wheel Cat🐾     <- 33A Vega🐾
+48   25A            Vega Cat🐾      Ryu🐾 -> 35B
+49   25B           Rover Cat🐾     <- 36A Vega🐾
+56   29A        Jurassic Cat🐾     Vega🐾 -> 39B
+77   39B  Fortune Teller Cat🐾     <- 50A Vega🐾
+83   42B           Salon Cat🐾     <- 53A Vega🐾
+96   49A                Vega🐾   Sakura🐾 -> 59B
+97   49B         Vaulter Cat🐾     <- 60A Vega🐾
+100  51A          Juliet Cat🐾     Vega🐾 -> 61B
+102  52A             Tin Cat🐾     Vega🐾 -> 62B
+107  54B         Cat Toaster🐾     <- 65A Vega🐾
+113  57B               Guile🐾     <- 68A Vega🐾
+126  64A       Swordsman Cat🐾     <- 75A Vega🐾
+127  64B      Cat Gunslinger🐾     <- 75A Vega🐾
+132  67A          Juliet Cat🐾     <- 78A Vega🐾
+133  67B          Pirate Cat🐾     <- 78A Vega🐾
+144  72B        Gardener Cat🐾     <- 83A Vega🐾
+145  73A            Vega Cat🐾   Balrog🐾 -> 83B
+156  78B           Wushu Cat🐾     <- 89A Vega🐾
+159  80A            C. Honda🐾     Vega🐾 -> 90B
+160  80B           Rover Cat🐾     <- 91A Vega🐾
+161  81A           Salon Cat🐾     Vega🐾 -> 91B
+178  89B                Vega🐾  <- 100A Sakura🐾
+192  96B        Gardener Cat🐾    <- 107A Vega🐾
+      No     Result      Guaranteed
+36   19A  Vega Cat🐾  Blanka🐾 -> 29B
+48   25A  Vega Cat🐾  Blanka🐾 -> 35B
+145  73A  Vega Cat🐾   Sagat🐾 -> 83B
+======================================== GUILE ========================================
+      No               Result       Guaranteed
+10    6A             Mer-Cat🐾    Guile🐾 -> 16B
+11    6B        Gardener Cat🐾    <- 17A Guile🐾
+12    7A               Guile🐾  Chun-Li🐾 -> 17B
+38   20A          Stilts Cat🐾    Guile🐾 -> 30B
+39   20B          Stilts Cat🐾    <- 31A Guile🐾
+41   21B         Cat Toaster🐾    <- 32A Guile🐾
+50   26A           Witch Cat🐾    Guile🐾 -> 36B
+55   28B                 Ryu🐾    <- 39A Guile🐾
+57   29B          Viking Cat🐾    <- 40A Guile🐾
+62   32A          Bishop Cat🐾    Guile🐾 -> 42B
+64   33A  Fortune Teller Cat🐾    Guile🐾 -> 43B
+66   34A          Pirate Cat🐾    Guile🐾 -> 44B
+86   44A          Stilts Cat🐾    Guile🐾 -> 54B
+92   47A          Rocker Cat🐾    Guile🐾 -> 57B
+94   48A           Jamie Cat🐾    Guile🐾 -> 58B
+103  52B     Bodhisattva Cat🐾    <- 63A Guile🐾
+106  54A         Onmyoji Cat🐾    Guile🐾 -> 64B
+113  57B               Guile🐾     <- 68A Vega🐾
+116  59A           Wushu Cat🐾    Guile🐾 -> 69B
+117  59B        Gardener Cat🐾    <- 70A Guile🐾
+122  62A      Cat Gunslinger🐾    <- 73A Guile🐾
+123  62B             Tin Cat🐾    <- 73A Guile🐾
+143  72A          Pirate Cat🐾    Guile🐾 -> 82B
+153  77A           Rover Cat🐾    Guile🐾 -> 87B
+158  79B               Guile🐾    <- 90A Cammy🐾
+169  85A           Rover Cat🐾    Guile🐾 -> 95B
+171  86A          Archer Cat🐾    Guile🐾 -> 96B
+174  87B       Swordsman Cat🐾    <- 98A Guile🐾
+181  91A          Fencer Cat🐾   Guile🐾 -> 101B
+187  94A         Matador Cat🐾   Guile🐾 -> 104B
+190  95B               Guile🐾     <- 106A Ryu🐾
+Empty DataFrame
+Columns: [No, Result, Guaranteed]
+Index: []
+======================================== ZANGIEF ========================================
+                         No             Result        Guaranteed
+0                        1A          Bath Cat🐾   Zangief🐾 -> 11B
+3                        2B         Rover Cat🐾   <- 13A Zangief🐾
+4                        3A         Sushi Cat🐾   Zangief🐾 -> 13B
+6                        4A         Psychocat🐾   Zangief🐾 -> 14B
+14                       8A       Zangief Cat🐾   Chun-Li🐾 -> 18B
+21                      11B            Balrog🐾   <- 22A Zangief🐾
+23                      12B           Zangief🐾     <- 23A Cammy🐾
+24                      13A    Delinquent Cat🐾   Zangief🐾 -> 23B
+33                      17B        Surfer Cat🐾   <- 28A Zangief🐾
+42                      22A             Cammy🐾   Zangief🐾 -> 32B
+46                      24A        Juliet Cat🐾   Zangief🐾 -> 34B
+52                      27A      Gardener Cat🐾   Zangief🐾 -> 37B
+91                      46B           Tin Cat🐾   <- 57A Zangief🐾
+95                      48B         Wheel Cat🐾   <- 59A Zangief🐾
+99                      50B        Balrog Cat🐾   <- 61A Zangief🐾
+110                     56A        Pirate Cat🐾   Zangief🐾 -> 66B
+111                     56B       Hip Hop Cat🐾   <- 67A Zangief🐾
+141                     71B  Psychocat🐾 -> 72B   <- 82A Zangief🐾
+142  DUPLICATE TRACK SWITCH         Wushu Cat🐾   <- 82A Zangief🐾
+147                     74A        Balrog Cat🐾   Zangief🐾 -> 84B
+157                     79A         Thief Cat🐾   Zangief🐾 -> 89B
+168                     84B        Rocker Cat🐾   <- 95A Zangief🐾
+172                     86B           Tin Cat🐾   <- 97A Zangief🐾
+176                     88B       Zangief Cat🐾   <- 99A Zangief🐾
+177                     89A       Kotatsu Cat🐾   Zangief🐾 -> 99B
+179                     90A      M. Bison Cat🐾  Zangief🐾 -> 100B
+191                     96A    Cat Gunslinger🐾  Zangief🐾 -> 106B
+      No        Result        Guaranteed
+14    8A  Zangief Cat🐾   Dhalsim🐾 -> 18B
+176  88B  Zangief Cat🐾  <- 99A E. Honda🐾
+======================================== ZANGIEF CAT ========================================
+      No        Result       Guaranteed
+14    8A  Zangief Cat🐾  Chun-Li🐾 -> 18B
+176  88B  Zangief Cat🐾  <- 99A Zangief🐾
+      No        Result        Guaranteed
+14    8A  Zangief Cat🐾   Dhalsim🐾 -> 18B
+176  88B  Zangief Cat🐾  <- 99A E. Honda🐾
+======================================== JAMIE CAT ========================================
+     No      Result     Guaranteed
+94  48A  Jamie Cat🐾  Guile🐾 -> 58B
+     No      Result   Guaranteed
+94  48A  Jamie Cat🐾  Ken🐾 -> 58B
+======================================== M. BISON CAT ========================================
+      No         Result        Guaranteed
+27   14B  M. Bison Cat🐾   <- 25A Chun-Li🐾
+115  58B  M. Bison Cat🐾   <- 69A Chun-Li🐾
+119  60B  M. Bison Cat🐾       <- 71A Ryu🐾
+179  90A  M. Bison Cat🐾  Zangief🐾 -> 100B
+      No         Result         Guaranteed
+27   14B  M. Bison Cat🐾    <- 25A Dhalsim🐾
+115  58B  M. Bison Cat🐾    <- 69A Dhalsim🐾
+119  60B  M. Bison Cat🐾     <- 71A Blanka🐾
+179  90A  M. Bison Cat🐾  E. Honda🐾 -> 100B
+======================================== SAGAT CAT ========================================
+     No      Result      Guaranteed
+40  21A  Sagat Cat🐾  Balrog🐾 -> 31B
+     No      Result     Guaranteed
+40  21A  Sagat Cat🐾  Sagat🐾 -> 31B
+======================================== VEGA CAT ========================================
+      No     Result      Guaranteed
+36   19A  Vega Cat🐾     Ryu🐾 -> 29B
+48   25A  Vega Cat🐾     Ryu🐾 -> 35B
+145  73A  Vega Cat🐾  Balrog🐾 -> 83B
+      No     Result      Guaranteed
+36   19A  Vega Cat🐾  Blanka🐾 -> 29B
+48   25A  Vega Cat🐾  Blanka🐾 -> 35B
+145  73A  Vega Cat🐾   Sagat🐾 -> 83B
+======================================== BALROG CAT ========================================
+      No       Result       Guaranteed
+28   15A  Balrog Cat🐾  Chun-Li🐾 -> 25B
+69   35B  Balrog Cat🐾      <- 46A Ryu🐾
+72   37A  Balrog Cat🐾    Cammy🐾 -> 47B
+99   50B  Balrog Cat🐾  <- 61A Zangief🐾
+136  69A  Balrog Cat🐾   <- 80A Balrog🐾
+147  74A  Balrog Cat🐾  Zangief🐾 -> 84B
+198  99B  Balrog Cat🐾  <- 110A Balrog🐾
+      No       Result        Guaranteed
+28   15A  Balrog Cat🐾   Dhalsim🐾 -> 25B
+69   35B  Balrog Cat🐾    <- 46A Blanka🐾
+72   37A  Balrog Cat🐾      Juri🐾 -> 47B
+99   50B  Balrog Cat🐾  <- 61A E. Honda🐾
+136  69A  Balrog Cat🐾     <- 80A Sagat🐾
+147  74A  Balrog Cat🐾  E. Honda🐾 -> 84B
+198  99B  Balrog Cat🐾    <- 110A Sagat🐾
+======================================== AKUMA ========================================
+      No  Result        Guaranteed
+186  93B  Akuma🐾  <- 104A Chun-Li🐾
+      No  Result        Guaranteed
+186  93B  Akuma🐾  <- 104A Dhalsim🐾

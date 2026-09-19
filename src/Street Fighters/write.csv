@@ -1,0 +1,204 @@
+,No,Result,Guaranteed
+0,1A,Bath Cat🐾,Zangief🐾 -> 11B
+1,1B,Mer-Cat🐾,<- 12A Vega🐾
+2,2A,Matador Cat🐾,Balrog🐾 -> 12B
+3,2B,Rover Cat🐾,<- 13A Zangief🐾
+4,3A,Sushi Cat🐾,Zangief🐾 -> 13B
+5,3B,Salon Cat🐾,<- 14A Vega🐾
+6,4A,Psychocat🐾,Zangief🐾 -> 14B
+7,4B,Pirate Cat🐾,<- 15A Ryu🐾
+8,5A,Bath Cat🐾,Vega🐾 -> 15B
+9,5B,Viking Cat🐾,<- 16A Vega🐾
+10,6A,Mer-Cat🐾,Guile🐾 -> 16B
+11,6B,Gardener Cat🐾,<- 17A Guile🐾
+12,7A,Guile🐾,Chun-Li🐾 -> 17B
+13,7B,Swordsman Cat🐾,<- 18A Ryu🐾
+14,8A,Zangief Cat🐾,Chun-Li🐾 -> 18B
+15,8B,Welterweight Cat🐾,<- 19A Chun-Li🐾
+16,9A,Pogo Cat🐾,Cammy🐾 -> 19B
+17,9B,Surfer Cat🐾,<- 20A Sakura🐾
+18,10A,Onmyoji Cat🐾,Balrog🐾 -> 20B
+19,10B,Figure Skating Cats🐾,<- 21A Chun-Li🐾
+20,11A,Swimmer Cat🐾,Cammy🐾 -> 21B
+21,11B,Balrog🐾,<- 22A Zangief🐾
+22,12A,Stilts Cat🐾,Balrog🐾 -> 22B
+23,12B,Zangief🐾,<- 23A Cammy🐾
+24,13A,Delinquent Cat🐾,Zangief🐾 -> 23B
+25,13B,Pirate Cat🐾,<- 24A Chun-Li🐾
+26,14A,Welterweight Cat🐾,Balrog🐾 -> 24B
+27,14B,M. Bison Cat🐾,<- 25A Chun-Li🐾
+28,15A,Balrog Cat🐾,Chun-Li🐾 -> 25B
+29,15B,Salon Cat🐾,<- 26A Balrog🐾
+30,16A,Apple Cat🐾,Ryu🐾 -> 26B
+31,16B,Swimmer Cat🐾,<- 27A Chun-Li🐾
+32,17A,Thief Cat🐾,Vega🐾 -> 27B
+33,17B,Surfer Cat🐾,<- 28A Zangief🐾
+34,18A,Delinquent Cat🐾,Sakura🐾 -> 28B
+35,18B,Fortune Teller Cat🐾,<- 29A Balrog🐾
+36,19A,Vega Cat🐾,Ryu🐾 -> 29B
+37,19B,Welterweight Cat🐾,<- 30A Sakura🐾
+38,20A,Stilts Cat🐾,Guile🐾 -> 30B
+39,20B,Stilts Cat🐾,<- 31A Guile🐾
+40,21A,Sagat Cat🐾,Balrog🐾 -> 31B
+41,21B,Cat Toaster🐾,<- 32A Guile🐾
+42,22A,Cammy🐾,Zangief🐾 -> 32B
+43,22B,Wheel Cat🐾,<- 33A Vega🐾
+44,23A,Pirate Cat🐾,Cammy🐾 -> 33B
+45,23B,Sushi Cat🐾,<- 34A Cammy🐾
+46,24A,Juliet Cat🐾,Zangief🐾 -> 34B
+47,24B,Gardener Cat🐾,<- 35A Cammy🐾
+48,25A,Vega Cat🐾,Ryu🐾 -> 35B
+49,25B,Rover Cat🐾,<- 36A Vega🐾
+50,26A,Witch Cat🐾,Guile🐾 -> 36B
+51,26B,Salon Cat🐾,<- 37A Chun-Li🐾
+52,27A,Gardener Cat🐾,Zangief🐾 -> 37B
+53,27B,Archer Cat🐾,<- 38A Chun-Li🐾
+54,28A,Cat Toaster🐾,Sakura🐾 -> 38B
+55,28B,Ryu🐾,<- 39A Guile🐾
+56,29A,Jurassic Cat🐾,Vega🐾 -> 39B
+57,29B,Viking Cat🐾,<- 40A Guile🐾
+58,30A,Weightlifter Cat🐾,Sakura🐾 -> 40B
+59,30B,Balrog🐾,<- 41A Ryu🐾
+60,31A,Rocker Cat🐾,Ryu🐾 -> 41B
+61,31B,Kotatsu Cat🐾,<- 42A Cammy🐾
+62,32A,Bishop Cat🐾,Guile🐾 -> 42B
+63,32B,Matador Cat🐾,<- 43A Ryu🐾
+64,33A,Fortune Teller Cat🐾,Guile🐾 -> 43B
+65,33B,Fencer Cat🐾,<- 44A Cammy🐾
+66,34A,Pirate Cat🐾,Guile🐾 -> 44B
+67,34B,Nerd Cat🐾,<- 45A Ryu🐾
+68,35A,Thief Cat🐾,Cammy🐾 -> 45B
+69,35B,Balrog Cat🐾,<- 46A Ryu🐾
+70,36A,Archer Cat🐾,Cammy🐾 -> 46B
+71,36B,Bath Cat🐾,<- 47A Cammy🐾
+72,37A,Balrog Cat🐾,Cammy🐾 -> 47B
+73,37B,Weightlifter Cat🐾,<- 48A Sakura🐾
+74,38A,Weightlifter Cat🐾,Chun-Li🐾 -> 48B
+75,38B,Mer-Cat🐾,<- 49A Sakura🐾
+76,39A,Hip Hop Cat🐾,Balrog🐾 -> 49B
+77,39B,Fortune Teller Cat🐾,<- 50A Vega🐾
+78,40A,Jurassic Cat🐾,Sakura🐾 -> 50B
+79,40B,Welterweight Cat🐾,<- 51A Ryu🐾
+80,41A,Onmyoji Cat🐾,Sakura🐾 -> 51B
+81,41B,Bishop Cat🐾,<- 52A Chun-Li🐾
+82,42A,Pogo Cat🐾,Sakura🐾 -> 52B
+83,42B,Salon Cat🐾,<- 53A Vega🐾
+84,43A,Jurassic Cat🐾,Balrog🐾 -> 53B
+85,43B,Vaulter Cat🐾,<- 54A Balrog🐾
+86,44A,Stilts Cat🐾,Guile🐾 -> 54B
+87,44B,Jurassic Cat🐾,<- 55A Balrog🐾
+88,45A,Witch Cat🐾,Ryu🐾 -> 55B
+89,45B,Onmyoji Cat🐾,<- 56A Ryu🐾
+90,46A,Swordsman Cat🐾,Chun-Li🐾 -> 56B
+91,46B,Tin Cat🐾,<- 57A Zangief🐾
+92,47A,Rocker Cat🐾,Guile🐾 -> 57B
+93,47B,Salon Cat🐾,<- 58A Sakura🐾
+94,48A,Jamie Cat🐾,Guile🐾 -> 58B
+95,48B,Wheel Cat🐾,<- 59A Zangief🐾
+96,49A,Vega🐾,Sakura🐾 -> 59B
+97,49B,Vaulter Cat🐾,<- 60A Vega🐾
+98,50A,Thief Cat🐾,Chun-Li🐾 -> 60B
+99,50B,Balrog Cat🐾,<- 61A Zangief🐾
+100,51A,Juliet Cat🐾,Vega🐾 -> 61B
+101,51B,Rocker Cat🐾,<- 62A Sakura🐾
+102,52A,Tin Cat🐾,Vega🐾 -> 62B
+103,52B,Bodhisattva Cat🐾,<- 63A Guile🐾
+104,53A,Nymph Cat🐾,Chun-Li🐾 -> 63B
+105,53B,Hip Hop Cat🐾,<- 64A Chun-Li🐾
+106,54A,Onmyoji Cat🐾,Guile🐾 -> 64B
+107,54B,Cat Toaster🐾,<- 65A Vega🐾
+108,55A,Nymph Cat🐾,Chun-Li🐾 -> 65B
+109,55B,Swordsman Cat🐾,<- 66A Balrog🐾
+110,56A,Pirate Cat🐾,Zangief🐾 -> 66B
+111,56B,Hip Hop Cat🐾,<- 67A Zangief🐾
+112,57A,Vaulter Cat🐾,Cammy🐾 -> 67B
+113,57B,Guile🐾,<- 68A Vega🐾
+114,58A,Figure Skating Cats🐾,Cammy🐾 -> 68B
+115,58B,M. Bison Cat🐾,<- 69A Chun-Li🐾
+116,59A,Wushu Cat🐾,Guile🐾 -> 69B
+117,59B,Gardener Cat🐾,<- 70A Guile🐾
+118,60A,Psychocat🐾,Balrog🐾 -> 70B
+119,60B,M. Bison Cat🐾,<- 71A Ryu🐾
+120,61A,Wushu Cat🐾,Chun-Li🐾 -> 71B
+121,61B,Swimmer Cat🐾,<- 72A Cammy🐾
+122,62A,Cat Gunslinger🐾,<- 73A Guile🐾
+123,62B,Tin Cat🐾,<- 73A Guile🐾
+124,63A,Shaman Cat🐾,<- 74A Ryu🐾
+125,63B,Fortune Teller Cat🐾,<- 74A Ryu🐾
+126,64A,Swordsman Cat🐾,<- 75A Vega🐾
+127,64B,Cat Gunslinger🐾,<- 75A Vega🐾
+128,65A,Balrog🐾,<- 76A Cammy🐾
+129,65B,Pogo Cat🐾,<- 76A Cammy🐾
+130,66A,Tin Cat🐾,<- 77A Chun-Li🐾
+131,66B,Fencer Cat🐾,<- 77A Chun-Li🐾
+132,67A,Juliet Cat🐾,<- 78A Vega🐾
+133,67B,Pirate Cat🐾,<- 78A Vega🐾
+134,68A,Archer Cat🐾,<- 79A Chun-Li🐾
+135,68B,Gardener Cat🐾,<- 79A Chun-Li🐾
+136,69A,Balrog Cat🐾,<- 80A Balrog🐾
+137,69B,Tin Cat🐾,<- 80A Balrog🐾
+138,70A,Tin Cat🐾,<- 81A Chun-Li🐾
+139,70B,Surfer Cat🐾,<- 81A Chun-Li🐾
+140,71A,Tin Cat🐾,Cammy🐾 -> 81B
+141,71B,Psychocat🐾 -> 72B,<- 82A Zangief🐾
+142,DUPLICATE TRACK SWITCH,Wushu Cat🐾,<- 82A Zangief🐾
+143,72A,Pirate Cat🐾,Guile🐾 -> 82B
+144,72B,Gardener Cat🐾,<- 83A Vega🐾
+145,73A,Vega Cat🐾,Balrog🐾 -> 83B
+146,73B,Archer Cat🐾,<- 84A Ryu🐾
+147,74A,Balrog Cat🐾,Zangief🐾 -> 84B
+148,74B,Mer-Cat🐾,<- 85A Sakura🐾
+149,75A,Bishop Cat🐾,Cammy🐾 -> 85B
+150,75B,Bishop Cat🐾,<- 86A Balrog🐾
+151,76A,Gardener Cat🐾,Chun-Li🐾 -> 86B
+152,76B,Fortune Teller Cat🐾,<- 87A Ryu🐾
+153,77A,Rover Cat🐾,Guile🐾 -> 87B
+154,77B,Mer-Cat🐾,<- 88A Sakura🐾
+155,78A,Tin Cat🐾,Sakura🐾 -> 88B
+156,78B,Wushu Cat🐾,<- 89A Vega🐾
+157,79A,Thief Cat🐾,Zangief🐾 -> 89B
+158,79B,Guile🐾,<- 90A Cammy🐾
+159,80A,C. Honda🐾,Vega🐾 -> 90B
+160,80B,Rover Cat🐾,<- 91A Vega🐾
+161,81A,Salon Cat🐾,Vega🐾 -> 91B
+162,81B,Pogo Cat🐾,<- 92A Cammy🐾
+163,82A,Thief Cat🐾,Cammy🐾 -> 92B
+164,82B,Pirate Cat🐾,<- 93A Chun-Li🐾
+165,83A,Fortune Teller Cat🐾,Sakura🐾 -> 93B
+166,83B,Tin Cat🐾,<- 94A Sakura🐾
+167,84A,Archer Cat🐾,Ryu🐾 -> 94B
+168,84B,Rocker Cat🐾,<- 95A Zangief🐾
+169,85A,Rover Cat🐾,Guile🐾 -> 95B
+170,85B,Surfer Cat🐾,<- 96A Sakura🐾
+171,86A,Archer Cat🐾,Guile🐾 -> 96B
+172,86B,Tin Cat🐾,<- 97A Zangief🐾
+173,87A,Rocker Cat🐾,Ryu🐾 -> 97B
+174,87B,Swordsman Cat🐾,<- 98A Guile🐾
+175,88A,Pogo Cat🐾,Cammy🐾 -> 98B
+176,88B,Zangief Cat🐾,<- 99A Zangief🐾
+177,89A,Kotatsu Cat🐾,Zangief🐾 -> 99B
+178,89B,Vega🐾,<- 100A Sakura🐾
+179,90A,M. Bison Cat🐾,Zangief🐾 -> 100B
+180,90B,Onmyoji Cat🐾,<- 101A Balrog🐾
+181,91A,Fencer Cat🐾,Guile🐾 -> 101B
+182,91B,Figure Skating Cats🐾,<- 102A Chun-Li🐾
+183,92A,Psychocat🐾,Balrog🐾 -> 102B
+184,92B,Hip Hop Cat🐾,<- 103A Ryu🐾
+185,93A,Apple Cat🐾,Sakura🐾 -> 103B
+186,93B,Akuma🐾,<- 104A Chun-Li🐾
+187,94A,Matador Cat🐾,Guile🐾 -> 104B
+188,94B,Gardener Cat🐾,<- 105A Chun-Li🐾
+189,95A,Salon Cat🐾,Balrog🐾 -> 105B
+190,95B,Guile🐾,<- 106A Ryu🐾
+191,96A,Cat Gunslinger🐾,Zangief🐾 -> 106B
+192,96B,Gardener Cat🐾,<- 107A Vega🐾
+193,97A,Wheel Cat🐾,Balrog🐾 -> 107B
+194,97B,Viking Cat🐾,<- 108A Ryu🐾
+195,98A,Gardener Cat🐾,Balrog🐾 -> 108B
+196,98B,Wheel Cat🐾,<- 109A Cammy🐾
+197,99A,Witch Cat🐾,Balrog🐾 -> 109B
+198,99B,Balrog Cat🐾,<- 110A Balrog🐾
+199,100A,Bishop Cat🐾,Cammy🐾 -> 110B
+200,100B,Welterweight Cat🐾,<- 111A Sakura🐾
+201,101A,Archer Cat🐾,Cammy🐾 -> 111B
+202,101B,,
