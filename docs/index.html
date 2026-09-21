@@ -57,6 +57,19 @@
       <p id="opt-status" class="status" role="status"></p>
       <ol id="opt-result" class="result"></ol>
     </section>
+
+    <section class="card">
+      <h2>Meow button</h2>
+      <p class="hint">Connection test: sends a request to the server and shows the reply.</p>
+      <div class="row">
+        <label class="inline">Number of meows (1-100)
+          <input id="meow-n" type="number" min="1" max="100" step="1" value="3" inputmode="numeric">
+        </label>
+        <button id="meow-btn">Meow</button>
+      </div>
+      <p id="meow-status" class="status" role="status"></p>
+      <textarea id="meow-out" rows="4" readonly aria-label="Server reply"></textarea>
+    </section>
   </main>
 
   <footer>Not affiliated with BC Godfat or PONOS.</footer>

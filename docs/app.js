@@ -199,4 +199,48 @@ $("opt-btn").addEventListener("click", async () => {
   }
 });
 
+// ---- Meow (server connection test) -------------------------------------------
+// Local testing hits a local uvicorn; anywhere else (GitHub Pages) hits Render.
+const LOCAL_HOSTS = ["localhost", "127.0.0.1"];
+const API_BASE = LOCAL_HOSTS.includes(location.hostname)
+  ? "http://127.0.0.1:8000"
+  : "https://bcgachaoptimizer.onrender.com";
+const MEOW_MAX = 100;
+const MEOW_TIMEOUT_MS = 90000; // Render's free tier can take a minute to wake up
+const MEOW_SLOW_MS = 4000;     // after this long, tell the user the server may be waking
+
+$("meow-btn").addEventListener("click", async () => {
+  const raw = $("meow-n").value.trim();
+  const out = $("meow-out");
+  out.value = "";
+  if (!/^\d+$/.test(raw) || Number(raw) < 1 || Number(raw) > MEOW_MAX) {
+    return say("meow-status", `Enter a whole number from 1 to ${MEOW_MAX}.`, "err");
+  }
+
+  const btn = $("meow-btn");
+  btn.disabled = true;
+  say("meow-status", "Sending...");
+  const slow = setTimeout(
+    () => say("meow-status", "Still waiting. The server may be waking up, which can take up to a minute..."),
+    MEOW_SLOW_MS,
+  );
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), MEOW_TIMEOUT_MS);
+
+  try {
+    const url = `${API_BASE}/meow?${new URLSearchParams({ n: raw })}`;
+    const res = await fetch(url, { signal: controller.signal });
+    if (!res.ok) throw new Error(`Server rejected the request (${res.status}).`);
+    out.value = await res.json();
+    say("meow-status", "Got a reply.", "ok");
+  } catch (e) {
+    const msg = e.name === "AbortError" ? "The server took too long to respond." : e.message;
+    say("meow-status", msg || "Request failed.", "err");
+  } finally {
+    clearTimeout(slow);
+    clearTimeout(timeout);
+    btn.disabled = false;
+  }
+});
+
 refresh().catch(() => say("data-status", "Browser storage is unavailable here.", "err"));
