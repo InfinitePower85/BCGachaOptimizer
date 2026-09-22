@@ -219,6 +219,32 @@ def test_gacha_events_cors_allows_pages_and_localhost(origin):
     assert response.headers["access-control-allow-origin"] == origin
 
 
+# ---------- /match-event ----------
+
+def test_match_event_finds_the_named_unit(gacha_pools_dir):
+    write_units_csv(gacha_pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Uber Super Rare", "name": "Shirou Emiya", "description": "", "cat_id": "864"},
+    ])
+    response = client.get("/match-event", params={
+        "text": "2026-09-28 ~ 2026-10-05: NEW Uber Rare heroes Shirou Emiya and True Assassin!",
+    })
+    assert response.status_code == 200
+    assert response.json() == {"event": "Fate Stay Night"}
+
+
+def test_match_event_null_when_nothing_matches(gacha_pools_dir):
+    write_units_csv(gacha_pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Uber Super Rare", "name": "Shirou Emiya", "description": "", "cat_id": "864"},
+    ])
+    response = client.get("/match-event", params={"text": "Zombie Outbreak Warning!"})
+    assert response.status_code == 200
+    assert response.json() == {"event": None}
+
+
+def test_match_event_requires_text_param():
+    assert client.get("/match-event").status_code == 422
+
+
 # ---------- /icons (CachedStaticFiles) ----------
 # Tested against a standalone app + a throwaway directory, not the real /icons mount --
 # that mount is built once, from the real ICONS_DIR, when server.py is first imported.

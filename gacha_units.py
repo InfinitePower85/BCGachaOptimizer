@@ -90,3 +90,27 @@ def group_by_rarity(units):
         {"rarity": rarity, "units": sorted(items, key=lambda u: u["name"].casefold())}
         for rarity, items in groups.items()
     ]
+
+
+def suggest_event(banner_text):
+    """Best-effort guess at which known event a Godfat banner's display text is for.
+
+    There's no real link between a Godfat event id (e.g. "2026-09-28_1081") and a wiki
+    event name (e.g. "Fate Stay Night") -- the id is just a date plus an arbitrary
+    internal number. But Godfat's banner text sometimes names a featured uber by its
+    exact in-game name (e.g. "...heroes Shirou Emiya and True Assassin!..."), which we
+    can cross-reference against known events' own unit rosters.
+
+    Returns the event name if exactly one known event has a unit whose name appears (as
+    a whole word) in banner_text, else None -- including when more than one event
+    matches, since a pre-selection would then be as likely wrong as right. Meant only to
+    pre-select the frontend's event dropdown; the user can always change it."""
+    if not banner_text:
+        return None
+    matches = set()
+    for event in list_gacha_events():
+        for unit in load_gacha_units(event):
+            if unit["name"] and re.search(rf"\b{re.escape(unit['name'])}\b", banner_text):
+                matches.add(event)
+                break
+    return matches.pop() if len(matches) == 1 else None

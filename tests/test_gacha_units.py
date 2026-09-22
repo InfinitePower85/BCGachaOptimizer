@@ -6,7 +6,7 @@ never the real data/gacha_pools.
 import pytest
 
 import gacha_units
-from gacha_units import group_by_rarity, list_gacha_events, load_gacha_units
+from gacha_units import group_by_rarity, list_gacha_events, load_gacha_units, suggest_event
 
 UNIT_CSV_HEADER = "rarity,name,description,cat_id\n"
 
@@ -187,3 +187,46 @@ def test_alphabetical_sort_is_case_insensitive():
 
 def test_empty_units_list_gives_empty_groups():
     assert group_by_rarity([]) == []
+
+
+# ---------- suggest_event ----------
+
+def test_suggest_event_matches_on_a_named_unit(pools_dir):
+    write_units_csv(pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Uber Super Rare", "name": "Shirou Emiya", "description": "", "cat_id": "864"},
+    ])
+    banner = "2026-09-28 ~ 2026-10-05: NEW Uber Rare heroes Shirou Emiya and True Assassin!"
+    assert suggest_event(banner) == "Fate Stay Night"
+
+
+def test_suggest_event_none_when_no_unit_named(pools_dir):
+    write_units_csv(pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Uber Super Rare", "name": "Shirou Emiya", "description": "", "cat_id": "864"},
+    ])
+    assert suggest_event("2026-03-23 ~ 2026-03-27: Zombie Outbreak Warning!") is None
+
+
+def test_suggest_event_none_for_blank_banner(pools_dir):
+    write_units_csv(pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Uber Super Rare", "name": "Shirou Emiya", "description": "", "cat_id": "864"},
+    ])
+    assert suggest_event("") is None
+    assert suggest_event(None) is None
+
+
+def test_suggest_event_none_when_two_events_both_match(pools_dir):
+    write_units_csv(pools_dir, "Event A", 1, [{"rarity": "Rare", "name": "Ren", "description": "", "cat_id": ""}])
+    write_units_csv(pools_dir, "Event B", 1, [{"rarity": "Rare", "name": "Ren", "description": "", "cat_id": ""}])
+    assert suggest_event("Featuring Ren!") is None
+
+
+def test_suggest_event_matches_whole_words_only(pools_dir):
+    # "Rin" must not match inside an unrelated word like "Marina"
+    write_units_csv(pools_dir, "Fate Stay Night", 1, [{"rarity": "Rare", "name": "Rin", "description": "", "cat_id": ""}])
+    assert suggest_event("Marina's big debut!") is None
+
+
+def test_suggest_event_ignores_events_with_no_units_in_the_banner(pools_dir):
+    write_units_csv(pools_dir, "Fate Stay Night", 1, [{"rarity": "Uber Super Rare", "name": "Saber", "description": "", "cat_id": "362"}])
+    write_units_csv(pools_dir, "Unrelated Event", 1, [{"rarity": "Rare", "name": "Nope", "description": "", "cat_id": ""}])
+    assert suggest_event("New hero: Saber joins the fray!") == "Fate Stay Night"

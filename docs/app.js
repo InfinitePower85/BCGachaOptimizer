@@ -235,6 +235,7 @@ $("fetch-btn").addEventListener("click", async () => {
     await store.put(rec);
     say("fetch-status", `Saved ${rec.id} (${body.meta.cells} cells).`, "ok");
     refresh();
+    suggestEventFromBanner(body.meta.banner);
   } catch (e) {
     say("fetch-status", e.message || "Fetch failed.", "err");
   } finally {
@@ -367,6 +368,25 @@ async function loadGachaUnits(event) {
     say("opt-event-status", "");
   } catch (e) {
     say("opt-event-status", e.message || "Could not load units.", "err");
+  }
+}
+
+/** After fetching tracks, best-effort guess which event the banner is for (see
+ * gacha_units.suggest_event()) and pre-select it -- the user can still change it. There's
+ * no real id linking a Godfat banner to a wiki event name, so a failed/absent guess is
+ * expected and not worth bothering the user about. */
+async function suggestEventFromBanner(bannerText) {
+  if (!bannerText) return;
+  const select = $("opt-event");
+  try {
+    const { event } = await apiGet("/match-event", { text: bannerText });
+    if (!event || select.value === event) return;
+    if (![...select.options].some((o) => o.value === event)) return; // not a known option
+    select.value = event;
+    await loadGachaUnits(event);
+    say("opt-event-status", `Guessed event "${event}" from the fetched banner text.`, "ok");
+  } catch {
+    // best-effort only
   }
 }
 

@@ -28,7 +28,7 @@ from data_download import (
     validate_url,
 )
 from fetch_gacha_units import ICONS_DIR
-from gacha_units import group_by_rarity, list_gacha_events, load_gacha_units
+from gacha_units import group_by_rarity, list_gacha_events, load_gacha_units, suggest_event
 from route_optimizer import parse_pool, solve
 
 MAX_MEOWS = 100
@@ -122,6 +122,14 @@ def get_gacha_units(event: str) -> dict:
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
     return {"event": event, "rarities": group_by_rarity(units)}
+
+
+@app.get("/match-event")
+def get_match_event(text: str) -> dict:
+    """Best-effort guess at which known event a Godfat banner's display text (meta.banner
+    from /tracks) is for -- see gacha_units.suggest_event(). A convenience pre-selection
+    for the frontend's event dropdown only; {"event": null} means no confident guess."""
+    return {"event": suggest_event(text)}
 
 
 class OptimizeRequest(BaseModel):
