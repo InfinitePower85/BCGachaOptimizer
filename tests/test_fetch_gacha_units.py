@@ -14,7 +14,15 @@ from pathlib import Path
 import pytest
 
 import fetch_gacha_units
-from fetch_gacha_units import parse_event_units, sanitize_name, units_to_csv
+from fetch_gacha_units import (
+    absolute_url,
+    icon_path,
+    original_image_url,
+    parse_event_units,
+    sanitize_name,
+    save_icon,
+    units_to_csv,
+)
 
 FIXTURE = Path(__file__).parent / "fixtures" / "mini_gacha_drop.html"
 URL = "https://battlecats.miraheze.org/wiki/Some_Event/Gacha_Drop"
@@ -31,8 +39,15 @@ def no_network(monkeypatch):
 @pytest.fixture(autouse=True)
 def pools_dir(monkeypatch, tmp_path):
     """Every test writes to a temp folder, never to the real data/gacha_pools."""
-    monkeypatch.setattr(fetch_gacha_units, "GACHA_POOLS_DIR", tmp_path)
-    return tmp_path
+    monkeypatch.setattr(fetch_gacha_units, "GACHA_POOLS_DIR", tmp_path / "gacha_pools")
+    return tmp_path / "gacha_pools"
+
+
+@pytest.fixture(autouse=True)
+def icons_dir(monkeypatch, tmp_path):
+    """Every test writes icons to a temp folder, never to the real data/icons."""
+    monkeypatch.setattr(fetch_gacha_units, "ICONS_DIR", tmp_path / "icons")
+    return tmp_path / "icons"
 
 
 @pytest.fixture
@@ -41,19 +56,25 @@ def html():
 
 
 class FakeWeb:
-    """Stands in for requests.get: records calls, returns the fixture page (or fails)."""
+    """Stands in for requests.get: records calls. Returns the fixture page's HTML for
+    the page URL, and fake image bytes for any other URL (icon downloads) -- or fails
+    (for either kind of request) once .fail is set."""
 
-    def __init__(self, html):
+    def __init__(self, html, page_url=URL, icon_bytes=b"FAKE-ICON-BYTES"):
         self.html = html
+        self.page_url = page_url
+        self.icon_bytes = icon_bytes
         self.calls = []
         self.fail = False
 
     def __call__(self, url, **kwargs):
         self.calls.append((url, kwargs))
         web = self
+        is_page = url == web.page_url
 
         class Response:
-            text = web.html
+            text = web.html if is_page else ""
+            content = web.icon_bytes
             encoding = "utf-8"
 
             def raise_for_status(self):
@@ -121,6 +142,11 @@ def test_html_entities_are_decoded(html):
     assert "area attack & wide range" in unit["description"]
 
 
+def test_image_url_is_the_full_size_original_not_the_thumbnail(html):
+    unit = parse_event_units(html)[0]
+    assert unit["image_url"] == "//static.example.org/battlecatswiki/e/e2/Uni362_f00.png"
+
+
 @pytest.mark.parametrize("html", ["", "<html></html>", "<h2 id=\"Event\">Event</h2><p>nothing here</p>"])
 def test_page_without_units_parses_to_nothing(html):
     assert parse_event_units(html) == []
@@ -137,7 +163,7 @@ def test_units_to_csv_round_trips(html):
     units = parse_event_units(html)
     rows = list(csv.DictReader(io.StringIO(units_to_csv(units))))
     assert [r["name"] for r in rows] == [u["name"] for u in units]
-    assert list(rows[0].keys()) == ["rarity", "name", "description", "cat_id"]
+    assert list(rows[0].keys()) == ["rarity", "name", "description", "cat_id"]  # image_url is not a CSV column
 
 
 # ---------- sanitize_name ----------
@@ -152,6 +178,75 @@ def test_units_to_csv_round_trips(html):
 ])
 def test_sanitize_name(raw, expected):
     assert sanitize_name(raw) == expected
+
+
+def test_sanitize_name_custom_fallback():
+    assert sanitize_name("", fallback="unit") == "unit"
+
+
+# ---------- original_image_url ----------
+
+@pytest.mark.parametrize("src,expected", [
+    (
+        "//static.example.org/battlecatswiki/thumb/e/e2/Uni362_f00.png/100px-Uni362_f00.png",
+        "//static.example.org/battlecatswiki/e/e2/Uni362_f00.png",
+    ),
+    (
+        "//static.example.org/battlecatswiki/e/e2/Uni362_f00.png",  # already the original
+        "//static.example.org/battlecatswiki/e/e2/Uni362_f00.png",
+    ),
+    ("", ""),
+])
+def test_original_image_url(src, expected):
+    assert original_image_url(src) == expected
+
+
+# ---------- absolute_url ----------
+
+def test_absolute_url_prefixes_protocol_relative_urls():
+    assert absolute_url("//example.org/x.png") == "https://example.org/x.png"
+
+
+def test_absolute_url_leaves_full_urls_alone():
+    assert absolute_url("https://example.org/x.png") == "https://example.org/x.png"
+
+
+# ---------- icon_path ----------
+
+def test_icon_path_uses_sanitized_name_and_url_extension(icons_dir):
+    assert icon_path("Weird: Name?", "//example.org/x.png") == icons_dir / "Weird_ Name_.png"
+
+
+def test_icon_path_defaults_to_png_without_a_url_extension(icons_dir):
+    assert icon_path("Saber", "//example.org/no-extension").suffix == ".png"
+
+
+# ---------- save_icon ----------
+
+def test_save_icon_downloads_and_writes_bytes(icons_dir, fake_web):
+    status = save_icon("Saber", "//static.example.org/x/Uni362_f00.png")
+    assert status == "saved"
+    assert (icons_dir / "Saber.png").read_bytes() == fake_web.icon_bytes
+
+
+def test_save_icon_skips_an_already_saved_icon(icons_dir):
+    # no fake_web fixture: the autouse no_network fixture fails the test if a request
+    # is attempted, proving a cached icon isn't re-downloaded
+    path = icons_dir / "Saber.png"
+    path.parent.mkdir(parents=True)
+    path.write_bytes(b"existing bytes")
+    assert save_icon("Saber", "//static.example.org/x/Uni362_f00.png") == "cached"
+    assert path.read_bytes() == b"existing bytes"
+
+
+def test_save_icon_returns_no_image_for_a_blank_url():
+    assert save_icon("Saber", "") == "no-image"
+
+
+def test_save_icon_raises_on_http_failure(fake_web):
+    fake_web.fail = True
+    with pytest.raises(fetch_gacha_units.requests.exceptions.HTTPError):
+        save_icon("Saber", "//static.example.org/x/Uni362_f00.png")
 
 
 # ---------- main() end to end (no network) ----------
@@ -170,12 +265,50 @@ def test_main_writes_one_csv_per_url(monkeypatch, pools_dir, fake_web):
     assert csv1.exists() and csv2.exists()
     rows = list(csv.DictReader(csv1.open(encoding="utf-8")))
     assert len(rows) == 2
-    assert len(fake_web.calls) == 2
+    # 2 page fetches + 2 icon downloads; the repeated url's icons are already cached
+    assert len(fake_web.calls) == 4
 
 
 def test_main_sanitizes_event_name_for_the_folder(monkeypatch, pools_dir, fake_web):
     run_main(monkeypatch, URL, "Weird: Name?")
     assert (pools_dir / "Weird_ Name_" / "Weird_ Name__units_1.csv").exists()
+
+
+def test_main_downloads_an_icon_per_unit(monkeypatch, icons_dir, fake_web):
+    run_main(monkeypatch, URL, "Fate Stay Night")
+    assert (icons_dir / "Saber.png").read_bytes() == fake_web.icon_bytes
+    assert (icons_dir / "Kotomine & Gilgamesh Cats.png").exists()
+
+
+def test_main_does_not_redownload_a_cached_icon(monkeypatch, fake_web):
+    run_main(monkeypatch, URL, "Fate Stay Night")
+    calls_after_first_run = len(fake_web.calls)
+    run_main(monkeypatch, URL, "Fate Stay Night")
+    # a second run of the exact same page: one more page fetch, no more icon fetches
+    assert len(fake_web.calls) == calls_after_first_run + 1
+
+
+def test_icon_download_failures_do_not_abort_the_run(monkeypatch, pools_dir, html, capsys):
+    class Web:
+        def __call__(self, url, **kwargs):
+            web = self
+
+            class Response:
+                text = html if url == URL else ""
+                content = b""
+                encoding = "utf-8"
+
+                def raise_for_status(self):
+                    if url != URL:  # only icon requests fail
+                        raise fetch_gacha_units.requests.exceptions.HTTPError("HTTP 500")
+
+            return Response()
+
+    monkeypatch.setattr(fetch_gacha_units.requests, "get", Web())
+    run_main(monkeypatch, URL, "Fate Stay Night")
+
+    assert (pools_dir / "Fate Stay Night" / "Fate Stay Night_units_1.csv").exists()
+    assert "Could not fetch icon" in capsys.readouterr().out
 
 
 def test_main_exits_when_page_has_no_units(monkeypatch, pools_dir):

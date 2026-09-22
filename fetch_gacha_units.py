@@ -22,6 +22,11 @@ For each url given (in the order given), writes:
     data/gacha_pools/<event_name>/<event_name>_units_<n>.csv   (n = 1, 2, ... starting at 1)
 
 CSV columns: rarity, name, description, cat_id (cat_id is blank if the page has none).
+
+Also downloads each unit's Normal-form icon (the same image used to find cat_id) to:
+    data/icons/unit_icons/<unit name>.<ext>
+so a unit's data can be looked up by the same name used in the CSV. An icon already
+saved from a previous run (or an earlier unit/banner in this run) is not re-downloaded.
 """
 
 import argparse
@@ -31,10 +36,12 @@ import re
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 
 GACHA_POOLS_DIR = Path(__file__).parent / "data" / "gacha_pools"
+ICONS_DIR = Path(__file__).parent / "data" / "icons" / "unit_icons"
 UNIT_CSV_FIELDS = ["rarity", "name", "description", "cat_id"]
 USER_AGENT = "fetch_gacha_units.py - one-off Battle Cats wiki gacha page fetcher"
 
@@ -98,9 +105,11 @@ class GachaUnitParser(HTMLParser):
             marker = next((c for c in TRACKED_DIV_CLASSES if c in classes), None)
             self._div_stack.append(marker)
             if marker == "gacha-unit-form":
-                self._form = {"header": "", "name": "", "description": [], "cat_id": ""}
+                self._form = {"header": "", "name": "", "description": [], "cat_id": "", "image_src": ""}
         elif tag == "img" and self._top() == "gacha-unit-img" and self._form is not None:
-            match = CAT_ID_RE.search(attrs.get("src", ""))
+            src = attrs.get("src", "")
+            self._form["image_src"] = src
+            match = CAT_ID_RE.search(src)
             if match:
                 self._form["cat_id"] = match.group(1)
         elif tag == "br" and self._top() == "gacha-unit-description" and self._form is not None:
@@ -144,7 +153,24 @@ class GachaUnitParser(HTMLParser):
             "name": name,
             "description": description,
             "cat_id": form["cat_id"],
+            "image_url": original_image_url(form["image_src"]),
         })
+
+
+def original_image_url(src):
+    """Convert a MediaWiki thumbnail URL (".../thumb/a/bc/File.png/100px-File.png") to
+    the full-size original (".../a/bc/File.png"). Left unchanged if it doesn't look like
+    a thumbnail path (e.g. already a direct file URL)."""
+    if not src or "/thumb/" not in src:
+        return src
+    before, after = src.split("/thumb/", 1)
+    directory, _, _thumb_filename = after.rpartition("/")
+    return f"{before}/{directory}" if directory else src
+
+
+def absolute_url(url):
+    """MediaWiki image URLs are protocol-relative ("//host/path"); make them fetchable."""
+    return f"https:{url}" if url.startswith("//") else url
 
 
 def fetch_page(url):
@@ -163,16 +189,41 @@ def parse_event_units(html):
 
 def units_to_csv(units):
     buf = io.StringIO()
-    writer = csv.DictWriter(buf, fieldnames=UNIT_CSV_FIELDS)
+    # extrasaction="ignore": unit dicts also carry image_url (used only for icon
+    # downloads), which isn't one of the CSV columns.
+    writer = csv.DictWriter(buf, fieldnames=UNIT_CSV_FIELDS, extrasaction="ignore")
     writer.writeheader()
     writer.writerows(units)
     return buf.getvalue()
 
 
-def sanitize_name(name):
-    """Make a user-provided event name safe to use as a Windows folder/file name."""
+def sanitize_name(name, fallback="event"):
+    """Make a user-provided name safe to use as a Windows folder/file name."""
     name = INVALID_NAME_CHARS_RE.sub("_", name.strip())
-    return name.rstrip(" .") or "event"
+    return name.rstrip(" .") or fallback
+
+
+def icon_path(name, image_url):
+    """Where save_icon() would write this unit's icon. Reads the module-level ICONS_DIR
+    at call time (rather than as a default argument) so tests can point it elsewhere."""
+    suffix = Path(urlparse(absolute_url(image_url)).path).suffix or ".png"
+    return ICONS_DIR / f"{sanitize_name(name, fallback='unit')}{suffix}"
+
+
+def save_icon(name, image_url):
+    """Download one unit's icon to ICONS_DIR/<name>.<ext> unless it's already there.
+    Returns "saved", "cached", or "no-image" (image_url was blank); raises
+    requests.RequestException on a failed download, same as fetch_page."""
+    if not image_url:
+        return "no-image"
+    path = icon_path(name, image_url)
+    if path.exists():
+        return "cached"
+    resp = requests.get(absolute_url(image_url), headers={"User-Agent": USER_AGENT}, timeout=30)
+    resp.raise_for_status()
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(resp.content)
+    return "saved"
 
 
 def main():
@@ -202,6 +253,19 @@ def main():
         with open(out_path, "w", newline="", encoding="utf-8") as f:
             f.write(units_to_csv(units))
         print(f"Wrote {len(units)} units to {out_path}")
+
+        saved = cached = failed = 0
+        for unit in units:
+            try:
+                status = save_icon(unit["name"], unit.get("image_url", ""))
+            except requests.RequestException as e:
+                failed += 1
+                print(f"  Could not fetch icon for {unit['name']}: {e}")
+                continue
+            saved += status == "saved"
+            cached += status == "cached"
+        if saved or cached or failed:
+            print(f"Icons: {saved} downloaded, {cached} already saved, {failed} failed -> {ICONS_DIR}")
 
 
 if __name__ == "__main__":
