@@ -28,6 +28,14 @@ def gacha_pools_dir(monkeypatch, tmp_path):
     return pools_dir
 
 
+@pytest.fixture(autouse=True)
+def gacha_icons_dir(monkeypatch, tmp_path):
+    """/gacha-units's icon lookup reads through gacha_units too; keep it off data/icons."""
+    icons_dir = tmp_path / "icons"
+    monkeypatch.setattr(gacha_units, "ICONS_DIR", icons_dir)
+    return icons_dir
+
+
 def write_units_csv(pools_dir, event, suffix, rows):
     event_dir = pools_dir / event
     event_dir.mkdir(parents=True, exist_ok=True)
@@ -172,7 +180,19 @@ def test_gacha_units_grouped_by_rarity_and_sorted(gacha_pools_dir):
     assert body["event"] == "Fate Stay Night"
     assert [g["rarity"] for g in body["rarities"]] == ["Uber Super Rare", "Rare"]
     assert [u["name"] for u in body["rarities"][0]["units"]] == ["Amy", "Zed"]
-    assert body["rarities"][0]["units"][0] == {"rarity": "Uber Super Rare", "name": "Amy", "description": "a desc", "cat_id": "1"}
+    assert body["rarities"][0]["units"][0] == {
+        "rarity": "Uber Super Rare", "name": "Amy", "description": "a desc", "cat_id": "1", "icon": None,
+    }
+
+
+def test_gacha_units_includes_icon_filename_when_downloaded(gacha_pools_dir, gacha_icons_dir):
+    write_units_csv(gacha_pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Uber Super Rare", "name": "Saber", "description": "", "cat_id": "362"},
+    ])
+    gacha_icons_dir.mkdir(parents=True)
+    (gacha_icons_dir / "Saber.png").write_bytes(b"fake")
+    body = client.get("/gacha-units", params={"event": "Fate Stay Night"}).json()
+    assert body["rarities"][0]["units"][0]["icon"] == "Saber.png"
 
 
 def test_gacha_units_merges_two_banners_without_duplicates(gacha_pools_dir):
@@ -197,6 +217,38 @@ def test_gacha_units_404_for_unsafe_event(gacha_pools_dir, event):
 def test_gacha_events_cors_allows_pages_and_localhost(origin):
     response = client.get("/gacha-events", headers={"Origin": origin})
     assert response.headers["access-control-allow-origin"] == origin
+
+
+# ---------- /icons (CachedStaticFiles) ----------
+# Tested against a standalone app + a throwaway directory, not the real /icons mount --
+# that mount is built once, from the real ICONS_DIR, when server.py is first imported.
+
+def test_cached_static_files_sets_a_long_cache_control_header(tmp_path):
+    from fastapi import FastAPI
+
+    from server import CachedStaticFiles
+
+    (tmp_path / "x.png").write_bytes(b"fake-bytes")
+    mini_app = FastAPI()
+    mini_app.mount("/icons", CachedStaticFiles(directory=str(tmp_path)))
+
+    response = TestClient(mini_app).get("/icons/x.png")
+    assert response.status_code == 200
+    assert response.headers["cache-control"] == "public, max-age=604800, immutable"
+    assert response.content == b"fake-bytes"
+
+
+def test_cached_static_files_404_has_no_cache_header(tmp_path):
+    from fastapi import FastAPI
+
+    from server import CachedStaticFiles
+
+    mini_app = FastAPI()
+    mini_app.mount("/icons", CachedStaticFiles(directory=str(tmp_path)))
+
+    response = TestClient(mini_app).get("/icons/missing.png")
+    assert response.status_code == 404
+    assert "cache-control" not in response.headers
 
 
 # ---------- /optimize ----------

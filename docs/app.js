@@ -304,16 +304,33 @@ function renderTargetGroups(rarities) {
     legend.textContent = group.rarity || "Unknown rarity";
     fieldset.append(legend);
     for (const unit of group.units) {
+      // Everything (checkbox, icon, name) lives inside one <label>, so clicking the
+      // icon toggles the checkbox exactly like clicking the name does.
       const label = document.createElement("label");
       label.className = "target-checkbox";
       const cb = document.createElement("input");
       cb.type = "checkbox";
       cb.value = unit.name;
       cb.checked = checked.has(unit.name);
+      label.append(cb);
+
+      if (unit.icon) {
+        const img = document.createElement("img");
+        img.className = "target-icon";
+        img.src = `${API_BASE}/icons/${encodeURIComponent(unit.icon)}`;
+        img.alt = "";               // decorative: the unit's name is already shown as text
+        img.width = 28;
+        img.height = 28;
+        img.loading = "lazy";       // most units are off-screen until you scroll to them
+        img.onerror = () => img.remove();
+        label.append(img);
+      }
+
       const span = document.createElement("span");
       span.textContent = unit.name;
       if (unit.description) span.title = unit.description;
-      label.append(cb, span);
+      label.append(span);
+
       fieldset.append(label);
     }
     container.append(fieldset);

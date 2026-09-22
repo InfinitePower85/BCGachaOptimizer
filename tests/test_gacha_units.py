@@ -17,6 +17,13 @@ def pools_dir(monkeypatch, tmp_path):
     return tmp_path
 
 
+@pytest.fixture(autouse=True)
+def icons_dir(monkeypatch, tmp_path):
+    """Icon lookups read this instead of the real data/icons/unit_icons."""
+    monkeypatch.setattr(gacha_units, "ICONS_DIR", tmp_path / "icons")
+    return tmp_path / "icons"
+
+
 def write_units_csv(pools_dir, event, suffix, rows):
     event_dir = pools_dir / event
     event_dir.mkdir(parents=True, exist_ok=True)
@@ -57,7 +64,9 @@ def test_loads_rows_from_a_single_csv(pools_dir):
         {"rarity": "Uber Super Rare", "name": "Saber", "description": "desc", "cat_id": "362"},
     ])
     units = load_gacha_units("Fate Stay Night")
-    assert units == [{"rarity": "Uber Super Rare", "name": "Saber", "description": "desc", "cat_id": "362"}]
+    assert units == [{
+        "rarity": "Uber Super Rare", "name": "Saber", "description": "desc", "cat_id": "362", "icon": None,
+    }]
 
 
 def test_merges_multiple_banners(pools_dir):
@@ -93,6 +102,57 @@ def test_event_dir_must_be_a_direct_child(pools_dir):
     (nested / "Fate Stay Night_units_1.csv").write_text(UNIT_CSV_HEADER, encoding="utf-8")
     with pytest.raises(ValueError, match="Unknown event"):
         load_gacha_units("sub/Fate Stay Night")
+
+
+# ---------- load_gacha_units: icon lookup ----------
+
+def test_icon_filename_attached_when_present(pools_dir, icons_dir):
+    write_units_csv(pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Uber Super Rare", "name": "Saber", "description": "", "cat_id": "362"},
+    ])
+    icons_dir.mkdir(parents=True)
+    (icons_dir / "Saber.png").write_bytes(b"fake")
+    unit = load_gacha_units("Fate Stay Night")[0]
+    assert unit["icon"] == "Saber.png"
+
+
+def test_icon_is_none_when_not_downloaded(pools_dir, icons_dir):
+    write_units_csv(pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Rare", "name": "Saber", "description": "", "cat_id": "362"},
+    ])
+    unit = load_gacha_units("Fate Stay Night")[0]
+    assert unit["icon"] is None
+
+
+def test_icon_lookup_uses_the_same_sanitizing_as_fetch_gacha_units(pools_dir, icons_dir):
+    # fetch_gacha_units.py saves e.g. "Kotomine & Gilgamesh Cats.png" as-is (no illegal
+    # Windows filename characters in that name), so the lookup must match it exactly.
+    write_units_csv(pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Super Rare", "name": "Kotomine & Gilgamesh Cats", "description": "", "cat_id": "460"},
+    ])
+    icons_dir.mkdir(parents=True)
+    (icons_dir / "Kotomine & Gilgamesh Cats.png").write_bytes(b"fake")
+    unit = load_gacha_units("Fate Stay Night")[0]
+    assert unit["icon"] == "Kotomine & Gilgamesh Cats.png"
+
+
+def test_icon_lookup_does_not_care_about_extension(pools_dir, icons_dir):
+    write_units_csv(pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Rare", "name": "Saber", "description": "", "cat_id": "362"},
+    ])
+    icons_dir.mkdir(parents=True)
+    (icons_dir / "Saber.gif").write_bytes(b"fake")
+    unit = load_gacha_units("Fate Stay Night")[0]
+    assert unit["icon"] == "Saber.gif"
+
+
+def test_missing_icons_dir_gives_no_icons(pools_dir, icons_dir):
+    write_units_csv(pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Rare", "name": "Saber", "description": "", "cat_id": "362"},
+    ])
+    assert not icons_dir.exists()
+    unit = load_gacha_units("Fate Stay Night")[0]
+    assert unit["icon"] is None
 
 
 # ---------- group_by_rarity ----------

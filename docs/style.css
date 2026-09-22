@@ -141,6 +141,15 @@ button:disabled { opacity: 0.5; cursor: default; }
   padding: 3px 0;
 }
 .target-checkbox input { width: auto; flex: 0 0 auto; }
+.target-icon {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
+  border-radius: 4px;
+  object-fit: cover;
+  background: var(--bg);
+  border: 1px solid var(--border);
+}
 
 .row label.inline { flex: 0 1 220px; }
 #meow-out { margin-top: 8px; resize: vertical; }

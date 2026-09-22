@@ -15,6 +15,7 @@ from typing import Literal
 import requests
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from data_download import (
@@ -26,6 +27,7 @@ from data_download import (
     parse_tracks,
     validate_url,
 )
+from fetch_gacha_units import ICONS_DIR
 from gacha_units import group_by_rarity, list_gacha_events, load_gacha_units
 from route_optimizer import parse_pool, solve
 
@@ -51,6 +53,22 @@ app.add_middleware(
     allow_methods=["GET", "POST"],
     allow_headers=["Content-Type"],
 )
+
+
+class CachedStaticFiles(StaticFiles):
+    """StaticFiles with a long browser cache lifetime. Unit icons (see
+    fetch_gacha_units.py) don't change once downloaded, so there's no reason for a
+    repeat visit to re-fetch or even revalidate them."""
+
+    async def get_response(self, path, scope):
+        response = await super().get_response(path, scope)
+        if response.status_code == 200:
+            response.headers["Cache-Control"] = "public, max-age=604800, immutable"  # 1 week
+        return response
+
+
+ICONS_DIR.mkdir(parents=True, exist_ok=True)  # StaticFiles requires the directory to exist
+app.mount("/icons", CachedStaticFiles(directory=str(ICONS_DIR)), name="icons")
 
 
 @app.get("/")

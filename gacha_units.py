@@ -12,6 +12,8 @@ import csv
 import re
 from pathlib import Path
 
+from fetch_gacha_units import ICONS_DIR, sanitize_name
+
 GACHA_POOLS_DIR = Path(__file__).parent / "data" / "gacha_pools"
 
 # Event folder names are user-supplied (see fetch_gacha_units.py's sanitize_name) and
@@ -43,11 +45,21 @@ def _event_dir(event):
     return event_dir
 
 
+def _icon_index():
+    """Map a unit's sanitized name (fetch_gacha_units.py's icon_path() stem) to the icon
+    filename actually saved for it, for whatever's currently in ICONS_DIR. Built once per
+    load_gacha_units() call rather than searching the directory per unit."""
+    if not ICONS_DIR.is_dir():
+        return {}
+    return {p.stem: p.name for p in ICONS_DIR.iterdir() if p.is_file()}
+
+
 def load_gacha_units(event):
     """Merge every '*_units_*.csv' for one event (an event may have more than one gacha
     banner, e.g. two pools). Units are deduplicated by name, keeping the first
     occurrence, so a unit shared by two banners is only listed once."""
     event_dir = _event_dir(event)
+    icons = _icon_index()
     seen = set()
     units = []
     for csv_path in sorted(event_dir.glob("*_units_*.csv")):
@@ -62,6 +74,7 @@ def load_gacha_units(event):
                     "name": name,
                     "description": (row.get("description") or "").strip(),
                     "cat_id": (row.get("cat_id") or "").strip(),
+                    "icon": icons.get(sanitize_name(name, fallback="unit")),
                 })
     return units
 
