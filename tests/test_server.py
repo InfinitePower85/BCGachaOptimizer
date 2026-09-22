@@ -4,7 +4,7 @@ import pytest
 from fastapi.testclient import TestClient
 
 import data_download
-from server import MAX_MEOWS, app
+from server import MAX_MEOWS, MAX_ROLL_LIMIT, MAX_TARGET_UNITS, app
 
 client = TestClient(app)
 
@@ -126,3 +126,72 @@ def test_tracks_429_when_hourly_cap_reached(monkeypatch, fake_web):
     response = client.get("/tracks", params={"url": GOOD_URL})
     assert response.status_code == 429
     assert fake_web == []
+
+
+# ---------- /optimize ----------
+
+OPTIMIZE_CSV = (
+    "position,roll,track,guaranteed,cat_id,cat_name,rarity,link\n"
+    "1A,1,A,False,1,Junk,rare,\n"
+    "2A,2,A,False,2,Target,rare,\n"
+)
+
+
+def test_optimize_returns_score_and_route():
+    response = client.post("/optimize", json={
+        "csv": OPTIMIZE_CSV, "target_units": ["Target"], "max_rolls": 3,
+    })
+    assert response.status_code == 200
+    body = response.json()
+    assert body["score"] == 1
+    assert body["collected"] == ["Target"]
+    assert body["route"] == [
+        {"type": "single", "track": "A", "roll": 1, "units": ["Junk"]},
+        {"type": "single", "track": "A", "roll": 2, "units": ["Target"]},
+    ]
+
+
+def test_optimize_defaults_start_track_and_roll():
+    response = client.post("/optimize", json={
+        "csv": OPTIMIZE_CSV, "target_units": ["Target"], "max_rolls": 3,
+    })
+    assert response.status_code == 200
+    assert response.json()["route"][0]["track"] == "A"
+    assert response.json()["route"][0]["roll"] == 1
+
+
+def test_optimize_rejects_unparseable_csv():
+    response = client.post("/optimize", json={
+        "csv": "not,a,valid,tracks,csv", "target_units": ["Target"], "max_rolls": 3,
+    })
+    assert response.status_code == 400
+
+
+@pytest.mark.parametrize("overrides", [
+    {"max_rolls": 0},                              # below minimum
+    {"max_rolls": MAX_ROLL_LIMIT + 1},              # above the cap
+    {"target_units": []},                           # need at least one target
+    {"target_units": [f"u{i}" for i in range(MAX_TARGET_UNITS + 1)]},  # too many targets
+    {"csv": None},                                  # missing csv
+])
+def test_optimize_rejects_bad_input(overrides):
+    payload = {"csv": OPTIMIZE_CSV, "target_units": ["Target"], "max_rolls": 3, **overrides}
+    response = client.post("/optimize", json=payload)
+    assert response.status_code == 422
+
+
+@pytest.mark.parametrize("origin", [PAGES_ORIGIN, "http://localhost:8080"])
+def test_optimize_cors_allows_pages_and_localhost(origin):
+    response = client.post(
+        "/optimize", json={"csv": OPTIMIZE_CSV, "target_units": ["Target"], "max_rolls": 3},
+        headers={"Origin": origin},
+    )
+    assert response.headers["access-control-allow-origin"] == origin
+
+
+def test_optimize_cors_blocks_other_origins():
+    response = client.post(
+        "/optimize", json={"csv": OPTIMIZE_CSV, "target_units": ["Target"], "max_rolls": 3},
+        headers={"Origin": "https://evil.example"},
+    )
+    assert "access-control-allow-origin" not in response.headers

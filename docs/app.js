@@ -9,16 +9,21 @@ const API_BASE = LOCAL_HOSTS.includes(location.hostname)
 const API_TIMEOUT_MS = 90000; // Render's free tier can take a minute to wake up
 const API_SLOW_MS = 4000;     // after this long, tell the user the server may be waking
 
-/** GET from the API. Throws with the server's detail message on a non-2xx reply. */
-async function apiGet(path, params, onSlow) {
+/** Call the API. Throws with the server's detail message on a non-2xx reply or timeout. */
+async function apiCall(path, { method = "GET", params, body, onSlow } = {}) {
   const controller = new AbortController();
   const slow = onSlow ? setTimeout(onSlow, API_SLOW_MS) : null;
   const timeout = setTimeout(() => controller.abort(), API_TIMEOUT_MS);
   try {
-    const res = await fetch(`${API_BASE}${path}?${new URLSearchParams(params)}`, { signal: controller.signal });
-    const body = await res.json().catch(() => null);
-    if (!res.ok) throw new Error((body && body.detail) || `Server error (${res.status}).`);
-    return body;
+    const url = `${API_BASE}${path}${params ? "?" + new URLSearchParams(params) : ""}`;
+    const res = await fetch(url, {
+      method,
+      signal: controller.signal,
+      ...(body && { headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }),
+    });
+    const responseBody = await res.json().catch(() => null);
+    if (!res.ok) throw new Error((responseBody && responseBody.detail) || `Server error (${res.status}).`);
+    return responseBody;
   } catch (e) {
     throw e.name === "AbortError" ? new Error("The server took too long to respond.") : e;
   } finally {
@@ -26,20 +31,7 @@ async function apiGet(path, params, onSlow) {
     clearTimeout(timeout);
   }
 }
-
-// ---- Mock optimizer -------------------------------------------------------------
-// Stand-in for the server. Replace once the optimizer endpoint exists.
-async function mockOptimize({ dataset, limit, targets }) {
-  await new Promise((r) => setTimeout(r, 900));
-  return {
-    note: "Mock result. The real optimizer runs on the server.",
-    steps: [
-      `Dataset ${dataset}, up to ${limit} rolls`,
-      ...targets.map((t) => `Aim for: ${t}`),
-      "Single roll x3, then guaranteed 11 (placeholder route)",
-    ],
-  };
-}
+const apiGet = (path, params, onSlow) => apiCall(path, { params, onSlow });
 
 // ---- IndexedDB store --------------------------------------------------------
 const DB_NAME = "bc-route-planner";
@@ -292,25 +284,36 @@ $("import-file").addEventListener("change", async (ev) => {
   }
 });
 
+const OPT_MAX_TARGETS = 25; // matches the server's MAX_TARGET_UNITS
+
 $("opt-btn").addEventListener("click", async () => {
-  const dataset = $("opt-dataset").value;
+  const datasetId = $("opt-dataset").value;
   const limit = Number($("opt-limit").value);
-  const targets = $("opt-targets").value.split("\n").map((s) => s.trim()).filter(Boolean);
+  const targets = [...new Set($("opt-targets").value.split("\n").map((s) => s.trim()).filter(Boolean))];
   const out = $("opt-result");
   out.replaceChildren();
-  if (!dataset) return say("opt-status", "Save or import a dataset first.", "err");
+  if (!datasetId) return say("opt-status", "Save or import a dataset first.", "err");
   if (!Number.isInteger(limit) || limit < 1 || limit > 200) return say("opt-status", "Roll limit must be 1-200.", "err");
   if (!targets.length) return say("opt-status", "Enter at least one target unit.", "err");
+  if (targets.length > OPT_MAX_TARGETS) return say("opt-status", `At most ${OPT_MAX_TARGETS} target units.`, "err");
+
+  const rec = (await store.all()).find((r) => r.id === datasetId);
+  if (!rec) return say("opt-status", "Dataset not found; it may have been deleted.", "err");
 
   const btn = $("opt-btn");
   btn.disabled = true;
   say("opt-status", "Running...");
   try {
-    const res = await mockOptimize({ dataset, limit, targets });
-    say("opt-status", res.note, "ok");
-    for (const step of res.steps) {
+    const res = await apiCall("/optimize", {
+      method: "POST",
+      body: { csv: rec.csv, target_units: targets, max_rolls: limit },
+      onSlow: () => say("opt-status", "Still waiting. The server may be waking up, which can take up to a minute..."),
+    });
+    say("opt-status", `Found ${res.score} of ${targets.length} target unit(s).`, "ok");
+    for (const step of res.route) {
       const li = document.createElement("li");
-      li.textContent = step;
+      const kind = step.type === "guaranteed_eleven" ? "Guaranteed 11" : "Single roll";
+      li.textContent = `${kind} @ ${step.roll}${step.track}: ${step.units.join(", ")}`;
       out.append(li);
     }
   } catch (e) {
