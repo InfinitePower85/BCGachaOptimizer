@@ -286,15 +286,85 @@ $("import-file").addEventListener("change", async (ev) => {
 
 const OPT_MAX_TARGETS = 25; // matches the server's MAX_TARGET_UNITS
 
+// ---- Event units (target checkboxes) -----------------------------------------
+// Unit rosters come from data/gacha_pools/<event> (see fetch_gacha_units.py), grouped
+// server-side by rarity with names sorted alphabetically within each group.
+function renderTargetGroups(rarities) {
+  const container = $("opt-targets");
+  const checked = new Set(getSelectedTargets()); // preserve selections across a re-render
+  container.replaceChildren();
+  if (!rarities.length) {
+    container.textContent = "No units found for this event.";
+    return;
+  }
+  for (const group of rarities) {
+    const fieldset = document.createElement("fieldset");
+    fieldset.className = "target-group";
+    const legend = document.createElement("legend");
+    legend.textContent = group.rarity || "Unknown rarity";
+    fieldset.append(legend);
+    for (const unit of group.units) {
+      const label = document.createElement("label");
+      label.className = "target-checkbox";
+      const cb = document.createElement("input");
+      cb.type = "checkbox";
+      cb.value = unit.name;
+      cb.checked = checked.has(unit.name);
+      const span = document.createElement("span");
+      span.textContent = unit.name;
+      if (unit.description) span.title = unit.description;
+      label.append(cb, span);
+      fieldset.append(label);
+    }
+    container.append(fieldset);
+  }
+}
+
+function getSelectedTargets() {
+  return [...$("opt-targets").querySelectorAll("input[type=checkbox]:checked")].map((cb) => cb.value);
+}
+
+async function loadGachaEvents() {
+  const select = $("opt-event");
+  select.replaceChildren();
+  try {
+    const events = await apiGet("/gacha-events");
+    if (!events.length) {
+      select.append(new Option("(no events fetched yet)", ""));
+      renderTargetGroups([]);
+      return;
+    }
+    for (const event of events) select.append(new Option(event, event));
+    await loadGachaUnits(select.value);
+  } catch (e) {
+    say("opt-event-status", e.message || "Could not load events.", "err");
+  }
+}
+
+async function loadGachaUnits(event) {
+  if (!event) return renderTargetGroups([]);
+  say("opt-event-status", "Loading units...");
+  try {
+    const body = await apiGet("/gacha-units", { event });
+    renderTargetGroups(body.rarities);
+    say("opt-event-status", "");
+  } catch (e) {
+    say("opt-event-status", e.message || "Could not load units.", "err");
+  }
+}
+
+$("opt-event").addEventListener("change", (ev) => loadGachaUnits(ev.target.value));
+loadGachaEvents();
+
 $("opt-btn").addEventListener("click", async () => {
   const datasetId = $("opt-dataset").value;
   const limit = Number($("opt-limit").value);
-  const targets = [...new Set($("opt-targets").value.split("\n").map((s) => s.trim()).filter(Boolean))];
+  const targets = getSelectedTargets();
   const out = $("opt-result");
   out.replaceChildren();
   if (!datasetId) return say("opt-status", "Save or import a dataset first.", "err");
   if (!Number.isInteger(limit) || limit < 1 || limit > 200) return say("opt-status", "Roll limit must be 1-200.", "err");
-  if (!targets.length) return say("opt-status", "Enter at least one target unit.", "err");
+  if (!targets.length) return say("opt-status", "Check at least one target unit.", "err");
   if (targets.length > OPT_MAX_TARGETS) return say("opt-status", `At most ${OPT_MAX_TARGETS} target units.`, "err");
 
   const rec = (await store.all()).find((r) => r.id === datasetId);

@@ -26,6 +26,7 @@ from data_download import (
     parse_tracks,
     validate_url,
 )
+from gacha_units import group_by_rarity, list_gacha_events, load_gacha_units
 from route_optimizer import parse_pool, solve
 
 MAX_MEOWS = 100
@@ -85,6 +86,24 @@ def get_tracks(url: str) -> dict:
     event_id = query["event"][0]
     meta = build_meta(query["seed"][0], event_id, event_name, url, fetched_at_of(url), len(cells))
     return {"meta": meta, "csv": cells_to_csv(cells)}
+
+
+@app.get("/gacha-events")
+def get_gacha_events() -> list[str]:
+    """Event folder names under data/gacha_pools that have a units CSV (see
+    fetch_gacha_units.py), for the frontend's event dropdown."""
+    return list_gacha_events()
+
+
+@app.get("/gacha-units")
+def get_gacha_units(event: str) -> dict:
+    """That event's unit roster, grouped by rarity (sorted alphabetically within each
+    group), for the frontend's target-unit checkboxes."""
+    try:
+        units = load_gacha_units(event)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    return {"event": event, "rarities": group_by_rarity(units)}
 
 
 class OptimizeRequest(BaseModel):

@@ -60,10 +60,12 @@
         <label>Roll limit
           <input id="opt-limit" type="number" min="1" max="200" value="60">
         </label>
-        <label class="wide">Target units (one per line)
-          <textarea id="opt-targets" rows="4" placeholder="Shirou Emiya&#10;True Assassin"></textarea>
+        <label class="wide">Event
+          <select id="opt-event"></select>
         </label>
       </div>
+      <p id="opt-event-status" class="status" role="status"></p>
+      <div id="opt-targets" class="target-groups"></div>
       <div class="row">
         <button id="opt-btn">Run optimizer</button>
       </div>

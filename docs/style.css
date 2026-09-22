@@ -112,6 +112,36 @@ button:disabled { opacity: 0.5; cursor: default; }
 
 .result { margin: 12px 0 0; padding-left: 1.4em; }
 
+.target-groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.target-group {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px 10px;
+  flex: 1 1 200px;
+  min-width: 160px;
+}
+.target-group legend {
+  padding: 0 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+.target-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  color: var(--text);
+  padding: 3px 0;
+}
+.target-checkbox input { width: auto; flex: 0 0 auto; }
+
 .row label.inline { flex: 0 1 220px; }
 #meow-out { margin-top: 8px; resize: vertical; }
 

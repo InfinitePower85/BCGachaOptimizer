@@ -4,6 +4,7 @@ import pytest
 from fastapi.testclient import TestClient
 
 import data_download
+import gacha_units
 from server import MAX_MEOWS, MAX_ROLL_LIMIT, MAX_TARGET_UNITS, app
 
 client = TestClient(app)
@@ -17,6 +18,23 @@ FIXTURE_HTML = (Path(__file__).parent / "fixtures" / "mini_tracks.html").read_te
 def seed_dir(monkeypatch, tmp_path):
     """/tracks writes through data_download's cache; keep it off the real data/ dir."""
     monkeypatch.setattr(data_download, "SEED_TRACKS_DIR", tmp_path)
+
+
+@pytest.fixture(autouse=True)
+def gacha_pools_dir(monkeypatch, tmp_path):
+    """/gacha-events and /gacha-units read through gacha_units; keep it off data/gacha_pools."""
+    pools_dir = tmp_path / "gacha_pools"
+    monkeypatch.setattr(gacha_units, "GACHA_POOLS_DIR", pools_dir)
+    return pools_dir
+
+
+def write_units_csv(pools_dir, event, suffix, rows):
+    event_dir = pools_dir / event
+    event_dir.mkdir(parents=True, exist_ok=True)
+    text = "rarity,name,description,cat_id\n" + "".join(
+        f'{r["rarity"]},{r["name"]},{r["description"]},{r["cat_id"]}\n' for r in rows
+    )
+    (event_dir / f"{event}_units_{suffix}.csv").write_text(text, encoding="utf-8")
 
 
 class FakeResponse:
@@ -126,6 +144,59 @@ def test_tracks_429_when_hourly_cap_reached(monkeypatch, fake_web):
     response = client.get("/tracks", params={"url": GOOD_URL})
     assert response.status_code == 429
     assert fake_web == []
+
+
+# ---------- /gacha-events, /gacha-units ----------
+
+def test_gacha_events_lists_folders_with_a_units_csv(gacha_pools_dir):
+    write_units_csv(gacha_pools_dir, "Fate Stay Night", 1, [{"rarity": "Rare", "name": "A", "description": "", "cat_id": ""}])
+    (gacha_pools_dir / "Street Fighters").mkdir(parents=True)  # not fetched yet: no csv
+    response = client.get("/gacha-events")
+    assert response.status_code == 200
+    assert response.json() == ["Fate Stay Night"]
+
+
+def test_gacha_events_empty_when_nothing_fetched(gacha_pools_dir):
+    assert client.get("/gacha-events").json() == []
+
+
+def test_gacha_units_grouped_by_rarity_and_sorted(gacha_pools_dir):
+    write_units_csv(gacha_pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Uber Super Rare", "name": "Zed", "description": "z desc", "cat_id": "9"},
+        {"rarity": "Uber Super Rare", "name": "Amy", "description": "a desc", "cat_id": "1"},
+        {"rarity": "Rare", "name": "Bob", "description": "b desc", "cat_id": ""},
+    ])
+    response = client.get("/gacha-units", params={"event": "Fate Stay Night"})
+    assert response.status_code == 200
+    body = response.json()
+    assert body["event"] == "Fate Stay Night"
+    assert [g["rarity"] for g in body["rarities"]] == ["Uber Super Rare", "Rare"]
+    assert [u["name"] for u in body["rarities"][0]["units"]] == ["Amy", "Zed"]
+    assert body["rarities"][0]["units"][0] == {"rarity": "Uber Super Rare", "name": "Amy", "description": "a desc", "cat_id": "1"}
+
+
+def test_gacha_units_merges_two_banners_without_duplicates(gacha_pools_dir):
+    write_units_csv(gacha_pools_dir, "Two Pools", 1, [{"rarity": "Rare", "name": "Shared", "description": "", "cat_id": ""}])
+    write_units_csv(gacha_pools_dir, "Two Pools", 2, [{"rarity": "Rare", "name": "Shared", "description": "", "cat_id": ""}])
+    body = client.get("/gacha-units", params={"event": "Two Pools"}).json()
+    assert sum(len(g["units"]) for g in body["rarities"]) == 1
+
+
+def test_gacha_units_404_for_unknown_event(gacha_pools_dir):
+    response = client.get("/gacha-units", params={"event": "Nope"})
+    assert response.status_code == 404
+
+
+@pytest.mark.parametrize("event", ["../etc", "a/b", "a\\b"])
+def test_gacha_units_404_for_unsafe_event(gacha_pools_dir, event):
+    response = client.get("/gacha-units", params={"event": event})
+    assert response.status_code == 404
+
+
+@pytest.mark.parametrize("origin", [PAGES_ORIGIN, "http://localhost:8080"])
+def test_gacha_events_cors_allows_pages_and_localhost(origin):
+    response = client.get("/gacha-events", headers={"Origin": origin})
+    assert response.headers["access-control-allow-origin"] == origin
 
 
 # ---------- /optimize ----------
