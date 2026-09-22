@@ -1,36 +1,45 @@
 "use strict";
 
-// ---- Mock API ---------------------------------------------------------------
-// Stand-in for the server. Replace with real fetch() calls once the API exists.
-const api = {
-  async fetchTracks(url) {
-    await sleep(600);
-    const u = new URL(url);
-    if (u.hostname !== "bc.godfat.org") throw new Error("Not a bc.godfat.org link.");
-    const seed = u.searchParams.get("seed");
-    const event = u.searchParams.get("event");
-    if (!seed || !event) throw new Error("Link needs a seed and an event.");
-    const csv = [
-      "position,roll,track,guaranteed,cat_id,cat_name,rarity,link",
-      "1A,1,A,False,326,Welterweight Cat,rare,",
-      "1B,1,B,False,154,Cat Toaster,supa,",
-      "2A,2,A,False,367,Lancer,rare,",
-    ].join("\n");
-    return { id: `${seed}_${event}`, meta: { seed, event, source_url: url, mock: true }, csv };
-  },
+// ---- Server -------------------------------------------------------------------
+// Local testing hits a local uvicorn; anywhere else (GitHub Pages) hits Render.
+const LOCAL_HOSTS = ["localhost", "127.0.0.1"];
+const API_BASE = LOCAL_HOSTS.includes(location.hostname)
+  ? "http://127.0.0.1:8000"
+  : "https://bcgachaoptimizer.onrender.com";
+const API_TIMEOUT_MS = 90000; // Render's free tier can take a minute to wake up
+const API_SLOW_MS = 4000;     // after this long, tell the user the server may be waking
 
-  async optimize({ dataset, limit, targets }) {
-    await sleep(900);
-    return {
-      note: "Mock result. The real optimizer runs on the server.",
-      steps: [
-        `Dataset ${dataset}, up to ${limit} rolls`,
-        ...targets.map((t) => `Aim for: ${t}`),
-        "Single roll x3, then guaranteed 11 (placeholder route)",
-      ],
-    };
-  },
-};
+/** GET from the API. Throws with the server's detail message on a non-2xx reply. */
+async function apiGet(path, params, onSlow) {
+  const controller = new AbortController();
+  const slow = onSlow ? setTimeout(onSlow, API_SLOW_MS) : null;
+  const timeout = setTimeout(() => controller.abort(), API_TIMEOUT_MS);
+  try {
+    const res = await fetch(`${API_BASE}${path}?${new URLSearchParams(params)}`, { signal: controller.signal });
+    const body = await res.json().catch(() => null);
+    if (!res.ok) throw new Error((body && body.detail) || `Server error (${res.status}).`);
+    return body;
+  } catch (e) {
+    throw e.name === "AbortError" ? new Error("The server took too long to respond.") : e;
+  } finally {
+    if (slow) clearTimeout(slow);
+    clearTimeout(timeout);
+  }
+}
+
+// ---- Mock optimizer -------------------------------------------------------------
+// Stand-in for the server. Replace once the optimizer endpoint exists.
+async function mockOptimize({ dataset, limit, targets }) {
+  await new Promise((r) => setTimeout(r, 900));
+  return {
+    note: "Mock result. The real optimizer runs on the server.",
+    steps: [
+      `Dataset ${dataset}, up to ${limit} rolls`,
+      ...targets.map((t) => `Aim for: ${t}`),
+      "Single roll x3, then guaranteed 11 (placeholder route)",
+    ],
+  };
+}
 
 // ---- IndexedDB store --------------------------------------------------------
 const DB_NAME = "bc-route-planner";
@@ -63,7 +72,6 @@ const store = {
 
 // ---- Helpers ----------------------------------------------------------------
 const $ = (id) => document.getElementById(id);
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 function say(id, msg, kind = "") {
   const el = $(id);
@@ -83,20 +91,121 @@ function download(filename, text, type) {
   URL.revokeObjectURL(a.href);
 }
 
+/** Minimal RFC 4180 CSV parser: handles quoted fields, escaped "" and commas inside quotes. */
+function parseCsv(text) {
+  const rows = [];
+  let row = [];
+  let field = "";
+  let inQuotes = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inQuotes) {
+      if (c === '"' && text[i + 1] === '"') { field += '"'; i++; }
+      else if (c === '"') inQuotes = false;
+      else field += c;
+    } else if (c === '"') {
+      inQuotes = true;
+    } else if (c === ",") {
+      row.push(field); field = "";
+    } else if (c === "\n" || c === "\r") {
+      if (c === "\r" && text[i + 1] === "\n") i++;
+      row.push(field); field = "";
+      if (row.length > 1 || row[0] !== "") rows.push(row);
+      row = [];
+    } else {
+      field += c;
+    }
+  }
+  if (field !== "" || row.length) { row.push(field); rows.push(row); }
+  if (!rows.length) return [];
+  const header = rows[0];
+  return rows.slice(1).map((r) => Object.fromEntries(header.map((h, i) => [h, r[i] ?? ""])));
+}
+
+// ---- Roll viewer --------------------------------------------------------------
+// Mirrors bc.godfat.org's tracks table: one row per roll number, a column per
+// track (A/B) x (normal/guaranteed) pick, cells colored by rarity.
+const RARITY_LABEL = {
+  rare: "Rare", supa: "Super Rare", supa_fest: "Super Rare (fest)",
+  uber: "Uber Rare", uber_fest: "Uber Rare (fest)",
+  legend: "Legend Rare", legend_fest: "Legend Rare (fest)",
+};
+
+function pivotByRoll(cells) {
+  const rolls = new Map();
+  for (const c of cells) {
+    const roll = Number(c.roll);
+    if (!rolls.has(roll)) rolls.set(roll, {});
+    const track = rolls.get(roll);
+    if (!track[c.track]) track[c.track] = {};
+    track[c.track][c.guaranteed === "True" ? "guaranteed" : "normal"] = c;
+  }
+  return [...rolls.entries()].sort((a, b) => a[0] - b[0]);
+}
+
+function cellNode(cell) {
+  const td = document.createElement("td");
+  if (!cell || !cell.cat_name) { td.className = "roll-empty"; return td; }
+  const name = document.createElement("span");
+  name.className = "rarity-" + (cell.rarity || "none");
+  name.textContent = cell.cat_name;
+  name.title = RARITY_LABEL[cell.rarity] || cell.rarity || "";
+  td.append(name);
+  if (cell.link) {
+    const link = document.createElement("span");
+    link.className = "roll-link";
+    link.textContent = " " + cell.link;
+    td.append(link);
+  }
+  return td;
+}
+
+function renderRollViewer(csvText) {
+  const cells = parseCsv(csvText);
+  const container = $("viewer-table");
+  container.replaceChildren();
+  if (!cells.length) { container.textContent = "No rows to show."; return; }
+
+  const table = document.createElement("table");
+  table.className = "roll-table";
+  const thead = document.createElement("thead");
+  thead.innerHTML = "<tr><th>No.</th><th>A</th><th>A (guaranteed)</th><th>B</th><th>B (guaranteed)</th></tr>";
+  table.append(thead);
+
+  const tbody = document.createElement("tbody");
+  for (const [roll, tracks] of pivotByRoll(cells)) {
+    const tr = document.createElement("tr");
+    const no = document.createElement("td");
+    no.className = "roll-no";
+    no.textContent = roll;
+    tr.append(
+      no,
+      cellNode(tracks.A?.normal),
+      cellNode(tracks.A?.guaranteed),
+      cellNode(tracks.B?.normal),
+      cellNode(tracks.B?.guaranteed),
+    );
+    tbody.append(tr);
+  }
+  table.append(tbody);
+  container.append(table);
+}
+
 // ---- UI ---------------------------------------------------------------------
 async function refresh() {
   const items = await store.all();
   const list = $("dataset-list");
-  const select = $("opt-dataset");
+  const selects = [$("opt-dataset"), $("viewer-dataset")];
   list.replaceChildren();
-  select.replaceChildren();
+  selects.forEach((s) => s.replaceChildren());
 
   if (!items.length) {
     const li = document.createElement("li");
     li.className = "empty";
     li.textContent = "Nothing saved yet.";
     list.append(li);
-    select.append(new Option("(no data)", ""));
+    selects.forEach((s) => s.append(new Option("(no data)", "")));
+    $("viewer-table").replaceChildren();
     return;
   }
 
@@ -118,24 +227,36 @@ async function refresh() {
 
     li.append(info, del);
     list.append(li);
-    select.append(new Option(rec.id, rec.id));
+    selects.forEach((s) => s.append(new Option(rec.id, rec.id)));
   }
 }
 
 $("fetch-btn").addEventListener("click", async () => {
   const btn = $("fetch-btn");
+  const url = $("godfat-url").value.trim();
   btn.disabled = true;
   say("fetch-status", "Fetching...");
   try {
-    const rec = await api.fetchTracks($("godfat-url").value.trim());
-    await store.put({ ...rec, savedAt: Date.now() });
-    say("fetch-status", `Saved ${rec.id}.`, "ok");
+    const body = await apiGet("/tracks", { url }, () =>
+      say("fetch-status", "Still waiting. The server may be waking up, which can take up to a minute..."));
+    const rec = { id: `${body.meta.seed}_${body.meta.event}`, meta: body.meta, csv: body.csv, savedAt: Date.now() };
+    await store.put(rec);
+    say("fetch-status", `Saved ${rec.id} (${body.meta.cells} cells).`, "ok");
     refresh();
   } catch (e) {
     say("fetch-status", e.message || "Fetch failed.", "err");
   } finally {
     btn.disabled = false;
   }
+});
+
+$("viewer-btn").addEventListener("click", async () => {
+  const id = $("viewer-dataset").value;
+  if (!id) return say("viewer-status", "Save or import a dataset first.", "err");
+  const rec = (await store.all()).find((r) => r.id === id);
+  if (!rec) return say("viewer-status", "Dataset not found; it may have been deleted.", "err");
+  renderRollViewer(rec.csv);
+  say("viewer-status", `Showing ${id}.`, "ok");
 });
 
 $("export-btn").addEventListener("click", async () => {
@@ -185,7 +306,7 @@ $("opt-btn").addEventListener("click", async () => {
   btn.disabled = true;
   say("opt-status", "Running...");
   try {
-    const res = await api.optimize({ dataset, limit, targets });
+    const res = await mockOptimize({ dataset, limit, targets });
     say("opt-status", res.note, "ok");
     for (const step of res.steps) {
       const li = document.createElement("li");
@@ -200,14 +321,7 @@ $("opt-btn").addEventListener("click", async () => {
 });
 
 // ---- Meow (server connection test) -------------------------------------------
-// Local testing hits a local uvicorn; anywhere else (GitHub Pages) hits Render.
-const LOCAL_HOSTS = ["localhost", "127.0.0.1"];
-const API_BASE = LOCAL_HOSTS.includes(location.hostname)
-  ? "http://127.0.0.1:8000"
-  : "https://bcgachaoptimizer.onrender.com";
 const MEOW_MAX = 100;
-const MEOW_TIMEOUT_MS = 90000; // Render's free tier can take a minute to wake up
-const MEOW_SLOW_MS = 4000;     // after this long, tell the user the server may be waking
 
 $("meow-btn").addEventListener("click", async () => {
   const raw = $("meow-n").value.trim();
@@ -220,25 +334,13 @@ $("meow-btn").addEventListener("click", async () => {
   const btn = $("meow-btn");
   btn.disabled = true;
   say("meow-status", "Sending...");
-  const slow = setTimeout(
-    () => say("meow-status", "Still waiting. The server may be waking up, which can take up to a minute..."),
-    MEOW_SLOW_MS,
-  );
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), MEOW_TIMEOUT_MS);
-
   try {
-    const url = `${API_BASE}/meow?${new URLSearchParams({ n: raw })}`;
-    const res = await fetch(url, { signal: controller.signal });
-    if (!res.ok) throw new Error(`Server rejected the request (${res.status}).`);
-    out.value = await res.json();
+    out.value = await apiGet("/meow", { n: raw }, () =>
+      say("meow-status", "Still waiting. The server may be waking up, which can take up to a minute..."));
     say("meow-status", "Got a reply.", "ok");
   } catch (e) {
-    const msg = e.name === "AbortError" ? "The server took too long to respond." : e.message;
-    say("meow-status", msg || "Request failed.", "err");
+    say("meow-status", e.message || "Request failed.", "err");
   } finally {
-    clearTimeout(slow);
-    clearTimeout(timeout);
     btn.disabled = false;
   }
 });

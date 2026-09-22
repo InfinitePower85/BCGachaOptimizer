@@ -9,7 +9,7 @@
 <body>
   <header>
     <h1>BC Route Planner</h1>
-    <p class="sub">Companion to BC Godfat's seed tracker. Demo build: the server API isn't connected yet.</p>
+    <p class="sub">Companion to BC Godfat's seed tracker. Demo build: the optimizer isn't connected yet.</p>
   </header>
 
   <main>
@@ -24,7 +24,20 @@
     </section>
 
     <section class="card">
-      <h2>2. Your saved data</h2>
+      <h2>2. Roll viewer</h2>
+      <p class="hint">One row per roll number, A/B tracks side by side. Colors follow BC Godfat's rarity scheme.</p>
+      <div class="row">
+        <label class="inline">Dataset
+          <select id="viewer-dataset"></select>
+        </label>
+        <button id="viewer-btn">View</button>
+      </div>
+      <p id="viewer-status" class="status" role="status"></p>
+      <div id="viewer-table" class="roll-viewer"></div>
+    </section>
+
+    <section class="card">
+      <h2>3. Your saved data</h2>
       <p class="hint">Stored in this browser only (IndexedDB). Export it as a backup, and import it on another device or after clearing browser data.</p>
       <ul id="dataset-list" class="datasets"></ul>
       <div class="row">
@@ -38,7 +51,7 @@
     </section>
 
     <section class="card">
-      <h2>3. Optimize</h2>
+      <h2>4. Optimize</h2>
       <p class="hint">Find the route that collects the most target units within a roll limit.</p>
       <div class="grid">
         <label>Dataset

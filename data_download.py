@@ -23,6 +23,7 @@ Files under data/seed_tracks/ (gitignored, since seeds are personal):
 import argparse
 import csv
 import hashlib
+import io
 import json
 import re
 import sys
@@ -34,6 +35,7 @@ from urllib.parse import parse_qs, urlencode, urlparse
 import requests
 
 SEED_TRACKS_DIR = Path(__file__).parent / "data" / "seed_tracks"  # per-user seed data; gitignored
+TRACKS_CSV_FIELDS = ["position", "roll", "track", "guaranteed", "cat_id", "cat_name", "rarity", "link"]
 CACHE_MAX_AGE = 24 * 60 * 60   # seconds a cached page counts as fresh
 MAX_FETCHES_PER_HOUR = 10      # cap on real requests (--force bypasses it)
 RATE_WINDOW = 60 * 60          # seconds; the rolling window the cap applies to
@@ -111,7 +113,7 @@ def check_and_record_fetch(url, now, enforce=True):
     request BEFORE it is made, so a failed or interrupted request still counts."""
     recent = recent_fetches(now)
     if enforce and len(recent) >= MAX_FETCHES_PER_HOUR:
-        wait = int(recent[0] + RATE_WINDOW - now) + 1
+        wait = int(recent[0] + RATE_WINDOW - now) + 1 if recent else RATE_WINDOW
         raise RateLimitError(
             f"Hourly limit reached ({MAX_FETCHES_PER_HOUR} requests in the last hour). "
             f"Next slot opens in about {wait // 60 + 1} minute(s)."
@@ -212,6 +214,31 @@ def download(url, force=False):
     return resp.text
 
 
+def cells_to_csv(cells):
+    """Serialize parsed cells to CSV text (one row per cell, TRACKS_CSV_FIELDS header)."""
+    buf = io.StringIO()
+    writer = csv.DictWriter(buf, fieldnames=TRACKS_CSV_FIELDS)
+    writer.writeheader()
+    writer.writerows(cells)
+    return buf.getvalue()
+
+
+def build_meta(seed, event_id, event_name, source_url, fetched_at, cell_count):
+    return {
+        "seed": seed,
+        "event": event_id,
+        "banner": event_name,
+        "source_url": source_url,
+        "fetched_at": fetched_at,
+        "cells": cell_count,
+    }
+
+
+def fetched_at_of(url):
+    """Local timestamp of the cached page for url (set on write, so this is fetch time)."""
+    return time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime(cache_path(url).stat().st_mtime))
+
+
 def main():
     sys.stdout.reconfigure(errors="replace")  # banner names contain symbols the Windows console can't print
     ap = argparse.ArgumentParser(description="Download a gacha banner's tracks from BC Godfat.")
@@ -236,20 +263,10 @@ def main():
 
     out_dir = SEED_TRACKS_DIR / query["seed"][0] / event_id
     out_dir.mkdir(parents=True, exist_ok=True)
-    fields = ["position", "roll", "track", "guaranteed", "cat_id", "cat_name", "rarity", "link"]
     with open(out_dir / "tracks.csv", "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=fields)
-        w.writeheader()
-        w.writerows(cells)
+        f.write(cells_to_csv(cells))
 
-    meta = {
-        "seed": query["seed"][0],
-        "event": event_id,
-        "banner": event_name,
-        "source_url": args.url,
-        "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime(cache_path(args.url).stat().st_mtime)),
-        "cells": len(cells),
-    }
+    meta = build_meta(query["seed"][0], event_id, event_name, args.url, fetched_at_of(args.url), len(cells))
     (out_dir / "meta.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
     print(f"Banner: {event_name}")
     print(f"Wrote {len(cells)} cells to {out_dir}")

@@ -115,4 +115,43 @@ button:disabled { opacity: 0.5; cursor: default; }
 .row label.inline { flex: 0 1 220px; }
 #meow-out { margin-top: 8px; resize: vertical; }
 
+/* Roll viewer: rarity colors copied from bc.godfat.org's own scheme, which assumes
+   a dark surface, so the table keeps that surface regardless of page theme. */
+.roll-viewer {
+  --rare: #ffffff;
+  --supa: #ffd700;
+  --supa_fest: #ffff66;
+  --uber: #ff4d4d;
+  --uber_fest: #ff9a76;
+  --legend: #b388ff;
+  --legend_fest: #d8a56f;
+  overflow-x: auto;
+}
+.roll-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1b1e24;
+  color: #cdd3db;
+  font-size: 0.85rem;
+}
+.roll-table th, .roll-table td {
+  border: 1px solid #333944;
+  padding: 6px 8px;
+  text-align: left;
+  white-space: nowrap;
+}
+.roll-table th { background: #12151a; font-weight: 600; }
+.roll-table .roll-no { color: #7c8697; text-align: center; }
+.roll-table .roll-empty { color: #4b5261; }
+.roll-table .roll-link { color: #7c8697; font-size: 0.8em; }
+
+.rarity-rare { color: var(--rare); }
+.rarity-supa { color: var(--supa); }
+.rarity-supa_fest { color: var(--supa_fest); }
+.rarity-uber { color: var(--uber); font-weight: 600; }
+.rarity-uber_fest { color: var(--uber_fest); font-weight: 600; }
+.rarity-legend { color: var(--legend); font-weight: 600; }
+.rarity-legend_fest { color: var(--legend_fest); font-weight: 600; }
+.rarity-none { color: inherit; }
+
 footer { padding-top: 8px; padding-bottom: 32px; font-size: 0.85rem; }
