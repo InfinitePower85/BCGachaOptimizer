@@ -135,6 +135,12 @@ button:disabled { opacity: 0.5; cursor: default; }
   font-weight: 600;
   color: var(--muted);
 }
+.select-all-btn {
+  display: block;
+  margin: 2px 0 6px;
+  padding: 3px 8px;
+  font-size: 0.75rem;
+}
 .target-checkbox {
   display: flex;
   flex-direction: row;

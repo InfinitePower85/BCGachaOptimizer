@@ -329,6 +329,18 @@ function renderTargetGroups(rarities) {
     const legend = document.createElement("legend");
     legend.textContent = group.rarity || "Unknown rarity";
     fieldset.append(legend);
+
+    const selectAllBtn = document.createElement("button");
+    selectAllBtn.type = "button"; // not "submit": this isn't inside a <form>, but stay explicit
+    selectAllBtn.className = "select-all-btn secondary";
+    fieldset.append(selectAllBtn);
+
+    const checkboxes = [];
+    const updateSelectAllLabel = () => {
+      const allChecked = checkboxes.every((cb) => cb.checked);
+      selectAllBtn.textContent = allChecked ? "Deselect all" : "Select all";
+    };
+
     for (const unit of group.units) {
       // Everything (checkbox, icon, name) lives inside one <label>, so clicking the
       // icon toggles the checkbox exactly like clicking the name does.
@@ -338,6 +350,8 @@ function renderTargetGroups(rarities) {
       cb.type = "checkbox";
       cb.value = unit.name;
       cb.checked = checked.has(unit.name);
+      cb.addEventListener("change", updateSelectAllLabel);
+      checkboxes.push(cb);
       label.append(cb);
 
       if (unit.icon) {
@@ -359,6 +373,16 @@ function renderTargetGroups(rarities) {
 
       fieldset.append(label);
     }
+
+    // Toggles based on current state: select every box in this group, unless they're
+    // all already checked, in which case it clears the group instead.
+    selectAllBtn.addEventListener("click", () => {
+      const nextChecked = !checkboxes.every((cb) => cb.checked);
+      checkboxes.forEach((cb) => { cb.checked = nextChecked; });
+      updateSelectAllLabel();
+    });
+    updateSelectAllLabel();
+
     container.append(fieldset);
   }
 }
