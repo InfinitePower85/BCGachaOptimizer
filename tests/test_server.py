@@ -285,6 +285,14 @@ OPTIMIZE_CSV = (
     "2A,2,A,False,2,Target,rare,\n"
 )
 
+# A pool with a guaranteed-11 that's the only way to reach "UberOnly", for max_elevens tests.
+OPTIMIZE_CSV_WITH_ELEVEN = (
+    "position,roll,track,guaranteed,cat_id,cat_name,rarity,link\n"
+    + "".join(f"{r}A,{r},A,False,,c{r},rare,\n" for r in range(1, 11))
+    + "1AG,1,A,True,,UberOnly,uber,-> 11B\n"
+    + "11B,11,B,False,,JunkB,rare,\n"
+)
+
 
 def test_optimize_returns_score_and_route():
     response = client.post("/optimize", json={
@@ -294,10 +302,36 @@ def test_optimize_returns_score_and_route():
     body = response.json()
     assert body["score"] == 1
     assert body["collected"] == ["Target"]
+    assert body["elevens_used"] == 0
     assert body["route"] == [
         {"type": "single", "track": "A", "roll": 1, "units": ["Junk"]},
         {"type": "single", "track": "A", "roll": 2, "units": ["Target"]},
     ]
+
+
+def test_optimize_max_elevens_none_by_default_is_unlimited():
+    response = client.post("/optimize", json={
+        "csv": OPTIMIZE_CSV_WITH_ELEVEN, "target_units": ["UberOnly"], "max_rolls": 12,
+    })
+    body = response.json()
+    assert body["score"] == 1
+    assert body["elevens_used"] == 1
+
+
+def test_optimize_max_elevens_caps_guaranteed_elevens():
+    response = client.post("/optimize", json={
+        "csv": OPTIMIZE_CSV_WITH_ELEVEN, "target_units": ["UberOnly"], "max_rolls": 12, "max_elevens": 0,
+    })
+    body = response.json()
+    assert body["score"] == 0
+    assert body["elevens_used"] == 0
+
+
+def test_optimize_rejects_negative_max_elevens():
+    response = client.post("/optimize", json={
+        "csv": OPTIMIZE_CSV, "target_units": ["Target"], "max_rolls": 3, "max_elevens": -1,
+    })
+    assert response.status_code == 422
 
 
 def test_optimize_defaults_start_track_and_roll():

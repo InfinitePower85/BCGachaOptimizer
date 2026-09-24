@@ -446,6 +446,17 @@ $("opt-btn").addEventListener("click", async () => {
   if (!targets.length) return say("opt-status", "Check at least one target unit.", "err");
   if (targets.length > OPT_MAX_TARGETS) return say("opt-status", `At most ${OPT_MAX_TARGETS} target units.`, "err");
 
+  // Blank means unlimited (sent as null); otherwise a whole number >= 0, matching the
+  // server's max_elevens: int | None = Field(ge=0, default=None).
+  const maxElevensRaw = $("opt-max-elevens").value.trim();
+  let maxElevens = null;
+  if (maxElevensRaw !== "") {
+    maxElevens = Number(maxElevensRaw);
+    if (!Number.isInteger(maxElevens) || maxElevens < 0) {
+      return say("opt-status", "Max 11-draws must be a whole number 0 or greater (or blank for unlimited).", "err");
+    }
+  }
+
   const rec = (await store.all()).find((r) => r.id === datasetId);
   if (!rec) return say("opt-status", "Dataset not found; it may have been deleted.", "err");
 
@@ -455,10 +466,13 @@ $("opt-btn").addEventListener("click", async () => {
   try {
     const res = await apiCall("/optimize", {
       method: "POST",
-      body: { csv: rec.csv, target_units: targets, max_rolls: limit },
+      body: { csv: rec.csv, target_units: targets, max_rolls: limit, max_elevens: maxElevens },
       onSlow: () => say("opt-status", "Still waiting. The server may be waking up, which can take up to a minute..."),
     });
-    say("opt-status", `Found ${res.score} of ${targets.length} target unit(s).`, "ok");
+    const elevensNote = maxElevens === null
+      ? `${res.elevens_used} guaranteed-11(s) used`
+      : `${res.elevens_used}/${maxElevens} guaranteed-11(s) used`;
+    say("opt-status", `Found ${res.score} of ${targets.length} target unit(s), ${elevensNote}.`, "ok");
     for (const step of res.route) {
       const li = document.createElement("li");
       const kind = step.type === "guaranteed_eleven" ? "Guaranteed 11" : "Single roll";

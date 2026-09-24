@@ -138,6 +138,7 @@ class OptimizeRequest(BaseModel):
     max_rolls: int = Field(ge=1, le=MAX_ROLL_LIMIT)
     start_track: Literal["A", "B"] = "A"
     start_roll: int = Field(ge=1, default=1)
+    max_elevens: int | None = Field(ge=0, default=None)  # None: unlimited guaranteed-11s
 
 
 @app.post("/optimize")
@@ -151,5 +152,8 @@ def optimize(req: OptimizeRequest) -> dict:
         raise HTTPException(status_code=400, detail=f"Could not parse csv: {e}")
 
     result = solve(pool, set(req.target_units), req.max_rolls,
-                    start_track=req.start_track, start_roll=req.start_roll)
-    return {"score": result.score, "collected": result.collected, "route": result.route}
+                    start_track=req.start_track, start_roll=req.start_roll, max_elevens=req.max_elevens)
+    return {
+        "score": result.score, "collected": result.collected, "route": result.route,
+        "elevens_used": result.elevens_used,
+    }
