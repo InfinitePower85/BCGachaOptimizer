@@ -45,6 +45,8 @@ h2 { margin: 0 0 4px; font-size: 1.1rem; }
 .sub, .hint, footer { color: var(--muted); }
 .sub { margin: 4px 0 20px; }
 .hint { margin: 0 0 12px; font-size: 0.9rem; }
+.hint.banner { font-style: italic; margin-top: -4px; }
+.hint.banner:empty { display: none; }
 
 .card {
   background: var(--card);
@@ -107,6 +109,7 @@ button:disabled { opacity: 0.5; cursor: default; }
 }
 .datasets .name { overflow-wrap: anywhere; }
 .datasets .meta { color: var(--muted); font-size: 0.85rem; }
+.datasets .banner { font-style: italic; overflow-wrap: anywhere; }
 .datasets .empty { color: var(--muted); border: 0; }
 .datasets button { padding: 4px 10px; font-size: 0.85rem; }
 

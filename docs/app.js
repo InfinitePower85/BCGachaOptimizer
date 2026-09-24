@@ -71,6 +71,16 @@ function say(id, msg, kind = "") {
   el.className = "status " + kind;
 }
 
+/** Show a dataset's banner name in a reserved <p id="...">, or clear it if there isn't one. */
+function showBanner(id, banner) {
+  $(id).textContent = banner ? `Banner: ${banner}` : "";
+}
+
+/** Look up a saved dataset record by id (the value of a #*-dataset <select>). */
+async function findDataset(id) {
+  return id ? (await store.all()).find((r) => r.id === id) : undefined;
+}
+
 function countRows(csv) {
   return Math.max(0, csv.trim().split(/\r?\n/).length - 1);
 }
@@ -198,6 +208,8 @@ async function refresh() {
     list.append(li);
     selects.forEach((s) => s.append(new Option("(no data)", "")));
     $("viewer-table").replaceChildren();
+    showBanner("viewer-banner", "");
+    showBanner("opt-dataset-banner", "");
     return;
   }
 
@@ -211,6 +223,12 @@ async function refresh() {
     meta.className = "meta";
     meta.textContent = `${countRows(rec.csv)} rows, saved ${new Date(rec.savedAt).toLocaleString()}`;
     info.append(name, meta);
+    if (rec.meta?.banner) {
+      const banner = document.createElement("div");
+      banner.className = "meta banner";
+      banner.textContent = rec.meta.banner;
+      info.append(banner);
+    }
 
     const del = document.createElement("button");
     del.className = "secondary";
@@ -221,6 +239,11 @@ async function refresh() {
     list.append(li);
     selects.forEach((s) => s.append(new Option(rec.id, rec.id)));
   }
+
+  // Selects default to their first option; reflect that option's banner right away
+  // rather than waiting for the user to explicitly change the selection.
+  onViewerDatasetChange();
+  onOptDatasetChange();
 }
 
 $("fetch-btn").addEventListener("click", async () => {
@@ -228,12 +251,14 @@ $("fetch-btn").addEventListener("click", async () => {
   const url = $("godfat-url").value.trim();
   btn.disabled = true;
   say("fetch-status", "Fetching...");
+  showBanner("fetch-banner", "");
   try {
     const body = await apiGet("/tracks", { url }, () =>
       say("fetch-status", "Still waiting. The server may be waking up, which can take up to a minute..."));
     const rec = { id: `${body.meta.seed}_${body.meta.event}`, meta: body.meta, csv: body.csv, savedAt: Date.now() };
     await store.put(rec);
     say("fetch-status", `Saved ${rec.id} (${body.meta.cells} cells).`, "ok");
+    showBanner("fetch-banner", body.meta.banner);
     refresh();
     suggestEventFromBanner(body.meta.banner);
   } catch (e) {
@@ -389,6 +414,23 @@ async function suggestEventFromBanner(bannerText) {
     // best-effort only
   }
 }
+
+// Both dataset <select>s show only the id (seed_eventid, e.g. "1651985299_2026-09-28_1081"),
+// since a banner's full text doesn't fit well in an <option>. These look the record back
+// up on each change and show its meta.banner in a reserved <p id="*-banner"> instead.
+async function onViewerDatasetChange() {
+  const rec = await findDataset($("viewer-dataset").value);
+  showBanner("viewer-banner", rec?.meta?.banner);
+}
+
+async function onOptDatasetChange() {
+  const rec = await findDataset($("opt-dataset").value);
+  showBanner("opt-dataset-banner", rec?.meta?.banner);
+  suggestEventFromBanner(rec?.meta?.banner);
+}
+
+$("viewer-dataset").addEventListener("change", onViewerDatasetChange);
+$("opt-dataset").addEventListener("change", onOptDatasetChange);
 
 $("opt-event").addEventListener("change", (ev) => loadGachaUnits(ev.target.value));
 loadGachaEvents();
