@@ -13,7 +13,14 @@ import random
 
 import pytest
 
-from route_optimizer import Pool, parse_pool, solve, solve_from_csv
+from route_optimizer import (
+    Pool,
+    min_elevens_for_full_collection,
+    min_rolls_for_full_collection,
+    parse_pool,
+    solve,
+    solve_from_csv,
+)
 
 FIELDS = ["position", "roll", "track", "guaranteed", "cat_id", "cat_name", "rarity", "link"]
 
@@ -239,3 +246,170 @@ def test_matches_brute_force_on_random_small_pools(seed):
     expected = brute_force_best(pool, targets, max_rolls)
     actual = solve(pool, targets, max_rolls).score
     assert actual == expected
+
+
+# ---------- solve(): max_elevens ----------
+
+def test_elevens_used_counts_guaranteed_eleven_steps():
+    rows = [normal_row("A", r, f"c{r}") for r in range(1, 11)]
+    rows += [guaranteed_row("A", 1, "Uber", "-> 11B")]
+    rows += [normal_row("B", 11, "Target")]
+    pool = parse_pool(make_csv(rows))
+    result = solve(pool, {"Target"}, max_rolls=12, start_track="A", start_roll=1)
+    assert result.elevens_used == 1
+    assert sum(1 for s in result.route if s["type"] == "guaranteed_eleven") == 1
+
+
+def test_single_roll_only_route_has_zero_elevens_used():
+    pool = straight_pool("A", ["Target"])
+    result = solve(pool, {"Target"}, max_rolls=2, start_track="A", start_roll=1)
+    assert result.elevens_used == 0
+
+
+def test_max_elevens_zero_blocks_a_target_only_reachable_via_a_guaranteed_eleven():
+    # same pool as test_guaranteed_eleven_is_taken_when_it_reaches_an_otherwise_unreachable_target
+    rows = [normal_row("A", r, f"junkA{r}") for r in range(1, 10)]
+    rows += [normal_row("A", 10, "junkA10")]
+    rows += [guaranteed_row("A", 1, "UberOnly", "-> 11B")]
+    rows += [normal_row("B", 11, "junkB11")]
+    pool = parse_pool(make_csv(rows))
+
+    unlimited = solve(pool, {"UberOnly"}, max_rolls=12, start_track="A", start_roll=1)
+    capped = solve(pool, {"UberOnly"}, max_rolls=12, start_track="A", start_roll=1, max_elevens=0)
+    assert unlimited.score == 1
+    assert capped.score == 0
+    assert capped.elevens_used == 0
+
+
+def test_max_elevens_caps_a_chain_of_two_guaranteed_elevens():
+    # A's guaranteed-11 (only way onto track B) must be used before B's guaranteed-11
+    # (the only way to draw Target) becomes reachable -- two elevens are required.
+    rows = [normal_row("A", r, f"a{r}") for r in range(1, 11)]
+    rows += [guaranteed_row("A", 1, "UberA", "-> 11B")]
+    rows += [normal_row("B", r, f"b{r}") for r in range(11, 21)]
+    rows += [guaranteed_row("B", 11, "Target", "-> 21A")]
+    rows += [normal_row("A", 21, "a21")]
+    pool = parse_pool(make_csv(rows))
+
+    one = solve(pool, {"Target"}, max_rolls=22, start_track="A", start_roll=1, max_elevens=1)
+    two = solve(pool, {"Target"}, max_rolls=22, start_track="A", start_roll=1, max_elevens=2)
+    assert one.score == 0
+    assert two.score == 1
+    assert two.elevens_used == 2
+
+
+@pytest.mark.parametrize("seed", range(15))
+def test_max_elevens_matches_brute_force_on_random_small_pools(seed):
+    rng = random.Random(seed)
+    pool, names = random_pool(rng)
+    targets = set(rng.sample(names, k=3))
+    max_rolls = rng.randint(3, 14)
+    max_elevens = rng.randint(0, 2)
+    expected = brute_force_best_capped(pool, targets, max_rolls, max_elevens)
+    actual = solve(pool, targets, max_rolls, max_elevens=max_elevens).score
+    assert actual == expected
+
+
+def brute_force_best_capped(pool, target_units, max_rolls, max_elevens, start_track="A", start_roll=1):
+    """Unmemoized reference search that also respects a guaranteed-11 cap, for
+    cross-checking solve()'s max_elevens against brute_force_best()'s uncapped search."""
+    best = 0
+
+    def recurse(track, roll, collected, elevens_used):
+        nonlocal best
+        best = max(best, len(collected))
+        if roll >= max_rolls:
+            return
+        if pool.has_single(track, roll):
+            cell = pool.normal[track][roll]
+            nxt = collected | {cell.cat_name} if cell.cat_name in target_units else collected
+            recurse(track, roll + 1, nxt, elevens_used)
+        if elevens_used < max_elevens and pool.has_guaranteed_eleven(track, roll):
+            picks = [pool.normal[track][roll + i].cat_name for i in range(10)]
+            picks.append(pool.guaranteed[track][roll].cat_name)
+            nxt = collected | ({p for p in picks if p in target_units})
+            dest_track, dest_roll = pool.guaranteed[track][roll].link_target
+            recurse(dest_track, dest_roll, nxt, elevens_used + 1)
+
+    recurse(start_track, start_roll, frozenset(), 0)
+    return best
+
+
+# ---------- min_rolls_for_full_collection ----------
+
+def test_min_rolls_for_full_collection_finds_the_minimum():
+    pool = straight_pool("A", ["Junk", "Target1", "Junk", "Junk", "Target2", "Junk", "Junk"])
+    targets = {"Target1", "Target2"}
+    min_rolls, result = min_rolls_for_full_collection(pool, targets, start_track="A", start_roll=1)
+
+    assert min_rolls is not None
+    assert result.score == 2
+    assert sorted(result.collected) == sorted(targets)
+    # it's really the minimum: one fewer roll can't collect everything...
+    assert solve(pool, targets, max_rolls=min_rolls - 1, start_track="A", start_roll=1).score < 2
+    # ...but this many can, matching what min_rolls_for_full_collection reported.
+    assert solve(pool, targets, max_rolls=min_rolls, start_track="A", start_roll=1).score == 2
+
+
+def test_min_rolls_for_full_collection_none_when_unreachable():
+    pool = straight_pool("A", ["Junk", "Junk2"])
+    min_rolls, result = min_rolls_for_full_collection(pool, {"Nowhere"}, start_track="A", start_roll=1)
+    assert (min_rolls, result) == (None, None)
+
+
+def test_min_rolls_for_full_collection_zero_targets_needs_no_rolls():
+    pool = straight_pool("A", ["Junk"])
+    min_rolls, result = min_rolls_for_full_collection(pool, set(), start_track="A", start_roll=1)
+    assert min_rolls == 1  # start_roll itself: no action is ever needed
+    assert result.score == 0
+    assert result.route == []
+
+
+def test_min_rolls_for_full_collection_respects_max_elevens():
+    # same "two chained elevens" pool as the max_elevens solve() test above
+    rows = [normal_row("A", r, f"a{r}") for r in range(1, 11)]
+    rows += [guaranteed_row("A", 1, "UberA", "-> 11B")]
+    rows += [normal_row("B", r, f"b{r}") for r in range(11, 21)]
+    rows += [guaranteed_row("B", 11, "Target", "-> 21A")]
+    rows += [normal_row("A", 21, "a21")]
+    pool = parse_pool(make_csv(rows))
+
+    blocked = min_rolls_for_full_collection(pool, {"Target"}, max_elevens=1, max_rolls_cap=22)
+    allowed = min_rolls_for_full_collection(pool, {"Target"}, max_elevens=2, max_rolls_cap=22)
+    assert blocked == (None, None)
+    assert allowed[0] is not None
+    assert allowed[1].score == 1
+
+
+# ---------- min_elevens_for_full_collection ----------
+
+def test_min_elevens_for_full_collection_finds_the_minimum():
+    rows = [normal_row("A", r, f"a{r}") for r in range(1, 11)]
+    rows += [guaranteed_row("A", 1, "UberA", "-> 11B")]
+    rows += [normal_row("B", r, f"b{r}") for r in range(11, 21)]
+    rows += [guaranteed_row("B", 11, "Target", "-> 21A")]
+    rows += [normal_row("A", 21, "a21")]
+    pool = parse_pool(make_csv(rows))
+
+    min_elevens, result = min_elevens_for_full_collection(pool, {"Target"}, max_rolls=22)
+    assert min_elevens == 2
+    assert result.score == 1
+    assert result.elevens_used == 2
+
+
+def test_min_elevens_for_full_collection_zero_when_single_rolls_suffice():
+    pool = straight_pool("A", ["Junk", "Target"])
+    min_elevens, result = min_elevens_for_full_collection(pool, {"Target"}, max_rolls=5)
+    assert min_elevens == 0
+    assert result.score == 1
+
+
+def test_min_elevens_for_full_collection_none_when_unreachable_within_max_rolls():
+    rows = [normal_row("A", r, f"a{r}") for r in range(1, 11)]
+    rows += [guaranteed_row("A", 1, "UberA", "-> 11B")]
+    rows += [normal_row("B", r, f"b{r}") for r in range(11, 21)]
+    rows += [guaranteed_row("B", 11, "Target", "-> 21A")]
+    pool = parse_pool(make_csv(rows))
+    # max_rolls too small to ever reach B's guaranteed-11 at all, regardless of elevens allowed
+    min_elevens, result = min_elevens_for_full_collection(pool, {"Target"}, max_rolls=5)
+    assert (min_elevens, result) == (None, None)

@@ -30,6 +30,24 @@ the current global best would memoize a possibly-underestimated value, which a d
 unrelated caller could then reuse incorrectly. So this is memoization-only -- correct and
 simple. If it's ever too slow for very large target lists, that's the next thing to add
 (likely as an incumbent-tracking traversal instead of a bottom-up memoized one).
+
+solve() optionally takes max_elevens, capping how many guaranteed-11s the route may use
+in total. It's tracked as a fourth memo dimension, (track, roll, mask, elevens_used):
+raising the cap only ever *adds* an available action at some states (the branch is
+skipped once elevens_used == max_elevens, same "extra" gate as the roll < max_rolls one),
+so it's a strict superset/subset relationship on the reachable-state and action space,
+same as max_rolls -- score(..., max_rolls, max_elevens) is monotonic non-decreasing in
+EACH of max_rolls and max_elevens individually, with the other held fixed. That's what
+justifies the two binary-search helpers below.
+
+It's important that it's "each individually, other held fixed" and not a single joint
+minimum: rolls and elevens are two independent resources, and there is in general a real
+trade-off frontier between them (e.g. full collection might need either 90 rolls with 5
+elevens, or 120 rolls with 2, or 200 rolls with 0) rather than one dominant answer. So
+"minimum rolls needed" and "minimum elevens needed" are two separate questions, each
+answered with the *other* pinned to a specific value (or left unlimited) --
+min_rolls_for_full_collection() and min_elevens_for_full_collection() below, not a single
+"minimize both."
 """
 
 import csv
@@ -101,27 +119,32 @@ class OptimizationResult:
     score: int              # number of distinct target units collected
     collected: list         # their names
     route: list              # ordered list of steps taken, each a dict
+    elevens_used: int = 0    # number of guaranteed-11 steps in route
 
 
-def solve(pool, target_units, max_rolls, start_track="A", start_roll=1):
+def solve(pool, target_units, max_rolls, start_track="A", start_roll=1, max_elevens=None):
     """Find the best route. Returns an OptimizationResult.
 
     max_rolls bounds the *roll number reached*, matching how bc.godfat.org numbers
     positions (a guaranteed-11 advances the position by ~10-11, consistent with it
     drawing 11 units) -- not a separate ticket/cat-food currency budget.
+
+    max_elevens, if given, caps how many guaranteed-11s the route may use in total
+    (unlimited if None/omitted, the default). See the module docstring for why this and
+    max_rolls are two independent resources, not one.
     """
     targets = sorted(target_units)
     bit_of = {name: 1 << i for i, name in enumerate(targets)}
 
-    memo = {}  # (track, roll, mask) -> (score, action)  action is None or a step dict
+    memo = {}  # (track, roll, mask, elevens_used) -> (score, action)  action is None or a step dict
 
     def gained_mask(mask, names):
         for name in names:
             mask |= bit_of.get(name, 0)
         return mask
 
-    def visit(track, roll, mask):
-        key = (track, roll, mask)
+    def visit(track, roll, mask, elevens_used):
+        key = (track, roll, mask, elevens_used)
         cached = memo.get(key)
         if cached is not None:
             return cached
@@ -131,19 +154,20 @@ def solve(pool, target_units, max_rolls, start_track="A", start_roll=1):
         if roll < max_rolls and pool.has_single(track, roll):
             cell = pool.normal[track][roll]
             new_mask = gained_mask(mask, [cell.cat_name])
-            sub_score, _ = visit(track, roll + 1, new_mask)
+            sub_score, _ = visit(track, roll + 1, new_mask, elevens_used)
             if sub_score > best[0]:
                 best = (sub_score, {
                     "type": "single", "track": track, "roll": roll,
                     "units": [cell.cat_name], "next": (track, roll + 1),
                 })
 
-        if roll < max_rolls and pool.has_guaranteed_eleven(track, roll):
+        eleven_allowed = max_elevens is None or elevens_used < max_elevens
+        if eleven_allowed and roll < max_rolls and pool.has_guaranteed_eleven(track, roll):
             picks = [pool.normal[track][roll + i].cat_name for i in range(10)]
             picks.append(pool.guaranteed[track][roll].cat_name)
             new_mask = gained_mask(mask, picks)
             dest_track, dest_roll = pool.guaranteed[track][roll].link_target
-            sub_score, _ = visit(dest_track, dest_roll, new_mask)
+            sub_score, _ = visit(dest_track, dest_roll, new_mask, elevens_used + 1)
             if sub_score > best[0]:
                 best = (sub_score, {
                     "type": "guaranteed_eleven", "track": track, "roll": roll,
@@ -153,22 +177,106 @@ def solve(pool, target_units, max_rolls, start_track="A", start_roll=1):
         memo[key] = best
         return best
 
-    final_score, _ = visit(start_track, start_roll, 0)
+    final_score, _ = visit(start_track, start_roll, 0, 0)
 
     route = []
-    track, roll, mask = start_track, start_roll, 0
+    track, roll, mask, elevens_used = start_track, start_roll, 0, 0
     while True:
-        _, action = memo[(track, roll, mask)]
+        _, action = memo[(track, roll, mask, elevens_used)]
         if action is None:
             break
         route.append({"type": action["type"], "track": action["track"],
                        "roll": action["roll"], "units": action["units"]})
         mask = gained_mask(mask, action["units"])
+        if action["type"] == "guaranteed_eleven":
+            elevens_used += 1
         track, roll = action["next"]
 
     collected = [name for name in targets if mask & bit_of[name]]
-    return OptimizationResult(score=final_score, collected=collected, route=route)
+    used = sum(1 for step in route if step["type"] == "guaranteed_eleven")
+    return OptimizationResult(score=final_score, collected=collected, route=route, elevens_used=used)
 
 
 def solve_from_csv(csv_text, target_units, max_rolls, **kwargs):
     return solve(parse_pool(csv_text), target_units, max_rolls, **kwargs)
+
+
+def _pool_extent(pool):
+    """The highest roll number appearing anywhere in the pool (either track, normal or
+    guaranteed cells). Used as a default upper bound below -- there's nothing to gain by
+    searching past it."""
+    rolls = [roll for track in TRACKS for cells in (pool.normal[track], pool.guaranteed[track]) for roll in cells]
+    return max(rolls, default=0)
+
+
+def min_rolls_for_full_collection(pool, target_units, max_elevens=None, max_rolls_cap=None,
+                                   start_track="A", start_roll=1):
+    """Binary search for the fewest rolls needed to collect every target unit, with
+    max_elevens held fixed (unlimited if None). Returns (min_rolls, OptimizationResult),
+    or (None, None) if even max_rolls_cap rolls (default: the highest roll number
+    anywhere in the pool) isn't enough.
+
+    Valid because score(max_rolls, max_elevens) is monotonic non-decreasing in max_rolls
+    for any fixed max_elevens (see the module docstring) -- so "does this roll count
+    collect everything" is a step function that only turns from False to True once, and
+    binary search finds that point in O(log max_rolls_cap) calls to solve() instead of a
+    linear scan.
+    """
+    targets = set(target_units)
+    if max_rolls_cap is None:
+        max_rolls_cap = _pool_extent(pool) + 1
+
+    def try_rolls(r):
+        result = solve(pool, targets, r, start_track=start_track, start_roll=start_roll, max_elevens=max_elevens)
+        return result if result.score == len(targets) else None
+
+    best = try_rolls(max_rolls_cap)
+    if best is None:
+        return None, None  # not achievable even with the most rolls we're willing to try
+
+    lo, hi = start_roll, max_rolls_cap
+    while lo < hi:
+        mid = (lo + hi) // 2
+        candidate = try_rolls(mid)
+        if candidate is not None:
+            hi = mid
+            best = candidate
+        else:
+            lo = mid + 1
+    return hi, best
+
+
+def min_elevens_for_full_collection(pool, target_units, max_rolls, max_elevens_cap=None,
+                                     start_track="A", start_roll=1):
+    """Binary search for the fewest guaranteed-11s needed to collect every target unit,
+    with max_rolls held fixed. Returns (min_elevens, OptimizationResult), or
+    (None, None) if even max_elevens_cap elevens (default: max_rolls, always more than
+    could ever usefully be needed) isn't enough within max_rolls.
+
+    Valid for the same reason as min_rolls_for_full_collection(): score is monotonic
+    non-decreasing in max_elevens for any fixed max_rolls too (allowing one more
+    guaranteed-11 only ever adds an available action, never removes one -- the search
+    can always just choose not to use it), so the same binary search applies here.
+    """
+    targets = set(target_units)
+    if max_elevens_cap is None:
+        max_elevens_cap = max_rolls
+
+    def try_elevens(x):
+        result = solve(pool, targets, max_rolls, start_track=start_track, start_roll=start_roll, max_elevens=x)
+        return result if result.score == len(targets) else None
+
+    best = try_elevens(max_elevens_cap)
+    if best is None:
+        return None, None
+
+    lo, hi = 0, max_elevens_cap
+    while lo < hi:
+        mid = (lo + hi) // 2
+        candidate = try_elevens(mid)
+        if candidate is not None:
+            hi = mid
+            best = candidate
+        else:
+            lo = mid + 1
+    return hi, best
