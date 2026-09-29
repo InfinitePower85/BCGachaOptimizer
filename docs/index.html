@@ -35,7 +35,22 @@
       </div>
       <p id="viewer-banner" class="hint banner"></p>
       <p id="viewer-status" class="status" role="status"></p>
-      <div id="viewer-table" class="roll-viewer"></div>
+      <p class="hint">Simulate rolling, fully offline (nothing here is sent to the server). The
+        highlighted cell is your current position.</p>
+      <div class="sim-layout">
+        <div id="viewer-table" class="roll-viewer"></div>
+        <div class="sim-sidebar">
+          <div class="sim-controls">
+            <button id="sim-single-btn" disabled>1 Draw</button>
+            <button id="sim-eleven-btn" disabled>11 Draw</button>
+            <button id="sim-undo-btn" class="secondary" disabled>Undo</button>
+          </div>
+          <p id="sim-position" class="sim-position"></p>
+          <p id="sim-status" class="status" role="status"></p>
+          <h3>Moves used</h3>
+          <ol id="sim-moves" class="result"></ol>
+        </div>
+      </div>
     </section>
 
     <section class="card">
@@ -77,6 +92,9 @@
       </div>
       <p id="opt-status" class="status" role="status"></p>
       <ol id="opt-result" class="result"></ol>
+      <div class="row">
+        <button id="opt-simulate-btn" class="secondary" disabled>Simulate this route in viewer</button>
+      </div>
     </section>
 
     <section class="card">

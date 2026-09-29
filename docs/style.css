@@ -34,7 +34,7 @@ body {
 }
 
 header, main, footer {
-  max-width: 720px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -202,5 +202,35 @@ button:disabled { opacity: 0.5; cursor: default; }
 .rarity-legend { color: var(--legend); font-weight: 600; }
 .rarity-legend_fest { color: var(--legend_fest); font-weight: 600; }
 .rarity-none { color: inherit; }
+
+.roll-table td { transition: background-color 0.06s linear, outline-color 0.06s linear; }
+.roll-table td.sim-current { outline: 2px solid #ffcc00; outline-offset: -2px; background: rgba(255, 204, 0, 0.2); }
+/* The 11-draw animation's forced 11th (guaranteed) pick: green instead of yellow, since
+   it's drawn last despite sitting at the top of the block's row (see the JS comment by
+   ELEVEN_BONUS_PAUSE_MS) -- the color change is what tells "bonus pick" apart from
+   "next in the sequence" as the highlight jumps back up to it. */
+.roll-table td.sim-current-bonus { outline: 2px solid #2ecc71; outline-offset: -2px; background: rgba(46, 204, 113, 0.25); }
+
+/* Roll simulator (built on the roll viewer above): a wide table (so a whole track's
+   columns fit without horizontal scrolling) plus a sidebar of controls + moves tracker.
+   The sidebar sticks near the top of the viewport as you scroll through a long table,
+   but only within .sim-layout's own height -- it can't drift into section 3 below. */
+.sim-layout { display: flex; gap: 16px; align-items: flex-start; }
+.sim-layout .roll-viewer { flex: 1 1 auto; min-width: 0; }
+.sim-sidebar { flex: 0 0 220px; max-width: 100%; }
+.sim-controls { display: flex; flex-direction: column; gap: 8px; }
+.sim-controls button { width: 100%; }
+.sim-position { min-height: 1.4em; margin: 8px 0 0; font-weight: 600; }
+.sim-sidebar h3 { margin: 8px 0 4px; font-size: 0.95rem; color: var(--muted); }
+.sim-sidebar .result { max-height: 320px; overflow-y: auto; font-size: 0.85rem; }
+
+@media (min-width: 700px) {
+  .sim-sidebar { position: sticky; top: 16px; }
+}
+
+@media (max-width: 699px) {
+  .sim-layout { flex-wrap: wrap; }
+  .sim-sidebar { flex-basis: 100%; }
+}
 
 footer { padding-top: 8px; padding-bottom: 32px; font-size: 0.85rem; }

@@ -145,8 +145,11 @@ function pivotByRoll(cells) {
   return [...rolls.entries()].sort((a, b) => a[0] - b[0]);
 }
 
-function cellNode(cell) {
+function cellNode(cell, track, roll, kind) {
   const td = document.createElement("td");
+  td.dataset.track = track;
+  td.dataset.roll = roll;
+  td.dataset.kind = kind;
   if (!cell || !cell.cat_name) { td.className = "roll-empty"; return td; }
   const name = document.createElement("span");
   name.className = "rarity-" + (cell.rarity || "none");
@@ -182,16 +185,187 @@ function renderRollViewer(csvText) {
     no.textContent = roll;
     tr.append(
       no,
-      cellNode(tracks.A?.normal),
-      cellNode(tracks.A?.guaranteed),
-      cellNode(tracks.B?.normal),
-      cellNode(tracks.B?.guaranteed),
+      cellNode(tracks.A?.normal, "A", roll, "normal"),
+      cellNode(tracks.A?.guaranteed, "A", roll, "guaranteed"),
+      cellNode(tracks.B?.normal, "B", roll, "normal"),
+      cellNode(tracks.B?.guaranteed, "B", roll, "guaranteed"),
     );
     tbody.append(tr);
   }
   table.append(tbody);
   container.append(table);
 }
+
+// ---- Roll simulator -----------------------------------------------------------
+// Lets the user click through single rolls / guaranteed-11s from the currently
+// viewed dataset, entirely client-side (no server calls). Mirrors the roll rules
+// route_optimizer.py implements server-side, but here we only ever step forward
+// or undo one step -- there's no search.
+//
+// sim: { pool, track, roll, moves: [{type, track, roll, units, from, to}] }
+// pool: { normal: {A:{roll:cell}, B:{...}}, guaranteed: {...} }, same shape as
+// route_optimizer.Pool, built straight from the dataset's CSV (see buildSimPool).
+let sim = null;
+
+function buildSimPool(csvText) {
+  const normal = { A: {}, B: {} };
+  const guaranteed = { A: {}, B: {} };
+  for (const c of parseCsv(csvText)) {
+    if (c.track !== "A" && c.track !== "B") continue;
+    const roll = Number(c.roll);
+    const cell = { cat_name: c.cat_name, rarity: c.rarity };
+    if (c.guaranteed === "True") {
+      const m = /(\d+)([AB])/.exec(c.link || "");
+      cell.link_target = m ? { track: m[2], roll: Number(m[1]) } : null;
+      guaranteed[c.track][roll] = cell;
+    } else {
+      normal[c.track][roll] = cell;
+    }
+  }
+  return { normal, guaranteed };
+}
+
+const simHasSingle = (pool, track, roll) => pool.normal[track][roll] !== undefined;
+
+function simHasEleven(pool, track, roll) {
+  const g = pool.guaranteed[track][roll];
+  if (!g || !g.link_target) return false;
+  for (let i = 0; i < 10; i++) {
+    if (!simHasSingle(pool, track, roll + i)) return false;
+  }
+  return true;
+}
+
+function initSim(csvText) {
+  sim = { pool: buildSimPool(csvText), track: "A", roll: 1, moves: [], animating: false };
+  say("sim-status", "", "");
+  renderSim();
+}
+
+function simPushMove(type, track, roll, units, to) {
+  sim.moves.push({ type, track, roll, units, from: { track, roll }, to });
+  sim.track = to.track;
+  sim.roll = to.roll;
+}
+
+function simDrawSingle() {
+  if (!sim || sim.animating || !simHasSingle(sim.pool, sim.track, sim.roll)) return;
+  const { track, roll } = sim;
+  const cell = sim.pool.normal[track][roll];
+  simPushMove("single", track, roll, [cell.cat_name], { track, roll: roll + 1 });
+  renderSim();
+}
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const ELEVEN_STEP_MS = 70;       // fast enough to read as "11 quick draws", not a real wait
+const ELEVEN_BONUS_PAUSE_MS = 260; // lingers on the guaranteed pick so the color/text swap registers
+
+const SIM_FLASH_CLASSES = ["sim-current", "sim-current-bonus"];
+
+/** Flash exactly one cell (by track/roll/kind), independent of sim's actual position --
+ * used mid-animation, before the position itself has moved. updateSimHighlight() (the
+ * static "you are here" indicator) takes over again once renderSim() next runs.
+ * className picks the color: "sim-current" (yellow, the normal 10) or "sim-current-bonus"
+ * (green, the guaranteed 11th) -- the color swap is the main cue that this last pick isn't
+ * "next in sequence" the way the first 10 were, it's the forced bonus unit for the block. */
+function flashCell(track, roll, kind, className = "sim-current") {
+  document.querySelectorAll("#viewer-table td.sim-current, #viewer-table td.sim-current-bonus")
+    .forEach((td) => td.classList.remove(...SIM_FLASH_CLASSES));
+  const td = document.querySelector(`#viewer-table td[data-track="${track}"][data-roll="${roll}"][data-kind="${kind}"]`);
+  if (td) td.classList.add(className);
+}
+
+async function simDrawEleven() {
+  if (!sim || sim.animating || !simHasEleven(sim.pool, sim.track, sim.roll)) return;
+  const { track, roll, pool } = sim;
+  const units = [];
+  for (let i = 0; i < 10; i++) units.push(pool.normal[track][roll + i].cat_name);
+  units.push(pool.guaranteed[track][roll].cat_name);
+  const dest = pool.guaranteed[track][roll].link_target;
+
+  sim.animating = true;
+  renderSim(); // disables the buttons for the duration of the animation
+
+  for (let i = 0; i < 10; i++) {
+    say("sim-status", `Drawing ${i + 1}/10...`, "");
+    flashCell(track, roll + i, "normal");
+    await sleep(ELEVEN_STEP_MS);
+  }
+  // The guaranteed cell lives at the top of this block's row (same roll the draw started
+  // at), so the highlight jumps back up for it -- that's a real, not a mistake: this pick
+  // is the block's bonus 11th unit, drawn last despite its position in the table. The
+  // green color + label call that out instead of reading as backtracking.
+  say("sim-status", "Guaranteed pick (bonus 11th unit)!", "ok");
+  flashCell(track, roll, "guaranteed", "sim-current-bonus");
+  await sleep(ELEVEN_BONUS_PAUSE_MS);
+
+  sim.animating = false;
+  simPushMove("guaranteed_eleven", track, roll, units, { track: dest.track, roll: dest.roll });
+  say("sim-status", "", "");
+  renderSim(); // lands the highlight on the post-jump (possibly other-track) position
+}
+
+function simUndo() {
+  if (!sim || sim.animating || !sim.moves.length) return;
+  const last = sim.moves.pop();
+  sim.track = last.from.track;
+  sim.roll = last.from.roll;
+  renderSim();
+}
+
+/** Replay a route from the optimizer (see the "Simulate this route in viewer" button
+ * below), which arrives as [{type, track, roll, units}] with no "next" position -- we
+ * recompute each step's destination from sim's own pool, same as a manual draw would. */
+function simApplyRoute(route) {
+  if (!sim) return;
+  for (const step of route) {
+    const { track, roll, pool } = sim;
+    const to = step.type === "guaranteed_eleven"
+      ? pool.guaranteed[track]?.[roll]?.link_target ?? { track, roll }
+      : { track, roll: roll + 1 };
+    simPushMove(step.type, track, roll, step.units, to);
+  }
+  renderSim();
+}
+
+function updateSimHighlight() {
+  document.querySelectorAll("#viewer-table td.sim-current, #viewer-table td.sim-current-bonus")
+    .forEach((td) => td.classList.remove(...SIM_FLASH_CLASSES));
+  if (!sim) return;
+  document
+    .querySelectorAll(`#viewer-table td[data-track="${sim.track}"][data-roll="${sim.roll}"]`)
+    .forEach((td) => td.classList.add("sim-current"));
+}
+
+function renderSim() {
+  updateSimHighlight();
+  const movesEl = $("sim-moves");
+  movesEl.replaceChildren();
+
+  if (!sim) {
+    $("sim-position").textContent = "";
+    $("sim-single-btn").disabled = true;
+    $("sim-eleven-btn").disabled = true;
+    $("sim-undo-btn").disabled = true;
+    return;
+  }
+
+  $("sim-position").textContent = `Position: ${sim.roll}${sim.track}`;
+  $("sim-single-btn").disabled = sim.animating || !simHasSingle(sim.pool, sim.track, sim.roll);
+  $("sim-eleven-btn").disabled = sim.animating || !simHasEleven(sim.pool, sim.track, sim.roll);
+  $("sim-undo-btn").disabled = sim.animating || !sim.moves.length;
+
+  for (const move of sim.moves) {
+    const li = document.createElement("li");
+    const kind = move.type === "guaranteed_eleven" ? "Guaranteed 11" : "Single roll";
+    li.textContent = `${kind} @ ${move.roll}${move.track}: ${move.units.join(", ")}`;
+    movesEl.append(li);
+  }
+}
+
+$("sim-single-btn").addEventListener("click", simDrawSingle);
+$("sim-eleven-btn").addEventListener("click", simDrawEleven);
+$("sim-undo-btn").addEventListener("click", simUndo);
 
 // ---- UI ---------------------------------------------------------------------
 async function refresh() {
@@ -274,6 +448,7 @@ $("viewer-btn").addEventListener("click", async () => {
   const rec = (await store.all()).find((r) => r.id === id);
   if (!rec) return say("viewer-status", "Dataset not found; it may have been deleted.", "err");
   renderRollViewer(rec.csv);
+  initSim(rec.csv);
   say("viewer-status", `Showing ${id}.`, "ok");
 });
 
@@ -459,12 +634,20 @@ $("opt-dataset").addEventListener("change", onOptDatasetChange);
 $("opt-event").addEventListener("change", (ev) => loadGachaUnits(ev.target.value));
 loadGachaEvents();
 
+// Filled in on a successful optimize, so "Simulate this route in viewer" (below) can
+// replay it without a second server call.
+let lastOptimizeRoute = null;
+let lastOptimizeDatasetId = null;
+let lastOptimizeCsv = null;
+
 $("opt-btn").addEventListener("click", async () => {
   const datasetId = $("opt-dataset").value;
   const limit = Number($("opt-limit").value);
   const targets = getSelectedTargets();
   const out = $("opt-result");
   out.replaceChildren();
+  $("opt-simulate-btn").disabled = true;
+  lastOptimizeRoute = null;
   if (!datasetId) return say("opt-status", "Save or import a dataset first.", "err");
   if (!Number.isInteger(limit) || limit < 1 || limit > 200) return say("opt-status", "Roll limit must be 1-200.", "err");
   if (!targets.length) return say("opt-status", "Check at least one target unit.", "err");
@@ -503,11 +686,27 @@ $("opt-btn").addEventListener("click", async () => {
       li.textContent = `${kind} @ ${step.roll}${step.track}: ${step.units.join(", ")}`;
       out.append(li);
     }
+    lastOptimizeRoute = res.route;
+    lastOptimizeDatasetId = datasetId;
+    lastOptimizeCsv = rec.csv;
+    $("opt-simulate-btn").disabled = !res.route.length;
   } catch (e) {
     say("opt-status", e.message || "Optimizer failed.", "err");
   } finally {
     btn.disabled = false;
   }
+});
+
+$("opt-simulate-btn").addEventListener("click", async () => {
+  if (!lastOptimizeRoute) return;
+  const select = $("viewer-dataset");
+  if ([...select.options].some((o) => o.value === lastOptimizeDatasetId)) select.value = lastOptimizeDatasetId;
+  renderRollViewer(lastOptimizeCsv);
+  initSim(lastOptimizeCsv);
+  simApplyRoute(lastOptimizeRoute);
+  await onViewerDatasetChange();
+  say("viewer-status", `Simulating the optimizer's route for ${lastOptimizeDatasetId}.`, "ok");
+  $("sim-position").scrollIntoView({ behavior: "smooth", block: "center" });
 });
 
 // ---- Meow (server connection test) -------------------------------------------
