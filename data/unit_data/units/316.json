@@ -1,0 +1,72 @@
+{
+  "id": "316",
+  "name": "PIKOTARO",
+  "forms": [
+    {
+      "number": "316-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "PIKOTARO",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 750,
+      "range": 200,
+      "kb": 3,
+      "speed": 6,
+      "dps": 100,
+      "target": "Area",
+      "tba": 7.47,
+      "anim": 4.83,
+      "spawn": 31.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (30% chance to freeze for 3.0s)"
+    },
+    {
+      "number": "316-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "NEKOTARO",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 750,
+      "range": 200,
+      "kb": 3,
+      "speed": 6,
+      "dps": 100,
+      "target": "Area",
+      "tba": 7.47,
+      "anim": 4.83,
+      "spawn": 31.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (30% chance to freeze for 3.0s)"
+    }
+  ]
+}

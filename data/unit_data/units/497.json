@@ -1,0 +1,198 @@
+{
+  "id": "497",
+  "name": "Narita Kaihime",
+  "forms": [
+    {
+      "number": "497-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Narita Kaihime",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 3000,
+      "range": 440,
+      "kb": 2,
+      "speed": 5,
+      "dps": 565,
+      "target": "Area",
+      "tba": 5.3,
+      "anim": 1.8,
+      "spawn": 137.87,
+      "cost": 5250,
+      "abilities": [
+        {
+          "group": "Against black, zombie",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.5s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "15% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, zombieu2: b1Slowb2 (100% chance to slow for 2.5s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Savage Blowb2 (15% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    },
+    {
+      "number": "497-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wargod Kaihime",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 3750,
+      "range": 440,
+      "kb": 2,
+      "speed": 5,
+      "dps": 708,
+      "target": "Area",
+      "tba": 5.3,
+      "anim": 1.8,
+      "spawn": 137.87,
+      "cost": 5250,
+      "abilities": [
+        {
+          "group": "Against black, zombie",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.5s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "15% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, zombieu2: b1Slowb2 (100% chance to slow for 2.5s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Savage Blowb2 (15% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    },
+    {
+      "number": "497-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Immortal Kaihime",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 16000,
+      "damage": 3750,
+      "range": 440,
+      "kb": 2,
+      "speed": 5,
+      "dps": 708,
+      "target": "Area",
+      "tba": 5.3,
+      "anim": 1.8,
+      "spawn": 137.87,
+      "cost": 5250,
+      "abilities": [
+        {
+          "group": "Against black, zombie",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.5s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "25% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, zombieu2: b1Slowb2 (100% chance to slow for 2.5s) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Savage Blowb2 (25% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    },
+    {
+      "number": "497-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "Cleansing Flame Kaihime",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 18000,
+      "damage": 3750,
+      "range": 455,
+      "kb": 2,
+      "speed": 10,
+      "dps": 708,
+      "target": "Area",
+      "tba": 5.3,
+      "anim": 1.8,
+      "spawn": 137.87,
+      "cost": 5250,
+      "abilities": [
+        {
+          "group": "Against black, zombie",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.5s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "30% chance to inflict an attack with 2x damage to non-Metal enemies"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            },
+            {
+              "name": "Explosion",
+              "detail": "50% chance to create an explosion at 455 range"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, zombieu2: b1Slowb2 (100% chance to slow for 2.5s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Savage Blowb2 (30% chance to inflict an attack with 2x damage to non-Metal enemies) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance) b1Explosionb2 (50% chance to create an explosion at 455 range)"
+    }
+  ]
+}

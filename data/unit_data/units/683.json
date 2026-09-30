@@ -1,0 +1,199 @@
+{
+  "id": "683",
+  "name": "Spectral Goth Vega",
+  "forms": [
+    {
+      "number": "683-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Spectral Goth Vega",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7750,
+      "damage": 2250,
+      "range": 380,
+      "kb": 3,
+      "speed": 13,
+      "dps": 330,
+      "target": "Area",
+      "tba": 6.8,
+      "anim": 2.63,
+      "spawn": 114.53,
+      "cost": 4680,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~381, 230~630"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (50% chance to weaken by 50% for 5.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~381, 230~630) b1Multi-hit attackb2 (Attacks twice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Toxicb2"
+    },
+    {
+      "number": "683-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Illusory Guardian Vega",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 3000,
+      "range": 380,
+      "kb": 3,
+      "speed": 13,
+      "dps": 440,
+      "target": "Area",
+      "tba": 6.8,
+      "anim": 2.63,
+      "spawn": 114.53,
+      "cost": 4680,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~381, 230~630"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (50% chance to weaken by 50% for 6.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~381, 230~630) b1Multi-hit attackb2 (Attacks twice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Toxicb2"
+    },
+    {
+      "number": "683-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Lady of Deception Vega",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13000,
+      "damage": 4000,
+      "range": 380,
+      "kb": 3,
+      "speed": 13,
+      "dps": 588,
+      "target": "Area",
+      "tba": 6.8,
+      "anim": 2.63,
+      "spawn": 114.53,
+      "cost": 4680,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~381"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (50% chance to weaken by 50% for 6.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Long Distanceb2 (Effective range 1~381) b1Multi-hit attackb2 (Attacks twice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Toxicb2"
+    }
+  ]
+}

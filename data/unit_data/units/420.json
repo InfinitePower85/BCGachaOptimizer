@@ -1,0 +1,72 @@
+{
+  "id": "420",
+  "name": "Pokota",
+  "forms": [
+    {
+      "number": "420-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Pokota",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 400,
+      "range": 375,
+      "kb": 3,
+      "speed": 9,
+      "dps": 78,
+      "target": "Single",
+      "tba": 5.13,
+      "anim": 1.73,
+      "spawn": 8.87,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "420-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Pokota CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 400,
+      "range": 375,
+      "kb": 3,
+      "speed": 9,
+      "dps": 78,
+      "target": "Single",
+      "tba": 5.13,
+      "anim": 1.73,
+      "spawn": 8.87,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)"
+    }
+  ]
+}

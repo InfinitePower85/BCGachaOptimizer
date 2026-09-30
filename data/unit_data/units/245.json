@@ -1,0 +1,72 @@
+{
+  "id": "245",
+  "name": "A Gift of Cats",
+  "forms": [
+    {
+      "number": "245-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "A Gift of Cats",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 438,
+      "range": 160,
+      "kb": 3,
+      "speed": 30,
+      "dps": 130,
+      "target": "Single",
+      "tba": 3.37,
+      "anim": 0.27,
+      "spawn": 6.53,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Freezeb2 (30% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "245-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cat's Gift",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 438,
+      "range": 160,
+      "kb": 3,
+      "speed": 30,
+      "dps": 138,
+      "target": "Single",
+      "tba": 3.2,
+      "anim": 0.2,
+      "spawn": 6.53,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Freezeb2 (30% chance to freeze for 2.0s)"
+    }
+  ]
+}

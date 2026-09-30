@@ -1,0 +1,90 @@
+{
+  "id": "430",
+  "name": "Otaku Geek Cat",
+  "forms": [
+    {
+      "number": "430-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Otaku Geek Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 1000,
+      "range": 1000,
+      "kb": 1,
+      "speed": 4,
+      "dps": 125,
+      "target": "Single",
+      "tba": 8.03,
+      "anim": 2.4,
+      "spawn": 157.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 2.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 800~1200"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (100% chance to weaken by 50% for 2.67s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 800~1200)"
+    },
+    {
+      "number": "430-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hacker Geek Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 1000,
+      "range": 1000,
+      "kb": 1,
+      "speed": 4,
+      "dps": 125,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 2.4,
+      "spawn": 157.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 2.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 800~1200"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (100% chance to weaken by 50% for 2.67s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 800~1200)"
+    }
+  ]
+}

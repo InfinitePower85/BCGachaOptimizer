@@ -1,0 +1,216 @@
+{
+  "id": "428",
+  "name": "Cat Clan Heroes",
+  "forms": [
+    {
+      "number": "428-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cat Clan Heroes",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 2500,
+      "range": 350,
+      "kb": 3,
+      "speed": 15,
+      "dps": 278,
+      "target": "Area",
+      "tba": 9.03,
+      "anim": 2.1,
+      "spawn": 71.2,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against red, black, floating",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "3% chance of a critical hit"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~500"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floatingu2: b1Weakenb2 (100% chance to weaken by 50% for 4.0s) \r\nu1General Abilitiesu2: b1Criticalb2 (3% chance of a critical hit) b1Long Distanceb2 (Effective range 200~500)"
+    },
+    {
+      "number": "428-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cat Guild Heroes",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 3750,
+      "range": 350,
+      "kb": 3,
+      "speed": 15,
+      "dps": 415,
+      "target": "Area",
+      "tba": 9.03,
+      "anim": 2.1,
+      "spawn": 71.2,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against red, black, floating",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "3% chance of a critical hit"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~575"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floatingu2: b1Weakenb2 (100% chance to weaken by 50% for 4.0s) \r\nu1General Abilitiesu2: b1Criticalb2 (3% chance of a critical hit) b1Long Distanceb2 (Effective range 200~575)"
+    },
+    {
+      "number": "428-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Cat Quest Heroes",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10500,
+      "damage": 3750,
+      "range": 350,
+      "kb": 3,
+      "speed": 15,
+      "dps": 415,
+      "target": "Area",
+      "tba": 9.03,
+      "anim": 2.1,
+      "spawn": 71.2,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, relic",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "3% chance of a critical hit"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~575"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, relicu2: b1Weakenb2 (100% chance to weaken by 50% for 5.0s) \r\nu1General Abilitiesu2: b1Criticalb2 (3% chance of a critical hit) b1Long Distanceb2 (Effective range 200~575)\nu1Not affected byu2: b1Curseb2"
+    },
+    {
+      "number": "428-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "Heavenly Cat Heroes",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12500,
+      "damage": 3750,
+      "range": 350,
+      "kb": 3,
+      "speed": 15,
+      "dps": 448,
+      "target": "Area",
+      "tba": 8.37,
+      "anim": 2.1,
+      "spawn": 71.2,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, relic",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "3% chance of a critical hit"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~650"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 350 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, relicu2: b1Weakenb2 (100% chance to weaken by 50% for 5.0s) \nu1General Abilitiesu2: b1Criticalb2 (3% chance of a critical hit) b1Long Distanceb2 (Effective range 200~650) b1Explosionb2 (100% chance to create an explosion at 350 range)\nu1Not affected byu2: b1Curseb2, b1Waveb2"
+    }
+  ]
+}

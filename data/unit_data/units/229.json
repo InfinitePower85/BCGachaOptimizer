@@ -1,0 +1,109 @@
+{
+  "id": "229",
+  "name": "Gloomy Neneko",
+  "forms": [
+    {
+      "number": "229-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Gloomy Neneko",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 200,
+      "range": 310,
+      "kb": 3,
+      "speed": 5,
+      "dps": 48,
+      "target": "Single",
+      "tba": 4.23,
+      "anim": 0.93,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "20% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (20% chance of a critical hit)"
+    },
+    {
+      "number": "229-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Witchy Neneko",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 300,
+      "range": 310,
+      "kb": 3,
+      "speed": 5,
+      "dps": 70,
+      "target": "Single",
+      "tba": 4.23,
+      "anim": 0.93,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "20% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (20% chance of a critical hit)"
+    },
+    {
+      "number": "229-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Costumed Witchy Neneko",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 300,
+      "range": 310,
+      "kb": 3,
+      "speed": 5,
+      "dps": 70,
+      "target": "Single",
+      "tba": 4.23,
+      "anim": 0.93,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            },
+            {
+              "name": "Critical",
+              "detail": "20% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave Shieldb2 (Protects units behind them from shockwaves) b1Criticalb2 (20% chance of a critical hit)"
+    }
+  ]
+}

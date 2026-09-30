@@ -1,0 +1,105 @@
+{
+  "id": "272",
+  "name": "Shining Amaterasu",
+  "forms": [
+    {
+      "number": "272-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shining Amaterasu",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5450,
+      "damage": 1875,
+      "range": 455,
+      "kb": 4,
+      "speed": 10,
+      "dps": 282,
+      "target": "Area",
+      "tba": 6.63,
+      "anim": 2.0,
+      "spawn": 124.53,
+      "cost": 4740,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "272-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Glorious Amaterasu",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7450,
+      "damage": 2500,
+      "range": 455,
+      "kb": 4,
+      "speed": 10,
+      "dps": 378,
+      "target": "Area",
+      "tba": 6.63,
+      "anim": 2.0,
+      "spawn": 124.53,
+      "cost": 4740,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "272-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Almighty Amaterasu",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7450,
+      "damage": 3438,
+      "range": 455,
+      "kb": 4,
+      "speed": 10,
+      "dps": 518,
+      "target": "Area",
+      "tba": 6.63,
+      "anim": 2.0,
+      "spawn": 124.53,
+      "cost": 4740,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

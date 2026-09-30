@@ -1,0 +1,105 @@
+{
+  "id": "338",
+  "name": "HMS Princess\r",
+  "forms": [
+    {
+      "number": "338-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "HMS Princess\r",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 1138,
+      "range": 410,
+      "kb": 3,
+      "speed": 10,
+      "dps": 222,
+      "target": "Area",
+      "tba": 5.13,
+      "anim": 1.63,
+      "spawn": 76.53,
+      "cost": 3150,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "338-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "HMS Princess CC\r",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 1888,
+      "range": 410,
+      "kb": 3,
+      "speed": 10,
+      "dps": 368,
+      "target": "Area",
+      "tba": 5.13,
+      "anim": 1.63,
+      "spawn": 76.53,
+      "cost": 3150,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "338-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "HMS Princess II CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7000,
+      "damage": 3012,
+      "range": 410,
+      "kb": 3,
+      "speed": 15,
+      "dps": 588,
+      "target": "Area",
+      "tba": 5.13,
+      "anim": 1.63,
+      "spawn": 76.53,
+      "cost": 3150,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    }
+  ]
+}

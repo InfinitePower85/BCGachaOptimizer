@@ -1,0 +1,105 @@
+{
+  "id": "345",
+  "name": "Orthos",
+  "forms": [
+    {
+      "number": "345-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Orthos",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1575,
+      "damage": 675,
+      "range": 270,
+      "kb": 3,
+      "speed": 16,
+      "dps": 228,
+      "target": "Area",
+      "tba": 2.97,
+      "anim": 0.47,
+      "spawn": 13.87,
+      "cost": 1080,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "345-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Orthos CC",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1950,
+      "damage": 825,
+      "range": 270,
+      "kb": 3,
+      "speed": 16,
+      "dps": 282,
+      "target": "Area",
+      "tba": 2.93,
+      "anim": 0.57,
+      "spawn": 13.87,
+      "cost": 1080,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "345-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Artist Orthos CC",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3075,
+      "damage": 975,
+      "range": 300,
+      "kb": 3,
+      "speed": 16,
+      "dps": 495,
+      "target": "Area",
+      "tba": 1.97,
+      "anim": 0.8,
+      "spawn": 13.87,
+      "cost": 1080,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Knockbackb2 (30% chance of knockback)"
+    }
+  ]
+}

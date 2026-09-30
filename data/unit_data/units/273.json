@@ -1,0 +1,117 @@
+{
+  "id": "273",
+  "name": "Splendid Ganesha",
+  "forms": [
+    {
+      "number": "273-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Splendid Ganesha",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6450,
+      "damage": 3700,
+      "range": 400,
+      "kb": 5,
+      "speed": 9,
+      "dps": 398,
+      "target": "Area",
+      "tba": 9.3,
+      "anim": 2.67,
+      "spawn": 114.53,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 80% health"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~725"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 80% health) b1Long Distanceb2 (Effective range 275~725)"
+    },
+    {
+      "number": "273-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Exalted Ganesha",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8700,
+      "damage": 4950,
+      "range": 400,
+      "kb": 5,
+      "speed": 9,
+      "dps": 532,
+      "target": "Area",
+      "tba": 9.3,
+      "anim": 2.67,
+      "spawn": 114.53,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 80% health"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~725"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 80% health) b1Long Distanceb2 (Effective range 275~725)"
+    },
+    {
+      "number": "273-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Almighty Ganesha",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9825,
+      "damage": 4950,
+      "range": 400,
+      "kb": 5,
+      "speed": 9,
+      "dps": 532,
+      "target": "Area",
+      "tba": 9.3,
+      "anim": 2.67,
+      "spawn": 114.53,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 80% health"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~725"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 80% health) b1Long Distanceb2 (Effective range 275~725)"
+    }
+  ]
+}

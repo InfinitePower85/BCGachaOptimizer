@@ -1,0 +1,117 @@
+{
+  "id": "506",
+  "name": "Relentless Gladios",
+  "forms": [
+    {
+      "number": "506-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Relentless Gladios",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 6500,
+      "range": 440,
+      "kb": 3,
+      "speed": 4,
+      "dps": 705,
+      "target": "Area",
+      "tba": 9.23,
+      "anim": 2.0,
+      "spawn": 154.53,
+      "cost": 5625,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "506-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Gladios the Annihilator",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 6500,
+      "range": 440,
+      "kb": 3,
+      "speed": 4,
+      "dps": 705,
+      "target": "Area",
+      "tba": 9.23,
+      "anim": 2.0,
+      "spawn": 154.53,
+      "cost": 5625,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "506-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "God-Emperor Gladios",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 18000,
+      "damage": 6500,
+      "range": 440,
+      "kb": 3,
+      "speed": 4,
+      "dps": 705,
+      "target": "Area",
+      "tba": 9.23,
+      "anim": 2.0,
+      "spawn": 154.53,
+      "cost": 5625,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Slowb2 (100% chance to slow for 5.0s) b1Knockbackb2 (100% chance of knockback)"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "391",
+  "name": "Aoi Hayakawa",
+  "forms": [
+    {
+      "number": "391-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Aoi Hayakawa",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2400,
+      "damage": 1200,
+      "range": 200,
+      "kb": 2,
+      "speed": 19,
+      "dps": 325,
+      "target": "Area",
+      "tba": 3.7,
+      "anim": 0.67,
+      "spawn": 23.2,
+      "cost": 1320,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "391-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Aoi Hayakawa CC",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3200,
+      "damage": 1600,
+      "range": 200,
+      "kb": 2,
+      "speed": 19,
+      "dps": 432,
+      "target": "Area",
+      "tba": 3.7,
+      "anim": 0.67,
+      "spawn": 23.2,
+      "cost": 1320,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "391-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Baseball Mask α",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3200,
+      "damage": 1600,
+      "range": 275,
+      "kb": 2,
+      "speed": 19,
+      "dps": 298,
+      "target": "Area",
+      "tba": 5.37,
+      "anim": 0.93,
+      "spawn": 23.2,
+      "cost": 1320,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~400"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~400)"
+    }
+  ]
+}

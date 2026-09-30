@@ -1,0 +1,72 @@
+{
+  "id": "426",
+  "name": "Uzumasa Rei & Cat",
+  "forms": [
+    {
+      "number": "426-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Uzumasa Rei & Cat",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 90,
+      "range": 300,
+      "kb": 3,
+      "speed": 9,
+      "dps": 8,
+      "target": "Single",
+      "tba": 12.77,
+      "anim": 2.27,
+      "spawn": 31.2,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "100% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (100% chance of a critical hit)"
+    },
+    {
+      "number": "426-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Uzumasa Rei & Cat CC",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 90,
+      "range": 300,
+      "kb": 3,
+      "speed": 9,
+      "dps": 8,
+      "target": "Single",
+      "tba": 12.77,
+      "anim": 2.27,
+      "spawn": 31.2,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "100% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (100% chance of a critical hit)"
+    }
+  ]
+}

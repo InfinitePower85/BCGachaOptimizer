@@ -1,0 +1,144 @@
+{
+  "id": "284",
+  "name": "Pai-Pai",
+  "forms": [
+    {
+      "number": "284-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Pai-Pai",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7000,
+      "damage": 7500,
+      "range": 440,
+      "kb": 3,
+      "speed": 20,
+      "dps": 710,
+      "target": "Area",
+      "tba": 10.57,
+      "anim": 2.53,
+      "spawn": 111.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Weakenb2"
+    },
+    {
+      "number": "284-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Pai-Pai Z",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7000,
+      "damage": 7500,
+      "range": 440,
+      "kb": 3,
+      "speed": 20,
+      "dps": 710,
+      "target": "Area",
+      "tba": 10.57,
+      "anim": 2.53,
+      "spawn": 111.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Weakenb2"
+    },
+    {
+      "number": "284-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Pai-Pai DX",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7000,
+      "damage": 7500,
+      "range": 440,
+      "kb": 3,
+      "speed": 20,
+      "dps": 882,
+      "target": "Area",
+      "tba": 8.5,
+      "anim": 2.53,
+      "spawn": 111.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Insanely Tough",
+              "detail": "only takes 0.17x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Insanely Toughb2 (only takes 0.17x damage) b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Weakenb2"
+    }
+  ]
+}

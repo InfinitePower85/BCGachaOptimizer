@@ -1,0 +1,105 @@
+{
+  "id": "122",
+  "name": "Merc",
+  "forms": [
+    {
+      "number": "122-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Merc",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 212,
+      "range": 155,
+      "kb": 2,
+      "speed": 34,
+      "dps": 32,
+      "target": "Single",
+      "tba": 6.7,
+      "anim": 0.03,
+      "spawn": 30.53,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "2% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (2% chance of a critical hit)"
+    },
+    {
+      "number": "122-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Merc CC",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 212,
+      "range": 155,
+      "kb": 2,
+      "speed": 34,
+      "dps": 32,
+      "target": "Single",
+      "tba": 6.7,
+      "anim": 0.03,
+      "spawn": 30.53,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "2% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (2% chance of a critical hit)"
+    },
+    {
+      "number": "122-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Merc & Cat CC",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 212,
+      "range": 155,
+      "kb": 2,
+      "speed": 34,
+      "dps": 30,
+      "target": "Single",
+      "tba": 6.8,
+      "anim": 0.03,
+      "spawn": 10.87,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "20% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (20% chance of a critical hit)"
+    }
+  ]
+}

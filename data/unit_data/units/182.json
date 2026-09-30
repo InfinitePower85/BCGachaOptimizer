@@ -1,0 +1,72 @@
+{
+  "id": "182",
+  "name": "Yuki Cat",
+  "forms": [
+    {
+      "number": "182-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Yuki Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 450,
+      "damage": 100,
+      "range": 340,
+      "kb": 3,
+      "speed": 8,
+      "dps": 38,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 1.37,
+      "spawn": 7.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "182-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Lovely Yuki Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 450,
+      "damage": 100,
+      "range": 340,
+      "kb": 3,
+      "speed": 8,
+      "dps": 38,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 1.37,
+      "spawn": 7.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    }
+  ]
+}

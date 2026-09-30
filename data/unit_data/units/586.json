@@ -1,0 +1,120 @@
+{
+  "id": "586",
+  "name": "Baby Garu",
+  "forms": [
+    {
+      "number": "586-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Baby Garu",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 1942,
+      "range": 200,
+      "kb": 2,
+      "speed": 4,
+      "dps": 420,
+      "target": "Area",
+      "tba": 4.63,
+      "anim": 1.13,
+      "spawn": 14.53,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -150~200"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -150~200)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "586-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mighty Aegis Garu",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 17500,
+      "damage": 5775,
+      "range": 320,
+      "kb": 3,
+      "speed": 7,
+      "dps": 938,
+      "target": "Area",
+      "tba": 6.17,
+      "anim": 1.4,
+      "spawn": 151.2,
+      "cost": 5400,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Mini-Wave",
+              "detail": "100% chance to perform a Lv.5 Shockwave attack (Range: 1132.5)"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -150~400"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Mini-Waveb2 (100% chance to perform a Lv.5 Shockwave attack (Range: 1132.5)) b1Omni Strikeb2 (Effective range -150~400)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

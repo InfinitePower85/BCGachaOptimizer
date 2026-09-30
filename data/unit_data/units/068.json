@@ -1,0 +1,114 @@
+{
+  "id": "068",
+  "name": "Li'l Gau",
+  "forms": [
+    {
+      "number": "068-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Li'l Gau",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 500,
+      "range": 110,
+      "kb": 1,
+      "speed": 8,
+      "dps": 130,
+      "target": "Single",
+      "tba": 3.83,
+      "anim": 1.87,
+      "spawn": 2.2,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "068-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Li'l Gau Gau",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 618,
+      "range": 110,
+      "kb": 1,
+      "speed": 8,
+      "dps": 160,
+      "target": "Single",
+      "tba": 3.83,
+      "anim": 1.87,
+      "spawn": 2.2,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "068-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Crystal Li'l Gau Gau",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 618,
+      "range": 110,
+      "kb": 1,
+      "speed": 8,
+      "dps": 160,
+      "target": "Single",
+      "tba": 3.83,
+      "anim": 1.87,
+      "spawn": 2.2,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

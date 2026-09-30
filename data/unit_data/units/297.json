@@ -1,0 +1,72 @@
+{
+  "id": "297",
+  "name": "Sayaka Cat",
+  "forms": [
+    {
+      "number": "297-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sayaka Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2450,
+      "damage": 450,
+      "range": 180,
+      "kb": 2,
+      "speed": 9,
+      "dps": 260,
+      "target": "Single",
+      "tba": 1.73,
+      "anim": 0.77,
+      "spawn": 4.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 50% health"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 50% health)"
+    },
+    {
+      "number": "297-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Magical Girl Sayaka Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2450,
+      "damage": 675,
+      "range": 180,
+      "kb": 2,
+      "speed": 9,
+      "dps": 390,
+      "target": "Single",
+      "tba": 1.73,
+      "anim": 0.37,
+      "spawn": 4.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 50% health"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 50% health)"
+    }
+  ]
+}

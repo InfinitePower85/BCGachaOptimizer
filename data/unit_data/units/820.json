@@ -1,0 +1,116 @@
+{
+  "id": "820",
+  "name": "Carpenter Cat",
+  "forms": [
+    {
+      "number": "820-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Carpenter Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2125,
+      "damage": 750,
+      "range": 170,
+      "kb": 1,
+      "speed": 25,
+      "dps": 228,
+      "target": "Area",
+      "tba": 3.3,
+      "anim": 0.53,
+      "spawn": 4.53,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Freezeb2, b1Waveb2"
+    },
+    {
+      "number": "820-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Rapper Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2125,
+      "damage": 750,
+      "range": 170,
+      "kb": 1,
+      "speed": 25,
+      "dps": 228,
+      "target": "Area",
+      "tba": 3.3,
+      "anim": 0.53,
+      "spawn": 4.53,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Freezeb2, b1Waveb2"
+    }
+  ]
+}

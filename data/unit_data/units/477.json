@@ -1,0 +1,72 @@
+{
+  "id": "477",
+  "name": "Cat Devil",
+  "forms": [
+    {
+      "number": "477-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cat Devil",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3125,
+      "damage": 1362,
+      "range": 250,
+      "kb": 3,
+      "speed": 10,
+      "dps": 352,
+      "target": "Area",
+      "tba": 3.87,
+      "anim": 1.5,
+      "spawn": 23.53,
+      "cost": 1260,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "477-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Infernal Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3125,
+      "damage": 1362,
+      "range": 250,
+      "kb": 3,
+      "speed": 10,
+      "dps": 352,
+      "target": "Area",
+      "tba": 3.87,
+      "anim": 1.5,
+      "spawn": 23.53,
+      "cost": 1260,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

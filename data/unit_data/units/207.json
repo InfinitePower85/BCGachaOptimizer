@@ -1,0 +1,52 @@
+{
+  "id": "207",
+  "name": "Rathalos",
+  "forms": [
+    {
+      "number": "207-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rathalos",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3638,
+      "damage": 1888,
+      "range": 405,
+      "kb": 3,
+      "speed": 8,
+      "dps": 270,
+      "target": "Area",
+      "tba": 6.97,
+      "anim": 2.47,
+      "spawn": 111.2,
+      "cost": 3825,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "207-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Rathalos & Cat",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4638,
+      "damage": 2388,
+      "range": 405,
+      "kb": 3,
+      "speed": 8,
+      "dps": 342,
+      "target": "Area",
+      "tba": 6.97,
+      "anim": 2.47,
+      "spawn": 111.2,
+      "cost": 3825,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

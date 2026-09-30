@@ -1,0 +1,123 @@
+{
+  "id": "044",
+  "name": "Cat Machine",
+  "forms": [
+    {
+      "number": "044-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cat Machine",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 8750,
+      "range": 140,
+      "kb": 1,
+      "speed": 9,
+      "dps": 715,
+      "target": "Area",
+      "tba": 12.23,
+      "anim": 5.6,
+      "spawn": 64.53,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "044-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cat Machine Mk 2",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 15000,
+      "damage": 13888,
+      "range": 140,
+      "kb": 1,
+      "speed": 9,
+      "dps": 1135,
+      "target": "Area",
+      "tba": 12.23,
+      "anim": 5.6,
+      "spawn": 64.53,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Resistantb2 (only takes 0.25x damage) \nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "044-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Cat Machine Mk 3",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 22500,
+      "damage": 13888,
+      "range": 190,
+      "kb": 1,
+      "speed": 15,
+      "dps": 1560,
+      "target": "Area",
+      "tba": 8.9,
+      "anim": 5.6,
+      "spawn": 64.53,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Wave Shieldb2 (Protects units behind them from shockwaves)"
+    }
+  ]
+}

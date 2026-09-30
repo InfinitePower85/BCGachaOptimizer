@@ -1,0 +1,105 @@
+{
+  "id": "258",
+  "name": "Thunder God Zeus",
+  "forms": [
+    {
+      "number": "258-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Thunder God Zeus",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7875,
+      "damage": 3625,
+      "range": 480,
+      "kb": 2,
+      "speed": 8,
+      "dps": 608,
+      "target": "Area",
+      "tba": 5.97,
+      "anim": 2.13,
+      "spawn": 157.87,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "258-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "The Majestic Zeus",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9500,
+      "damage": 4750,
+      "range": 480,
+      "kb": 2,
+      "speed": 8,
+      "dps": 795,
+      "target": "Area",
+      "tba": 5.97,
+      "anim": 2.13,
+      "spawn": 157.87,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "258-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Almighty Zeus",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10450,
+      "damage": 5312,
+      "range": 480,
+      "kb": 2,
+      "speed": 8,
+      "dps": 890,
+      "target": "Area",
+      "tba": 5.97,
+      "anim": 2.13,
+      "spawn": 157.87,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

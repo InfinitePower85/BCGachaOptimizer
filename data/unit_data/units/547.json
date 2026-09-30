@@ -1,0 +1,135 @@
+{
+  "id": "547",
+  "name": "Papaluga",
+  "forms": [
+    {
+      "number": "547-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Papaluga",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 375,
+      "range": 140,
+      "kb": 5,
+      "speed": 4,
+      "dps": 140,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 0.4,
+      "spawn": 24.53,
+      "cost": 4500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "547-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Papalan Pasalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 9000,
+      "range": 475,
+      "kb": 1,
+      "speed": 4,
+      "dps": 718,
+      "target": "Area",
+      "tba": 12.53,
+      "anim": 5.7,
+      "spawn": 224.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Curseb2 (100% chance to curse for 4.0s)\nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Curseb2"
+    },
+    {
+      "number": "547-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Sukelan Kakulan",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 9000,
+      "range": 475,
+      "kb": 1,
+      "speed": 4,
+      "dps": 718,
+      "target": "Area",
+      "tba": 12.53,
+      "anim": 5.7,
+      "spawn": 224.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Curseb2 (100% chance to curse for 5.0s)\nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Curseb2 b1Surgeb2"
+    }
+  ]
+}

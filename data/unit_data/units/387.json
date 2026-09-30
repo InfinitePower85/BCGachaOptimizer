@@ -1,0 +1,72 @@
+{
+  "id": "387",
+  "name": "Sairi Nijitani",
+  "forms": [
+    {
+      "number": "387-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sairi Nijitani",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 112,
+      "range": 340,
+      "kb": 3,
+      "speed": 10,
+      "dps": 30,
+      "target": "Single",
+      "tba": 3.67,
+      "anim": 0.57,
+      "spawn": 15.2,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "387-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sairi Nijitani CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 112,
+      "range": 340,
+      "kb": 3,
+      "speed": 10,
+      "dps": 30,
+      "target": "Single",
+      "tba": 3.67,
+      "anim": 0.57,
+      "spawn": 15.2,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s)"
+    }
+  ]
+}

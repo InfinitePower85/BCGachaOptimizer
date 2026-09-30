@@ -1,0 +1,108 @@
+{
+  "id": "774",
+  "name": "Mummy Sumo",
+  "forms": [
+    {
+      "number": "774-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mummy Sumo",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4750,
+      "damage": 300,
+      "range": 110,
+      "kb": 2,
+      "speed": 14,
+      "dps": 242,
+      "target": "Area",
+      "tba": 1.23,
+      "anim": 0.93,
+      "spawn": 10.53,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against black, floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, floatingu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Knockbackb2"
+    },
+    {
+      "number": "774-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mama Mummy Sumo",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5375,
+      "damage": 300,
+      "range": 110,
+      "kb": 2,
+      "speed": 14,
+      "dps": 242,
+      "target": "Area",
+      "tba": 1.23,
+      "anim": 0.93,
+      "spawn": 10.53,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against black, floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, floatingu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "203",
+  "name": "Baozi Cat",
+  "forms": [
+    {
+      "number": "203-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Baozi Cat",
+      "rarity": "Special",
+      "version_available": "tw",
+      "is_crazed": false,
+      "level": 1,
+      "health": 275,
+      "damage": 20,
+      "range": 140,
+      "kb": 3,
+      "speed": 9,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.3,
+      "anim": 0.33,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "203-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Big Baozi",
+      "rarity": "Special",
+      "version_available": "tw",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 162,
+      "range": 300,
+      "kb": 3,
+      "speed": 6,
+      "dps": 82,
+      "target": "Area",
+      "tba": 1.97,
+      "anim": 0.67,
+      "spawn": 7.2,
+      "cost": 750,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

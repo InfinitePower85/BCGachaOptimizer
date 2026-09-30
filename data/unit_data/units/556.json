@@ -1,0 +1,98 @@
+{
+  "id": "556",
+  "name": "Shaman Khan",
+  "forms": [
+    {
+      "number": "556-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shaman Khan",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 3000,
+      "range": 450,
+      "kb": 4,
+      "speed": 8,
+      "dps": 428,
+      "target": "Area",
+      "tba": 7.03,
+      "anim": 2.33,
+      "spawn": 141.2,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 2.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 350~750"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Slowb2 (30% chance to slow for 2.0s) b1Knockbackb2 (30% chance of knockback) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 350~750)"
+    },
+    {
+      "number": "556-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "All-Loving Shaman Khan",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 3750,
+      "range": 450,
+      "kb": 4,
+      "speed": 8,
+      "dps": 532,
+      "target": "Area",
+      "tba": 7.03,
+      "anim": 2.33,
+      "spawn": 141.2,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 2.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 350~750"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Slowb2 (30% chance to slow for 2.0s) b1Knockbackb2 (30% chance of knockback) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 350~750)"
+    }
+  ]
+}

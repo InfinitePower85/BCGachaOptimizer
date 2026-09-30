@@ -1,0 +1,108 @@
+{
+  "id": "561",
+  "name": "Megurine Luka",
+  "forms": [
+    {
+      "number": "561-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Megurine Luka",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4875,
+      "damage": 2100,
+      "range": 375,
+      "kb": 2,
+      "speed": 18,
+      "dps": 500,
+      "target": "Area",
+      "tba": 4.2,
+      "anim": 2.5,
+      "spawn": 77.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against black, floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 150~500"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, floatingu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 150~500)\nu1Not affected byu2: b1Knockbackb2"
+    },
+    {
+      "number": "561-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Megurine Luka CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6375,
+      "damage": 2775,
+      "range": 375,
+      "kb": 2,
+      "speed": 18,
+      "dps": 660,
+      "target": "Area",
+      "tba": 4.2,
+      "anim": 2.5,
+      "spawn": 77.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against black, floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 150~500"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, floatingu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 150~500)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

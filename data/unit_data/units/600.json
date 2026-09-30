@@ -1,0 +1,80 @@
+{
+  "id": "600",
+  "name": "Shampoo (Cat)",
+  "forms": [
+    {
+      "number": "600-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shampoo (Cat)",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 1375,
+      "range": 350,
+      "kb": 3,
+      "speed": 17,
+      "dps": 285,
+      "target": "Area",
+      "tba": 4.83,
+      "anim": 1.13,
+      "spawn": 14.53,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "50% chance to perform a Lv.4 Shockwave attack (Range: 932)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Mini-Waveb2 (50% chance to perform a Lv.4 Shockwave attack (Range: 932)) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "600-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Shampoo",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 4050,
+      "range": 450,
+      "kb": 3,
+      "speed": 18,
+      "dps": 780,
+      "target": "Area",
+      "tba": 5.2,
+      "anim": 1.43,
+      "spawn": 84.53,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "50% chance to perform a Lv.4 Shockwave attack (Range: 932)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Mini-Waveb2 (50% chance to perform a Lv.4 Shockwave attack (Range: 932)) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

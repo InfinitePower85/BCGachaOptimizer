@@ -1,0 +1,105 @@
+{
+  "id": "053",
+  "name": "Shaman Cat",
+  "forms": [
+    {
+      "number": "053-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shaman Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 790,
+      "damage": 112,
+      "range": 250,
+      "kb": 3,
+      "speed": 10,
+      "dps": 62,
+      "target": "Single",
+      "tba": 1.8,
+      "anim": 0.77,
+      "spawn": 5.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "053-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Necromancer Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 925,
+      "damage": 138,
+      "range": 250,
+      "kb": 3,
+      "speed": 10,
+      "dps": 78,
+      "target": "Single",
+      "tba": 1.8,
+      "anim": 0.77,
+      "spawn": 5.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "053-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Necro-Dancer Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 925,
+      "damage": 188,
+      "range": 300,
+      "kb": 3,
+      "speed": 10,
+      "dps": 105,
+      "target": "Single",
+      "tba": 1.8,
+      "anim": 0.77,
+      "spawn": 5.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Freezeb2 (20% chance to freeze for 3.0s)"
+    }
+  ]
+}

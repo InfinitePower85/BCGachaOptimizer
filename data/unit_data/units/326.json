@@ -1,0 +1,144 @@
+{
+  "id": "326",
+  "name": "Welterweight Cat",
+  "forms": [
+    {
+      "number": "326-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Welterweight Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 900,
+      "damage": 192,
+      "range": 250,
+      "kb": 3,
+      "speed": 9,
+      "dps": 105,
+      "target": "Single",
+      "tba": 1.83,
+      "anim": 0.07,
+      "spawn": 9.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "16% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Knockbackb2 (16% chance of knockback) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "326-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Heavyweight Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1200,
+      "damage": 248,
+      "range": 250,
+      "kb": 3,
+      "speed": 9,
+      "dps": 135,
+      "target": "Single",
+      "tba": 1.83,
+      "anim": 0.07,
+      "spawn": 9.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "16% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Knockbackb2 (16% chance of knockback) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "326-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Ectoweight Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2400,
+      "damage": 248,
+      "range": 280,
+      "kb": 3,
+      "speed": 9,
+      "dps": 135,
+      "target": "Single",
+      "tba": 1.83,
+      "anim": 0.07,
+      "spawn": 9.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "16% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Knockbackb2 (16% chance of knockback) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

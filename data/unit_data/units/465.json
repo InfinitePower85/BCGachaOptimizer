@@ -1,0 +1,157 @@
+{
+  "id": "465",
+  "name": "Dogumaru",
+  "forms": [
+    {
+      "number": "465-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Dogumaru",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 5250,
+      "range": 350,
+      "kb": 2,
+      "speed": 15,
+      "dps": 695,
+      "target": "Area",
+      "tba": 7.57,
+      "anim": 3.4,
+      "spawn": 104.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Resistantb2 (only takes 0.25x damage)\nu1Not affected byu2: b1Curseb2, b1Warpb2"
+    },
+    {
+      "number": "465-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Doguemon",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 6000,
+      "range": 350,
+      "kb": 2,
+      "speed": 15,
+      "dps": 792,
+      "target": "Area",
+      "tba": 7.57,
+      "anim": 3.4,
+      "spawn": 104.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Resistantb2 (only takes 0.25x damage)\nu1Not affected byu2: b1Curseb2, b1Warpb2"
+    },
+    {
+      "number": "465-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Reborn Warrior Doguemon",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14500,
+      "damage": 6000,
+      "range": 350,
+      "kb": 2,
+      "speed": 15,
+      "dps": 792,
+      "target": "Area",
+      "tba": 7.57,
+      "anim": 3.4,
+      "spawn": 71.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against relic, white",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relic, whiteu2: b1Resistantb2 (only takes 0.25x damage)\nu1General Abilitiesu2: b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)\nu1Not affected byu2: b1Curseb2, b1Warpb2"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "299",
+  "name": "Kyoko Cat",
+  "forms": [
+    {
+      "number": "299-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kyoko Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2312,
+      "damage": 562,
+      "range": 150,
+      "kb": 3,
+      "speed": 9,
+      "dps": 235,
+      "target": "Single",
+      "tba": 2.4,
+      "anim": 0.77,
+      "spawn": 5.53,
+      "cost": 615,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Weakenb2 (30% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "299-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Magical Girl Kyoko Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2312,
+      "damage": 562,
+      "range": 200,
+      "kb": 3,
+      "speed": 9,
+      "dps": 235,
+      "target": "Single",
+      "tba": 2.4,
+      "anim": 0.5,
+      "spawn": 5.53,
+      "cost": 615,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Weakenb2 (30% chance to weaken by 50% for 6.67s)"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "038",
+  "name": "Pogo Cat",
+  "forms": [
+    {
+      "number": "038-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Pogo Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 162,
+      "range": 150,
+      "kb": 3,
+      "speed": 10,
+      "dps": 100,
+      "target": "Single",
+      "tba": 1.63,
+      "anim": 0.53,
+      "spawn": 2.0,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "50% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surviveb2 (50% chance to survive a lethal strike)"
+    },
+    {
+      "number": "038-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Masai Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 188,
+      "range": 150,
+      "kb": 3,
+      "speed": 10,
+      "dps": 115,
+      "target": "Single",
+      "tba": 1.63,
+      "anim": 0.53,
+      "spawn": 2.0,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "50% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surviveb2 (50% chance to survive a lethal strike)"
+    },
+    {
+      "number": "038-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Jiangshi Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 262,
+      "range": 150,
+      "kb": 3,
+      "speed": 10,
+      "dps": 160,
+      "target": "Single",
+      "tba": 1.63,
+      "anim": 0.53,
+      "spawn": 2.0,
+      "cost": 240,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike)"
+    }
+  ]
+}

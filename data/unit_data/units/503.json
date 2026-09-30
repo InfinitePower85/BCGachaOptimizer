@@ -1,0 +1,144 @@
+{
+  "id": "503",
+  "name": "Myrcia",
+  "forms": [
+    {
+      "number": "503-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Myrcia",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 3825,
+      "range": 330,
+      "kb": 4,
+      "speed": 10,
+      "dps": 475,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 3.07,
+      "spawn": 91.2,
+      "cost": 4260,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Dodgeb2 (30% chance to dodge for 2.0s) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.2 Shockwave attack (Range: 532)) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "503-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Myrcia, type ξ",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 5025,
+      "range": 330,
+      "kb": 4,
+      "speed": 10,
+      "dps": 625,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 3.07,
+      "spawn": 91.2,
+      "cost": 4260,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Dodgeb2 (30% chance to dodge for 2.0s) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.2 Shockwave attack (Range: 532)) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "503-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Divine Myrcia",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 5025,
+      "range": 330,
+      "kb": 4,
+      "speed": 10,
+      "dps": 625,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 3.07,
+      "spawn": 91.2,
+      "cost": 4260,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.4 Shockwave attack (Range: 932)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Dodgeb2 (30% chance to dodge for 2.0s) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.4 Shockwave attack (Range: 932)) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    }
+  ]
+}

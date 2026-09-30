@@ -1,0 +1,72 @@
+{
+  "id": "117",
+  "name": "Fuu",
+  "forms": [
+    {
+      "number": "117-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Fuu",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 738,
+      "damage": 120,
+      "range": 244,
+      "kb": 3,
+      "speed": 10,
+      "dps": 58,
+      "target": "Single",
+      "tba": 2.1,
+      "anim": 1.03,
+      "spawn": 5.87,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "117-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Fuu CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 912,
+      "damage": 195,
+      "range": 244,
+      "kb": 3,
+      "speed": 10,
+      "dps": 92,
+      "target": "Single",
+      "tba": 2.1,
+      "anim": 1.03,
+      "spawn": 5.87,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "612",
+  "name": "Godzilla Cat",
+  "forms": [
+    {
+      "number": "612-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Godzilla Cat",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 1088,
+      "range": 350,
+      "kb": 3,
+      "speed": 4,
+      "dps": 218,
+      "target": "Single",
+      "tba": 5.0,
+      "anim": 0.57,
+      "spawn": 14.53,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "612-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Shin Godzilla Cat",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 1088,
+      "range": 350,
+      "kb": 3,
+      "speed": 4,
+      "dps": 218,
+      "target": "Single",
+      "tba": 5.0,
+      "anim": 0.57,
+      "spawn": 14.53,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

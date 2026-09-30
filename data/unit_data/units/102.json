@@ -1,0 +1,72 @@
+{
+  "id": "102",
+  "name": "Clone Elle",
+  "forms": [
+    {
+      "number": "102-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Clone Elle",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 122,
+      "range": 150,
+      "kb": 5,
+      "speed": 12,
+      "dps": 42,
+      "target": "Area",
+      "tba": 2.9,
+      "anim": 1.2,
+      "spawn": 4.4,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "102-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Clone Elle CC",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 122,
+      "range": 150,
+      "kb": 5,
+      "speed": 12,
+      "dps": 42,
+      "target": "Area",
+      "tba": 2.9,
+      "anim": 1.2,
+      "spawn": 4.4,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

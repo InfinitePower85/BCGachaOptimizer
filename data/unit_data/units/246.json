@@ -1,0 +1,94 @@
+{
+  "id": "246",
+  "name": "Li'l Gross Cat",
+  "forms": [
+    {
+      "number": "246-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Li'l Gross Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 400,
+      "damage": 250,
+      "range": 300,
+      "kb": 3,
+      "speed": 8,
+      "dps": 60,
+      "target": "Single",
+      "tba": 4.23,
+      "anim": 0.27,
+      "spawn": 2.2,
+      "cost": 600,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "246-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Li'l Sexy Legs Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 400,
+      "damage": 250,
+      "range": 300,
+      "kb": 3,
+      "speed": 8,
+      "dps": 60,
+      "target": "Single",
+      "tba": 4.17,
+      "anim": 0.2,
+      "spawn": 2.2,
+      "cost": 600,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "246-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Li'l Macho Legs Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1600,
+      "damage": 500,
+      "range": 300,
+      "kb": 3,
+      "speed": 8,
+      "dps": 120,
+      "target": "Single",
+      "tba": 4.17,
+      "anim": 0.2,
+      "spawn": 7.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "30% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Knockbackb2 (30% chance of knockback) \nu1General Abilitiesu2: b1Barrier Breakerb2 (30% chance of breaking enemy barriers)"
+    }
+  ]
+}

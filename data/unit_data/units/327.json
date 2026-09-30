@@ -1,0 +1,80 @@
+{
+  "id": "327",
+  "name": "Mobius",
+  "forms": [
+    {
+      "number": "327-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mobius",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4700,
+      "damage": 3200,
+      "range": 445,
+      "kb": 4,
+      "speed": 8,
+      "dps": 505,
+      "target": "Area",
+      "tba": 6.33,
+      "anim": 2.37,
+      "spawn": 123.2,
+      "cost": 4470,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "327-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Miraculous Mobius",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6200,
+      "damage": 4200,
+      "range": 445,
+      "kb": 4,
+      "speed": 8,
+      "dps": 662,
+      "target": "Area",
+      "tba": 6.33,
+      "anim": 2.37,
+      "spawn": 123.2,
+      "cost": 4470,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Knockbackb2 (100% chance of knockback)"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "537",
+  "name": "Sakura Miku",
+  "forms": [
+    {
+      "number": "537-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sakura Miku",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4125,
+      "damage": 2375,
+      "range": 500,
+      "kb": 5,
+      "speed": 5,
+      "dps": 425,
+      "target": "Area",
+      "tba": 5.6,
+      "anim": 2.97,
+      "spawn": 111.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "30% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 400~750"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Freezeb2 (100% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (30% chance of breaking enemy barriers) b1Long Distanceb2 (Effective range 400~750)"
+    },
+    {
+      "number": "537-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sakura Miku CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5500,
+      "damage": 3125,
+      "range": 500,
+      "kb": 5,
+      "speed": 5,
+      "dps": 558,
+      "target": "Area",
+      "tba": 5.6,
+      "anim": 2.97,
+      "spawn": 111.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "30% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 400~750"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Freezeb2 (100% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (30% chance of breaking enemy barriers) b1Long Distanceb2 (Effective range 400~750)"
+    }
+  ]
+}

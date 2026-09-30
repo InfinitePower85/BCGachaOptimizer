@@ -1,0 +1,72 @@
+{
+  "id": "382",
+  "name": "Farmer Cat",
+  "forms": [
+    {
+      "number": "382-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Farmer Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1425,
+      "damage": 350,
+      "range": 180,
+      "kb": 3,
+      "speed": 8,
+      "dps": 172,
+      "target": "Single",
+      "tba": 2.03,
+      "anim": 1.0,
+      "spawn": 7.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "382-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Harvest Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1425,
+      "damage": 350,
+      "range": 180,
+      "kb": 3,
+      "speed": 8,
+      "dps": 172,
+      "target": "Single",
+      "tba": 2.03,
+      "anim": 1.0,
+      "spawn": 7.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    }
+  ]
+}

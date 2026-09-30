@@ -1,0 +1,132 @@
+{
+  "id": "358",
+  "name": "Wolfchild Deale",
+  "forms": [
+    {
+      "number": "358-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Wolfchild Deale",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4375,
+      "damage": 3082,
+      "range": 415,
+      "kb": 5,
+      "speed": 12,
+      "dps": 560,
+      "target": "Area",
+      "tba": 5.5,
+      "anim": 1.0,
+      "spawn": 117.87,
+      "cost": 4620,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Knockbackb2 (40% chance of knockback) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "358-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wolf Princess Deale",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 4410,
+      "range": 415,
+      "kb": 5,
+      "speed": 12,
+      "dps": 802,
+      "target": "Area",
+      "tba": 5.5,
+      "anim": 1.0,
+      "spawn": 117.87,
+      "cost": 4620,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Knockbackb2 (40% chance of knockback) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "358-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Jester Queen Deale",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 4410,
+      "range": 415,
+      "kb": 5,
+      "speed": 12,
+      "dps": 1092,
+      "target": "Area",
+      "tba": 0.0,
+      "anim": 3.0,
+      "spawn": 117.87,
+      "cost": 4620,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Knockbackb2 (40% chance of knockback) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

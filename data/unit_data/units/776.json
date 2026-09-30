@@ -1,0 +1,43 @@
+{
+  "id": "776",
+  "name": "Spirit (Axel)",
+  "forms": [
+    {
+      "number": "776-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Spirit (Axel)",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 6750,
+      "range": 800,
+      "kb": 1,
+      "speed": 0,
+      "dps": 2355,
+      "target": "Area",
+      "tba": 2.87,
+      "anim": 1.37,
+      "spawn": 2.0,
+      "cost": 0,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Attack Once",
+              "detail": "Attacks a single time, then disappears from the battlefield"
+            },
+            {
+              "name": "Metal Killer",
+              "detail": "Decreases 40% of target's current HP"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Attack Onceb2 (Attacks a single time, then disappears from the battlefield) b1Metal Killerb2 (Decreases 40% of target's current HP)"
+    }
+  ]
+}

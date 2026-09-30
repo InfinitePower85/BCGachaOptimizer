@@ -1,0 +1,148 @@
+{
+  "id": "438",
+  "name": "Cat God the Great",
+  "forms": [
+    {
+      "number": "438-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cat God the Great",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 7650,
+      "range": 350,
+      "kb": 1,
+      "speed": 3,
+      "dps": 205,
+      "target": "Area",
+      "tba": 37.3,
+      "anim": 3.0,
+      "spawn": 287.47,
+      "cost": 3333,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -850~850"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -850~850) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "438-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cat God the Awesome",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 7650,
+      "range": 350,
+      "kb": 1,
+      "speed": 3,
+      "dps": 205,
+      "target": "Area",
+      "tba": 37.3,
+      "anim": 3.0,
+      "spawn": 287.47,
+      "cost": 3333,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -850~850"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -850~850) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "438-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Cat God the Golden",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3788,
+      "damage": 7650,
+      "range": 350,
+      "kb": 1,
+      "speed": 3,
+      "dps": 205,
+      "target": "Area",
+      "tba": 37.3,
+      "anim": 3.0,
+      "spawn": 287.47,
+      "cost": 3333,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -850~850"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies) b1Omni Strikeb2 (Effective range -850~850) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

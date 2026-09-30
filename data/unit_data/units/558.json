@@ -1,0 +1,72 @@
+{
+  "id": "558",
+  "name": "Heavenly Jack",
+  "forms": [
+    {
+      "number": "558-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Heavenly Jack",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1050,
+      "damage": 475,
+      "range": 220,
+      "kb": 3,
+      "speed": 10,
+      "dps": 178,
+      "target": "Single",
+      "tba": 2.67,
+      "anim": 0.57,
+      "spawn": 11.2,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "558-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Heavenly Lord Jack",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1375,
+      "damage": 625,
+      "range": 220,
+      "kb": 3,
+      "speed": 10,
+      "dps": 235,
+      "target": "Single",
+      "tba": 2.67,
+      "anim": 0.57,
+      "spawn": 11.2,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    }
+  ]
+}

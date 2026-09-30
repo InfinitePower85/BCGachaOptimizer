@@ -1,0 +1,154 @@
+{
+  "id": "323",
+  "name": "Sarukani",
+  "forms": [
+    {
+      "number": "323-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sarukani",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1700,
+      "damage": 900,
+      "range": 300,
+      "kb": 4,
+      "speed": 12,
+      "dps": 325,
+      "target": "Area",
+      "tba": 2.77,
+      "anim": 0.6,
+      "spawn": 7.2,
+      "cost": 780,
+      "abilities": [
+        {
+          "group": "Against angel, zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "323-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Rock Revengers",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11875,
+      "damage": 6375,
+      "range": 460,
+      "kb": 4,
+      "speed": 9,
+      "dps": 705,
+      "target": "Area",
+      "tba": 9.03,
+      "anim": 2.73,
+      "spawn": 151.2,
+      "cost": 5700,
+      "abilities": [
+        {
+          "group": "Against angel, zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)\r\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "323-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "The One-Hit Wonders",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14375,
+      "damage": 6375,
+      "range": 460,
+      "kb": 4,
+      "speed": 9,
+      "dps": 835,
+      "target": "Area",
+      "tba": 7.63,
+      "anim": 2.73,
+      "spawn": 151.2,
+      "cost": 5700,
+      "abilities": [
+        {
+          "group": "Against angel, zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)\r\nu1Not affected byu2: b1Weakenb2, b1Slowb2"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "439",
+  "name": "Waverider Kuu",
+  "forms": [
+    {
+      "number": "439-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Waverider Kuu",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 5000,
+      "range": 400,
+      "kb": 5,
+      "speed": 12,
+      "dps": 455,
+      "target": "Area",
+      "tba": 10.97,
+      "anim": 2.0,
+      "spawn": 131.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against floating, zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "439-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Waverider Kuu, type γ",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8250,
+      "damage": 7000,
+      "range": 400,
+      "kb": 5,
+      "speed": 12,
+      "dps": 638,
+      "target": "Area",
+      "tba": 10.97,
+      "anim": 2.0,
+      "spawn": 131.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against floating, zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

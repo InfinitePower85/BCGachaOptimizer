@@ -1,0 +1,109 @@
+{
+  "id": "512",
+  "name": "Ryu",
+  "forms": [
+    {
+      "number": "512-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ryu",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 1200,
+      "range": 480,
+      "kb": 5,
+      "speed": 18,
+      "dps": 655,
+      "target": "Area",
+      "tba": 1.83,
+      "anim": 0.53,
+      "spawn": 157.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "15% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Savage Blowb2 (15% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    },
+    {
+      "number": "512-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ryu CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 1200,
+      "range": 480,
+      "kb": 5,
+      "speed": 18,
+      "dps": 655,
+      "target": "Area",
+      "tba": 1.83,
+      "anim": 0.53,
+      "spawn": 157.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "15% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Savage Blowb2 (15% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    },
+    {
+      "number": "512-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Kage",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 1200,
+      "range": 480,
+      "kb": 5,
+      "speed": 18,
+      "dps": 610,
+      "target": "Area",
+      "tba": 1.97,
+      "anim": 0.8,
+      "spawn": 157.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 40% health"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "20% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 40% health) b1Savage Blowb2 (20% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    }
+  ]
+}

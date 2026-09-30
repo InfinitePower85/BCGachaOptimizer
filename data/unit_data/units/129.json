@@ -1,0 +1,109 @@
+{
+  "id": "129",
+  "name": "Vengeful Cat",
+  "forms": [
+    {
+      "number": "129-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Vengeful Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 975,
+      "damage": 245,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 32,
+      "target": "Area",
+      "tba": 7.77,
+      "anim": 1.8,
+      "spawn": 3.2,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "129-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Groucho Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 975,
+      "damage": 245,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 32,
+      "target": "Area",
+      "tba": 7.77,
+      "anim": 1.8,
+      "spawn": 3.2,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "129-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Kite Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 975,
+      "damage": 490,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 62,
+      "target": "Area",
+      "tba": 7.77,
+      "anim": 1.8,
+      "spawn": 9.2,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~425"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Long Distanceb2 (Effective range 275~425)"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "580",
+  "name": "Sagat Cat",
+  "forms": [
+    {
+      "number": "580-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sagat Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1650,
+      "damage": 180,
+      "range": 275,
+      "kb": 3,
+      "speed": 10,
+      "dps": 208,
+      "target": "Single",
+      "tba": 0.87,
+      "anim": 0.43,
+      "spawn": 6.87,
+      "cost": 585,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "580-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sagat Cat CC",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1650,
+      "damage": 180,
+      "range": 275,
+      "kb": 3,
+      "speed": 10,
+      "dps": 208,
+      "target": "Single",
+      "tba": 0.87,
+      "anim": 0.43,
+      "spawn": 6.87,
+      "cost": 585,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

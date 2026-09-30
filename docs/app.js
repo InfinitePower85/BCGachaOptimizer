@@ -145,12 +145,19 @@ function pivotByRoll(cells) {
   return [...rolls.entries()].sort((a, b) => a[0] - b[0]);
 }
 
+const LEGEND_RARITIES = new Set(["legend", "legend_fest"]);
+
 function cellNode(cell, track, roll, kind) {
   const td = document.createElement("td");
   td.dataset.track = track;
   td.dataset.roll = roll;
   td.dataset.kind = kind;
   if (!cell || !cell.cat_name) { td.className = "roll-empty"; return td; }
+  // A cell (normal or guaranteed) can be a Legend Rare, not just an Uber -- bc.godfat
+  // predicts what you'd actually get at that position, and that's not limited to the
+  // guaranteed-11 slot. Flag those in purple so a legend doesn't get missed for an uber
+  // pulled some other way.
+  if (LEGEND_RARITIES.has(cell.rarity)) td.classList.add("legend-pick");
   const name = document.createElement("span");
   name.className = "rarity-" + (cell.rarity || "none");
   name.textContent = cell.cat_name;
@@ -272,7 +279,12 @@ function flashCell(track, roll, kind, className = "sim-current") {
   document.querySelectorAll("#viewer-table td.sim-current, #viewer-table td.sim-current-bonus")
     .forEach((td) => td.classList.remove(...SIM_FLASH_CLASSES));
   const td = document.querySelector(`#viewer-table td[data-track="${track}"][data-roll="${roll}"][data-kind="${kind}"]`);
-  if (td) td.classList.add(className);
+  if (td) {
+    td.classList.add(className);
+    // "nearest" + instant: only moves the page if the cell isn't already visible, and
+    // doesn't queue up a slow smooth-scroll animation for every ~70ms animation step.
+    td.scrollIntoView({ block: "nearest", inline: "nearest" });
+  }
 }
 
 async function simDrawEleven() {
@@ -332,13 +344,86 @@ function updateSimHighlight() {
   document.querySelectorAll("#viewer-table td.sim-current, #viewer-table td.sim-current-bonus")
     .forEach((td) => td.classList.remove(...SIM_FLASH_CLASSES));
   if (!sim) return;
-  document
-    .querySelectorAll(`#viewer-table td[data-track="${sim.track}"][data-roll="${sim.roll}"]`)
-    .forEach((td) => td.classList.add("sim-current"));
+  const cells = document.querySelectorAll(`#viewer-table td[data-track="${sim.track}"][data-roll="${sim.roll}"]`);
+  cells.forEach((td) => td.classList.add("sim-current"));
+  // Keep the marker in view as it moves -- a single draw, an undo, the end of the 11-draw
+  // animation, and a replayed route (simApplyRoute) all funnel through here via renderSim().
+  // only use a "nearest" scroll approach here 
+  cells[0]?.scrollIntoView({ block: "nearest", inline: "nearest"});
+
+
+}
+
+// name -> rarity for every unit in the game (its Normal form, which is what a gacha pull
+// always yields -- see unit_rarity.py), fetched once from the server and cached here.
+// This is the game's real per-unit rarity, distinct from bc.godfat's own per-cell class
+// (LEGEND_RARITIES above): a unit can sit in a "legend_fest"-tier pull slot on some
+// collab banner while its own true rarity is still "Uber Super Rare" (see e.g. Illyasviel,
+// cat_id 365) -- the "Collected" panel wants the latter, so a user can tell what they
+// actually own apart from which slot it came out of.
+let unitRarityByName = {};
+
+async function loadUnitRarities() {
+  try {
+    unitRarityByName = await apiGet("/unit-rarities");
+  } catch {
+    unitRarityByName = {}; // best-effort; the collected panel just falls back to "Unknown"
+  }
+  if (sim) renderSim(); // refresh with real rarities if any draws happened before this resolved
+}
+
+// Highest rarity first, since that's what a user checking "what did I get" cares about
+// most. Matches unit_rarity.py's vocabulary (a unit's Normal-form rarity), not
+// RARITY_LABEL's bc.godfat pull-slot scheme used elsewhere on this page.
+const UNIT_RARITY_ORDER = ["Legendary Rare", "Uber Super Rare", "Super Rare", "Rare", "Special", "Basic"];
+const UNIT_RARITY_CLASS = {
+  Basic: "basic", Rare: "rare", "Super Rare": "supa",
+  "Uber Super Rare": "uber", "Legendary Rare": "legend", Special: "special",
+};
+
+/** Every unit collected so far (across all of sim.moves, manual or replayed), deduped by
+ * name with a count, grouped by rarity -- the same idea as the target-groups checkboxes
+ * in part 4, but built from draw history instead of a fetched roster. */
+function renderSimCollected() {
+  const container = $("sim-collected");
+  container.replaceChildren();
+  if (!sim || !sim.moves.length) return;
+
+  const counts = new Map(); // name -> count
+  for (const move of sim.moves) {
+    for (const name of move.units) counts.set(name, (counts.get(name) || 0) + 1);
+  }
+
+  const byRarity = new Map(); // rarity -> [[name, count], ...]
+  for (const [name, count] of counts) {
+    const rarity = unitRarityByName[name] || "Unknown";
+    if (!byRarity.has(rarity)) byRarity.set(rarity, []);
+    byRarity.get(rarity).push([name, count]);
+  }
+
+  const rarities = [...UNIT_RARITY_ORDER, ...[...byRarity.keys()].filter((r) => !UNIT_RARITY_ORDER.includes(r))];
+  for (const rarity of rarities) {
+    const group = byRarity.get(rarity);
+    if (!group) continue;
+    const total = group.reduce((n, [, count]) => n + count, 0);
+    const h4 = document.createElement("h4");
+    h4.className = "rarity-" + (UNIT_RARITY_CLASS[rarity] || "none");
+    h4.textContent = `${rarity} (${total})`;
+    container.append(h4);
+
+    const ul = document.createElement("ul");
+    for (const [name, count] of group.sort((a, b) => a[0].localeCompare(b[0]))) {
+      const li = document.createElement("li");
+      li.textContent = count > 1 ? `${name} ×${count}` : name;
+      ul.append(li);
+    }
+    container.append(ul);
+  }
 }
 
 function renderSim() {
   updateSimHighlight();
+  renderSimCollected();
   const movesEl = $("sim-moves");
   movesEl.replaceChildren();
 
@@ -633,6 +718,7 @@ $("opt-dataset").addEventListener("change", onOptDatasetChange);
 
 $("opt-event").addEventListener("change", (ev) => loadGachaUnits(ev.target.value));
 loadGachaEvents();
+loadUnitRarities();
 
 // Filled in on a successful optimize, so "Simulate this route in viewer" (below) can
 // replay it without a second server call.
@@ -703,10 +789,9 @@ $("opt-simulate-btn").addEventListener("click", async () => {
   if ([...select.options].some((o) => o.value === lastOptimizeDatasetId)) select.value = lastOptimizeDatasetId;
   renderRollViewer(lastOptimizeCsv);
   initSim(lastOptimizeCsv);
-  simApplyRoute(lastOptimizeRoute);
+  simApplyRoute(lastOptimizeRoute); // ends in renderSim(), which scrolls to the landed cell
   await onViewerDatasetChange();
   say("viewer-status", `Simulating the optimizer's route for ${lastOptimizeDatasetId}.`, "ok");
-  $("sim-position").scrollIntoView({ behavior: "smooth", block: "center" });
 });
 
 // ---- Meow (server connection test) -------------------------------------------

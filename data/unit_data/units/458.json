@@ -1,0 +1,72 @@
+{
+  "id": "458",
+  "name": "Shirou the Cat",
+  "forms": [
+    {
+      "number": "458-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shirou the Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1875,
+      "damage": 325,
+      "range": 170,
+      "kb": 3,
+      "speed": 10,
+      "dps": 168,
+      "target": "Single",
+      "tba": 1.93,
+      "anim": 1.2,
+      "spawn": 8.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "458-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Novice Mage Shirou Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1875,
+      "damage": 325,
+      "range": 170,
+      "kb": 3,
+      "speed": 10,
+      "dps": 168,
+      "target": "Single",
+      "tba": 1.93,
+      "anim": 1.2,
+      "spawn": 8.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

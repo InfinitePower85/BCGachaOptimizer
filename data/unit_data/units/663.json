@@ -1,0 +1,105 @@
+{
+  "id": "663",
+  "name": "Brainwashed Cow Cat",
+  "forms": [
+    {
+      "number": "663-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Brainwashed Cow Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3250,
+      "damage": 88,
+      "range": 140,
+      "kb": 5,
+      "speed": 40,
+      "dps": 262,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 4.2,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against black, aku",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, akuu2: b1Curseb2 (100% chance to curse for 1.0s)"
+    },
+    {
+      "number": "663-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Brainwashed Giraffe Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3250,
+      "damage": 88,
+      "range": 140,
+      "kb": 5,
+      "speed": 40,
+      "dps": 262,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 4.2,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against black, aku",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, akuu2: b1Curseb2 (100% chance to curse for 1.0s)"
+    },
+    {
+      "number": "663-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Brainwashed Lion Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3250,
+      "damage": 88,
+      "range": 140,
+      "kb": 2,
+      "speed": 40,
+      "dps": 262,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 4.2,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against black, aku",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, akuu2: b1Curseb2 (100% chance to curse for 3.0s)"
+    }
+  ]
+}

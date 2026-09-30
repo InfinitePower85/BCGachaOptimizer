@@ -1,0 +1,80 @@
+{
+  "id": "854",
+  "name": "Occultist Cat",
+  "forms": [
+    {
+      "number": "854-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Occultist Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2075,
+      "damage": 1150,
+      "range": 270,
+      "kb": 3,
+      "speed": 8,
+      "dps": 280,
+      "target": "Single",
+      "tba": 4.1,
+      "anim": 0.87,
+      "spawn": 11.87,
+      "cost": 960,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Dodge",
+              "detail": "20% chance to dodge for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Massive Damageb2 (inflicts 3.0x damage) b1Dodgeb2 (20% chance to dodge for 1.0s)"
+    },
+    {
+      "number": "854-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Gyaru Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2075,
+      "damage": 1150,
+      "range": 270,
+      "kb": 3,
+      "speed": 8,
+      "dps": 280,
+      "target": "Single",
+      "tba": 4.1,
+      "anim": 0.87,
+      "spawn": 11.87,
+      "cost": 960,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Dodge",
+              "detail": "20% chance to dodge for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Massive Damageb2 (inflicts 3.0x damage) b1Dodgeb2 (20% chance to dodge for 1.0s)"
+    }
+  ]
+}

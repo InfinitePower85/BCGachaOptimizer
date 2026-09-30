@@ -1,0 +1,114 @@
+{
+  "id": "615",
+  "name": "Kaguya of the Coast",
+  "forms": [
+    {
+      "number": "615-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kaguya of the Coast",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 625,
+      "range": 280,
+      "kb": 3,
+      "speed": 8,
+      "dps": 418,
+      "target": "Area",
+      "tba": 1.5,
+      "anim": 0.2,
+      "spawn": 7.2,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "20% chance to slow for 2.33s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: b1Slowb2 (20% chance to slow for 2.33s)"
+    },
+    {
+      "number": "615-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "The Southern Sun",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 6750,
+      "range": 440,
+      "kb": 4,
+      "speed": 7,
+      "dps": 730,
+      "target": "Area",
+      "tba": 9.23,
+      "anim": 3.27,
+      "spawn": 141.2,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: b1Slowb2 (100% chance to slow for 3.67s)"
+    },
+    {
+      "number": "615-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "The Southern Sunflare",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 6750,
+      "range": 440,
+      "kb": 4,
+      "speed": 7,
+      "dps": 730,
+      "target": "Area",
+      "tba": 9.23,
+      "anim": 3.27,
+      "spawn": 141.2,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against black, alien, aku",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Shield Piercing",
+              "detail": "50% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alien, akuu2: b1Slowb2 (100% chance to slow for 3.67s)\nu1General Abilitiesu2: b1Shield Piercingb2 (50% chance to break Aku shields)"
+    }
+  ]
+}

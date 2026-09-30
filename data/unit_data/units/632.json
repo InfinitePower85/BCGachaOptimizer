@@ -1,0 +1,179 @@
+{
+  "id": "632",
+  "name": "Yamii",
+  "forms": [
+    {
+      "number": "632-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Yamii",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3125,
+      "damage": 900,
+      "range": 150,
+      "kb": 2,
+      "speed": 10,
+      "dps": 135,
+      "target": "Area",
+      "tba": 6.63,
+      "anim": 2.67,
+      "spawn": 14.53,
+      "cost": 990,
+      "abilities": [
+        {
+          "group": "Against alien, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, akuu2: b1Weakenb2 (30% chance to weaken by 50% for 2.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "632-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Yaminoir",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7650,
+      "damage": 3750,
+      "range": 340,
+      "kb": 2,
+      "speed": 10,
+      "dps": 565,
+      "target": "Area",
+      "tba": 6.63,
+      "anim": 2.67,
+      "spawn": 97.87,
+      "cost": 2850,
+      "abilities": [
+        {
+          "group": "Against alien, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, akuu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (100% chance to weaken by 50% for 3.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "632-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Yaminora",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 15300,
+      "damage": 3750,
+      "range": 340,
+      "kb": 2,
+      "speed": 10,
+      "dps": 565,
+      "target": "Area",
+      "tba": 6.63,
+      "anim": 2.67,
+      "spawn": 97.87,
+      "cost": 2850,
+      "abilities": [
+        {
+          "group": "Against alien, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, akuu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (100% chance to weaken by 50% for 3.0s) \nu1General Abilitiesu2: b1Wave Shieldb2 (Protects units behind them from shockwaves) b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

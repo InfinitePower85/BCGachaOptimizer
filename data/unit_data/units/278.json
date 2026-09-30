@@ -1,0 +1,52 @@
+{
+  "id": "278",
+  "name": "Funghi",
+  "forms": [
+    {
+      "number": "278-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Funghi",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 275,
+      "damage": 50,
+      "range": 150,
+      "kb": 3,
+      "speed": 9,
+      "dps": 12,
+      "target": "Single",
+      "tba": 3.77,
+      "anim": 1.73,
+      "spawn": 2.0,
+      "cost": 90,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "278-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Funghi 'n' Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 275,
+      "damage": 25,
+      "range": 200,
+      "kb": 3,
+      "speed": 9,
+      "dps": 5,
+      "target": "Single",
+      "tba": 5.7,
+      "anim": 1.73,
+      "spawn": 2.0,
+      "cost": 90,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

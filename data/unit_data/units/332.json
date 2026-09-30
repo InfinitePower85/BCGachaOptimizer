@@ -1,0 +1,152 @@
+{
+  "id": "332",
+  "name": "Bunny & Canard",
+  "forms": [
+    {
+      "number": "332-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Bunny & Canard",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 17000,
+      "damage": 16025,
+      "range": 430,
+      "kb": 2,
+      "speed": 8,
+      "dps": 2012,
+      "target": "Area",
+      "tba": 7.97,
+      "anim": 2.33,
+      "spawn": 157.87,
+      "cost": 5910,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "red",
+              "detail": ""
+            },
+            {
+              "name": "black",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: u1Attacks onlyu2b1 redb2,b1 blackb2\nu1Not affected byu2: b1Freezeb2, b1Slowb2"
+    },
+    {
+      "number": "332-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Disciple Psychoduck",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 17000,
+      "damage": 16025,
+      "range": 430,
+      "kb": 2,
+      "speed": 8,
+      "dps": 2012,
+      "target": "Area",
+      "tba": 7.97,
+      "anim": 2.33,
+      "spawn": 157.87,
+      "cost": 5910,
+      "abilities": [
+        {
+          "group": "Against red, zombie",
+          "abilities": [
+            {
+              "name": "red",
+              "detail": ""
+            },
+            {
+              "name": "zombie",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, zombieu2: u1Attacks onlyu2b1 redb2,b1 zombieb2 \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "332-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Malevolent Mad-Duck",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 17000,
+      "damage": 16025,
+      "range": 430,
+      "kb": 2,
+      "speed": 8,
+      "dps": 2012,
+      "target": "Area",
+      "tba": 7.97,
+      "anim": 2.33,
+      "spawn": 157.87,
+      "cost": 5910,
+      "abilities": [
+        {
+          "group": "Against red, aku",
+          "abilities": [
+            {
+              "name": "red",
+              "detail": ""
+            },
+            {
+              "name": "aku",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            },
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, akuu2: u1Attacks onlyu2b1 redb2,b1 akub2 \nu1Not affected byu2: b1Surgeb2, b1Toxicb2"
+    }
+  ]
+}

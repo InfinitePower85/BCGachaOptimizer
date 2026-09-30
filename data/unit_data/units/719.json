@@ -1,0 +1,116 @@
+{
+  "id": "719",
+  "name": "Maize Cat",
+  "forms": [
+    {
+      "number": "719-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Maize Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2750,
+      "damage": 225,
+      "range": 170,
+      "kb": 1,
+      "speed": 20,
+      "dps": 90,
+      "target": "Single",
+      "tba": 2.53,
+      "anim": 0.57,
+      "spawn": 3.87,
+      "cost": 375,
+      "abilities": [
+        {
+          "group": "Against relic, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relic, akuu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Freezeb2, b1Curseb2"
+    },
+    {
+      "number": "719-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cone Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2750,
+      "damage": 225,
+      "range": 170,
+      "kb": 1,
+      "speed": 20,
+      "dps": 90,
+      "target": "Single",
+      "tba": 2.53,
+      "anim": 0.57,
+      "spawn": 3.87,
+      "cost": 375,
+      "abilities": [
+        {
+          "group": "Against relic, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relic, akuu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Freezeb2, b1Curseb2"
+    }
+  ]
+}

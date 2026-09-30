@@ -1,0 +1,122 @@
+{
+  "id": "488",
+  "name": "Eva Unit-08",
+  "forms": [
+    {
+      "number": "488-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Eva Unit-08",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 4800,
+      "range": 450,
+      "kb": 4,
+      "speed": 13,
+      "dps": 602,
+      "target": "Area",
+      "tba": 7.97,
+      "anim": 1.87,
+      "spawn": 144.53,
+      "cost": 4575,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "20% chance to weaken by 50% for 4.0s"
+            },
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "20% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~700"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Weakenb2 (20% chance to weaken by 50% for 4.0s) b1Freezeb2 (20% chance to freeze for 4.0s) b1Knockbackb2 (20% chance of knockback) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~700) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "488-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Eva Unit-08 & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 4800,
+      "range": 450,
+      "kb": 4,
+      "speed": 13,
+      "dps": 602,
+      "target": "Area",
+      "tba": 7.97,
+      "anim": 1.87,
+      "spawn": 144.53,
+      "cost": 4575,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "20% chance to weaken by 50% for 4.0s"
+            },
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "20% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~700"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Weakenb2 (20% chance to weaken by 50% for 4.0s) b1Freezeb2 (20% chance to freeze for 4.0s) b1Knockbackb2 (20% chance of knockback) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~700) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "276",
+  "name": "Midsummer Rabbit",
+  "forms": [
+    {
+      "number": "276-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Midsummer Rabbit",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7200,
+      "damage": 5700,
+      "range": 465,
+      "kb": 6,
+      "speed": 11,
+      "dps": 608,
+      "target": "Area",
+      "tba": 9.4,
+      "anim": 1.43,
+      "spawn": 131.2,
+      "cost": 4950,
+      "abilities": [
+        {
+          "group": "Against black, angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, angelu2: b1Slowb2 (100% chance to slow for 4.67s)"
+    },
+    {
+      "number": "276-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Midsummer Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7200,
+      "damage": 5700,
+      "range": 465,
+      "kb": 6,
+      "speed": 11,
+      "dps": 608,
+      "target": "Area",
+      "tba": 9.4,
+      "anim": 1.43,
+      "spawn": 131.2,
+      "cost": 4950,
+      "abilities": [
+        {
+          "group": "Against black, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "276-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Brightsummer Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7200,
+      "damage": 5700,
+      "range": 465,
+      "kb": 6,
+      "speed": 11,
+      "dps": 608,
+      "target": "Area",
+      "tba": 9.4,
+      "anim": 1.43,
+      "spawn": 131.2,
+      "cost": 4950,
+      "abilities": [
+        {
+          "group": "Against black, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.67s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Slowb2 (100% chance to slow for 4.67s) b1Knockbackb2 (100% chance of knockback)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

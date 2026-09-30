@@ -1,0 +1,72 @@
+{
+  "id": "744",
+  "name": "Madhead",
+  "forms": [
+    {
+      "number": "744-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Madhead",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1050,
+      "damage": 200,
+      "range": 300,
+      "kb": 3,
+      "speed": 10,
+      "dps": 25,
+      "target": "Single",
+      "tba": 8.0,
+      "anim": 1.23,
+      "spawn": 14.53,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Weakenb2 (100% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "744-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Madhead Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1050,
+      "damage": 200,
+      "range": 300,
+      "kb": 3,
+      "speed": 10,
+      "dps": 25,
+      "target": "Single",
+      "tba": 8.0,
+      "anim": 1.23,
+      "spawn": 14.53,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Weakenb2 (100% chance to weaken by 50% for 6.67s)"
+    }
+  ]
+}

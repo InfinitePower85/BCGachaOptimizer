@@ -1,0 +1,152 @@
+{
+  "id": "535",
+  "name": "Hades the Punisher",
+  "forms": [
+    {
+      "number": "535-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hades the Punisher",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 47500,
+      "damage": 1575,
+      "range": 250,
+      "kb": 2,
+      "speed": 8,
+      "dps": 775,
+      "target": "Area",
+      "tba": 2.03,
+      "anim": 1.5,
+      "spawn": 131.2,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Warpb2, b1Toxicb2"
+    },
+    {
+      "number": "535-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hades the Deathdealer",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 62500,
+      "damage": 2100,
+      "range": 250,
+      "kb": 2,
+      "speed": 8,
+      "dps": 1032,
+      "target": "Area",
+      "tba": 2.03,
+      "anim": 1.5,
+      "spawn": 131.2,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Warpb2, b1Toxicb2"
+    },
+    {
+      "number": "535-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Almighty Hades",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 62500,
+      "damage": 2100,
+      "range": 250,
+      "kb": 2,
+      "speed": 8,
+      "dps": 1032,
+      "target": "Area",
+      "tba": 2.03,
+      "anim": 1.5,
+      "spawn": 131.2,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\r\nu1Not affected byu2: b1Knockbackb2, b1Slowb2, b1Warpb2, b1Toxicb2"
+    }
+  ]
+}

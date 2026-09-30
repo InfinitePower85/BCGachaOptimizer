@@ -1,0 +1,85 @@
+{
+  "id": "006",
+  "name": "Bird Cat",
+  "forms": [
+    {
+      "number": "006-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Bird Cat",
+      "rarity": "Basic",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 350,
+      "range": 170,
+      "kb": 4,
+      "speed": 10,
+      "dps": 215,
+      "target": "Area",
+      "tba": 1.63,
+      "anim": 0.33,
+      "spawn": 2.0,
+      "cost": 975,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "006-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "UFO Cat",
+      "rarity": "Basic",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 412,
+      "range": 170,
+      "kb": 4,
+      "speed": 10,
+      "dps": 218,
+      "target": "Area",
+      "tba": 1.9,
+      "anim": 0.6,
+      "spawn": 2.0,
+      "cost": 975,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "006-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "The Flying Cat",
+      "rarity": "Basic",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 825,
+      "range": 170,
+      "kb": 4,
+      "speed": 10,
+      "dps": 435,
+      "target": "Area",
+      "tba": 1.9,
+      "anim": 0.6,
+      "spawn": 3.53,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "20% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Weakenb2 (20% chance to weaken by 50% for 4.0s)"
+    }
+  ]
+}

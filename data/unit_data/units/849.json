@@ -1,0 +1,72 @@
+{
+  "id": "849",
+  "name": "Tanjiro Cat",
+  "forms": [
+    {
+      "number": "849-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Tanjiro Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1550,
+      "damage": 425,
+      "range": 160,
+      "kb": 2,
+      "speed": 10,
+      "dps": 92,
+      "target": "Area",
+      "tba": 4.63,
+      "anim": 0.67,
+      "spawn": 7.87,
+      "cost": 660,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 2.5s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Slowb2 (50% chance to slow for 2.5s)"
+    },
+    {
+      "number": "849-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Tanjiro Cat CC",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1550,
+      "damage": 425,
+      "range": 160,
+      "kb": 2,
+      "speed": 10,
+      "dps": 92,
+      "target": "Area",
+      "tba": 4.63,
+      "anim": 0.67,
+      "spawn": 7.87,
+      "cost": 660,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 2.5s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Slowb2 (50% chance to slow for 2.5s)"
+    }
+  ]
+}

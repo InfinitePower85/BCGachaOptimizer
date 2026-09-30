@@ -1,0 +1,72 @@
+{
+  "id": "295",
+  "name": "Madoka Cat",
+  "forms": [
+    {
+      "number": "295-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Madoka Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2125,
+      "damage": 625,
+      "range": 120,
+      "kb": 4,
+      "speed": 9,
+      "dps": 200,
+      "target": "Single",
+      "tba": 3.13,
+      "anim": 0.77,
+      "spawn": 6.53,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Slowb2 (30% chance to slow for 2.0s)"
+    },
+    {
+      "number": "295-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Magical Girl Madoka Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2125,
+      "damage": 625,
+      "range": 250,
+      "kb": 4,
+      "speed": 9,
+      "dps": 200,
+      "target": "Single",
+      "tba": 3.13,
+      "anim": 0.83,
+      "spawn": 6.53,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Slowb2 (30% chance to slow for 2.0s)"
+    }
+  ]
+}

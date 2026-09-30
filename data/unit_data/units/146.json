@@ -1,0 +1,105 @@
+{
+  "id": "146",
+  "name": "Cat Gunslinger",
+  "forms": [
+    {
+      "number": "146-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cat Gunslinger",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 775,
+      "damage": 200,
+      "range": 290,
+      "kb": 3,
+      "speed": 9,
+      "dps": 75,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 0.13,
+      "spawn": 6.53,
+      "cost": 645,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Slowb2 (30% chance to slow for 2.0s)"
+    },
+    {
+      "number": "146-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cat Eastwood",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 900,
+      "damage": 232,
+      "range": 290,
+      "kb": 3,
+      "speed": 9,
+      "dps": 86,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 0.13,
+      "spawn": 6.53,
+      "cost": 645,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Slowb2 (30% chance to slow for 2.0s)"
+    },
+    {
+      "number": "146-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Rodeo Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1150,
+      "damage": 265,
+      "range": 320,
+      "kb": 3,
+      "speed": 9,
+      "dps": 95,
+      "target": "Single",
+      "tba": 2.77,
+      "anim": 0.13,
+      "spawn": 6.53,
+      "cost": 645,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Slowb2 (30% chance to slow for 4.0s)"
+    }
+  ]
+}

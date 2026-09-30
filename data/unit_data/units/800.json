@@ -1,0 +1,132 @@
+{
+  "id": "800",
+  "name": "Mighty Morta-Loncha",
+  "forms": [
+    {
+      "number": "800-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mighty Morta-Loncha",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 15000,
+      "damage": 3625,
+      "range": 465,
+      "kb": 4,
+      "speed": 5,
+      "dps": 500,
+      "target": "Area",
+      "tba": 7.27,
+      "anim": 2.3,
+      "spawn": 177.87,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against zombie, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 800"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 465 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Toxic",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombie, akuu2: b1Freezeb2 (50% chance to freeze for 5.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Conjureb2 (Allows summon of a spirit: Unit number 800) b1Explosionb2 (100% chance to create an explosion at 465 range)\nu1Not affected byu2: b1Toxicb2, b1Surgeb2"
+    },
+    {
+      "number": "800-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Grandiose Gunhauzer",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 15000,
+      "damage": 3625,
+      "range": 465,
+      "kb": 4,
+      "speed": 5,
+      "dps": 500,
+      "target": "Area",
+      "tba": 7.27,
+      "anim": 2.3,
+      "spawn": 177.87,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against zombie, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 800"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 465 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Toxic",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombie, akuu2: b1Freezeb2 (50% chance to freeze for 5.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Conjureb2 (Allows summon of a spirit: Unit number 800) b1Explosionb2 (100% chance to create an explosion at 465 range)\nu1Not affected byu2: b1Toxicb2, b1Surgeb2"
+    }
+  ]
+}

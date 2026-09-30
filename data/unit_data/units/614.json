@@ -1,0 +1,279 @@
+{
+  "id": "614",
+  "name": "Elder Mask Doron",
+  "forms": [
+    {
+      "number": "614-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Elder Mask Doron",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 55555,
+      "damage": 1942,
+      "range": 400,
+      "kb": 1,
+      "speed": 20,
+      "dps": 442,
+      "target": "Area",
+      "tba": 4.4,
+      "anim": 2.53,
+      "spawn": 52.53,
+      "cost": 1800,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -1000~600"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 1s (Range: 400~1000)"
+            },
+            {
+              "name": "Attack Once",
+              "detail": "Attacks a single time, then disappears from the battlefield"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Freezeb2 (100% chance to freeze for 5.0s) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -1000~600) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 1s (Range: 400~1000)) b1Attack Onceb2 (Attacks a single time, then disappears from the battlefield)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Curseb2, b1Warpb2, b1Waveb2, b1Surgeb2"
+    },
+    {
+      "number": "614-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cat Mask Doron",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 55555,
+      "damage": 2778,
+      "range": 400,
+      "kb": 1,
+      "speed": 20,
+      "dps": 630,
+      "target": "Area",
+      "tba": 4.4,
+      "anim": 2.53,
+      "spawn": 52.53,
+      "cost": 1800,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -1000~600"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 3s (Range: 400~1000)"
+            },
+            {
+              "name": "Attack Once",
+              "detail": "Attacks a single time, then disappears from the battlefield"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Freezeb2 (100% chance to freeze for 6.67s) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -1000~600) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 3s (Range: 400~1000)) b1Attack Onceb2 (Attacks a single time, then disappears from the battlefield)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Curseb2, b1Warpb2, b1Waveb2, b1Surgeb2"
+    },
+    {
+      "number": "614-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Awakened Doron",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 55555,
+      "damage": 2778,
+      "range": 400,
+      "kb": 1,
+      "speed": 30,
+      "dps": 630,
+      "target": "Area",
+      "tba": 4.4,
+      "anim": 2.53,
+      "spawn": 52.53,
+      "cost": 1800,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 6.67s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -1000~600"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 3s (Range: 400~1000)"
+            },
+            {
+              "name": "Attack Once",
+              "detail": "Attacks a single time, then disappears from the battlefield"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Freezeb2 (100% chance to freeze for 6.67s) b1Knockbackb2 (100% chance of knockback)\nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -1000~600) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 3s (Range: 400~1000)) b1Attack Onceb2 (Attacks a single time, then disappears from the battlefield)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Curseb2, b1Warpb2, b1Waveb2, b1Surgeb2"
+    }
+  ]
+}

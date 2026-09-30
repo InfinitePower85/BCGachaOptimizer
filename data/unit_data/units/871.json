@@ -1,0 +1,108 @@
+{
+  "id": "871",
+  "name": "Ancient Egg: N207",
+  "forms": [
+    {
+      "number": "871-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ancient Egg: N207",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "871-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Onyx Egg: N207",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [
+        {
+          "group": "Against black, angel",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "1% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, angelu2: b1Weakenb2 (1% chance to weaken by 50% for 4.0s)"
+    },
+    {
+      "number": "871-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Tycoon Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1675,
+      "damage": 300,
+      "range": 280,
+      "kb": 2,
+      "speed": 8,
+      "dps": 88,
+      "target": "Area",
+      "tba": 3.47,
+      "anim": 0.83,
+      "spawn": 11.87,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against black, angel",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "Performs a 20% damage Lv.2 Shockwave attack (Range: 532)"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, angelu2: b1Weakenb2 (50% chance to weaken by 50% for 4.0s) \nu1General Abilitiesu2: b1Mini-Waveb2 (Performs a 20% damage Lv.2 Shockwave attack (Range: 532)) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)"
+    }
+  ]
+}

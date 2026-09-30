@@ -1,0 +1,105 @@
+{
+  "id": "056",
+  "name": "Witch Cat",
+  "forms": [
+    {
+      "number": "056-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Witch Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 950,
+      "damage": 92,
+      "range": 200,
+      "kb": 3,
+      "speed": 10,
+      "dps": 65,
+      "target": "Single",
+      "tba": 1.43,
+      "anim": 0.73,
+      "spawn": 3.87,
+      "cost": 495,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "20% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Slowb2 (20% chance to slow for 4.0s)"
+    },
+    {
+      "number": "056-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sorceress Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1100,
+      "damage": 118,
+      "range": 200,
+      "kb": 3,
+      "speed": 10,
+      "dps": 82,
+      "target": "Single",
+      "tba": 1.43,
+      "anim": 0.73,
+      "spawn": 3.87,
+      "cost": 495,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "20% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Slowb2 (20% chance to slow for 4.0s)"
+    },
+    {
+      "number": "056-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Enchantress Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1650,
+      "damage": 118,
+      "range": 250,
+      "kb": 3,
+      "speed": 10,
+      "dps": 82,
+      "target": "Single",
+      "tba": 1.43,
+      "anim": 0.73,
+      "spawn": 3.87,
+      "cost": 495,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "20% chance to slow for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Slowb2 (20% chance to slow for 5.0s)"
+    }
+  ]
+}

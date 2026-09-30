@@ -1,0 +1,148 @@
+{
+  "id": "259",
+  "name": "Anubis the Protector",
+  "forms": [
+    {
+      "number": "259-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Anubis the Protector",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 5250,
+      "range": 425,
+      "kb": 3,
+      "speed": 18,
+      "dps": 590,
+      "target": "Area",
+      "tba": 8.9,
+      "anim": 3.87,
+      "spawn": 137.87,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)\nu1Not affected byu2: b1Slowb2, b1Waveb2"
+    },
+    {
+      "number": "259-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Anubis the Unblemished",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 7000,
+      "range": 425,
+      "kb": 3,
+      "speed": 18,
+      "dps": 788,
+      "target": "Area",
+      "tba": 8.9,
+      "anim": 3.87,
+      "spawn": 137.87,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)\nu1Not affected byu2: b1Slowb2, b1Waveb2"
+    },
+    {
+      "number": "259-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Almighty Anubis",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 8750,
+      "range": 425,
+      "kb": 3,
+      "speed": 18,
+      "dps": 982,
+      "target": "Area",
+      "tba": 8.9,
+      "anim": 3.87,
+      "spawn": 137.87,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)\r\nu1Not affected byu2: b1Slowb2, b1Waveb2, b1Knockbackb2"
+    }
+  ]
+}

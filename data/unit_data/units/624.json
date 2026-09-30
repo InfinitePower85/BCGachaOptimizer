@@ -1,0 +1,136 @@
+{
+  "id": "624",
+  "name": "Pied Piper Cat",
+  "forms": [
+    {
+      "number": "624-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Pied Piper Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 188,
+      "range": 320,
+      "kb": 2,
+      "speed": 7,
+      "dps": 70,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 0.93,
+      "spawn": 11.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Shield Piercing",
+              "detail": "40% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Weakenb2 (100% chance to weaken by 50% for 2.0s) \nu1General Abilitiesu2: b1Shield Piercingb2 (40% chance to break Aku shields)"
+    },
+    {
+      "number": "624-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Komuso Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 900,
+      "damage": 312,
+      "range": 320,
+      "kb": 2,
+      "speed": 7,
+      "dps": 115,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 0.93,
+      "spawn": 11.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Shield Piercing",
+              "detail": "40% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Weakenb2 (100% chance to weaken by 50% for 2.0s) \nu1General Abilitiesu2: b1Shield Piercingb2 (40% chance to break Aku shields)"
+    },
+    {
+      "number": "624-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Brass Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1925,
+      "damage": 312,
+      "range": 320,
+      "kb": 2,
+      "speed": 12,
+      "dps": 115,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 0.93,
+      "spawn": 11.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "50% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "60% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Weakenb2 (100% chance to weaken by 50% for 2.0s) \nu1General Abilitiesu2: b1Mini-Waveb2 (50% chance to perform a Lv.2 Shockwave attack (Range: 532)) b1Shield Piercingb2 (60% chance to break Aku shields)"
+    }
+  ]
+}

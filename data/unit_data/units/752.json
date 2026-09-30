@@ -1,0 +1,72 @@
+{
+  "id": "752",
+  "name": "Li'l Yahiko",
+  "forms": [
+    {
+      "number": "752-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Li'l Yahiko",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 1250,
+      "range": 250,
+      "kb": 3,
+      "speed": 25,
+      "dps": 292,
+      "target": "Area",
+      "tba": 4.27,
+      "anim": 0.17,
+      "spawn": 19.2,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "752-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Li'l Yahiko CC",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 1500,
+      "range": 250,
+      "kb": 3,
+      "speed": 25,
+      "dps": 352,
+      "target": "Area",
+      "tba": 4.27,
+      "anim": 0.17,
+      "spawn": 19.2,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "603",
+  "name": "Ukyo Kuonji (GR)",
+  "forms": [
+    {
+      "number": "603-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ukyo Kuonji (GR)",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 1500,
+      "range": 275,
+      "kb": 3,
+      "speed": 10,
+      "dps": 232,
+      "target": "Area",
+      "tba": 6.43,
+      "anim": 1.47,
+      "spawn": 19.2,
+      "cost": 1140,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "3% chance of a critical hit"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Criticalb2 (3% chance of a critical hit) \nu1Not affected byu2: b1Knockbackb2"
+    },
+    {
+      "number": "603-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ukyo Kuonji",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 1500,
+      "range": 275,
+      "kb": 3,
+      "speed": 10,
+      "dps": 232,
+      "target": "Area",
+      "tba": 6.43,
+      "anim": 1.47,
+      "spawn": 19.2,
+      "cost": 1140,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "3% chance of a critical hit"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Criticalb2 (3% chance of a critical hit) \nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

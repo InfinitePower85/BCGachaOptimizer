@@ -1,0 +1,72 @@
+{
+  "id": "850",
+  "name": "Nezuko Cat",
+  "forms": [
+    {
+      "number": "850-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nezuko Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1550,
+      "damage": 125,
+      "range": 220,
+      "kb": 2,
+      "speed": 10,
+      "dps": 72,
+      "target": "Area",
+      "tba": 1.7,
+      "anim": 0.17,
+      "spawn": 8.53,
+      "cost": 585,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Knockbackb2 (40% chance of knockback)"
+    },
+    {
+      "number": "850-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Nezuko Cat CC",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1150,
+      "damage": 250,
+      "range": 300,
+      "kb": 3,
+      "speed": 10,
+      "dps": 55,
+      "target": "Area",
+      "tba": 4.63,
+      "anim": 0.33,
+      "spawn": 8.53,
+      "cost": 585,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Knockbackb2 (40% chance of knockback)"
+    }
+  ]
+}

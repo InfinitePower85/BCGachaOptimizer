@@ -1,0 +1,114 @@
+{
+  "id": "081",
+  "name": "Evil Cat",
+  "forms": [
+    {
+      "number": "081-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Evil Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1748,
+      "damage": 500,
+      "range": 150,
+      "kb": 3,
+      "speed": 8,
+      "dps": 255,
+      "target": "Single",
+      "tba": 1.97,
+      "anim": 0.53,
+      "spawn": 4.53,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "081-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Gentleman Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1748,
+      "damage": 500,
+      "range": 150,
+      "kb": 3,
+      "speed": 8,
+      "dps": 255,
+      "target": "Single",
+      "tba": 1.97,
+      "anim": 0.53,
+      "spawn": 4.53,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "081-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Gentleman Bros.",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1748,
+      "damage": 500,
+      "range": 150,
+      "kb": 3,
+      "speed": 8,
+      "dps": 255,
+      "target": "Single",
+      "tba": 1.97,
+      "anim": 0.53,
+      "spawn": 4.53,
+      "cost": 375,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "40% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "30% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (40% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (30% chance of breaking enemy barriers)"
+    }
+  ]
+}

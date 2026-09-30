@@ -1,0 +1,150 @@
+{
+  "id": "073",
+  "name": "Maeda Keiji",
+  "forms": [
+    {
+      "number": "073-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Maeda Keiji",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 1625,
+      "range": 250,
+      "kb": 2,
+      "speed": 8,
+      "dps": 258,
+      "target": "Area",
+      "tba": 6.33,
+      "anim": 0.37,
+      "spawn": 67.87,
+      "cost": 3585,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 30% health"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 30% health)"
+    },
+    {
+      "number": "073-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wargod Keiji",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9500,
+      "damage": 3250,
+      "range": 250,
+      "kb": 2,
+      "speed": 8,
+      "dps": 512,
+      "target": "Area",
+      "tba": 6.33,
+      "anim": 0.37,
+      "spawn": 67.87,
+      "cost": 3585,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 30% health"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 30% health)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "073-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Immortal Keiji",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14500,
+      "damage": 3250,
+      "range": 320,
+      "kb": 2,
+      "speed": 8,
+      "dps": 888,
+      "target": "Area",
+      "tba": 3.67,
+      "anim": 0.37,
+      "spawn": 67.87,
+      "cost": 3585,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 50% health"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 50% health)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

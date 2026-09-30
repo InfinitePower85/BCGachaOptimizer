@@ -1,0 +1,105 @@
+{
+  "id": "047",
+  "name": "Jurassic Cat",
+  "forms": [
+    {
+      "number": "047-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Jurassic Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1425,
+      "damage": 182,
+      "range": 150,
+      "kb": 3,
+      "speed": 12,
+      "dps": 178,
+      "target": "Single",
+      "tba": 1.03,
+      "anim": 0.53,
+      "spawn": 7.2,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "5% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (5% chance of a critical hit)"
+    },
+    {
+      "number": "047-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Jurassic Cat Sitter",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1675,
+      "damage": 208,
+      "range": 150,
+      "kb": 3,
+      "speed": 12,
+      "dps": 200,
+      "target": "Single",
+      "tba": 1.03,
+      "anim": 0.53,
+      "spawn": 7.2,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "5% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (5% chance of a critical hit)"
+    },
+    {
+      "number": "047-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Catasaurus",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2425,
+      "damage": 270,
+      "range": 180,
+      "kb": 3,
+      "speed": 12,
+      "dps": 261,
+      "target": "Single",
+      "tba": 1.03,
+      "anim": 0.53,
+      "spawn": 7.2,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "7% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (7% chance of a critical hit)"
+    }
+  ]
+}

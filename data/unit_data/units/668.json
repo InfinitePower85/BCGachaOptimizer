@@ -1,0 +1,175 @@
+{
+  "id": "668",
+  "name": "Brainwashed Bird Cat",
+  "forms": [
+    {
+      "number": "668-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Brainwashed Bird Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1950,
+      "damage": 775,
+      "range": 205,
+      "kb": 4,
+      "speed": 10,
+      "dps": 475,
+      "target": "Area",
+      "tba": 1.63,
+      "anim": 0.33,
+      "spawn": 3.53,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "50% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Mini-Waveb2 (50% chance to perform a Lv.2 Shockwave attack (Range: 532))\nu1Not affected byu2: b1Waveb2, b1Surgeb2"
+    },
+    {
+      "number": "668-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Brainwashed UFO Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1950,
+      "damage": 950,
+      "range": 205,
+      "kb": 4,
+      "speed": 10,
+      "dps": 500,
+      "target": "Area",
+      "tba": 1.9,
+      "anim": 0.6,
+      "spawn": 3.53,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "50% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Mini-Waveb2 (50% chance to perform a Lv.2 Shockwave attack (Range: 532))\nu1Not affected byu2: b1Waveb2, b1Surgeb2"
+    },
+    {
+      "number": "668-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Brainwashed Flying Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1950,
+      "damage": 950,
+      "range": 205,
+      "kb": 4,
+      "speed": 10,
+      "dps": 500,
+      "target": "Area",
+      "tba": 1.9,
+      "anim": 0.6,
+      "spawn": 3.53,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "Performs a 20% damage Lv.2 Shockwave attack (Range: 532)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Mini-Waveb2 (Performs a 20% damage Lv.2 Shockwave attack (Range: 532))\nu1Not affected byu2: b1Waveb2, b1Surgeb2"
+    }
+  ]
+}

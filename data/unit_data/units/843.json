@@ -1,0 +1,116 @@
+{
+  "id": "843",
+  "name": "Zenitsu Agatsuma",
+  "forms": [
+    {
+      "number": "843-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Zenitsu Agatsuma",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 10000,
+      "range": 220,
+      "kb": 2,
+      "speed": 12,
+      "dps": 842,
+      "target": "Area",
+      "tba": 11.87,
+      "anim": 1.57,
+      "spawn": 91.2,
+      "cost": 4275,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -400~470"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -400~470)\nu1Not affected byu2: b1Freezeb2"
+    },
+    {
+      "number": "843-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Zenitsu Agatsuma CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12500,
+      "damage": 11375,
+      "range": 220,
+      "kb": 2,
+      "speed": 12,
+      "dps": 958,
+      "target": "Area",
+      "tba": 11.87,
+      "anim": 1.57,
+      "spawn": 91.2,
+      "cost": 4275,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -400~470"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -400~470)\nu1Not affected byu2: b1Freezeb2"
+    }
+  ]
+}

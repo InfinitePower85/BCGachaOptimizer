@@ -1,0 +1,95 @@
+{
+  "id": "169",
+  "name": "Asiluga",
+  "forms": [
+    {
+      "number": "169-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Asiluga",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 375,
+      "range": 140,
+      "kb": 5,
+      "speed": 5,
+      "dps": 138,
+      "target": "Single",
+      "tba": 2.73,
+      "anim": 0.43,
+      "spawn": 24.53,
+      "cost": 4500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "169-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Asilan Pasalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2750,
+      "damage": 832,
+      "range": 750,
+      "kb": 1,
+      "speed": 4,
+      "dps": 68,
+      "target": "Area",
+      "tba": 12.33,
+      "anim": 5.03,
+      "spawn": 324.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Slowb2 (100% chance to slow for 3.0s)"
+    },
+    {
+      "number": "169-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Assassinlan Pasalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2750,
+      "damage": 832,
+      "range": 1250,
+      "kb": 1,
+      "speed": 4,
+      "dps": 68,
+      "target": "Area",
+      "tba": 12.33,
+      "anim": 5.03,
+      "spawn": 324.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Slowb2 (100% chance to slow for 3.0s)"
+    }
+  ]
+}

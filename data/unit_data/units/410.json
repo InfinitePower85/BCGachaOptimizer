@@ -1,0 +1,167 @@
+{
+  "id": "410",
+  "name": "Rei Ayanami",
+  "forms": [
+    {
+      "number": "410-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rei Ayanami",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3625,
+      "damage": 2475,
+      "range": 300,
+      "kb": 3,
+      "speed": 8,
+      "dps": 438,
+      "target": "Area",
+      "tba": 5.67,
+      "anim": 1.5,
+      "spawn": 17.87,
+      "cost": 1170,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)\nu1Not affected byu2: b1Weakenb2"
+    },
+    {
+      "number": "410-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Plug Suit Rei",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3625,
+      "damage": 2475,
+      "range": 300,
+      "kb": 3,
+      "speed": 8,
+      "dps": 438,
+      "target": "Area",
+      "tba": 5.67,
+      "anim": 1.5,
+      "spawn": 17.87,
+      "cost": 1170,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)\nu1Not affected byu2: b1Weakenb2"
+    },
+    {
+      "number": "410-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Reunion Li'l Rei",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 2475,
+      "range": 300,
+      "kb": 3,
+      "speed": 8,
+      "dps": 438,
+      "target": "Area",
+      "tba": 5.67,
+      "anim": 1.5,
+      "spawn": 17.87,
+      "cost": 1170,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            },
+            {
+              "name": "Dodge",
+              "detail": "20% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (50% chance to weaken by 50% for 6.67s) b1Dodgeb2 (20% chance to dodge for 2.0s)\nu1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)\nu1Not affected byu2: b1Weakenb2"
+    }
+  ]
+}

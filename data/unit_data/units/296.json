@@ -1,0 +1,72 @@
+{
+  "id": "296",
+  "name": "Homura Cat",
+  "forms": [
+    {
+      "number": "296-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Homura Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 500,
+      "range": 120,
+      "kb": 3,
+      "speed": 9,
+      "dps": 235,
+      "target": "Single",
+      "tba": 2.13,
+      "anim": 0.77,
+      "spawn": 5.87,
+      "cost": 660,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (30% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "296-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Magical Girl Homura Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 500,
+      "range": 200,
+      "kb": 3,
+      "speed": 9,
+      "dps": 238,
+      "target": "Single",
+      "tba": 2.1,
+      "anim": 0.73,
+      "spawn": 5.87,
+      "cost": 660,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (30% chance to freeze for 2.0s)"
+    }
+  ]
+}

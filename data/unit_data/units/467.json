@@ -1,0 +1,108 @@
+{
+  "id": "467",
+  "name": "Black Zeus",
+  "forms": [
+    {
+      "number": "467-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Black Zeus",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 5000,
+      "range": 455,
+      "kb": 3,
+      "speed": 10,
+      "dps": 528,
+      "target": "Area",
+      "tba": 9.5,
+      "anim": 3.87,
+      "spawn": 151.2,
+      "cost": 4950,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~700"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Insane Damageb2 (inflicts 5.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~700)\r\nu1Not affected byu2: b1Weakenb2"
+    },
+    {
+      "number": "467-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Dark Lord Zeus",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 6250,
+      "range": 455,
+      "kb": 3,
+      "speed": 10,
+      "dps": 658,
+      "target": "Area",
+      "tba": 9.5,
+      "anim": 3.87,
+      "spawn": 151.2,
+      "cost": 4950,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~700"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Insane Damageb2 (inflicts 5.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~700)\r\nu1Not affected byu2: b1Weakenb2"
+    }
+  ]
+}

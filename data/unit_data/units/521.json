@@ -1,0 +1,130 @@
+{
+  "id": "521",
+  "name": "Good-Luck Ebisu",
+  "forms": [
+    {
+      "number": "521-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Good-Luck Ebisu",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 1575,
+      "range": 400,
+      "kb": 3,
+      "speed": 9,
+      "dps": 380,
+      "target": "Single",
+      "tba": 4.13,
+      "anim": 2.93,
+      "spawn": 44.53,
+      "cost": 2400,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 1.67s"
+            },
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 1.67s"
+            },
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 1.67s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~600"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Weakenb2 (30% chance to weaken by 50% for 1.67s) b1Freezeb2 (30% chance to freeze for 1.67s) b1Slowb2 (30% chance to slow for 1.67s) b1Knockbackb2 (30% chance of knockback) \nu1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies) b1Long Distanceb2 (Effective range 300~600) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "521-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Bad-Luck Ebisu",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 1575,
+      "range": 400,
+      "kb": 3,
+      "speed": 9,
+      "dps": 380,
+      "target": "Single",
+      "tba": 4.13,
+      "anim": 2.93,
+      "spawn": 44.53,
+      "cost": 2400,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 1.67s"
+            },
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 1.67s"
+            },
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 1.67s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~600"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Weakenb2 (30% chance to weaken by 50% for 1.67s) b1Freezeb2 (30% chance to freeze for 1.67s) b1Slowb2 (30% chance to slow for 1.67s) b1Knockbackb2 (30% chance of knockback) \nu1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies) b1Long Distanceb2 (Effective range 300~600) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "380",
+  "name": "Volley Cat",
+  "forms": [
+    {
+      "number": "380-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Volley Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 900,
+      "damage": 400,
+      "range": 375,
+      "kb": 3,
+      "speed": 10,
+      "dps": 148,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 1.5,
+      "spawn": 7.87,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "8% chance of a critical hit"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~450"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (8% chance of a critical hit) b1Long Distanceb2 (Effective range 250~450)"
+    },
+    {
+      "number": "380-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ballet Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 500,
+      "range": 375,
+      "kb": 3,
+      "speed": 10,
+      "dps": 185,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 1.5,
+      "spawn": 7.87,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "8% chance of a critical hit"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~450"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (8% chance of a critical hit) b1Long Distanceb2 (Effective range 250~450)"
+    },
+    {
+      "number": "380-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Curry Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1350,
+      "damage": 500,
+      "range": 375,
+      "kb": 3,
+      "speed": 10,
+      "dps": 185,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 1.5,
+      "spawn": 7.87,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "8% chance of a critical hit"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~450"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Slowb2 (100% chance to slow for 1.0s) \r\nu1General Abilitiesu2: b1Criticalb2 (8% chance of a critical hit) b1Long Distanceb2 (Effective range 250~450)"
+    }
+  ]
+}

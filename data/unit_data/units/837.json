@@ -1,0 +1,140 @@
+{
+  "id": "837",
+  "name": "Giga-Nyan Rex",
+  "forms": [
+    {
+      "number": "837-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Giga-Nyan Rex",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4750,
+      "damage": 3250,
+      "range": 450,
+      "kb": 2,
+      "speed": 6,
+      "dps": 165,
+      "target": "Area",
+      "tba": 19.83,
+      "anim": 3.53,
+      "spawn": 124.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, black, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "15% chance to inflict an attack with 2x damage to non-Metal enemies"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 450 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            },
+            {
+              "name": "Explosion",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Savage Blowb2 (15% chance to inflict an attack with 2x damage to non-Metal enemies) b1Explosionb2 (100% chance to create an explosion at 450 range)\nu1Not affected byu2: b1Weakenb2, b1Surgeb2, b1Explosionb2"
+    },
+    {
+      "number": "837-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Giga-Nyan Prime DX",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5500,
+      "damage": 4000,
+      "range": 450,
+      "kb": 2,
+      "speed": 6,
+      "dps": 202,
+      "target": "Area",
+      "tba": 19.83,
+      "anim": 3.53,
+      "spawn": 124.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, black, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "15% chance to inflict an attack with 2x damage to non-Metal enemies"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 450 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            },
+            {
+              "name": "Explosion",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Savage Blowb2 (15% chance to inflict an attack with 2x damage to non-Metal enemies) b1Explosionb2 (100% chance to create an explosion at 450 range)\nu1Not affected byu2: b1Weakenb2, b1Surgeb2, b1Explosionb2"
+    }
+  ]
+}

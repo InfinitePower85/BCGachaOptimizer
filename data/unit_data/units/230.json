@@ -1,0 +1,72 @@
+{
+  "id": "230",
+  "name": "Hallowindy",
+  "forms": [
+    {
+      "number": "230-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hallowindy",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2875,
+      "damage": 4638,
+      "range": 435,
+      "kb": 6,
+      "speed": 9,
+      "dps": 340,
+      "target": "Area",
+      "tba": 13.6,
+      "anim": 2.7,
+      "spawn": 97.87,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "230-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hallowindy, type α",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5625,
+      "damage": 8138,
+      "range": 435,
+      "kb": 6,
+      "speed": 9,
+      "dps": 598,
+      "target": "Area",
+      "tba": 13.6,
+      "anim": 2.7,
+      "spawn": 97.87,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

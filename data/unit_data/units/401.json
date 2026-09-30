@@ -1,0 +1,72 @@
+{
+  "id": "401",
+  "name": "Imoto",
+  "forms": [
+    {
+      "number": "401-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Imoto",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1200,
+      "damage": 250,
+      "range": 170,
+      "kb": 2,
+      "speed": 8,
+      "dps": 125,
+      "target": "Single",
+      "tba": 2.0,
+      "anim": 0.5,
+      "spawn": 7.2,
+      "cost": 480,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "3% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (3% chance of a critical hit)"
+    },
+    {
+      "number": "401-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Imoto CC",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1200,
+      "damage": 250,
+      "range": 170,
+      "kb": 2,
+      "speed": 8,
+      "dps": 125,
+      "target": "Single",
+      "tba": 2.0,
+      "anim": 0.5,
+      "spawn": 7.2,
+      "cost": 480,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "3% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (3% chance of a critical hit)"
+    }
+  ]
+}

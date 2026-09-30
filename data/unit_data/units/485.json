@@ -1,0 +1,90 @@
+{
+  "id": "485",
+  "name": "Li'l Valkyrie Dark",
+  "forms": [
+    {
+      "number": "485-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Li'l Valkyrie Dark",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 3625,
+      "range": 345,
+      "kb": 2,
+      "speed": 32,
+      "dps": 842,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 1.2,
+      "spawn": 51.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.3 Shockwave attack (Range: 732)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.3 Shockwave attack (Range: 732))\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "485-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Dark Rider Valkyrie",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 3625,
+      "range": 345,
+      "kb": 2,
+      "speed": 32,
+      "dps": 842,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 1.2,
+      "spawn": 51.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.3 Shockwave attack (Range: 732)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.3 Shockwave attack (Range: 732))\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

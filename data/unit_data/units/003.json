@@ -1,0 +1,105 @@
+{
+  "id": "003",
+  "name": "Axe Cat",
+  "forms": [
+    {
+      "number": "003-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Axe Cat",
+      "rarity": "Basic",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 62,
+      "range": 150,
+      "kb": 3,
+      "speed": 12,
+      "dps": 70,
+      "target": "Single",
+      "tba": 0.9,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "003-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Brave Cat",
+      "rarity": "Basic",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 62,
+      "range": 150,
+      "kb": 3,
+      "speed": 12,
+      "dps": 70,
+      "target": "Single",
+      "tba": 0.9,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "003-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Dark Cat",
+      "rarity": "Basic",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 125,
+      "range": 150,
+      "kb": 3,
+      "speed": 12,
+      "dps": 140,
+      "target": "Single",
+      "tba": 0.9,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

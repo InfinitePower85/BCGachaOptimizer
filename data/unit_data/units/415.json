@@ -1,0 +1,148 @@
+{
+  "id": "415",
+  "name": "Eva Unit-02",
+  "forms": [
+    {
+      "number": "415-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Eva Unit-02",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9750,
+      "damage": 5500,
+      "range": 400,
+      "kb": 3,
+      "speed": 15,
+      "dps": 668,
+      "target": "Area",
+      "tba": 8.23,
+      "anim": 2.53,
+      "spawn": 141.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~650"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~650) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)"
+    },
+    {
+      "number": "415-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Eva Unit-02 & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9750,
+      "damage": 5500,
+      "range": 400,
+      "kb": 3,
+      "speed": 15,
+      "dps": 668,
+      "target": "Area",
+      "tba": 8.23,
+      "anim": 2.53,
+      "spawn": 141.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~650"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~650) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)"
+    },
+    {
+      "number": "415-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Unit-02, Code 777",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9750,
+      "damage": 5500,
+      "range": 400,
+      "kb": 3,
+      "speed": 15,
+      "dps": 809,
+      "target": "Area",
+      "tba": 6.8,
+      "anim": 2.03,
+      "spawn": 141.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~650"
+            },
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 50% health"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~650) b1Strengthenb2 (attack power increases by 100% at 50% health) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)"
+    }
+  ]
+}

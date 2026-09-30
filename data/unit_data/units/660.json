@@ -1,0 +1,113 @@
+{
+  "id": "660",
+  "name": "Ancient Egg: N102",
+  "forms": [
+    {
+      "number": "660-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ancient Egg: N102",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "660-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Teal Egg: N102",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "660-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Catarzan",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1725,
+      "damage": 650,
+      "range": 310,
+      "kb": 3,
+      "speed": 10,
+      "dps": 198,
+      "target": "Area",
+      "tba": 3.3,
+      "anim": 0.7,
+      "spawn": 5.87,
+      "cost": 930,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)\nu1Not affected byu2: b1Slowb2"
+    }
+  ]
+}

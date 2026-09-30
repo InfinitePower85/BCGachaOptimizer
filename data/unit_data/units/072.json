@@ -1,0 +1,132 @@
+{
+  "id": "072",
+  "name": "Sanada Yukimura",
+  "forms": [
+    {
+      "number": "072-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sanada Yukimura",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2125,
+      "damage": 2062,
+      "range": 170,
+      "kb": 5,
+      "speed": 65,
+      "dps": 452,
+      "target": "Area",
+      "tba": 4.57,
+      "anim": 0.03,
+      "spawn": 51.2,
+      "cost": 3075,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "072-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wargod Yukimura",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4250,
+      "damage": 4125,
+      "range": 170,
+      "kb": 5,
+      "speed": 65,
+      "dps": 902,
+      "target": "Area",
+      "tba": 4.57,
+      "anim": 0.03,
+      "spawn": 51.2,
+      "cost": 3075,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "072-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Immortal Yukimura",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4250,
+      "damage": 6188,
+      "range": 170,
+      "kb": 5,
+      "speed": 75,
+      "dps": 1355,
+      "target": "Area",
+      "tba": 4.57,
+      "anim": 0.03,
+      "spawn": 51.2,
+      "cost": 3075,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)"
+    }
+  ]
+}

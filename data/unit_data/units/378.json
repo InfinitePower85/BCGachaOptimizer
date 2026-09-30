@@ -1,0 +1,105 @@
+{
+  "id": "378",
+  "name": "Fencer Cat",
+  "forms": [
+    {
+      "number": "378-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Fencer Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 1500,
+      "range": 320,
+      "kb": 1,
+      "speed": 10,
+      "dps": 318,
+      "target": "Single",
+      "tba": 4.73,
+      "anim": 1.7,
+      "spawn": 9.2,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)"
+    },
+    {
+      "number": "378-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kendo Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 2250,
+      "range": 320,
+      "kb": 1,
+      "speed": 10,
+      "dps": 475,
+      "target": "Single",
+      "tba": 4.73,
+      "anim": 1.7,
+      "spawn": 9.2,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)"
+    },
+    {
+      "number": "378-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "The Kitty of Liberty",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2625,
+      "damage": 2625,
+      "range": 320,
+      "kb": 1,
+      "speed": 10,
+      "dps": 555,
+      "target": "Single",
+      "tba": 4.73,
+      "anim": 0.7,
+      "spawn": 9.2,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)"
+    }
+  ]
+}

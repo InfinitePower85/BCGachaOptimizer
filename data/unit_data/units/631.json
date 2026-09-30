@@ -1,0 +1,98 @@
+{
+  "id": "631",
+  "name": "Calligraphy Cat",
+  "forms": [
+    {
+      "number": "631-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Calligraphy Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 362,
+      "range": 330,
+      "kb": 1,
+      "speed": 10,
+      "dps": 167,
+      "target": "Single",
+      "tba": 2.17,
+      "anim": 0.6,
+      "spawn": 8.53,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\nu1Not affected byu2: b1Curseb2"
+    },
+    {
+      "number": "631-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Tea Master Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 950,
+      "damage": 562,
+      "range": 330,
+      "kb": 1,
+      "speed": 10,
+      "dps": 259,
+      "target": "Single",
+      "tba": 2.17,
+      "anim": 0.6,
+      "spawn": 8.53,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\nu1Not affected byu2: b1Curseb2, b1Waveb2, b1Surgeb2"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "490",
+  "name": "Misato Katsuragi",
+  "forms": [
+    {
+      "number": "490-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Misato Katsuragi",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4125,
+      "damage": 2450,
+      "range": 300,
+      "kb": 3,
+      "speed": 10,
+      "dps": 470,
+      "target": "Area",
+      "tba": 5.2,
+      "anim": 1.5,
+      "spawn": 21.87,
+      "cost": 1155,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "30% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Slowb2 (50% chance to slow for 4.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (30% chance of breaking enemy barriers)\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "490-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Captain Misato",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4125,
+      "damage": 2450,
+      "range": 300,
+      "kb": 3,
+      "speed": 10,
+      "dps": 470,
+      "target": "Area",
+      "tba": 5.2,
+      "anim": 1.5,
+      "spawn": 21.87,
+      "cost": 1155,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "30% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Slowb2 (50% chance to slow for 4.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (30% chance of breaking enemy barriers)\nu1Not affected byu2: b1Slowb2"
+    }
+  ]
+}

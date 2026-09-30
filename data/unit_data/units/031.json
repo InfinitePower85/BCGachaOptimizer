@@ -1,0 +1,109 @@
+{
+  "id": "031",
+  "name": "Bodhisattva Cat",
+  "forms": [
+    {
+      "number": "031-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Bodhisattva Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2400,
+      "damage": 738,
+      "range": 270,
+      "kb": 2,
+      "speed": 7,
+      "dps": 300,
+      "target": "Area",
+      "tba": 2.47,
+      "anim": 1.5,
+      "spawn": 39.2,
+      "cost": 1650,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "40% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Slowb2 (40% chance to slow for 4.0s)"
+    },
+    {
+      "number": "031-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Avalokitesvara Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2900,
+      "damage": 1238,
+      "range": 270,
+      "kb": 2,
+      "speed": 7,
+      "dps": 502,
+      "target": "Area",
+      "tba": 2.47,
+      "anim": 1.5,
+      "spawn": 39.2,
+      "cost": 1650,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "40% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Slowb2 (40% chance to slow for 4.0s)"
+    },
+    {
+      "number": "031-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Tathagata Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2900,
+      "damage": 1238,
+      "range": 300,
+      "kb": 2,
+      "speed": 7,
+      "dps": 502,
+      "target": "Area",
+      "tba": 2.47,
+      "anim": 1.5,
+      "spawn": 39.2,
+      "cost": 1650,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 4.0s"
+            },
+            {
+              "name": "Slow",
+              "detail": "40% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Weakenb2 (30% chance to weaken by 50% for 4.0s) b1Slowb2 (40% chance to slow for 4.0s)"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "076",
+  "name": "Windy",
+  "forms": [
+    {
+      "number": "076-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Windy",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 3138,
+      "range": 420,
+      "kb": 6,
+      "speed": 6,
+      "dps": 230,
+      "target": "Area",
+      "tba": 13.6,
+      "anim": 2.7,
+      "spawn": 102.27,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "076-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Windy, type α",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 6388,
+      "range": 420,
+      "kb": 6,
+      "speed": 6,
+      "dps": 470,
+      "target": "Area",
+      "tba": 13.6,
+      "anim": 2.7,
+      "spawn": 102.27,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "076-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Divine Windy",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 10138,
+      "range": 450,
+      "kb": 6,
+      "speed": 12,
+      "dps": 745,
+      "target": "Area",
+      "tba": 13.6,
+      "anim": 2.7,
+      "spawn": 102.27,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "076-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "Ultimate Windy",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 10138,
+      "range": 510,
+      "kb": 6,
+      "speed": 16,
+      "dps": 922,
+      "target": "Area",
+      "tba": 11.0,
+      "anim": 1.7,
+      "spawn": 102.27,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Insane Damageb2 (inflicts 5.0x damage)"
+    }
+  ]
+}

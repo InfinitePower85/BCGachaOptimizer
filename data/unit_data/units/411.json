@@ -1,0 +1,163 @@
+{
+  "id": "411",
+  "name": "Asuka Langley",
+  "forms": [
+    {
+      "number": "411-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Asuka Langley",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3900,
+      "damage": 1950,
+      "range": 315,
+      "kb": 2,
+      "speed": 10,
+      "dps": 405,
+      "target": "Area",
+      "tba": 4.8,
+      "anim": 1.3,
+      "spawn": 19.53,
+      "cost": 1140,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)\r\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "411-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Plug Suit Asuka",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3900,
+      "damage": 1950,
+      "range": 315,
+      "kb": 2,
+      "speed": 10,
+      "dps": 405,
+      "target": "Area",
+      "tba": 4.8,
+      "anim": 1.3,
+      "spawn": 19.53,
+      "cost": 1140,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)\r\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "411-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Eyepatch Li'l Asuka",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4300,
+      "damage": 2200,
+      "range": 315,
+      "kb": 2,
+      "speed": 10,
+      "dps": 458,
+      "target": "Area",
+      "tba": 4.8,
+      "anim": 1.3,
+      "spawn": 19.53,
+      "cost": 1140,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Knockbackb2 (40% chance of knockback) \r\nu1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)\r\nu1Not affected byu2: b1Slowb2"
+    }
+  ]
+}

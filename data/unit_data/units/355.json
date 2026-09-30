@@ -1,0 +1,90 @@
+{
+  "id": "355",
+  "name": "Seashore Kai",
+  "forms": [
+    {
+      "number": "355-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Seashore Kai",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10750,
+      "damage": 3888,
+      "range": 175,
+      "kb": 2,
+      "speed": 15,
+      "dps": 738,
+      "target": "Area",
+      "tba": 5.27,
+      "anim": 1.7,
+      "spawn": 71.2,
+      "cost": 3990,
+      "abilities": [
+        {
+          "group": "Against black, zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, zombieu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "355-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Seashore Kai, type μ",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14250,
+      "damage": 6238,
+      "range": 175,
+      "kb": 2,
+      "speed": 15,
+      "dps": 1185,
+      "target": "Area",
+      "tba": 5.27,
+      "anim": 1.7,
+      "spawn": 71.2,
+      "cost": 3990,
+      "abilities": [
+        {
+          "group": "Against black, zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, zombieu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

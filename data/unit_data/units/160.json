@@ -1,0 +1,105 @@
+{
+  "id": "160",
+  "name": "Kalisa",
+  "forms": [
+    {
+      "number": "160-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kalisa",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3800,
+      "damage": 2750,
+      "range": 325,
+      "kb": 5,
+      "speed": 27,
+      "dps": 548,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 1.33,
+      "spawn": 64.53,
+      "cost": 4125,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "160-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kalisa, type χ",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6350,
+      "damage": 4500,
+      "range": 325,
+      "kb": 5,
+      "speed": 27,
+      "dps": 895,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 1.33,
+      "spawn": 64.53,
+      "cost": 4125,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "160-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Divine Kalisa",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6350,
+      "damage": 6250,
+      "range": 355,
+      "kb": 5,
+      "speed": 27,
+      "dps": 1242,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 1.33,
+      "spawn": 64.53,
+      "cost": 4125,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

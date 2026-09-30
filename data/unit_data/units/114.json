@@ -1,0 +1,72 @@
+{
+  "id": "114",
+  "name": "Norn",
+  "forms": [
+    {
+      "number": "114-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Norn",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1200,
+      "damage": 488,
+      "range": 155,
+      "kb": 3,
+      "speed": 10,
+      "dps": 158,
+      "target": "Single",
+      "tba": 3.1,
+      "anim": 1.0,
+      "spawn": 4.53,
+      "cost": 645,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "114-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Norn CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1450,
+      "damage": 638,
+      "range": 155,
+      "kb": 3,
+      "speed": 10,
+      "dps": 205,
+      "target": "Single",
+      "tba": 3.1,
+      "anim": 1.0,
+      "spawn": 4.53,
+      "cost": 645,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    }
+  ]
+}

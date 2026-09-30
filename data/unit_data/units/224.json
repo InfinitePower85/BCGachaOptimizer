@@ -1,0 +1,130 @@
+{
+  "id": "224",
+  "name": "JUPITER KING",
+  "forms": [
+    {
+      "number": "224-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "JUPITER KING",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 5415,
+      "range": 460,
+      "kb": 2,
+      "speed": 5,
+      "dps": 565,
+      "target": "Area",
+      "tba": 9.57,
+      "anim": 1.27,
+      "spawn": 151.2,
+      "cost": 6300,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "224-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "JUPITER KING CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 6665,
+      "range": 460,
+      "kb": 2,
+      "speed": 5,
+      "dps": 698,
+      "target": "Area",
+      "tba": 9.57,
+      "anim": 1.27,
+      "spawn": 151.2,
+      "cost": 6300,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "224-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "GOLDEN JUPITER CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 20250,
+      "damage": 6665,
+      "range": 460,
+      "kb": 2,
+      "speed": 5,
+      "dps": 698,
+      "target": "Area",
+      "tba": 9.57,
+      "anim": 1.27,
+      "spawn": 151.2,
+      "cost": 6300,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 1s (Range: 740~1140)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 1s (Range: 740~1140))"
+    }
+  ]
+}

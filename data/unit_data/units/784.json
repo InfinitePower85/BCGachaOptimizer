@@ -1,0 +1,148 @@
+{
+  "id": "784",
+  "name": "Koneko",
+  "forms": [
+    {
+      "number": "784-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Koneko",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4875,
+      "damage": 788,
+      "range": 250,
+      "kb": 2,
+      "speed": 10,
+      "dps": 322,
+      "target": "Single",
+      "tba": 2.43,
+      "anim": 1.0,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "Against white, relic",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "12% chance of a critical hit"
+            },
+            {
+              "name": "Wave attack",
+              "detail": "22% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "22% chance to perform Surge Attacks for 2s (Range: 550~550)"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "22% chance to inflict an attack with 2x damage to non-Metal enemies"
+            },
+            {
+              "name": "Explosion",
+              "detail": "22% chance to create an explosion at 250 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, relicu2: b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Criticalb2 (12% chance of a critical hit) b1Wave attackb2 (22% chance to perform a Lv.2 Shockwave attack (Range: 532)) b1Surge Attacksb2 (22% chance to perform Surge Attacks for 2s (Range: 550~550)) b1Savage Blowb2 (22% chance to inflict an attack with 2x damage to non-Metal enemies) b1Explosionb2 (22% chance to create an explosion at 250 range)\nu1Not affected byu2: b1Curseb2, b1Waveb2"
+    },
+    {
+      "number": "784-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Superstar Koneko",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10500,
+      "damage": 1712,
+      "range": 450,
+      "kb": 3,
+      "speed": 10,
+      "dps": 705,
+      "target": "Single",
+      "tba": 2.43,
+      "anim": 0.67,
+      "spawn": 191.13,
+      "cost": 2100,
+      "abilities": [
+        {
+          "group": "Against white, relic",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "12% chance of a critical hit"
+            },
+            {
+              "name": "Wave attack",
+              "detail": "22% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "22% chance to perform Surge Attacks for 2s (Range: 350~1150)"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "22% chance to inflict an attack with 2x damage to non-Metal enemies"
+            },
+            {
+              "name": "Explosion",
+              "detail": "22% chance to create an explosion at 450 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, relicu2: b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Criticalb2 (12% chance of a critical hit) b1Wave attackb2 (22% chance to perform a Lv.2 Shockwave attack (Range: 532)) b1Surge Attacksb2 (22% chance to perform Surge Attacks for 2s (Range: 350~1150)) b1Savage Blowb2 (22% chance to inflict an attack with 2x damage to non-Metal enemies) b1Explosionb2 (22% chance to create an explosion at 450 range)\nu1Not affected byu2: b1Curseb2, b1Waveb2"
+    }
+  ]
+}

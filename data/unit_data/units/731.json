@@ -1,0 +1,121 @@
+{
+  "id": "731",
+  "name": "Ancient Egg: N204",
+  "forms": [
+    {
+      "number": "731-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ancient Egg: N204",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "731-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cinnabar Egg: N204",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [
+        {
+          "group": "Against white, red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "1% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (1% chance to weaken by 50% for 4.0s)"
+    },
+    {
+      "number": "731-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Lion Dancer Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 600,
+      "range": 300,
+      "kb": 3,
+      "speed": 10,
+      "dps": 202,
+      "target": "Single",
+      "tba": 2.97,
+      "anim": 0.93,
+      "spawn": 7.2,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against white, red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (50% chance to weaken by 50% for 4.0s) \nu1General Abilitiesu2: b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "585",
+  "name": "Keiji Claus",
+  "forms": [
+    {
+      "number": "585-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Keiji Claus",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9500,
+      "damage": 2438,
+      "range": 300,
+      "kb": 2,
+      "speed": 8,
+      "dps": 488,
+      "target": "Area",
+      "tba": 5.0,
+      "anim": 0.37,
+      "spawn": 67.87,
+      "cost": 3585,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 40% health"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 40% health)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "585-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Maeda Christmas",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 3250,
+      "range": 300,
+      "kb": 2,
+      "speed": 8,
+      "dps": 650,
+      "target": "Area",
+      "tba": 5.0,
+      "anim": 0.37,
+      "spawn": 67.87,
+      "cost": 3585,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 40% health"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 40% health)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "585-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Maeda Christmas DX",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 3250,
+      "range": 300,
+      "kb": 2,
+      "speed": 8,
+      "dps": 650,
+      "target": "Area",
+      "tba": 5.0,
+      "anim": 0.37,
+      "spawn": 67.87,
+      "cost": 3585,
+      "abilities": [
+        {
+          "group": "Against red, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 50% health"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, akuu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 50% health)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

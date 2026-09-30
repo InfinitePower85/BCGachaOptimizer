@@ -1,0 +1,72 @@
+{
+  "id": "373",
+  "name": "Illya the Cat",
+  "forms": [
+    {
+      "number": "373-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Illya the Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1375,
+      "damage": 248,
+      "range": 200,
+      "kb": 3,
+      "speed": 9,
+      "dps": 88,
+      "target": "Single",
+      "tba": 2.83,
+      "anim": 0.73,
+      "spawn": 4.53,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Slowb2 (30% chance to slow for 3.0s)"
+    },
+    {
+      "number": "373-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Snow Faerie Illya",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1375,
+      "damage": 248,
+      "range": 250,
+      "kb": 3,
+      "speed": 9,
+      "dps": 88,
+      "target": "Single",
+      "tba": 2.83,
+      "anim": 0.67,
+      "spawn": 4.53,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Slowb2 (30% chance to slow for 3.0s)"
+    }
+  ]
+}

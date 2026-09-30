@@ -1,0 +1,104 @@
+{
+  "id": "717",
+  "name": "Ancient Egg: N111",
+  "forms": [
+    {
+      "number": "717-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ancient Egg: N111",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "717-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mystic Egg: N111",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "717-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Cop Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 1800,
+      "range": 250,
+      "kb": 2,
+      "speed": 8,
+      "dps": 580,
+      "target": "Area",
+      "tba": 3.1,
+      "anim": 0.47,
+      "spawn": 14.53,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)"
+    }
+  ]
+}

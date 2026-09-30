@@ -1,0 +1,80 @@
+{
+  "id": "768",
+  "name": "Squid",
+  "forms": [
+    {
+      "number": "768-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Squid",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 12,
+      "range": 110,
+      "kb": 3,
+      "speed": 8,
+      "dps": 8,
+      "target": "Single",
+      "tba": 1.67,
+      "anim": 0.03,
+      "spawn": 2.0,
+      "cost": 120,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Freezeb2, b1Slowb2"
+    },
+    {
+      "number": "768-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Squid CC",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 588,
+      "damage": 15,
+      "range": 110,
+      "kb": 3,
+      "speed": 8,
+      "dps": 10,
+      "target": "Single",
+      "tba": 1.67,
+      "anim": 0.03,
+      "spawn": 2.0,
+      "cost": 120,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Freezeb2, b1Slowb2"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "665",
+  "name": "Ancient Egg: N104",
+  "forms": [
+    {
+      "number": "665-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ancient Egg: N104",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "665-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Green Egg: N104",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Weakenb2 (30% chance to weaken by 50% for 3.0s)"
+    },
+    {
+      "number": "665-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Surgeon Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2275,
+      "damage": 188,
+      "range": 320,
+      "kb": 1,
+      "speed": 22,
+      "dps": 88,
+      "target": "Area",
+      "tba": 2.13,
+      "anim": 0.77,
+      "spawn": 8.53,
+      "cost": 780,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 245~420"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Weakenb2 (30% chance to weaken by 50% for 3.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 245~420) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

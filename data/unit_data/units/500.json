@@ -1,0 +1,80 @@
+{
+  "id": "500",
+  "name": "Shakurel Tiger",
+  "forms": [
+    {
+      "number": "500-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shakurel Tiger",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3875,
+      "damage": 938,
+      "range": 160,
+      "kb": 3,
+      "speed": 9,
+      "dps": 485,
+      "target": "Single",
+      "tba": 1.93,
+      "anim": 0.63,
+      "spawn": 28.53,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "30% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Wave attack",
+              "detail": "20% chance to perform a Lv.1 Shockwave attack (Range: 332)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Barrier Breakerb2 (30% chance of breaking enemy barriers) b1Wave attackb2 (20% chance to perform a Lv.1 Shockwave attack (Range: 332))"
+    },
+    {
+      "number": "500-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Shakurel Tiger CC",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 1250,
+      "range": 160,
+      "kb": 3,
+      "speed": 9,
+      "dps": 648,
+      "target": "Single",
+      "tba": 1.93,
+      "anim": 0.63,
+      "spawn": 28.53,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "30% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Wave attack",
+              "detail": "20% chance to perform a Lv.1 Shockwave attack (Range: 332)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Barrier Breakerb2 (30% chance of breaking enemy barriers) b1Wave attackb2 (20% chance to perform a Lv.1 Shockwave attack (Range: 332))"
+    }
+  ]
+}

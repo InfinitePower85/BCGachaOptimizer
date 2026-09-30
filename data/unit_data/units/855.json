@@ -1,0 +1,148 @@
+{
+  "id": "855",
+  "name": "Master of Selection Darvin",
+  "forms": [
+    {
+      "number": "855-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Master of Selection Darvin",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13750,
+      "damage": 5250,
+      "range": 300,
+      "kb": 3,
+      "speed": 4,
+      "dps": 655,
+      "target": "Area",
+      "tba": 8.0,
+      "anim": 2.7,
+      "spawn": 137.87,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against red, angel, alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 4.0s"
+            },
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~301"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 855"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angel, alienu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (100% chance to weaken by 50% for 4.0s) b1Curseb2 (100% chance to curse for 4.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~301) b1Multi-hit attackb2 (Attacks twice consecutively) b1Conjureb2 (Allows summon of a spirit: Unit number 855) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "855-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Master of Selection Clawvin",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 15500,
+      "damage": 6750,
+      "range": 300,
+      "kb": 3,
+      "speed": 4,
+      "dps": 845,
+      "target": "Area",
+      "tba": 8.0,
+      "anim": 2.7,
+      "spawn": 137.87,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against red, angel, alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 4.0s"
+            },
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~301"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 855"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angel, alienu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (100% chance to weaken by 50% for 4.0s) b1Curseb2 (100% chance to curse for 4.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~301) b1Multi-hit attackb2 (Attacks twice consecutively) b1Conjureb2 (Allows summon of a spirit: Unit number 855) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

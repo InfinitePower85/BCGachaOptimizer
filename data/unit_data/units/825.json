@@ -1,0 +1,132 @@
+{
+  "id": "825",
+  "name": "Sorceress Sidmi",
+  "forms": [
+    {
+      "number": "825-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sorceress Sidmi",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 18750,
+      "damage": 4750,
+      "range": 360,
+      "kb": 2,
+      "speed": 15,
+      "dps": 622,
+      "target": "Area",
+      "tba": 7.63,
+      "anim": 3.0,
+      "spawn": 134.53,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 3.33s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 825"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Resistantb2 (only takes 0.25x damage) b1Slowb2 (50% chance to slow for 3.33s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively) b1Conjureb2 (Allows summon of a spirit: Unit number 825) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Weakenb2"
+    },
+    {
+      "number": "825-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Flame Mage Sidmi",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 22500,
+      "damage": 6250,
+      "range": 360,
+      "kb": 2,
+      "speed": 15,
+      "dps": 820,
+      "target": "Area",
+      "tba": 7.63,
+      "anim": 3.0,
+      "spawn": 134.53,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 825"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Resistantb2 (only takes 0.25x damage) b1Slowb2 (50% chance to slow for 5.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively) b1Conjureb2 (Allows summon of a spirit: Unit number 825) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Weakenb2"
+    }
+  ]
+}

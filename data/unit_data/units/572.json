@@ -1,0 +1,80 @@
+{
+  "id": "572",
+  "name": "E. Honda",
+  "forms": [
+    {
+      "number": "572-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "E. Honda",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 18750,
+      "damage": 1875,
+      "range": 230,
+      "kb": 3,
+      "speed": 63,
+      "dps": 618,
+      "target": "Area",
+      "tba": 3.03,
+      "anim": 0.1,
+      "spawn": 91.2,
+      "cost": 3675,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "572-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "E. Honda CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 18750,
+      "damage": 1875,
+      "range": 230,
+      "kb": 3,
+      "speed": 63,
+      "dps": 618,
+      "target": "Area",
+      "tba": 3.03,
+      "anim": 0.1,
+      "spawn": 91.2,
+      "cost": 3675,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (100% chance of knockback)"
+    }
+  ]
+}

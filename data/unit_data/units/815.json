@@ -1,0 +1,98 @@
+{
+  "id": "815",
+  "name": "Mass Production EVA",
+  "forms": [
+    {
+      "number": "815-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mass Production EVA",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 3750,
+      "range": 410,
+      "kb": 3,
+      "speed": 8,
+      "dps": 580,
+      "target": "Area",
+      "tba": 6.47,
+      "anim": 1.7,
+      "spawn": 34.53,
+      "cost": 2700,
+      "abilities": [
+        {
+          "group": "Against white, angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, angelu2: b1Freezeb2 (50% chance to freeze for 3.0s)\nu1Not affected byu2: b1Knockbackb2, b1Waveb2"
+    },
+    {
+      "number": "815-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mass Production EVA-Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 3750,
+      "range": 410,
+      "kb": 3,
+      "speed": 8,
+      "dps": 580,
+      "target": "Area",
+      "tba": 6.47,
+      "anim": 1.7,
+      "spawn": 34.53,
+      "cost": 2700,
+      "abilities": [
+        {
+          "group": "Against white, angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, angelu2: b1Freezeb2 (50% chance to freeze for 3.0s)\nu1Not affected byu2: b1Knockbackb2, b1Waveb2"
+    }
+  ]
+}

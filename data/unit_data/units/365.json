@@ -1,0 +1,90 @@
+{
+  "id": "365",
+  "name": "Illyasviel",
+  "forms": [
+    {
+      "number": "365-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Illyasviel",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4475,
+      "damage": 4650,
+      "range": 460,
+      "kb": 4,
+      "speed": 9,
+      "dps": 502,
+      "target": "Area",
+      "tba": 9.27,
+      "anim": 2.37,
+      "spawn": 121.2,
+      "cost": 4440,
+      "abilities": [
+        {
+          "group": "Against red, metal",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, metalu2: b1Slowb2 (50% chance to slow for 5.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "365-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Illyasviel CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6400,
+      "damage": 6700,
+      "range": 460,
+      "kb": 4,
+      "speed": 9,
+      "dps": 722,
+      "target": "Area",
+      "tba": 9.27,
+      "anim": 2.37,
+      "spawn": 121.2,
+      "cost": 4440,
+      "abilities": [
+        {
+          "group": "Against red, metal",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, metalu2: b1Slowb2 (50% chance to slow for 5.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "622",
+  "name": "Aku Researcher",
+  "forms": [
+    {
+      "number": "622-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Aku Researcher",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 95,
+      "range": 400,
+      "kb": 100,
+      "speed": 10,
+      "dps": 82,
+      "target": "Single",
+      "tba": 1.17,
+      "anim": 0.2,
+      "spawn": 19.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "6% chance of a critical hit"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "15% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (6% chance of a critical hit) b1Shield Piercingb2 (15% chance to break Aku shields)"
+    },
+    {
+      "number": "622-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Evil Aku Researcher",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 130,
+      "range": 400,
+      "kb": 100,
+      "speed": 10,
+      "dps": 112,
+      "target": "Single",
+      "tba": 1.17,
+      "anim": 0.2,
+      "spawn": 19.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "6% chance of a critical hit"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "15% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (6% chance of a critical hit) b1Shield Piercingb2 (15% chance to break Aku shields)"
+    },
+    {
+      "number": "622-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Cat Researcher",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 130,
+      "range": 400,
+      "kb": 100,
+      "speed": 33,
+      "dps": 278,
+      "target": "Single",
+      "tba": 0.47,
+      "anim": 0.2,
+      "spawn": 19.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "6% chance of a critical hit"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "15% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (6% chance of a critical hit) b1Shield Piercingb2 (15% chance to break Aku shields)"
+    }
+  ]
+}

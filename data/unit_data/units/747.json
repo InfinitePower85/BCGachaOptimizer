@@ -1,0 +1,90 @@
+{
+  "id": "747",
+  "name": "Kenshin Himura",
+  "forms": [
+    {
+      "number": "747-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kenshin Himura",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 4000,
+      "range": 435,
+      "kb": 3,
+      "speed": 9,
+      "dps": 605,
+      "target": "Area",
+      "tba": 6.6,
+      "anim": 0.9,
+      "spawn": 111.2,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "Against white, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, akuu2: b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "747-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kenshin Himura CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 5375,
+      "range": 435,
+      "kb": 3,
+      "speed": 9,
+      "dps": 815,
+      "target": "Area",
+      "tba": 6.6,
+      "anim": 0.9,
+      "spawn": 111.2,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "Against white, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, akuu2: b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

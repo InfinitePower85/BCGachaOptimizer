@@ -1,0 +1,162 @@
+{
+  "id": "634",
+  "name": "Shitakiri Sparrow",
+  "forms": [
+    {
+      "number": "634-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shitakiri Sparrow",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1700,
+      "damage": 750,
+      "range": 250,
+      "kb": 3,
+      "speed": 4,
+      "dps": 305,
+      "target": "Area",
+      "tba": 2.47,
+      "anim": 0.83,
+      "spawn": 6.53,
+      "cost": 840,
+      "abilities": [
+        {
+          "group": "Against angel, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            },
+            {
+              "name": "Curse",
+              "detail": "30% chance to curse for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "40% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, akuu2: b1Knockbackb2 (30% chance of knockback) b1Curseb2 (30% chance to curse for 2.0s) \nu1General Abilitiesu2: b1Mini-Waveb2 (40% chance to perform a Lv.2 Shockwave attack (Range: 532))"
+    },
+    {
+      "number": "634-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Chunchun Haunters",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8500,
+      "damage": 2488,
+      "range": 400,
+      "kb": 4,
+      "speed": 20,
+      "dps": 592,
+      "target": "Area",
+      "tba": 4.2,
+      "anim": 2.33,
+      "spawn": 111.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against angel, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            },
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "40% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, akuu2: b1Knockbackb2 (100% chance of knockback) b1Curseb2 (100% chance to curse for 3.0s) \nu1General Abilitiesu2: b1Mini-Waveb2 (40% chance to perform a Lv.2 Shockwave attack (Range: 532))\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "634-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Grand Chunchun Haunters",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 3250,
+      "range": 400,
+      "kb": 4,
+      "speed": 20,
+      "dps": 775,
+      "target": "Area",
+      "tba": 4.2,
+      "anim": 2.33,
+      "spawn": 111.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against angel, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            },
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "Performs a Lv.2 Shockwave attack (Range: 532)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, akuu2: b1Knockbackb2 (100% chance of knockback) b1Curseb2 (100% chance to curse for 3.0s) \nu1General Abilitiesu2: b1Mini-Waveb2 (Performs a Lv.2 Shockwave attack (Range: 532))\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "311",
+  "name": "Yuletide Nurse",
+  "forms": [
+    {
+      "number": "311-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Yuletide Nurse",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 3825,
+      "range": 445,
+      "kb": 3,
+      "speed": 9,
+      "dps": 580,
+      "target": "Area",
+      "tba": 6.6,
+      "anim": 3.3,
+      "spawn": 121.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Slowb2 (50% chance to slow for 4.0s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "311-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Yule Knight Nurse",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 5325,
+      "range": 445,
+      "kb": 3,
+      "speed": 9,
+      "dps": 808,
+      "target": "Area",
+      "tba": 6.6,
+      "anim": 3.3,
+      "spawn": 121.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Slowb2 (50% chance to slow for 4.0s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "311-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Xmas Spirit Nurse",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7125,
+      "damage": 5325,
+      "range": 445,
+      "kb": 3,
+      "speed": 9,
+      "dps": 808,
+      "target": "Area",
+      "tba": 6.6,
+      "anim": 3.3,
+      "spawn": 121.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against angel, alien, aku",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alien, akuu2: b1Slowb2 (50% chance to slow for 4.0s) b1Knockbackb2 (50% chance of knockback)"
+    }
+  ]
+}

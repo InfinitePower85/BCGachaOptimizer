@@ -1,0 +1,72 @@
+{
+  "id": "054",
+  "name": "Evangelist Cat",
+  "forms": [
+    {
+      "number": "054-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Evangelist Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 150,
+      "range": 1000,
+      "kb": 1,
+      "speed": 18,
+      "dps": 5,
+      "target": "Area",
+      "tba": 38.0,
+      "anim": 11.37,
+      "spawn": 324.53,
+      "cost": 500,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Freezeb2 (100% chance to freeze for 5.0s)"
+    },
+    {
+      "number": "054-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Filibuster Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 150,
+      "range": 1000,
+      "kb": 1,
+      "speed": 18,
+      "dps": 5,
+      "target": "Area",
+      "tba": 38.0,
+      "anim": 11.37,
+      "spawn": 324.53,
+      "cost": 500,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Freezeb2 (100% chance to freeze for 5.0s)"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "781",
+  "name": "Bowler Cat",
+  "forms": [
+    {
+      "number": "781-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Bowler Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2125,
+      "damage": 638,
+      "range": 305,
+      "kb": 3,
+      "speed": 12,
+      "dps": 162,
+      "target": "Area",
+      "tba": 3.93,
+      "anim": 0.63,
+      "spawn": 9.2,
+      "cost": 480,
+      "abilities": [
+        {
+          "group": "Against white, aku",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "Performs a 20% damage Lv.3 Shockwave attack (Range: 732)"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, akuu2: b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Mini-Waveb2 (Performs a 20% damage Lv.3 Shockwave attack (Range: 732)) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Curseb2, b1Surgeb2"
+    },
+    {
+      "number": "781-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Dodgeballer Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2125,
+      "damage": 638,
+      "range": 305,
+      "kb": 3,
+      "speed": 12,
+      "dps": 162,
+      "target": "Area",
+      "tba": 3.93,
+      "anim": 0.63,
+      "spawn": 9.2,
+      "cost": 480,
+      "abilities": [
+        {
+          "group": "Against white, aku",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "Performs a 20% damage Lv.3 Shockwave attack (Range: 732)"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, akuu2: b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Mini-Waveb2 (Performs a 20% damage Lv.3 Shockwave attack (Range: 732)) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Curseb2, b1Surgeb2"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "020",
+  "name": "Zombie Cat",
+  "forms": [
+    {
+      "number": "020-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Zombie Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 500,
+      "range": 150,
+      "kb": 3,
+      "speed": 8,
+      "dps": 255,
+      "target": "Single",
+      "tba": 1.97,
+      "anim": 0.53,
+      "spawn": 4.53,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "020-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Devil Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 500,
+      "range": 150,
+      "kb": 3,
+      "speed": 8,
+      "dps": 255,
+      "target": "Single",
+      "tba": 1.97,
+      "anim": 0.53,
+      "spawn": 4.53,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "020-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Skelecat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 500,
+      "range": 150,
+      "kb": 3,
+      "speed": 8,
+      "dps": 255,
+      "target": "Area",
+      "tba": 1.97,
+      "anim": 0.53,
+      "spawn": 4.53,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against red, zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

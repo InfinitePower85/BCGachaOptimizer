@@ -1,0 +1,117 @@
+{
+  "id": "126",
+  "name": "Takeda Shingen",
+  "forms": [
+    {
+      "number": "126-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Takeda Shingen",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9750,
+      "damage": 6500,
+      "range": 440,
+      "kb": 2,
+      "speed": 7,
+      "dps": 852,
+      "target": "Area",
+      "tba": 7.63,
+      "anim": 3.67,
+      "spawn": 161.2,
+      "cost": 5985,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "black",
+              "detail": ""
+            },
+            {
+              "name": "alien",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: u1Attacks onlyu2b1 blackb2,b1 alienb2"
+    },
+    {
+      "number": "126-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wargod Shingen",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14750,
+      "damage": 14775,
+      "range": 440,
+      "kb": 2,
+      "speed": 7,
+      "dps": 1928,
+      "target": "Area",
+      "tba": 7.67,
+      "anim": 3.7,
+      "spawn": 161.2,
+      "cost": 5985,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "black",
+              "detail": ""
+            },
+            {
+              "name": "alien",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: u1Attacks onlyu2b1 blackb2,b1 alienb2"
+    },
+    {
+      "number": "126-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Immortal Shingen",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 19750,
+      "damage": 18912,
+      "range": 470,
+      "kb": 2,
+      "speed": 7,
+      "dps": 2468,
+      "target": "Area",
+      "tba": 7.67,
+      "anim": 3.7,
+      "spawn": 161.2,
+      "cost": 5985,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "black",
+              "detail": ""
+            },
+            {
+              "name": "alien",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: u1Attacks onlyu2b1 blackb2,b1 alienb2"
+    }
+  ]
+}

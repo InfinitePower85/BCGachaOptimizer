@@ -1,0 +1,85 @@
+{
+  "id": "009",
+  "name": "Titan Cat",
+  "forms": [
+    {
+      "number": "009-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Titan Cat",
+      "rarity": "Basic",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 700,
+      "range": 150,
+      "kb": 1,
+      "speed": 8,
+      "dps": 312,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.6,
+      "spawn": 18.2,
+      "cost": 1950,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "009-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mythical Titan Cat",
+      "rarity": "Basic",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 700,
+      "range": 150,
+      "kb": 1,
+      "speed": 8,
+      "dps": 312,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.6,
+      "spawn": 18.2,
+      "cost": 1950,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "009-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Jamiera Cat",
+      "rarity": "Basic",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 1400,
+      "range": 150,
+      "kb": 1,
+      "speed": 8,
+      "dps": 628,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.6,
+      "spawn": 22.2,
+      "cost": 1950,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (30% chance of knockback)"
+    }
+  ]
+}

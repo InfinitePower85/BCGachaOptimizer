@@ -1,0 +1,72 @@
+{
+  "id": "651",
+  "name": "Secret Crush Cat",
+  "forms": [
+    {
+      "number": "651-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Secret Crush Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 750,
+      "range": 200,
+      "kb": 3,
+      "speed": 9,
+      "dps": 252,
+      "target": "Area",
+      "tba": 2.97,
+      "anim": 1.0,
+      "spawn": 7.87,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "651-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Girlfriend Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 750,
+      "range": 200,
+      "kb": 3,
+      "speed": 9,
+      "dps": 252,
+      "target": "Area",
+      "tba": 2.97,
+      "anim": 1.0,
+      "spawn": 7.87,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "596",
+  "name": "Blooming Kamukura",
+  "forms": [
+    {
+      "number": "596-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Blooming Kamukura",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 6210,
+      "range": 460,
+      "kb": 3,
+      "speed": 5,
+      "dps": 710,
+      "target": "Area",
+      "tba": 8.73,
+      "anim": 1.7,
+      "spawn": 151.2,
+      "cost": 6150,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "596-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Everbloom Kamukura",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 6210,
+      "range": 460,
+      "kb": 3,
+      "speed": 5,
+      "dps": 710,
+      "target": "Area",
+      "tba": 8.73,
+      "anim": 1.7,
+      "spawn": 151.2,
+      "cost": 6150,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "596-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Everbloom Lord Kamukura",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 6210,
+      "range": 460,
+      "kb": 3,
+      "speed": 5,
+      "dps": 710,
+      "target": "Area",
+      "tba": 8.73,
+      "anim": 1.7,
+      "spawn": 151.2,
+      "cost": 6150,
+      "abilities": [
+        {
+          "group": "Against metal, aku",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metal, akuu2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

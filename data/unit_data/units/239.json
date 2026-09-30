@@ -1,0 +1,113 @@
+{
+  "id": "239",
+  "name": "Rich Cat III",
+  "forms": [
+    {
+      "number": "239-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rich Cat III",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 300,
+      "damage": 1240,
+      "range": 250,
+      "kb": 2,
+      "speed": 3,
+      "dps": 308,
+      "target": "Single",
+      "tba": 4.03,
+      "anim": 1.07,
+      "spawn": 157.87,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "239-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Rich Cat Sr.",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 375,
+      "damage": 1445,
+      "range": 250,
+      "kb": 2,
+      "speed": 3,
+      "dps": 358,
+      "target": "Single",
+      "tba": 4.03,
+      "anim": 1.07,
+      "spawn": 157.87,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "239-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Richest Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 375,
+      "damage": 3612,
+      "range": 250,
+      "kb": 2,
+      "speed": 3,
+      "dps": 895,
+      "target": "Single",
+      "tba": 4.03,
+      "anim": 1.07,
+      "spawn": 157.87,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    }
+  ]
+}

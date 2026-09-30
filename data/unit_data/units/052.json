@@ -1,0 +1,105 @@
+{
+  "id": "052",
+  "name": "Fortune Teller Cat",
+  "forms": [
+    {
+      "number": "052-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Fortune Teller Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 812,
+      "damage": 90,
+      "range": 240,
+      "kb": 3,
+      "speed": 9,
+      "dps": 68,
+      "target": "Single",
+      "tba": 1.33,
+      "anim": 0.37,
+      "spawn": 5.2,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "052-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Fisherman Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 945,
+      "damage": 115,
+      "range": 240,
+      "kb": 3,
+      "speed": 9,
+      "dps": 85,
+      "target": "Single",
+      "tba": 1.33,
+      "anim": 0.37,
+      "spawn": 5.2,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "052-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Doctor Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1890,
+      "damage": 115,
+      "range": 240,
+      "kb": 3,
+      "speed": 9,
+      "dps": 85,
+      "target": "Single",
+      "tba": 1.33,
+      "anim": 0.37,
+      "spawn": 5.2,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Knockbackb2 (40% chance of knockback)"
+    }
+  ]
+}

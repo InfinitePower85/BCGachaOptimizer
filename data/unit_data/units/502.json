@@ -1,0 +1,72 @@
+{
+  "id": "502",
+  "name": "Cat Bros S",
+  "forms": [
+    {
+      "number": "502-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cat Bros S",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 500,
+      "range": 140,
+      "kb": 3,
+      "speed": 10,
+      "dps": 125,
+      "target": "Area",
+      "tba": 4.0,
+      "anim": 1.23,
+      "spawn": 4.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "502-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Baka Cat Bros",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 500,
+      "range": 140,
+      "kb": 3,
+      "speed": 10,
+      "dps": 125,
+      "target": "Area",
+      "tba": 4.0,
+      "anim": 1.23,
+      "spawn": 4.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

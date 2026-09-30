@@ -1,0 +1,90 @@
+{
+  "id": "588",
+  "name": "Sweet Aphrodite",
+  "forms": [
+    {
+      "number": "588-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sweet Aphrodite",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4875,
+      "damage": 3750,
+      "range": 550,
+      "kb": 4,
+      "speed": 7,
+      "dps": 312,
+      "target": "Area",
+      "tba": 11.97,
+      "anim": 4.07,
+      "spawn": 131.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 450~850"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 450~850)"
+    },
+    {
+      "number": "588-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Chocoladite",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 5000,
+      "range": 550,
+      "kb": 4,
+      "speed": 7,
+      "dps": 418,
+      "target": "Area",
+      "tba": 11.97,
+      "anim": 4.07,
+      "spawn": 131.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 450~850"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 450~850)"
+    }
+  ]
+}

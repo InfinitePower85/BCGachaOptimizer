@@ -30,6 +30,7 @@ from data_download import (
 from fetch_gacha_units import ICONS_DIR
 from gacha_units import group_by_rarity, list_gacha_events, load_gacha_units, suggest_event
 from route_optimizer import parse_pool, solve
+from unit_rarity import load_unit_rarities
 
 MAX_MEOWS = 100
 
@@ -122,6 +123,13 @@ def get_gacha_units(event: str) -> dict:
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
     return {"event": event, "rarities": group_by_rarity(units)}
+
+
+@app.get("/unit-rarities")
+def get_unit_rarities() -> dict:
+    """name -> rarity for every unit's Normal form (see unit_rarity.py), for the
+    frontend roll simulator's "Collected" panel. {} if data/unit_data isn't present."""
+    return load_unit_rarities()
 
 
 @app.get("/match-event")

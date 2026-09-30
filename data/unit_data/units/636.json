@@ -1,0 +1,80 @@
+{
+  "id": "636",
+  "name": "Million-Dollar Cat",
+  "forms": [
+    {
+      "number": "636-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Million-Dollar Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 15,
+      "range": 350,
+      "kb": 3,
+      "speed": 9,
+      "dps": 1,
+      "target": "Single",
+      "tba": 16.63,
+      "anim": 0.2,
+      "spawn": 24.2,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "100% chance of a critical hit"
+            },
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (100% chance of a critical hit) b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "636-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hundred-Million-Dollar Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 15,
+      "range": 350,
+      "kb": 3,
+      "speed": 9,
+      "dps": 1,
+      "target": "Single",
+      "tba": 16.63,
+      "anim": 0.2,
+      "spawn": 24.2,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "100% chance of a critical hit"
+            },
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (100% chance of a critical hit) b1Extra moneyb2 (2x money gained from defeated enemies)"
+    }
+  ]
+}

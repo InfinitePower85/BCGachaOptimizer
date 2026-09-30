@@ -1,0 +1,172 @@
+{
+  "id": "788",
+  "name": "Netherworld Nymph Lunacia",
+  "forms": [
+    {
+      "number": "788-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Netherworld Nymph Lunacia",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12500,
+      "damage": 2000,
+      "range": 350,
+      "kb": 4,
+      "speed": 15,
+      "dps": 372,
+      "target": "Area",
+      "tba": 5.37,
+      "anim": 1.33,
+      "spawn": 104.53,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against white, floating, angel, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~450"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "20% chance to break Aku shields"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 350 range"
+            },
+            {
+              "name": "Counter-Surge",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Toxic",
+              "detail": ""
+            },
+            {
+              "name": "Explosion",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, floating, angel, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (100% chance to weaken by 50% for 3.0s) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -100~450) b1Shield Piercingb2 (20% chance to break Aku shields) b1Explosionb2 (100% chance to create an explosion at 350 range) b1Counter-Surgeb2\nu1Not affected byu2: b1Freezeb2, b1Slowb2, b1Curseb2, b1Toxicb2, b1Explosionb2"
+    },
+    {
+      "number": "788-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Death's Daughter Lunacia",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 16250,
+      "damage": 2250,
+      "range": 350,
+      "kb": 4,
+      "speed": 15,
+      "dps": 420,
+      "target": "Area",
+      "tba": 5.37,
+      "anim": 1.33,
+      "spawn": 104.53,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against white, floating, angel, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~450"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "20% chance to break Aku shields"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 350 range"
+            },
+            {
+              "name": "Counter-Surge",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Toxic",
+              "detail": ""
+            },
+            {
+              "name": "Explosion",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, floating, angel, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (100% chance to weaken by 50% for 3.0s) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -100~450) b1Shield Piercingb2 (20% chance to break Aku shields) b1Explosionb2 (100% chance to create an explosion at 350 range) b1Counter-Surgeb2\nu1Not affected byu2: b1Freezeb2, b1Slowb2, b1Curseb2, b1Toxicb2, b1Explosionb2"
+    }
+  ]
+}

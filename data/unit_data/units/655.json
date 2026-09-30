@@ -1,0 +1,105 @@
+{
+  "id": "655",
+  "name": "Brainwashed Gross Cat",
+  "forms": [
+    {
+      "number": "655-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Brainwashed Gross Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3150,
+      "damage": 675,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 160,
+      "target": "Single",
+      "tba": 4.23,
+      "anim": 0.27,
+      "spawn": 28.8,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 2s (Range: 150~600)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surge Attacksb2 (100% chance to perform Surge Attacks for 2s (Range: 150~600))"
+    },
+    {
+      "number": "655-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Brainwashed Sexy Legs Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3150,
+      "damage": 675,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 162,
+      "target": "Single",
+      "tba": 4.17,
+      "anim": 0.2,
+      "spawn": 28.8,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 2s (Range: 150~600)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surge Attacksb2 (100% chance to perform Surge Attacks for 2s (Range: 150~600))"
+    },
+    {
+      "number": "655-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Brainwashed Macho Legs Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3150,
+      "damage": 675,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 162,
+      "target": "Single",
+      "tba": 4.17,
+      "anim": 0.2,
+      "spawn": 28.8,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 2.7s (Range: 150~600)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surge Attacksb2 (100% chance to perform Surge Attacks for 2.7s (Range: 150~600))"
+    }
+  ]
+}

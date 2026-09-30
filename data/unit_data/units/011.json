@@ -1,0 +1,95 @@
+{
+  "id": "011",
+  "name": "Kung Fu Cat",
+  "forms": [
+    {
+      "number": "011-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kung Fu Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 2750,
+      "range": 300,
+      "kb": 1,
+      "speed": 9,
+      "dps": 392,
+      "target": "Area",
+      "tba": 7.0,
+      "anim": 0.37,
+      "spawn": 19.87,
+      "cost": 2250,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "011-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Drunken Master Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 3025,
+      "range": 300,
+      "kb": 1,
+      "speed": 9,
+      "dps": 432,
+      "target": "Area",
+      "tba": 7.0,
+      "anim": 0.37,
+      "spawn": 19.87,
+      "cost": 2250,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "011-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Dancer Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 3025,
+      "range": 330,
+      "kb": 1,
+      "speed": 9,
+      "dps": 432,
+      "target": "Area",
+      "tba": 7.0,
+      "anim": 1.17,
+      "spawn": 19.87,
+      "cost": 2250,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Weakenb2"
+    }
+  ]
+}

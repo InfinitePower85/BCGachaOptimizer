@@ -1,0 +1,85 @@
+{
+  "id": "064",
+  "name": "Sports Day Cat",
+  "forms": [
+    {
+      "number": "064-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sports Day Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 65,
+      "range": 110,
+      "kb": 4,
+      "speed": 10,
+      "dps": 52,
+      "target": "Area",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 375,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "064-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kidnapper Cats",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 65,
+      "range": 110,
+      "kb": 4,
+      "speed": 10,
+      "dps": 52,
+      "target": "Area",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 375,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "064-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Rampage Cats",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 65,
+      "range": 330,
+      "kb": 4,
+      "speed": 10,
+      "dps": 25,
+      "target": "Area",
+      "tba": 2.57,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 375,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "842",
+  "name": "Nezuko Kamado",
+  "forms": [
+    {
+      "number": "842-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nezuko Kamado",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8750,
+      "damage": 6000,
+      "range": 210,
+      "kb": 2,
+      "speed": 14,
+      "dps": 1730,
+      "target": "Area",
+      "tba": 3.47,
+      "anim": 0.83,
+      "spawn": 51.2,
+      "cost": 2700,
+      "abilities": [
+        {
+          "group": "Against white, alien, zombie",
+          "abilities": [
+            {
+              "name": "white",
+              "detail": ""
+            },
+            {
+              "name": "alien",
+              "detail": ""
+            },
+            {
+              "name": "zombie",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 50% health"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, alien, zombieu2: u1Attacks onlyu2b1 whiteb2,b1 alienb2,b1 zombieb2 b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 50% health) b1Surviveb2 (100% chance to survive a lethal strike) b1Zombie Killerb2 (Stops zombies from reviving) b1Multi-hit attackb2 (Attacks twice consecutively)\nu1Not affected byu2: b1Slowb2, b1Curseb2"
+    },
+    {
+      "number": "842-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Nezuko Kamado CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 7500,
+      "range": 210,
+      "kb": 2,
+      "speed": 14,
+      "dps": 2162,
+      "target": "Area",
+      "tba": 3.47,
+      "anim": 0.83,
+      "spawn": 51.2,
+      "cost": 2700,
+      "abilities": [
+        {
+          "group": "Against white, alien, zombie",
+          "abilities": [
+            {
+              "name": "white",
+              "detail": ""
+            },
+            {
+              "name": "alien",
+              "detail": ""
+            },
+            {
+              "name": "zombie",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 50% health"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, alien, zombieu2: u1Attacks onlyu2b1 whiteb2,b1 alienb2,b1 zombieb2 b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 50% health) b1Surviveb2 (100% chance to survive a lethal strike) b1Zombie Killerb2 (Stops zombies from reviving) b1Multi-hit attackb2 (Attacks twice consecutively)\nu1Not affected byu2: b1Slowb2, b1Curseb2"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "194",
+  "name": "Nakamura Kanae",
+  "forms": [
+    {
+      "number": "194-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nakamura Kanae",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 250,
+      "range": 150,
+      "kb": 3,
+      "speed": 4,
+      "dps": 60,
+      "target": "Single",
+      "tba": 4.23,
+      "anim": 0.93,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (30% chance to weaken by 50% for 5.0s)"
+    },
+    {
+      "number": "194-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "MISS Nakamura Kanae",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 375,
+      "range": 150,
+      "kb": 3,
+      "speed": 4,
+      "dps": 88,
+      "target": "Single",
+      "tba": 4.23,
+      "anim": 0.93,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (30% chance to weaken by 50% for 5.0s)"
+    }
+  ]
+}

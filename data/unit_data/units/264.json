@@ -1,0 +1,72 @@
+{
+  "id": "264",
+  "name": "Pochi",
+  "forms": [
+    {
+      "number": "264-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Pochi",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 225,
+      "range": 150,
+      "kb": 2,
+      "speed": 7,
+      "dps": 100,
+      "target": "Single",
+      "tba": 2.23,
+      "anim": 0.67,
+      "spawn": 7.2,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "2% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (2% chance of a critical hit)"
+    },
+    {
+      "number": "264-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Tank Pochi",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 300,
+      "range": 150,
+      "kb": 2,
+      "speed": 7,
+      "dps": 135,
+      "target": "Single",
+      "tba": 2.23,
+      "anim": 0.67,
+      "spawn": 7.2,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "2% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (2% chance of a critical hit)"
+    }
+  ]
+}

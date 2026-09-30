@@ -1,0 +1,172 @@
+{
+  "id": "716",
+  "name": "Mighty Sphinx Korps",
+  "forms": [
+    {
+      "number": "716-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mighty Sphinx Korps",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 21000,
+      "damage": 1750,
+      "range": 150,
+      "kb": 2,
+      "speed": 45,
+      "dps": 392,
+      "target": "Area",
+      "tba": 4.47,
+      "anim": 0.27,
+      "spawn": 144.53,
+      "cost": 5100,
+      "abilities": [
+        {
+          "group": "Against red, metal, zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -500~250"
+            },
+            {
+              "name": "Corpse Killer",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, metal, zombieu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (50% chance to weaken by 50% for 4.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -500~250) b1Corpse Killerb2"
+    },
+    {
+      "number": "716-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Attack Battalion Convoys",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 21000,
+      "damage": 1750,
+      "range": 150,
+      "kb": 2,
+      "speed": 45,
+      "dps": 392,
+      "target": "Area",
+      "tba": 4.47,
+      "anim": 0.27,
+      "spawn": 144.53,
+      "cost": 5100,
+      "abilities": [
+        {
+          "group": "Against red, metal, zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -500~250"
+            },
+            {
+              "name": "Corpse Killer",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, metal, zombieu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (50% chance to weaken by 50% for 4.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -500~250) b1Corpse Killerb2"
+    },
+    {
+      "number": "716-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Hyper Battalion Convoys",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 25000,
+      "damage": 1750,
+      "range": 150,
+      "kb": 4,
+      "speed": 55,
+      "dps": 392,
+      "target": "Area",
+      "tba": 4.47,
+      "anim": 0.27,
+      "spawn": 144.53,
+      "cost": 5100,
+      "abilities": [
+        {
+          "group": "Against red, metal, zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Attack",
+              "detail": "100% chance to perform a Lv.3 Shockwave attack (Range: 732)"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -500~250"
+            },
+            {
+              "name": "Corpse Killer",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, metal, zombieu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (50% chance to weaken by 50% for 4.0s) \nu1General Abilitiesu2: b1Wave Attackb2 (100% chance to perform a Lv.3 Shockwave attack (Range: 732)) b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -500~250) b1Corpse Killerb2"
+    }
+  ]
+}

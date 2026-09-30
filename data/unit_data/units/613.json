@@ -1,0 +1,116 @@
+{
+  "id": "613",
+  "name": "Princess Cat",
+  "forms": [
+    {
+      "number": "613-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Princess Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5625,
+      "damage": 4875,
+      "range": 551,
+      "kb": 4,
+      "speed": 5,
+      "dps": 530,
+      "target": "Area",
+      "tba": 9.2,
+      "anim": 3.43,
+      "spawn": 161.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, angel, zombie",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Mini-Wave",
+              "detail": "100% chance to perform a Lv.4 Shockwave attack (Range: 932)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angel, zombieu2: b1Weakenb2 (100% chance to weaken by 50% for 5.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Mini-Waveb2 (100% chance to perform a Lv.4 Shockwave attack (Range: 932))\nu1Not affected byu2: b1Curseb2"
+    },
+    {
+      "number": "613-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Empress Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7625,
+      "damage": 6375,
+      "range": 551,
+      "kb": 4,
+      "speed": 5,
+      "dps": 692,
+      "target": "Area",
+      "tba": 9.2,
+      "anim": 3.43,
+      "spawn": 161.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, angel, zombie",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Mini-Wave",
+              "detail": "100% chance to perform a Lv.6 Shockwave attack (Range: 1333)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angel, zombieu2: b1Weakenb2 (100% chance to weaken by 50% for 5.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Mini-Waveb2 (100% chance to perform a Lv.6 Shockwave attack (Range: 1333))\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

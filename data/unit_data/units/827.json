@@ -1,0 +1,98 @@
+{
+  "id": "827",
+  "name": "Cammy",
+  "forms": [
+    {
+      "number": "827-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cammy",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4750,
+      "damage": 2250,
+      "range": 375,
+      "kb": 3,
+      "speed": 20,
+      "dps": 702,
+      "target": "Area",
+      "tba": 3.2,
+      "anim": 0.23,
+      "spawn": 87.87,
+      "cost": 3150,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            },
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Insane Damageb2 (inflicts 5.0x damage) b1Dodgeb2 (30% chance to dodge for 2.0s)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "827-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cammy CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4750,
+      "damage": 2250,
+      "range": 375,
+      "kb": 3,
+      "speed": 20,
+      "dps": 702,
+      "target": "Area",
+      "tba": 3.2,
+      "anim": 0.23,
+      "spawn": 87.87,
+      "cost": 3150,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            },
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Insane Damageb2 (inflicts 5.0x damage) b1Dodgeb2 (30% chance to dodge for 2.0s)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

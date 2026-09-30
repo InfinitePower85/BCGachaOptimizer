@@ -1,0 +1,132 @@
+{
+  "id": "474",
+  "name": "Prince Yamato",
+  "forms": [
+    {
+      "number": "474-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Prince Yamato",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 400,
+      "range": 250,
+      "kb": 3,
+      "speed": 35,
+      "dps": 92,
+      "target": "Area",
+      "tba": 4.37,
+      "anim": 0.07,
+      "spawn": 31.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "474-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Holy Yamato",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 500,
+      "range": 250,
+      "kb": 3,
+      "speed": 35,
+      "dps": 115,
+      "target": "Area",
+      "tba": 4.37,
+      "anim": 0.07,
+      "spawn": 31.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "474-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Rampaging Yamato",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 600,
+      "range": 250,
+      "kb": 3,
+      "speed": 35,
+      "dps": 138,
+      "target": "Area",
+      "tba": 4.37,
+      "anim": 0.07,
+      "spawn": 31.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

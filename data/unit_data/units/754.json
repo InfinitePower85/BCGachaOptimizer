@@ -1,0 +1,80 @@
+{
+  "id": "754",
+  "name": "Kaoru Cat",
+  "forms": [
+    {
+      "number": "754-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kaoru Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 300,
+      "range": 220,
+      "kb": 3,
+      "speed": 10,
+      "dps": 130,
+      "target": "Single",
+      "tba": 2.3,
+      "anim": 0.87,
+      "spawn": 8.53,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "20% chance to weaken by 50% for 5.0s"
+            },
+            {
+              "name": "Dodge",
+              "detail": "20% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Weakenb2 (20% chance to weaken by 50% for 5.0s) b1Dodgeb2 (20% chance to dodge for 2.0s)"
+    },
+    {
+      "number": "754-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Swordscat Kaoru",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 300,
+      "range": 220,
+      "kb": 3,
+      "speed": 10,
+      "dps": 130,
+      "target": "Single",
+      "tba": 2.3,
+      "anim": 0.87,
+      "spawn": 8.53,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "20% chance to weaken by 50% for 5.0s"
+            },
+            {
+              "name": "Dodge",
+              "detail": "20% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Weakenb2 (20% chance to weaken by 50% for 5.0s) b1Dodgeb2 (20% chance to dodge for 2.0s)"
+    }
+  ]
+}

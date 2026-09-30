@@ -1,0 +1,114 @@
+{
+  "id": "071",
+  "name": "Salaryman Cat",
+  "forms": [
+    {
+      "number": "071-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Salaryman Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 400,
+      "range": 210,
+      "kb": 1,
+      "speed": 8,
+      "dps": 108,
+      "target": "Single",
+      "tba": 3.7,
+      "anim": 0.73,
+      "spawn": 5.87,
+      "cost": 1366,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "071-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Grudge Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 400,
+      "range": 210,
+      "kb": 1,
+      "speed": 8,
+      "dps": 108,
+      "target": "Area",
+      "tba": 3.7,
+      "anim": 0.73,
+      "spawn": 5.87,
+      "cost": 1366,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "071-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Ritual Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 800,
+      "range": 210,
+      "kb": 2,
+      "speed": 8,
+      "dps": 215,
+      "target": "Area",
+      "tba": 3.7,
+      "anim": 0.73,
+      "spawn": 5.87,
+      "cost": 1366,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 50% health"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 50% health)"
+    }
+  ]
+}

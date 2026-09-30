@@ -1,0 +1,72 @@
+{
+  "id": "460",
+  "name": "Rider the Cat",
+  "forms": [
+    {
+      "number": "460-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rider the Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 500,
+      "range": 190,
+      "kb": 3,
+      "speed": 12,
+      "dps": 148,
+      "target": "Single",
+      "tba": 3.4,
+      "anim": 0.9,
+      "spawn": 7.87,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "40% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Freezeb2 (40% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "460-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Heroic Spirit Rider Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 500,
+      "range": 190,
+      "kb": 3,
+      "speed": 12,
+      "dps": 148,
+      "target": "Single",
+      "tba": 3.4,
+      "anim": 0.9,
+      "spawn": 7.87,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "40% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Freezeb2 (40% chance to freeze for 2.0s)"
+    }
+  ]
+}

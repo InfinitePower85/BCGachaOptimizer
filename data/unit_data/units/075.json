@@ -1,0 +1,105 @@
+{
+  "id": "075",
+  "name": "Reindeer Fish Cat",
+  "forms": [
+    {
+      "number": "075-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Reindeer Fish Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 490,
+      "range": 150,
+      "kb": 3,
+      "speed": 10,
+      "dps": 288,
+      "target": "Single",
+      "tba": 1.7,
+      "anim": 0.27,
+      "spawn": 4.87,
+      "cost": 1215,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "075-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sashimi Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2625,
+      "damage": 818,
+      "range": 150,
+      "kb": 3,
+      "speed": 10,
+      "dps": 480,
+      "target": "Single",
+      "tba": 1.7,
+      "anim": 0.27,
+      "spawn": 4.87,
+      "cost": 1215,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "075-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Xmas Pudding Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 818,
+      "range": 150,
+      "kb": 3,
+      "speed": 10,
+      "dps": 598,
+      "target": "Area",
+      "tba": 1.37,
+      "anim": 0.27,
+      "spawn": 4.87,
+      "cost": 1215,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "089",
+  "name": "Rope Jump Cat",
+  "forms": [
+    {
+      "number": "089-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rope Jump Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 162,
+      "range": 170,
+      "kb": 3,
+      "speed": 10,
+      "dps": 128,
+      "target": "Single",
+      "tba": 1.27,
+      "anim": 0.3,
+      "spawn": 2.0,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "3% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (3% chance of a critical hit)"
+    },
+    {
+      "number": "089-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Pair Rope Jump Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 188,
+      "range": 170,
+      "kb": 3,
+      "speed": 10,
+      "dps": 148,
+      "target": "Single",
+      "tba": 1.27,
+      "anim": 0.3,
+      "spawn": 2.0,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "3% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (3% chance of a critical hit)"
+    },
+    {
+      "number": "089-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Noodle Cats",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 188,
+      "range": 170,
+      "kb": 3,
+      "speed": 10,
+      "dps": 148,
+      "target": "Single",
+      "tba": 1.27,
+      "anim": 0.3,
+      "spawn": 2.0,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "3% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Criticalb2 (3% chance of a critical hit)"
+    }
+  ]
+}

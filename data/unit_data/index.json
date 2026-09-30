@@ -1,0 +1,9974 @@
+{
+  "by_id": {
+    "001": [
+      "Cat",
+      "Macho Cat",
+      "Mohawk Cat"
+    ],
+    "002": [
+      "Tank Cat",
+      "Wall Cat",
+      "Eraser Cat"
+    ],
+    "003": [
+      "Axe Cat",
+      "Brave Cat",
+      "Dark Cat"
+    ],
+    "004": [
+      "Gross Cat",
+      "Sexy Legs Cat",
+      "Macho Leg Cat"
+    ],
+    "005": [
+      "Cow Cat",
+      "Giraffe Cat",
+      "Lion Cat"
+    ],
+    "006": [
+      "Bird Cat",
+      "UFO Cat",
+      "The Flying Cat"
+    ],
+    "007": [
+      "Fish Cat",
+      "Whale Cat",
+      "Island Cat"
+    ],
+    "008": [
+      "Lizard Cat",
+      "Dragon Cat",
+      "King Dragon Cat"
+    ],
+    "009": [
+      "Titan Cat",
+      "Mythical Titan Cat",
+      "Jamiera Cat"
+    ],
+    "010": [
+      "Actress Cat",
+      "Mother Cat",
+      "Beefcake Cat"
+    ],
+    "011": [
+      "Kung Fu Cat",
+      "Drunken Master Cat",
+      "Dancer Cat"
+    ],
+    "012": [
+      "Mr.",
+      "Super Mr.",
+      "Hyper Mr."
+    ],
+    "013": [
+      "Bondage Cat",
+      "Bondage CatNEO",
+      "Ultimate Bondage Cat"
+    ],
+    "014": [
+      "Dom Cat",
+      "Executioner",
+      "Dark Lazer"
+    ],
+    "015": [
+      "Cats in a Box",
+      "Cat Gang",
+      "Heavy Assault C.A.T."
+    ],
+    "016": [
+      "Panties Cat",
+      "Leaf Cat",
+      "Lollycat"
+    ],
+    "017": [
+      "Moneko",
+      "Miss MONEKO",
+      "Superstar MONEKO"
+    ],
+    "018": [
+      "Tricycle Cat",
+      "Biker Cat",
+      "Unicycle Cat"
+    ],
+    "019": [
+      "Ninja Cat",
+      "Ninja Frog Cat",
+      "Flying Ninja Cat"
+    ],
+    "020": [
+      "Zombie Cat",
+      "Devil Cat",
+      "Skelecat"
+    ],
+    "021": [
+      "Samurai Cat",
+      "Knight Cat",
+      "Pastry Cat"
+    ],
+    "022": [
+      "Sumo Cat",
+      "Madame Sumo",
+      "Riceball Cat"
+    ],
+    "023": [
+      "Boogie Cat",
+      "Samba Cat",
+      "Gato Amigo"
+    ],
+    "024": [
+      "Skirt Cat",
+      "Tights Cat",
+      "Loincloth Cat"
+    ],
+    "025": [
+      "Valkyrie Cat",
+      "True Valkyrie Cat",
+      "Holy Valkyrie Cat"
+    ],
+    "026": [
+      "Bahamut Cat",
+      "Crazed Bahamut Cat",
+      "Awakened Bahamut Cat"
+    ],
+    "027": [
+      "Kerihime",
+      "Full Color Kerihime",
+      "Bridal Princess Punt"
+    ],
+    "028": [
+      "Cat Princess",
+      "Cat Princess Beauty"
+    ],
+    "029": [
+      "Capsule Cat",
+      "Cramped Cats"
+    ],
+    "030": [
+      "Masked Cat",
+      "Luchador Cat"
+    ],
+    "031": [
+      "Bodhisattva Cat",
+      "Avalokitesvara Cat",
+      "Tathagata Cat"
+    ],
+    "032": [
+      "Delinquent Cat",
+      "Angry Delinquent Cat",
+      "Ultra Delinquent Cat"
+    ],
+    "033": [
+      "Hip Hop Cat",
+      "Dancing Flasher Cat",
+      "Can Can Cat"
+    ],
+    "034": [
+      "Kotatsu Cat",
+      "Sadako Cat",
+      "Octopus Cat"
+    ],
+    "035": [
+      "Nekoluga",
+      "Unknown Cat",
+      "Ultralan Pasalan"
+    ],
+    "036": [
+      "Nerd Cat",
+      "Hacker Cat",
+      "Cyberpunk Cat"
+    ],
+    "037": [
+      "Swimmer Cat",
+      "Butterfly Cat",
+      "Fishman Cat"
+    ],
+    "038": [
+      "Pogo Cat",
+      "Masai Cat",
+      "Jiangshi Cat"
+    ],
+    "039": [
+      "Wheel Cat",
+      "Solar Cat",
+      "Chill Cat"
+    ],
+    "040": [
+      "Apple Cat",
+      "Face Cat",
+      "iCat"
+    ],
+    "041": [
+      "Bath Cat",
+      "Sexy Bathtub Cat",
+      "Luxury Bath Cat"
+    ],
+    "042": [
+      "Salon Cat",
+      "Paris Cat",
+      "Cyborg Cat"
+    ],
+    "043": [
+      "Ice Cat",
+      "Ice Queen Cat",
+      "Ice Crystal Cat"
+    ],
+    "044": [
+      "Cat Machine",
+      "Cat Machine Mk 2",
+      "Cat Machine Mk 3"
+    ],
+    "045": [
+      "Lesser Demon Cat",
+      "Greater Demon Cat",
+      "Greater Balrog Cat"
+    ],
+    "046": [
+      "Maiko Cat",
+      "Geisha Cat"
+    ],
+    "047": [
+      "Jurassic Cat",
+      "Jurassic Cat Sitter",
+      "Catasaurus"
+    ],
+    "048": [
+      "Viking Cat",
+      "Thor Cat",
+      "Maximum the Fighter"
+    ],
+    "049": [
+      "Pirate Cat",
+      "Captain Cat",
+      "Dread Pirate Catley"
+    ],
+    "050": [
+      "Thief Cat",
+      "Phantom Thief Cat",
+      "Goemon Cat"
+    ],
+    "051": [
+      "Bishop Cat",
+      "Monk Cat",
+      "Sanzo Cat"
+    ],
+    "052": [
+      "Fortune Teller Cat",
+      "Fisherman Cat",
+      "Doctor Cat"
+    ],
+    "053": [
+      "Shaman Cat",
+      "Necromancer Cat",
+      "Necro-Dancer Cat"
+    ],
+    "054": [
+      "Evangelist Cat",
+      "Filibuster Cat"
+    ],
+    "055": [
+      "Type 10",
+      "Cat Transportation Type 10"
+    ],
+    "056": [
+      "Witch Cat",
+      "Sorceress Cat",
+      "Enchantress Cat"
+    ],
+    "057": [
+      "Archer Cat",
+      "Cupid Cat",
+      "Cataur"
+    ],
+    "058": [
+      "Marauder Cat",
+      "Berserker Cat",
+      "Paladin Cat"
+    ],
+    "059": [
+      "Swordsman Cat",
+      "Sword Master Cat",
+      "Elemental Duelist Cat"
+    ],
+    "060": [
+      "Baby Cat",
+      "Baby Cats",
+      "Cats in the Cradle",
+      "Cats in the Stroller"
+    ],
+    "061": [
+      "Bronze Cat",
+      "Michelangelo Cat",
+      "Quizmaster Cat"
+    ],
+    "062": [
+      "Sushi Cat",
+      "Fried Shrimp Cat",
+      "Roe Cat"
+    ],
+    "063": [
+      "Toy Machine Cat",
+      "Vendor Cat"
+    ],
+    "064": [
+      "Sports Day Cat",
+      "Kidnapper Cats",
+      "Rampage Cats"
+    ],
+    "065": [
+      "Swordsman",
+      "Swordsman Johnny"
+    ],
+    "066": [
+      "Cow Princess",
+      "Giraffe Princess"
+    ],
+    "067": [
+      "PPT48\r",
+      "Dark PPT48\r",
+      "PPT46"
+    ],
+    "068": [
+      "Li'l Gau",
+      "Li'l Gau Gau",
+      "Crystal Li'l Gau Gau"
+    ],
+    "069": [
+      "Reaper\r",
+      "Reaper 999\r",
+      "Judgment\r"
+    ],
+    "070": [
+      "Sleeping Beauty Punt\r",
+      "Sleeping Beauty Punt II\r",
+      "Oversleeping Beauty Punt"
+    ],
+    "071": [
+      "Salaryman Cat",
+      "Grudge Cat",
+      "Ritual Cat"
+    ],
+    "072": [
+      "Sanada Yukimura",
+      "Wargod Yukimura",
+      "Immortal Yukimura"
+    ],
+    "073": [
+      "Maeda Keiji",
+      "Wargod Keiji",
+      "Immortal Keiji"
+    ],
+    "074": [
+      "Oda Nobunaga",
+      "Wargod Nobunaga",
+      "Immortal Nobunaga",
+      "Phantasmal Nobunaga"
+    ],
+    "075": [
+      "Reindeer Fish Cat",
+      "Sashimi Cat",
+      "Xmas Pudding Cat"
+    ],
+    "076": [
+      "Windy",
+      "Windy, type α",
+      "Divine Windy",
+      "Ultimate Windy"
+    ],
+    "077": [
+      "Thundia",
+      "Thundia, type β",
+      "Divine Thundia",
+      "Ultimate Thundia"
+    ],
+    "078": [
+      "Droid Cat",
+      "Droid Cat Mk 2",
+      "SpringDroid"
+    ],
+    "079": [
+      "Space Cat",
+      "Major Space Cat",
+      "Space Marine Cat"
+    ],
+    "080": [
+      "Adult Cat",
+      "Sick Cat",
+      "Prisoner Cat"
+    ],
+    "081": [
+      "Evil Cat",
+      "Gentleman Cat",
+      "Gentleman Bros."
+    ],
+    "082": [
+      "Doll Cats",
+      "Cat-o-tron",
+      "Nyalladin"
+    ],
+    "083": [
+      "Blue Shinobi",
+      "Orange Shinobi"
+    ],
+    "084": [
+      "Sodom",
+      "Earth King Sodom",
+      "God-Emperor Sodom"
+    ],
+    "085": [
+      "Megidora",
+      "Holy Dragon Megidora",
+      "God-Emperor Megidora"
+    ],
+    "086": [
+      "Vars",
+      "Dragon King Vars",
+      "God-Emperor Vars"
+    ],
+    "087": [
+      "Kamukura",
+      "God Dragon Kamukura",
+      "God-Emperor Kamukura"
+    ],
+    "088": [
+      "Raiden",
+      "Dragonslayer Raiden",
+      "God-Emperor Raiden"
+    ],
+    "089": [
+      "Rope Jump Cat",
+      "Pair Rope Jump Cat",
+      "Noodle Cats"
+    ],
+    "090": [
+      "Nimue",
+      "Neutralization Type Nimue"
+    ],
+    "091": [
+      "Monkey King",
+      "SSS Monkey King"
+    ],
+    "092": [
+      "Crazed Cat",
+      "Crazed Macho Cat",
+      "Manic Mohawk Cat"
+    ],
+    "093": [
+      "Crazed Tank Cat",
+      "Crazed Wall Cat",
+      "Manic Eraser Cat"
+    ],
+    "094": [
+      "Crazed Axe Cat",
+      "Crazed Brave Cat",
+      "Manic Dark Cat"
+    ],
+    "095": [
+      "Crazed Gross Cat",
+      "Crazed Sexy Legs Cat",
+      "Manic Macho Legs"
+    ],
+    "096": [
+      "Crazed Cow Cat",
+      "Crazed Giraffe Cat",
+      "Manic Lion Cat"
+    ],
+    "097": [
+      "Crazed Bird Cat",
+      "Crazed UFO Cat",
+      "Manic Flying Cat"
+    ],
+    "098": [
+      "Crazed Fish Cat",
+      "Crazed Whale Cat",
+      "Manic Island Cat"
+    ],
+    "099": [
+      "Crazed Lizard Cat",
+      "Crazed Dragon Cat",
+      "Manic King Dragon"
+    ],
+    "100": [
+      "Crazed Titan Cat",
+      "Crazed M. Titan Cat",
+      "Manic Jamiera Cat"
+    ],
+    "101": [
+      "Maiden Cat",
+      "Sportsgirl Cat",
+      "Wrestling Cat"
+    ],
+    "102": [
+      "Clone Elle",
+      "Clone Elle CC"
+    ],
+    "103": [
+      "Red Marron",
+      "Red Marron CC"
+    ],
+    "104": [
+      "Cabaret Cat",
+      "Mega Cat",
+      "Mega Cat EX"
+    ],
+    "105": [
+      "Koi Cat",
+      "Gross Koi Cat",
+      "Kiss and Koi"
+    ],
+    "106": [
+      "Kuu",
+      "Kuu, type γ",
+      "Divine Kuu"
+    ],
+    "107": [
+      "Kai",
+      "Kai, type μ",
+      "Divine Kai"
+    ],
+    "108": [
+      "Coppermine",
+      "Coppermine, type κ",
+      "Divine Coppermine"
+    ],
+    "109": [
+      "Cat Bros",
+      "Secret Base"
+    ],
+    "110": [
+      "Madam Bride",
+      "Madam King",
+      "Madam the Savannah"
+    ],
+    "111": [
+      "Celesse",
+      "Celesse CC"
+    ],
+    "112": [
+      "Nono",
+      "Nono CC",
+      "Frolicking Nono CC"
+    ],
+    "113": [
+      "Olga",
+      "Olga CC"
+    ],
+    "114": [
+      "Norn",
+      "Norn CC"
+    ],
+    "115": [
+      "Yoichi",
+      "Yoichi CC"
+    ],
+    "116": [
+      "Serum",
+      "Serum CC"
+    ],
+    "117": [
+      "Fuu",
+      "Fuu CC"
+    ],
+    "118": [
+      "Aura",
+      "Aura CC"
+    ],
+    "119": [
+      "Rei",
+      "Rei CC"
+    ],
+    "120": [
+      "Wyvern",
+      "Wyvern Cat",
+      "Wyvern and Alec"
+    ],
+    "121": [
+      "Healer",
+      "Healer CC",
+      "Healer Cat CC"
+    ],
+    "122": [
+      "Merc",
+      "Merc CC",
+      "Merc & Cat CC"
+    ],
+    "123": [
+      "Vacation Queen",
+      "Office Lady Cat",
+      "Call Center Cat"
+    ],
+    "124": [
+      "Bean Cats",
+      "Brah Cats",
+      "Val Val Cat"
+    ],
+    "125": [
+      "Date Masamune",
+      "Wargod Masamune",
+      "Immortal Masamune"
+    ],
+    "126": [
+      "Takeda Shingen",
+      "Wargod Shingen",
+      "Immortal Shingen"
+    ],
+    "127": [
+      "Clockwork Cat",
+      "Puppetmaster Cat",
+      "Puppetmaster & Charley"
+    ],
+    "128": [
+      "Flower Cat",
+      "Cooldown Cat",
+      "Bombercat"
+    ],
+    "129": [
+      "Vengeful Cat",
+      "Groucho Cat",
+      "Kite Cat"
+    ],
+    "130": [
+      "Gold Cat",
+      "Gold Macho Cat",
+      "Glittering Macho Cat"
+    ],
+    "131": [
+      "Ururun Wolf",
+      "Ururun Cat",
+      "Awakened Ururun"
+    ],
+    "132": [
+      "Neneko",
+      "Miss NENEKO"
+    ],
+    "133": [
+      "Kung Fu Cat X",
+      "Drunken Master Cat X",
+      "Iron Claw X"
+    ],
+    "134": [
+      "Hikakin",
+      "Bikyakin",
+      "Mukyakin"
+    ],
+    "135": [
+      "Urashima Taro",
+      "Guardian Gamereon",
+      "King Gamereon"
+    ],
+    "136": [
+      "The Grateful Crane",
+      "Super Galaxy Cosmo",
+      "Ultima Galaxy Cosmo",
+      "Supernova Cosmo"
+    ],
+    "137": [
+      "Momotaro",
+      "The Peach Angels",
+      "The Peach Devils"
+    ],
+    "138": [
+      "Kasa Jizo",
+      "Jizo's Moving Castle",
+      "Jizo's Mega-Castle",
+      "Ultra Kasa Jizo"
+    ],
+    "139": [
+      "Princess Kaguya",
+      "The Death Moon",
+      "The Chaos Moon",
+      "Ultra Kaguya"
+    ],
+    "140": [
+      "Nekondo",
+      "Nekondo HG"
+    ],
+    "141": [
+      "Squish Ball Cat",
+      "Muscleman Cat"
+    ],
+    "142": [
+      "God",
+      "Secret God"
+    ],
+    "143": [
+      "Tutorial Cat",
+      "Behind Tutorial"
+    ],
+    "144": [
+      "Nurse Cat",
+      "Heartful Nurse Cat",
+      "Joyful Nurse Cat"
+    ],
+    "145": [
+      "Cat Base Mini",
+      "Cat Base Jr.",
+      "Cat Base Ultra"
+    ],
+    "146": [
+      "Cat Gunslinger",
+      "Cat Eastwood",
+      "Rodeo Cat"
+    ],
+    "147": [
+      "Stilts Cat",
+      "Totem Cat",
+      "Acrobat Cats"
+    ],
+    "148": [
+      "Tin Cat",
+      "Plane Cat",
+      "Robocat"
+    ],
+    "149": [
+      "Rocker Cat",
+      "Artist Cat",
+      "Ramen Cat"
+    ],
+    "150": [
+      "Mer-Cat",
+      "Commando Cat",
+      "Cameraman Cat"
+    ],
+    "151": [
+      "Juliet Cat",
+      "Princess Juliet Cat",
+      "Juliet the Maiko"
+    ],
+    "152": [
+      "Weightlifter Cat",
+      "Ring Girl Cat",
+      "Pizza Cat"
+    ],
+    "153": [
+      "Figure Skating Cats",
+      "Drama Cats",
+      "Slapstick Cats"
+    ],
+    "154": [
+      "Cat Toaster",
+      "Cat Projector",
+      "Catophone"
+    ],
+    "155": [
+      "Hoop Cat",
+      "Showoff Cat",
+      "Hoopmaster Cat"
+    ],
+    "156": [
+      "Chicken Cat",
+      "Rooster Cat"
+    ],
+    "157": [
+      "Drury Swordsman",
+      "Drury Witch"
+    ],
+    "158": [
+      "Nubobo",
+      "Gorubo"
+    ],
+    "159": [
+      "Uesugi Kenshin",
+      "Wargod Kenshin",
+      "Immortal Kenshin",
+      "Hellrider Kenshin"
+    ],
+    "160": [
+      "Kalisa",
+      "Kalisa, type χ",
+      "Divine Kalisa"
+    ],
+    "161": [
+      "Yurinchi\r",
+      "Phoenix Yurinchi\r",
+      "Gekirinchi\r"
+    ],
+    "162": [
+      "Crazed Princess Punt\r",
+      "Crazed Princess Punt CC\r",
+      "Manic Princess Punt"
+    ],
+    "163": [
+      "Ayanokōji Shō",
+      "Shōyan & Nyanko"
+    ],
+    "164": [
+      "Saotome Hikaru",
+      "Hikaru & Nyanko"
+    ],
+    "165": [
+      "Saionji Hitomi",
+      "Tommy & Cat"
+    ],
+    "166": [
+      "Hoshi Guranmanie",
+      "Ranma & Nyanko"
+    ],
+    "167": [
+      "Shiratori Shōchikubai",
+      "Matsu & Nyanko"
+    ],
+    "168": [
+      "Yankee Cat",
+      "Sukeban Cat"
+    ],
+    "169": [
+      "Asiluga",
+      "Asilan Pasalan",
+      "Assassinlan Pasalan"
+    ],
+    "170": [
+      "Kubiluga",
+      "Kubilan Pasalan",
+      "E. Kubilan Pasalan"
+    ],
+    "171": [
+      "Tecoluga",
+      "Tesalan Pasalan",
+      "Lufalan Pasalan"
+    ],
+    "172": [
+      "Balaluga",
+      "Balalan Pasalan",
+      "Piccolan Pasalan"
+    ],
+    "173": [
+      "Li'l Nyandam",
+      "Dark Emperor Catdam",
+      "Schoolbus Nyandam"
+    ],
+    "174": [
+      "Baby Mola",
+      "Young Man Mola",
+      "Citizen Mola"
+    ],
+    "175": [
+      "Mola King",
+      "Living Legend",
+      "Master of the Pacific"
+    ],
+    "176": [
+      "Meowla Meowla",
+      "Catorpedo"
+    ],
+    "177": [
+      "Marshmallow Cat",
+      "Creepmallow"
+    ],
+    "178": [
+      "Dioramos",
+      "Archdragon Dioramos",
+      "God-Emperor Dioramos",
+      "Ascendant Dioramos"
+    ],
+    "179": [
+      "Mob Cat",
+      "Yakuza Vampire"
+    ],
+    "180": [
+      "Takuya & Yuki",
+      "Takuya, Yuki & Cat",
+      "Takuya＆ Lovely Yuki"
+    ],
+    "181": [
+      "Mystery Girl Yuki",
+      "Mystery Yuki ＆ Cat",
+      "Mystery Catgirl Yuki"
+    ],
+    "182": [
+      "Yuki Cat",
+      "Lovely Yuki Cat"
+    ],
+    "184": [
+      "Cat Kart R",
+      "Cat Kart G",
+      "Cat Kart P"
+    ],
+    "185": [
+      "Mr. Ninja",
+      "Mint"
+    ],
+    "186": [
+      "Hearscht",
+      "Hearscht CC",
+      "Revolutionary Hearscht CC"
+    ],
+    "187": [
+      "Cornelia",
+      "Cornelia CC"
+    ],
+    "188": [
+      "Juvens",
+      "Juvens CC",
+      "Holiday Juvens CC"
+    ],
+    "189": [
+      "Mystica",
+      "Mystica CC",
+      "Savior Mystica CC"
+    ],
+    "190": [
+      "Alois",
+      "Alois CC"
+    ],
+    "191": [
+      "Citrouille",
+      "Citrouille CC"
+    ],
+    "192": [
+      "Titi",
+      "Titi CC",
+      "Titi Cat CC"
+    ],
+    "193": [
+      "Yamaoka Minori",
+      "MISS Yamaoka Minori"
+    ],
+    "194": [
+      "Nakamura Kanae",
+      "MISS Nakamura Kanae"
+    ],
+    "195": [
+      "Akira",
+      "Shadow Akira",
+      "Inferno Akira"
+    ],
+    "196": [
+      "Mekako Saionji",
+      "Dr. Mekako",
+      "Mission Control Mekako"
+    ],
+    "197": [
+      "Catman",
+      "Dark Catman",
+      "Ultimate Catman",
+      "Catman Forever"
+    ],
+    "198": [
+      "Psychocat",
+      "Neo Psychocat",
+      "Corrupted Psychocat"
+    ],
+    "199": [
+      "Onmyoji Cat",
+      "Magica Cat",
+      "Thaumaturge Cat"
+    ],
+    "200": [
+      "Surfer Cat",
+      "Castaway Cat",
+      "Seafarer Cat"
+    ],
+    "201": [
+      "Metal Cat",
+      "Metal Macho"
+    ],
+    "202": [
+      "Drumcorps Cat",
+      "Banner Cat",
+      "Mochi Cat"
+    ],
+    "203": [
+      "Baozi Cat",
+      "Big Baozi"
+    ],
+    "204": [
+      "Kachi-Kachi",
+      "Fire Squad Kachiyama",
+      "Kachiyama Assault Brigade"
+    ],
+    "205": [
+      "Airou",
+      "Airou & Melaleu"
+    ],
+    "206": [
+      "Sheria - Kirin",
+      "Sheria - KirinX"
+    ],
+    "207": [
+      "Rathalos",
+      "Rathalos & Cat"
+    ],
+    "208": [
+      "Rathian",
+      "Rathian & Cat"
+    ],
+    "209": [
+      "Kirin Neko",
+      "Kirin Neko Kirin"
+    ],
+    "210": [
+      "Li'l Cat",
+      "Li'l Macho Cat",
+      "Li'l Mohawk Cat"
+    ],
+    "211": [
+      "Li'l Tank Cat",
+      "Li'l Wall Cat",
+      "Li'l Eraser Cat"
+    ],
+    "212": [
+      "Li'l Axe Cat",
+      "Li'l Brave Cat",
+      "Li'l Dark Cat"
+    ],
+    "213": [
+      "The White Rabbit",
+      "The Black Cat",
+      "The Grey Fox",
+      "The Spectral Cat"
+    ],
+    "214": [
+      "Catburger",
+      "Cat Royale",
+      "Value Meal Cat"
+    ],
+    "215": [
+      "HYAKUTARO",
+      "HYAKUTARO CC"
+    ],
+    "216": [
+      "MARCO",
+      "MARCO CC"
+    ],
+    "217": [
+      "TARMA",
+      "TARMA CC"
+    ],
+    "218": [
+      "ERI",
+      "ERI CC"
+    ],
+    "219": [
+      "FIO",
+      "FIO CC"
+    ],
+    "220": [
+      "SV-001",
+      "SV-001 CC"
+    ],
+    "221": [
+      "ALLEN O'NEIL",
+      "ALLEN O'NEIL CC"
+    ],
+    "222": [
+      "MARS PEOPLE",
+      "MARS PEOPLE CC"
+    ],
+    "223": [
+      "HUGE HERMIT",
+      "HUGE HERMIT CC",
+      "GOLDEN HUGE HERMIT CC"
+    ],
+    "224": [
+      "JUPITER KING",
+      "JUPITER KING CC",
+      "GOLDEN JUPITER CC"
+    ],
+    "225": [
+      "DONALD MORDEN",
+      "GENERAL MORDEN",
+      "GOLDEN MORDEN CC"
+    ],
+    "226": [
+      "HI-DO",
+      "HI-DO CC",
+      "HI-DO MK III"
+    ],
+    "227": [
+      "Warlock and Pierre",
+      "Dark Merchant Babil",
+      "Mad Doctor Klay"
+    ],
+    "228": [
+      "Pumpcat",
+      "Cat O'Lantern",
+      "Harbinger Cat"
+    ],
+    "229": [
+      "Gloomy Neneko",
+      "Witchy Neneko",
+      "Costumed Witchy Neneko"
+    ],
+    "230": [
+      "Hallowindy",
+      "Hallowindy, type α"
+    ],
+    "231": [
+      "Spooky Thundia",
+      "Spooky Thundia, type β"
+    ],
+    "232": [
+      "Oden",
+      "Oden CC"
+    ],
+    "233": [
+      "Valkyrie",
+      "Valkyrie CC"
+    ],
+    "234": [
+      "Brynhildr",
+      "Brynhildr CC"
+    ],
+    "235": [
+      "Suruzu",
+      "Suruzu CC"
+    ],
+    "236": [
+      "Freya",
+      "Freya CC"
+    ],
+    "237": [
+      "God of War - Odin",
+      "God of War - Odin CC"
+    ],
+    "238": [
+      "Freshman Cat Jobs",
+      "Prof. Cat Jobs",
+      "Headmaster Cat Jobs"
+    ],
+    "239": [
+      "Rich Cat III",
+      "Rich Cat Sr.",
+      "Richest Cat"
+    ],
+    "240": [
+      "Sniper the Recruit",
+      "Sniper the Heavy",
+      "Sniper the Deadeye"
+    ],
+    "241": [
+      "Togeluga",
+      "Togelan Pasalan",
+      "Shishilan Pasalan"
+    ],
+    "242": [
+      "Frosty Kai",
+      "Frosty Kai, type μ",
+      "Frostspirit Kai, type μ"
+    ],
+    "243": [
+      "Santa Kuu",
+      "Santa Kuu, type γ"
+    ],
+    "244": [
+      "Holy Coppermine",
+      "Holy Coppermine, type κ"
+    ],
+    "245": [
+      "A Gift of Cats",
+      "Cat's Gift"
+    ],
+    "246": [
+      "Li'l Gross Cat",
+      "Li'l Sexy Legs Cat",
+      "Li'l Macho Legs Cat"
+    ],
+    "247": [
+      "Li'l Cow Cat",
+      "Li'l Giraffe Cat",
+      "Li'l Lion Cat"
+    ],
+    "248": [
+      "Li'l Bird Cat",
+      "Li'l UFO Cat",
+      "Li'l Flying Cat"
+    ],
+    "249": [
+      "Undead Cat",
+      "Bake-Nyanko",
+      "Extra-Life Cat"
+    ],
+    "250": [
+      "C&D Swordsman",
+      "Sailor Swordsman",
+      "Swordsman of the Ming Emperor"
+    ],
+    "251": [
+      "Horsemen Cavalry",
+      "Forest Horsemen Cavalry",
+      "Thunderclap Horsemen Cavalry"
+    ],
+    "252": [
+      "Ashura",
+      "Warrior Ashura",
+      "Sengoku Ashura"
+    ],
+    "253": [
+      "Battle Balloon",
+      "Pirate Btl. Balloon",
+      "UFO Btl. Balloon"
+    ],
+    "254": [
+      "Dragon Rider",
+      "Horn Dragon Rider",
+      "Flame Dragon Rider"
+    ],
+    "255": [
+      "Pretty Cat",
+      "Lovely Pretty Cat",
+      "Cyber Pretty Cat"
+    ],
+    "256": [
+      "Cyclops",
+      "Cyclops of Steel",
+      "Cyclops of Time-space"
+    ],
+    "257": [
+      "Golem",
+      "Rabbit Golem",
+      "Volcano Golem"
+    ],
+    "258": [
+      "Thunder God Zeus",
+      "The Majestic Zeus",
+      "Almighty Zeus"
+    ],
+    "259": [
+      "Anubis the Protector",
+      "Anubis the Unblemished",
+      "Almighty Anubis"
+    ],
+    "260": [
+      "Radiant Aphrodite",
+      "Megaphrodite",
+      "Almighty Aphrodite"
+    ],
+    "261": [
+      "Catway",
+      "Drone Cat",
+      "Time Traveller Cat"
+    ],
+    "262": [
+      "Hayabusa",
+      "Oni Hayabusa",
+      "Akuma Hayabusa"
+    ],
+    "263": [
+      "Nyamusu",
+      "Neko Nyamusu"
+    ],
+    "264": [
+      "Pochi",
+      "Tank Pochi"
+    ],
+    "265": [
+      "Kuromi",
+      "Kuromi and Cats"
+    ],
+    "266": [
+      "Setsuko",
+      "Setsuko Love Mackerel"
+    ],
+    "267": [
+      "Nabaaru-kun",
+      "Nabaaru-kun and Cat"
+    ],
+    "268": [
+      "Catornado",
+      "Hurricat",
+      "Catyphoon"
+    ],
+    "269": [
+      "Red Riding Mina",
+      "Crimson Mina",
+      "Awakened Mina"
+    ],
+    "270": [
+      "Baby Gao",
+      "Mighty Lord Gao"
+    ],
+    "271": [
+      "Crazed Yuki",
+      "Crazed Yuki ＆ Cat",
+      "Crazed Catgirl Yuki"
+    ],
+    "272": [
+      "Shining Amaterasu",
+      "Glorious Amaterasu",
+      "Almighty Amaterasu"
+    ],
+    "273": [
+      "Splendid Ganesha",
+      "Exalted Ganesha",
+      "Almighty Ganesha"
+    ],
+    "274": [
+      "Cheerleader Cat",
+      "Waitress Cat",
+      "Soba Cat"
+    ],
+    "275": [
+      "Tropical Kalisa",
+      "Tropical Kalisa, type X"
+    ],
+    "276": [
+      "Midsummer Rabbit",
+      "Midsummer Cat",
+      "Brightsummer Cat"
+    ],
+    "277": [
+      "Sunny Neneko",
+      "Seaside Neneko",
+      "Early Summer Neneko"
+    ],
+    "278": [
+      "Funghi",
+      "Funghi 'n' Cat"
+    ],
+    "279": [
+      "Tanky",
+      "Tanky 'n' Cat"
+    ],
+    "280": [
+      "White Cat",
+      "Gross White Cat"
+    ],
+    "281": [
+      "Fortressy",
+      "Castley"
+    ],
+    "282": [
+      "Futenyan",
+      "Massaging Futenyan"
+    ],
+    "283": [
+      "Awa-Odori Cat",
+      "So-Ran Cat",
+      "Gorgeous Groovin' Cat"
+    ],
+    "284": [
+      "Pai-Pai",
+      "Pai-Pai Z",
+      "Pai-Pai DX"
+    ],
+    "285": [
+      "Express Cat",
+      "Maglev Cat",
+      "Bullet Train Cat"
+    ],
+    "287": [
+      "Strike Unit R.E.I.",
+      "Assault Unit R.E.I.",
+      "Flight Unit R.E.I."
+    ],
+    "288": [
+      "Little Leaguer Cat",
+      "Major Leaguer Cat",
+      "Golfer Cat"
+    ],
+    "289": [
+      "Madoka Kaname",
+      "Madoka & Cat",
+      "Ultimate Madoka"
+    ],
+    "290": [
+      "Homura Akemi",
+      "Homura & Cat",
+      "Devil Homura"
+    ],
+    "291": [
+      "Sayaka Miki",
+      "Sayaka & Cat"
+    ],
+    "292": [
+      "Mami Tomoe",
+      "Mami & Cat"
+    ],
+    "293": [
+      "Kyoko Sakura",
+      "Kyoko & Cat"
+    ],
+    "294": [
+      "Kyubey",
+      "Kyubey & Cat"
+    ],
+    "295": [
+      "Madoka Cat",
+      "Magical Girl Madoka Cat"
+    ],
+    "296": [
+      "Homura Cat",
+      "Magical Girl Homura Cat"
+    ],
+    "297": [
+      "Sayaka Cat",
+      "Magical Girl Sayaka Cat"
+    ],
+    "298": [
+      "Mami Cat",
+      "Magical Girl Mami Cat"
+    ],
+    "299": [
+      "Kyoko Cat",
+      "Magical Girl Kyoko Cat"
+    ],
+    "300": [
+      "Li'l Madoka",
+      "Li'l Magical Girl Madoka",
+      "Li'l Ultimate Madoka"
+    ],
+    "301": [
+      "Li'l Homura",
+      "Li'l Magical Girl Homura",
+      "Li'l Devil Homura"
+    ],
+    "302": [
+      "Kyubey Cat",
+      "Tank Kyubey Cat"
+    ],
+    "303": [
+      "Lilith Cat",
+      "Succubus Cat",
+      "Queen Succubus Cat"
+    ],
+    "304": [
+      "Food Stall Cat",
+      "Delivery Cat",
+      "Cafeteria Cat"
+    ],
+    "305": [
+      "Mighty Kat-A-Pult",
+      "CAT-6 Siege Engine",
+      "CAT-8 Behemoth",
+      "CAT-10 Gigapult"
+    ],
+    "306": [
+      "Mighty Drednot",
+      "B.C.S. Lionheart",
+      "B.C.S. Tigerclaw",
+      "B.C.S. Beartooth"
+    ],
+    "307": [
+      "Mighty Bomburr",
+      "NEK-0 Sky Fortress",
+      "NEK-02 Air Citadel",
+      "NEK-03 Cloud Emperor"
+    ],
+    "308": [
+      "Vaulter Cat",
+      "Polevaulter Cat ",
+      "Housewife Cat"
+    ],
+    "309": [
+      "Gardener Cat",
+      "Lumbercat",
+      "Weedwacker Cat"
+    ],
+    "310": [
+      "Neko Hakase",
+      "Neko Hakase and Cat"
+    ],
+    "311": [
+      "Yuletide Nurse",
+      "Yule Knight Nurse",
+      "Xmas Spirit Nurse"
+    ],
+    "312": [
+      "Li'l Fish Cat",
+      "Li'l Whale Cat",
+      "Li'l Island Cat"
+    ],
+    "313": [
+      "Li'l Lizard Cat",
+      "Li'l Dragon Cat",
+      "Li'l King Dragon Cat"
+    ],
+    "314": [
+      "Li'l Titan Cat",
+      "Li'l Mythical Titan",
+      "Li'l Jamiera Cat"
+    ],
+    "315": [
+      "Years-End Neneko",
+      "New Year Neneko",
+      "Festive New Year Neneko"
+    ],
+    "316": [
+      "PIKOTARO",
+      "NEKOTARO"
+    ],
+    "317": [
+      "Wrathful Poseidon",
+      "Valiant Poseidon",
+      "Almighty Poseidon"
+    ],
+    "318": [
+      "CPAC",
+      "PPAP"
+    ],
+    "319": [
+      "Miko Mitama",
+      "Mitama the Oracle"
+    ],
+    "320": [
+      "Killer Cat",
+      "True Killer Cat",
+      "Radical Cat"
+    ],
+    "322": [
+      "Nazousagi",
+      "Miya Ōdō Rabbit"
+    ],
+    "323": [
+      "Sarukani",
+      "Rock Revengers",
+      "The One-Hit Wonders"
+    ],
+    "324": [
+      "Miyamoku Musashi",
+      "Heroic Musashi",
+      "Awakened Musashi"
+    ],
+    "325": [
+      "Curling Cat",
+      "Zamboney Cat",
+      "Green Shell Cat"
+    ],
+    "326": [
+      "Welterweight Cat",
+      "Heavyweight Cat",
+      "Ectoweight Cat"
+    ],
+    "327": [
+      "Mobius",
+      "Miraculous Mobius"
+    ],
+    "328": [
+      "Belial",
+      "Reckless Belial"
+    ],
+    "329": [
+      "Happy 100",
+      "Heartful Happy 100"
+    ],
+    "330": [
+      "Eggy Cat",
+      "Easter Cat",
+      "Easter Egg Cat"
+    ],
+    "331": [
+      "Springtime Kenshin",
+      "Full-Bloom Kenshin",
+      "Spring Breeze Kenshin"
+    ],
+    "332": [
+      "Bunny & Canard",
+      "Disciple Psychoduck",
+      "Malevolent Mad-Duck"
+    ],
+    "333": [
+      "Easter Neneko",
+      "Hoppity Neneko",
+      "Blossoming Neneko"
+    ],
+    "334": [
+      "Shadow Gao",
+      "Diabolic Gao"
+    ],
+    "335": [
+      "Trickster Himeyuri",
+      "Himeyuri Ninetails",
+      "Fox Queen Himeyuri"
+    ],
+    "336": [
+      "Sea Maiden Ruri",
+      "Sea Mistress Ruri",
+      "Mer-Queen Ruri"
+    ],
+    "337": [
+      "Queen Reika",
+      "Pharoah Reika",
+      "Eternal Reika"
+    ],
+    "338": [
+      "HMS Princess\r",
+      "HMS Princess CC\r",
+      "HMS Princess II CC"
+    ],
+    "339": [
+      "Imagawa Yoshimoto",
+      "Wargod Yoshimoto",
+      "Immortal Yoshimoto"
+    ],
+    "341": [
+      "Redhead Yuki Cat",
+      "Redhead Lovely Yuki Cat",
+      "Redhead Muscled Yuki Cat"
+    ],
+    "342": [
+      "Lost World Yuki",
+      "Lost World Yuki & Cat",
+      "Lost World Catgirl Yuki"
+    ],
+    "343": [
+      "Maneki Cat",
+      "Neo Maneki Cat"
+    ],
+    "344": [
+      "Slug Jockey Cat",
+      "Slugcat"
+    ],
+    "345": [
+      "Orthos",
+      "Orthos CC",
+      "Artist Orthos CC"
+    ],
+    "346": [
+      "Michelia",
+      "Michelia CC",
+      "Naptime Michelia CC"
+    ],
+    "347": [
+      "Todomeki",
+      "Todomeki CC"
+    ],
+    "348": [
+      "Gudetama Cat",
+      "Gude Omelet Cat",
+      "Gudebene Cat"
+    ],
+    "349": [
+      "Gudetama Plate",
+      "Gudetama Bacon Plate"
+    ],
+    "350": [
+      "Gudegude Pudding",
+      "Gudegude à la mode"
+    ],
+    "351": [
+      "Nisetama Army",
+      "Nisetama Cat Army"
+    ],
+    "352": [
+      "Twinstars",
+      "Twinstars, type Φ",
+      "Divine Twinstars"
+    ],
+    "353": [
+      "Hermit Cat",
+      "Grandmaster Cat",
+      "Masked Grandmaster Cat"
+    ],
+    "355": [
+      "Seashore Kai",
+      "Seashore Kai, type μ"
+    ],
+    "356": [
+      "Mighty Rekon Korps",
+      "Orbital Platform Armageddon",
+      "Orbital Annihilator Ragnarok"
+    ],
+    "357": [
+      "Nora",
+      "Awakened Nora"
+    ],
+    "358": [
+      "Wolfchild Deale",
+      "Wolf Princess Deale",
+      "Jester Queen Deale"
+    ],
+    "359": [
+      "Graveflower Verbena",
+      "Verbena the Bride",
+      "Opulent Verbena"
+    ],
+    "360": [
+      "Bora",
+      "Bazibon",
+      "Bazibastra",
+      "Bazifenix"
+    ],
+    "361": [
+      "Mizli",
+      "Marinmizu",
+      "Mizuririn",
+      "Mizunade"
+    ],
+    "362": [
+      "Aer",
+      "Erphuan",
+      "Aervanta",
+      "Aervantex"
+    ],
+    "363": [
+      "Saber",
+      "Saber CC",
+      "Saber Alter CC"
+    ],
+    "364": [
+      "Rin Tohsaka",
+      "Rin Tohsaka CC"
+    ],
+    "365": [
+      "Illyasviel",
+      "Illyasviel CC"
+    ],
+    "366": [
+      "Archer",
+      "Archer CC"
+    ],
+    "367": [
+      "Lancer",
+      "Lancer CC"
+    ],
+    "368": [
+      "Rider",
+      "Rider CC"
+    ],
+    "369": [
+      "Gilgamesh",
+      "Gilgamesh CC"
+    ],
+    "370": [
+      "Saber the Cat",
+      "Heroic Spirit Saber Cat",
+      "Saber Alter Cat"
+    ],
+    "371": [
+      "Sakura the Cat",
+      "Apron Sakura Cat",
+      "Dreaming Sakura Cat"
+    ],
+    "372": [
+      "Rin the Cat",
+      "Mage Rin Cat"
+    ],
+    "373": [
+      "Illya the Cat",
+      "Snow Faerie Illya"
+    ],
+    "374": [
+      "Li'l Shirou",
+      "Li'l Shirou CC"
+    ],
+    "375": [
+      "Li'l Sakura",
+      "Li'l Sakura CC"
+    ],
+    "376": [
+      "Coin Cat",
+      "Macho Coin Cat"
+    ],
+    "377": [
+      "Rover Cat",
+      "Rover Cat Mk II",
+      "Catellite"
+    ],
+    "378": [
+      "Fencer Cat",
+      "Kendo Cat",
+      "The Kitty of Liberty"
+    ],
+    "379": [
+      "Dark Mitama",
+      "Gothic Mitama"
+    ],
+    "380": [
+      "Volley Cat",
+      "Ballet Cat",
+      "Curry Cat"
+    ],
+    "381": [
+      "D'artanyan",
+      "Meow-sketeer"
+    ],
+    "382": [
+      "Farmer Cat",
+      "Harvest Cat"
+    ],
+    "383": [
+      "Glass Cat",
+      "Macho Glass Cat",
+      "Macho Crystal Cat"
+    ],
+    "384": [
+      "Masked Yulala",
+      "Mystic Yulala",
+      "Spiritual Yulala"
+    ],
+    "385": [
+      "Satori Hikami & Cat",
+      "Satori Hikami & Cat CC"
+    ],
+    "386": [
+      "Akio Yabe",
+      "Akio Yabe CC",
+      "Akio & Gunder CC"
+    ],
+    "387": [
+      "Sairi Nijitani",
+      "Sairi Nijitani CC"
+    ],
+    "388": [
+      "Misaki Konno",
+      "Misaki Konno CC"
+    ],
+    "389": [
+      "Ren Katagiri",
+      "Ren Katagiri CC"
+    ],
+    "390": [
+      "Karin Nekozuka",
+      "Karin Nekozuka CC"
+    ],
+    "391": [
+      "Aoi Hayakawa",
+      "Aoi Hayakawa CC",
+      "Baseball Mask α"
+    ],
+    "392": [
+      "Mizuki Tachibana",
+      "Mizuki Tachibana CC",
+      "Baseball Mask β"
+    ],
+    "393": [
+      "Hijiri Rokudo",
+      "Hijiri Rokudo CC",
+      "Baseball Mask γ"
+    ],
+    "394": [
+      "Saki Nijima",
+      "Saki Nijima CC",
+      "Samba Saki CC"
+    ],
+    "395": [
+      "Subaru Hoshi",
+      "Subaru Hoshi CC",
+      "Dark Subaru CC"
+    ],
+    "396": [
+      "Miyabi Oyama",
+      "Miyabi Oyama CC",
+      "Baseball Mask δ"
+    ],
+    "397": [
+      "Ganglion",
+      "Ganglion the Ancient",
+      "Ganglion the Unleashed"
+    ],
+    "398": [
+      "Sakura Sonic",
+      "Afterschool Sakura",
+      "Sacred Blade Sakura",
+      "Sacred Blade Sakura Z"
+    ],
+    "399": [
+      "Honiton",
+      "Honiton & Cat"
+    ],
+    "400": [
+      "Mentori",
+      "Mentori CC"
+    ],
+    "401": [
+      "Imoto",
+      "Imoto CC"
+    ],
+    "402": [
+      "Voli",
+      "Volta",
+      "Gigavolta"
+    ],
+    "403": [
+      "Shinji & Cat",
+      "Plug Suit Shinji",
+      "Plug Suit Shinji Black"
+    ],
+    "404": [
+      "Gendo & Fuyutsuki Cats",
+      "Moon Gendo & Fuyutsuki Cats"
+    ],
+    "405": [
+      "Giraffe Unit-01",
+      "Giraffe Unit-02"
+    ],
+    "406": [
+      "Kaworu & Cat",
+      "Plug Suit Kaworu",
+      "Moon Kaworu"
+    ],
+    "407": [
+      "Rei Cat",
+      "Ayanami Cat (TBC)"
+    ],
+    "408": [
+      "Asuka Cat",
+      "Apron Asuka"
+    ],
+    "409": [
+      "Mari Cat",
+      "Special Ops Mari"
+    ],
+    "410": [
+      "Rei Ayanami",
+      "Plug Suit Rei",
+      "Reunion Li'l Rei"
+    ],
+    "411": [
+      "Asuka Langley",
+      "Plug Suit Asuka",
+      "Eyepatch Li'l Asuka"
+    ],
+    "412": [
+      "Mari Illustrious",
+      "Plug Suit Mari"
+    ],
+    "413": [
+      "Eva Unit-00",
+      "Eva Unit-00 & Cat"
+    ],
+    "414": [
+      "Eva Unit-01",
+      "Eva Unit-01 & Cat",
+      "Determined Unit-01 & Cat"
+    ],
+    "415": [
+      "Eva Unit-02",
+      "Eva Unit-02 & Cat",
+      "Unit-02, Code 777"
+    ],
+    "416": [
+      "Shinji Cat",
+      "Toji & Kensuke Cats"
+    ],
+    "417": [
+      "Moon Operators",
+      "NERV Moon"
+    ],
+    "418": [
+      "Mighty Thermae D-Lux",
+      "Subterra Guardians",
+      "Subterra Sentinels",
+      "Subterra Saviors"
+    ],
+    "419": [
+      "Crazed Moneko",
+      "Corrupted Moneko"
+    ],
+    "420": [
+      "Pokota",
+      "Pokota CC"
+    ],
+    "421": [
+      "Ovis",
+      "Ovis CC"
+    ],
+    "422": [
+      "Coco",
+      "Coco CC"
+    ],
+    "423": [
+      "Uzumasa Moe & Cat",
+      "Uzumasa Moe & Cat CC"
+    ],
+    "424": [
+      "Matsuki Saki & Cat",
+      "Matsuki Saki & Cat CC"
+    ],
+    "425": [
+      "Ono Misa & Cat",
+      "Ono Misa & Cat CC"
+    ],
+    "426": [
+      "Uzumasa Rei & Cat",
+      "Uzumasa Rei & Cat CC"
+    ],
+    "427": [
+      "Mecha-Bun",
+      "Mecha-Bun Mk II",
+      "Ultimate Mecha-Bun"
+    ],
+    "428": [
+      "Cat Clan Heroes",
+      "Cat Guild Heroes",
+      "Cat Quest Heroes",
+      "Heavenly Cat Heroes"
+    ],
+    "429": [
+      "Souma Cat",
+      "Stylish Souma Cat"
+    ],
+    "430": [
+      "Otaku Geek Cat",
+      "Hacker Geek Cat"
+    ],
+    "431": [
+      "Gude-Cat Machine",
+      "Gude-Cat Machine - Egg"
+    ],
+    "432": [
+      "Detective Vigler",
+      "Inspector Gabriel",
+      "Section Chief Gravicci",
+      "Arcane Commissioner Gravicci"
+    ],
+    "435": [
+      "White Swordsman Cat",
+      "Black Swordsman Cat"
+    ],
+    "436": [
+      "Li'l Valkyrie",
+      "Wind Dancer Valkyrie"
+    ],
+    "437": [
+      "Nobiluga",
+      "Nobilan Pasalan",
+      "Mystican Pasalan"
+    ],
+    "438": [
+      "Cat God the Great",
+      "Cat God the Awesome",
+      "Cat God the Golden"
+    ],
+    "439": [
+      "Waverider Kuu",
+      "Waverider Kuu, type γ"
+    ],
+    "440": [
+      "Empress Chronos",
+      "Chronos the Infinite",
+      "Almighty Chronos"
+    ],
+    "441": [
+      "Bebe",
+      "Nagisa & Cat",
+      "Law of Cycles Nagisa"
+    ],
+    "442": [
+      "D'arktanyan",
+      "Valiant D'arktanyan"
+    ],
+    "443": [
+      "Lone Cat and Kitten",
+      "Vendor Cat and Kitten",
+      "Tourist Cat"
+    ],
+    "444": [
+      "Driller Cat",
+      "Power Driller Cat",
+      "Neo Driller Cat"
+    ],
+    "445": [
+      "Piledriver Cat",
+      "Power Piledriver Cat",
+      "Neo Piledriver Cat"
+    ],
+    "446": [
+      "Cutter Cat",
+      "Power Cutter Cat",
+      "Neo Cutter Cat"
+    ],
+    "447": [
+      "Backhoe Cat",
+      "Power Backhoe Cat",
+      "Neo Backhoe Cat"
+    ],
+    "448": [
+      "Miter Saw Cat",
+      "Power Saw Cat",
+      "Neo Saw Cat"
+    ],
+    "449": [
+      "Musashi Miyamoto",
+      "Wargod Miyamoto",
+      "Immortal Miyamoto"
+    ],
+    "450": [
+      "Headmistress Jeanne",
+      "Headmistress Jeanne ψ",
+      "Divine Jeanne ψ"
+    ],
+    "451": [
+      "High Lord Babel",
+      "Babel the Darkflame",
+      "God-Emperor Babel"
+    ],
+    "452": [
+      "Ushiwakamaru",
+      "Colossal Benkei"
+    ],
+    "453": [
+      "Primordial Cat",
+      "Modern Cat",
+      "Future Cat"
+    ],
+    "454": [
+      "Kitaro",
+      "GeGeGe no Kitaro"
+    ],
+    "455": [
+      "Medama-Oyaji",
+      "Nyuuyoku-Oyaji"
+    ],
+    "456": [
+      "Wonder MOMOCO",
+      "Cutie MOMOCO",
+      "Starlight MOMOCO"
+    ],
+    "457": [
+      "Sakura Matou",
+      "Sakura Matou CC",
+      "Dark Sakura CC"
+    ],
+    "458": [
+      "Shirou the Cat",
+      "Novice Mage Shirou Cat"
+    ],
+    "459": [
+      "Archer the Cat",
+      "Heroic Spirit Archer Cat"
+    ],
+    "460": [
+      "Rider the Cat",
+      "Heroic Spirit Rider Cat"
+    ],
+    "461": [
+      "Kotomine & Gilgamesh Cats",
+      "Gilgamesh & Kotomine Cats"
+    ],
+    "462": [
+      "Legeluga",
+      "Legelan Pasalan"
+    ],
+    "463": [
+      "Filibuster Cat X",
+      "Filibuster Cat Y",
+      "Metafilibuster"
+    ],
+    "464": [
+      "Mighty Kristul Muu",
+      "Doom Engine Pandora"
+    ],
+    "465": [
+      "Dogumaru",
+      "Doguemon",
+      "Reborn Warrior Doguemon"
+    ],
+    "467": [
+      "Black Zeus",
+      "Dark Lord Zeus"
+    ],
+    "468": [
+      "Super Zeus",
+      "All-Powerful Super Zeus",
+      "Super S-Zeus"
+    ],
+    "469": [
+      "Holy Phoenix",
+      "Holy Warrior Phoenix",
+      "Head Rococo"
+    ],
+    "470": [
+      "Super Devil",
+      "Imposter Super Devil",
+      "Super D-Devil"
+    ],
+    "471": [
+      "Satanmaria",
+      "Wondermaria"
+    ],
+    "472": [
+      "Heracrist",
+      "Perfect Heracrist"
+    ],
+    "473": [
+      "Fiendish Nero",
+      "Beastly Nero"
+    ],
+    "474": [
+      "Prince Yamato",
+      "Holy Yamato",
+      "Rampaging Yamato"
+    ],
+    "475": [
+      "Rosary Angel",
+      "Cross Angel",
+      "Strike Angel"
+    ],
+    "476": [
+      "Wakamiko Cat",
+      "Warrior King Cat"
+    ],
+    "477": [
+      "Cat Devil",
+      "Infernal Cat"
+    ],
+    "478": [
+      "Nekonosuke",
+      "Old Guardian Cat"
+    ],
+    "479": [
+      "Lumina",
+      "Luminalia"
+    ],
+    "482": [
+      "Doktor Heaven",
+      "Professor Abyss"
+    ],
+    "483": [
+      "Benevolent Souma",
+      "Souma ＆ Cat",
+      "Cat-Eared Souma"
+    ],
+    "484": [
+      "Kano ＆ Souma",
+      "Kano ＆ Souma ＆ Cat"
+    ],
+    "485": [
+      "Li'l Valkyrie Dark",
+      "Dark Rider Valkyrie"
+    ],
+    "486": [
+      "Calette",
+      "Calette CC"
+    ],
+    "487": [
+      "Hina",
+      "Swordswoman Hina"
+    ],
+    "488": [
+      "Eva Unit-08",
+      "Eva Unit-08 & Cat"
+    ],
+    "489": [
+      "AAA Wunder",
+      "NNN Wunder",
+      "Vanished NNN Wunder"
+    ],
+    "490": [
+      "Misato Katsuragi",
+      "Captain Misato"
+    ],
+    "491": [
+      "Ritsuko Akagi",
+      "First Officer Ritsuko"
+    ],
+    "492": [
+      "Rei Ayanami (???)",
+      "Awakened Ayanami"
+    ],
+    "494": [
+      "Gaia the Creator",
+      "Gaia the Supreme"
+    ],
+    "495": [
+      "Seabreeze Coppermine",
+      "Seabreeze Coppermine, type κ"
+    ],
+    "496": [
+      "Matador Cat",
+      "Flamenco Cat",
+      "Bellydance Cat"
+    ],
+    "497": [
+      "Narita Kaihime",
+      "Wargod Kaihime",
+      "Immortal Kaihime",
+      "Cleansing Flame Kaihime"
+    ],
+    "498": [
+      "Shakurel Cat",
+      "Shakurel Macho Cat"
+    ],
+    "499": [
+      "Shakurel Lion",
+      "Shakurel Lion CC"
+    ],
+    "500": [
+      "Shakurel Tiger",
+      "Shakurel Tiger CC"
+    ],
+    "501": [
+      "Shakurel Panda",
+      "Shakurel Panda CC"
+    ],
+    "502": [
+      "Cat Bros S",
+      "Baka Cat Bros"
+    ],
+    "503": [
+      "Myrcia",
+      "Myrcia, type ξ",
+      "Divine Myrcia"
+    ],
+    "505": [
+      "Burgle Boss Cat (Retired)",
+      "Burgle Boss Cat (Prime)"
+    ],
+    "506": [
+      "Relentless Gladios",
+      "Gladios the Annihilator",
+      "God-Emperor Gladios"
+    ],
+    "507": [
+      "Eyewaltz",
+      "Eyewaltz CC",
+      "Nameless Eyewaltz CC"
+    ],
+    "508": [
+      "Mightycat",
+      "Supercat",
+      "Ironcat"
+    ],
+    "509": [
+      "Ryu Cat",
+      "Ryu Cat CC"
+    ],
+    "510": [
+      "Chun-Li Cat",
+      "Chun-Li Cat CC"
+    ],
+    "511": [
+      "Akuma",
+      "Akuma CC"
+    ],
+    "512": [
+      "Ryu",
+      "Ryu CC",
+      "Kage"
+    ],
+    "513": [
+      "Chun-Li",
+      "Chun-Li CC"
+    ],
+    "514": [
+      "Guile",
+      "Guile CC"
+    ],
+    "515": [
+      "Zangief",
+      "Zangief CC"
+    ],
+    "516": [
+      "Blanka",
+      "Blanka CC"
+    ],
+    "517": [
+      "Dhalsim",
+      "Dhalsim CC"
+    ],
+    "518": [
+      "Ken",
+      "Ken CC",
+      "Crimson King of Battle Ken"
+    ],
+    "519": [
+      "Akuma Giraffe",
+      "Akuma Lion"
+    ],
+    "520": [
+      "Lasvoss",
+      "Ultimate Lasvoss",
+      "Lasvoss Reborn"
+    ],
+    "521": [
+      "Good-Luck Ebisu",
+      "Bad-Luck Ebisu"
+    ],
+    "522": [
+      "Medusa Cat",
+      "Twintail Medusa Cat",
+      "Naga Cat"
+    ],
+    "523": [
+      "Nymph Cat",
+      "Medalist Cat",
+      "Fiend Cat"
+    ],
+    "524": [
+      "Wushu Cat",
+      "Sifu Cat",
+      "Shigong Cat"
+    ],
+    "526": [
+      "Kintaro",
+      "Kinrangers RoboForce",
+      "Kinrangers GigaForce"
+    ],
+    "527": [
+      "Snow Angel Twinstars",
+      "Snow Angel Twinstars, type Φ"
+    ],
+    "528": [
+      "Slime Cat",
+      "Jellycat",
+      "Jelly Dumpling Cat"
+    ],
+    "529": [
+      "Cossack Cat",
+      "Vodka Cat",
+      "Royal Guard Cat"
+    ],
+    "530": [
+      "Kasli the Scourge",
+      "Ritual Saint Kasli"
+    ],
+    "531": [
+      "Herme",
+      "Herme CC"
+    ],
+    "532": [
+      "Teacher BearCat",
+      "Assassin BearCat",
+      "Cadaver BearCat"
+    ],
+    "533": [
+      "Urs & Fenrir",
+      "Urs & Minka",
+      "Awakened Urs"
+    ],
+    "534": [
+      "Sharpshooter Saki",
+      "Nighthunter Saki",
+      "Bad Blaster Saki"
+    ],
+    "535": [
+      "Hades the Punisher",
+      "Hades the Deathdealer",
+      "Almighty Hades"
+    ],
+    "536": [
+      "Hatsune Miku",
+      "Hatsune Miku CC"
+    ],
+    "537": [
+      "Sakura Miku",
+      "Sakura Miku CC"
+    ],
+    "538": [
+      "Kagamine Rin & Len",
+      "Kagamine Rin & Len CC"
+    ],
+    "539": [
+      "Miku Cat",
+      "Miku Cat CC"
+    ],
+    "540": [
+      "Rugby Cat",
+      "Quarterback Cat",
+      "Gridiron Cat"
+    ],
+    "544": [
+      "Kasli the Bane",
+      "Kasli, Daughter of Chaos"
+    ],
+    "545": [
+      "Kyosaka Nanaho",
+      "True Kyosaka Nanaho"
+    ],
+    "546": [
+      "Phantom Cat",
+      "Miasma Cat",
+      "Bubble Cat"
+    ],
+    "547": [
+      "Papaluga",
+      "Papalan Pasalan",
+      "Sukelan Kakulan"
+    ],
+    "548": [
+      "Night Oracle Rei",
+      "Heavenly Herald Rei"
+    ],
+    "549": [
+      "The 4th Angel",
+      "4th Angel Cat"
+    ],
+    "550": [
+      "The 6th Angel",
+      "6th Angel Cat"
+    ],
+    "551": [
+      "The 10th Angel",
+      "10th Angel Cat"
+    ],
+    "552": [
+      "The 9th Angel",
+      "9th Angel Cat"
+    ],
+    "553": [
+      "Kaworu Cat",
+      "Moon Kaworu Cat"
+    ],
+    "554": [
+      "Bakery Cat",
+      "Boomerang Cat",
+      "Fried Chicken Cat"
+    ],
+    "555": [
+      "Master Uril",
+      "Mystic Uril",
+      "Esoteric Uril"
+    ],
+    "556": [
+      "Shaman Khan",
+      "All-Loving Shaman Khan"
+    ],
+    "557": [
+      "Holy Knight Alibaba",
+      "Holy King Alibaba",
+      "Ghost Alibaba"
+    ],
+    "558": [
+      "Heavenly Jack",
+      "Heavenly Lord Jack"
+    ],
+    "559": [
+      "Gacha Cat",
+      "Lucky Gacha Cat"
+    ],
+    "560": [
+      "Hell Warden Emma",
+      "Hell Sentinel Emma",
+      "Hell Commissioner Emma"
+    ],
+    "561": [
+      "Megurine Luka",
+      "Megurine Luka CC"
+    ],
+    "562": [
+      "MEIKO & Cat",
+      "MEIKO & Cat CC"
+    ],
+    "563": [
+      "Luka Cat",
+      "Luka Cat CC"
+    ],
+    "564": [
+      "Squirtgun Saki",
+      "Aquabuster Saki",
+      "Aquablaster Saki"
+    ],
+    "565": [
+      "Summerluga",
+      "Bikinilan Pasalan",
+      "Fabulous Pasalan"
+    ],
+    "566": [
+      "Suntan Cat",
+      "Macho Suntan Cat",
+      "Permed Suntan Cat"
+    ],
+    "567": [
+      "Lifeguard Cats",
+      "Sweet Bro Cats",
+      "Gelato Bro Cats"
+    ],
+    "569": [
+      "Idi:N",
+      "Idi:N2",
+      "Idi:NX"
+    ],
+    "570": [
+      "Gravi",
+      "Gravolo",
+      "Gravolodon"
+    ],
+    "571": [
+      "Skull Rider Vars",
+      "Nightmare King Vars",
+      "Halloween Knight Vars"
+    ],
+    "572": [
+      "E. Honda",
+      "E. Honda CC"
+    ],
+    "573": [
+      "Balrog",
+      "Balrog CC"
+    ],
+    "574": [
+      "Vega",
+      "Vega CC"
+    ],
+    "575": [
+      "Sagat",
+      "Sagat CC"
+    ],
+    "576": [
+      "M. Bison",
+      "M. Bison CC"
+    ],
+    "577": [
+      "C. Honda",
+      "C. Honda CC"
+    ],
+    "578": [
+      "Balrog Cat (Collab)",
+      "Balrog Cat CC"
+    ],
+    "579": [
+      "Vega Cat",
+      "Vega Cat CC"
+    ],
+    "580": [
+      "Sagat Cat",
+      "Sagat Cat CC"
+    ],
+    "581": [
+      "M. Bison Cat",
+      "M. Bison Cat CC"
+    ],
+    "582": [
+      "Stone Cat",
+      "Boulder Cat"
+    ],
+    "583": [
+      "Hatsune Miku: MM2020 Osaka",
+      "Hatsune Miku CC: MM2020 Osaka"
+    ],
+    "584": [
+      "Hatsune Miku: MM2020 Tokyo",
+      "Hatsune Miku CC: MM2020 Tokyo"
+    ],
+    "585": [
+      "Keiji Claus",
+      "Maeda Christmas",
+      "Maeda Christmas DX"
+    ],
+    "586": [
+      "Baby Garu",
+      "Mighty Aegis Garu"
+    ],
+    "587": [
+      "Emperor Cat",
+      "Tyrant Cat"
+    ],
+    "588": [
+      "Sweet Aphrodite",
+      "Chocoladite"
+    ],
+    "589": [
+      "First-Love Myrcia",
+      "First-Love Myrcia ξ"
+    ],
+    "590": [
+      "Valentine's Neneko",
+      "Sweetheart Neneko",
+      "True Love Neneko"
+    ],
+    "591": [
+      "Snow Miku 2021",
+      "Snow Miku CC 2021"
+    ],
+    "592": [
+      "Kaito & Cat",
+      "Kaito & Cat CC"
+    ],
+    "593": [
+      "Neko Rin",
+      "Neko Rin CC"
+    ],
+    "594": [
+      "Neko Len",
+      "Neko Len CC"
+    ],
+    "595": [
+      "Mighty Aethur Ltd.",
+      "Atlantis Logistix",
+      "Ultra Atlantis Logistix"
+    ],
+    "596": [
+      "Blooming Kamukura",
+      "Everbloom Kamukura",
+      "Everbloom Lord Kamukura"
+    ],
+    "597": [
+      "Ranma Saotome (M)",
+      "Ranma Saotome (F)"
+    ],
+    "598": [
+      "Akane Tendo",
+      "Akane Tendo (Gi)"
+    ],
+    "599": [
+      "Ryoga Hibiki (Pig)",
+      "Ryoga Hibiki"
+    ],
+    "600": [
+      "Shampoo (Cat)",
+      "Shampoo"
+    ],
+    "601": [
+      "Mousse (Duck)",
+      "Mousse"
+    ],
+    "602": [
+      "Happosai",
+      "Happosai (Lewd)"
+    ],
+    "603": [
+      "Ukyo Kuonji (GR)",
+      "Ukyo Kuonji"
+    ],
+    "604": [
+      "Tatewaki Kuno (Gi)",
+      "Tatewaki Kuno"
+    ],
+    "605": [
+      "Ranma Cat (M)",
+      "Ranma Cat (F)"
+    ],
+    "606": [
+      "Akane Cat",
+      "Akane Cat (Gi)"
+    ],
+    "607": [
+      "Panda Cat",
+      "Genma Cat"
+    ],
+    "608": [
+      "Adventurer Kanna",
+      "Swashbuckler Kanna",
+      "Fabled Adventure Girl Kanna"
+    ],
+    "610": [
+      "Dark Aegis Garu",
+      "Dark Beastlord Garu"
+    ],
+    "611": [
+      "Gold Brick Cat",
+      "King Ingot Cat",
+      "King Nekokhamen"
+    ],
+    "612": [
+      "Godzilla Cat",
+      "Shin Godzilla Cat"
+    ],
+    "613": [
+      "Princess Cat",
+      "Empress Cat"
+    ],
+    "614": [
+      "Elder Mask Doron",
+      "Cat Mask Doron",
+      "Awakened Doron"
+    ],
+    "615": [
+      "Kaguya of the Coast",
+      "The Southern Sun",
+      "The Southern Sunflare"
+    ],
+    "616": [
+      "Kabuto Cat",
+      "Golden Kabuto Cat"
+    ],
+    "617": [
+      "Kuwagata Cat",
+      "King Kuwagata Cat"
+    ],
+    "618": [
+      "Summoner Satoru",
+      "Dark Summoner Satoru",
+      "Devil Hunter Satoru"
+    ],
+    "619": [
+      "Shiro Amakusa",
+      "Wargod Amakusa",
+      "Immortal Amakusa"
+    ],
+    "620": [
+      "Lilin",
+      "Lilin π",
+      "Divine Lilin π"
+    ],
+    "621": [
+      "Hevijak the Wicked",
+      "Wicked King Hevijak",
+      "God-Emperor Hevijak"
+    ],
+    "622": [
+      "Aku Researcher",
+      "Evil Aku Researcher",
+      "Cat Researcher"
+    ],
+    "623": [
+      "Jagando Jr.",
+      "Lord of Ruin Jagando Jr."
+    ],
+    "624": [
+      "Pied Piper Cat",
+      "Komuso Cat",
+      "Brass Cat"
+    ],
+    "625": [
+      "Kunio-kun",
+      "Dodgeball Kunio-kun"
+    ],
+    "626": [
+      "Furiluga",
+      "Furilan Pasalan",
+      "Ragelan Pasalan"
+    ],
+    "630": [
+      "Brainwashed Cat",
+      "Brainwashed Macho Cat",
+      "Brainwashed Mohawk Cat"
+    ],
+    "631": [
+      "Calligraphy Cat",
+      "Tea Master Cat"
+    ],
+    "632": [
+      "Yamii",
+      "Yaminoir",
+      "Yaminora"
+    ],
+    "633": [
+      "Mighty Deth-Troy-R",
+      "Siege Walker Diabolosa",
+      "Obliterator Diabolosa"
+    ],
+    "634": [
+      "Shitakiri Sparrow",
+      "Chunchun Haunters",
+      "Grand Chunchun Haunters"
+    ],
+    "635": [
+      "White Knight Cyclops",
+      "Black Knight Kyklops",
+      "Demon Knight Kyklops"
+    ],
+    "636": [
+      "Million-Dollar Cat",
+      "Hundred-Million-Dollar Cat"
+    ],
+    "637": [
+      "Brainwashed Tank Cat",
+      "Brainwashed Wall Cat",
+      "Brainwashed Eraser Cat"
+    ],
+    "642": [
+      "Iz the Dancer",
+      "Iz the Alluring Dancer"
+    ],
+    "643": [
+      "Lucifer the Fallen",
+      "Grand Lucifer",
+      "Almighty Lucifer"
+    ],
+    "644": [
+      "Superfeline",
+      "Superfeline II",
+      "True Superfeline"
+    ],
+    "645": [
+      "Sweet Love Mekako",
+      "Bittersweet Mekako",
+      "Minty Love Mekako"
+    ],
+    "646": [
+      "Brainwashed Axe Cat",
+      "Brainwashed Brave Cat",
+      "Brainwashed Dark Cat"
+    ],
+    "647": [
+      "Firecracker Cat",
+      "Macho Firecracker Cat"
+    ],
+    "648": [
+      "Huntress Terun",
+      "Huntress Terun ζ",
+      "Divine Huntress Terun ζ"
+    ],
+    "649": [
+      "Lovestruck Lesser Demon",
+      "Lovestruck Greater Demon"
+    ],
+    "650": [
+      "Hattori Hanzo",
+      "Wargod Hanzo",
+      "Immortal Hanzo"
+    ],
+    "651": [
+      "Secret Crush Cat",
+      "Girlfriend Cat"
+    ],
+    "652": [
+      "Tomboy Lion Cat",
+      "Iron-Masked Lion Cat"
+    ],
+    "653": [
+      "Chalkboard Eraser Cat",
+      "Chalkboard Punk Cat"
+    ],
+    "654": [
+      "Elder Beast Naala",
+      "Storm Beast Naala",
+      "Awakened Naala"
+    ],
+    "655": [
+      "Brainwashed Gross Cat",
+      "Brainwashed Sexy Legs Cat",
+      "Brainwashed Macho Legs Cat"
+    ],
+    "656": [
+      "Bliza",
+      "Blizana",
+      "Blizarena"
+    ],
+    "657": [
+      "Ancient Egg N001",
+      "Mystic Egg N001",
+      "Haniwa Cat"
+    ],
+    "658": [
+      "Iz the Dancer of Grief",
+      "Iz the Lady of Mourning"
+    ],
+    "659": [
+      "Ancient Egg: N101",
+      "Cinnabar Egg: N101",
+      "Courier Cat"
+    ],
+    "660": [
+      "Ancient Egg: N102",
+      "Teal Egg: N102",
+      "Catarzan"
+    ],
+    "661": [
+      "Sea Serpent Daliasan",
+      "Sea King Daliasan",
+      "God-Emperor Daliasan"
+    ],
+    "662": [
+      "Chronos the Bride",
+      "Wedding Chronos"
+    ],
+    "663": [
+      "Brainwashed Cow Cat",
+      "Brainwashed Giraffe Cat",
+      "Brainwashed Lion Cat"
+    ],
+    "664": [
+      "Ancient Egg: N103",
+      "Black Egg: N103",
+      "Gas Mask Cat"
+    ],
+    "665": [
+      "Ancient Egg: N104",
+      "Green Egg: N104",
+      "Surgeon Cat"
+    ],
+    "666": [
+      "Ancient Egg: N201",
+      "Dark Egg: N201",
+      "Exorcist Cat"
+    ],
+    "667": [
+      "Night Beach Lilin",
+      "Night Beach Lilinπ"
+    ],
+    "668": [
+      "Brainwashed Bird Cat",
+      "Brainwashed UFO Cat",
+      "Brainwashed Flying Cat"
+    ],
+    "669": [
+      "Cat Tengu",
+      "Grand Yokai Tengu",
+      "Immortal Master Tengu"
+    ],
+    "670": [
+      "Ancient Egg: N003",
+      "Evil Egg: N003",
+      "Cat Cactus"
+    ],
+    "671": [
+      "Ancient Egg: N202",
+      "Cinnabar Egg: N202",
+      "Armored Firefly Cat"
+    ],
+    "672": [
+      "Ranma Saotome (Leotard)",
+      "Ranma Saotome (Cheer)"
+    ],
+    "673": [
+      "Genma Saotome (Panda)",
+      "Genma Saotome"
+    ],
+    "674": [
+      "ネコチーター"
+    ],
+    "675": [
+      "Mighty Carrowsell",
+      "Extraterrestrial Envanz",
+      "Extradimensional Envanz"
+    ],
+    "676": [
+      "Ancient Egg: N105",
+      "Teal Egg: N105",
+      "Racquet Cat"
+    ],
+    "677": [
+      "Ancient Egg: N106",
+      "Amber Egg: N106",
+      "Mushroom Cat"
+    ],
+    "678": [
+      "Osamu Mikumo & Cat",
+      "Osamu Mikumo & Cat CC"
+    ],
+    "679": [
+      "Yuma Kuga & Cat",
+      "Yuma Kuga & Cat CC"
+    ],
+    "680": [
+      "Chika Amatori & Cat",
+      "Chika Amatori & Cat CC"
+    ],
+    "681": [
+      "Sakura",
+      "Sakura CC"
+    ],
+    "682": [
+      "Luke",
+      "Luke CC"
+    ],
+    "683": [
+      "Spectral Goth Vega",
+      "Illusory Guardian Vega",
+      "Lady of Deception Vega"
+    ],
+    "684": [
+      "Count Yukimura",
+      "Nosferatu Yukimura",
+      "Vampiric Yukimura"
+    ],
+    "685": [
+      "Brainwashed Fish Cat",
+      "Brainwashed Whale Cat",
+      "Brainwashed Island Cat"
+    ],
+    "686": [
+      "Ancient Egg: N004",
+      "Mystic Egg: N004",
+      "Supercar Cat"
+    ],
+    "687": [
+      "Goddess of Light Sirius",
+      "Goddess of Sunrise Sirius"
+    ],
+    "688": [
+      "Reindeer Terun",
+      "Reindeer Terunζ"
+    ],
+    "689": [
+      "Brainwashed Lizard Cat",
+      "Brainwashed Dragon Cat",
+      "Brainwashed King Dragon Cat"
+    ],
+    "690": [
+      "Meditation Cat",
+      "Paragon Cat"
+    ],
+    "691": [
+      "Child of Destiny Phono",
+      "King of Destiny Phonoa"
+    ],
+    "692": [
+      "Ancient Egg: N000",
+      "Elder Egg: N000",
+      "Ape Lord Luza"
+    ],
+    "693": [
+      "Issun Boshi",
+      "Oni Landshaker Kozuchimaru",
+      "Oni Battlepod Kozuchimaru"
+    ],
+    "694": [
+      "White Butler Vigler",
+      "Black Butler Vigler"
+    ],
+    "695": [
+      "Brainwashed Titan Cat",
+      "Brainwashed Mythic Titan",
+      "Brainwashed Jamiera Cat"
+    ],
+    "696": [
+      "Killer Tank Cat",
+      "True Killer Tank Cat"
+    ],
+    "697": [
+      "Class Rep Cat",
+      "Stealth Class Rep Cat"
+    ],
+    "698": [
+      "Ancient Egg: N107",
+      "Violet Egg: N107",
+      "Cat Chief"
+    ],
+    "699": [
+      "Thunder Jack",
+      "Bloody Jack",
+      "Lightning Jack"
+    ],
+    "700": [
+      "Rabbit Satoru",
+      "Rabbit Champion Satoru"
+    ],
+    "701": [
+      "Ancient Egg N005",
+      "Mystic Egg N005",
+      "Hitman Cat"
+    ],
+    "706": [
+      "King of Doom Phono",
+      "King of Extinction Phono"
+    ],
+    "707": [
+      "Ancient Egg: N108",
+      "Teal Egg: N108",
+      "Soap Cat"
+    ],
+    "708": [
+      "Ancient Egg: N109",
+      "Dark Egg: N109",
+      "Barrel Cat"
+    ],
+    "709": [
+      "Jetpack Cat",
+      "Kinjirou Cat"
+    ],
+    "710": [
+      "One-Eyed Asuka",
+      "Blue-Eyed Asuka"
+    ],
+    "711": [
+      "Eva Unit-13",
+      "Eva Unit-13 & Cat"
+    ],
+    "712": [
+      "Betrothed Balaluga",
+      "Betrothed Pasalan"
+    ],
+    "713": [
+      "Kaoluga",
+      "Kaolan Pasalan",
+      "Kaolan Tatalan"
+    ],
+    "714": [
+      "Ancient Egg: N203",
+      "Violet Egg: N203",
+      "Clown Cat"
+    ],
+    "715": [
+      "Coastal Explorer Kanna",
+      "Deep-Diver Kanna"
+    ],
+    "716": [
+      "Mighty Sphinx Korps",
+      "Attack Battalion Convoys",
+      "Hyper Battalion Convoys"
+    ],
+    "717": [
+      "Ancient Egg: N111",
+      "Mystic Egg: N111",
+      "Cop Cat"
+    ],
+    "718": [
+      "Ancient Egg: N110",
+      "Amber Egg: N110",
+      "Farmboy Cat"
+    ],
+    "719": [
+      "Maize Cat",
+      "Cone Cat"
+    ],
+    "720": [
+      "Tekachi",
+      "Tetsukachi",
+      "Adamankachi"
+    ],
+    "721": [
+      "Ancient Egg: N006",
+      "Devil Egg: N006",
+      "Fallen Bear Cat"
+    ],
+    "722": [
+      "High School Kingpin Riki",
+      "Dodgeball Riki"
+    ],
+    "723": [
+      "Hatsune Miku XVI",
+      "Hatsune Miku XVI CC"
+    ],
+    "724": [
+      "Lightmother Aset",
+      "Nefer Aset",
+      "Almighty Aset"
+    ],
+    "725": [
+      "Ancient Egg: N112",
+      "Mystic Egg: N112",
+      "Cat Egg Pod"
+    ],
+    "726": [
+      "Ninja Girl Tomoe",
+      "Gourmand Ninja Girl Tomoe",
+      "Sugar Rush Shinobi Tomoe"
+    ],
+    "727": [
+      "Medal King",
+      "Medal Emperor"
+    ],
+    "728": [
+      "SOL DAE ROKKER",
+      "SOL DAE ROKKER CC"
+    ],
+    "729": [
+      "Master of Mind Soractes",
+      "Master of Mind Catcrates"
+    ],
+    "730": [
+      "Spirit (Master of Mind)"
+    ],
+    "731": [
+      "Ancient Egg: N204",
+      "Cinnabar Egg: N204",
+      "Lion Dancer Cat"
+    ],
+    "732": [
+      "Daybreaker Izanagi",
+      "Dawnbringer Izanagi"
+    ],
+    "733": [
+      "Spirit (Izanagi)"
+    ],
+    "734": [
+      "Pegasa",
+      "Pegasa ν",
+      "Divine Pegasa ν"
+    ],
+    "735": [
+      "Spirit (Pegasa)"
+    ],
+    "736": [
+      "Principal Cat",
+      "Midlife Crisis Cat"
+    ],
+    "737": [
+      "Frozen Rose Cat",
+      "Arctic Bloom Cat"
+    ],
+    "738": [
+      "Floral Kalisa",
+      "Floral Kalisa, type X"
+    ],
+    "739": [
+      "Izanami of Dusk",
+      "Izanami of Eventide"
+    ],
+    "740": [
+      "Spirit (Izanami)"
+    ],
+    "741": [
+      "Trash Cat",
+      "Mimic Cat"
+    ],
+    "742": [
+      "Voluptuous Peony - Daji",
+      "Daji & Cat"
+    ],
+    "743": [
+      "Mollyanna Cat",
+      "Mesmerizing Tune - Mollyanna"
+    ],
+    "744": [
+      "Madhead",
+      "Madhead Cat"
+    ],
+    "745": [
+      "Felix the Cat Duke Cat",
+      "Mercenary Leader Felix Cat"
+    ],
+    "746": [
+      "Dotty Cat",
+      "Birthday Dotty Cat"
+    ],
+    "747": [
+      "Kenshin Himura",
+      "Kenshin Himura CC"
+    ],
+    "748": [
+      "Sanosuke Sagara",
+      "Sanosuke Sagara CC"
+    ],
+    "749": [
+      "Aoshi Shinomori",
+      "Aoshi Shinomori CC"
+    ],
+    "750": [
+      "Hajime Saito",
+      "Hajime Saito CC"
+    ],
+    "751": [
+      "Li'l Kaoru",
+      "Li'l Kaoru CC"
+    ],
+    "752": [
+      "Li'l Yahiko",
+      "Li'l Yahiko CC"
+    ],
+    "753": [
+      "Kenshin Cat",
+      "Battosai Cat"
+    ],
+    "754": [
+      "Kaoru Cat",
+      "Swordscat Kaoru"
+    ],
+    "755": [
+      "Akechi Mitsuhide",
+      "Wargod Mitsuhide"
+    ],
+    "756": [
+      "Spirit (Mitsuhide)"
+    ],
+    "757": [
+      "Cake Machine",
+      "Wedding Cake Machine"
+    ],
+    "758": [
+      "Ancient Egg: N205",
+      "Violet Egg: N205",
+      "Bride Cat"
+    ],
+    "759": [
+      "Trixi the Merc",
+      "Trixi the Revenant"
+    ],
+    "760": [
+      "Music Fest Thundia",
+      "Music Fest Thundia β"
+    ],
+    "761": [
+      "Gunduros",
+      "Ballistic Dragon Gunduros"
+    ],
+    "762": [
+      "Spirit (Gunduros)"
+    ],
+    "764": [
+      "Dynasaurus Cat",
+      "Mecha Dynasaurus Cat"
+    ],
+    "765": [
+      "Spirit (Dynasaurus)"
+    ],
+    "766": [
+      "Ancient Egg: N206",
+      "Cinnabar Egg: N206",
+      "Clam Cat"
+    ],
+    "767": [
+      "Sardine",
+      "Sardine CC"
+    ],
+    "768": [
+      "Squid",
+      "Squid CC"
+    ],
+    "769": [
+      "Taitenki",
+      "Taitenki CC"
+    ],
+    "770": [
+      "Hanasaka Cat",
+      "Ravenous Cherry"
+    ],
+    "771": [
+      "Spirit (Cherry)"
+    ],
+    "772": [
+      "Master of Life Dr. Nova",
+      "Master of Life Catnova"
+    ],
+    "773": [
+      "Pumpkin Sodom",
+      "Sodom-o'-Lantern"
+    ],
+    "774": [
+      "Mummy Sumo",
+      "Mama Mummy Sumo"
+    ],
+    "775": [
+      "Mech Patrol Axel",
+      "Steel Sergeant Axel"
+    ],
+    "776": [
+      "Spirit (Axel)"
+    ],
+    "777": [
+      "Lieutenant Cat",
+      "Commander Cat"
+    ],
+    "778": [
+      "Winter General Kaihime",
+      "Winter Commander Kaihime"
+    ],
+    "779": [
+      "Madoka Cat & Homura",
+      "Magical Cat☆ Magica"
+    ],
+    "780": [
+      "Celestial Child Luna",
+      "Salvation's Daughter Lunacia"
+    ],
+    "781": [
+      "Bowler Cat",
+      "Dodgeballer Cat"
+    ],
+    "782": [
+      "Mamoluga",
+      "Mamolan Pasalan"
+    ],
+    "783": [
+      "Spirit (Mamoluga)"
+    ],
+    "784": [
+      "Koneko",
+      "Superstar Koneko"
+    ],
+    "786": [
+      "Killer Gross Cat",
+      "True Killer Gross Cat"
+    ],
+    "787": [
+      "The Amazing Catman",
+      "Illusionist Catman"
+    ],
+    "788": [
+      "Netherworld Nymph Lunacia",
+      "Death's Daughter Lunacia"
+    ],
+    "790": [
+      "Baki Hanma",
+      "Baki Hanma CC"
+    ],
+    "791": [
+      "Retsu Kaioh",
+      "Retsu Kaioh CC"
+    ],
+    "792": [
+      "Kaoru Hanayama",
+      "Kaoru Hanayama CC"
+    ],
+    "793": [
+      "Katsumi Orochi",
+      "Katsumi Orochi CC"
+    ],
+    "794": [
+      "Jack Hammer",
+      "Jack Hammer CC"
+    ],
+    "795": [
+      "Ogre Cat",
+      "Ogre Cat Face"
+    ],
+    "796": [
+      "Li'l Baki",
+      "Li'l Baki CC"
+    ],
+    "797": [
+      "Baki Cat",
+      "Baki Cat CC"
+    ],
+    "798": [
+      "Kaioh Cat",
+      "Kaioh Cat CC"
+    ],
+    "799": [
+      "Doppo Cat",
+      "Doppo Cat CC"
+    ],
+    "800": [
+      "Mighty Morta-Loncha",
+      "Grandiose Gunhauzer"
+    ],
+    "801": [
+      "Spirit (Gunhauzer)"
+    ],
+    "802": [
+      "Master of Logic Newton",
+      "Master of Logic Mewton"
+    ],
+    "803": [
+      "Spirit (Mewton)"
+    ],
+    "804": [
+      "Sonic",
+      "Sonic & Cat"
+    ],
+    "805": [
+      "Tails",
+      "Tails & Cat"
+    ],
+    "806": [
+      "Knuckles",
+      "Knuckles & Cat"
+    ],
+    "807": [
+      "Shadow",
+      "Shadow & Cat"
+    ],
+    "808": [
+      "Sonic Cat",
+      "Sonic Cat CC"
+    ],
+    "809": [
+      "Tails Cat",
+      "Tails Cat CC"
+    ],
+    "810": [
+      "Shadow Cat",
+      "Shadow Cat CC"
+    ],
+    "811": [
+      "Agent Staal",
+      "Edgemaster Staal"
+    ],
+    "812": [
+      "Victorious Skanda",
+      "Zeta Skanda"
+    ],
+    "813": [
+      "Spirit (Skanda)"
+    ],
+    "814": [
+      "Tasmanian Giant Crab",
+      "Tasmanian Giant Crab CC"
+    ],
+    "815": [
+      "Mass Production EVA",
+      "Mass Production EVA-Cat"
+    ],
+    "816": [
+      "Moonshade Kaworu",
+      "Moon Disciple Kaworu"
+    ],
+    "817": [
+      "Spirit (Kaworu)"
+    ],
+    "818": [
+      "Komori",
+      "Moririn"
+    ],
+    "819": [
+      "Spirit (Komori)"
+    ],
+    "820": [
+      "Carpenter Cat",
+      "Rapper Cat"
+    ],
+    "821": [
+      "Seaside Pegasa",
+      "Seaside Pegasa v"
+    ],
+    "822": [
+      "Spirit (Seaside Pegasa)"
+    ],
+    "823": [
+      "Consultant Cat",
+      "Business Partner Cat"
+    ],
+    "825": [
+      "Sorceress Sidmi",
+      "Flame Mage Sidmi"
+    ],
+    "826": [
+      "Spirit (Sidmi)"
+    ],
+    "827": [
+      "Cammy",
+      "Cammy CC"
+    ],
+    "828": [
+      "Juri",
+      "Juri CC"
+    ],
+    "829": [
+      "Zangief Cat",
+      "Zangief Cat CC"
+    ],
+    "830": [
+      "Jamie Cat",
+      "Jamie Cat CC"
+    ],
+    "831": [
+      "Raclesa the Lioness ",
+      "Raclesa Σ"
+    ],
+    "832": [
+      "Scarf Cat",
+      "Red Nyanko Ranger"
+    ],
+    "833": [
+      "Fedora Cat",
+      "Blue Nyanko Ranger"
+    ],
+    "834": [
+      "Helmet Cat",
+      "Yellow Nyanko Ranger"
+    ],
+    "835": [
+      "Goggles Cat",
+      "Green Nyanko Ranger"
+    ],
+    "836": [
+      "Ribbon Cat",
+      "Pink Nyanko Ranger"
+    ],
+    "837": [
+      "Giga-Nyan Rex",
+      "Giga-Nyan Prime DX"
+    ],
+    "838": [
+      "Squire Luno",
+      "Lunos the Luminous"
+    ],
+    "839": [
+      "Spirit (Luno)"
+    ],
+    "840": [
+      "Spirit (Lunos)"
+    ],
+    "841": [
+      "Tanjiro Kamado",
+      "Tanjiro Kamado CC"
+    ],
+    "842": [
+      "Nezuko Kamado",
+      "Nezuko Kamado CC"
+    ],
+    "843": [
+      "Zenitsu Agatsuma",
+      "Zenitsu Agatsuma CC"
+    ],
+    "844": [
+      "Inosuke Hashibira",
+      "Inosuke Hashibira CC"
+    ],
+    "845": [
+      "Giyu Tomioka",
+      "Giyu Tomioka CC"
+    ],
+    "846": [
+      "Shinobu Kocho",
+      "Shinobu Kocho CC"
+    ],
+    "847": [
+      "Kyojuro Rengoku",
+      "Kyojuro Rengoku CC"
+    ],
+    "848": [
+      "Li'l Sakonji Urokodaki",
+      "Li'l Sakonji Urokodaki CC"
+    ],
+    "849": [
+      "Tanjiro Cat",
+      "Tanjiro Cat CC"
+    ],
+    "850": [
+      "Nezuko Cat",
+      "Nezuko Cat CC"
+    ],
+    "851": [
+      "Fuma Kotaro",
+      "Wargod Kotaro"
+    ],
+    "852": [
+      "Paperboy Cat",
+      "Bargain Cat"
+    ],
+    "853": [
+      "Killer Cowbird Cat",
+      "True Killer Cowbird Cat"
+    ],
+    "854": [
+      "Occultist Cat",
+      "Gyaru Cat"
+    ],
+    "855": [
+      "Master of Selection Darvin",
+      "Master of Selection Clawvin"
+    ],
+    "856": [
+      "Spirit (Darvin)"
+    ],
+    "860": [
+      "Lone Moon Lunos",
+      "Lunos the Eclipsed"
+    ],
+    "861": [
+      "Spirit (Lunos)"
+    ],
+    "862": [
+      "Vornado",
+      "Tempest King Vornado"
+    ],
+    "863": [
+      "Hanzo the Betrothed",
+      "Hanzo the Groom"
+    ],
+    "864": [
+      "The Invisible Cat",
+      "Groom Cat"
+    ],
+    "865": [
+      "Shirou Emiya",
+      "Shirou Emiya CC"
+    ],
+    "866": [
+      "True Assassin",
+      "True Assassin CC"
+    ],
+    "870": [
+      "Akane Tounji",
+      "Let's Go! Akane"
+    ],
+    "871": [
+      "Ancient Egg: N207",
+      "Onyx Egg: N207",
+      "Tycoon Cat"
+    ],
+    "872": [
+      "Ancient Egg: N208",
+      "Green Egg: N208",
+      "Combat Crawfish Cat"
+    ],
+    "873": [
+      "Jungle Gourmet Tomoe",
+      "Canopy Queen Tomoe"
+    ],
+    "874": [
+      "Metal Maiden Koneko",
+      "Sonic Siren Koneko"
+    ]
+  },
+  "by_name": {
+    "10th Angel Cat": [
+      "551"
+    ],
+    "4th Angel Cat": [
+      "549"
+    ],
+    "6th Angel Cat": [
+      "550"
+    ],
+    "9th Angel Cat": [
+      "552"
+    ],
+    "A Gift of Cats": [
+      "245"
+    ],
+    "AAA Wunder": [
+      "489"
+    ],
+    "ALLEN O'NEIL": [
+      "221"
+    ],
+    "ALLEN O'NEIL CC": [
+      "221"
+    ],
+    "Acrobat Cats": [
+      "147"
+    ],
+    "Actress Cat": [
+      "010"
+    ],
+    "Adamankachi": [
+      "720"
+    ],
+    "Adult Cat": [
+      "080"
+    ],
+    "Adventurer Kanna": [
+      "608"
+    ],
+    "Aer": [
+      "362"
+    ],
+    "Aervanta": [
+      "362"
+    ],
+    "Aervantex": [
+      "362"
+    ],
+    "Afterschool Sakura": [
+      "398"
+    ],
+    "Agent Staal": [
+      "811"
+    ],
+    "Airou": [
+      "205"
+    ],
+    "Airou & Melaleu": [
+      "205"
+    ],
+    "Akane Cat": [
+      "606"
+    ],
+    "Akane Cat (Gi)": [
+      "606"
+    ],
+    "Akane Tendo": [
+      "598"
+    ],
+    "Akane Tendo (Gi)": [
+      "598"
+    ],
+    "Akane Tounji": [
+      "870"
+    ],
+    "Akechi Mitsuhide": [
+      "755"
+    ],
+    "Akio & Gunder CC": [
+      "386"
+    ],
+    "Akio Yabe": [
+      "386"
+    ],
+    "Akio Yabe CC": [
+      "386"
+    ],
+    "Akira": [
+      "195"
+    ],
+    "Aku Researcher": [
+      "622"
+    ],
+    "Akuma": [
+      "511"
+    ],
+    "Akuma CC": [
+      "511"
+    ],
+    "Akuma Giraffe": [
+      "519"
+    ],
+    "Akuma Hayabusa": [
+      "262"
+    ],
+    "Akuma Lion": [
+      "519"
+    ],
+    "All-Loving Shaman Khan": [
+      "556"
+    ],
+    "All-Powerful Super Zeus": [
+      "468"
+    ],
+    "Almighty Amaterasu": [
+      "272"
+    ],
+    "Almighty Anubis": [
+      "259"
+    ],
+    "Almighty Aphrodite": [
+      "260"
+    ],
+    "Almighty Aset": [
+      "724"
+    ],
+    "Almighty Chronos": [
+      "440"
+    ],
+    "Almighty Ganesha": [
+      "273"
+    ],
+    "Almighty Hades": [
+      "535"
+    ],
+    "Almighty Lucifer": [
+      "643"
+    ],
+    "Almighty Poseidon": [
+      "317"
+    ],
+    "Almighty Zeus": [
+      "258"
+    ],
+    "Alois": [
+      "190"
+    ],
+    "Alois CC": [
+      "190"
+    ],
+    "Amber Egg: N106": [
+      "677"
+    ],
+    "Amber Egg: N110": [
+      "718"
+    ],
+    "Ancient Egg N001": [
+      "657"
+    ],
+    "Ancient Egg N005": [
+      "701"
+    ],
+    "Ancient Egg: N000": [
+      "692"
+    ],
+    "Ancient Egg: N003": [
+      "670"
+    ],
+    "Ancient Egg: N004": [
+      "686"
+    ],
+    "Ancient Egg: N006": [
+      "721"
+    ],
+    "Ancient Egg: N101": [
+      "659"
+    ],
+    "Ancient Egg: N102": [
+      "660"
+    ],
+    "Ancient Egg: N103": [
+      "664"
+    ],
+    "Ancient Egg: N104": [
+      "665"
+    ],
+    "Ancient Egg: N105": [
+      "676"
+    ],
+    "Ancient Egg: N106": [
+      "677"
+    ],
+    "Ancient Egg: N107": [
+      "698"
+    ],
+    "Ancient Egg: N108": [
+      "707"
+    ],
+    "Ancient Egg: N109": [
+      "708"
+    ],
+    "Ancient Egg: N110": [
+      "718"
+    ],
+    "Ancient Egg: N111": [
+      "717"
+    ],
+    "Ancient Egg: N112": [
+      "725"
+    ],
+    "Ancient Egg: N201": [
+      "666"
+    ],
+    "Ancient Egg: N202": [
+      "671"
+    ],
+    "Ancient Egg: N203": [
+      "714"
+    ],
+    "Ancient Egg: N204": [
+      "731"
+    ],
+    "Ancient Egg: N205": [
+      "758"
+    ],
+    "Ancient Egg: N206": [
+      "766"
+    ],
+    "Ancient Egg: N207": [
+      "871"
+    ],
+    "Ancient Egg: N208": [
+      "872"
+    ],
+    "Angry Delinquent Cat": [
+      "032"
+    ],
+    "Anubis the Protector": [
+      "259"
+    ],
+    "Anubis the Unblemished": [
+      "259"
+    ],
+    "Aoi Hayakawa": [
+      "391"
+    ],
+    "Aoi Hayakawa CC": [
+      "391"
+    ],
+    "Aoshi Shinomori": [
+      "749"
+    ],
+    "Aoshi Shinomori CC": [
+      "749"
+    ],
+    "Ape Lord Luza": [
+      "692"
+    ],
+    "Apple Cat": [
+      "040"
+    ],
+    "Apron Asuka": [
+      "408"
+    ],
+    "Apron Sakura Cat": [
+      "371"
+    ],
+    "Aquablaster Saki": [
+      "564"
+    ],
+    "Aquabuster Saki": [
+      "564"
+    ],
+    "Arcane Commissioner Gravicci": [
+      "432"
+    ],
+    "Archdragon Dioramos": [
+      "178"
+    ],
+    "Archer": [
+      "366"
+    ],
+    "Archer CC": [
+      "366"
+    ],
+    "Archer Cat": [
+      "057"
+    ],
+    "Archer the Cat": [
+      "459"
+    ],
+    "Arctic Bloom Cat": [
+      "737"
+    ],
+    "Armored Firefly Cat": [
+      "671"
+    ],
+    "Artist Cat": [
+      "149"
+    ],
+    "Artist Orthos CC": [
+      "345"
+    ],
+    "Ascendant Dioramos": [
+      "178"
+    ],
+    "Ashura": [
+      "252"
+    ],
+    "Asilan Pasalan": [
+      "169"
+    ],
+    "Asiluga": [
+      "169"
+    ],
+    "Assassin BearCat": [
+      "532"
+    ],
+    "Assassinlan Pasalan": [
+      "169"
+    ],
+    "Assault Unit R.E.I.": [
+      "287"
+    ],
+    "Asuka Cat": [
+      "408"
+    ],
+    "Asuka Langley": [
+      "411"
+    ],
+    "Atlantis Logistix": [
+      "595"
+    ],
+    "Attack Battalion Convoys": [
+      "716"
+    ],
+    "Aura": [
+      "118"
+    ],
+    "Aura CC": [
+      "118"
+    ],
+    "Avalokitesvara Cat": [
+      "031"
+    ],
+    "Awa-Odori Cat": [
+      "283"
+    ],
+    "Awakened Ayanami": [
+      "492"
+    ],
+    "Awakened Bahamut Cat": [
+      "026"
+    ],
+    "Awakened Doron": [
+      "614"
+    ],
+    "Awakened Mina": [
+      "269"
+    ],
+    "Awakened Musashi": [
+      "324"
+    ],
+    "Awakened Naala": [
+      "654"
+    ],
+    "Awakened Nora": [
+      "357"
+    ],
+    "Awakened Urs": [
+      "533"
+    ],
+    "Awakened Ururun": [
+      "131"
+    ],
+    "Axe Cat": [
+      "003"
+    ],
+    "Ayanami Cat (TBC)": [
+      "407"
+    ],
+    "Ayanokōji Shō": [
+      "163"
+    ],
+    "B.C.S. Beartooth": [
+      "306"
+    ],
+    "B.C.S. Lionheart": [
+      "306"
+    ],
+    "B.C.S. Tigerclaw": [
+      "306"
+    ],
+    "Babel the Darkflame": [
+      "451"
+    ],
+    "Baby Cat": [
+      "060"
+    ],
+    "Baby Cats": [
+      "060"
+    ],
+    "Baby Gao": [
+      "270"
+    ],
+    "Baby Garu": [
+      "586"
+    ],
+    "Baby Mola": [
+      "174"
+    ],
+    "Backhoe Cat": [
+      "447"
+    ],
+    "Bad Blaster Saki": [
+      "534"
+    ],
+    "Bad-Luck Ebisu": [
+      "521"
+    ],
+    "Bahamut Cat": [
+      "026"
+    ],
+    "Baka Cat Bros": [
+      "502"
+    ],
+    "Bake-Nyanko": [
+      "249"
+    ],
+    "Bakery Cat": [
+      "554"
+    ],
+    "Baki Cat": [
+      "797"
+    ],
+    "Baki Cat CC": [
+      "797"
+    ],
+    "Baki Hanma": [
+      "790"
+    ],
+    "Baki Hanma CC": [
+      "790"
+    ],
+    "Balalan Pasalan": [
+      "172"
+    ],
+    "Balaluga": [
+      "172"
+    ],
+    "Ballet Cat": [
+      "380"
+    ],
+    "Ballistic Dragon Gunduros": [
+      "761"
+    ],
+    "Balrog": [
+      "573"
+    ],
+    "Balrog CC": [
+      "573"
+    ],
+    "Balrog Cat (Collab)": [
+      "578"
+    ],
+    "Balrog Cat CC": [
+      "578"
+    ],
+    "Banner Cat": [
+      "202"
+    ],
+    "Baozi Cat": [
+      "203"
+    ],
+    "Bargain Cat": [
+      "852"
+    ],
+    "Barrel Cat": [
+      "708"
+    ],
+    "Baseball Mask α": [
+      "391"
+    ],
+    "Baseball Mask β": [
+      "392"
+    ],
+    "Baseball Mask γ": [
+      "393"
+    ],
+    "Baseball Mask δ": [
+      "396"
+    ],
+    "Bath Cat": [
+      "041"
+    ],
+    "Battle Balloon": [
+      "253"
+    ],
+    "Battosai Cat": [
+      "753"
+    ],
+    "Bazibastra": [
+      "360"
+    ],
+    "Bazibon": [
+      "360"
+    ],
+    "Bazifenix": [
+      "360"
+    ],
+    "Bean Cats": [
+      "124"
+    ],
+    "Beastly Nero": [
+      "473"
+    ],
+    "Bebe": [
+      "441"
+    ],
+    "Beefcake Cat": [
+      "010"
+    ],
+    "Behind Tutorial": [
+      "143"
+    ],
+    "Belial": [
+      "328"
+    ],
+    "Bellydance Cat": [
+      "496"
+    ],
+    "Benevolent Souma": [
+      "483"
+    ],
+    "Berserker Cat": [
+      "058"
+    ],
+    "Betrothed Balaluga": [
+      "712"
+    ],
+    "Betrothed Pasalan": [
+      "712"
+    ],
+    "Big Baozi": [
+      "203"
+    ],
+    "Biker Cat": [
+      "018"
+    ],
+    "Bikinilan Pasalan": [
+      "565"
+    ],
+    "Bikyakin": [
+      "134"
+    ],
+    "Bird Cat": [
+      "006"
+    ],
+    "Birthday Dotty Cat": [
+      "746"
+    ],
+    "Bishop Cat": [
+      "051"
+    ],
+    "Bittersweet Mekako": [
+      "645"
+    ],
+    "Black Butler Vigler": [
+      "694"
+    ],
+    "Black Egg: N103": [
+      "664"
+    ],
+    "Black Knight Kyklops": [
+      "635"
+    ],
+    "Black Swordsman Cat": [
+      "435"
+    ],
+    "Black Zeus": [
+      "467"
+    ],
+    "Blanka": [
+      "516"
+    ],
+    "Blanka CC": [
+      "516"
+    ],
+    "Bliza": [
+      "656"
+    ],
+    "Blizana": [
+      "656"
+    ],
+    "Blizarena": [
+      "656"
+    ],
+    "Bloody Jack": [
+      "699"
+    ],
+    "Blooming Kamukura": [
+      "596"
+    ],
+    "Blossoming Neneko": [
+      "333"
+    ],
+    "Blue Nyanko Ranger": [
+      "833"
+    ],
+    "Blue Shinobi": [
+      "083"
+    ],
+    "Blue-Eyed Asuka": [
+      "710"
+    ],
+    "Bodhisattva Cat": [
+      "031"
+    ],
+    "Bombercat": [
+      "128"
+    ],
+    "Bondage Cat": [
+      "013"
+    ],
+    "Bondage CatNEO": [
+      "013"
+    ],
+    "Boogie Cat": [
+      "023"
+    ],
+    "Boomerang Cat": [
+      "554"
+    ],
+    "Bora": [
+      "360"
+    ],
+    "Boulder Cat": [
+      "582"
+    ],
+    "Bowler Cat": [
+      "781"
+    ],
+    "Brah Cats": [
+      "124"
+    ],
+    "Brainwashed Axe Cat": [
+      "646"
+    ],
+    "Brainwashed Bird Cat": [
+      "668"
+    ],
+    "Brainwashed Brave Cat": [
+      "646"
+    ],
+    "Brainwashed Cat": [
+      "630"
+    ],
+    "Brainwashed Cow Cat": [
+      "663"
+    ],
+    "Brainwashed Dark Cat": [
+      "646"
+    ],
+    "Brainwashed Dragon Cat": [
+      "689"
+    ],
+    "Brainwashed Eraser Cat": [
+      "637"
+    ],
+    "Brainwashed Fish Cat": [
+      "685"
+    ],
+    "Brainwashed Flying Cat": [
+      "668"
+    ],
+    "Brainwashed Giraffe Cat": [
+      "663"
+    ],
+    "Brainwashed Gross Cat": [
+      "655"
+    ],
+    "Brainwashed Island Cat": [
+      "685"
+    ],
+    "Brainwashed Jamiera Cat": [
+      "695"
+    ],
+    "Brainwashed King Dragon Cat": [
+      "689"
+    ],
+    "Brainwashed Lion Cat": [
+      "663"
+    ],
+    "Brainwashed Lizard Cat": [
+      "689"
+    ],
+    "Brainwashed Macho Cat": [
+      "630"
+    ],
+    "Brainwashed Macho Legs Cat": [
+      "655"
+    ],
+    "Brainwashed Mohawk Cat": [
+      "630"
+    ],
+    "Brainwashed Mythic Titan": [
+      "695"
+    ],
+    "Brainwashed Sexy Legs Cat": [
+      "655"
+    ],
+    "Brainwashed Tank Cat": [
+      "637"
+    ],
+    "Brainwashed Titan Cat": [
+      "695"
+    ],
+    "Brainwashed UFO Cat": [
+      "668"
+    ],
+    "Brainwashed Wall Cat": [
+      "637"
+    ],
+    "Brainwashed Whale Cat": [
+      "685"
+    ],
+    "Brass Cat": [
+      "624"
+    ],
+    "Brave Cat": [
+      "003"
+    ],
+    "Bridal Princess Punt": [
+      "027"
+    ],
+    "Bride Cat": [
+      "758"
+    ],
+    "Brightsummer Cat": [
+      "276"
+    ],
+    "Bronze Cat": [
+      "061"
+    ],
+    "Brynhildr": [
+      "234"
+    ],
+    "Brynhildr CC": [
+      "234"
+    ],
+    "Bubble Cat": [
+      "546"
+    ],
+    "Bullet Train Cat": [
+      "285"
+    ],
+    "Bunny & Canard": [
+      "332"
+    ],
+    "Burgle Boss Cat (Prime)": [
+      "505"
+    ],
+    "Burgle Boss Cat (Retired)": [
+      "505"
+    ],
+    "Business Partner Cat": [
+      "823"
+    ],
+    "Butterfly Cat": [
+      "037"
+    ],
+    "C&D Swordsman": [
+      "250"
+    ],
+    "C. Honda": [
+      "577"
+    ],
+    "C. Honda CC": [
+      "577"
+    ],
+    "CAT-10 Gigapult": [
+      "305"
+    ],
+    "CAT-6 Siege Engine": [
+      "305"
+    ],
+    "CAT-8 Behemoth": [
+      "305"
+    ],
+    "CPAC": [
+      "318"
+    ],
+    "Cabaret Cat": [
+      "104"
+    ],
+    "Cadaver BearCat": [
+      "532"
+    ],
+    "Cafeteria Cat": [
+      "304"
+    ],
+    "Cake Machine": [
+      "757"
+    ],
+    "Calette": [
+      "486"
+    ],
+    "Calette CC": [
+      "486"
+    ],
+    "Call Center Cat": [
+      "123"
+    ],
+    "Calligraphy Cat": [
+      "631"
+    ],
+    "Cameraman Cat": [
+      "150"
+    ],
+    "Cammy": [
+      "827"
+    ],
+    "Cammy CC": [
+      "827"
+    ],
+    "Can Can Cat": [
+      "033"
+    ],
+    "Canopy Queen Tomoe": [
+      "873"
+    ],
+    "Capsule Cat": [
+      "029"
+    ],
+    "Captain Cat": [
+      "049"
+    ],
+    "Captain Misato": [
+      "490"
+    ],
+    "Carpenter Cat": [
+      "820"
+    ],
+    "Castaway Cat": [
+      "200"
+    ],
+    "Castley": [
+      "281"
+    ],
+    "Cat": [
+      "001"
+    ],
+    "Cat Base Jr.": [
+      "145"
+    ],
+    "Cat Base Mini": [
+      "145"
+    ],
+    "Cat Base Ultra": [
+      "145"
+    ],
+    "Cat Bros": [
+      "109"
+    ],
+    "Cat Bros S": [
+      "502"
+    ],
+    "Cat Cactus": [
+      "670"
+    ],
+    "Cat Chief": [
+      "698"
+    ],
+    "Cat Clan Heroes": [
+      "428"
+    ],
+    "Cat Devil": [
+      "477"
+    ],
+    "Cat Eastwood": [
+      "146"
+    ],
+    "Cat Egg Pod": [
+      "725"
+    ],
+    "Cat Gang": [
+      "015"
+    ],
+    "Cat God the Awesome": [
+      "438"
+    ],
+    "Cat God the Golden": [
+      "438"
+    ],
+    "Cat God the Great": [
+      "438"
+    ],
+    "Cat Guild Heroes": [
+      "428"
+    ],
+    "Cat Gunslinger": [
+      "146"
+    ],
+    "Cat Kart G": [
+      "184"
+    ],
+    "Cat Kart P": [
+      "184"
+    ],
+    "Cat Kart R": [
+      "184"
+    ],
+    "Cat Machine": [
+      "044"
+    ],
+    "Cat Machine Mk 2": [
+      "044"
+    ],
+    "Cat Machine Mk 3": [
+      "044"
+    ],
+    "Cat Mask Doron": [
+      "614"
+    ],
+    "Cat O'Lantern": [
+      "228"
+    ],
+    "Cat Princess": [
+      "028"
+    ],
+    "Cat Princess Beauty": [
+      "028"
+    ],
+    "Cat Projector": [
+      "154"
+    ],
+    "Cat Quest Heroes": [
+      "428"
+    ],
+    "Cat Researcher": [
+      "622"
+    ],
+    "Cat Royale": [
+      "214"
+    ],
+    "Cat Tengu": [
+      "669"
+    ],
+    "Cat Toaster": [
+      "154"
+    ],
+    "Cat Transportation Type 10": [
+      "055"
+    ],
+    "Cat's Gift": [
+      "245"
+    ],
+    "Cat-Eared Souma": [
+      "483"
+    ],
+    "Cat-o-tron": [
+      "082"
+    ],
+    "Catarzan": [
+      "660"
+    ],
+    "Catasaurus": [
+      "047"
+    ],
+    "Cataur": [
+      "057"
+    ],
+    "Catburger": [
+      "214"
+    ],
+    "Catellite": [
+      "377"
+    ],
+    "Catman": [
+      "197"
+    ],
+    "Catman Forever": [
+      "197"
+    ],
+    "Catophone": [
+      "154"
+    ],
+    "Catornado": [
+      "268"
+    ],
+    "Catorpedo": [
+      "176"
+    ],
+    "Cats in a Box": [
+      "015"
+    ],
+    "Cats in the Cradle": [
+      "060"
+    ],
+    "Cats in the Stroller": [
+      "060"
+    ],
+    "Catway": [
+      "261"
+    ],
+    "Catyphoon": [
+      "268"
+    ],
+    "Celesse": [
+      "111"
+    ],
+    "Celesse CC": [
+      "111"
+    ],
+    "Celestial Child Luna": [
+      "780"
+    ],
+    "Chalkboard Eraser Cat": [
+      "653"
+    ],
+    "Chalkboard Punk Cat": [
+      "653"
+    ],
+    "Cheerleader Cat": [
+      "274"
+    ],
+    "Chicken Cat": [
+      "156"
+    ],
+    "Chika Amatori & Cat": [
+      "680"
+    ],
+    "Chika Amatori & Cat CC": [
+      "680"
+    ],
+    "Child of Destiny Phono": [
+      "691"
+    ],
+    "Chill Cat": [
+      "039"
+    ],
+    "Chocoladite": [
+      "588"
+    ],
+    "Chronos the Bride": [
+      "662"
+    ],
+    "Chronos the Infinite": [
+      "440"
+    ],
+    "Chun-Li": [
+      "513"
+    ],
+    "Chun-Li CC": [
+      "513"
+    ],
+    "Chun-Li Cat": [
+      "510"
+    ],
+    "Chun-Li Cat CC": [
+      "510"
+    ],
+    "Chunchun Haunters": [
+      "634"
+    ],
+    "Cinnabar Egg: N101": [
+      "659"
+    ],
+    "Cinnabar Egg: N202": [
+      "671"
+    ],
+    "Cinnabar Egg: N204": [
+      "731"
+    ],
+    "Cinnabar Egg: N206": [
+      "766"
+    ],
+    "Citizen Mola": [
+      "174"
+    ],
+    "Citrouille": [
+      "191"
+    ],
+    "Citrouille CC": [
+      "191"
+    ],
+    "Clam Cat": [
+      "766"
+    ],
+    "Class Rep Cat": [
+      "697"
+    ],
+    "Cleansing Flame Kaihime": [
+      "497"
+    ],
+    "Clockwork Cat": [
+      "127"
+    ],
+    "Clone Elle": [
+      "102"
+    ],
+    "Clone Elle CC": [
+      "102"
+    ],
+    "Clown Cat": [
+      "714"
+    ],
+    "Coastal Explorer Kanna": [
+      "715"
+    ],
+    "Coco": [
+      "422"
+    ],
+    "Coco CC": [
+      "422"
+    ],
+    "Coin Cat": [
+      "376"
+    ],
+    "Colossal Benkei": [
+      "452"
+    ],
+    "Combat Crawfish Cat": [
+      "872"
+    ],
+    "Commander Cat": [
+      "777"
+    ],
+    "Commando Cat": [
+      "150"
+    ],
+    "Cone Cat": [
+      "719"
+    ],
+    "Consultant Cat": [
+      "823"
+    ],
+    "Cooldown Cat": [
+      "128"
+    ],
+    "Cop Cat": [
+      "717"
+    ],
+    "Coppermine": [
+      "108"
+    ],
+    "Coppermine, type κ": [
+      "108"
+    ],
+    "Cornelia": [
+      "187"
+    ],
+    "Cornelia CC": [
+      "187"
+    ],
+    "Corrupted Moneko": [
+      "419"
+    ],
+    "Corrupted Psychocat": [
+      "198"
+    ],
+    "Cossack Cat": [
+      "529"
+    ],
+    "Costumed Witchy Neneko": [
+      "229"
+    ],
+    "Count Yukimura": [
+      "684"
+    ],
+    "Courier Cat": [
+      "659"
+    ],
+    "Cow Cat": [
+      "005"
+    ],
+    "Cow Princess": [
+      "066"
+    ],
+    "Cramped Cats": [
+      "029"
+    ],
+    "Crazed Axe Cat": [
+      "094"
+    ],
+    "Crazed Bahamut Cat": [
+      "026"
+    ],
+    "Crazed Bird Cat": [
+      "097"
+    ],
+    "Crazed Brave Cat": [
+      "094"
+    ],
+    "Crazed Cat": [
+      "092"
+    ],
+    "Crazed Catgirl Yuki": [
+      "271"
+    ],
+    "Crazed Cow Cat": [
+      "096"
+    ],
+    "Crazed Dragon Cat": [
+      "099"
+    ],
+    "Crazed Fish Cat": [
+      "098"
+    ],
+    "Crazed Giraffe Cat": [
+      "096"
+    ],
+    "Crazed Gross Cat": [
+      "095"
+    ],
+    "Crazed Lizard Cat": [
+      "099"
+    ],
+    "Crazed M. Titan Cat": [
+      "100"
+    ],
+    "Crazed Macho Cat": [
+      "092"
+    ],
+    "Crazed Moneko": [
+      "419"
+    ],
+    "Crazed Princess Punt\r": [
+      "162"
+    ],
+    "Crazed Princess Punt CC\r": [
+      "162"
+    ],
+    "Crazed Sexy Legs Cat": [
+      "095"
+    ],
+    "Crazed Tank Cat": [
+      "093"
+    ],
+    "Crazed Titan Cat": [
+      "100"
+    ],
+    "Crazed UFO Cat": [
+      "097"
+    ],
+    "Crazed Wall Cat": [
+      "093"
+    ],
+    "Crazed Whale Cat": [
+      "098"
+    ],
+    "Crazed Yuki": [
+      "271"
+    ],
+    "Crazed Yuki ＆ Cat": [
+      "271"
+    ],
+    "Creepmallow": [
+      "177"
+    ],
+    "Crimson King of Battle Ken": [
+      "518"
+    ],
+    "Crimson Mina": [
+      "269"
+    ],
+    "Cross Angel": [
+      "475"
+    ],
+    "Crystal Li'l Gau Gau": [
+      "068"
+    ],
+    "Cupid Cat": [
+      "057"
+    ],
+    "Curling Cat": [
+      "325"
+    ],
+    "Curry Cat": [
+      "380"
+    ],
+    "Cutie MOMOCO": [
+      "456"
+    ],
+    "Cutter Cat": [
+      "446"
+    ],
+    "Cyber Pretty Cat": [
+      "255"
+    ],
+    "Cyberpunk Cat": [
+      "036"
+    ],
+    "Cyborg Cat": [
+      "042"
+    ],
+    "Cyclops": [
+      "256"
+    ],
+    "Cyclops of Steel": [
+      "256"
+    ],
+    "Cyclops of Time-space": [
+      "256"
+    ],
+    "D'arktanyan": [
+      "442"
+    ],
+    "D'artanyan": [
+      "381"
+    ],
+    "DONALD MORDEN": [
+      "225"
+    ],
+    "Daji & Cat": [
+      "742"
+    ],
+    "Dancer Cat": [
+      "011"
+    ],
+    "Dancing Flasher Cat": [
+      "033"
+    ],
+    "Dark Aegis Garu": [
+      "610"
+    ],
+    "Dark Beastlord Garu": [
+      "610"
+    ],
+    "Dark Cat": [
+      "003"
+    ],
+    "Dark Catman": [
+      "197"
+    ],
+    "Dark Egg: N109": [
+      "708"
+    ],
+    "Dark Egg: N201": [
+      "666"
+    ],
+    "Dark Emperor Catdam": [
+      "173"
+    ],
+    "Dark Lazer": [
+      "014"
+    ],
+    "Dark Lord Zeus": [
+      "467"
+    ],
+    "Dark Merchant Babil": [
+      "227"
+    ],
+    "Dark Mitama": [
+      "379"
+    ],
+    "Dark PPT48\r": [
+      "067"
+    ],
+    "Dark Rider Valkyrie": [
+      "485"
+    ],
+    "Dark Sakura CC": [
+      "457"
+    ],
+    "Dark Subaru CC": [
+      "395"
+    ],
+    "Dark Summoner Satoru": [
+      "618"
+    ],
+    "Date Masamune": [
+      "125"
+    ],
+    "Dawnbringer Izanagi": [
+      "732"
+    ],
+    "Daybreaker Izanagi": [
+      "732"
+    ],
+    "Death's Daughter Lunacia": [
+      "788"
+    ],
+    "Deep-Diver Kanna": [
+      "715"
+    ],
+    "Delinquent Cat": [
+      "032"
+    ],
+    "Delivery Cat": [
+      "304"
+    ],
+    "Demon Knight Kyklops": [
+      "635"
+    ],
+    "Detective Vigler": [
+      "432"
+    ],
+    "Determined Unit-01 & Cat": [
+      "414"
+    ],
+    "Devil Cat": [
+      "020"
+    ],
+    "Devil Egg: N006": [
+      "721"
+    ],
+    "Devil Homura": [
+      "290"
+    ],
+    "Devil Hunter Satoru": [
+      "618"
+    ],
+    "Dhalsim": [
+      "517"
+    ],
+    "Dhalsim CC": [
+      "517"
+    ],
+    "Diabolic Gao": [
+      "334"
+    ],
+    "Dioramos": [
+      "178"
+    ],
+    "Disciple Psychoduck": [
+      "332"
+    ],
+    "Divine Coppermine": [
+      "108"
+    ],
+    "Divine Huntress Terun ζ": [
+      "648"
+    ],
+    "Divine Jeanne ψ": [
+      "450"
+    ],
+    "Divine Kai": [
+      "107"
+    ],
+    "Divine Kalisa": [
+      "160"
+    ],
+    "Divine Kuu": [
+      "106"
+    ],
+    "Divine Lilin π": [
+      "620"
+    ],
+    "Divine Myrcia": [
+      "503"
+    ],
+    "Divine Pegasa ν": [
+      "734"
+    ],
+    "Divine Thundia": [
+      "077"
+    ],
+    "Divine Twinstars": [
+      "352"
+    ],
+    "Divine Windy": [
+      "076"
+    ],
+    "Doctor Cat": [
+      "052"
+    ],
+    "Dodgeball Kunio-kun": [
+      "625"
+    ],
+    "Dodgeball Riki": [
+      "722"
+    ],
+    "Dodgeballer Cat": [
+      "781"
+    ],
+    "Doguemon": [
+      "465"
+    ],
+    "Dogumaru": [
+      "465"
+    ],
+    "Doktor Heaven": [
+      "482"
+    ],
+    "Doll Cats": [
+      "082"
+    ],
+    "Dom Cat": [
+      "014"
+    ],
+    "Doom Engine Pandora": [
+      "464"
+    ],
+    "Doppo Cat": [
+      "799"
+    ],
+    "Doppo Cat CC": [
+      "799"
+    ],
+    "Dotty Cat": [
+      "746"
+    ],
+    "Dr. Mekako": [
+      "196"
+    ],
+    "Dragon Cat": [
+      "008"
+    ],
+    "Dragon King Vars": [
+      "086"
+    ],
+    "Dragon Rider": [
+      "254"
+    ],
+    "Dragonslayer Raiden": [
+      "088"
+    ],
+    "Drama Cats": [
+      "153"
+    ],
+    "Dread Pirate Catley": [
+      "049"
+    ],
+    "Dreaming Sakura Cat": [
+      "371"
+    ],
+    "Driller Cat": [
+      "444"
+    ],
+    "Droid Cat": [
+      "078"
+    ],
+    "Droid Cat Mk 2": [
+      "078"
+    ],
+    "Drone Cat": [
+      "261"
+    ],
+    "Drumcorps Cat": [
+      "202"
+    ],
+    "Drunken Master Cat": [
+      "011"
+    ],
+    "Drunken Master Cat X": [
+      "133"
+    ],
+    "Drury Swordsman": [
+      "157"
+    ],
+    "Drury Witch": [
+      "157"
+    ],
+    "Dynasaurus Cat": [
+      "764"
+    ],
+    "E. Honda": [
+      "572"
+    ],
+    "E. Honda CC": [
+      "572"
+    ],
+    "E. Kubilan Pasalan": [
+      "170"
+    ],
+    "ERI": [
+      "218"
+    ],
+    "ERI CC": [
+      "218"
+    ],
+    "Early Summer Neneko": [
+      "277"
+    ],
+    "Earth King Sodom": [
+      "084"
+    ],
+    "Easter Cat": [
+      "330"
+    ],
+    "Easter Egg Cat": [
+      "330"
+    ],
+    "Easter Neneko": [
+      "333"
+    ],
+    "Ectoweight Cat": [
+      "326"
+    ],
+    "Edgemaster Staal": [
+      "811"
+    ],
+    "Eggy Cat": [
+      "330"
+    ],
+    "Elder Beast Naala": [
+      "654"
+    ],
+    "Elder Egg: N000": [
+      "692"
+    ],
+    "Elder Mask Doron": [
+      "614"
+    ],
+    "Elemental Duelist Cat": [
+      "059"
+    ],
+    "Emperor Cat": [
+      "587"
+    ],
+    "Empress Cat": [
+      "613"
+    ],
+    "Empress Chronos": [
+      "440"
+    ],
+    "Enchantress Cat": [
+      "056"
+    ],
+    "Eraser Cat": [
+      "002"
+    ],
+    "Erphuan": [
+      "362"
+    ],
+    "Esoteric Uril": [
+      "555"
+    ],
+    "Eternal Reika": [
+      "337"
+    ],
+    "Eva Unit-00": [
+      "413"
+    ],
+    "Eva Unit-00 & Cat": [
+      "413"
+    ],
+    "Eva Unit-01": [
+      "414"
+    ],
+    "Eva Unit-01 & Cat": [
+      "414"
+    ],
+    "Eva Unit-02": [
+      "415"
+    ],
+    "Eva Unit-02 & Cat": [
+      "415"
+    ],
+    "Eva Unit-08": [
+      "488"
+    ],
+    "Eva Unit-08 & Cat": [
+      "488"
+    ],
+    "Eva Unit-13": [
+      "711"
+    ],
+    "Eva Unit-13 & Cat": [
+      "711"
+    ],
+    "Evangelist Cat": [
+      "054"
+    ],
+    "Everbloom Kamukura": [
+      "596"
+    ],
+    "Everbloom Lord Kamukura": [
+      "596"
+    ],
+    "Evil Aku Researcher": [
+      "622"
+    ],
+    "Evil Cat": [
+      "081"
+    ],
+    "Evil Egg: N003": [
+      "670"
+    ],
+    "Exalted Ganesha": [
+      "273"
+    ],
+    "Executioner": [
+      "014"
+    ],
+    "Exorcist Cat": [
+      "666"
+    ],
+    "Express Cat": [
+      "285"
+    ],
+    "Extra-Life Cat": [
+      "249"
+    ],
+    "Extradimensional Envanz": [
+      "675"
+    ],
+    "Extraterrestrial Envanz": [
+      "675"
+    ],
+    "Eyepatch Li'l Asuka": [
+      "411"
+    ],
+    "Eyewaltz": [
+      "507"
+    ],
+    "Eyewaltz CC": [
+      "507"
+    ],
+    "FIO": [
+      "219"
+    ],
+    "FIO CC": [
+      "219"
+    ],
+    "Fabled Adventure Girl Kanna": [
+      "608"
+    ],
+    "Fabulous Pasalan": [
+      "565"
+    ],
+    "Face Cat": [
+      "040"
+    ],
+    "Fallen Bear Cat": [
+      "721"
+    ],
+    "Farmboy Cat": [
+      "718"
+    ],
+    "Farmer Cat": [
+      "382"
+    ],
+    "Fedora Cat": [
+      "833"
+    ],
+    "Felix the Cat Duke Cat": [
+      "745"
+    ],
+    "Fencer Cat": [
+      "378"
+    ],
+    "Festive New Year Neneko": [
+      "315"
+    ],
+    "Fiend Cat": [
+      "523"
+    ],
+    "Fiendish Nero": [
+      "473"
+    ],
+    "Figure Skating Cats": [
+      "153"
+    ],
+    "Filibuster Cat": [
+      "054"
+    ],
+    "Filibuster Cat X": [
+      "463"
+    ],
+    "Filibuster Cat Y": [
+      "463"
+    ],
+    "Fire Squad Kachiyama": [
+      "204"
+    ],
+    "Firecracker Cat": [
+      "647"
+    ],
+    "First Officer Ritsuko": [
+      "491"
+    ],
+    "First-Love Myrcia": [
+      "589"
+    ],
+    "First-Love Myrcia ξ": [
+      "589"
+    ],
+    "Fish Cat": [
+      "007"
+    ],
+    "Fisherman Cat": [
+      "052"
+    ],
+    "Fishman Cat": [
+      "037"
+    ],
+    "Flame Dragon Rider": [
+      "254"
+    ],
+    "Flame Mage Sidmi": [
+      "825"
+    ],
+    "Flamenco Cat": [
+      "496"
+    ],
+    "Flight Unit R.E.I.": [
+      "287"
+    ],
+    "Floral Kalisa": [
+      "738"
+    ],
+    "Floral Kalisa, type X": [
+      "738"
+    ],
+    "Flower Cat": [
+      "128"
+    ],
+    "Flying Ninja Cat": [
+      "019"
+    ],
+    "Food Stall Cat": [
+      "304"
+    ],
+    "Forest Horsemen Cavalry": [
+      "251"
+    ],
+    "Fortressy": [
+      "281"
+    ],
+    "Fortune Teller Cat": [
+      "052"
+    ],
+    "Fox Queen Himeyuri": [
+      "335"
+    ],
+    "Freshman Cat Jobs": [
+      "238"
+    ],
+    "Freya": [
+      "236"
+    ],
+    "Freya CC": [
+      "236"
+    ],
+    "Fried Chicken Cat": [
+      "554"
+    ],
+    "Fried Shrimp Cat": [
+      "062"
+    ],
+    "Frolicking Nono CC": [
+      "112"
+    ],
+    "Frostspirit Kai, type μ": [
+      "242"
+    ],
+    "Frosty Kai": [
+      "242"
+    ],
+    "Frosty Kai, type μ": [
+      "242"
+    ],
+    "Frozen Rose Cat": [
+      "737"
+    ],
+    "Full Color Kerihime": [
+      "027"
+    ],
+    "Full-Bloom Kenshin": [
+      "331"
+    ],
+    "Fuma Kotaro": [
+      "851"
+    ],
+    "Funghi": [
+      "278"
+    ],
+    "Funghi 'n' Cat": [
+      "278"
+    ],
+    "Furilan Pasalan": [
+      "626"
+    ],
+    "Furiluga": [
+      "626"
+    ],
+    "Futenyan": [
+      "282"
+    ],
+    "Future Cat": [
+      "453"
+    ],
+    "Fuu": [
+      "117"
+    ],
+    "Fuu CC": [
+      "117"
+    ],
+    "GENERAL MORDEN": [
+      "225"
+    ],
+    "GOLDEN HUGE HERMIT CC": [
+      "223"
+    ],
+    "GOLDEN JUPITER CC": [
+      "224"
+    ],
+    "GOLDEN MORDEN CC": [
+      "225"
+    ],
+    "Gacha Cat": [
+      "559"
+    ],
+    "Gaia the Creator": [
+      "494"
+    ],
+    "Gaia the Supreme": [
+      "494"
+    ],
+    "Ganglion": [
+      "397"
+    ],
+    "Ganglion the Ancient": [
+      "397"
+    ],
+    "Ganglion the Unleashed": [
+      "397"
+    ],
+    "Gardener Cat": [
+      "309"
+    ],
+    "Gas Mask Cat": [
+      "664"
+    ],
+    "Gato Amigo": [
+      "023"
+    ],
+    "GeGeGe no Kitaro": [
+      "454"
+    ],
+    "Geisha Cat": [
+      "046"
+    ],
+    "Gekirinchi\r": [
+      "161"
+    ],
+    "Gelato Bro Cats": [
+      "567"
+    ],
+    "Gendo & Fuyutsuki Cats": [
+      "404"
+    ],
+    "Genma Cat": [
+      "607"
+    ],
+    "Genma Saotome": [
+      "673"
+    ],
+    "Genma Saotome (Panda)": [
+      "673"
+    ],
+    "Gentleman Bros.": [
+      "081"
+    ],
+    "Gentleman Cat": [
+      "081"
+    ],
+    "Ghost Alibaba": [
+      "557"
+    ],
+    "Giga-Nyan Prime DX": [
+      "837"
+    ],
+    "Giga-Nyan Rex": [
+      "837"
+    ],
+    "Gigavolta": [
+      "402"
+    ],
+    "Gilgamesh": [
+      "369"
+    ],
+    "Gilgamesh & Kotomine Cats": [
+      "461"
+    ],
+    "Gilgamesh CC": [
+      "369"
+    ],
+    "Giraffe Cat": [
+      "005"
+    ],
+    "Giraffe Princess": [
+      "066"
+    ],
+    "Giraffe Unit-01": [
+      "405"
+    ],
+    "Giraffe Unit-02": [
+      "405"
+    ],
+    "Girlfriend Cat": [
+      "651"
+    ],
+    "Giyu Tomioka": [
+      "845"
+    ],
+    "Giyu Tomioka CC": [
+      "845"
+    ],
+    "Gladios the Annihilator": [
+      "506"
+    ],
+    "Glass Cat": [
+      "383"
+    ],
+    "Glittering Macho Cat": [
+      "130"
+    ],
+    "Gloomy Neneko": [
+      "229"
+    ],
+    "Glorious Amaterasu": [
+      "272"
+    ],
+    "God": [
+      "142"
+    ],
+    "God Dragon Kamukura": [
+      "087"
+    ],
+    "God of War - Odin": [
+      "237"
+    ],
+    "God of War - Odin CC": [
+      "237"
+    ],
+    "God-Emperor Babel": [
+      "451"
+    ],
+    "God-Emperor Daliasan": [
+      "661"
+    ],
+    "God-Emperor Dioramos": [
+      "178"
+    ],
+    "God-Emperor Gladios": [
+      "506"
+    ],
+    "God-Emperor Hevijak": [
+      "621"
+    ],
+    "God-Emperor Kamukura": [
+      "087"
+    ],
+    "God-Emperor Megidora": [
+      "085"
+    ],
+    "God-Emperor Raiden": [
+      "088"
+    ],
+    "God-Emperor Sodom": [
+      "084"
+    ],
+    "God-Emperor Vars": [
+      "086"
+    ],
+    "Goddess of Light Sirius": [
+      "687"
+    ],
+    "Goddess of Sunrise Sirius": [
+      "687"
+    ],
+    "Godzilla Cat": [
+      "612"
+    ],
+    "Goemon Cat": [
+      "050"
+    ],
+    "Goggles Cat": [
+      "835"
+    ],
+    "Gold Brick Cat": [
+      "611"
+    ],
+    "Gold Cat": [
+      "130"
+    ],
+    "Gold Macho Cat": [
+      "130"
+    ],
+    "Golden Kabuto Cat": [
+      "616"
+    ],
+    "Golem": [
+      "257"
+    ],
+    "Golfer Cat": [
+      "288"
+    ],
+    "Good-Luck Ebisu": [
+      "521"
+    ],
+    "Gorgeous Groovin' Cat": [
+      "283"
+    ],
+    "Gorubo": [
+      "158"
+    ],
+    "Gothic Mitama": [
+      "379"
+    ],
+    "Gourmand Ninja Girl Tomoe": [
+      "726"
+    ],
+    "Grand Chunchun Haunters": [
+      "634"
+    ],
+    "Grand Lucifer": [
+      "643"
+    ],
+    "Grand Yokai Tengu": [
+      "669"
+    ],
+    "Grandiose Gunhauzer": [
+      "800"
+    ],
+    "Grandmaster Cat": [
+      "353"
+    ],
+    "Graveflower Verbena": [
+      "359"
+    ],
+    "Gravi": [
+      "570"
+    ],
+    "Gravolo": [
+      "570"
+    ],
+    "Gravolodon": [
+      "570"
+    ],
+    "Greater Balrog Cat": [
+      "045"
+    ],
+    "Greater Demon Cat": [
+      "045"
+    ],
+    "Green Egg: N104": [
+      "665"
+    ],
+    "Green Egg: N208": [
+      "872"
+    ],
+    "Green Nyanko Ranger": [
+      "835"
+    ],
+    "Green Shell Cat": [
+      "325"
+    ],
+    "Gridiron Cat": [
+      "540"
+    ],
+    "Groom Cat": [
+      "864"
+    ],
+    "Gross Cat": [
+      "004"
+    ],
+    "Gross Koi Cat": [
+      "105"
+    ],
+    "Gross White Cat": [
+      "280"
+    ],
+    "Groucho Cat": [
+      "129"
+    ],
+    "Grudge Cat": [
+      "071"
+    ],
+    "Guardian Gamereon": [
+      "135"
+    ],
+    "Gude Omelet Cat": [
+      "348"
+    ],
+    "Gude-Cat Machine": [
+      "431"
+    ],
+    "Gude-Cat Machine - Egg": [
+      "431"
+    ],
+    "Gudebene Cat": [
+      "348"
+    ],
+    "Gudegude Pudding": [
+      "350"
+    ],
+    "Gudegude à la mode": [
+      "350"
+    ],
+    "Gudetama Bacon Plate": [
+      "349"
+    ],
+    "Gudetama Cat": [
+      "348"
+    ],
+    "Gudetama Plate": [
+      "349"
+    ],
+    "Guile": [
+      "514"
+    ],
+    "Guile CC": [
+      "514"
+    ],
+    "Gunduros": [
+      "761"
+    ],
+    "Gyaru Cat": [
+      "854"
+    ],
+    "HI-DO": [
+      "226"
+    ],
+    "HI-DO CC": [
+      "226"
+    ],
+    "HI-DO MK III": [
+      "226"
+    ],
+    "HMS Princess\r": [
+      "338"
+    ],
+    "HMS Princess CC\r": [
+      "338"
+    ],
+    "HMS Princess II CC": [
+      "338"
+    ],
+    "HUGE HERMIT": [
+      "223"
+    ],
+    "HUGE HERMIT CC": [
+      "223"
+    ],
+    "HYAKUTARO": [
+      "215"
+    ],
+    "HYAKUTARO CC": [
+      "215"
+    ],
+    "Hacker Cat": [
+      "036"
+    ],
+    "Hacker Geek Cat": [
+      "430"
+    ],
+    "Hades the Deathdealer": [
+      "535"
+    ],
+    "Hades the Punisher": [
+      "535"
+    ],
+    "Hajime Saito": [
+      "750"
+    ],
+    "Hajime Saito CC": [
+      "750"
+    ],
+    "Halloween Knight Vars": [
+      "571"
+    ],
+    "Hallowindy": [
+      "230"
+    ],
+    "Hallowindy, type α": [
+      "230"
+    ],
+    "Hanasaka Cat": [
+      "770"
+    ],
+    "Haniwa Cat": [
+      "657"
+    ],
+    "Hanzo the Betrothed": [
+      "863"
+    ],
+    "Hanzo the Groom": [
+      "863"
+    ],
+    "Happosai": [
+      "602"
+    ],
+    "Happosai (Lewd)": [
+      "602"
+    ],
+    "Happy 100": [
+      "329"
+    ],
+    "Harbinger Cat": [
+      "228"
+    ],
+    "Harvest Cat": [
+      "382"
+    ],
+    "Hatsune Miku": [
+      "536"
+    ],
+    "Hatsune Miku CC": [
+      "536"
+    ],
+    "Hatsune Miku CC: MM2020 Osaka": [
+      "583"
+    ],
+    "Hatsune Miku CC: MM2020 Tokyo": [
+      "584"
+    ],
+    "Hatsune Miku XVI": [
+      "723"
+    ],
+    "Hatsune Miku XVI CC": [
+      "723"
+    ],
+    "Hatsune Miku: MM2020 Osaka": [
+      "583"
+    ],
+    "Hatsune Miku: MM2020 Tokyo": [
+      "584"
+    ],
+    "Hattori Hanzo": [
+      "650"
+    ],
+    "Hayabusa": [
+      "262"
+    ],
+    "Head Rococo": [
+      "469"
+    ],
+    "Headmaster Cat Jobs": [
+      "238"
+    ],
+    "Headmistress Jeanne": [
+      "450"
+    ],
+    "Headmistress Jeanne ψ": [
+      "450"
+    ],
+    "Healer": [
+      "121"
+    ],
+    "Healer CC": [
+      "121"
+    ],
+    "Healer Cat CC": [
+      "121"
+    ],
+    "Hearscht": [
+      "186"
+    ],
+    "Hearscht CC": [
+      "186"
+    ],
+    "Heartful Happy 100": [
+      "329"
+    ],
+    "Heartful Nurse Cat": [
+      "144"
+    ],
+    "Heavenly Cat Heroes": [
+      "428"
+    ],
+    "Heavenly Herald Rei": [
+      "548"
+    ],
+    "Heavenly Jack": [
+      "558"
+    ],
+    "Heavenly Lord Jack": [
+      "558"
+    ],
+    "Heavy Assault C.A.T.": [
+      "015"
+    ],
+    "Heavyweight Cat": [
+      "326"
+    ],
+    "Hell Commissioner Emma": [
+      "560"
+    ],
+    "Hell Sentinel Emma": [
+      "560"
+    ],
+    "Hell Warden Emma": [
+      "560"
+    ],
+    "Hellrider Kenshin": [
+      "159"
+    ],
+    "Helmet Cat": [
+      "834"
+    ],
+    "Heracrist": [
+      "472"
+    ],
+    "Herme": [
+      "531"
+    ],
+    "Herme CC": [
+      "531"
+    ],
+    "Hermit Cat": [
+      "353"
+    ],
+    "Heroic Musashi": [
+      "324"
+    ],
+    "Heroic Spirit Archer Cat": [
+      "459"
+    ],
+    "Heroic Spirit Rider Cat": [
+      "460"
+    ],
+    "Heroic Spirit Saber Cat": [
+      "370"
+    ],
+    "Hevijak the Wicked": [
+      "621"
+    ],
+    "High Lord Babel": [
+      "451"
+    ],
+    "High School Kingpin Riki": [
+      "722"
+    ],
+    "Hijiri Rokudo": [
+      "393"
+    ],
+    "Hijiri Rokudo CC": [
+      "393"
+    ],
+    "Hikakin": [
+      "134"
+    ],
+    "Hikaru & Nyanko": [
+      "164"
+    ],
+    "Himeyuri Ninetails": [
+      "335"
+    ],
+    "Hina": [
+      "487"
+    ],
+    "Hip Hop Cat": [
+      "033"
+    ],
+    "Hitman Cat": [
+      "701"
+    ],
+    "Holiday Juvens CC": [
+      "188"
+    ],
+    "Holy Coppermine": [
+      "244"
+    ],
+    "Holy Coppermine, type κ": [
+      "244"
+    ],
+    "Holy Dragon Megidora": [
+      "085"
+    ],
+    "Holy King Alibaba": [
+      "557"
+    ],
+    "Holy Knight Alibaba": [
+      "557"
+    ],
+    "Holy Phoenix": [
+      "469"
+    ],
+    "Holy Valkyrie Cat": [
+      "025"
+    ],
+    "Holy Warrior Phoenix": [
+      "469"
+    ],
+    "Holy Yamato": [
+      "474"
+    ],
+    "Homura & Cat": [
+      "290"
+    ],
+    "Homura Akemi": [
+      "290"
+    ],
+    "Homura Cat": [
+      "296"
+    ],
+    "Honiton": [
+      "399"
+    ],
+    "Honiton & Cat": [
+      "399"
+    ],
+    "Hoop Cat": [
+      "155"
+    ],
+    "Hoopmaster Cat": [
+      "155"
+    ],
+    "Hoppity Neneko": [
+      "333"
+    ],
+    "Horn Dragon Rider": [
+      "254"
+    ],
+    "Horsemen Cavalry": [
+      "251"
+    ],
+    "Hoshi Guranmanie": [
+      "166"
+    ],
+    "Housewife Cat": [
+      "308"
+    ],
+    "Hundred-Million-Dollar Cat": [
+      "636"
+    ],
+    "Huntress Terun": [
+      "648"
+    ],
+    "Huntress Terun ζ": [
+      "648"
+    ],
+    "Hurricat": [
+      "268"
+    ],
+    "Hyper Battalion Convoys": [
+      "716"
+    ],
+    "Hyper Mr.": [
+      "012"
+    ],
+    "Ice Cat": [
+      "043"
+    ],
+    "Ice Crystal Cat": [
+      "043"
+    ],
+    "Ice Queen Cat": [
+      "043"
+    ],
+    "Idi:N": [
+      "569"
+    ],
+    "Idi:N2": [
+      "569"
+    ],
+    "Idi:NX": [
+      "569"
+    ],
+    "Illusionist Catman": [
+      "787"
+    ],
+    "Illusory Guardian Vega": [
+      "683"
+    ],
+    "Illya the Cat": [
+      "373"
+    ],
+    "Illyasviel": [
+      "365"
+    ],
+    "Illyasviel CC": [
+      "365"
+    ],
+    "Imagawa Yoshimoto": [
+      "339"
+    ],
+    "Immortal Amakusa": [
+      "619"
+    ],
+    "Immortal Hanzo": [
+      "650"
+    ],
+    "Immortal Kaihime": [
+      "497"
+    ],
+    "Immortal Keiji": [
+      "073"
+    ],
+    "Immortal Kenshin": [
+      "159"
+    ],
+    "Immortal Masamune": [
+      "125"
+    ],
+    "Immortal Master Tengu": [
+      "669"
+    ],
+    "Immortal Miyamoto": [
+      "449"
+    ],
+    "Immortal Nobunaga": [
+      "074"
+    ],
+    "Immortal Shingen": [
+      "126"
+    ],
+    "Immortal Yoshimoto": [
+      "339"
+    ],
+    "Immortal Yukimura": [
+      "072"
+    ],
+    "Imoto": [
+      "401"
+    ],
+    "Imoto CC": [
+      "401"
+    ],
+    "Imposter Super Devil": [
+      "470"
+    ],
+    "Infernal Cat": [
+      "477"
+    ],
+    "Inferno Akira": [
+      "195"
+    ],
+    "Inosuke Hashibira": [
+      "844"
+    ],
+    "Inosuke Hashibira CC": [
+      "844"
+    ],
+    "Inspector Gabriel": [
+      "432"
+    ],
+    "Iron Claw X": [
+      "133"
+    ],
+    "Iron-Masked Lion Cat": [
+      "652"
+    ],
+    "Ironcat": [
+      "508"
+    ],
+    "Island Cat": [
+      "007"
+    ],
+    "Issun Boshi": [
+      "693"
+    ],
+    "Iz the Alluring Dancer": [
+      "642"
+    ],
+    "Iz the Dancer": [
+      "642"
+    ],
+    "Iz the Dancer of Grief": [
+      "658"
+    ],
+    "Iz the Lady of Mourning": [
+      "658"
+    ],
+    "Izanami of Dusk": [
+      "739"
+    ],
+    "Izanami of Eventide": [
+      "739"
+    ],
+    "JUPITER KING": [
+      "224"
+    ],
+    "JUPITER KING CC": [
+      "224"
+    ],
+    "Jack Hammer": [
+      "794"
+    ],
+    "Jack Hammer CC": [
+      "794"
+    ],
+    "Jagando Jr.": [
+      "623"
+    ],
+    "Jamie Cat": [
+      "830"
+    ],
+    "Jamie Cat CC": [
+      "830"
+    ],
+    "Jamiera Cat": [
+      "009"
+    ],
+    "Jelly Dumpling Cat": [
+      "528"
+    ],
+    "Jellycat": [
+      "528"
+    ],
+    "Jester Queen Deale": [
+      "358"
+    ],
+    "Jetpack Cat": [
+      "709"
+    ],
+    "Jiangshi Cat": [
+      "038"
+    ],
+    "Jizo's Mega-Castle": [
+      "138"
+    ],
+    "Jizo's Moving Castle": [
+      "138"
+    ],
+    "Joyful Nurse Cat": [
+      "144"
+    ],
+    "Judgment\r": [
+      "069"
+    ],
+    "Juliet Cat": [
+      "151"
+    ],
+    "Juliet the Maiko": [
+      "151"
+    ],
+    "Jungle Gourmet Tomoe": [
+      "873"
+    ],
+    "Jurassic Cat": [
+      "047"
+    ],
+    "Jurassic Cat Sitter": [
+      "047"
+    ],
+    "Juri": [
+      "828"
+    ],
+    "Juri CC": [
+      "828"
+    ],
+    "Juvens": [
+      "188"
+    ],
+    "Juvens CC": [
+      "188"
+    ],
+    "Kabuto Cat": [
+      "616"
+    ],
+    "Kachi-Kachi": [
+      "204"
+    ],
+    "Kachiyama Assault Brigade": [
+      "204"
+    ],
+    "Kagamine Rin & Len": [
+      "538"
+    ],
+    "Kagamine Rin & Len CC": [
+      "538"
+    ],
+    "Kage": [
+      "512"
+    ],
+    "Kaguya of the Coast": [
+      "615"
+    ],
+    "Kai": [
+      "107"
+    ],
+    "Kai, type μ": [
+      "107"
+    ],
+    "Kaioh Cat": [
+      "798"
+    ],
+    "Kaioh Cat CC": [
+      "798"
+    ],
+    "Kaito & Cat": [
+      "592"
+    ],
+    "Kaito & Cat CC": [
+      "592"
+    ],
+    "Kalisa": [
+      "160"
+    ],
+    "Kalisa, type χ": [
+      "160"
+    ],
+    "Kamukura": [
+      "087"
+    ],
+    "Kano ＆ Souma": [
+      "484"
+    ],
+    "Kano ＆ Souma ＆ Cat": [
+      "484"
+    ],
+    "Kaolan Pasalan": [
+      "713"
+    ],
+    "Kaolan Tatalan": [
+      "713"
+    ],
+    "Kaoluga": [
+      "713"
+    ],
+    "Kaoru Cat": [
+      "754"
+    ],
+    "Kaoru Hanayama": [
+      "792"
+    ],
+    "Kaoru Hanayama CC": [
+      "792"
+    ],
+    "Karin Nekozuka": [
+      "390"
+    ],
+    "Karin Nekozuka CC": [
+      "390"
+    ],
+    "Kasa Jizo": [
+      "138"
+    ],
+    "Kasli the Bane": [
+      "544"
+    ],
+    "Kasli the Scourge": [
+      "530"
+    ],
+    "Kasli, Daughter of Chaos": [
+      "544"
+    ],
+    "Katsumi Orochi": [
+      "793"
+    ],
+    "Katsumi Orochi CC": [
+      "793"
+    ],
+    "Kaworu & Cat": [
+      "406"
+    ],
+    "Kaworu Cat": [
+      "553"
+    ],
+    "Keiji Claus": [
+      "585"
+    ],
+    "Ken": [
+      "518"
+    ],
+    "Ken CC": [
+      "518"
+    ],
+    "Kendo Cat": [
+      "378"
+    ],
+    "Kenshin Cat": [
+      "753"
+    ],
+    "Kenshin Himura": [
+      "747"
+    ],
+    "Kenshin Himura CC": [
+      "747"
+    ],
+    "Kerihime": [
+      "027"
+    ],
+    "Kidnapper Cats": [
+      "064"
+    ],
+    "Killer Cat": [
+      "320"
+    ],
+    "Killer Cowbird Cat": [
+      "853"
+    ],
+    "Killer Gross Cat": [
+      "786"
+    ],
+    "Killer Tank Cat": [
+      "696"
+    ],
+    "King Dragon Cat": [
+      "008"
+    ],
+    "King Gamereon": [
+      "135"
+    ],
+    "King Ingot Cat": [
+      "611"
+    ],
+    "King Kuwagata Cat": [
+      "617"
+    ],
+    "King Nekokhamen": [
+      "611"
+    ],
+    "King of Destiny Phonoa": [
+      "691"
+    ],
+    "King of Doom Phono": [
+      "706"
+    ],
+    "King of Extinction Phono": [
+      "706"
+    ],
+    "Kinjirou Cat": [
+      "709"
+    ],
+    "Kinrangers GigaForce": [
+      "526"
+    ],
+    "Kinrangers RoboForce": [
+      "526"
+    ],
+    "Kintaro": [
+      "526"
+    ],
+    "Kirin Neko": [
+      "209"
+    ],
+    "Kirin Neko Kirin": [
+      "209"
+    ],
+    "Kiss and Koi": [
+      "105"
+    ],
+    "Kitaro": [
+      "454"
+    ],
+    "Kite Cat": [
+      "129"
+    ],
+    "Knight Cat": [
+      "021"
+    ],
+    "Knuckles": [
+      "806"
+    ],
+    "Knuckles & Cat": [
+      "806"
+    ],
+    "Koi Cat": [
+      "105"
+    ],
+    "Komori": [
+      "818"
+    ],
+    "Komuso Cat": [
+      "624"
+    ],
+    "Koneko": [
+      "784"
+    ],
+    "Kotatsu Cat": [
+      "034"
+    ],
+    "Kotomine & Gilgamesh Cats": [
+      "461"
+    ],
+    "Kubilan Pasalan": [
+      "170"
+    ],
+    "Kubiluga": [
+      "170"
+    ],
+    "Kung Fu Cat": [
+      "011"
+    ],
+    "Kung Fu Cat X": [
+      "133"
+    ],
+    "Kunio-kun": [
+      "625"
+    ],
+    "Kuromi": [
+      "265"
+    ],
+    "Kuromi and Cats": [
+      "265"
+    ],
+    "Kuu": [
+      "106"
+    ],
+    "Kuu, type γ": [
+      "106"
+    ],
+    "Kuwagata Cat": [
+      "617"
+    ],
+    "Kyojuro Rengoku": [
+      "847"
+    ],
+    "Kyojuro Rengoku CC": [
+      "847"
+    ],
+    "Kyoko & Cat": [
+      "293"
+    ],
+    "Kyoko Cat": [
+      "299"
+    ],
+    "Kyoko Sakura": [
+      "293"
+    ],
+    "Kyosaka Nanaho": [
+      "545"
+    ],
+    "Kyubey": [
+      "294"
+    ],
+    "Kyubey & Cat": [
+      "294"
+    ],
+    "Kyubey Cat": [
+      "302"
+    ],
+    "Lady of Deception Vega": [
+      "683"
+    ],
+    "Lancer": [
+      "367"
+    ],
+    "Lancer CC": [
+      "367"
+    ],
+    "Lasvoss": [
+      "520"
+    ],
+    "Lasvoss Reborn": [
+      "520"
+    ],
+    "Law of Cycles Nagisa": [
+      "441"
+    ],
+    "Leaf Cat": [
+      "016"
+    ],
+    "Legelan Pasalan": [
+      "462"
+    ],
+    "Legeluga": [
+      "462"
+    ],
+    "Lesser Demon Cat": [
+      "045"
+    ],
+    "Let's Go! Akane": [
+      "870"
+    ],
+    "Li'l Axe Cat": [
+      "212"
+    ],
+    "Li'l Baki": [
+      "796"
+    ],
+    "Li'l Baki CC": [
+      "796"
+    ],
+    "Li'l Bird Cat": [
+      "248"
+    ],
+    "Li'l Brave Cat": [
+      "212"
+    ],
+    "Li'l Cat": [
+      "210"
+    ],
+    "Li'l Cow Cat": [
+      "247"
+    ],
+    "Li'l Dark Cat": [
+      "212"
+    ],
+    "Li'l Devil Homura": [
+      "301"
+    ],
+    "Li'l Dragon Cat": [
+      "313"
+    ],
+    "Li'l Eraser Cat": [
+      "211"
+    ],
+    "Li'l Fish Cat": [
+      "312"
+    ],
+    "Li'l Flying Cat": [
+      "248"
+    ],
+    "Li'l Gau": [
+      "068"
+    ],
+    "Li'l Gau Gau": [
+      "068"
+    ],
+    "Li'l Giraffe Cat": [
+      "247"
+    ],
+    "Li'l Gross Cat": [
+      "246"
+    ],
+    "Li'l Homura": [
+      "301"
+    ],
+    "Li'l Island Cat": [
+      "312"
+    ],
+    "Li'l Jamiera Cat": [
+      "314"
+    ],
+    "Li'l Kaoru": [
+      "751"
+    ],
+    "Li'l Kaoru CC": [
+      "751"
+    ],
+    "Li'l King Dragon Cat": [
+      "313"
+    ],
+    "Li'l Lion Cat": [
+      "247"
+    ],
+    "Li'l Lizard Cat": [
+      "313"
+    ],
+    "Li'l Macho Cat": [
+      "210"
+    ],
+    "Li'l Macho Legs Cat": [
+      "246"
+    ],
+    "Li'l Madoka": [
+      "300"
+    ],
+    "Li'l Magical Girl Homura": [
+      "301"
+    ],
+    "Li'l Magical Girl Madoka": [
+      "300"
+    ],
+    "Li'l Mohawk Cat": [
+      "210"
+    ],
+    "Li'l Mythical Titan": [
+      "314"
+    ],
+    "Li'l Nyandam": [
+      "173"
+    ],
+    "Li'l Sakonji Urokodaki": [
+      "848"
+    ],
+    "Li'l Sakonji Urokodaki CC": [
+      "848"
+    ],
+    "Li'l Sakura": [
+      "375"
+    ],
+    "Li'l Sakura CC": [
+      "375"
+    ],
+    "Li'l Sexy Legs Cat": [
+      "246"
+    ],
+    "Li'l Shirou": [
+      "374"
+    ],
+    "Li'l Shirou CC": [
+      "374"
+    ],
+    "Li'l Tank Cat": [
+      "211"
+    ],
+    "Li'l Titan Cat": [
+      "314"
+    ],
+    "Li'l UFO Cat": [
+      "248"
+    ],
+    "Li'l Ultimate Madoka": [
+      "300"
+    ],
+    "Li'l Valkyrie": [
+      "436"
+    ],
+    "Li'l Valkyrie Dark": [
+      "485"
+    ],
+    "Li'l Wall Cat": [
+      "211"
+    ],
+    "Li'l Whale Cat": [
+      "312"
+    ],
+    "Li'l Yahiko": [
+      "752"
+    ],
+    "Li'l Yahiko CC": [
+      "752"
+    ],
+    "Lieutenant Cat": [
+      "777"
+    ],
+    "Lifeguard Cats": [
+      "567"
+    ],
+    "Lightmother Aset": [
+      "724"
+    ],
+    "Lightning Jack": [
+      "699"
+    ],
+    "Lilin": [
+      "620"
+    ],
+    "Lilin π": [
+      "620"
+    ],
+    "Lilith Cat": [
+      "303"
+    ],
+    "Lion Cat": [
+      "005"
+    ],
+    "Lion Dancer Cat": [
+      "731"
+    ],
+    "Little Leaguer Cat": [
+      "288"
+    ],
+    "Living Legend": [
+      "175"
+    ],
+    "Lizard Cat": [
+      "008"
+    ],
+    "Loincloth Cat": [
+      "024"
+    ],
+    "Lollycat": [
+      "016"
+    ],
+    "Lone Cat and Kitten": [
+      "443"
+    ],
+    "Lone Moon Lunos": [
+      "860"
+    ],
+    "Lord of Ruin Jagando Jr.": [
+      "623"
+    ],
+    "Lost World Catgirl Yuki": [
+      "342"
+    ],
+    "Lost World Yuki": [
+      "342"
+    ],
+    "Lost World Yuki & Cat": [
+      "342"
+    ],
+    "Lovely Pretty Cat": [
+      "255"
+    ],
+    "Lovely Yuki Cat": [
+      "182"
+    ],
+    "Lovestruck Greater Demon": [
+      "649"
+    ],
+    "Lovestruck Lesser Demon": [
+      "649"
+    ],
+    "Luchador Cat": [
+      "030"
+    ],
+    "Lucifer the Fallen": [
+      "643"
+    ],
+    "Lucky Gacha Cat": [
+      "559"
+    ],
+    "Lufalan Pasalan": [
+      "171"
+    ],
+    "Luka Cat": [
+      "563"
+    ],
+    "Luka Cat CC": [
+      "563"
+    ],
+    "Luke": [
+      "682"
+    ],
+    "Luke CC": [
+      "682"
+    ],
+    "Lumbercat": [
+      "309"
+    ],
+    "Lumina": [
+      "479"
+    ],
+    "Luminalia": [
+      "479"
+    ],
+    "Lunos the Eclipsed": [
+      "860"
+    ],
+    "Lunos the Luminous": [
+      "838"
+    ],
+    "Luxury Bath Cat": [
+      "041"
+    ],
+    "M. Bison": [
+      "576"
+    ],
+    "M. Bison CC": [
+      "576"
+    ],
+    "M. Bison Cat": [
+      "581"
+    ],
+    "M. Bison Cat CC": [
+      "581"
+    ],
+    "MARCO": [
+      "216"
+    ],
+    "MARCO CC": [
+      "216"
+    ],
+    "MARS PEOPLE": [
+      "222"
+    ],
+    "MARS PEOPLE CC": [
+      "222"
+    ],
+    "MEIKO & Cat": [
+      "562"
+    ],
+    "MEIKO & Cat CC": [
+      "562"
+    ],
+    "MISS Nakamura Kanae": [
+      "194"
+    ],
+    "MISS Yamaoka Minori": [
+      "193"
+    ],
+    "Macho Cat": [
+      "001"
+    ],
+    "Macho Coin Cat": [
+      "376"
+    ],
+    "Macho Crystal Cat": [
+      "383"
+    ],
+    "Macho Firecracker Cat": [
+      "647"
+    ],
+    "Macho Glass Cat": [
+      "383"
+    ],
+    "Macho Leg Cat": [
+      "004"
+    ],
+    "Macho Suntan Cat": [
+      "566"
+    ],
+    "Mad Doctor Klay": [
+      "227"
+    ],
+    "Madam Bride": [
+      "110"
+    ],
+    "Madam King": [
+      "110"
+    ],
+    "Madam the Savannah": [
+      "110"
+    ],
+    "Madame Sumo": [
+      "022"
+    ],
+    "Madhead": [
+      "744"
+    ],
+    "Madhead Cat": [
+      "744"
+    ],
+    "Madoka & Cat": [
+      "289"
+    ],
+    "Madoka Cat": [
+      "295"
+    ],
+    "Madoka Cat & Homura": [
+      "779"
+    ],
+    "Madoka Kaname": [
+      "289"
+    ],
+    "Maeda Christmas": [
+      "585"
+    ],
+    "Maeda Christmas DX": [
+      "585"
+    ],
+    "Maeda Keiji": [
+      "073"
+    ],
+    "Mage Rin Cat": [
+      "372"
+    ],
+    "Magica Cat": [
+      "199"
+    ],
+    "Magical Cat☆ Magica": [
+      "779"
+    ],
+    "Magical Girl Homura Cat": [
+      "296"
+    ],
+    "Magical Girl Kyoko Cat": [
+      "299"
+    ],
+    "Magical Girl Madoka Cat": [
+      "295"
+    ],
+    "Magical Girl Mami Cat": [
+      "298"
+    ],
+    "Magical Girl Sayaka Cat": [
+      "297"
+    ],
+    "Maglev Cat": [
+      "285"
+    ],
+    "Maiden Cat": [
+      "101"
+    ],
+    "Maiko Cat": [
+      "046"
+    ],
+    "Maize Cat": [
+      "719"
+    ],
+    "Major Leaguer Cat": [
+      "288"
+    ],
+    "Major Space Cat": [
+      "079"
+    ],
+    "Malevolent Mad-Duck": [
+      "332"
+    ],
+    "Mama Mummy Sumo": [
+      "774"
+    ],
+    "Mami & Cat": [
+      "292"
+    ],
+    "Mami Cat": [
+      "298"
+    ],
+    "Mami Tomoe": [
+      "292"
+    ],
+    "Mamolan Pasalan": [
+      "782"
+    ],
+    "Mamoluga": [
+      "782"
+    ],
+    "Maneki Cat": [
+      "343"
+    ],
+    "Manic Dark Cat": [
+      "094"
+    ],
+    "Manic Eraser Cat": [
+      "093"
+    ],
+    "Manic Flying Cat": [
+      "097"
+    ],
+    "Manic Island Cat": [
+      "098"
+    ],
+    "Manic Jamiera Cat": [
+      "100"
+    ],
+    "Manic King Dragon": [
+      "099"
+    ],
+    "Manic Lion Cat": [
+      "096"
+    ],
+    "Manic Macho Legs": [
+      "095"
+    ],
+    "Manic Mohawk Cat": [
+      "092"
+    ],
+    "Manic Princess Punt": [
+      "162"
+    ],
+    "Marauder Cat": [
+      "058"
+    ],
+    "Mari Cat": [
+      "409"
+    ],
+    "Mari Illustrious": [
+      "412"
+    ],
+    "Marinmizu": [
+      "361"
+    ],
+    "Marshmallow Cat": [
+      "177"
+    ],
+    "Masai Cat": [
+      "038"
+    ],
+    "Masked Cat": [
+      "030"
+    ],
+    "Masked Grandmaster Cat": [
+      "353"
+    ],
+    "Masked Yulala": [
+      "384"
+    ],
+    "Mass Production EVA": [
+      "815"
+    ],
+    "Mass Production EVA-Cat": [
+      "815"
+    ],
+    "Massaging Futenyan": [
+      "282"
+    ],
+    "Master Uril": [
+      "555"
+    ],
+    "Master of Life Catnova": [
+      "772"
+    ],
+    "Master of Life Dr. Nova": [
+      "772"
+    ],
+    "Master of Logic Mewton": [
+      "802"
+    ],
+    "Master of Logic Newton": [
+      "802"
+    ],
+    "Master of Mind Catcrates": [
+      "729"
+    ],
+    "Master of Mind Soractes": [
+      "729"
+    ],
+    "Master of Selection Clawvin": [
+      "855"
+    ],
+    "Master of Selection Darvin": [
+      "855"
+    ],
+    "Master of the Pacific": [
+      "175"
+    ],
+    "Matador Cat": [
+      "496"
+    ],
+    "Matsu & Nyanko": [
+      "167"
+    ],
+    "Matsuki Saki & Cat": [
+      "424"
+    ],
+    "Matsuki Saki & Cat CC": [
+      "424"
+    ],
+    "Maximum the Fighter": [
+      "048"
+    ],
+    "Mech Patrol Axel": [
+      "775"
+    ],
+    "Mecha Dynasaurus Cat": [
+      "764"
+    ],
+    "Mecha-Bun": [
+      "427"
+    ],
+    "Mecha-Bun Mk II": [
+      "427"
+    ],
+    "Medal Emperor": [
+      "727"
+    ],
+    "Medal King": [
+      "727"
+    ],
+    "Medalist Cat": [
+      "523"
+    ],
+    "Medama-Oyaji": [
+      "455"
+    ],
+    "Meditation Cat": [
+      "690"
+    ],
+    "Medusa Cat": [
+      "522"
+    ],
+    "Mega Cat": [
+      "104"
+    ],
+    "Mega Cat EX": [
+      "104"
+    ],
+    "Megaphrodite": [
+      "260"
+    ],
+    "Megidora": [
+      "085"
+    ],
+    "Megurine Luka": [
+      "561"
+    ],
+    "Megurine Luka CC": [
+      "561"
+    ],
+    "Mekako Saionji": [
+      "196"
+    ],
+    "Mentori": [
+      "400"
+    ],
+    "Mentori CC": [
+      "400"
+    ],
+    "Meow-sketeer": [
+      "381"
+    ],
+    "Meowla Meowla": [
+      "176"
+    ],
+    "Mer-Cat": [
+      "150"
+    ],
+    "Mer-Queen Ruri": [
+      "336"
+    ],
+    "Merc": [
+      "122"
+    ],
+    "Merc & Cat CC": [
+      "122"
+    ],
+    "Merc CC": [
+      "122"
+    ],
+    "Mercenary Leader Felix Cat": [
+      "745"
+    ],
+    "Mesmerizing Tune - Mollyanna": [
+      "743"
+    ],
+    "Metafilibuster": [
+      "463"
+    ],
+    "Metal Cat": [
+      "201"
+    ],
+    "Metal Macho": [
+      "201"
+    ],
+    "Metal Maiden Koneko": [
+      "874"
+    ],
+    "Miasma Cat": [
+      "546"
+    ],
+    "Michelangelo Cat": [
+      "061"
+    ],
+    "Michelia": [
+      "346"
+    ],
+    "Michelia CC": [
+      "346"
+    ],
+    "Midlife Crisis Cat": [
+      "736"
+    ],
+    "Midsummer Cat": [
+      "276"
+    ],
+    "Midsummer Rabbit": [
+      "276"
+    ],
+    "Mighty Aegis Garu": [
+      "586"
+    ],
+    "Mighty Aethur Ltd.": [
+      "595"
+    ],
+    "Mighty Bomburr": [
+      "307"
+    ],
+    "Mighty Carrowsell": [
+      "675"
+    ],
+    "Mighty Deth-Troy-R": [
+      "633"
+    ],
+    "Mighty Drednot": [
+      "306"
+    ],
+    "Mighty Kat-A-Pult": [
+      "305"
+    ],
+    "Mighty Kristul Muu": [
+      "464"
+    ],
+    "Mighty Lord Gao": [
+      "270"
+    ],
+    "Mighty Morta-Loncha": [
+      "800"
+    ],
+    "Mighty Rekon Korps": [
+      "356"
+    ],
+    "Mighty Sphinx Korps": [
+      "716"
+    ],
+    "Mighty Thermae D-Lux": [
+      "418"
+    ],
+    "Mightycat": [
+      "508"
+    ],
+    "Miko Mitama": [
+      "319"
+    ],
+    "Miku Cat": [
+      "539"
+    ],
+    "Miku Cat CC": [
+      "539"
+    ],
+    "Million-Dollar Cat": [
+      "636"
+    ],
+    "Mimic Cat": [
+      "741"
+    ],
+    "Mint": [
+      "185"
+    ],
+    "Minty Love Mekako": [
+      "645"
+    ],
+    "Miraculous Mobius": [
+      "327"
+    ],
+    "Misaki Konno": [
+      "388"
+    ],
+    "Misaki Konno CC": [
+      "388"
+    ],
+    "Misato Katsuragi": [
+      "490"
+    ],
+    "Miss MONEKO": [
+      "017"
+    ],
+    "Miss NENEKO": [
+      "132"
+    ],
+    "Mission Control Mekako": [
+      "196"
+    ],
+    "Mitama the Oracle": [
+      "319"
+    ],
+    "Miter Saw Cat": [
+      "448"
+    ],
+    "Miya Ōdō Rabbit": [
+      "322"
+    ],
+    "Miyabi Oyama": [
+      "396"
+    ],
+    "Miyabi Oyama CC": [
+      "396"
+    ],
+    "Miyamoku Musashi": [
+      "324"
+    ],
+    "Mizli": [
+      "361"
+    ],
+    "Mizuki Tachibana": [
+      "392"
+    ],
+    "Mizuki Tachibana CC": [
+      "392"
+    ],
+    "Mizunade": [
+      "361"
+    ],
+    "Mizuririn": [
+      "361"
+    ],
+    "Mob Cat": [
+      "179"
+    ],
+    "Mobius": [
+      "327"
+    ],
+    "Mochi Cat": [
+      "202"
+    ],
+    "Modern Cat": [
+      "453"
+    ],
+    "Mohawk Cat": [
+      "001"
+    ],
+    "Mola King": [
+      "175"
+    ],
+    "Mollyanna Cat": [
+      "743"
+    ],
+    "Momotaro": [
+      "137"
+    ],
+    "Moneko": [
+      "017"
+    ],
+    "Monk Cat": [
+      "051"
+    ],
+    "Monkey King": [
+      "091"
+    ],
+    "Moon Disciple Kaworu": [
+      "816"
+    ],
+    "Moon Gendo & Fuyutsuki Cats": [
+      "404"
+    ],
+    "Moon Kaworu": [
+      "406"
+    ],
+    "Moon Kaworu Cat": [
+      "553"
+    ],
+    "Moon Operators": [
+      "417"
+    ],
+    "Moonshade Kaworu": [
+      "816"
+    ],
+    "Moririn": [
+      "818"
+    ],
+    "Mother Cat": [
+      "010"
+    ],
+    "Mousse": [
+      "601"
+    ],
+    "Mousse (Duck)": [
+      "601"
+    ],
+    "Mr.": [
+      "012"
+    ],
+    "Mr. Ninja": [
+      "185"
+    ],
+    "Mukyakin": [
+      "134"
+    ],
+    "Mummy Sumo": [
+      "774"
+    ],
+    "Musashi Miyamoto": [
+      "449"
+    ],
+    "Muscleman Cat": [
+      "141"
+    ],
+    "Mushroom Cat": [
+      "677"
+    ],
+    "Music Fest Thundia": [
+      "760"
+    ],
+    "Music Fest Thundia β": [
+      "760"
+    ],
+    "Myrcia": [
+      "503"
+    ],
+    "Myrcia, type ξ": [
+      "503"
+    ],
+    "Mystery Catgirl Yuki": [
+      "181"
+    ],
+    "Mystery Girl Yuki": [
+      "181"
+    ],
+    "Mystery Yuki ＆ Cat": [
+      "181"
+    ],
+    "Mystic Egg N001": [
+      "657"
+    ],
+    "Mystic Egg N005": [
+      "701"
+    ],
+    "Mystic Egg: N004": [
+      "686"
+    ],
+    "Mystic Egg: N111": [
+      "717"
+    ],
+    "Mystic Egg: N112": [
+      "725"
+    ],
+    "Mystic Uril": [
+      "555"
+    ],
+    "Mystic Yulala": [
+      "384"
+    ],
+    "Mystica": [
+      "189"
+    ],
+    "Mystica CC": [
+      "189"
+    ],
+    "Mystican Pasalan": [
+      "437"
+    ],
+    "Mythical Titan Cat": [
+      "009"
+    ],
+    "NEK-0 Sky Fortress": [
+      "307"
+    ],
+    "NEK-02 Air Citadel": [
+      "307"
+    ],
+    "NEK-03 Cloud Emperor": [
+      "307"
+    ],
+    "NEKOTARO": [
+      "316"
+    ],
+    "NERV Moon": [
+      "417"
+    ],
+    "NNN Wunder": [
+      "489"
+    ],
+    "Nabaaru-kun": [
+      "267"
+    ],
+    "Nabaaru-kun and Cat": [
+      "267"
+    ],
+    "Naga Cat": [
+      "522"
+    ],
+    "Nagisa & Cat": [
+      "441"
+    ],
+    "Nakamura Kanae": [
+      "194"
+    ],
+    "Nameless Eyewaltz CC": [
+      "507"
+    ],
+    "Naptime Michelia CC": [
+      "346"
+    ],
+    "Narita Kaihime": [
+      "497"
+    ],
+    "Nazousagi": [
+      "322"
+    ],
+    "Necro-Dancer Cat": [
+      "053"
+    ],
+    "Necromancer Cat": [
+      "053"
+    ],
+    "Nefer Aset": [
+      "724"
+    ],
+    "Neko Hakase": [
+      "310"
+    ],
+    "Neko Hakase and Cat": [
+      "310"
+    ],
+    "Neko Len": [
+      "594"
+    ],
+    "Neko Len CC": [
+      "594"
+    ],
+    "Neko Nyamusu": [
+      "263"
+    ],
+    "Neko Rin": [
+      "593"
+    ],
+    "Neko Rin CC": [
+      "593"
+    ],
+    "Nekoluga": [
+      "035"
+    ],
+    "Nekondo": [
+      "140"
+    ],
+    "Nekondo HG": [
+      "140"
+    ],
+    "Nekonosuke": [
+      "478"
+    ],
+    "Neneko": [
+      "132"
+    ],
+    "Neo Backhoe Cat": [
+      "447"
+    ],
+    "Neo Cutter Cat": [
+      "446"
+    ],
+    "Neo Driller Cat": [
+      "444"
+    ],
+    "Neo Maneki Cat": [
+      "343"
+    ],
+    "Neo Piledriver Cat": [
+      "445"
+    ],
+    "Neo Psychocat": [
+      "198"
+    ],
+    "Neo Saw Cat": [
+      "448"
+    ],
+    "Nerd Cat": [
+      "036"
+    ],
+    "Netherworld Nymph Lunacia": [
+      "788"
+    ],
+    "Neutralization Type Nimue": [
+      "090"
+    ],
+    "New Year Neneko": [
+      "315"
+    ],
+    "Nezuko Cat": [
+      "850"
+    ],
+    "Nezuko Cat CC": [
+      "850"
+    ],
+    "Nezuko Kamado": [
+      "842"
+    ],
+    "Nezuko Kamado CC": [
+      "842"
+    ],
+    "Night Beach Lilin": [
+      "667"
+    ],
+    "Night Beach Lilinπ": [
+      "667"
+    ],
+    "Night Oracle Rei": [
+      "548"
+    ],
+    "Nighthunter Saki": [
+      "534"
+    ],
+    "Nightmare King Vars": [
+      "571"
+    ],
+    "Nimue": [
+      "090"
+    ],
+    "Ninja Cat": [
+      "019"
+    ],
+    "Ninja Frog Cat": [
+      "019"
+    ],
+    "Ninja Girl Tomoe": [
+      "726"
+    ],
+    "Nisetama Army": [
+      "351"
+    ],
+    "Nisetama Cat Army": [
+      "351"
+    ],
+    "Nobilan Pasalan": [
+      "437"
+    ],
+    "Nobiluga": [
+      "437"
+    ],
+    "Nono": [
+      "112"
+    ],
+    "Nono CC": [
+      "112"
+    ],
+    "Noodle Cats": [
+      "089"
+    ],
+    "Nora": [
+      "357"
+    ],
+    "Norn": [
+      "114"
+    ],
+    "Norn CC": [
+      "114"
+    ],
+    "Nosferatu Yukimura": [
+      "684"
+    ],
+    "Novice Mage Shirou Cat": [
+      "458"
+    ],
+    "Nubobo": [
+      "158"
+    ],
+    "Nurse Cat": [
+      "144"
+    ],
+    "Nyalladin": [
+      "082"
+    ],
+    "Nyamusu": [
+      "263"
+    ],
+    "Nymph Cat": [
+      "523"
+    ],
+    "Nyuuyoku-Oyaji": [
+      "455"
+    ],
+    "Obliterator Diabolosa": [
+      "633"
+    ],
+    "Occultist Cat": [
+      "854"
+    ],
+    "Octopus Cat": [
+      "034"
+    ],
+    "Oda Nobunaga": [
+      "074"
+    ],
+    "Oden": [
+      "232"
+    ],
+    "Oden CC": [
+      "232"
+    ],
+    "Office Lady Cat": [
+      "123"
+    ],
+    "Ogre Cat": [
+      "795"
+    ],
+    "Ogre Cat Face": [
+      "795"
+    ],
+    "Old Guardian Cat": [
+      "478"
+    ],
+    "Olga": [
+      "113"
+    ],
+    "Olga CC": [
+      "113"
+    ],
+    "One-Eyed Asuka": [
+      "710"
+    ],
+    "Oni Battlepod Kozuchimaru": [
+      "693"
+    ],
+    "Oni Hayabusa": [
+      "262"
+    ],
+    "Oni Landshaker Kozuchimaru": [
+      "693"
+    ],
+    "Onmyoji Cat": [
+      "199"
+    ],
+    "Ono Misa & Cat": [
+      "425"
+    ],
+    "Ono Misa & Cat CC": [
+      "425"
+    ],
+    "Onyx Egg: N207": [
+      "871"
+    ],
+    "Opulent Verbena": [
+      "359"
+    ],
+    "Orange Shinobi": [
+      "083"
+    ],
+    "Orbital Annihilator Ragnarok": [
+      "356"
+    ],
+    "Orbital Platform Armageddon": [
+      "356"
+    ],
+    "Orthos": [
+      "345"
+    ],
+    "Orthos CC": [
+      "345"
+    ],
+    "Osamu Mikumo & Cat": [
+      "678"
+    ],
+    "Osamu Mikumo & Cat CC": [
+      "678"
+    ],
+    "Otaku Geek Cat": [
+      "430"
+    ],
+    "Oversleeping Beauty Punt": [
+      "070"
+    ],
+    "Ovis": [
+      "421"
+    ],
+    "Ovis CC": [
+      "421"
+    ],
+    "PIKOTARO": [
+      "316"
+    ],
+    "PPAP": [
+      "318"
+    ],
+    "PPT46": [
+      "067"
+    ],
+    "PPT48\r": [
+      "067"
+    ],
+    "Pai-Pai": [
+      "284"
+    ],
+    "Pai-Pai DX": [
+      "284"
+    ],
+    "Pai-Pai Z": [
+      "284"
+    ],
+    "Pair Rope Jump Cat": [
+      "089"
+    ],
+    "Paladin Cat": [
+      "058"
+    ],
+    "Panda Cat": [
+      "607"
+    ],
+    "Panties Cat": [
+      "016"
+    ],
+    "Papalan Pasalan": [
+      "547"
+    ],
+    "Papaluga": [
+      "547"
+    ],
+    "Paperboy Cat": [
+      "852"
+    ],
+    "Paragon Cat": [
+      "690"
+    ],
+    "Paris Cat": [
+      "042"
+    ],
+    "Pastry Cat": [
+      "021"
+    ],
+    "Pegasa": [
+      "734"
+    ],
+    "Pegasa ν": [
+      "734"
+    ],
+    "Perfect Heracrist": [
+      "472"
+    ],
+    "Permed Suntan Cat": [
+      "566"
+    ],
+    "Phantasmal Nobunaga": [
+      "074"
+    ],
+    "Phantom Cat": [
+      "546"
+    ],
+    "Phantom Thief Cat": [
+      "050"
+    ],
+    "Pharoah Reika": [
+      "337"
+    ],
+    "Phoenix Yurinchi\r": [
+      "161"
+    ],
+    "Piccolan Pasalan": [
+      "172"
+    ],
+    "Pied Piper Cat": [
+      "624"
+    ],
+    "Piledriver Cat": [
+      "445"
+    ],
+    "Pink Nyanko Ranger": [
+      "836"
+    ],
+    "Pirate Btl. Balloon": [
+      "253"
+    ],
+    "Pirate Cat": [
+      "049"
+    ],
+    "Pizza Cat": [
+      "152"
+    ],
+    "Plane Cat": [
+      "148"
+    ],
+    "Plug Suit Asuka": [
+      "411"
+    ],
+    "Plug Suit Kaworu": [
+      "406"
+    ],
+    "Plug Suit Mari": [
+      "412"
+    ],
+    "Plug Suit Rei": [
+      "410"
+    ],
+    "Plug Suit Shinji": [
+      "403"
+    ],
+    "Plug Suit Shinji Black": [
+      "403"
+    ],
+    "Pochi": [
+      "264"
+    ],
+    "Pogo Cat": [
+      "038"
+    ],
+    "Pokota": [
+      "420"
+    ],
+    "Pokota CC": [
+      "420"
+    ],
+    "Polevaulter Cat ": [
+      "308"
+    ],
+    "Power Backhoe Cat": [
+      "447"
+    ],
+    "Power Cutter Cat": [
+      "446"
+    ],
+    "Power Driller Cat": [
+      "444"
+    ],
+    "Power Piledriver Cat": [
+      "445"
+    ],
+    "Power Saw Cat": [
+      "448"
+    ],
+    "Pretty Cat": [
+      "255"
+    ],
+    "Primordial Cat": [
+      "453"
+    ],
+    "Prince Yamato": [
+      "474"
+    ],
+    "Princess Cat": [
+      "613"
+    ],
+    "Princess Juliet Cat": [
+      "151"
+    ],
+    "Princess Kaguya": [
+      "139"
+    ],
+    "Principal Cat": [
+      "736"
+    ],
+    "Prisoner Cat": [
+      "080"
+    ],
+    "Prof. Cat Jobs": [
+      "238"
+    ],
+    "Professor Abyss": [
+      "482"
+    ],
+    "Psychocat": [
+      "198"
+    ],
+    "Pumpcat": [
+      "228"
+    ],
+    "Pumpkin Sodom": [
+      "773"
+    ],
+    "Puppetmaster & Charley": [
+      "127"
+    ],
+    "Puppetmaster Cat": [
+      "127"
+    ],
+    "Quarterback Cat": [
+      "540"
+    ],
+    "Queen Reika": [
+      "337"
+    ],
+    "Queen Succubus Cat": [
+      "303"
+    ],
+    "Quizmaster Cat": [
+      "061"
+    ],
+    "Rabbit Champion Satoru": [
+      "700"
+    ],
+    "Rabbit Golem": [
+      "257"
+    ],
+    "Rabbit Satoru": [
+      "700"
+    ],
+    "Raclesa the Lioness ": [
+      "831"
+    ],
+    "Raclesa Σ": [
+      "831"
+    ],
+    "Racquet Cat": [
+      "676"
+    ],
+    "Radiant Aphrodite": [
+      "260"
+    ],
+    "Radical Cat": [
+      "320"
+    ],
+    "Ragelan Pasalan": [
+      "626"
+    ],
+    "Raiden": [
+      "088"
+    ],
+    "Ramen Cat": [
+      "149"
+    ],
+    "Rampage Cats": [
+      "064"
+    ],
+    "Rampaging Yamato": [
+      "474"
+    ],
+    "Ranma & Nyanko": [
+      "166"
+    ],
+    "Ranma Cat (F)": [
+      "605"
+    ],
+    "Ranma Cat (M)": [
+      "605"
+    ],
+    "Ranma Saotome (Cheer)": [
+      "672"
+    ],
+    "Ranma Saotome (F)": [
+      "597"
+    ],
+    "Ranma Saotome (Leotard)": [
+      "672"
+    ],
+    "Ranma Saotome (M)": [
+      "597"
+    ],
+    "Rapper Cat": [
+      "820"
+    ],
+    "Rathalos": [
+      "207"
+    ],
+    "Rathalos & Cat": [
+      "207"
+    ],
+    "Rathian": [
+      "208"
+    ],
+    "Rathian & Cat": [
+      "208"
+    ],
+    "Ravenous Cherry": [
+      "770"
+    ],
+    "Reaper\r": [
+      "069"
+    ],
+    "Reaper 999\r": [
+      "069"
+    ],
+    "Reborn Warrior Doguemon": [
+      "465"
+    ],
+    "Reckless Belial": [
+      "328"
+    ],
+    "Red Marron": [
+      "103"
+    ],
+    "Red Marron CC": [
+      "103"
+    ],
+    "Red Nyanko Ranger": [
+      "832"
+    ],
+    "Red Riding Mina": [
+      "269"
+    ],
+    "Redhead Lovely Yuki Cat": [
+      "341"
+    ],
+    "Redhead Muscled Yuki Cat": [
+      "341"
+    ],
+    "Redhead Yuki Cat": [
+      "341"
+    ],
+    "Rei": [
+      "119"
+    ],
+    "Rei Ayanami": [
+      "410"
+    ],
+    "Rei Ayanami (???)": [
+      "492"
+    ],
+    "Rei CC": [
+      "119"
+    ],
+    "Rei Cat": [
+      "407"
+    ],
+    "Reindeer Fish Cat": [
+      "075"
+    ],
+    "Reindeer Terun": [
+      "688"
+    ],
+    "Reindeer Terunζ": [
+      "688"
+    ],
+    "Relentless Gladios": [
+      "506"
+    ],
+    "Ren Katagiri": [
+      "389"
+    ],
+    "Ren Katagiri CC": [
+      "389"
+    ],
+    "Retsu Kaioh": [
+      "791"
+    ],
+    "Retsu Kaioh CC": [
+      "791"
+    ],
+    "Reunion Li'l Rei": [
+      "410"
+    ],
+    "Revolutionary Hearscht CC": [
+      "186"
+    ],
+    "Ribbon Cat": [
+      "836"
+    ],
+    "Riceball Cat": [
+      "022"
+    ],
+    "Rich Cat III": [
+      "239"
+    ],
+    "Rich Cat Sr.": [
+      "239"
+    ],
+    "Richest Cat": [
+      "239"
+    ],
+    "Rider": [
+      "368"
+    ],
+    "Rider CC": [
+      "368"
+    ],
+    "Rider the Cat": [
+      "460"
+    ],
+    "Rin Tohsaka": [
+      "364"
+    ],
+    "Rin Tohsaka CC": [
+      "364"
+    ],
+    "Rin the Cat": [
+      "372"
+    ],
+    "Ring Girl Cat": [
+      "152"
+    ],
+    "Ritsuko Akagi": [
+      "491"
+    ],
+    "Ritual Cat": [
+      "071"
+    ],
+    "Ritual Saint Kasli": [
+      "530"
+    ],
+    "Robocat": [
+      "148"
+    ],
+    "Rock Revengers": [
+      "323"
+    ],
+    "Rocker Cat": [
+      "149"
+    ],
+    "Rodeo Cat": [
+      "146"
+    ],
+    "Roe Cat": [
+      "062"
+    ],
+    "Rooster Cat": [
+      "156"
+    ],
+    "Rope Jump Cat": [
+      "089"
+    ],
+    "Rosary Angel": [
+      "475"
+    ],
+    "Rover Cat": [
+      "377"
+    ],
+    "Rover Cat Mk II": [
+      "377"
+    ],
+    "Royal Guard Cat": [
+      "529"
+    ],
+    "Rugby Cat": [
+      "540"
+    ],
+    "Ryoga Hibiki": [
+      "599"
+    ],
+    "Ryoga Hibiki (Pig)": [
+      "599"
+    ],
+    "Ryu": [
+      "512"
+    ],
+    "Ryu CC": [
+      "512"
+    ],
+    "Ryu Cat": [
+      "509"
+    ],
+    "Ryu Cat CC": [
+      "509"
+    ],
+    "SOL DAE ROKKER": [
+      "728"
+    ],
+    "SOL DAE ROKKER CC": [
+      "728"
+    ],
+    "SSS Monkey King": [
+      "091"
+    ],
+    "SV-001": [
+      "220"
+    ],
+    "SV-001 CC": [
+      "220"
+    ],
+    "Saber": [
+      "363"
+    ],
+    "Saber Alter CC": [
+      "363"
+    ],
+    "Saber Alter Cat": [
+      "370"
+    ],
+    "Saber CC": [
+      "363"
+    ],
+    "Saber the Cat": [
+      "370"
+    ],
+    "Sacred Blade Sakura": [
+      "398"
+    ],
+    "Sacred Blade Sakura Z": [
+      "398"
+    ],
+    "Sadako Cat": [
+      "034"
+    ],
+    "Sagat": [
+      "575"
+    ],
+    "Sagat CC": [
+      "575"
+    ],
+    "Sagat Cat": [
+      "580"
+    ],
+    "Sagat Cat CC": [
+      "580"
+    ],
+    "Sailor Swordsman": [
+      "250"
+    ],
+    "Saionji Hitomi": [
+      "165"
+    ],
+    "Sairi Nijitani": [
+      "387"
+    ],
+    "Sairi Nijitani CC": [
+      "387"
+    ],
+    "Saki Nijima": [
+      "394"
+    ],
+    "Saki Nijima CC": [
+      "394"
+    ],
+    "Sakura": [
+      "681"
+    ],
+    "Sakura CC": [
+      "681"
+    ],
+    "Sakura Matou": [
+      "457"
+    ],
+    "Sakura Matou CC": [
+      "457"
+    ],
+    "Sakura Miku": [
+      "537"
+    ],
+    "Sakura Miku CC": [
+      "537"
+    ],
+    "Sakura Sonic": [
+      "398"
+    ],
+    "Sakura the Cat": [
+      "371"
+    ],
+    "Salaryman Cat": [
+      "071"
+    ],
+    "Salon Cat": [
+      "042"
+    ],
+    "Salvation's Daughter Lunacia": [
+      "780"
+    ],
+    "Samba Cat": [
+      "023"
+    ],
+    "Samba Saki CC": [
+      "394"
+    ],
+    "Samurai Cat": [
+      "021"
+    ],
+    "Sanada Yukimura": [
+      "072"
+    ],
+    "Sanosuke Sagara": [
+      "748"
+    ],
+    "Sanosuke Sagara CC": [
+      "748"
+    ],
+    "Santa Kuu": [
+      "243"
+    ],
+    "Santa Kuu, type γ": [
+      "243"
+    ],
+    "Sanzo Cat": [
+      "051"
+    ],
+    "Saotome Hikaru": [
+      "164"
+    ],
+    "Sardine": [
+      "767"
+    ],
+    "Sardine CC": [
+      "767"
+    ],
+    "Sarukani": [
+      "323"
+    ],
+    "Sashimi Cat": [
+      "075"
+    ],
+    "Satanmaria": [
+      "471"
+    ],
+    "Satori Hikami & Cat": [
+      "385"
+    ],
+    "Satori Hikami & Cat CC": [
+      "385"
+    ],
+    "Savior Mystica CC": [
+      "189"
+    ],
+    "Sayaka & Cat": [
+      "291"
+    ],
+    "Sayaka Cat": [
+      "297"
+    ],
+    "Sayaka Miki": [
+      "291"
+    ],
+    "Scarf Cat": [
+      "832"
+    ],
+    "Schoolbus Nyandam": [
+      "173"
+    ],
+    "Sea King Daliasan": [
+      "661"
+    ],
+    "Sea Maiden Ruri": [
+      "336"
+    ],
+    "Sea Mistress Ruri": [
+      "336"
+    ],
+    "Sea Serpent Daliasan": [
+      "661"
+    ],
+    "Seabreeze Coppermine": [
+      "495"
+    ],
+    "Seabreeze Coppermine, type κ": [
+      "495"
+    ],
+    "Seafarer Cat": [
+      "200"
+    ],
+    "Seashore Kai": [
+      "355"
+    ],
+    "Seashore Kai, type μ": [
+      "355"
+    ],
+    "Seaside Neneko": [
+      "277"
+    ],
+    "Seaside Pegasa": [
+      "821"
+    ],
+    "Seaside Pegasa v": [
+      "821"
+    ],
+    "Secret Base": [
+      "109"
+    ],
+    "Secret Crush Cat": [
+      "651"
+    ],
+    "Secret God": [
+      "142"
+    ],
+    "Section Chief Gravicci": [
+      "432"
+    ],
+    "Sengoku Ashura": [
+      "252"
+    ],
+    "Serum": [
+      "116"
+    ],
+    "Serum CC": [
+      "116"
+    ],
+    "Setsuko": [
+      "266"
+    ],
+    "Setsuko Love Mackerel": [
+      "266"
+    ],
+    "Sexy Bathtub Cat": [
+      "041"
+    ],
+    "Sexy Legs Cat": [
+      "004"
+    ],
+    "Shadow": [
+      "807"
+    ],
+    "Shadow & Cat": [
+      "807"
+    ],
+    "Shadow Akira": [
+      "195"
+    ],
+    "Shadow Cat": [
+      "810"
+    ],
+    "Shadow Cat CC": [
+      "810"
+    ],
+    "Shadow Gao": [
+      "334"
+    ],
+    "Shakurel Cat": [
+      "498"
+    ],
+    "Shakurel Lion": [
+      "499"
+    ],
+    "Shakurel Lion CC": [
+      "499"
+    ],
+    "Shakurel Macho Cat": [
+      "498"
+    ],
+    "Shakurel Panda": [
+      "501"
+    ],
+    "Shakurel Panda CC": [
+      "501"
+    ],
+    "Shakurel Tiger": [
+      "500"
+    ],
+    "Shakurel Tiger CC": [
+      "500"
+    ],
+    "Shaman Cat": [
+      "053"
+    ],
+    "Shaman Khan": [
+      "556"
+    ],
+    "Shampoo": [
+      "600"
+    ],
+    "Shampoo (Cat)": [
+      "600"
+    ],
+    "Sharpshooter Saki": [
+      "534"
+    ],
+    "Sheria - Kirin": [
+      "206"
+    ],
+    "Sheria - KirinX": [
+      "206"
+    ],
+    "Shigong Cat": [
+      "524"
+    ],
+    "Shin Godzilla Cat": [
+      "612"
+    ],
+    "Shining Amaterasu": [
+      "272"
+    ],
+    "Shinji & Cat": [
+      "403"
+    ],
+    "Shinji Cat": [
+      "416"
+    ],
+    "Shinobu Kocho": [
+      "846"
+    ],
+    "Shinobu Kocho CC": [
+      "846"
+    ],
+    "Shiratori Shōchikubai": [
+      "167"
+    ],
+    "Shiro Amakusa": [
+      "619"
+    ],
+    "Shirou Emiya": [
+      "865"
+    ],
+    "Shirou Emiya CC": [
+      "865"
+    ],
+    "Shirou the Cat": [
+      "458"
+    ],
+    "Shishilan Pasalan": [
+      "241"
+    ],
+    "Shitakiri Sparrow": [
+      "634"
+    ],
+    "Showoff Cat": [
+      "155"
+    ],
+    "Shōyan & Nyanko": [
+      "163"
+    ],
+    "Sick Cat": [
+      "080"
+    ],
+    "Siege Walker Diabolosa": [
+      "633"
+    ],
+    "Sifu Cat": [
+      "524"
+    ],
+    "Skelecat": [
+      "020"
+    ],
+    "Skirt Cat": [
+      "024"
+    ],
+    "Skull Rider Vars": [
+      "571"
+    ],
+    "Slapstick Cats": [
+      "153"
+    ],
+    "Sleeping Beauty Punt\r": [
+      "070"
+    ],
+    "Sleeping Beauty Punt II\r": [
+      "070"
+    ],
+    "Slime Cat": [
+      "528"
+    ],
+    "Slug Jockey Cat": [
+      "344"
+    ],
+    "Slugcat": [
+      "344"
+    ],
+    "Sniper the Deadeye": [
+      "240"
+    ],
+    "Sniper the Heavy": [
+      "240"
+    ],
+    "Sniper the Recruit": [
+      "240"
+    ],
+    "Snow Angel Twinstars": [
+      "527"
+    ],
+    "Snow Angel Twinstars, type Φ": [
+      "527"
+    ],
+    "Snow Faerie Illya": [
+      "373"
+    ],
+    "Snow Miku 2021": [
+      "591"
+    ],
+    "Snow Miku CC 2021": [
+      "591"
+    ],
+    "So-Ran Cat": [
+      "283"
+    ],
+    "Soap Cat": [
+      "707"
+    ],
+    "Soba Cat": [
+      "274"
+    ],
+    "Sodom": [
+      "084"
+    ],
+    "Sodom-o'-Lantern": [
+      "773"
+    ],
+    "Solar Cat": [
+      "039"
+    ],
+    "Sonic": [
+      "804"
+    ],
+    "Sonic & Cat": [
+      "804"
+    ],
+    "Sonic Cat": [
+      "808"
+    ],
+    "Sonic Cat CC": [
+      "808"
+    ],
+    "Sonic Siren Koneko": [
+      "874"
+    ],
+    "Sorceress Cat": [
+      "056"
+    ],
+    "Sorceress Sidmi": [
+      "825"
+    ],
+    "Souma Cat": [
+      "429"
+    ],
+    "Souma ＆ Cat": [
+      "483"
+    ],
+    "Space Cat": [
+      "079"
+    ],
+    "Space Marine Cat": [
+      "079"
+    ],
+    "Special Ops Mari": [
+      "409"
+    ],
+    "Spectral Goth Vega": [
+      "683"
+    ],
+    "Spirit (Axel)": [
+      "776"
+    ],
+    "Spirit (Cherry)": [
+      "771"
+    ],
+    "Spirit (Darvin)": [
+      "856"
+    ],
+    "Spirit (Dynasaurus)": [
+      "765"
+    ],
+    "Spirit (Gunduros)": [
+      "762"
+    ],
+    "Spirit (Gunhauzer)": [
+      "801"
+    ],
+    "Spirit (Izanagi)": [
+      "733"
+    ],
+    "Spirit (Izanami)": [
+      "740"
+    ],
+    "Spirit (Kaworu)": [
+      "817"
+    ],
+    "Spirit (Komori)": [
+      "819"
+    ],
+    "Spirit (Luno)": [
+      "839"
+    ],
+    "Spirit (Lunos)": [
+      "840",
+      "861"
+    ],
+    "Spirit (Mamoluga)": [
+      "783"
+    ],
+    "Spirit (Master of Mind)": [
+      "730"
+    ],
+    "Spirit (Mewton)": [
+      "803"
+    ],
+    "Spirit (Mitsuhide)": [
+      "756"
+    ],
+    "Spirit (Pegasa)": [
+      "735"
+    ],
+    "Spirit (Seaside Pegasa)": [
+      "822"
+    ],
+    "Spirit (Sidmi)": [
+      "826"
+    ],
+    "Spirit (Skanda)": [
+      "813"
+    ],
+    "Spiritual Yulala": [
+      "384"
+    ],
+    "Splendid Ganesha": [
+      "273"
+    ],
+    "Spooky Thundia": [
+      "231"
+    ],
+    "Spooky Thundia, type β": [
+      "231"
+    ],
+    "Sports Day Cat": [
+      "064"
+    ],
+    "Sportsgirl Cat": [
+      "101"
+    ],
+    "Spring Breeze Kenshin": [
+      "331"
+    ],
+    "SpringDroid": [
+      "078"
+    ],
+    "Springtime Kenshin": [
+      "331"
+    ],
+    "Squid": [
+      "768"
+    ],
+    "Squid CC": [
+      "768"
+    ],
+    "Squire Luno": [
+      "838"
+    ],
+    "Squirtgun Saki": [
+      "564"
+    ],
+    "Squish Ball Cat": [
+      "141"
+    ],
+    "Starlight MOMOCO": [
+      "456"
+    ],
+    "Stealth Class Rep Cat": [
+      "697"
+    ],
+    "Steel Sergeant Axel": [
+      "775"
+    ],
+    "Stilts Cat": [
+      "147"
+    ],
+    "Stone Cat": [
+      "582"
+    ],
+    "Storm Beast Naala": [
+      "654"
+    ],
+    "Strike Angel": [
+      "475"
+    ],
+    "Strike Unit R.E.I.": [
+      "287"
+    ],
+    "Stylish Souma Cat": [
+      "429"
+    ],
+    "Subaru Hoshi": [
+      "395"
+    ],
+    "Subaru Hoshi CC": [
+      "395"
+    ],
+    "Subterra Guardians": [
+      "418"
+    ],
+    "Subterra Saviors": [
+      "418"
+    ],
+    "Subterra Sentinels": [
+      "418"
+    ],
+    "Succubus Cat": [
+      "303"
+    ],
+    "Sugar Rush Shinobi Tomoe": [
+      "726"
+    ],
+    "Sukeban Cat": [
+      "168"
+    ],
+    "Sukelan Kakulan": [
+      "547"
+    ],
+    "Summerluga": [
+      "565"
+    ],
+    "Summoner Satoru": [
+      "618"
+    ],
+    "Sumo Cat": [
+      "022"
+    ],
+    "Sunny Neneko": [
+      "277"
+    ],
+    "Suntan Cat": [
+      "566"
+    ],
+    "Super D-Devil": [
+      "470"
+    ],
+    "Super Devil": [
+      "470"
+    ],
+    "Super Galaxy Cosmo": [
+      "136"
+    ],
+    "Super Mr.": [
+      "012"
+    ],
+    "Super S-Zeus": [
+      "468"
+    ],
+    "Super Zeus": [
+      "468"
+    ],
+    "Supercar Cat": [
+      "686"
+    ],
+    "Supercat": [
+      "508"
+    ],
+    "Superfeline": [
+      "644"
+    ],
+    "Superfeline II": [
+      "644"
+    ],
+    "Supernova Cosmo": [
+      "136"
+    ],
+    "Superstar Koneko": [
+      "784"
+    ],
+    "Superstar MONEKO": [
+      "017"
+    ],
+    "Surfer Cat": [
+      "200"
+    ],
+    "Surgeon Cat": [
+      "665"
+    ],
+    "Suruzu": [
+      "235"
+    ],
+    "Suruzu CC": [
+      "235"
+    ],
+    "Sushi Cat": [
+      "062"
+    ],
+    "Swashbuckler Kanna": [
+      "608"
+    ],
+    "Sweet Aphrodite": [
+      "588"
+    ],
+    "Sweet Bro Cats": [
+      "567"
+    ],
+    "Sweet Love Mekako": [
+      "645"
+    ],
+    "Sweetheart Neneko": [
+      "590"
+    ],
+    "Swimmer Cat": [
+      "037"
+    ],
+    "Sword Master Cat": [
+      "059"
+    ],
+    "Swordscat Kaoru": [
+      "754"
+    ],
+    "Swordsman": [
+      "065"
+    ],
+    "Swordsman Cat": [
+      "059"
+    ],
+    "Swordsman Johnny": [
+      "065"
+    ],
+    "Swordsman of the Ming Emperor": [
+      "250"
+    ],
+    "Swordswoman Hina": [
+      "487"
+    ],
+    "TARMA": [
+      "217"
+    ],
+    "TARMA CC": [
+      "217"
+    ],
+    "Tails": [
+      "805"
+    ],
+    "Tails & Cat": [
+      "805"
+    ],
+    "Tails Cat": [
+      "809"
+    ],
+    "Tails Cat CC": [
+      "809"
+    ],
+    "Taitenki": [
+      "769"
+    ],
+    "Taitenki CC": [
+      "769"
+    ],
+    "Takeda Shingen": [
+      "126"
+    ],
+    "Takuya & Yuki": [
+      "180"
+    ],
+    "Takuya, Yuki & Cat": [
+      "180"
+    ],
+    "Takuya＆ Lovely Yuki": [
+      "180"
+    ],
+    "Tanjiro Cat": [
+      "849"
+    ],
+    "Tanjiro Cat CC": [
+      "849"
+    ],
+    "Tanjiro Kamado": [
+      "841"
+    ],
+    "Tanjiro Kamado CC": [
+      "841"
+    ],
+    "Tank Cat": [
+      "002"
+    ],
+    "Tank Kyubey Cat": [
+      "302"
+    ],
+    "Tank Pochi": [
+      "264"
+    ],
+    "Tanky": [
+      "279"
+    ],
+    "Tanky 'n' Cat": [
+      "279"
+    ],
+    "Tasmanian Giant Crab": [
+      "814"
+    ],
+    "Tasmanian Giant Crab CC": [
+      "814"
+    ],
+    "Tatewaki Kuno": [
+      "604"
+    ],
+    "Tatewaki Kuno (Gi)": [
+      "604"
+    ],
+    "Tathagata Cat": [
+      "031"
+    ],
+    "Tea Master Cat": [
+      "631"
+    ],
+    "Teacher BearCat": [
+      "532"
+    ],
+    "Teal Egg: N102": [
+      "660"
+    ],
+    "Teal Egg: N105": [
+      "676"
+    ],
+    "Teal Egg: N108": [
+      "707"
+    ],
+    "Tecoluga": [
+      "171"
+    ],
+    "Tekachi": [
+      "720"
+    ],
+    "Tempest King Vornado": [
+      "862"
+    ],
+    "Tesalan Pasalan": [
+      "171"
+    ],
+    "Tetsukachi": [
+      "720"
+    ],
+    "Thaumaturge Cat": [
+      "199"
+    ],
+    "The 10th Angel": [
+      "551"
+    ],
+    "The 4th Angel": [
+      "549"
+    ],
+    "The 6th Angel": [
+      "550"
+    ],
+    "The 9th Angel": [
+      "552"
+    ],
+    "The Amazing Catman": [
+      "787"
+    ],
+    "The Black Cat": [
+      "213"
+    ],
+    "The Chaos Moon": [
+      "139"
+    ],
+    "The Death Moon": [
+      "139"
+    ],
+    "The Flying Cat": [
+      "006"
+    ],
+    "The Grateful Crane": [
+      "136"
+    ],
+    "The Grey Fox": [
+      "213"
+    ],
+    "The Invisible Cat": [
+      "864"
+    ],
+    "The Kitty of Liberty": [
+      "378"
+    ],
+    "The Majestic Zeus": [
+      "258"
+    ],
+    "The One-Hit Wonders": [
+      "323"
+    ],
+    "The Peach Angels": [
+      "137"
+    ],
+    "The Peach Devils": [
+      "137"
+    ],
+    "The Southern Sun": [
+      "615"
+    ],
+    "The Southern Sunflare": [
+      "615"
+    ],
+    "The Spectral Cat": [
+      "213"
+    ],
+    "The White Rabbit": [
+      "213"
+    ],
+    "Thief Cat": [
+      "050"
+    ],
+    "Thor Cat": [
+      "048"
+    ],
+    "Thunder God Zeus": [
+      "258"
+    ],
+    "Thunder Jack": [
+      "699"
+    ],
+    "Thunderclap Horsemen Cavalry": [
+      "251"
+    ],
+    "Thundia": [
+      "077"
+    ],
+    "Thundia, type β": [
+      "077"
+    ],
+    "Tights Cat": [
+      "024"
+    ],
+    "Time Traveller Cat": [
+      "261"
+    ],
+    "Tin Cat": [
+      "148"
+    ],
+    "Titan Cat": [
+      "009"
+    ],
+    "Titi": [
+      "192"
+    ],
+    "Titi CC": [
+      "192"
+    ],
+    "Titi Cat CC": [
+      "192"
+    ],
+    "Todomeki": [
+      "347"
+    ],
+    "Todomeki CC": [
+      "347"
+    ],
+    "Togelan Pasalan": [
+      "241"
+    ],
+    "Togeluga": [
+      "241"
+    ],
+    "Toji & Kensuke Cats": [
+      "416"
+    ],
+    "Tomboy Lion Cat": [
+      "652"
+    ],
+    "Tommy & Cat": [
+      "165"
+    ],
+    "Totem Cat": [
+      "147"
+    ],
+    "Tourist Cat": [
+      "443"
+    ],
+    "Toy Machine Cat": [
+      "063"
+    ],
+    "Trash Cat": [
+      "741"
+    ],
+    "Trickster Himeyuri": [
+      "335"
+    ],
+    "Tricycle Cat": [
+      "018"
+    ],
+    "Trixi the Merc": [
+      "759"
+    ],
+    "Trixi the Revenant": [
+      "759"
+    ],
+    "Tropical Kalisa": [
+      "275"
+    ],
+    "Tropical Kalisa, type X": [
+      "275"
+    ],
+    "True Assassin": [
+      "866"
+    ],
+    "True Assassin CC": [
+      "866"
+    ],
+    "True Killer Cat": [
+      "320"
+    ],
+    "True Killer Cowbird Cat": [
+      "853"
+    ],
+    "True Killer Gross Cat": [
+      "786"
+    ],
+    "True Killer Tank Cat": [
+      "696"
+    ],
+    "True Kyosaka Nanaho": [
+      "545"
+    ],
+    "True Love Neneko": [
+      "590"
+    ],
+    "True Superfeline": [
+      "644"
+    ],
+    "True Valkyrie Cat": [
+      "025"
+    ],
+    "Tutorial Cat": [
+      "143"
+    ],
+    "Twinstars": [
+      "352"
+    ],
+    "Twinstars, type Φ": [
+      "352"
+    ],
+    "Twintail Medusa Cat": [
+      "522"
+    ],
+    "Tycoon Cat": [
+      "871"
+    ],
+    "Type 10": [
+      "055"
+    ],
+    "Tyrant Cat": [
+      "587"
+    ],
+    "UFO Btl. Balloon": [
+      "253"
+    ],
+    "UFO Cat": [
+      "006"
+    ],
+    "Uesugi Kenshin": [
+      "159"
+    ],
+    "Ukyo Kuonji": [
+      "603"
+    ],
+    "Ukyo Kuonji (GR)": [
+      "603"
+    ],
+    "Ultima Galaxy Cosmo": [
+      "136"
+    ],
+    "Ultimate Bondage Cat": [
+      "013"
+    ],
+    "Ultimate Catman": [
+      "197"
+    ],
+    "Ultimate Lasvoss": [
+      "520"
+    ],
+    "Ultimate Madoka": [
+      "289"
+    ],
+    "Ultimate Mecha-Bun": [
+      "427"
+    ],
+    "Ultimate Thundia": [
+      "077"
+    ],
+    "Ultimate Windy": [
+      "076"
+    ],
+    "Ultra Atlantis Logistix": [
+      "595"
+    ],
+    "Ultra Delinquent Cat": [
+      "032"
+    ],
+    "Ultra Kaguya": [
+      "139"
+    ],
+    "Ultra Kasa Jizo": [
+      "138"
+    ],
+    "Ultralan Pasalan": [
+      "035"
+    ],
+    "Undead Cat": [
+      "249"
+    ],
+    "Unicycle Cat": [
+      "018"
+    ],
+    "Unit-02, Code 777": [
+      "415"
+    ],
+    "Unknown Cat": [
+      "035"
+    ],
+    "Urashima Taro": [
+      "135"
+    ],
+    "Urs & Fenrir": [
+      "533"
+    ],
+    "Urs & Minka": [
+      "533"
+    ],
+    "Ururun Cat": [
+      "131"
+    ],
+    "Ururun Wolf": [
+      "131"
+    ],
+    "Ushiwakamaru": [
+      "452"
+    ],
+    "Uzumasa Moe & Cat": [
+      "423"
+    ],
+    "Uzumasa Moe & Cat CC": [
+      "423"
+    ],
+    "Uzumasa Rei & Cat": [
+      "426"
+    ],
+    "Uzumasa Rei & Cat CC": [
+      "426"
+    ],
+    "Vacation Queen": [
+      "123"
+    ],
+    "Val Val Cat": [
+      "124"
+    ],
+    "Valentine's Neneko": [
+      "590"
+    ],
+    "Valiant D'arktanyan": [
+      "442"
+    ],
+    "Valiant Poseidon": [
+      "317"
+    ],
+    "Valkyrie": [
+      "233"
+    ],
+    "Valkyrie CC": [
+      "233"
+    ],
+    "Valkyrie Cat": [
+      "025"
+    ],
+    "Value Meal Cat": [
+      "214"
+    ],
+    "Vampiric Yukimura": [
+      "684"
+    ],
+    "Vanished NNN Wunder": [
+      "489"
+    ],
+    "Vars": [
+      "086"
+    ],
+    "Vaulter Cat": [
+      "308"
+    ],
+    "Vega": [
+      "574"
+    ],
+    "Vega CC": [
+      "574"
+    ],
+    "Vega Cat": [
+      "579"
+    ],
+    "Vega Cat CC": [
+      "579"
+    ],
+    "Vendor Cat": [
+      "063"
+    ],
+    "Vendor Cat and Kitten": [
+      "443"
+    ],
+    "Vengeful Cat": [
+      "129"
+    ],
+    "Verbena the Bride": [
+      "359"
+    ],
+    "Victorious Skanda": [
+      "812"
+    ],
+    "Viking Cat": [
+      "048"
+    ],
+    "Violet Egg: N107": [
+      "698"
+    ],
+    "Violet Egg: N203": [
+      "714"
+    ],
+    "Violet Egg: N205": [
+      "758"
+    ],
+    "Vodka Cat": [
+      "529"
+    ],
+    "Volcano Golem": [
+      "257"
+    ],
+    "Voli": [
+      "402"
+    ],
+    "Volley Cat": [
+      "380"
+    ],
+    "Volta": [
+      "402"
+    ],
+    "Voluptuous Peony - Daji": [
+      "742"
+    ],
+    "Vornado": [
+      "862"
+    ],
+    "Waitress Cat": [
+      "274"
+    ],
+    "Wakamiko Cat": [
+      "476"
+    ],
+    "Wall Cat": [
+      "002"
+    ],
+    "Wargod Amakusa": [
+      "619"
+    ],
+    "Wargod Hanzo": [
+      "650"
+    ],
+    "Wargod Kaihime": [
+      "497"
+    ],
+    "Wargod Keiji": [
+      "073"
+    ],
+    "Wargod Kenshin": [
+      "159"
+    ],
+    "Wargod Kotaro": [
+      "851"
+    ],
+    "Wargod Masamune": [
+      "125"
+    ],
+    "Wargod Mitsuhide": [
+      "755"
+    ],
+    "Wargod Miyamoto": [
+      "449"
+    ],
+    "Wargod Nobunaga": [
+      "074"
+    ],
+    "Wargod Shingen": [
+      "126"
+    ],
+    "Wargod Yoshimoto": [
+      "339"
+    ],
+    "Wargod Yukimura": [
+      "072"
+    ],
+    "Warlock and Pierre": [
+      "227"
+    ],
+    "Warrior Ashura": [
+      "252"
+    ],
+    "Warrior King Cat": [
+      "476"
+    ],
+    "Waverider Kuu": [
+      "439"
+    ],
+    "Waverider Kuu, type γ": [
+      "439"
+    ],
+    "Wedding Cake Machine": [
+      "757"
+    ],
+    "Wedding Chronos": [
+      "662"
+    ],
+    "Weedwacker Cat": [
+      "309"
+    ],
+    "Weightlifter Cat": [
+      "152"
+    ],
+    "Welterweight Cat": [
+      "326"
+    ],
+    "Whale Cat": [
+      "007"
+    ],
+    "Wheel Cat": [
+      "039"
+    ],
+    "White Butler Vigler": [
+      "694"
+    ],
+    "White Cat": [
+      "280"
+    ],
+    "White Knight Cyclops": [
+      "635"
+    ],
+    "White Swordsman Cat": [
+      "435"
+    ],
+    "Wicked King Hevijak": [
+      "621"
+    ],
+    "Wind Dancer Valkyrie": [
+      "436"
+    ],
+    "Windy": [
+      "076"
+    ],
+    "Windy, type α": [
+      "076"
+    ],
+    "Winter Commander Kaihime": [
+      "778"
+    ],
+    "Winter General Kaihime": [
+      "778"
+    ],
+    "Witch Cat": [
+      "056"
+    ],
+    "Witchy Neneko": [
+      "229"
+    ],
+    "Wolf Princess Deale": [
+      "358"
+    ],
+    "Wolfchild Deale": [
+      "358"
+    ],
+    "Wonder MOMOCO": [
+      "456"
+    ],
+    "Wondermaria": [
+      "471"
+    ],
+    "Wrathful Poseidon": [
+      "317"
+    ],
+    "Wrestling Cat": [
+      "101"
+    ],
+    "Wushu Cat": [
+      "524"
+    ],
+    "Wyvern": [
+      "120"
+    ],
+    "Wyvern Cat": [
+      "120"
+    ],
+    "Wyvern and Alec": [
+      "120"
+    ],
+    "Xmas Pudding Cat": [
+      "075"
+    ],
+    "Xmas Spirit Nurse": [
+      "311"
+    ],
+    "Yakuza Vampire": [
+      "179"
+    ],
+    "Yamaoka Minori": [
+      "193"
+    ],
+    "Yamii": [
+      "632"
+    ],
+    "Yaminoir": [
+      "632"
+    ],
+    "Yaminora": [
+      "632"
+    ],
+    "Yankee Cat": [
+      "168"
+    ],
+    "Years-End Neneko": [
+      "315"
+    ],
+    "Yellow Nyanko Ranger": [
+      "834"
+    ],
+    "Yoichi": [
+      "115"
+    ],
+    "Yoichi CC": [
+      "115"
+    ],
+    "Young Man Mola": [
+      "174"
+    ],
+    "Yuki Cat": [
+      "182"
+    ],
+    "Yule Knight Nurse": [
+      "311"
+    ],
+    "Yuletide Nurse": [
+      "311"
+    ],
+    "Yuma Kuga & Cat": [
+      "679"
+    ],
+    "Yuma Kuga & Cat CC": [
+      "679"
+    ],
+    "Yurinchi\r": [
+      "161"
+    ],
+    "Zamboney Cat": [
+      "325"
+    ],
+    "Zangief": [
+      "515"
+    ],
+    "Zangief CC": [
+      "515"
+    ],
+    "Zangief Cat": [
+      "829"
+    ],
+    "Zangief Cat CC": [
+      "829"
+    ],
+    "Zenitsu Agatsuma": [
+      "843"
+    ],
+    "Zenitsu Agatsuma CC": [
+      "843"
+    ],
+    "Zeta Skanda": [
+      "812"
+    ],
+    "Zombie Cat": [
+      "020"
+    ],
+    "iCat": [
+      "040"
+    ],
+    "ネコチーター": [
+      "674"
+    ]
+  }
+}

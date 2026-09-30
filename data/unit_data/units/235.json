@@ -1,0 +1,72 @@
+{
+  "id": "235",
+  "name": "Suruzu",
+  "forms": [
+    {
+      "number": "235-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Suruzu",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1188,
+      "damage": 288,
+      "range": 270,
+      "kb": 2,
+      "speed": 9,
+      "dps": 110,
+      "target": "Single",
+      "tba": 2.6,
+      "anim": 0.3,
+      "spawn": 7.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "235-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Suruzu CC",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1638,
+      "damage": 350,
+      "range": 270,
+      "kb": 2,
+      "speed": 9,
+      "dps": 135,
+      "target": "Single",
+      "tba": 2.6,
+      "anim": 0.3,
+      "spawn": 7.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    }
+  ]
+}

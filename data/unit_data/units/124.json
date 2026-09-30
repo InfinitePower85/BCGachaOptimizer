@@ -1,0 +1,122 @@
+{
+  "id": "124",
+  "name": "Bean Cats",
+  "forms": [
+    {
+      "number": "124-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Bean Cats",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 638,
+      "damage": 138,
+      "range": 230,
+      "kb": 3,
+      "speed": 8,
+      "dps": 42,
+      "target": "Single",
+      "tba": 3.3,
+      "anim": 1.33,
+      "spawn": 9.47,
+      "cost": 495,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "124-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Brah Cats",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1010,
+      "damage": 262,
+      "range": 230,
+      "kb": 3,
+      "speed": 8,
+      "dps": 80,
+      "target": "Single",
+      "tba": 3.3,
+      "anim": 1.33,
+      "spawn": 9.47,
+      "cost": 495,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "124-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Val Val Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2020,
+      "damage": 262,
+      "range": 230,
+      "kb": 3,
+      "speed": 8,
+      "dps": 80,
+      "target": "Single",
+      "tba": 3.3,
+      "anim": 1.33,
+      "spawn": 9.47,
+      "cost": 495,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.1 Shockwave attack (Range: 332)"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (30% chance of knockback)\nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.1 Shockwave attack (Range: 332)) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)"
+    }
+  ]
+}

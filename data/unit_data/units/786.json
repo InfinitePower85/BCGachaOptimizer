@@ -1,0 +1,52 @@
+{
+  "id": "786",
+  "name": "Killer Gross Cat",
+  "forms": [
+    {
+      "number": "786-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Killer Gross Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 250,
+      "range": 700,
+      "kb": 3,
+      "speed": 10,
+      "dps": 55,
+      "target": "Single",
+      "tba": 4.47,
+      "anim": 0.5,
+      "spawn": 2.2,
+      "cost": 7500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "786-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "True Killer Gross Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 250,
+      "range": 700,
+      "kb": 3,
+      "speed": 10,
+      "dps": 55,
+      "target": "Single",
+      "tba": 4.47,
+      "anim": 0.5,
+      "spawn": 2.2,
+      "cost": 7500,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

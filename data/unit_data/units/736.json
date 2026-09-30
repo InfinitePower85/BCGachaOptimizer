@@ -1,0 +1,98 @@
+{
+  "id": "736",
+  "name": "Principal Cat",
+  "forms": [
+    {
+      "number": "736-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Principal Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1175,
+      "damage": 400,
+      "range": 150,
+      "kb": 1,
+      "speed": 8,
+      "dps": 180,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.6,
+      "spawn": 22.2,
+      "cost": 1950,
+      "abilities": [
+        {
+          "group": "Against white, red, black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\nu1Not affected byu2: b1Weakenb2, b1Knockbackb2"
+    },
+    {
+      "number": "736-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Midlife Crisis Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1175,
+      "damage": 400,
+      "range": 150,
+      "kb": 1,
+      "speed": 8,
+      "dps": 180,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.6,
+      "spawn": 22.2,
+      "cost": 1950,
+      "abilities": [
+        {
+          "group": "Against white, red, black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\nu1Not affected byu2: b1Weakenb2, b1Knockbackb2"
+    }
+  ]
+}

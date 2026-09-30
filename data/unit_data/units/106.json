@@ -1,0 +1,114 @@
+{
+  "id": "106",
+  "name": "Kuu",
+  "forms": [
+    {
+      "number": "106-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kuu",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 5850,
+      "range": 380,
+      "kb": 5,
+      "speed": 13,
+      "dps": 325,
+      "target": "Area",
+      "tba": 17.97,
+      "anim": 2.0,
+      "spawn": 131.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "106-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kuu, type γ",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5750,
+      "damage": 9250,
+      "range": 380,
+      "kb": 5,
+      "speed": 13,
+      "dps": 515,
+      "target": "Area",
+      "tba": 17.97,
+      "anim": 2.0,
+      "spawn": 131.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "106-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Divine Kuu",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10750,
+      "damage": 11750,
+      "range": 410,
+      "kb": 5,
+      "speed": 13,
+      "dps": 768,
+      "target": "Area",
+      "tba": 15.3,
+      "anim": 2.0,
+      "spawn": 131.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\r\nu1Not affected byu2: b1Weakenb2"
+    }
+  ]
+}

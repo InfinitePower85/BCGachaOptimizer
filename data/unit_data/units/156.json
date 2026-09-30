@@ -1,0 +1,62 @@
+{
+  "id": "156",
+  "name": "Chicken Cat",
+  "forms": [
+    {
+      "number": "156-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Chicken Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 550,
+      "range": 340,
+      "kb": 3,
+      "speed": 7,
+      "dps": 255,
+      "target": "Area",
+      "tba": 2.17,
+      "anim": 0.87,
+      "spawn": 11.2,
+      "cost": 900,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "156-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Rooster Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 65,
+      "range": 160,
+      "kb": 3,
+      "speed": 14,
+      "dps": 218,
+      "target": "Area",
+      "tba": 0.3,
+      "anim": 0.13,
+      "spawn": 11.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "15% chance to perform a Lv.10 Shockwave attack (Range: 2132)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (15% chance to perform a Lv.10 Shockwave attack (Range: 2132))"
+    }
+  ]
+}

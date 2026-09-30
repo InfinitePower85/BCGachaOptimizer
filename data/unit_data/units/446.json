@@ -1,0 +1,175 @@
+{
+  "id": "446",
+  "name": "Cutter Cat",
+  "forms": [
+    {
+      "number": "446-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cutter Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 600,
+      "damage": 500,
+      "range": 170,
+      "kb": 1,
+      "speed": 50,
+      "dps": 125,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 0.03,
+      "spawn": 41.2,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 400% at 1% health"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 400% at 1% health) b1Surviveb2 (100% chance to survive a lethal strike)\nu1Not affected byu2: b1Weakenb2"
+    },
+    {
+      "number": "446-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Power Cutter Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 625,
+      "range": 170,
+      "kb": 1,
+      "speed": 50,
+      "dps": 155,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 0.03,
+      "spawn": 41.2,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 400% at 1% health"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 400% at 1% health) b1Surviveb2 (100% chance to survive a lethal strike)\nu1Not affected byu2: b1Weakenb2"
+    },
+    {
+      "number": "446-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Neo Cutter Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 750,
+      "range": 170,
+      "kb": 1,
+      "speed": 50,
+      "dps": 185,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 0.03,
+      "spawn": 41.2,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 400% at 1% health"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 400% at 1% health) b1Surviveb2 (100% chance to survive a lethal strike)\nu1Not affected byu2: b1Weakenb2, b1Waveb2"
+    }
+  ]
+}

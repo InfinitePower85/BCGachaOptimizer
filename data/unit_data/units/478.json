@@ -1,0 +1,72 @@
+{
+  "id": "478",
+  "name": "Nekonosuke",
+  "forms": [
+    {
+      "number": "478-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nekonosuke",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3350,
+      "damage": 2175,
+      "range": 250,
+      "kb": 3,
+      "speed": 6,
+      "dps": 325,
+      "target": "Area",
+      "tba": 6.7,
+      "anim": 2.2,
+      "spawn": 23.87,
+      "cost": 1245,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "478-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Old Guardian Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3350,
+      "damage": 2175,
+      "range": 250,
+      "kb": 3,
+      "speed": 6,
+      "dps": 325,
+      "target": "Area",
+      "tba": 6.7,
+      "anim": 2.2,
+      "spawn": 23.87,
+      "cost": 1245,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

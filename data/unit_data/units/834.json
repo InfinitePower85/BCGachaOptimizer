@@ -1,0 +1,90 @@
+{
+  "id": "834",
+  "name": "Helmet Cat",
+  "forms": [
+    {
+      "number": "834-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Helmet Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4750,
+      "damage": 838,
+      "range": 140,
+      "kb": 2,
+      "speed": 8,
+      "dps": 140,
+      "target": "Area",
+      "tba": 5.93,
+      "anim": 0.63,
+      "spawn": 14.53,
+      "cost": 1650,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~190"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -100~190)"
+    },
+    {
+      "number": "834-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Yellow Nyanko Ranger",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 1088,
+      "range": 140,
+      "kb": 2,
+      "speed": 8,
+      "dps": 182,
+      "target": "Area",
+      "tba": 5.93,
+      "anim": 0.63,
+      "spawn": 14.53,
+      "cost": 1650,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~190"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -100~190)"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "179",
+  "name": "Mob Cat",
+  "forms": [
+    {
+      "number": "179-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mob Cat",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 20,
+      "range": 140,
+      "kb": 1,
+      "speed": 8,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 105,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "179-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Yakuza Vampire",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2575,
+      "damage": 700,
+      "range": 155,
+      "kb": 1,
+      "speed": 7,
+      "dps": 295,
+      "target": "Area",
+      "tba": 2.37,
+      "anim": 0.6,
+      "spawn": 18.87,
+      "cost": 1875,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

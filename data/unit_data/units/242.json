@@ -1,0 +1,105 @@
+{
+  "id": "242",
+  "name": "Frosty Kai",
+  "forms": [
+    {
+      "number": "242-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Frosty Kai",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 3888,
+      "range": 175,
+      "kb": 2,
+      "speed": 15,
+      "dps": 738,
+      "target": "Area",
+      "tba": 5.27,
+      "anim": 1.7,
+      "spawn": 71.2,
+      "cost": 3990,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "242-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Frosty Kai, type μ",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13000,
+      "damage": 6238,
+      "range": 175,
+      "kb": 2,
+      "speed": 15,
+      "dps": 1185,
+      "target": "Area",
+      "tba": 5.27,
+      "anim": 1.7,
+      "spawn": 71.2,
+      "cost": 3990,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "242-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Frostspirit Kai, type μ",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 24500,
+      "damage": 7512,
+      "range": 175,
+      "kb": 2,
+      "speed": 20,
+      "dps": 1428,
+      "target": "Area",
+      "tba": 5.27,
+      "anim": 1.7,
+      "spawn": 71.2,
+      "cost": 3990,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "021",
+  "name": "Samurai Cat",
+  "forms": [
+    {
+      "number": "021-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Samurai Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1350,
+      "damage": 325,
+      "range": 150,
+      "kb": 3,
+      "speed": 7,
+      "dps": 170,
+      "target": "Single",
+      "tba": 1.9,
+      "anim": 0.6,
+      "spawn": 2.0,
+      "cost": 525,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "021-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Knight Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1350,
+      "damage": 325,
+      "range": 160,
+      "kb": 3,
+      "speed": 7,
+      "dps": 170,
+      "target": "Single",
+      "tba": 1.9,
+      "anim": 0.6,
+      "spawn": 2.0,
+      "cost": 525,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "021-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Pastry Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1350,
+      "damage": 325,
+      "range": 160,
+      "kb": 3,
+      "speed": 7,
+      "dps": 170,
+      "target": "Single",
+      "tba": 1.9,
+      "anim": 0.6,
+      "spawn": 2.0,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "10% chance to slow for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Slowb2 (10% chance to slow for 2.0s)"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "334",
+  "name": "Shadow Gao",
+  "forms": [
+    {
+      "number": "334-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shadow Gao",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9500,
+      "damage": 4500,
+      "range": 480,
+      "kb": 4,
+      "speed": 9,
+      "dps": 722,
+      "target": "Area",
+      "tba": 6.23,
+      "anim": 1.27,
+      "spawn": 157.87,
+      "cost": 6000,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Knockbackb2, b1Waveb2"
+    },
+    {
+      "number": "334-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Diabolic Gao",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14250,
+      "damage": 5750,
+      "range": 480,
+      "kb": 4,
+      "speed": 9,
+      "dps": 922,
+      "target": "Area",
+      "tba": 6.23,
+      "anim": 1.27,
+      "spawn": 157.87,
+      "cost": 6000,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Freezeb2 (100% chance to freeze for 1.0s)\nu1Not affected byu2: b1Knockbackb2, b1Waveb2"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "004",
+  "name": "Gross Cat",
+  "forms": [
+    {
+      "number": "004-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Gross Cat",
+      "rarity": "Basic",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 250,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 60,
+      "target": "Single",
+      "tba": 4.23,
+      "anim": 0.27,
+      "spawn": 2.2,
+      "cost": 600,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "004-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sexy Legs Cat",
+      "rarity": "Basic",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 250,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 60,
+      "target": "Single",
+      "tba": 4.17,
+      "anim": 0.2,
+      "spawn": 2.2,
+      "cost": 600,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "004-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Macho Leg Cat",
+      "rarity": "Basic",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 500,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 120,
+      "target": "Single",
+      "tba": 4.17,
+      "anim": 0.2,
+      "spawn": 7.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

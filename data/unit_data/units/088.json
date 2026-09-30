@@ -1,0 +1,109 @@
+{
+  "id": "088",
+  "name": "Raiden",
+  "forms": [
+    {
+      "number": "088-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Raiden",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 3788,
+      "range": 385,
+      "kb": 3,
+      "speed": 12,
+      "dps": 880,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 1.33,
+      "spawn": 123.2,
+      "cost": 4920,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "088-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Dragonslayer Raiden",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 3788,
+      "range": 385,
+      "kb": 3,
+      "speed": 12,
+      "dps": 880,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 1.33,
+      "spawn": 123.2,
+      "cost": 4920,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "088-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "God-Emperor Raiden",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 3788,
+      "range": 415,
+      "kb": 3,
+      "speed": 15,
+      "dps": 880,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 1.33,
+      "spawn": 123.2,
+      "cost": 4920,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Knockbackb2 (100% chance of knockback)"
+    }
+  ]
+}

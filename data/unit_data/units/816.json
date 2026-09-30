@@ -1,0 +1,164 @@
+{
+  "id": "816",
+  "name": "Moonshade Kaworu",
+  "forms": [
+    {
+      "number": "816-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Moonshade Kaworu",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 15000,
+      "damage": 5625,
+      "range": 400,
+      "kb": 3,
+      "speed": 12,
+      "dps": 898,
+      "target": "Area",
+      "tba": 6.27,
+      "anim": 1.83,
+      "spawn": 124.53,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~401,400~625,625~850"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 816"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Explosion",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Insane Damageb2 (inflicts 5.0x damage) b1Knockbackb2 (40% chance of knockback) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~401,400~625,625~850) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Conjureb2 (Allows summon of a spirit: Unit number 816) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Slowb2, b1Waveb2, b1Explosionb2"
+    },
+    {
+      "number": "816-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Moon Disciple Kaworu",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 15000,
+      "damage": 5625,
+      "range": 400,
+      "kb": 3,
+      "speed": 12,
+      "dps": 898,
+      "target": "Area",
+      "tba": 6.27,
+      "anim": 1.83,
+      "spawn": 124.53,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~401,400~625,625~850"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 816"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Explosion",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Insane Damageb2 (inflicts 5.0x damage) b1Knockbackb2 (40% chance of knockback) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~401,400~625,625~850) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Conjureb2 (Allows summon of a spirit: Unit number 816) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Slowb2, b1Waveb2, b1Explosionb2"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "697",
+  "name": "Class Rep Cat",
+  "forms": [
+    {
+      "number": "697-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Class Rep Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2150,
+      "damage": 438,
+      "range": 250,
+      "kb": 3,
+      "speed": 8,
+      "dps": 148,
+      "target": "Single",
+      "tba": 2.97,
+      "anim": 0.73,
+      "spawn": 7.2,
+      "cost": 690,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Slowb2 (30% chance to slow for 4.0s)"
+    },
+    {
+      "number": "697-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Stealth Class Rep Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2150,
+      "damage": 438,
+      "range": 250,
+      "kb": 3,
+      "speed": 8,
+      "dps": 148,
+      "target": "Single",
+      "tba": 2.97,
+      "anim": 0.73,
+      "spawn": 7.2,
+      "cost": 690,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Slowb2 (30% chance to slow for 4.0s)"
+    }
+  ]
+}

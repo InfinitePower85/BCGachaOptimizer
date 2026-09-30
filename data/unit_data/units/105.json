@@ -1,0 +1,105 @@
+{
+  "id": "105",
+  "name": "Koi Cat",
+  "forms": [
+    {
+      "number": "105-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Koi Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1025,
+      "damage": 250,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 60,
+      "target": "Single",
+      "tba": 4.23,
+      "anim": 0.27,
+      "spawn": 2.87,
+      "cost": 615,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "105-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Gross Koi Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1025,
+      "damage": 250,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 60,
+      "target": "Single",
+      "tba": 4.23,
+      "anim": 0.27,
+      "spawn": 2.87,
+      "cost": 615,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "105-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Kiss and Koi",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1025,
+      "damage": 250,
+      "range": 350,
+      "kb": 3,
+      "speed": 25,
+      "dps": 60,
+      "target": "Area",
+      "tba": 4.23,
+      "anim": 0.27,
+      "spawn": 2.87,
+      "cost": 615,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

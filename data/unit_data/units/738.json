@@ -1,0 +1,103 @@
+{
+  "id": "738",
+  "name": "Floral Kalisa",
+  "forms": [
+    {
+      "number": "738-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Floral Kalisa",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3800,
+      "damage": 3125,
+      "range": 340,
+      "kb": 5,
+      "speed": 32,
+      "dps": 620,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 1.23,
+      "spawn": 64.53,
+      "cost": 4125,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "738-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Floral Kalisa, type X",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6350,
+      "damage": 5000,
+      "range": 340,
+      "kb": 5,
+      "speed": 32,
+      "dps": 992,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 1.23,
+      "spawn": 64.53,
+      "cost": 4125,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)\nu1Not affected byu2: b1Slowb2, b1Curseb2"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "228",
+  "name": "Pumpcat",
+  "forms": [
+    {
+      "number": "228-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Pumpcat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 300,
+      "damage": 20,
+      "range": 140,
+      "kb": 2,
+      "speed": 8,
+      "dps": 12,
+      "target": "Single",
+      "tba": 1.47,
+      "anim": 0.5,
+      "spawn": 2.0,
+      "cost": 90,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "228-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cat O'Lantern",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 975,
+      "damage": 385,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 62,
+      "target": "Single",
+      "tba": 6.1,
+      "anim": 0.8,
+      "spawn": 3.2,
+      "cost": 840,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "228-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Harbinger Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 975,
+      "damage": 385,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 62,
+      "target": "Single",
+      "tba": 6.1,
+      "anim": 0.8,
+      "spawn": 3.2,
+      "cost": 840,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (20% chance to freeze for 2.0s)\nu1General Abilitiesu2: b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)"
+    }
+  ]
+}

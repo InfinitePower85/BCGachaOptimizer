@@ -1,0 +1,105 @@
+{
+  "id": "128",
+  "name": "Flower Cat",
+  "forms": [
+    {
+      "number": "128-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Flower Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 375,
+      "damage": 50,
+      "range": 240,
+      "kb": 5,
+      "speed": 16,
+      "dps": 18,
+      "target": "Single",
+      "tba": 2.77,
+      "anim": 0.4,
+      "spawn": 5.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "128-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cooldown Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 888,
+      "damage": 122,
+      "range": 240,
+      "kb": 5,
+      "speed": 16,
+      "dps": 42,
+      "target": "Single",
+      "tba": 2.83,
+      "anim": 0.4,
+      "spawn": 5.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "128-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Bombercat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 888,
+      "damage": 122,
+      "range": 240,
+      "kb": 5,
+      "speed": 16,
+      "dps": 45,
+      "target": "Area",
+      "tba": 2.77,
+      "anim": 0.4,
+      "spawn": 5.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (100% chance to freeze for 2.0s)"
+    }
+  ]
+}

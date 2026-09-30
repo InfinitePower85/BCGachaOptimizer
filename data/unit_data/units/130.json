@@ -1,0 +1,85 @@
+{
+  "id": "130",
+  "name": "Gold Cat",
+  "forms": [
+    {
+      "number": "130-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Gold Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 20,
+      "range": 140,
+      "kb": 3,
+      "speed": 10,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "130-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Gold Macho Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 20,
+      "range": 140,
+      "kb": 3,
+      "speed": 10,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "130-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Glittering Macho Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 375,
+      "damage": 20,
+      "range": 140,
+      "kb": 3,
+      "speed": 10,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

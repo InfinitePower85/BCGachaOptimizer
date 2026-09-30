@@ -1,0 +1,132 @@
+{
+  "id": "199",
+  "name": "Onmyoji Cat",
+  "forms": [
+    {
+      "number": "199-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Onmyoji Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 875,
+      "damage": 75,
+      "range": 310,
+      "kb": 3,
+      "speed": 8,
+      "dps": 20,
+      "target": "Single",
+      "tba": 4.0,
+      "anim": 3.1,
+      "spawn": 11.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "199-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Magica Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1025,
+      "damage": 95,
+      "range": 310,
+      "kb": 3,
+      "speed": 8,
+      "dps": 22,
+      "target": "Single",
+      "tba": 4.03,
+      "anim": 3.1,
+      "spawn": 11.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "199-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Thaumaturge Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1325,
+      "damage": 115,
+      "range": 310,
+      "kb": 3,
+      "speed": 8,
+      "dps": 28,
+      "target": "Single",
+      "tba": 4.37,
+      "anim": 3.1,
+      "spawn": 11.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (100% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

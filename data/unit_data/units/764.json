@@ -1,0 +1,124 @@
+{
+  "id": "764",
+  "name": "Dynasaurus Cat",
+  "forms": [
+    {
+      "number": "764-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Dynasaurus Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 5250,
+      "range": 350,
+      "kb": 4,
+      "speed": 5,
+      "dps": 645,
+      "target": "Area",
+      "tba": 8.13,
+      "anim": 2.5,
+      "spawn": 97.87,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 150~700"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 764"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 150~700) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Conjureb2 (Allows summon of a spirit: Unit number 764)\nu1Not affected byu2: b1Knockbackb2"
+    },
+    {
+      "number": "764-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mecha Dynasaurus Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 5250,
+      "range": 350,
+      "kb": 4,
+      "speed": 5,
+      "dps": 645,
+      "target": "Area",
+      "tba": 8.13,
+      "anim": 2.5,
+      "spawn": 97.87,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 150~700"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 764"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 150~700) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Conjureb2 (Allows summon of a spirit: Unit number 764)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

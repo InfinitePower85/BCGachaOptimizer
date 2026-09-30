@@ -1,0 +1,148 @@
+{
+  "id": "447",
+  "name": "Backhoe Cat",
+  "forms": [
+    {
+      "number": "447-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Backhoe Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2700,
+      "damage": 360,
+      "range": 350,
+      "kb": 3,
+      "speed": 15,
+      "dps": 105,
+      "target": "Single",
+      "tba": 3.47,
+      "anim": 2.0,
+      "spawn": 28.87,
+      "cost": 1500,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "metal",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "15% chance of a critical hit"
+            },
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: u1Attacks onlyu2b1 metalb2 \nu1General Abilitiesu2: b1Criticalb2 (15% chance of a critical hit) b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "447-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Power Backhoe Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3375,
+      "damage": 450,
+      "range": 350,
+      "kb": 3,
+      "speed": 15,
+      "dps": 130,
+      "target": "Single",
+      "tba": 3.47,
+      "anim": 2.0,
+      "spawn": 28.87,
+      "cost": 1500,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "metal",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "15% chance of a critical hit"
+            },
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: u1Attacks onlyu2b1 metalb2 \nu1General Abilitiesu2: b1Criticalb2 (15% chance of a critical hit) b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "447-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Neo Backhoe Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3375,
+      "damage": 450,
+      "range": 350,
+      "kb": 3,
+      "speed": 15,
+      "dps": 130,
+      "target": "Single",
+      "tba": 3.47,
+      "anim": 2.0,
+      "spawn": 28.87,
+      "cost": 1500,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "metal",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "15% chance of a critical hit"
+            },
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "50% chance to perform Surge Attacks for 0.67s (Range: 200~900)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: u1Attacks onlyu2b1 metalb2 \nu1General Abilitiesu2: b1Criticalb2 (15% chance of a critical hit) b1Extra moneyb2 (2x money gained from defeated enemies) b1Surge Attacksb2 (50% chance to perform Surge Attacks for 0.67s (Range: 200~900))"
+    }
+  ]
+}

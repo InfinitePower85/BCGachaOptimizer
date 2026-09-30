@@ -1,0 +1,106 @@
+{
+  "id": "812",
+  "name": "Victorious Skanda",
+  "forms": [
+    {
+      "number": "812-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Victorious Skanda",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 2000,
+      "range": 200,
+      "kb": 3,
+      "speed": 62,
+      "dps": 200,
+      "target": "Area",
+      "tba": 10.03,
+      "anim": 0.17,
+      "spawn": 91.2,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against red, angel, alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 812"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angel, alienu2: b1Weakenb2 (100% chance to weaken by 50% for 3.0s) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.2 Shockwave attack (Range: 532)) b1Conjureb2 (Allows summon of a spirit: Unit number 812) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)"
+    },
+    {
+      "number": "812-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Zeta Skanda",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 3000,
+      "range": 200,
+      "kb": 3,
+      "speed": 62,
+      "dps": 300,
+      "target": "Area",
+      "tba": 10.03,
+      "anim": 0.17,
+      "spawn": 91.2,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against red, angel, alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 813"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angel, alienu2: b1Weakenb2 (100% chance to weaken by 50% for 4.0s) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.2 Shockwave attack (Range: 532)) b1Conjureb2 (Allows summon of a spirit: Unit number 813) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)"
+    }
+  ]
+}

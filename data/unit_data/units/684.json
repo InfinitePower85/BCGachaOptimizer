@@ -1,0 +1,144 @@
+{
+  "id": "684",
+  "name": "Count Yukimura",
+  "forms": [
+    {
+      "number": "684-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Count Yukimura",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3375,
+      "damage": 4125,
+      "range": 170,
+      "kb": 5,
+      "speed": 70,
+      "dps": 902,
+      "target": "Area",
+      "tba": 4.57,
+      "anim": 0.27,
+      "spawn": 51.2,
+      "cost": 3075,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "30% chance to survive a lethal strike"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Surviveb2 (30% chance to survive a lethal strike) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "684-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Nosferatu Yukimura",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4250,
+      "damage": 5155,
+      "range": 170,
+      "kb": 5,
+      "speed": 70,
+      "dps": 1130,
+      "target": "Area",
+      "tba": 4.57,
+      "anim": 0.27,
+      "spawn": 51.2,
+      "cost": 3075,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "30% chance to survive a lethal strike"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Surviveb2 (30% chance to survive a lethal strike) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "684-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Vampiric Yukimura",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4250,
+      "damage": 5912,
+      "range": 170,
+      "kb": 5,
+      "speed": 80,
+      "dps": 1295,
+      "target": "Area",
+      "tba": 4.57,
+      "anim": 0.27,
+      "spawn": 51.2,
+      "cost": 3075,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    }
+  ]
+}

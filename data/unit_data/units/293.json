@@ -1,0 +1,116 @@
+{
+  "id": "293",
+  "name": "Kyoko Sakura",
+  "forms": [
+    {
+      "number": "293-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kyoko Sakura",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8700,
+      "damage": 5950,
+      "range": 435,
+      "kb": 3,
+      "speed": 14,
+      "dps": 780,
+      "target": "Area",
+      "tba": 7.63,
+      "anim": 1.67,
+      "spawn": 127.87,
+      "cost": 4290,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 8.33s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Witch Killer",
+              "detail": "inflicts 5x damage, takes only 0.1x damage from Witch enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Weakenb2 (50% chance to weaken by 50% for 8.33s) b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Witch Killerb2 (inflicts 5x damage, takes only 0.1x damage from Witch enemies)\nu1Not affected byu2: b1Weakenb2"
+    },
+    {
+      "number": "293-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kyoko & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8700,
+      "damage": 5950,
+      "range": 435,
+      "kb": 3,
+      "speed": 14,
+      "dps": 780,
+      "target": "Area",
+      "tba": 7.63,
+      "anim": 1.67,
+      "spawn": 127.87,
+      "cost": 4290,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 8.33s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Witch Killer",
+              "detail": "inflicts 5x damage, takes only 0.1x damage from Witch enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Weakenb2 (50% chance to weaken by 50% for 8.33s) b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Witch Killerb2 (inflicts 5x damage, takes only 0.1x damage from Witch enemies)\nu1Not affected byu2: b1Weakenb2"
+    }
+  ]
+}

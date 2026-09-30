@@ -1,0 +1,85 @@
+{
+  "id": "025",
+  "name": "Valkyrie Cat",
+  "forms": [
+    {
+      "number": "025-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Valkyrie Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 1250,
+      "range": 350,
+      "kb": 2,
+      "speed": 20,
+      "dps": 290,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 0.67,
+      "spawn": 64.53,
+      "cost": 3000,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "025-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "True Valkyrie Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 1250,
+      "range": 350,
+      "kb": 2,
+      "speed": 20,
+      "dps": 290,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 0.67,
+      "spawn": 64.53,
+      "cost": 3000,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "025-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Holy Valkyrie Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 1800,
+      "range": 350,
+      "kb": 2,
+      "speed": 20,
+      "dps": 418,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 0.67,
+      "spawn": 64.53,
+      "cost": 3000,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "35% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Freezeb2 (35% chance to freeze for 2.0s)"
+    }
+  ]
+}

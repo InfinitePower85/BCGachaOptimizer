@@ -1,0 +1,108 @@
+{
+  "id": "829",
+  "name": "Zangief Cat",
+  "forms": [
+    {
+      "number": "829-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Zangief Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5100,
+      "damage": 2400,
+      "range": 260,
+      "kb": 2,
+      "speed": 6,
+      "dps": 448,
+      "target": "Area",
+      "tba": 5.37,
+      "anim": 0.6,
+      "spawn": 25.2,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "10% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Savage Blowb2 (10% chance to inflict an attack with 2x damage to non-Metal enemies)\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "829-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Zangief Cat CC",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6375,
+      "damage": 3000,
+      "range": 260,
+      "kb": 2,
+      "speed": 6,
+      "dps": 560,
+      "target": "Area",
+      "tba": 5.37,
+      "anim": 0.6,
+      "spawn": 25.2,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "10% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Savage Blowb2 (10% chance to inflict an attack with 2x damage to non-Metal enemies)\nu1Not affected byu2: b1Slowb2"
+    }
+  ]
+}

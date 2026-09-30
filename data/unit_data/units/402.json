@@ -1,0 +1,158 @@
+{
+  "id": "402",
+  "name": "Voli",
+  "forms": [
+    {
+      "number": "402-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Voli",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2750,
+      "damage": 1938,
+      "range": 320,
+      "kb": 3,
+      "speed": 15,
+      "dps": 325,
+      "target": "Area",
+      "tba": 5.97,
+      "anim": 2.0,
+      "spawn": 16.2,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Freezeb2 (50% chance to freeze for 3.0s)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "402-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Volta",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 3688,
+      "range": 370,
+      "kb": 3,
+      "speed": 20,
+      "dps": 618,
+      "target": "Area",
+      "tba": 5.97,
+      "anim": 2.0,
+      "spawn": 82.87,
+      "cost": 3825,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) b1Freezeb2 (100% chance to freeze for 3.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "402-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Gigavolta",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 5000,
+      "range": 370,
+      "kb": 3,
+      "speed": 20,
+      "dps": 838,
+      "target": "Area",
+      "tba": 5.97,
+      "anim": 2.0,
+      "spawn": 82.87,
+      "cost": 3825,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 3.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) b1Freezeb2 (100% chance to freeze for 3.67s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

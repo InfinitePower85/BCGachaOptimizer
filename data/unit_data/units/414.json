@@ -1,0 +1,176 @@
+{
+  "id": "414",
+  "name": "Eva Unit-01",
+  "forms": [
+    {
+      "number": "414-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Eva Unit-01",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11500,
+      "damage": 2300,
+      "range": 460,
+      "kb": 4,
+      "speed": 8,
+      "dps": 508,
+      "target": "Area",
+      "tba": 4.53,
+      "anim": 1.5,
+      "spawn": 157.87,
+      "cost": 4470,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 50% health"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 50% health) b1Zombie Killerb2 (Stops zombies from reviving) b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)"
+    },
+    {
+      "number": "414-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Eva Unit-01 & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11500,
+      "damage": 2300,
+      "range": 460,
+      "kb": 4,
+      "speed": 8,
+      "dps": 508,
+      "target": "Area",
+      "tba": 4.53,
+      "anim": 1.5,
+      "spawn": 157.87,
+      "cost": 4470,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 50% health"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 50% health) b1Zombie Killerb2 (Stops zombies from reviving) b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)"
+    },
+    {
+      "number": "414-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Determined Unit-01 & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11500,
+      "damage": 2300,
+      "range": 460,
+      "kb": 4,
+      "speed": 8,
+      "dps": 508,
+      "target": "Area",
+      "tba": 4.53,
+      "anim": 1.5,
+      "spawn": 157.87,
+      "cost": 4470,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 150% at 50% health"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            },
+            {
+              "name": "Mini-Surge",
+              "detail": "30% chance to perform a Mini-Surge for 1s (Range: 400~700)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 150% at 50% health) b1Surviveb2 (100% chance to survive a lethal strike) b1Zombie Killerb2 (Stops zombies from reviving) b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies) b1Mini-Surgeb2 (30% chance to perform a Mini-Surge for 1s (Range: 400~700))"
+    }
+  ]
+}

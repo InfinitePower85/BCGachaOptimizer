@@ -1,0 +1,128 @@
+{
+  "id": "818",
+  "name": "Komori",
+  "forms": [
+    {
+      "number": "818-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Komori",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 1250,
+      "range": 330,
+      "kb": 3,
+      "speed": 12,
+      "dps": 248,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 2.2,
+      "spawn": 17.87,
+      "cost": 1095,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": "50% chance to curse for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: b1Curseb2 (50% chance to curse for 4.0s) \nu1General Abilitiesu2: b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "818-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Moririn",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8750,
+      "damage": 3625,
+      "range": 380,
+      "kb": 3,
+      "speed": 12,
+      "dps": 720,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 2.2,
+      "spawn": 104.53,
+      "cost": 3975,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 818"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: b1Resistantb2 (only takes 0.25x damage) b1Curseb2 (100% chance to curse for 4.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s) b1Conjureb2 (Allows summon of a spirit: Unit number 818)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

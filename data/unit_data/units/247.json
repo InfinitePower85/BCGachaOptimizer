@@ -1,0 +1,85 @@
+{
+  "id": "247",
+  "name": "Li'l Cow Cat",
+  "forms": [
+    {
+      "number": "247-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Li'l Cow Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 32,
+      "range": 130,
+      "kb": 5,
+      "speed": 20,
+      "dps": 97,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 2.0,
+      "cost": 750,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "247-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Li'l Giraffe Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 32,
+      "range": 130,
+      "kb": 5,
+      "speed": 20,
+      "dps": 97,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 2.0,
+      "cost": 750,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "247-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Li'l Lion Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 65,
+      "range": 130,
+      "kb": 5,
+      "speed": 20,
+      "dps": 195,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 4.2,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "290",
+  "name": "Homura Akemi",
+  "forms": [
+    {
+      "number": "290-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Homura Akemi",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7075,
+      "damage": 5075,
+      "range": 455,
+      "kb": 3,
+      "speed": 11,
+      "dps": 765,
+      "target": "Area",
+      "tba": 6.63,
+      "anim": 1.0,
+      "spawn": 131.2,
+      "cost": 4470,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Witch Killer",
+              "detail": "inflicts 5x damage, takes only 0.1x damage from Witch enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (50% chance to freeze for 4.0s) \nu1General Abilitiesu2: b1Witch Killerb2 (inflicts 5x damage, takes only 0.1x damage from Witch enemies)"
+    },
+    {
+      "number": "290-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Homura & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7075,
+      "damage": 5075,
+      "range": 455,
+      "kb": 3,
+      "speed": 11,
+      "dps": 765,
+      "target": "Area",
+      "tba": 6.63,
+      "anim": 1.0,
+      "spawn": 131.2,
+      "cost": 4470,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Witch Killer",
+              "detail": "inflicts 5x damage, takes only 0.1x damage from Witch enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (50% chance to freeze for 4.0s) \nu1General Abilitiesu2: b1Witch Killerb2 (inflicts 5x damage, takes only 0.1x damage from Witch enemies)\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "290-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Devil Homura",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7075,
+      "damage": 6175,
+      "range": 455,
+      "kb": 3,
+      "speed": 11,
+      "dps": 760,
+      "target": "Area",
+      "tba": 8.13,
+      "anim": 3.43,
+      "spawn": 131.2,
+      "cost": 4470,
+      "abilities": [
+        {
+          "group": "Against red, black, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 205~655"
+            },
+            {
+              "name": "Witch Killer",
+              "detail": "inflicts 5x damage, takes only 0.1x damage from Witch enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (50% chance to freeze for 4.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 205~655) b1Witch Killerb2 (inflicts 5x damage, takes only 0.1x damage from Witch enemies)\nu1Not affected byu2: b1Slowb2"
+    }
+  ]
+}

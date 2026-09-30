@@ -1,0 +1,116 @@
+{
+  "id": "773",
+  "name": "Pumpkin Sodom",
+  "forms": [
+    {
+      "number": "773-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Pumpkin Sodom",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14875,
+      "damage": 10862,
+      "range": 390,
+      "kb": 2,
+      "speed": 3,
+      "dps": 788,
+      "target": "Area",
+      "tba": 13.8,
+      "anim": 2.17,
+      "spawn": 131.2,
+      "cost": 6450,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Metal Killer",
+              "detail": "Decreases 33% of target's current HP"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (50% chance of knockback)\nu1General Abilitiesu2: b1Metal Killerb2 (Decreases 33% of target's current HP)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "773-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sodom-o'-Lantern",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 16125,
+      "damage": 10862,
+      "range": 390,
+      "kb": 2,
+      "speed": 3,
+      "dps": 788,
+      "target": "Area",
+      "tba": 13.8,
+      "anim": 2.17,
+      "spawn": 131.2,
+      "cost": 6450,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "75% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Metal Killer",
+              "detail": "Decreases 33% of target's current HP"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (75% chance of knockback)\nu1General Abilitiesu2: b1Metal Killerb2 (Decreases 33% of target's current HP)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

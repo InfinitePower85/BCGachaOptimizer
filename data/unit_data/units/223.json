@@ -1,0 +1,114 @@
+{
+  "id": "223",
+  "name": "HUGE HERMIT",
+  "forms": [
+    {
+      "number": "223-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "HUGE HERMIT",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6110,
+      "damage": 750,
+      "range": 166,
+      "kb": 1,
+      "speed": 9,
+      "dps": 1022,
+      "target": "Area",
+      "tba": 0.73,
+      "anim": 0.3,
+      "spawn": 35.6,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "223-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "HUGE HERMIT CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8332,
+      "damage": 1125,
+      "range": 166,
+      "kb": 1,
+      "speed": 9,
+      "dps": 1535,
+      "target": "Area",
+      "tba": 0.73,
+      "anim": 0.3,
+      "spawn": 35.6,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "223-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "GOLDEN HUGE HERMIT CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10832,
+      "damage": 1125,
+      "range": 166,
+      "kb": 1,
+      "speed": 9,
+      "dps": 1535,
+      "target": "Area",
+      "tba": 0.73,
+      "anim": 0.3,
+      "spawn": 35.6,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

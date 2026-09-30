@@ -1,0 +1,72 @@
+{
+  "id": "853",
+  "name": "Killer Cowbird Cat",
+  "forms": [
+    {
+      "number": "853-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Killer Cowbird Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 350,
+      "range": 270,
+      "kb": 4,
+      "speed": 7,
+      "dps": 115,
+      "target": "Single",
+      "tba": 3.03,
+      "anim": 1.2,
+      "spawn": 2.0,
+      "cost": 7500,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 170~470"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 170~470)"
+    },
+    {
+      "number": "853-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "True Killer Cowbird Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 350,
+      "range": 270,
+      "kb": 4,
+      "speed": 7,
+      "dps": 115,
+      "target": "Single",
+      "tba": 3.03,
+      "anim": 1.2,
+      "spawn": 2.0,
+      "cost": 7500,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 170~470"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 170~470)"
+    }
+  ]
+}

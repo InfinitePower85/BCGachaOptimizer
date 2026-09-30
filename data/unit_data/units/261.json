@@ -1,0 +1,105 @@
+{
+  "id": "261",
+  "name": "Catway",
+  "forms": [
+    {
+      "number": "261-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Catway",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 500,
+      "range": 355,
+      "kb": 3,
+      "speed": 10,
+      "dps": 162,
+      "target": "Area",
+      "tba": 3.1,
+      "anim": 1.33,
+      "spawn": 7.87,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against red, black, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "261-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Drone Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 912,
+      "damage": 662,
+      "range": 355,
+      "kb": 3,
+      "speed": 10,
+      "dps": 212,
+      "target": "Area",
+      "tba": 3.1,
+      "anim": 1.33,
+      "spawn": 7.87,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against red, black, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "261-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Time Traveller Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1562,
+      "damage": 988,
+      "range": 355,
+      "kb": 3,
+      "speed": 10,
+      "dps": 318,
+      "target": "Area",
+      "tba": 3.1,
+      "anim": 1.33,
+      "spawn": 7.87,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against red, black, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

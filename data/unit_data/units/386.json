@@ -1,0 +1,105 @@
+{
+  "id": "386",
+  "name": "Akio Yabe",
+  "forms": [
+    {
+      "number": "386-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Akio Yabe",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1650,
+      "damage": 900,
+      "range": 180,
+      "kb": 3,
+      "speed": 24,
+      "dps": 332,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 0.73,
+      "spawn": 17.87,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "386-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Akio Yabe CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1650,
+      "damage": 900,
+      "range": 180,
+      "kb": 3,
+      "speed": 24,
+      "dps": 332,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 0.73,
+      "spawn": 17.87,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "386-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Akio & Gunder CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2475,
+      "damage": 450,
+      "range": 230,
+      "kb": 3,
+      "speed": 24,
+      "dps": 168,
+      "target": "Area",
+      "tba": 2.7,
+      "anim": 1.57,
+      "spawn": 17.87,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.2 Shockwave attack (Range: 532))"
+    }
+  ]
+}

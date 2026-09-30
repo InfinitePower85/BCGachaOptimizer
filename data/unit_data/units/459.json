@@ -1,0 +1,81 @@
+{
+  "id": "459",
+  "name": "Archer the Cat",
+  "forms": [
+    {
+      "number": "459-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Archer the Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1650,
+      "damage": 300,
+      "range": 275,
+      "kb": 3,
+      "speed": 10,
+      "dps": 100,
+      "target": "Single",
+      "tba": 3.03,
+      "anim": 0.87,
+      "spawn": 12.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "459-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Heroic Spirit Archer Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1650,
+      "damage": 300,
+      "range": 275,
+      "kb": 3,
+      "speed": 10,
+      "dps": 100,
+      "target": "Single",
+      "tba": 3.03,
+      "anim": 0.87,
+      "spawn": 12.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~350"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~350)\r\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

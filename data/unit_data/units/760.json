@@ -1,0 +1,98 @@
+{
+  "id": "760",
+  "name": "Music Fest Thundia",
+  "forms": [
+    {
+      "number": "760-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Music Fest Thundia",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5625,
+      "damage": 6500,
+      "range": 430,
+      "kb": 5,
+      "speed": 10,
+      "dps": 545,
+      "target": "Area",
+      "tba": 11.9,
+      "anim": 3.0,
+      "spawn": 107.87,
+      "cost": 4575,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 1.67s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Freezeb2 (50% chance to freeze for 1.67s)\nu1Not affected byu2: b1Weakenb2"
+    },
+    {
+      "number": "760-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Music Fest Thundia β",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7000,
+      "damage": 7750,
+      "range": 430,
+      "kb": 5,
+      "speed": 10,
+      "dps": 652,
+      "target": "Area",
+      "tba": 11.9,
+      "anim": 3.0,
+      "spawn": 107.87,
+      "cost": 4575,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 1.67s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Freezeb2 (100% chance to freeze for 1.67s)\nu1Not affected byu2: b1Weakenb2"
+    }
+  ]
+}

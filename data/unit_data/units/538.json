@@ -1,0 +1,116 @@
+{
+  "id": "538",
+  "name": "Kagamine Rin & Len",
+  "forms": [
+    {
+      "number": "538-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kagamine Rin & Len",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4875,
+      "damage": 3250,
+      "range": 450,
+      "kb": 6,
+      "speed": 16,
+      "dps": 442,
+      "target": "Area",
+      "tba": 7.33,
+      "anim": 2.37,
+      "spawn": 124.53,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against black, metal",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~550"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, metalu2: b1Slowb2 (50% chance to slow for 4.0s) b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~550)\nu1Not affected byu2: b1Knockbackb2"
+    },
+    {
+      "number": "538-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kagamine Rin & Len CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 4375,
+      "range": 450,
+      "kb": 6,
+      "speed": 16,
+      "dps": 598,
+      "target": "Area",
+      "tba": 7.33,
+      "anim": 2.37,
+      "spawn": 124.53,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against black, metal",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~550"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, metalu2: b1Slowb2 (50% chance to slow for 4.0s) b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~550)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

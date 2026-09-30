@@ -1,0 +1,106 @@
+{
+  "id": "291",
+  "name": "Sayaka Miki",
+  "forms": [
+    {
+      "number": "291-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sayaka Miki",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9900,
+      "damage": 4900,
+      "range": 400,
+      "kb": 2,
+      "speed": 12,
+      "dps": 855,
+      "target": "Area",
+      "tba": 5.73,
+      "anim": 1.1,
+      "spawn": 117.87,
+      "cost": 4230,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 50% health"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Witch Killer",
+              "detail": "inflicts 5x damage, takes only 0.1x damage from Witch enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 50% health) b1Surviveb2 (100% chance to survive a lethal strike) b1Witch Killerb2 (inflicts 5x damage, takes only 0.1x damage from Witch enemies)\nu1Not affected byu2: b1Knockbackb2"
+    },
+    {
+      "number": "291-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sayaka & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9900,
+      "damage": 4900,
+      "range": 400,
+      "kb": 2,
+      "speed": 12,
+      "dps": 855,
+      "target": "Area",
+      "tba": 5.73,
+      "anim": 1.1,
+      "spawn": 117.87,
+      "cost": 4230,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 50% health"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Witch Killer",
+              "detail": "inflicts 5x damage, takes only 0.1x damage from Witch enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 50% health) b1Surviveb2 (100% chance to survive a lethal strike) b1Witch Killerb2 (inflicts 5x damage, takes only 0.1x damage from Witch enemies)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "376",
+  "name": "Coin Cat",
+  "forms": [
+    {
+      "number": "376-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Coin Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 20,
+      "range": 140,
+      "kb": 3,
+      "speed": 9,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.13,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "376-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Macho Coin Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 20,
+      "range": 140,
+      "kb": 3,
+      "speed": 9,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.13,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

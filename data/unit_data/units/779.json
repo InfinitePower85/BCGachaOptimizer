@@ -1,0 +1,107 @@
+{
+  "id": "779",
+  "name": "Madoka Cat & Homura",
+  "forms": [
+    {
+      "number": "779-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Madoka Cat & Homura",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1700,
+      "damage": 750,
+      "range": 250,
+      "kb": 3,
+      "speed": 4,
+      "dps": 305,
+      "target": "Area",
+      "tba": 2.47,
+      "anim": 0.83,
+      "spawn": 9.87,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against floating, alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            },
+            {
+              "name": "Curse",
+              "detail": "30% chance to curse for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Surge",
+              "detail": "40% chance to perform Surge Attacks for 1s (Range: 150~600)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, alienu2: b1Knockbackb2 (30% chance of knockback) b1Curseb2 (30% chance to curse for 2.0s) \nu1General Abilitiesu2: b1Mini-Surgeb2 (40% chance to perform Surge Attacks for 1s (Range: 150~600))"
+    },
+    {
+      "number": "779-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Magical Cat☆ Magica",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9875,
+      "damage": 2988,
+      "range": 400,
+      "kb": 4,
+      "speed": 20,
+      "dps": 712,
+      "target": "Area",
+      "tba": 4.2,
+      "anim": 2.33,
+      "spawn": 124.53,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against floating, alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            },
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Surge",
+              "detail": "100% chance to perform Surge Attacks for 1s (Range: 150~600)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, alienu2: b1Knockbackb2 (100% chance of knockback) b1Curseb2 (100% chance to curse for 3.0s) \nu1General Abilitiesu2: b1Mini-Surgeb2 (100% chance to perform Surge Attacks for 1s (Range: 150~600))\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "870",
+  "name": "Akane Tounji",
+  "forms": [
+    {
+      "number": "870-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Akane Tounji",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 26000,
+      "damage": 5000,
+      "range": 415,
+      "kb": 2,
+      "speed": 7,
+      "dps": 602,
+      "target": "Area",
+      "tba": 8.3,
+      "anim": 2.93,
+      "spawn": 97.87,
+      "cost": 4950,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            },
+            {
+              "name": "red",
+              "detail": ""
+            },
+            {
+              "name": "black",
+              "detail": ""
+            },
+            {
+              "name": "Dodge",
+              "detail": "60% chance to dodge for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Freezeb2 (50% chance to freeze for 4.0s) u1Attacks onlyu2b1 redb2,b1 blackb2 b1Dodgeb2 (60% chance to dodge for 1.0s)\nu1Not affected byu2: b1Knockbackb2"
+    },
+    {
+      "number": "870-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Let's Go! Akane",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 32500,
+      "damage": 6250,
+      "range": 415,
+      "kb": 2,
+      "speed": 7,
+      "dps": 752,
+      "target": "Area",
+      "tba": 8.3,
+      "anim": 2.93,
+      "spawn": 97.87,
+      "cost": 4950,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            },
+            {
+              "name": "red",
+              "detail": ""
+            },
+            {
+              "name": "black",
+              "detail": ""
+            },
+            {
+              "name": "Dodge",
+              "detail": "60% chance to dodge for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Freezeb2 (50% chance to freeze for 4.0s) u1Attacks onlyu2b1 redb2,b1 blackb2 b1Dodgeb2 (60% chance to dodge for 1.0s)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

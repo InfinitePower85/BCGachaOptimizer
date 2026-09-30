@@ -1,0 +1,62 @@
+{
+  "id": "322",
+  "name": "Nazousagi",
+  "forms": [
+    {
+      "number": "322-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nazousagi",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 200,
+      "range": 340,
+      "kb": 3,
+      "speed": 8,
+      "dps": 48,
+      "target": "Single",
+      "tba": 4.13,
+      "anim": 0.7,
+      "spawn": 5.2,
+      "cost": 600,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "322-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Miya Ōdō Rabbit",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 200,
+      "range": 340,
+      "kb": 3,
+      "speed": 8,
+      "dps": 48,
+      "target": "Single",
+      "tba": 4.13,
+      "anim": 0.7,
+      "spawn": 5.2,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

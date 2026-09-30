@@ -1,0 +1,168 @@
+{
+  "id": "445",
+  "name": "Piledriver Cat",
+  "forms": [
+    {
+      "number": "445-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Piledriver Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1300,
+      "damage": 1575,
+      "range": 300,
+      "kb": 2,
+      "speed": 6,
+      "dps": 198,
+      "target": "Area",
+      "tba": 8.0,
+      "anim": 2.23,
+      "spawn": 57.87,
+      "cost": 1500,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -600~300"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -600~300) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "445-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Power Piledriver Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1650,
+      "damage": 2100,
+      "range": 300,
+      "kb": 2,
+      "speed": 6,
+      "dps": 262,
+      "target": "Area",
+      "tba": 8.0,
+      "anim": 2.23,
+      "spawn": 57.87,
+      "cost": 1500,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -600~300"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -600~300) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "445-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Neo Piledriver Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1650,
+      "damage": 2625,
+      "range": 300,
+      "kb": 2,
+      "speed": 6,
+      "dps": 328,
+      "target": "Area",
+      "tba": 8.0,
+      "anim": 2.23,
+      "spawn": 41.2,
+      "cost": 1500,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -600~300"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -600~300) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

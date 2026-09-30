@@ -1,0 +1,148 @@
+{
+  "id": "564",
+  "name": "Squirtgun Saki",
+  "forms": [
+    {
+      "number": "564-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Squirtgun Saki",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 10000,
+      "range": 600,
+      "kb": 3,
+      "speed": 21,
+      "dps": 1110,
+      "target": "Area",
+      "tba": 9.0,
+      "anim": 2.63,
+      "spawn": 57.87,
+      "cost": 6300,
+      "abilities": [
+        {
+          "group": "Against black, floating",
+          "abilities": [
+            {
+              "name": "black",
+              "detail": ""
+            },
+            {
+              "name": "floating",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 500~900"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, floatingu2: u1Attacks onlyu2b1 blackb2,b1 floatingb2 \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 500~900)"
+    },
+    {
+      "number": "564-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Aquabuster Saki",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 10000,
+      "range": 600,
+      "kb": 3,
+      "speed": 21,
+      "dps": 1110,
+      "target": "Area",
+      "tba": 9.0,
+      "anim": 2.63,
+      "spawn": 57.87,
+      "cost": 6300,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "floating",
+              "detail": ""
+            },
+            {
+              "name": "angel",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 500~900"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: u1Attacks onlyu2b1 floatingb2,b1 angelb2 \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 500~900)"
+    },
+    {
+      "number": "564-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Aquablaster Saki",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 10000,
+      "range": 600,
+      "kb": 3,
+      "speed": 21,
+      "dps": 1110,
+      "target": "Area",
+      "tba": 9.0,
+      "anim": 2.63,
+      "spawn": 57.87,
+      "cost": 6300,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "floating",
+              "detail": ""
+            },
+            {
+              "name": "angel",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 500~900"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) u1Attacks onlyu2b1 floatingb2,b1 angelb2 \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 500~900)"
+    }
+  ]
+}

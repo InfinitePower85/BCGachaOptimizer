@@ -1,0 +1,105 @@
+{
+  "id": "161",
+  "name": "Yurinchi\r",
+  "forms": [
+    {
+      "number": "161-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Yurinchi\r",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 1325,
+      "range": 315,
+      "kb": 4,
+      "speed": 7,
+      "dps": 262,
+      "target": "Area",
+      "tba": 5.07,
+      "anim": 1.1,
+      "spawn": 54.53,
+      "cost": 1875,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "161-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Phoenix Yurinchi\r",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4750,
+      "damage": 1500,
+      "range": 315,
+      "kb": 4,
+      "speed": 7,
+      "dps": 295,
+      "target": "Area",
+      "tba": 5.07,
+      "anim": 1.1,
+      "spawn": 54.53,
+      "cost": 1875,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "161-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Gekirinchi\r",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 1500,
+      "range": 340,
+      "kb": 4,
+      "speed": 12,
+      "dps": 440,
+      "target": "Area",
+      "tba": 3.4,
+      "anim": 1.1,
+      "spawn": 54.53,
+      "cost": 1875,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

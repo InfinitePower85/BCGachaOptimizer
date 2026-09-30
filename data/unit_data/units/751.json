@@ -1,0 +1,72 @@
+{
+  "id": "751",
+  "name": "Li'l Kaoru",
+  "forms": [
+    {
+      "number": "751-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Li'l Kaoru",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 2250,
+      "range": 250,
+      "kb": 3,
+      "speed": 8,
+      "dps": 405,
+      "target": "Area",
+      "tba": 5.57,
+      "anim": 1.27,
+      "spawn": 19.87,
+      "cost": 1080,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "751-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Li'l Kaoru CC",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 3000,
+      "range": 250,
+      "kb": 3,
+      "speed": 8,
+      "dps": 540,
+      "target": "Area",
+      "tba": 5.57,
+      "anim": 1.27,
+      "spawn": 19.87,
+      "cost": 1080,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s)"
+    }
+  ]
+}

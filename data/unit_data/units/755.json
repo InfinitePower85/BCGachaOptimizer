@@ -1,0 +1,102 @@
+{
+  "id": "755",
+  "name": "Akechi Mitsuhide",
+  "forms": [
+    {
+      "number": "755-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Akechi Mitsuhide",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 2500,
+      "range": 550,
+      "kb": 5,
+      "speed": 8,
+      "dps": 372,
+      "target": "Area",
+      "tba": 6.7,
+      "anim": 2.17,
+      "spawn": 144.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against black, angel",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 450~800"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a Spirit (Mitsuhide)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, angelu2: b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 450~800) b1Conjureb2 (Allows summon of a Spirit (Mitsuhide))"
+    },
+    {
+      "number": "755-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wargod Mitsuhide",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 3375,
+      "range": 550,
+      "kb": 5,
+      "speed": 8,
+      "dps": 502,
+      "target": "Area",
+      "tba": 6.7,
+      "anim": 2.17,
+      "spawn": 144.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against black, angel",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 450~800"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "50% chance to perform Surge Attacks for 1s (Range: 350~650)"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a Spirit (Mitsuhide)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, angelu2: b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 450~800) b1Surge Attacksb2 (50% chance to perform Surge Attacks for 1s (Range: 350~650)) b1Conjureb2 (Allows summon of a Spirit (Mitsuhide))"
+    }
+  ]
+}

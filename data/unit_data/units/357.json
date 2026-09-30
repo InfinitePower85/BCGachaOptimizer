@@ -1,0 +1,72 @@
+{
+  "id": "357",
+  "name": "Nora",
+  "forms": [
+    {
+      "number": "357-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nora",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 225,
+      "range": 200,
+      "kb": 3,
+      "speed": 18,
+      "dps": 72,
+      "target": "Single",
+      "tba": 3.07,
+      "anim": 0.77,
+      "spawn": 5.2,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "357-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Awakened Nora",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 225,
+      "range": 200,
+      "kb": 3,
+      "speed": 18,
+      "dps": 72,
+      "target": "Single",
+      "tba": 3.07,
+      "anim": 0.77,
+      "spawn": 5.2,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

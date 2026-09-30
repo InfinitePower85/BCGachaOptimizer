@@ -1,0 +1,117 @@
+{
+  "id": "225",
+  "name": "DONALD MORDEN",
+  "forms": [
+    {
+      "number": "225-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "DONALD MORDEN",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4275,
+      "damage": 2600,
+      "range": 410,
+      "kb": 3,
+      "speed": 8,
+      "dps": 582,
+      "target": "Area",
+      "tba": 4.47,
+      "anim": 0.5,
+      "spawn": 123.2,
+      "cost": 4275,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (40% chance of knockback)"
+    },
+    {
+      "number": "225-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "GENERAL MORDEN",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7025,
+      "damage": 3575,
+      "range": 410,
+      "kb": 3,
+      "speed": 8,
+      "dps": 800,
+      "target": "Area",
+      "tba": 4.47,
+      "anim": 0.5,
+      "spawn": 123.2,
+      "cost": 4275,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (40% chance of knockback)"
+    },
+    {
+      "number": "225-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "GOLDEN MORDEN CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7025,
+      "damage": 3575,
+      "range": 410,
+      "kb": 3,
+      "speed": 8,
+      "dps": 800,
+      "target": "Area",
+      "tba": 4.47,
+      "anim": 0.5,
+      "spawn": 123.2,
+      "cost": 4275,
+      "abilities": [
+        {
+          "group": "Against white, alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, alienu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (40% chance of knockback)"
+    }
+  ]
+}

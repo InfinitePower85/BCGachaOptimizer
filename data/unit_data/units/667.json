@@ -1,0 +1,116 @@
+{
+  "id": "667",
+  "name": "Night Beach Lilin",
+  "forms": [
+    {
+      "number": "667-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Night Beach Lilin",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 3375,
+      "range": 350,
+      "kb": 3,
+      "speed": 11,
+      "dps": 542,
+      "target": "Area",
+      "tba": 6.23,
+      "anim": 2.13,
+      "spawn": 84.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against white, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Dodge",
+              "detail": "20% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Dodgeb2 (20% chance to dodge for 2.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "667-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Night Beach Lilinπ",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7750,
+      "damage": 4375,
+      "range": 350,
+      "kb": 3,
+      "speed": 11,
+      "dps": 702,
+      "target": "Area",
+      "tba": 6.23,
+      "anim": 2.13,
+      "spawn": 84.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against white, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Dodge",
+              "detail": "20% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Dodgeb2 (20% chance to dodge for 2.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

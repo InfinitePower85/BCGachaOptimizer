@@ -1,0 +1,98 @@
+{
+  "id": "591",
+  "name": "Snow Miku 2021",
+  "forms": [
+    {
+      "number": "591-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Snow Miku 2021",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 3250,
+      "range": 425,
+      "kb": 4,
+      "speed": 11,
+      "dps": 470,
+      "target": "Area",
+      "tba": 6.9,
+      "anim": 3.27,
+      "spawn": 124.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 325~700"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (50% chance to freeze for 4.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 325~700)"
+    },
+    {
+      "number": "591-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Snow Miku CC 2021",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7000,
+      "damage": 4250,
+      "range": 425,
+      "kb": 4,
+      "speed": 11,
+      "dps": 615,
+      "target": "Area",
+      "tba": 6.9,
+      "anim": 3.27,
+      "spawn": 124.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 325~700"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (50% chance to freeze for 4.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 325~700)"
+    }
+  ]
+}

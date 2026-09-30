@@ -1,0 +1,183 @@
+{
+  "id": "306",
+  "name": "Mighty Drednot",
+  "forms": [
+    {
+      "number": "306-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mighty Drednot",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 9500,
+      "range": 440,
+      "kb": 3,
+      "speed": 7,
+      "dps": 722,
+      "target": "Area",
+      "tba": 13.17,
+      "anim": 3.8,
+      "spawn": 177.87,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against red, zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "306-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "B.C.S. Lionheart",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 9500,
+      "range": 440,
+      "kb": 3,
+      "speed": 7,
+      "dps": 722,
+      "target": "Area",
+      "tba": 13.17,
+      "anim": 3.8,
+      "spawn": 177.87,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against red, zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "306-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "B.C.S. Tigerclaw",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 9500,
+      "range": 440,
+      "kb": 3,
+      "speed": 7,
+      "dps": 940,
+      "target": "Area",
+      "tba": 10.1,
+      "anim": 3.8,
+      "spawn": 177.87,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against red, zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "306-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "B.C.S. Beartooth",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14000,
+      "damage": 9500,
+      "range": 480,
+      "kb": 3,
+      "speed": 7,
+      "dps": 1082,
+      "target": "Area",
+      "tba": 8.77,
+      "anim": 2.47,
+      "spawn": 144.53,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against red, zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

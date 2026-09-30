@@ -1,0 +1,72 @@
+{
+  "id": "652",
+  "name": "Tomboy Lion Cat",
+  "forms": [
+    {
+      "number": "652-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Tomboy Lion Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 30,
+      "range": 140,
+      "kb": 5,
+      "speed": 28,
+      "dps": 90,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 2.0,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "652-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Iron-Masked Lion Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 30,
+      "range": 140,
+      "kb": 5,
+      "speed": 28,
+      "dps": 90,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 2.0,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

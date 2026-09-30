@@ -1,0 +1,154 @@
+{
+  "id": "032",
+  "name": "Delinquent Cat",
+  "forms": [
+    {
+      "number": "032-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Delinquent Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 1088,
+      "range": 250,
+      "kb": 3,
+      "speed": 8,
+      "dps": 338,
+      "target": "Area",
+      "tba": 3.23,
+      "anim": 0.6,
+      "spawn": 48.53,
+      "cost": 1500,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "16% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Freezeb2 (16% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "032-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Angry Delinquent Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 1912,
+      "range": 250,
+      "kb": 3,
+      "speed": 8,
+      "dps": 592,
+      "target": "Area",
+      "tba": 3.23,
+      "anim": 0.6,
+      "spawn": 48.53,
+      "cost": 1500,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "16% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Freezeb2 (16% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Freezeb2"
+    },
+    {
+      "number": "032-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Ultra Delinquent Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 1912,
+      "range": 280,
+      "kb": 3,
+      "speed": 8,
+      "dps": 592,
+      "target": "Area",
+      "tba": 3.23,
+      "anim": 0.6,
+      "spawn": 34.2,
+      "cost": 1500,
+      "abilities": [
+        {
+          "group": "Against floating, relic",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "16% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, relicu2: b1Freezeb2 (16% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Freezeb2, b1Curseb2"
+    }
+  ]
+}

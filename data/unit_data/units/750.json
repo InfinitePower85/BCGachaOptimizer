@@ -1,0 +1,98 @@
+{
+  "id": "750",
+  "name": "Hajime Saito",
+  "forms": [
+    {
+      "number": "750-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hajime Saito",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 2500,
+      "range": 200,
+      "kb": 6,
+      "speed": 55,
+      "dps": 572,
+      "target": "Area",
+      "tba": 4.37,
+      "anim": 0.1,
+      "spawn": 64.53,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against red, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~400"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "100% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, akuu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -100~400) b1Shield Piercingb2 (100% chance to break Aku shields)"
+    },
+    {
+      "number": "750-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hajime Saito CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 3250,
+      "range": 200,
+      "kb": 6,
+      "speed": 55,
+      "dps": 745,
+      "target": "Area",
+      "tba": 4.37,
+      "anim": 0.1,
+      "spawn": 64.53,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against red, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~400"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "100% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, akuu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -100~400) b1Shield Piercingb2 (100% chance to break Aku shields)"
+    }
+  ]
+}

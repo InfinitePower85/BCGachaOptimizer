@@ -1,0 +1,90 @@
+{
+  "id": "793",
+  "name": "Katsumi Orochi",
+  "forms": [
+    {
+      "number": "793-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Katsumi Orochi",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 3125,
+      "range": 450,
+      "kb": 5,
+      "speed": 9,
+      "dps": 510,
+      "target": "Area",
+      "tba": 6.13,
+      "anim": 0.17,
+      "spawn": 124.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)"
+    },
+    {
+      "number": "793-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Katsumi Orochi CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5500,
+      "damage": 4125,
+      "range": 450,
+      "kb": 5,
+      "speed": 9,
+      "dps": 672,
+      "target": "Area",
+      "tba": 6.13,
+      "anim": 0.17,
+      "spawn": 124.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)"
+    }
+  ]
+}

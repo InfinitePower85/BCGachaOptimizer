@@ -1,0 +1,52 @@
+{
+  "id": "280",
+  "name": "White Cat",
+  "forms": [
+    {
+      "number": "280-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "White Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 300,
+      "range": 175,
+      "kb": 3,
+      "speed": 12,
+      "dps": 80,
+      "target": "Single",
+      "tba": 3.77,
+      "anim": 1.73,
+      "spawn": 3.2,
+      "cost": 660,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "280-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Gross White Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 300,
+      "range": 350,
+      "kb": 3,
+      "speed": 12,
+      "dps": 68,
+      "target": "Single",
+      "tba": 4.37,
+      "anim": 1.73,
+      "spawn": 3.2,
+      "cost": 660,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

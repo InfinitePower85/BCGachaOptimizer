@@ -1,0 +1,114 @@
+{
+  "id": "312",
+  "name": "Li'l Fish Cat",
+  "forms": [
+    {
+      "number": "312-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Li'l Fish Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 700,
+      "damage": 450,
+      "range": 140,
+      "kb": 3,
+      "speed": 8,
+      "dps": 255,
+      "target": "Single",
+      "tba": 1.77,
+      "anim": 0.33,
+      "spawn": 4.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "312-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Li'l Whale Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 700,
+      "damage": 450,
+      "range": 140,
+      "kb": 3,
+      "speed": 8,
+      "dps": 255,
+      "target": "Single",
+      "tba": 1.77,
+      "anim": 0.33,
+      "spawn": 4.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "312-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Li'l Island Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2800,
+      "damage": 900,
+      "range": 140,
+      "kb": 3,
+      "speed": 8,
+      "dps": 510,
+      "target": "Single",
+      "tba": 1.77,
+      "anim": 0.33,
+      "spawn": 8.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "5% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Criticalb2 (5% chance of a critical hit)"
+    }
+  ]
+}

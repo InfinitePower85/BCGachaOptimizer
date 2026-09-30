@@ -1,0 +1,72 @@
+{
+  "id": "116",
+  "name": "Serum",
+  "forms": [
+    {
+      "number": "116-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Serum",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 762,
+      "damage": 300,
+      "range": 250,
+      "kb": 6,
+      "speed": 16,
+      "dps": 85,
+      "target": "Single",
+      "tba": 3.53,
+      "anim": 0.57,
+      "spawn": 5.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "116-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Serum CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 875,
+      "damage": 388,
+      "range": 250,
+      "kb": 6,
+      "speed": 16,
+      "dps": 110,
+      "target": "Single",
+      "tba": 3.53,
+      "anim": 0.57,
+      "spawn": 5.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Knockbackb2 (30% chance of knockback)"
+    }
+  ]
+}

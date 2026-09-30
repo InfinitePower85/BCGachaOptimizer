@@ -1,0 +1,72 @@
+{
+  "id": "509",
+  "name": "Ryu Cat",
+  "forms": [
+    {
+      "number": "509-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ryu Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1225,
+      "damage": 100,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 68,
+      "target": "Single",
+      "tba": 1.47,
+      "anim": 0.5,
+      "spawn": 9.2,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "509-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ryu Cat CC",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1225,
+      "damage": 100,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 68,
+      "target": "Single",
+      "tba": 1.47,
+      "anim": 0.5,
+      "spawn": 9.2,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    }
+  ]
+}

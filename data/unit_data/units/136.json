@@ -1,0 +1,163 @@
+{
+  "id": "136",
+  "name": "The Grateful Crane",
+  "forms": [
+    {
+      "number": "136-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "The Grateful Crane",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1388,
+      "damage": 600,
+      "range": 200,
+      "kb": 3,
+      "speed": 4,
+      "dps": 750,
+      "target": "Area",
+      "tba": 0.8,
+      "anim": 0.17,
+      "spawn": 6.53,
+      "cost": 832,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "20% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Knockbackb2 (20% chance of knockback)"
+    },
+    {
+      "number": "136-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Super Galaxy Cosmo",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 5875,
+      "range": 850,
+      "kb": 4,
+      "speed": 54,
+      "dps": 285,
+      "target": "Area",
+      "tba": 20.67,
+      "anim": 10.7,
+      "spawn": 131.2,
+      "cost": 5850,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "136-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Ultima Galaxy Cosmo",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 8375,
+      "range": 850,
+      "kb": 4,
+      "speed": 54,
+      "dps": 405,
+      "target": "Area",
+      "tba": 20.67,
+      "anim": 10.7,
+      "spawn": 131.2,
+      "cost": 5850,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Freezeb2 (100% chance to freeze for 5.0s) b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "136-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "Supernova Cosmo",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 8375,
+      "range": 850,
+      "kb": 4,
+      "speed": 54,
+      "dps": 405,
+      "target": "Area",
+      "tba": 20.67,
+      "anim": 10.7,
+      "spawn": 131.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.10 Shockwave attack (Range: 2132)"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -300~1050"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Freezeb2 (100% chance to freeze for 5.0s) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.10 Shockwave attack (Range: 2132)) b1Omni Strikeb2 (Effective range -300~1050) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)"
+    }
+  ]
+}

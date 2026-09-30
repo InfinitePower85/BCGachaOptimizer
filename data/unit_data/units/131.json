@@ -1,0 +1,114 @@
+{
+  "id": "131",
+  "name": "Ururun Wolf",
+  "forms": [
+    {
+      "number": "131-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ururun Wolf",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 2250,
+      "range": 440,
+      "kb": 4,
+      "speed": 8,
+      "dps": 630,
+      "target": "Area",
+      "tba": 3.57,
+      "anim": 2.27,
+      "spawn": 161.2,
+      "cost": 4950,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "20% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (20% chance of knockback)"
+    },
+    {
+      "number": "131-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ururun Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 2250,
+      "range": 440,
+      "kb": 4,
+      "speed": 8,
+      "dps": 630,
+      "target": "Area",
+      "tba": 3.57,
+      "anim": 2.27,
+      "spawn": 161.2,
+      "cost": 4950,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "20% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (20% chance of knockback)"
+    },
+    {
+      "number": "131-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Awakened Ururun",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 3375,
+      "range": 450,
+      "kb": 4,
+      "speed": 8,
+      "dps": 948,
+      "target": "Area",
+      "tba": 3.57,
+      "anim": 2.27,
+      "spawn": 161.2,
+      "cost": 4950,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "20% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (20% chance of knockback)\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

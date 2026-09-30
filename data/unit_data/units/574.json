@@ -1,0 +1,98 @@
+{
+  "id": "574",
+  "name": "Vega",
+  "forms": [
+    {
+      "number": "574-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Vega",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 1500,
+      "range": 450,
+      "kb": 5,
+      "speed": 25,
+      "dps": 258,
+      "target": "Area",
+      "tba": 5.83,
+      "anim": 1.6,
+      "spawn": 131.2,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.5s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "30% chance of a critical hit"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 350~800"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Freezeb2 (100% chance to freeze for 2.5s) \nu1General Abilitiesu2: b1Criticalb2 (30% chance of a critical hit) b1Long Distanceb2 (Effective range 350~800)"
+    },
+    {
+      "number": "574-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Vega CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 1500,
+      "range": 450,
+      "kb": 5,
+      "speed": 25,
+      "dps": 258,
+      "target": "Area",
+      "tba": 5.83,
+      "anim": 1.6,
+      "spawn": 131.2,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.5s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "30% chance of a critical hit"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 350~800"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Freezeb2 (100% chance to freeze for 2.5s) \nu1General Abilitiesu2: b1Criticalb2 (30% chance of a critical hit) b1Long Distanceb2 (Effective range 350~800)"
+    }
+  ]
+}

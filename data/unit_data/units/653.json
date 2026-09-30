@@ -1,0 +1,72 @@
+{
+  "id": "653",
+  "name": "Chalkboard Eraser Cat",
+  "forms": [
+    {
+      "number": "653-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Chalkboard Eraser Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 625,
+      "damage": 5,
+      "range": 110,
+      "kb": 1,
+      "speed": 7,
+      "dps": 2,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 150,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "653-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Chalkboard Punk Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 625,
+      "damage": 5,
+      "range": 110,
+      "kb": 1,
+      "speed": 7,
+      "dps": 2,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 150,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

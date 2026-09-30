@@ -1,0 +1,105 @@
+{
+  "id": "285",
+  "name": "Express Cat",
+  "forms": [
+    {
+      "number": "285-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Express Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 2500,
+      "range": 140,
+      "kb": 1,
+      "speed": 60,
+      "dps": 372,
+      "target": "Single",
+      "tba": 6.7,
+      "anim": 0.03,
+      "spawn": 19.2,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "285-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Maglev Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 3750,
+      "range": 140,
+      "kb": 1,
+      "speed": 75,
+      "dps": 560,
+      "target": "Single",
+      "tba": 6.7,
+      "anim": 0.03,
+      "spawn": 19.2,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "285-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Bullet Train Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 4375,
+      "range": 140,
+      "kb": 1,
+      "speed": 85,
+      "dps": 652,
+      "target": "Single",
+      "tba": 6.7,
+      "anim": 0.03,
+      "spawn": 19.2,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    }
+  ]
+}

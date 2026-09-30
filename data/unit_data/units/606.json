@@ -1,0 +1,72 @@
+{
+  "id": "606",
+  "name": "Akane Cat",
+  "forms": [
+    {
+      "number": "606-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Akane Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2750,
+      "damage": 1750,
+      "range": 210,
+      "kb": 3,
+      "speed": 6,
+      "dps": 348,
+      "target": "Single",
+      "tba": 5.03,
+      "anim": 1.2,
+      "spawn": 9.87,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "30% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Savage Blowb2 (30% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    },
+    {
+      "number": "606-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Akane Cat (Gi)",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2750,
+      "damage": 1750,
+      "range": 210,
+      "kb": 3,
+      "speed": 6,
+      "dps": 348,
+      "target": "Single",
+      "tba": 5.03,
+      "anim": 1.2,
+      "spawn": 9.87,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "30% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Savage Blowb2 (30% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    }
+  ]
+}

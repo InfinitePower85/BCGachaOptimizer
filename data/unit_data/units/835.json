@@ -1,0 +1,72 @@
+{
+  "id": "835",
+  "name": "Goggles Cat",
+  "forms": [
+    {
+      "number": "835-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Goggles Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 425,
+      "range": 350,
+      "kb": 4,
+      "speed": 6,
+      "dps": 105,
+      "target": "Area",
+      "tba": 4.0,
+      "anim": 0.83,
+      "spawn": 21.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Freezeb2 (100% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "835-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Green Nyanko Ranger",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 500,
+      "range": 350,
+      "kb": 4,
+      "speed": 6,
+      "dps": 125,
+      "target": "Area",
+      "tba": 4.0,
+      "anim": 0.83,
+      "spawn": 21.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Freezeb2 (100% chance to freeze for 2.0s)"
+    }
+  ]
+}

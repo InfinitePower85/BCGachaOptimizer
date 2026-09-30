@@ -1,0 +1,104 @@
+{
+  "id": "666",
+  "name": "Ancient Egg: N201",
+  "forms": [
+    {
+      "number": "666-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ancient Egg: N201",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "666-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Dark Egg: N201",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Freezeb2 (30% chance to freeze for 3.0s)"
+    },
+    {
+      "number": "666-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Exorcist Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1650,
+      "damage": 300,
+      "range": 220,
+      "kb": 3,
+      "speed": 20,
+      "dps": 128,
+      "target": "Single",
+      "tba": 2.37,
+      "anim": 1.03,
+      "spawn": 7.87,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Freezeb2 (30% chance to freeze for 3.0s) \nu1General Abilitiesu2: b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "180",
+  "name": "Takuya & Yuki",
+  "forms": [
+    {
+      "number": "180-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Takuya & Yuki",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 210,
+      "range": 190,
+      "kb": 2,
+      "speed": 25,
+      "dps": 62,
+      "target": "Area",
+      "tba": 3.37,
+      "anim": 0.73,
+      "spawn": 3.2,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "180-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Takuya, Yuki & Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 210,
+      "range": 190,
+      "kb": 2,
+      "speed": 25,
+      "dps": 62,
+      "target": "Area",
+      "tba": 3.37,
+      "anim": 0.73,
+      "spawn": 3.2,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "180-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Takuya＆ Lovely Yuki",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 210,
+      "range": 190,
+      "kb": 2,
+      "speed": 25,
+      "dps": 62,
+      "target": "Area",
+      "tba": 3.37,
+      "anim": 0.73,
+      "spawn": 3.2,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    }
+  ]
+}

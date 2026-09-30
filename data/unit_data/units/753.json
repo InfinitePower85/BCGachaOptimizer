@@ -1,0 +1,72 @@
+{
+  "id": "753",
+  "name": "Kenshin Cat",
+  "forms": [
+    {
+      "number": "753-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kenshin Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1700,
+      "damage": 525,
+      "range": 155,
+      "kb": 2,
+      "speed": 10,
+      "dps": 238,
+      "target": "Single",
+      "tba": 2.2,
+      "anim": 1.03,
+      "spawn": 3.87,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "753-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Battosai Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1700,
+      "damage": 525,
+      "range": 155,
+      "kb": 2,
+      "speed": 10,
+      "dps": 238,
+      "target": "Single",
+      "tba": 2.2,
+      "anim": 1.03,
+      "spawn": 3.87,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

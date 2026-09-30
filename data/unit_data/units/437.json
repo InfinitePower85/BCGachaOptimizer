@@ -1,0 +1,169 @@
+{
+  "id": "437",
+  "name": "Nobiluga",
+  "forms": [
+    {
+      "number": "437-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nobiluga",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 375,
+      "range": 140,
+      "kb": 5,
+      "speed": 4,
+      "dps": 138,
+      "target": "Single",
+      "tba": 2.73,
+      "anim": 0.43,
+      "spawn": 24.53,
+      "cost": 4500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "437-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Nobilan Pasalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 6000,
+      "range": 500,
+      "kb": 1,
+      "speed": 4,
+      "dps": 420,
+      "target": "Area",
+      "tba": 14.3,
+      "anim": 1.57,
+      "spawn": 324.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 400~1000"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 400~1000) b1Multi-hit attackb2 (Attacks twice consecutively)\r\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Curseb2, b1Warpb2, b1Waveb2"
+    },
+    {
+      "number": "437-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Mystican Pasalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 6000,
+      "range": 500,
+      "kb": 1,
+      "speed": 4,
+      "dps": 420,
+      "target": "Area",
+      "tba": 14.3,
+      "anim": 5.27,
+      "spawn": 191.2,
+      "cost": 2250,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 400~1000"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 400~1000) b1Multi-hit attackb2 (Attacks twice consecutively)\r\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Curseb2, b1Warpb2, b1Waveb2"
+    }
+  ]
+}

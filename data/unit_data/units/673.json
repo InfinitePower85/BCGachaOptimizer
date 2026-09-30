@@ -1,0 +1,72 @@
+{
+  "id": "673",
+  "name": "Genma Saotome (Panda)",
+  "forms": [
+    {
+      "number": "673-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Genma Saotome (Panda)",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 1650,
+      "range": 300,
+      "kb": 3,
+      "speed": 9,
+      "dps": 445,
+      "target": "Area",
+      "tba": 3.7,
+      "anim": 1.27,
+      "spawn": 24.53,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against white, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, akuu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "673-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Genma Saotome",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 1650,
+      "range": 300,
+      "kb": 3,
+      "speed": 9,
+      "dps": 445,
+      "target": "Area",
+      "tba": 3.7,
+      "anim": 1.27,
+      "spawn": 24.53,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against white, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, akuu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

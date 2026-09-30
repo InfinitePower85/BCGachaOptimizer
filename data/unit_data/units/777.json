@@ -1,0 +1,90 @@
+{
+  "id": "777",
+  "name": "Lieutenant Cat",
+  "forms": [
+    {
+      "number": "777-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Lieutenant Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 250,
+      "range": 140,
+      "kb": 1,
+      "speed": 20,
+      "dps": 38,
+      "target": "Single",
+      "tba": 6.7,
+      "anim": 0.23,
+      "spawn": 48.53,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "100% chance to perform a Lv.1 Shockwave attack (Range: 332)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Freezeb2 (100% chance to freeze for 3.0s) \nu1General Abilitiesu2: b1Mini-Waveb2 (100% chance to perform a Lv.1 Shockwave attack (Range: 332))"
+    },
+    {
+      "number": "777-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Commander Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 300,
+      "damage": 280,
+      "range": 140,
+      "kb": 1,
+      "speed": 20,
+      "dps": 42,
+      "target": "Single",
+      "tba": 6.7,
+      "anim": 0.23,
+      "spawn": 48.53,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "100% chance perform a Lv.1 Shockwave attack (Range: 332)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Freezeb2 (100% chance to freeze for 3.0s) \nu1General Abilitiesu2: b1Mini-Waveb2 (100% chance perform a Lv.1 Shockwave attack (Range: 332))"
+    }
+  ]
+}

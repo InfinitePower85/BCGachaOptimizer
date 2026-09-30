@@ -1,0 +1,123 @@
+{
+  "id": "384",
+  "name": "Masked Yulala",
+  "forms": [
+    {
+      "number": "384-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Masked Yulala",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 1250,
+      "range": 350,
+      "kb": 2,
+      "speed": 20,
+      "dps": 615,
+      "target": "Area",
+      "tba": 2.03,
+      "anim": 1.3,
+      "spawn": 94.53,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~500"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~500)"
+    },
+    {
+      "number": "384-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mystic Yulala",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 1250,
+      "range": 350,
+      "kb": 2,
+      "speed": 20,
+      "dps": 615,
+      "target": "Area",
+      "tba": 2.03,
+      "anim": 1.3,
+      "spawn": 94.53,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~500"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~500)"
+    },
+    {
+      "number": "384-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Spiritual Yulala",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 1250,
+      "range": 350,
+      "kb": 2,
+      "speed": 20,
+      "dps": 615,
+      "target": "Area",
+      "tba": 2.03,
+      "anim": 1.3,
+      "spawn": 71.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~500"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~500)\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

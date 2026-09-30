@@ -1,0 +1,85 @@
+{
+  "id": "024",
+  "name": "Skirt Cat",
+  "forms": [
+    {
+      "number": "024-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Skirt Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 250,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 60,
+      "target": "Single",
+      "tba": 4.17,
+      "anim": 0.2,
+      "spawn": 2.2,
+      "cost": 525,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "024-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Tights Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 250,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 60,
+      "target": "Single",
+      "tba": 4.17,
+      "anim": 0.2,
+      "spawn": 2.2,
+      "cost": 525,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "024-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Loincloth Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 250,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 88,
+      "target": "Single",
+      "tba": 2.83,
+      "anim": 0.2,
+      "spawn": 2.2,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "30% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Barrier Breakerb2 (30% chance of breaking enemy barriers)"
+    }
+  ]
+}

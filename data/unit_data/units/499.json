@@ -1,0 +1,80 @@
+{
+  "id": "499",
+  "name": "Shakurel Lion",
+  "forms": [
+    {
+      "number": "499-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shakurel Lion",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4250,
+      "damage": 375,
+      "range": 160,
+      "kb": 2,
+      "speed": 7,
+      "dps": 402,
+      "target": "Single",
+      "tba": 0.93,
+      "anim": 0.63,
+      "spawn": 31.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "10% chance of a critical hit"
+            },
+            {
+              "name": "Wave attack",
+              "detail": "20% chance to perform a Lv.1 Shockwave attack (Range: 332)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (10% chance of a critical hit) b1Wave attackb2 (20% chance to perform a Lv.1 Shockwave attack (Range: 332))"
+    },
+    {
+      "number": "499-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Shakurel Lion CC",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5750,
+      "damage": 500,
+      "range": 160,
+      "kb": 2,
+      "speed": 7,
+      "dps": 535,
+      "target": "Single",
+      "tba": 0.93,
+      "anim": 0.63,
+      "spawn": 31.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "10% chance of a critical hit"
+            },
+            {
+              "name": "Wave attack",
+              "detail": "20% chance to perform a Lv.1 Shockwave attack (Range: 332)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (10% chance of a critical hit) b1Wave attackb2 (20% chance to perform a Lv.1 Shockwave attack (Range: 332))"
+    }
+  ]
+}

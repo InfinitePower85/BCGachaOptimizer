@@ -1,0 +1,196 @@
+{
+  "id": "060",
+  "name": "Baby Cat",
+  "forms": [
+    {
+      "number": "060-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Baby Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 5500,
+      "range": 140,
+      "kb": 2,
+      "speed": 9,
+      "dps": 552,
+      "target": "Area",
+      "tba": 9.97,
+      "anim": 2.0,
+      "spawn": 51.2,
+      "cost": 3150,
+      "abilities": [
+        {
+          "group": "Against floating, alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, alienu2: b1Knockbackb2 (30% chance of knockback)\nu1Not affected byu2: b1Freezeb2"
+    },
+    {
+      "number": "060-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Baby Cats",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13000,
+      "damage": 8750,
+      "range": 140,
+      "kb": 2,
+      "speed": 9,
+      "dps": 878,
+      "target": "Area",
+      "tba": 9.97,
+      "anim": 2.0,
+      "spawn": 51.2,
+      "cost": 3150,
+      "abilities": [
+        {
+          "group": "Against floating, alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, alienu2: b1Knockbackb2 (30% chance of knockback)\nu1Not affected byu2: b1Freezeb2"
+    },
+    {
+      "number": "060-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Cats in the Cradle",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 15500,
+      "damage": 8750,
+      "range": 240,
+      "kb": 2,
+      "speed": 12,
+      "dps": 878,
+      "target": "Area",
+      "tba": 9.97,
+      "anim": 2.0,
+      "spawn": 51.2,
+      "cost": 3150,
+      "abilities": [
+        {
+          "group": "Against floating, alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, alienu2: b1Knockbackb2 (30% chance of knockback) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.2 Shockwave attack (Range: 532))\nu1Not affected byu2: b1Freezeb2"
+    },
+    {
+      "number": "060-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "Cats in the Stroller",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 15500,
+      "damage": 8750,
+      "range": 240,
+      "kb": 2,
+      "speed": 18,
+      "dps": 878,
+      "target": "Area",
+      "tba": 9.97,
+      "anim": 2.0,
+      "spawn": 51.2,
+      "cost": 3150,
+      "abilities": [
+        {
+          "group": "Against floating, alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.3 Shockwave attack (Range: 732)"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~300"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, alienu2: b1Knockbackb2 (40% chance of knockback) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.3 Shockwave attack (Range: 732)) b1Omni Strikeb2 (Effective range -100~300)\nu1Not affected byu2: b1Freezeb2"
+    }
+  ]
+}

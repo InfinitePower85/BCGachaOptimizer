@@ -1,0 +1,144 @@
+{
+  "id": "319",
+  "name": "Miko Mitama",
+  "forms": [
+    {
+      "number": "319-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Miko Mitama",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 1250,
+      "range": 250,
+      "kb": 8,
+      "speed": 8,
+      "dps": 248,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 0.5,
+      "spawn": 15.2,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~400"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Resistantb2 (only takes 0.25x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~400)\r\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Waveb2"
+    },
+    {
+      "number": "319-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mitama the Oracle",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4375,
+      "damage": 3125,
+      "range": 350,
+      "kb": 15,
+      "speed": 6,
+      "dps": 620,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 0.5,
+      "spawn": 157.87,
+      "cost": 5250,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.33s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~650"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Resistantb2 (only takes 0.25x damage) b1Slowb2 (100% chance to slow for 3.33s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~650)\r\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Waveb2"
+    }
+  ]
+}

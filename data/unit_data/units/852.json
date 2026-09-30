@@ -1,0 +1,124 @@
+{
+  "id": "852",
+  "name": "Paperboy Cat",
+  "forms": [
+    {
+      "number": "852-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Paperboy Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1950,
+      "damage": 1250,
+      "range": 330,
+      "kb": 2,
+      "speed": 25,
+      "dps": 272,
+      "target": "Area",
+      "tba": 4.57,
+      "anim": 1.67,
+      "spawn": 7.87,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against relic, aku",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~331,230~430"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relic, akuu2: b1Insane Damageb2 (inflicts 5.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~331,230~430) b1Multi-hit attackb2 (Attacks twice consecutively)\nu1Not affected byu2: b1Curseb2, b1Surgeb2"
+    },
+    {
+      "number": "852-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Bargain Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1950,
+      "damage": 1250,
+      "range": 330,
+      "kb": 2,
+      "speed": 25,
+      "dps": 272,
+      "target": "Area",
+      "tba": 4.57,
+      "anim": 1.67,
+      "spawn": 7.87,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against relic, aku",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~331,230~430"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relic, akuu2: b1Insane Damageb2 (inflicts 5.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~331,230~430) b1Multi-hit attackb2 (Attacks twice consecutively)\nu1Not affected byu2: b1Curseb2, b1Surgeb2"
+    }
+  ]
+}

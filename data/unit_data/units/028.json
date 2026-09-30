@@ -1,0 +1,52 @@
+{
+  "id": "028",
+  "name": "Cat Princess",
+  "forms": [
+    {
+      "number": "028-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cat Princess",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 1125,
+      "range": 140,
+      "kb": 1,
+      "speed": 35,
+      "dps": 210,
+      "target": "Single",
+      "tba": 5.37,
+      "anim": 0.07,
+      "spawn": 14.53,
+      "cost": 675,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "028-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cat Princess Beauty",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 1125,
+      "range": 140,
+      "kb": 1,
+      "speed": 35,
+      "dps": 210,
+      "target": "Single",
+      "tba": 5.37,
+      "anim": 0.07,
+      "spawn": 14.53,
+      "cost": 675,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

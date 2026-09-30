@@ -1,0 +1,114 @@
+{
+  "id": "108",
+  "name": "Coppermine",
+  "forms": [
+    {
+      "number": "108-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Coppermine",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3175,
+      "damage": 2650,
+      "range": 335,
+      "kb": 3,
+      "speed": 7,
+      "dps": 420,
+      "target": "Area",
+      "tba": 6.3,
+      "anim": 3.33,
+      "spawn": 65.87,
+      "cost": 3720,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Freezeb2 (50% chance to freeze for 4.67s)"
+    },
+    {
+      "number": "108-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Coppermine, type κ",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4900,
+      "damage": 3800,
+      "range": 335,
+      "kb": 3,
+      "speed": 7,
+      "dps": 602,
+      "target": "Area",
+      "tba": 6.3,
+      "anim": 3.33,
+      "spawn": 65.87,
+      "cost": 3720,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Freezeb2 (50% chance to freeze for 4.67s)"
+    },
+    {
+      "number": "108-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Divine Coppermine",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6625,
+      "damage": 4950,
+      "range": 410,
+      "kb": 3,
+      "speed": 7,
+      "dps": 785,
+      "target": "Area",
+      "tba": 6.3,
+      "anim": 3.33,
+      "spawn": 65.87,
+      "cost": 3720,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "75% chance to freeze for 4.67s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Freezeb2 (75% chance to freeze for 4.67s)\nu1Not affected byu2: b1Freezeb2"
+    }
+  ]
+}

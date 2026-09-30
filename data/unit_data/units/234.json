@@ -1,0 +1,72 @@
+{
+  "id": "234",
+  "name": "Brynhildr",
+  "forms": [
+    {
+      "number": "234-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Brynhildr",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1400,
+      "damage": 175,
+      "range": 215,
+      "kb": 4,
+      "speed": 12,
+      "dps": 188,
+      "target": "Single",
+      "tba": 0.93,
+      "anim": 0.3,
+      "spawn": 7.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "234-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Brynhildr CC",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1800,
+      "damage": 225,
+      "range": 215,
+      "kb": 4,
+      "speed": 12,
+      "dps": 240,
+      "target": "Single",
+      "tba": 0.93,
+      "anim": 0.3,
+      "spawn": 7.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

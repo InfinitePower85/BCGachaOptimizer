@@ -8,6 +8,17 @@
   --accent-text: #ffffff;
   --ok: #217a3c;
   --err: #b3261e;
+  /* Rarity accents for .rarity-* elsewhere on the (light) card surface. .roll-viewer
+     redeclares these locally, tuned for its own always-dark surface -- see its comment. */
+  --rare: #5d6673;
+  --supa: #b8860b;
+  --supa_fest: #9a6b00;
+  --uber: #c0392b;
+  --uber_fest: #b5651d;
+  --legend: #7c3aed;
+  --legend_fest: #8a5a1f;
+  --basic: #5d6673;
+  --special: #0e7490;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +32,15 @@
     --accent-text: #14171b;
     --ok: #5fc27e;
     --err: #f28b82;
+    --rare: #e7eaee;
+    --supa: #ffd700;
+    --supa_fest: #ffff66;
+    --uber: #ff6b6b;
+    --uber_fest: #ff9a76;
+    --legend: #b388ff;
+    --legend_fest: #d8a56f;
+    --basic: #9aa4b0;
+    --special: #22d3ee;
   }
 }
 
@@ -201,7 +221,14 @@ button:disabled { opacity: 0.5; cursor: default; }
 .rarity-uber_fest { color: var(--uber_fest); font-weight: 600; }
 .rarity-legend { color: var(--legend); font-weight: 600; }
 .rarity-legend_fest { color: var(--legend_fest); font-weight: 600; }
+.rarity-basic { color: var(--basic); }
+.rarity-special { color: var(--special); font-weight: 600; }
 .rarity-none { color: inherit; }
+
+/* A cell that's a Legend Rare, not just an Uber -- see the JS comment by LEGEND_RARITIES.
+   A box, not just text color, so it's visible scanning down the table at a glance
+   (legend_fest's own text color isn't purple like legend's is). */
+.roll-table td.legend-pick { background: rgba(179, 136, 255, 0.3); box-shadow: inset 0 0 0 2px #b388ff; }
 
 .roll-table td { transition: background-color 0.06s linear, outline-color 0.06s linear; }
 .roll-table td.sim-current { outline: 2px solid #ffcc00; outline-offset: -2px; background: rgba(255, 204, 0, 0.2); }
@@ -223,6 +250,13 @@ button:disabled { opacity: 0.5; cursor: default; }
 .sim-position { min-height: 1.4em; margin: 8px 0 0; font-weight: 600; }
 .sim-sidebar h3 { margin: 8px 0 4px; font-size: 0.95rem; color: var(--muted); }
 .sim-sidebar .result { max-height: 320px; overflow-y: auto; font-size: 0.85rem; }
+
+/* Collected units, grouped by rarity with counts (see renderSimCollected). */
+.sim-collected { max-height: 280px; overflow-y: auto; font-size: 0.85rem; }
+.sim-collected h4 { margin: 8px 0 2px; font-size: 0.85rem; }
+.sim-collected h4:first-child { margin-top: 0; }
+.sim-collected ul { margin: 0 0 4px; padding-left: 1.2em; color: var(--text); }
+.sim-collected li { overflow-wrap: anywhere; }
 
 @media (min-width: 700px) {
   .sim-sidebar { position: sticky; top: 16px; }

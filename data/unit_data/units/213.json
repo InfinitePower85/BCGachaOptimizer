@@ -1,0 +1,167 @@
+{
+  "id": "213",
+  "name": "The White Rabbit",
+  "forms": [
+    {
+      "number": "213-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "The White Rabbit",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7200,
+      "damage": 4950,
+      "range": 465,
+      "kb": 6,
+      "speed": 11,
+      "dps": 528,
+      "target": "Area",
+      "tba": 9.4,
+      "anim": 1.43,
+      "spawn": 141.2,
+      "cost": 5325,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Slowb2 (100% chance to slow for 4.67s)"
+    },
+    {
+      "number": "213-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "The Black Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7200,
+      "damage": 4950,
+      "range": 465,
+      "kb": 6,
+      "speed": 11,
+      "dps": 528,
+      "target": "Area",
+      "tba": 9.4,
+      "anim": 1.43,
+      "spawn": 141.2,
+      "cost": 5325,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "213-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "The Grey Fox",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7200,
+      "damage": 4950,
+      "range": 465,
+      "kb": 6,
+      "speed": 11,
+      "dps": 528,
+      "target": "Area",
+      "tba": 9.4,
+      "anim": 1.43,
+      "spawn": 141.2,
+      "cost": 5325,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Weakenb2 (100% chance to weaken by 50% for 5.0s) b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "213-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "The Spectral Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 7250,
+      "range": 465,
+      "kb": 6,
+      "speed": 11,
+      "dps": 830,
+      "target": "Area",
+      "tba": 8.73,
+      "anim": 2.1,
+      "spawn": 141.2,
+      "cost": 5325,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 5.0s"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~466, 285~550, 385~650"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (100% chance to weaken by 50% for 5.0s) b1Slowb2 (100% chance to slow for 4.67s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~466, 285~550, 385~650) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)"
+    }
+  ]
+}

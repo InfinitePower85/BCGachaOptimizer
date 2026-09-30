@@ -1,0 +1,145 @@
+{
+  "id": "685",
+  "name": "Brainwashed Fish Cat",
+  "forms": [
+    {
+      "number": "685-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Brainwashed Fish Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5525,
+      "damage": 1422,
+      "range": 150,
+      "kb": 3,
+      "speed": 12,
+      "dps": 805,
+      "target": "Single",
+      "tba": 1.77,
+      "anim": 0.33,
+      "spawn": 8.2,
+      "cost": 735,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "685-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Brainwashed Whale Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5525,
+      "damage": 1422,
+      "range": 150,
+      "kb": 3,
+      "speed": 12,
+      "dps": 805,
+      "target": "Single",
+      "tba": 1.77,
+      "anim": 0.33,
+      "spawn": 8.2,
+      "cost": 735,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "685-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Brainwashed Island Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5525,
+      "damage": 1422,
+      "range": 150,
+      "kb": 3,
+      "speed": 12,
+      "dps": 805,
+      "target": "Single",
+      "tba": 1.77,
+      "anim": 0.33,
+      "spawn": 8.2,
+      "cost": 735,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Curse",
+              "detail": "50% chance to curse for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Curseb2 (50% chance to curse for 2.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)\nu1Not affected byu2: b1Toxicb2"
+    }
+  ]
+}

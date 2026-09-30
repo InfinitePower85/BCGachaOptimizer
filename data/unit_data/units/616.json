@@ -1,0 +1,90 @@
+{
+  "id": "616",
+  "name": "Kabuto Cat",
+  "forms": [
+    {
+      "number": "616-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kabuto Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 300,
+      "range": 140,
+      "kb": 2,
+      "speed": 7,
+      "dps": 192,
+      "target": "Single",
+      "tba": 1.57,
+      "anim": 0.27,
+      "spawn": 4.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\nu1Not affected byu2: b1Freezeb2"
+    },
+    {
+      "number": "616-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Golden Kabuto Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1875,
+      "damage": 375,
+      "range": 140,
+      "kb": 2,
+      "speed": 7,
+      "dps": 240,
+      "target": "Single",
+      "tba": 1.57,
+      "anim": 0.27,
+      "spawn": 4.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\nu1Not affected byu2: b1Freezeb2"
+    }
+  ]
+}

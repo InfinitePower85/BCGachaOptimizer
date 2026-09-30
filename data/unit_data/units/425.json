@@ -1,0 +1,72 @@
+{
+  "id": "425",
+  "name": "Ono Misa & Cat",
+  "forms": [
+    {
+      "number": "425-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ono Misa & Cat",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 250,
+      "range": 310,
+      "kb": 3,
+      "speed": 8,
+      "dps": 28,
+      "target": "Single",
+      "tba": 8.8,
+      "anim": 1.3,
+      "spawn": 16.53,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Weakenb2 (100% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "425-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ono Misa & Cat CC",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 250,
+      "range": 310,
+      "kb": 3,
+      "speed": 8,
+      "dps": 28,
+      "target": "Single",
+      "tba": 8.8,
+      "anim": 1.3,
+      "spawn": 16.53,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Weakenb2 (100% chance to weaken by 50% for 6.67s)"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "587",
+  "name": "Emperor Cat",
+  "forms": [
+    {
+      "number": "587-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Emperor Cat",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 5250,
+      "range": 551,
+      "kb": 4,
+      "speed": 5,
+      "dps": 570,
+      "target": "Area",
+      "tba": 9.2,
+      "anim": 3.43,
+      "spawn": 161.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 4.0s"
+            },
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 4.0s"
+            },
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Weakenb2 (30% chance to weaken by 50% for 4.0s) b1Freezeb2 (30% chance to freeze for 4.0s) b1Slowb2 (30% chance to slow for 4.0s) b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "587-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Tyrant Cat",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 6750,
+      "range": 551,
+      "kb": 4,
+      "speed": 5,
+      "dps": 732,
+      "target": "Area",
+      "tba": 9.2,
+      "anim": 3.43,
+      "spawn": 161.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 4.0s"
+            },
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 4.0s"
+            },
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Weakenb2 (30% chance to weaken by 50% for 4.0s) b1Freezeb2 (30% chance to freeze for 4.0s) b1Slowb2 (30% chance to slow for 4.0s) b1Knockbackb2 (30% chance of knockback)"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "597",
+  "name": "Ranma Saotome (M)",
+  "forms": [
+    {
+      "number": "597-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ranma Saotome (M)",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 3938,
+      "range": 325,
+      "kb": 4,
+      "speed": 18,
+      "dps": 782,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 2.0,
+      "spawn": 91.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -600~400"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -600~400) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "597-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ranma Saotome (F)",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 3938,
+      "range": 325,
+      "kb": 4,
+      "speed": 18,
+      "dps": 782,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 2.0,
+      "spawn": 91.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -600~400"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -600~400) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Freezeb2"
+    }
+  ]
+}

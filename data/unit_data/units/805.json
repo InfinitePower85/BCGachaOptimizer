@@ -1,0 +1,106 @@
+{
+  "id": "805",
+  "name": "Tails",
+  "forms": [
+    {
+      "number": "805-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Tails",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7125,
+      "damage": 1875,
+      "range": 440,
+      "kb": 4,
+      "speed": 15,
+      "dps": 248,
+      "target": "Area",
+      "tba": 7.57,
+      "anim": 1.27,
+      "spawn": 97.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "75% chance to weaken by 50% for 5.0s"
+            },
+            {
+              "name": "Curse",
+              "detail": "75% chance to curse for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 240~640"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 440 range"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Weakenb2 (75% chance to weaken by 50% for 5.0s) b1Curseb2 (75% chance to curse for 5.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 240~640) b1Explosionb2 (100% chance to create an explosion at 440 range)"
+    },
+    {
+      "number": "805-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Tails & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7125,
+      "damage": 1875,
+      "range": 440,
+      "kb": 4,
+      "speed": 15,
+      "dps": 248,
+      "target": "Area",
+      "tba": 7.57,
+      "anim": 1.27,
+      "spawn": 97.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "75% chance to weaken by 50% for 5.0s"
+            },
+            {
+              "name": "Curse",
+              "detail": "75% chance to curse for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 240~640"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 440 range"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Weakenb2 (75% chance to weaken by 50% for 5.0s) b1Curseb2 (75% chance to curse for 5.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 240~640) b1Explosionb2 (100% chance to create an explosion at 440 range)"
+    }
+  ]
+}

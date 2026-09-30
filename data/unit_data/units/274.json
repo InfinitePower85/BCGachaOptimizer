@@ -1,0 +1,117 @@
+{
+  "id": "274",
+  "name": "Cheerleader Cat",
+  "forms": [
+    {
+      "number": "274-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cheerleader Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 750,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 38,
+      "target": "Single",
+      "tba": 20.3,
+      "anim": 4.33,
+      "spawn": 31.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "100% chance of a critical hit"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (100% chance of a critical hit) b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "274-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Waitress Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 1000,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 50,
+      "target": "Single",
+      "tba": 20.3,
+      "anim": 4.33,
+      "spawn": 31.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "100% chance of a critical hit"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (100% chance of a critical hit) b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "274-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Soba Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 1250,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 62,
+      "target": "Single",
+      "tba": 20.3,
+      "anim": 4.33,
+      "spawn": 31.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "100% chance of a critical hit"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (100% chance of a critical hit) b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

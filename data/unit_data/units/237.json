@@ -1,0 +1,80 @@
+{
+  "id": "237",
+  "name": "God of War - Odin",
+  "forms": [
+    {
+      "number": "237-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "God of War - Odin",
+      "rarity": "Uber Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3425,
+      "damage": 3000,
+      "range": 425,
+      "kb": 4,
+      "speed": 8,
+      "dps": 355,
+      "target": "Area",
+      "tba": 8.43,
+      "anim": 1.8,
+      "spawn": 74.53,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "237-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "God of War - Odin CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5975,
+      "damage": 4875,
+      "range": 425,
+      "kb": 4,
+      "speed": 8,
+      "dps": 578,
+      "target": "Area",
+      "tba": 8.43,
+      "anim": 1.8,
+      "spawn": 74.53,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

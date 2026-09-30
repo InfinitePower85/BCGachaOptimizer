@@ -1,0 +1,237 @@
+{
+  "id": "361",
+  "name": "Mizli",
+  "forms": [
+    {
+      "number": "361-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mizli",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2950,
+      "damage": 3000,
+      "range": 325,
+      "kb": 4,
+      "speed": 12,
+      "dps": 308,
+      "target": "Area",
+      "tba": 9.73,
+      "anim": 2.9,
+      "spawn": 17.2,
+      "cost": 1140,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Slowb2 (50% chance to slow for 4.0s) b1Knockbackb2 (50% chance of knockback)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "361-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Marinmizu",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6150,
+      "damage": 5800,
+      "range": 400,
+      "kb": 4,
+      "speed": 10,
+      "dps": 595,
+      "target": "Area",
+      "tba": 9.73,
+      "anim": 2.9,
+      "spawn": 84.53,
+      "cost": 3720,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) b1Slowb2 (100% chance to slow for 4.0s) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "361-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Mizuririn",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7525,
+      "damage": 7175,
+      "range": 400,
+      "kb": 4,
+      "speed": 10,
+      "dps": 738,
+      "target": "Area",
+      "tba": 9.73,
+      "anim": 2.9,
+      "spawn": 84.53,
+      "cost": 3720,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) b1Slowb2 (100% chance to slow for 4.0s) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "361-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "Mizunade",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9525,
+      "damage": 8425,
+      "range": 450,
+      "kb": 4,
+      "speed": 10,
+      "dps": 865,
+      "target": "Area",
+      "tba": 9.73,
+      "anim": 2.9,
+      "spawn": 84.53,
+      "cost": 3720,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Insanely Tough",
+              "detail": "only takes 0.17x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Mini-Surge",
+              "detail": "100% chance to perform a Mini-Surge for 1.33s (Range: 250~850)"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Insanely Toughb2 (only takes 0.17x damage) b1Slowb2 (100% chance to slow for 4.0s) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Mini-Surgeb2 (100% chance to perform a Mini-Surge for 1.33s (Range: 250~850)) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

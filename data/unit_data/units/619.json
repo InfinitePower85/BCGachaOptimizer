@@ -1,0 +1,159 @@
+{
+  "id": "619",
+  "name": "Shiro Amakusa",
+  "forms": [
+    {
+      "number": "619-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shiro Amakusa",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 4875,
+      "range": 420,
+      "kb": 3,
+      "speed": 10,
+      "dps": 472,
+      "target": "Area",
+      "tba": 10.3,
+      "anim": 3.67,
+      "spawn": 137.87,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against black, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, akuu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "619-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wargod Amakusa",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 7350,
+      "range": 420,
+      "kb": 3,
+      "speed": 10,
+      "dps": 712,
+      "target": "Area",
+      "tba": 10.3,
+      "anim": 3.67,
+      "spawn": 137.87,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against black, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, akuu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "619-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Immortal Amakusa",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9500,
+      "damage": 7350,
+      "range": 420,
+      "kb": 3,
+      "speed": 10,
+      "dps": 1055,
+      "target": "Area",
+      "tba": 6.97,
+      "anim": 3.67,
+      "spawn": 137.87,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against black, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, akuu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

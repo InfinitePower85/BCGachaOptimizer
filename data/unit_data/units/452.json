@@ -1,0 +1,80 @@
+{
+  "id": "452",
+  "name": "Ushiwakamaru",
+  "forms": [
+    {
+      "number": "452-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ushiwakamaru",
+      "rarity": "Legendary Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2475,
+      "damage": 1425,
+      "range": 250,
+      "kb": 2,
+      "speed": 12,
+      "dps": 395,
+      "target": "Area",
+      "tba": 3.6,
+      "anim": 0.77,
+      "spawn": 5.87,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage) b1Insane Damageb2 (inflicts 5.0x damage)"
+    },
+    {
+      "number": "452-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Colossal Benkei",
+      "rarity": "Legendary Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 18750,
+      "damage": 7750,
+      "range": 450,
+      "kb": 3,
+      "speed": 7,
+      "dps": 930,
+      "target": "Area",
+      "tba": 8.33,
+      "anim": 2.17,
+      "spawn": 157.87,
+      "cost": 6000,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage) b1Insane Damageb2 (inflicts 5.0x damage)"
+    }
+  ]
+}

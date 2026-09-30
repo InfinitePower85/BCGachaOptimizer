@@ -1,0 +1,161 @@
+{
+  "id": "449",
+  "name": "Musashi Miyamoto",
+  "forms": [
+    {
+      "number": "449-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Musashi Miyamoto",
+      "rarity": "Legendary Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12200,
+      "damage": 2995,
+      "range": 400,
+      "kb": 4,
+      "speed": 10,
+      "dps": 1362,
+      "target": "Single",
+      "tba": 2.2,
+      "anim": 0.3,
+      "spawn": 91.2,
+      "cost": 4275,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage) b1Insane Damageb2 (inflicts 5.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "449-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wargod Miyamoto",
+      "rarity": "Legendary Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12200,
+      "damage": 2995,
+      "range": 400,
+      "kb": 4,
+      "speed": 10,
+      "dps": 1362,
+      "target": "Single",
+      "tba": 2.2,
+      "anim": 0.3,
+      "spawn": 91.2,
+      "cost": 4275,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage) b1Insane Damageb2 (inflicts 5.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "449-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Immortal Miyamoto",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13950,
+      "damage": 3720,
+      "range": 400,
+      "kb": 4,
+      "speed": 10,
+      "dps": 1690,
+      "target": "Single",
+      "tba": 2.2,
+      "anim": 1.07,
+      "spawn": 91.2,
+      "cost": 4275,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage) b1Insane Damageb2 (inflicts 5.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Weakenb2, b1Slowb2"
+    }
+  ]
+}

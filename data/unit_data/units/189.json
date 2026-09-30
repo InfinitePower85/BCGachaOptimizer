@@ -1,0 +1,109 @@
+{
+  "id": "189",
+  "name": "Mystica",
+  "forms": [
+    {
+      "number": "189-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mystica",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 2450,
+      "range": 690,
+      "kb": 3,
+      "speed": 14,
+      "dps": 190,
+      "target": "Area",
+      "tba": 12.97,
+      "anim": 2.33,
+      "spawn": 127.87,
+      "cost": 5700,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "189-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mystica CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 3200,
+      "range": 690,
+      "kb": 3,
+      "speed": 14,
+      "dps": 248,
+      "target": "Area",
+      "tba": 12.97,
+      "anim": 2.33,
+      "spawn": 127.87,
+      "cost": 5700,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "189-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Savior Mystica CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 3950,
+      "range": 690,
+      "kb": 3,
+      "speed": 14,
+      "dps": 305,
+      "target": "Area",
+      "tba": 12.97,
+      "anim": 2.2,
+      "spawn": 127.87,
+      "cost": 5700,
+      "abilities": [
+        {
+          "group": "Against black, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage b1Slowb2 (100% chance to slow for 5.0s)"
+    }
+  ]
+}

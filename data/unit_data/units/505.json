@@ -1,0 +1,72 @@
+{
+  "id": "505",
+  "name": "Burgle Boss Cat (Retired)",
+  "forms": [
+    {
+      "number": "505-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Burgle Boss Cat (Retired)",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 1250,
+      "range": 200,
+      "kb": 5,
+      "speed": 8,
+      "dps": 168,
+      "target": "Single",
+      "tba": 7.47,
+      "anim": 0.43,
+      "spawn": 12.53,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "505-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Burgle Boss Cat (Prime)",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 1250,
+      "range": 200,
+      "kb": 5,
+      "speed": 16,
+      "dps": 168,
+      "target": "Single",
+      "tba": 7.47,
+      "anim": 0.43,
+      "spawn": 12.53,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    }
+  ]
+}

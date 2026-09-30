@@ -1,0 +1,175 @@
+{
+  "id": "440",
+  "name": "Empress Chronos",
+  "forms": [
+    {
+      "number": "440-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Empress Chronos",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 4000,
+      "range": 450,
+      "kb": 3,
+      "speed": 8,
+      "dps": 388,
+      "target": "Area",
+      "tba": 10.3,
+      "anim": 4.67,
+      "spawn": 124.53,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~700"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Freezeb2 (100% chance to freeze for 1.0s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~700) b1Multi-hit attackb2 (Attacks thrice consecutively)\r\nu1Not affected byu2: b1Freezeb2"
+    },
+    {
+      "number": "440-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Chronos the Infinite",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 5225,
+      "range": 450,
+      "kb": 3,
+      "speed": 8,
+      "dps": 508,
+      "target": "Area",
+      "tba": 10.3,
+      "anim": 4.67,
+      "spawn": 124.53,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~700"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Freezeb2 (100% chance to freeze for 1.0s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~700) b1Multi-hit attackb2 (Attacks thrice consecutively)\r\nu1Not affected byu2: b1Freezeb2"
+    },
+    {
+      "number": "440-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Almighty Chronos",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 5748,
+      "range": 450,
+      "kb": 3,
+      "speed": 8,
+      "dps": 558,
+      "target": "Area",
+      "tba": 10.3,
+      "anim": 4.67,
+      "spawn": 124.53,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~700"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Freezeb2 (100% chance to freeze for 1.0s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~700) b1Multi-hit attackb2 (Attacks thrice consecutively)\r\nu1Not affected byu2: b1Freezeb2, b1Warpb2"
+    }
+  ]
+}

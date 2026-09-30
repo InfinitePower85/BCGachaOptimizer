@@ -1,0 +1,108 @@
+{
+  "id": "686",
+  "name": "Ancient Egg: N004",
+  "forms": [
+    {
+      "number": "686-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ancient Egg: N004",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "686-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mystic Egg: N004",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "686-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Supercar Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 7500,
+      "range": 120,
+      "kb": 1,
+      "speed": 25,
+      "dps": 978,
+      "target": "Single",
+      "tba": 7.67,
+      "anim": 0.3,
+      "spawn": 18.53,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "100% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Shield Piercingb2 (100% chance to break Aku shields)"
+    }
+  ]
+}

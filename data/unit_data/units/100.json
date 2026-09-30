@@ -1,0 +1,105 @@
+{
+  "id": "100",
+  "name": "Crazed Titan Cat",
+  "forms": [
+    {
+      "number": "100-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Crazed Titan Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": true,
+      "level": 1,
+      "health": 9000,
+      "damage": 2960,
+      "range": 150,
+      "kb": 1,
+      "speed": 11,
+      "dps": 1098,
+      "target": "Area",
+      "tba": 2.7,
+      "anim": 1.57,
+      "spawn": 22.2,
+      "cost": 1950,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "10% chance to perform a Lv.10 Shockwave attack (Range: 2132)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (10% chance to perform a Lv.10 Shockwave attack (Range: 2132))"
+    },
+    {
+      "number": "100-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Crazed M. Titan Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": true,
+      "level": 1,
+      "health": 9000,
+      "damage": 2960,
+      "range": 150,
+      "kb": 1,
+      "speed": 11,
+      "dps": 1098,
+      "target": "Area",
+      "tba": 2.7,
+      "anim": 1.57,
+      "spawn": 22.2,
+      "cost": 1950,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "10% chance to perform a Lv.10 Shockwave attack (Range: 2132)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (10% chance to perform a Lv.10 Shockwave attack (Range: 2132))"
+    },
+    {
+      "number": "100-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Manic Jamiera Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": true,
+      "level": 1,
+      "health": 11000,
+      "damage": 2960,
+      "range": 150,
+      "kb": 1,
+      "speed": 11,
+      "dps": 1098,
+      "target": "Area",
+      "tba": 2.7,
+      "anim": 1.57,
+      "spawn": 22.2,
+      "cost": 1950,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "15% chance to perform a Lv.10 Shockwave attack (Range: 2132)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (15% chance to perform a Lv.10 Shockwave attack (Range: 2132))"
+    }
+  ]
+}

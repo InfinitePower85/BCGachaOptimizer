@@ -1,0 +1,136 @@
+{
+  "id": "444",
+  "name": "Driller Cat",
+  "forms": [
+    {
+      "number": "444-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Driller Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 900,
+      "damage": 800,
+      "range": 460,
+      "kb": 3,
+      "speed": 10,
+      "dps": 130,
+      "target": "Single",
+      "tba": 6.1,
+      "anim": 0.53,
+      "spawn": 71.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 10% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 350~650"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Weakenb2 (100% chance to weaken by 10% for 3.0s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 350~650)"
+    },
+    {
+      "number": "444-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Power Driller Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 1000,
+      "range": 460,
+      "kb": 3,
+      "speed": 10,
+      "dps": 165,
+      "target": "Single",
+      "tba": 6.1,
+      "anim": 0.53,
+      "spawn": 71.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 10% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 350~650"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Weakenb2 (100% chance to weaken by 10% for 3.0s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 350~650)"
+    },
+    {
+      "number": "444-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Neo Driller Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 1000,
+      "range": 460,
+      "kb": 3,
+      "speed": 10,
+      "dps": 292,
+      "target": "Single",
+      "tba": 3.43,
+      "anim": 0.53,
+      "spawn": 71.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 10% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 350~650"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (100% chance to weaken by 10% for 3.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 350~650)"
+    }
+  ]
+}

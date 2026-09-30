@@ -1,0 +1,217 @@
+{
+  "id": "362",
+  "name": "Aer",
+  "forms": [
+    {
+      "number": "362-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Aer",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 1188,
+      "range": 300,
+      "kb": 2,
+      "speed": 16,
+      "dps": 252,
+      "target": "Area",
+      "tba": 4.7,
+      "anim": 1.67,
+      "spawn": 17.87,
+      "cost": 1080,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 225~500"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 225~500)\r\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "362-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Erphuan",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6700,
+      "damage": 2562,
+      "range": 375,
+      "kb": 2,
+      "speed": 14,
+      "dps": 545,
+      "target": "Area",
+      "tba": 4.7,
+      "anim": 1.67,
+      "spawn": 87.87,
+      "cost": 3930,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~650"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) \r\nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Long Distanceb2 (Effective range 275~650)\r\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "362-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Aervanta",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8575,
+      "damage": 3188,
+      "range": 375,
+      "kb": 2,
+      "speed": 14,
+      "dps": 678,
+      "target": "Area",
+      "tba": 4.7,
+      "anim": 1.67,
+      "spawn": 87.87,
+      "cost": 3930,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~650"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) \r\nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Long Distanceb2 (Effective range 275~650)\r\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "362-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "Aervantex",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 3188,
+      "range": 400,
+      "kb": 2,
+      "speed": 14,
+      "dps": 678,
+      "target": "Area",
+      "tba": 4.7,
+      "anim": 1.67,
+      "spawn": 87.87,
+      "cost": 3930,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~725"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Long Distanceb2 (Effective range 275~725)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

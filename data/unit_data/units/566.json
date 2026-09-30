@@ -1,0 +1,105 @@
+{
+  "id": "566",
+  "name": "Suntan Cat",
+  "forms": [
+    {
+      "number": "566-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Suntan Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 625,
+      "damage": 20,
+      "range": 140,
+      "kb": 1,
+      "speed": 10,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 5.2,
+      "cost": 330,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "50% chance to dodge for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Dodgeb2 (50% chance to dodge for 1.0s)"
+    },
+    {
+      "number": "566-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Macho Suntan Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 625,
+      "damage": 20,
+      "range": 140,
+      "kb": 1,
+      "speed": 10,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 5.2,
+      "cost": 330,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "50% chance to dodge for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Dodgeb2 (50% chance to dodge for 1.0s)"
+    },
+    {
+      "number": "566-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Permed Suntan Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 20,
+      "range": 140,
+      "kb": 1,
+      "speed": 18,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 5.2,
+      "cost": 330,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "50% chance to dodge for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Dodgeb2 (50% chance to dodge for 1.0s)"
+    }
+  ]
+}

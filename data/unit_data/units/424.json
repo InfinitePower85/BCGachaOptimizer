@@ -1,0 +1,72 @@
+{
+  "id": "424",
+  "name": "Matsuki Saki & Cat",
+  "forms": [
+    {
+      "number": "424-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Matsuki Saki & Cat",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1200,
+      "damage": 200,
+      "range": 260,
+      "kb": 4,
+      "speed": 16,
+      "dps": 32,
+      "target": "Single",
+      "tba": 6.33,
+      "anim": 1.83,
+      "spawn": 15.2,
+      "cost": 480,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Weakenb2 (100% chance to weaken by 50% for 5.0s)"
+    },
+    {
+      "number": "424-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Matsuki Saki & Cat CC",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1200,
+      "damage": 200,
+      "range": 260,
+      "kb": 4,
+      "speed": 16,
+      "dps": 32,
+      "target": "Single",
+      "tba": 6.33,
+      "anim": 1.83,
+      "spawn": 15.2,
+      "cost": 480,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Weakenb2 (100% chance to weaken by 50% for 5.0s)"
+    }
+  ]
+}

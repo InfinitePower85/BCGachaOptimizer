@@ -1,0 +1,117 @@
+{
+  "id": "086",
+  "name": "Vars",
+  "forms": [
+    {
+      "number": "086-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Vars",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 3495,
+      "range": 445,
+      "kb": 3,
+      "speed": 9,
+      "dps": 648,
+      "target": "Area",
+      "tba": 5.4,
+      "anim": 1.43,
+      "spawn": 144.53,
+      "cost": 5610,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "086-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Dragon King Vars",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 3495,
+      "range": 445,
+      "kb": 3,
+      "speed": 9,
+      "dps": 648,
+      "target": "Area",
+      "tba": 5.4,
+      "anim": 1.43,
+      "spawn": 144.53,
+      "cost": 5610,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "086-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "God-Emperor Vars",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 4370,
+      "range": 460,
+      "kb": 3,
+      "speed": 9,
+      "dps": 810,
+      "target": "Area",
+      "tba": 5.4,
+      "anim": 1.43,
+      "spawn": 144.53,
+      "cost": 5610,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "546",
+  "name": "Phantom Cat",
+  "forms": [
+    {
+      "number": "546-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Phantom Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 675,
+      "damage": 400,
+      "range": 360,
+      "kb": 2,
+      "speed": 9,
+      "dps": 85,
+      "target": "Area",
+      "tba": 4.77,
+      "anim": 0.8,
+      "spawn": 14.53,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~500"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 275~500)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2"
+    },
+    {
+      "number": "546-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Miasma Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 900,
+      "damage": 525,
+      "range": 360,
+      "kb": 2,
+      "speed": 9,
+      "dps": 110,
+      "target": "Area",
+      "tba": 4.77,
+      "anim": 0.8,
+      "spawn": 14.53,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~500"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 275~500)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2"
+    },
+    {
+      "number": "546-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Bubble Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1150,
+      "damage": 1450,
+      "range": 360,
+      "kb": 2,
+      "speed": 9,
+      "dps": 305,
+      "target": "Area",
+      "tba": 4.77,
+      "anim": 0.8,
+      "spawn": 11.2,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~500"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 275~500)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Curseb2"
+    }
+  ]
+}

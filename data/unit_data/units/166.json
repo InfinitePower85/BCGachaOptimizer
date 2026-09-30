@@ -1,0 +1,52 @@
+{
+  "id": "166",
+  "name": "Hoshi Guranmanie",
+  "forms": [
+    {
+      "number": "166-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hoshi Guranmanie",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1375,
+      "damage": 2075,
+      "range": 290,
+      "kb": 3,
+      "speed": 7,
+      "dps": 382,
+      "target": "Area",
+      "tba": 5.43,
+      "anim": 0.07,
+      "spawn": 34.53,
+      "cost": 1950,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "166-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ranma & Nyanko",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1375,
+      "damage": 2075,
+      "range": 290,
+      "kb": 3,
+      "speed": 7,
+      "dps": 382,
+      "target": "Area",
+      "tba": 5.43,
+      "anim": 0.07,
+      "spawn": 34.53,
+      "cost": 1950,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

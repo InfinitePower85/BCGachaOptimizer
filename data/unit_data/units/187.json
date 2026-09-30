@@ -1,0 +1,72 @@
+{
+  "id": "187",
+  "name": "Cornelia",
+  "forms": [
+    {
+      "number": "187-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cornelia",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 1750,
+      "range": 410,
+      "kb": 4,
+      "speed": 27,
+      "dps": 345,
+      "target": "Area",
+      "tba": 5.07,
+      "anim": 1.77,
+      "spawn": 61.2,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Freezeb2 (30% chance to freeze for 4.0s)"
+    },
+    {
+      "number": "187-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cornelia CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 2300,
+      "range": 410,
+      "kb": 4,
+      "speed": 27,
+      "dps": 455,
+      "target": "Area",
+      "tba": 5.07,
+      "anim": 1.77,
+      "spawn": 61.2,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Freezeb2 (30% chance to freeze for 4.0s)"
+    }
+  ]
+}

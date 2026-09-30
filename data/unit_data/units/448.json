@@ -1,0 +1,153 @@
+{
+  "id": "448",
+  "name": "Miter Saw Cat",
+  "forms": [
+    {
+      "number": "448-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Miter Saw Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 150,
+      "range": 180,
+      "kb": 1,
+      "speed": 12,
+      "dps": 500,
+      "target": "Single",
+      "tba": 0.3,
+      "anim": 0.03,
+      "spawn": 24.53,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "448-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Power Saw Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 175,
+      "range": 180,
+      "kb": 1,
+      "speed": 12,
+      "dps": 582,
+      "target": "Single",
+      "tba": 0.3,
+      "anim": 0.03,
+      "spawn": 24.53,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "448-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Neo Saw Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 200,
+      "range": 180,
+      "kb": 1,
+      "speed": 12,
+      "dps": 668,
+      "target": "Single",
+      "tba": 0.3,
+      "anim": 0.03,
+      "spawn": 24.53,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "20% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Barrier Breakerb2 (20% chance of breaking enemy barriers)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

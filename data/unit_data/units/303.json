@@ -1,0 +1,105 @@
+{
+  "id": "303",
+  "name": "Lilith Cat",
+  "forms": [
+    {
+      "number": "303-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Lilith Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 2750,
+      "range": 375,
+      "kb": 3,
+      "speed": 8,
+      "dps": 450,
+      "target": "Area",
+      "tba": 6.1,
+      "anim": 1.8,
+      "spawn": 57.87,
+      "cost": 3300,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "75% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Freezeb2 (75% chance to freeze for 4.0s)"
+    },
+    {
+      "number": "303-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Succubus Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 3875,
+      "range": 375,
+      "kb": 3,
+      "speed": 8,
+      "dps": 635,
+      "target": "Area",
+      "tba": 6.1,
+      "anim": 1.8,
+      "spawn": 57.87,
+      "cost": 3300,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "75% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Freezeb2 (75% chance to freeze for 4.0s)"
+    },
+    {
+      "number": "303-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Queen Succubus Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 4500,
+      "range": 385,
+      "kb": 3,
+      "speed": 8,
+      "dps": 738,
+      "target": "Area",
+      "tba": 6.1,
+      "anim": 1.8,
+      "spawn": 57.87,
+      "cost": 3300,
+      "abilities": [
+        {
+          "group": "Against angel, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "75% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, akuu2: b1Freezeb2 (75% chance to freeze for 4.0s)"
+    }
+  ]
+}

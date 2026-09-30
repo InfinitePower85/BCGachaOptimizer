@@ -1,0 +1,72 @@
+{
+  "id": "679",
+  "name": "Yuma Kuga & Cat",
+  "forms": [
+    {
+      "number": "679-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Yuma Kuga & Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 1350,
+      "range": 250,
+      "kb": 3,
+      "speed": 16,
+      "dps": 235,
+      "target": "Area",
+      "tba": 5.77,
+      "anim": 1.33,
+      "spawn": 16.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against white, red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "679-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Yuma Kuga & Cat CC",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 1350,
+      "range": 250,
+      "kb": 3,
+      "speed": 16,
+      "dps": 235,
+      "target": "Area",
+      "tba": 5.77,
+      "anim": 1.33,
+      "spawn": 16.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against white, red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

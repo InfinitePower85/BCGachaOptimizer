@@ -1,0 +1,105 @@
+{
+  "id": "121",
+  "name": "Healer",
+  "forms": [
+    {
+      "number": "121-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Healer",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 450,
+      "damage": 2,
+      "range": 160,
+      "kb": 3,
+      "speed": 11,
+      "dps": 0,
+      "target": "Single",
+      "tba": 4.63,
+      "anim": 0.67,
+      "spawn": 56.53,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Freezeb2 (50% chance to freeze for 3.0s)"
+    },
+    {
+      "number": "121-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Healer CC",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 450,
+      "damage": 2,
+      "range": 160,
+      "kb": 3,
+      "speed": 11,
+      "dps": 0,
+      "target": "Single",
+      "tba": 4.63,
+      "anim": 0.67,
+      "spawn": 56.53,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Freezeb2 (100% chance to freeze for 3.0s)"
+    },
+    {
+      "number": "121-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Healer Cat CC",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 450,
+      "damage": 2,
+      "range": 160,
+      "kb": 3,
+      "speed": 11,
+      "dps": 0,
+      "target": "Area",
+      "tba": 4.63,
+      "anim": 0.67,
+      "spawn": 56.53,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Freezeb2 (100% chance to freeze for 3.0s)"
+    }
+  ]
+}

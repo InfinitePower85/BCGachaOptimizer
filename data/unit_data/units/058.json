@@ -1,0 +1,114 @@
+{
+  "id": "058",
+  "name": "Marauder Cat",
+  "forms": [
+    {
+      "number": "058-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Marauder Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3250,
+      "damage": 500,
+      "range": 195,
+      "kb": 3,
+      "speed": 7,
+      "dps": 100,
+      "target": "Single",
+      "tba": 5.0,
+      "anim": 1.03,
+      "spawn": 47.87,
+      "cost": 2250,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "20% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (20% chance of a critical hit)"
+    },
+    {
+      "number": "058-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Berserker Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 750,
+      "range": 195,
+      "kb": 3,
+      "speed": 7,
+      "dps": 150,
+      "target": "Area",
+      "tba": 5.0,
+      "anim": 1.03,
+      "spawn": 47.87,
+      "cost": 2250,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "40% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (40% chance of a critical hit)"
+    },
+    {
+      "number": "058-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Paladin Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5750,
+      "damage": 1000,
+      "range": 245,
+      "kb": 3,
+      "speed": 7,
+      "dps": 200,
+      "target": "Area",
+      "tba": 5.0,
+      "anim": 1.03,
+      "spawn": 47.87,
+      "cost": 2250,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "50% chance of a critical hit"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (50% chance of a critical hit)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

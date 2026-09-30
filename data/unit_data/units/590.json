@@ -1,0 +1,121 @@
+{
+  "id": "590",
+  "name": "Valentine's Neneko",
+  "forms": [
+    {
+      "number": "590-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Valentine's Neneko",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 175,
+      "range": 310,
+      "kb": 3,
+      "speed": 5,
+      "dps": 68,
+      "target": "Single",
+      "tba": 2.57,
+      "anim": 0.93,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "10% chance of a critical hit"
+            },
+            {
+              "name": "Mini-Wave",
+              "detail": "100% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (10% chance of a critical hit) b1Mini-Waveb2 (100% chance to perform a Lv.2 Shockwave attack (Range: 532))"
+    },
+    {
+      "number": "590-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sweetheart Neneko",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 250,
+      "range": 310,
+      "kb": 3,
+      "speed": 5,
+      "dps": 98,
+      "target": "Single",
+      "tba": 2.57,
+      "anim": 0.93,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "10% chance of a critical hit"
+            },
+            {
+              "name": "Mini-Wave",
+              "detail": "100% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (10% chance of a critical hit) b1Mini-Waveb2 (100% chance to perform a Lv.2 Shockwave attack (Range: 532))"
+    },
+    {
+      "number": "590-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "True Love Neneko",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3250,
+      "damage": 250,
+      "range": 310,
+      "kb": 3,
+      "speed": 5,
+      "dps": 98,
+      "target": "Single",
+      "tba": 2.57,
+      "anim": 0.93,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "10% chance of a critical hit"
+            },
+            {
+              "name": "Mini-Wave",
+              "detail": "100% chance to perform a Shockwave attack (Range: 532)"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "20% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (10% chance of a critical hit) b1Mini-Waveb2 (100% chance to perform a Shockwave attack (Range: 532)) b1Shield Piercingb2 (20% chance to break Aku shields)"
+    }
+  ]
+}

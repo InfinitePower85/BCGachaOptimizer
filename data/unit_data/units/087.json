@@ -1,0 +1,117 @@
+{
+  "id": "087",
+  "name": "Kamukura",
+  "forms": [
+    {
+      "number": "087-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kamukura",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 6210,
+      "range": 450,
+      "kb": 3,
+      "speed": 5,
+      "dps": 658,
+      "target": "Area",
+      "tba": 9.43,
+      "anim": 2.0,
+      "spawn": 151.2,
+      "cost": 6150,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "087-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "God Dragon Kamukura",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 6210,
+      "range": 450,
+      "kb": 3,
+      "speed": 5,
+      "dps": 658,
+      "target": "Area",
+      "tba": 9.43,
+      "anim": 2.0,
+      "spawn": 151.2,
+      "cost": 6150,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "087-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "God-Emperor Kamukura",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12500,
+      "damage": 6210,
+      "range": 475,
+      "kb": 3,
+      "speed": 5,
+      "dps": 768,
+      "target": "Area",
+      "tba": 8.1,
+      "anim": 2.0,
+      "spawn": 151.2,
+      "cost": 6150,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "498",
+  "name": "Shakurel Cat",
+  "forms": [
+    {
+      "number": "498-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shakurel Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 375,
+      "damage": 20,
+      "range": 150,
+      "kb": 3,
+      "speed": 5,
+      "dps": 18,
+      "target": "Single",
+      "tba": 1.17,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 120,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "498-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Shakurel Macho Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 375,
+      "damage": 20,
+      "range": 150,
+      "kb": 3,
+      "speed": 5,
+      "dps": 18,
+      "target": "Single",
+      "tba": 1.17,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 120,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

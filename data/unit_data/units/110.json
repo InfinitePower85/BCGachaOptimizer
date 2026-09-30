@@ -1,0 +1,118 @@
+{
+  "id": "110",
+  "name": "Madam Bride",
+  "forms": [
+    {
+      "number": "110-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Madam Bride",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2850,
+      "damage": 45,
+      "range": 110,
+      "kb": 1,
+      "speed": 8,
+      "dps": 40,
+      "target": "Area",
+      "tba": 1.13,
+      "anim": 0.4,
+      "spawn": 7.2,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "110-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Madam King",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2850,
+      "damage": 45,
+      "range": 110,
+      "kb": 1,
+      "speed": 8,
+      "dps": 40,
+      "target": "Area",
+      "tba": 1.13,
+      "anim": 0.4,
+      "spawn": 7.2,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "110-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Madam the Savannah",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4275,
+      "damage": 45,
+      "range": 110,
+      "kb": 1,
+      "speed": 8,
+      "dps": 40,
+      "target": "Area",
+      "tba": 1.13,
+      "anim": 0.4,
+      "spawn": 7.2,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

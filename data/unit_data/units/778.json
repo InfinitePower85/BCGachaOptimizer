@@ -1,0 +1,98 @@
+{
+  "id": "778",
+  "name": "Winter General Kaihime",
+  "forms": [
+    {
+      "number": "778-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Winter General Kaihime",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 2000,
+      "range": 440,
+      "kb": 2,
+      "speed": 6,
+      "dps": 378,
+      "target": "Area",
+      "tba": 5.3,
+      "anim": 1.8,
+      "spawn": 137.87,
+      "cost": 5250,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 2.5s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 1s (Range: 150~750)"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "15% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Slowb2 (50% chance to slow for 2.5s) \nu1General Abilitiesu2: b1Surge Attacksb2 (100% chance to perform Surge Attacks for 1s (Range: 150~750)) b1Savage Blowb2 (15% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    },
+    {
+      "number": "778-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Winter Commander Kaihime",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 2875,
+      "range": 440,
+      "kb": 2,
+      "speed": 6,
+      "dps": 542,
+      "target": "Area",
+      "tba": 5.3,
+      "anim": 1.8,
+      "spawn": 137.87,
+      "cost": 5250,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 2.5s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 1s (Range: 150~750)"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "25% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Slowb2 (50% chance to slow for 2.5s) \nu1General Abilitiesu2: b1Surge Attacksb2 (100% chance to perform Surge Attacks for 1s (Range: 150~750)) b1Savage Blowb2 (25% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    }
+  ]
+}

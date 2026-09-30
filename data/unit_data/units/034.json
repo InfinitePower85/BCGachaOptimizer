@@ -1,0 +1,126 @@
+{
+  "id": "034",
+  "name": "Kotatsu Cat",
+  "forms": [
+    {
+      "number": "034-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kotatsu Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 250,
+      "range": 130,
+      "kb": 1,
+      "speed": 10,
+      "dps": 148,
+      "target": "Single",
+      "tba": 1.7,
+      "anim": 1.4,
+      "spawn": 9.87,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (30% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "034-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sadako Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 500,
+      "range": 130,
+      "kb": 1,
+      "speed": 10,
+      "dps": 295,
+      "target": "Single",
+      "tba": 1.7,
+      "anim": 1.4,
+      "spawn": 9.87,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (30% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "034-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Octopus Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 750,
+      "range": 130,
+      "kb": 1,
+      "speed": 10,
+      "dps": 358,
+      "target": "Single",
+      "tba": 2.1,
+      "anim": 1.4,
+      "spawn": 9.87,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (30% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Wave Shieldb2 (Protects units behind them from shockwaves)"
+    }
+  ]
+}

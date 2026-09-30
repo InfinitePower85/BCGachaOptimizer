@@ -1,0 +1,163 @@
+{
+  "id": "159",
+  "name": "Uesugi Kenshin",
+  "forms": [
+    {
+      "number": "159-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Uesugi Kenshin",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6950,
+      "damage": 2388,
+      "range": 405,
+      "kb": 3,
+      "speed": 13,
+      "dps": 495,
+      "target": "Area",
+      "tba": 4.83,
+      "anim": 1.2,
+      "spawn": 144.53,
+      "cost": 5475,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "159-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wargod Kenshin",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8350,
+      "damage": 4055,
+      "range": 405,
+      "kb": 3,
+      "speed": 13,
+      "dps": 840,
+      "target": "Area",
+      "tba": 4.83,
+      "anim": 1.2,
+      "spawn": 144.53,
+      "cost": 5475,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "159-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Immortal Kenshin",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11150,
+      "damage": 4055,
+      "range": 405,
+      "kb": 3,
+      "speed": 18,
+      "dps": 942,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 1.2,
+      "spawn": 144.53,
+      "cost": 5475,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "159-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "Hellrider Kenshin",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12500,
+      "damage": 4055,
+      "range": 445,
+      "kb": 3,
+      "speed": 18,
+      "dps": 942,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 1.2,
+      "spawn": 131.2,
+      "cost": 5475,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "Performs a 20% damage Lv.4 Shockwave attack (Range: 932)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Mini-Waveb2 (Performs a 20% damage Lv.4 Shockwave attack (Range: 932))"
+    }
+  ]
+}

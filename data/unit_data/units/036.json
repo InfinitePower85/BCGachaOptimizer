@@ -1,0 +1,114 @@
+{
+  "id": "036",
+  "name": "Nerd Cat",
+  "forms": [
+    {
+      "number": "036-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nerd Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 750,
+      "range": 1200,
+      "kb": 1,
+      "speed": 4,
+      "dps": 92,
+      "target": "Single",
+      "tba": 8.03,
+      "anim": 2.4,
+      "spawn": 157.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1100~1500"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 1100~1500)"
+    },
+    {
+      "number": "036-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hacker Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 750,
+      "range": 1200,
+      "kb": 1,
+      "speed": 4,
+      "dps": 92,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 2.4,
+      "spawn": 157.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 800~1200"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 800~1200)"
+    },
+    {
+      "number": "036-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Cyberpunk Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 1125,
+      "range": 1200,
+      "kb": 1,
+      "speed": 4,
+      "dps": 140,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 2.4,
+      "spawn": 157.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 800~1200"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Slowb2 (100% chance to slow for 2.0s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 800~1200)"
+    }
+  ]
+}

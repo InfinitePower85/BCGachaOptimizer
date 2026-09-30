@@ -1,0 +1,52 @@
+{
+  "id": "141",
+  "name": "Squish Ball Cat",
+  "forms": [
+    {
+      "number": "141-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Squish Ball Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 388,
+      "range": 160,
+      "kb": 5,
+      "speed": 36,
+      "dps": 115,
+      "target": "Area",
+      "tba": 3.37,
+      "anim": 1.37,
+      "spawn": 2.2,
+      "cost": 870,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "141-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Muscleman Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 388,
+      "range": 160,
+      "kb": 5,
+      "speed": 36,
+      "dps": 110,
+      "target": "Area",
+      "tba": 3.5,
+      "anim": 1.37,
+      "spawn": 2.2,
+      "cost": 870,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

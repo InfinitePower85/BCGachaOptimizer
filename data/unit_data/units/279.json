@@ -1,0 +1,52 @@
+{
+  "id": "279",
+  "name": "Tanky",
+  "forms": [
+    {
+      "number": "279-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Tanky",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 500,
+      "range": 380,
+      "kb": 3,
+      "speed": 6,
+      "dps": 98,
+      "target": "Single",
+      "tba": 5.17,
+      "anim": 1.2,
+      "spawn": 13.2,
+      "cost": 900,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "279-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Tanky 'n' Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 500,
+      "range": 380,
+      "kb": 3,
+      "speed": 6,
+      "dps": 98,
+      "target": "Single",
+      "tba": 5.17,
+      "anim": 1.2,
+      "spawn": 13.2,
+      "cost": 900,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

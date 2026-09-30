@@ -1,0 +1,52 @@
+{
+  "id": "030",
+  "name": "Masked Cat",
+  "forms": [
+    {
+      "number": "030-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Masked Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 20,
+      "range": 140,
+      "kb": 3,
+      "speed": 10,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "030-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Luchador Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 350,
+      "range": 150,
+      "kb": 1,
+      "speed": 8,
+      "dps": 158,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.6,
+      "spawn": 11.2,
+      "cost": 975,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

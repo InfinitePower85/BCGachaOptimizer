@@ -1,0 +1,156 @@
+{
+  "id": "828",
+  "name": "Juri",
+  "forms": [
+    {
+      "number": "828-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Juri",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 5375,
+      "range": 430,
+      "kb": 4,
+      "speed": 20,
+      "dps": 982,
+      "target": "Area",
+      "tba": 5.47,
+      "anim": 0.83,
+      "spawn": 91.2,
+      "cost": 3975,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 1.0s"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~431,75~505,150~580"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (100% chance to freeze for 1.0s) b1Slowb2 (100% chance to slow for 3.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~431,75~505,150~580) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)\nu1Not affected byu2: b1Weakenb2, b1Waveb2"
+    },
+    {
+      "number": "828-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Juri CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 5375,
+      "range": 430,
+      "kb": 4,
+      "speed": 20,
+      "dps": 982,
+      "target": "Area",
+      "tba": 5.47,
+      "anim": 0.83,
+      "spawn": 91.2,
+      "cost": 3975,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 1.0s"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~431,75~505,150~580"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (100% chance to freeze for 1.0s) b1Slowb2 (100% chance to slow for 3.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~431,75~505,150~580) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)\nu1Not affected byu2: b1Weakenb2, b1Waveb2"
+    }
+  ]
+}

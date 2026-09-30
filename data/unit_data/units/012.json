@@ -1,0 +1,85 @@
+{
+  "id": "012",
+  "name": "Mr.",
+  "forms": [
+    {
+      "number": "012-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mr.",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 88,
+      "range": 140,
+      "kb": 5,
+      "speed": 31,
+      "dps": 145,
+      "target": "Area",
+      "tba": 0.6,
+      "anim": 0.07,
+      "spawn": 7.2,
+      "cost": 825,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "012-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Super Mr.",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 88,
+      "range": 140,
+      "kb": 5,
+      "speed": 31,
+      "dps": 155,
+      "target": "Area",
+      "tba": 0.57,
+      "anim": 0.07,
+      "spawn": 7.2,
+      "cost": 825,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "012-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Hyper Mr.",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 88,
+      "range": 140,
+      "kb": 5,
+      "speed": 47,
+      "dps": 155,
+      "target": "Area",
+      "tba": 0.57,
+      "anim": 0.07,
+      "spawn": 7.2,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "811",
+  "name": "Agent Staal",
+  "forms": [
+    {
+      "number": "811-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Agent Staal",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14500,
+      "damage": 600,
+      "range": 320,
+      "kb": 4,
+      "speed": 11,
+      "dps": 1059,
+      "target": "Area",
+      "tba": 0.57,
+      "anim": 0.3,
+      "spawn": 97.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against metal, zombie, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 0.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "3% chance of a critical hit"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Mini-Wave",
+              "detail": "Performs a 20% damage Lv.3 Shockwave attack (Range: 732)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "5% chance to break Aku shields"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metal, zombie, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Slowb2 (50% chance to slow for 0.67s) \nu1General Abilitiesu2: b1Criticalb2 (3% chance of a critical hit) b1Zombie Killerb2 (Stops zombies from reviving) b1Mini-Waveb2 (Performs a 20% damage Lv.3 Shockwave attack (Range: 732)) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Shield Piercingb2 (5% chance to break Aku shields)\nu1Not affected byu2: b1Freezeb2, b1Surgeb2"
+    },
+    {
+      "number": "811-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Edgemaster Staal",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 17500,
+      "damage": 750,
+      "range": 320,
+      "kb": 4,
+      "speed": 11,
+      "dps": 1324,
+      "target": "Area",
+      "tba": 0.57,
+      "anim": 0.3,
+      "spawn": 97.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against metal, zombie, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 0.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "3% chance of a critical hit"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Mini-Wave",
+              "detail": "Performs a 20% damage Lv.3 Shockwave attack (Range: 732)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "5% chance to break Aku shields"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metal, zombie, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Slowb2 (50% chance to slow for 0.67s) \nu1General Abilitiesu2: b1Criticalb2 (3% chance of a critical hit) b1Zombie Killerb2 (Stops zombies from reviving) b1Mini-Waveb2 (Performs a 20% damage Lv.3 Shockwave attack (Range: 732)) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Shield Piercingb2 (5% chance to break Aku shields)\nu1Not affected byu2: b1Freezeb2, b1Surgeb2"
+    }
+  ]
+}

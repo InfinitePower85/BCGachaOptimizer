@@ -1,0 +1,72 @@
+{
+  "id": "767",
+  "name": "Sardine",
+  "forms": [
+    {
+      "number": "767-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sardine",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 175,
+      "damage": 18,
+      "range": 125,
+      "kb": 1,
+      "speed": 10,
+      "dps": 10,
+      "target": "Single",
+      "tba": 1.97,
+      "anim": 0.07,
+      "spawn": 2.0,
+      "cost": 90,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "5% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Dodgeb2 (5% chance to dodge for 2.0s)"
+    },
+    {
+      "number": "767-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sardine CC",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 225,
+      "damage": 22,
+      "range": 125,
+      "kb": 1,
+      "speed": 10,
+      "dps": 12,
+      "target": "Single",
+      "tba": 1.97,
+      "anim": 0.07,
+      "spawn": 2.0,
+      "cost": 90,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "5% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Dodgeb2 (5% chance to dodge for 2.0s)"
+    }
+  ]
+}

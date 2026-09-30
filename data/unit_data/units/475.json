@@ -1,0 +1,114 @@
+{
+  "id": "475",
+  "name": "Rosary Angel",
+  "forms": [
+    {
+      "number": "475-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rosary Angel",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 600,
+      "damage": 112,
+      "range": 400,
+      "kb": 3,
+      "speed": 8,
+      "dps": 15,
+      "target": "Single",
+      "tba": 7.33,
+      "anim": 1.23,
+      "spawn": 24.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "475-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cross Angel",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 125,
+      "range": 400,
+      "kb": 3,
+      "speed": 8,
+      "dps": 18,
+      "target": "Single",
+      "tba": 7.33,
+      "anim": 1.23,
+      "spawn": 24.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "475-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Strike Angel",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 900,
+      "damage": 138,
+      "range": 400,
+      "kb": 3,
+      "speed": 8,
+      "dps": 20,
+      "target": "Single",
+      "tba": 7.33,
+      "anim": 1.23,
+      "spawn": 24.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against red, black, zombie",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, zombieu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

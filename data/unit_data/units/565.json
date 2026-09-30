@@ -1,0 +1,95 @@
+{
+  "id": "565",
+  "name": "Summerluga",
+  "forms": [
+    {
+      "number": "565-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Summerluga",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 375,
+      "range": 140,
+      "kb": 5,
+      "speed": 4,
+      "dps": 138,
+      "target": "Single",
+      "tba": 2.73,
+      "anim": 0.43,
+      "spawn": 24.53,
+      "cost": 4500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "565-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Bikinilan Pasalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 2500,
+      "range": 650,
+      "kb": 1,
+      "speed": 4,
+      "dps": 132,
+      "target": "Area",
+      "tba": 18.93,
+      "anim": 2.97,
+      "spawn": 324.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 3.33s (Range: 150~1050)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surge Attacksb2 (100% chance to perform Surge Attacks for 3.33s (Range: 150~1050))"
+    },
+    {
+      "number": "565-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Fabulous Pasalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 2500,
+      "range": 650,
+      "kb": 1,
+      "speed": 4,
+      "dps": 132,
+      "target": "Area",
+      "tba": 18.93,
+      "anim": 2.97,
+      "spawn": 324.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 5.33s (Range: 150~1050)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surge Attacksb2 (100% chance to perform Surge Attacks for 5.33s (Range: 150~1050))"
+    }
+  ]
+}

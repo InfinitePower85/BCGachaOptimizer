@@ -1,0 +1,114 @@
+{
+  "id": "559",
+  "name": "Gacha Cat",
+  "forms": [
+    {
+      "number": "559-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Gacha Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 2,
+      "range": 120,
+      "kb": 1,
+      "speed": 4,
+      "dps": 8,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.03,
+      "spawn": 61.2,
+      "cost": 1050,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "5% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Knockbackb2 (5% chance of knockback)\nu1Not affected byu2: b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Warpb2"
+    },
+    {
+      "number": "559-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Lucky Gacha Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 2,
+      "range": 120,
+      "kb": 1,
+      "speed": 4,
+      "dps": 8,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.03,
+      "spawn": 61.2,
+      "cost": 1050,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "5% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Knockbackb2 (5% chance of knockback)\nu1Not affected byu2: b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Warpb2"
+    }
+  ]
+}

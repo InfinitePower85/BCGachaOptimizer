@@ -1,0 +1,114 @@
+{
+  "id": "202",
+  "name": "Drumcorps Cat",
+  "forms": [
+    {
+      "number": "202-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Drumcorps Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1425,
+      "damage": 182,
+      "range": 220,
+      "kb": 2,
+      "speed": 10,
+      "dps": 108,
+      "target": "Single",
+      "tba": 1.7,
+      "anim": 0.33,
+      "spawn": 11.87,
+      "cost": 585,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "40% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Weakenb2 (40% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "202-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Banner Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1675,
+      "damage": 208,
+      "range": 220,
+      "kb": 2,
+      "speed": 10,
+      "dps": 122,
+      "target": "Single",
+      "tba": 1.7,
+      "anim": 0.33,
+      "spawn": 11.87,
+      "cost": 585,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "40% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Weakenb2 (40% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "202-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Mochi Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2175,
+      "damage": 210,
+      "range": 220,
+      "kb": 2,
+      "speed": 10,
+      "dps": 122,
+      "target": "Single",
+      "tba": 1.7,
+      "anim": 0.33,
+      "spawn": 11.87,
+      "cost": 585,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "40% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Weakenb2 (40% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)"
+    }
+  ]
+}

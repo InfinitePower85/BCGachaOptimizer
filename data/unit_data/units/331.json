@@ -1,0 +1,135 @@
+{
+  "id": "331",
+  "name": "Springtime Kenshin",
+  "forms": [
+    {
+      "number": "331-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Springtime Kenshin",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7650,
+      "damage": 2638,
+      "range": 410,
+      "kb": 3,
+      "speed": 13,
+      "dps": 545,
+      "target": "Area",
+      "tba": 4.83,
+      "anim": 1.2,
+      "spawn": 144.53,
+      "cost": 5475,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "331-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Full-Bloom Kenshin",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9050,
+      "damage": 4305,
+      "range": 410,
+      "kb": 3,
+      "speed": 13,
+      "dps": 890,
+      "target": "Area",
+      "tba": 4.83,
+      "anim": 1.2,
+      "spawn": 144.53,
+      "cost": 5475,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "331-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Spring Breeze Kenshin",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9050,
+      "damage": 4305,
+      "range": 410,
+      "kb": 3,
+      "speed": 13,
+      "dps": 890,
+      "target": "Area",
+      "tba": 4.83,
+      "anim": 1.2,
+      "spawn": 144.53,
+      "cost": 5475,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Knockbackb2 (100% chance of knockback)\nu1General Abilitiesu2: b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Weakenb2"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "672",
+  "name": "Ranma Saotome (Leotard)",
+  "forms": [
+    {
+      "number": "672-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ranma Saotome (Leotard)",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 4950,
+      "range": 500,
+      "kb": 3,
+      "speed": 18,
+      "dps": 535,
+      "target": "Area",
+      "tba": 9.23,
+      "anim": 1.4,
+      "spawn": 124.53,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against black, angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~650"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, angelu2: b1Freezeb2 (100% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~650)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "672-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ranma Saotome (Cheer)",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 4950,
+      "range": 500,
+      "kb": 3,
+      "speed": 18,
+      "dps": 535,
+      "target": "Area",
+      "tba": 9.23,
+      "anim": 1.4,
+      "spawn": 124.53,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against black, angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~650"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, angelu2: b1Freezeb2 (100% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~650)\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

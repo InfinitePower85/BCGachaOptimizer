@@ -1,0 +1,117 @@
+{
+  "id": "079",
+  "name": "Space Cat",
+  "forms": [
+    {
+      "number": "079-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Space Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 450,
+      "damage": 184,
+      "range": 340,
+      "kb": 3,
+      "speed": 10,
+      "dps": 90,
+      "target": "Single",
+      "tba": 2.03,
+      "anim": 1.0,
+      "spawn": 11.2,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "4% chance of a critical hit"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "30% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (4% chance of a critical hit) b1Barrier Breakerb2 (30% chance of breaking enemy barriers)"
+    },
+    {
+      "number": "079-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Major Space Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 600,
+      "damage": 202,
+      "range": 340,
+      "kb": 3,
+      "speed": 10,
+      "dps": 100,
+      "target": "Single",
+      "tba": 2.03,
+      "anim": 1.0,
+      "spawn": 11.2,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "4% chance of a critical hit"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "30% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (4% chance of a critical hit) b1Barrier Breakerb2 (30% chance of breaking enemy barriers)"
+    },
+    {
+      "number": "079-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Space Marine Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 202,
+      "range": 340,
+      "kb": 3,
+      "speed": 10,
+      "dps": 100,
+      "target": "Single",
+      "tba": 2.03,
+      "anim": 1.0,
+      "spawn": 11.2,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "8% chance of a critical hit"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "50% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (8% chance of a critical hit) b1Barrier Breakerb2 (50% chance of breaking enemy barriers)"
+    }
+  ]
+}

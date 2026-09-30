@@ -1,0 +1,176 @@
+{
+  "id": "860",
+  "name": "Lone Moon Lunos",
+  "forms": [
+    {
+      "number": "860-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Lone Moon Lunos",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13500,
+      "damage": 3500,
+      "range": 250,
+      "kb": 2,
+      "speed": 11,
+      "dps": 688,
+      "target": "Area",
+      "tba": 5.1,
+      "anim": 1.47,
+      "spawn": 9.87,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against white, floating, alien, zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -320~350"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 860"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Toxic",
+              "detail": ""
+            },
+            {
+              "name": "Explosion",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, floating, alien, zombieu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -320~350) b1Conjureb2 (Allows summon of a spirit: Unit number 860)\nu1Not affected byu2: b1Freezeb2, b1Knockbackb2, b1Curseb2, b1Warpb2, b1Toxicb2, b1Explosionb2"
+    },
+    {
+      "number": "860-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Lunos the Eclipsed",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13500,
+      "damage": 4750,
+      "range": 250,
+      "kb": 2,
+      "speed": 11,
+      "dps": 932,
+      "target": "Area",
+      "tba": 5.1,
+      "anim": 1.47,
+      "spawn": 9.87,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against white, floating, alien, zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 50% health"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -320~350"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 860"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Toxic",
+              "detail": ""
+            },
+            {
+              "name": "Explosion",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, floating, alien, zombieu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 50% health) b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -320~350) b1Conjureb2 (Allows summon of a spirit: Unit number 860)\nu1Not affected byu2: b1Freezeb2, b1Knockbackb2, b1Curseb2, b1Warpb2, b1Toxicb2, b1Explosionb2"
+    }
+  ]
+}

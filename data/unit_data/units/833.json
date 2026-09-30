@@ -1,0 +1,72 @@
+{
+  "id": "833",
+  "name": "Fedora Cat",
+  "forms": [
+    {
+      "number": "833-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Fedora Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 1000,
+      "range": 360,
+      "kb": 2,
+      "speed": 15,
+      "dps": 212,
+      "target": "Area",
+      "tba": 4.73,
+      "anim": 0.43,
+      "spawn": 24.53,
+      "cost": 1050,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "833-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Blue Nyanko Ranger",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 1150,
+      "range": 360,
+      "kb": 2,
+      "speed": 15,
+      "dps": 242,
+      "target": "Area",
+      "tba": 4.73,
+      "anim": 0.43,
+      "spawn": 24.53,
+      "cost": 1050,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

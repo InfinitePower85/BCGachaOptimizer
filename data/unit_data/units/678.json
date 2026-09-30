@@ -1,0 +1,80 @@
+{
+  "id": "678",
+  "name": "Osamu Mikumo & Cat",
+  "forms": [
+    {
+      "number": "678-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Osamu Mikumo & Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 1250,
+      "range": 150,
+      "kb": 2,
+      "speed": 7,
+      "dps": 188,
+      "target": "Area",
+      "tba": 6.63,
+      "anim": 1.67,
+      "spawn": 16.53,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Slowb2, b1Knockbackb2"
+    },
+    {
+      "number": "678-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Osamu Mikumo & Cat CC",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 1250,
+      "range": 150,
+      "kb": 2,
+      "speed": 7,
+      "dps": 188,
+      "target": "Area",
+      "tba": 6.63,
+      "anim": 1.67,
+      "spawn": 16.53,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Slowb2, b1Knockbackb2"
+    }
+  ]
+}

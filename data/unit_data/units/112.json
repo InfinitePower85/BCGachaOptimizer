@@ -1,0 +1,123 @@
+{
+  "id": "112",
+  "name": "Nono",
+  "forms": [
+    {
+      "number": "112-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nono",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1595,
+      "damage": 75,
+      "range": 190,
+      "kb": 1,
+      "speed": 11,
+      "dps": 20,
+      "target": "Single",
+      "tba": 3.7,
+      "anim": 0.73,
+      "spawn": 2.2,
+      "cost": 315,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "112-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Nono CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1868,
+      "damage": 120,
+      "range": 190,
+      "kb": 1,
+      "speed": 11,
+      "dps": 32,
+      "target": "Single",
+      "tba": 3.7,
+      "anim": 0.73,
+      "spawn": 2.2,
+      "cost": 315,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "112-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Frolicking Nono CC",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1868,
+      "damage": 120,
+      "range": 190,
+      "kb": 1,
+      "speed": 14,
+      "dps": 32,
+      "target": "Single",
+      "tba": 3.7,
+      "anim": 0.73,
+      "spawn": 2.2,
+      "cost": 285,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "50% chance to survive a lethal strike"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Surviveb2 (50% chance to survive a lethal strike)\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

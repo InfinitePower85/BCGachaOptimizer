@@ -1,0 +1,132 @@
+{
+  "id": "866",
+  "name": "True Assassin",
+  "forms": [
+    {
+      "number": "866-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "True Assassin",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3400,
+      "damage": 1200,
+      "range": 500,
+      "kb": 5,
+      "speed": 40,
+      "dps": 382,
+      "target": "Area",
+      "tba": 3.13,
+      "anim": 1.13,
+      "spawn": 87.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against floating, alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 2.5s"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 1.0s"
+            },
+            {
+              "name": "Dodge",
+              "detail": "60% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "50% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 350~700"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, alienu2: b1Weakenb2 (100% chance to weaken by 50% for 2.5s) b1Freezeb2 (100% chance to freeze for 1.0s) b1Dodgeb2 (60% chance to dodge for 2.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (50% chance of breaking enemy barriers) b1Long Distanceb2 (Effective range 350~700)\nu1Not affected byu2: b1Toxicb2"
+    },
+    {
+      "number": "866-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "True Assassin CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4250,
+      "damage": 1500,
+      "range": 500,
+      "kb": 5,
+      "speed": 40,
+      "dps": 478,
+      "target": "Area",
+      "tba": 3.13,
+      "anim": 1.13,
+      "spawn": 87.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against floating, alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 2.5s"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 1.0s"
+            },
+            {
+              "name": "Dodge",
+              "detail": "60% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "50% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 350~700"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, alienu2: b1Weakenb2 (100% chance to weaken by 50% for 2.5s) b1Freezeb2 (100% chance to freeze for 1.0s) b1Dodgeb2 (60% chance to dodge for 2.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (50% chance of breaking enemy barriers) b1Long Distanceb2 (Effective range 350~700)\nu1Not affected byu2: b1Toxicb2"
+    }
+  ]
+}

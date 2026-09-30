@@ -1,0 +1,85 @@
+{
+  "id": "283",
+  "name": "Awa-Odori Cat",
+  "forms": [
+    {
+      "number": "283-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Awa-Odori Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 375,
+      "damage": 30,
+      "range": 140,
+      "kb": 3,
+      "speed": 8,
+      "dps": 20,
+      "target": "Single",
+      "tba": 1.43,
+      "anim": 0.47,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "283-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "So-Ran Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 375,
+      "damage": 30,
+      "range": 140,
+      "kb": 3,
+      "speed": 8,
+      "dps": 20,
+      "target": "Single",
+      "tba": 1.43,
+      "anim": 0.47,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "283-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Gorgeous Groovin' Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 42,
+      "range": 140,
+      "kb": 3,
+      "speed": 8,
+      "dps": 30,
+      "target": "Single",
+      "tba": 1.43,
+      "anim": 0.47,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 8% chance to dodge for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 8% chance to dodge for 1.0s)"
+    }
+  ]
+}

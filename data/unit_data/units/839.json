@@ -1,0 +1,52 @@
+{
+  "id": "839",
+  "name": "Spirit (Luno)",
+  "forms": [
+    {
+      "number": "839-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Spirit (Luno)",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 2250,
+      "range": 600,
+      "kb": 1,
+      "speed": 0,
+      "dps": 785,
+      "target": "Area",
+      "tba": 2.87,
+      "anim": 1.37,
+      "spawn": 2.0,
+      "cost": 0,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Surge",
+              "detail": "100% chance to perform Surge Attacks for 3s (Range: 300~600)"
+            },
+            {
+              "name": "Attack Once",
+              "detail": "Attacks a single time, then disappears from the battlefield"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Mini-Surgeb2 (100% chance to perform Surge Attacks for 3s (Range: 300~600)) b1Attack Onceb2 (Attacks a single time, then disappears from the battlefield)"
+    }
+  ]
+}

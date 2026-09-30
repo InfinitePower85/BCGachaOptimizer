@@ -1,0 +1,72 @@
+{
+  "id": "233",
+  "name": "Valkyrie",
+  "forms": [
+    {
+      "number": "233-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Valkyrie",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1375,
+      "damage": 225,
+      "range": 255,
+      "kb": 3,
+      "speed": 10,
+      "dps": 138,
+      "target": "Single",
+      "tba": 1.63,
+      "anim": 0.33,
+      "spawn": 7.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "233-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Valkyrie CC",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 300,
+      "range": 255,
+      "kb": 3,
+      "speed": 10,
+      "dps": 182,
+      "target": "Single",
+      "tba": 1.63,
+      "anim": 0.33,
+      "spawn": 7.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Knockbackb2 (30% chance of knockback)"
+    }
+  ]
+}

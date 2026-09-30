@@ -1,0 +1,72 @@
+{
+  "id": "115",
+  "name": "Yoichi",
+  "forms": [
+    {
+      "number": "115-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Yoichi",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 488,
+      "damage": 245,
+      "range": 340,
+      "kb": 4,
+      "speed": 9,
+      "dps": 100,
+      "target": "Single",
+      "tba": 2.43,
+      "anim": 1.13,
+      "spawn": 11.2,
+      "cost": 1110,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "20% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Slowb2 (20% chance to slow for 4.0s)"
+    },
+    {
+      "number": "115-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Yoichi CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 662,
+      "damage": 345,
+      "range": 340,
+      "kb": 4,
+      "speed": 9,
+      "dps": 142,
+      "target": "Single",
+      "tba": 2.43,
+      "anim": 1.13,
+      "spawn": 11.2,
+      "cost": 1110,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "20% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Slowb2 (20% chance to slow for 4.0s)"
+    }
+  ]
+}

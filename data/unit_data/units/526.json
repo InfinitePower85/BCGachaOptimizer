@@ -1,0 +1,160 @@
+{
+  "id": "526",
+  "name": "Kintaro",
+  "forms": [
+    {
+      "number": "526-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kintaro",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1350,
+      "damage": 675,
+      "range": 350,
+      "kb": 3,
+      "speed": 16,
+      "dps": 180,
+      "target": "Area",
+      "tba": 3.77,
+      "anim": 1.07,
+      "spawn": 7.87,
+      "cost": 840,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 2.5s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~450"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "10% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Slowb2 (30% chance to slow for 2.5s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~450) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Savage Blowb2 (10% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    },
+    {
+      "number": "526-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kinrangers RoboForce",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 3750,
+      "range": 500,
+      "kb": 3,
+      "speed": 32,
+      "dps": 468,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 4.27,
+      "spawn": 144.53,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~750"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "20% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Slowb2 (50% chance to slow for 5.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~750) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Savage Blowb2 (20% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    },
+    {
+      "number": "526-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Kinrangers GigaForce",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 4125,
+      "range": 500,
+      "kb": 3,
+      "speed": 32,
+      "dps": 512,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 4.27,
+      "spawn": 144.53,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Curse",
+              "detail": "50% chance to curse for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~750"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "20% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Slowb2 (50% chance to slow for 5.0s) b1Curseb2 (50% chance to curse for 4.0s)\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~750) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Savage Blowb2 (20% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    }
+  ]
+}

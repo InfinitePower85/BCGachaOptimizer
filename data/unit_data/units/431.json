@@ -1,0 +1,80 @@
+{
+  "id": "431",
+  "name": "Gude-Cat Machine",
+  "forms": [
+    {
+      "number": "431-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Gude-Cat Machine",
+      "rarity": "Uber Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 20000,
+      "damage": 10000,
+      "range": 190,
+      "kb": 1,
+      "speed": 9,
+      "dps": 1408,
+      "target": "Area",
+      "tba": 7.1,
+      "anim": 3.07,
+      "spawn": 71.2,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against floating, metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, metalu2: b1Resistantb2 (only takes 0.25x damage) b1Freezeb2 (100% chance to freeze for 4.0s)"
+    },
+    {
+      "number": "431-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Gude-Cat Machine - Egg",
+      "rarity": "Uber Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 20000,
+      "damage": 10000,
+      "range": 190,
+      "kb": 1,
+      "speed": 9,
+      "dps": 1408,
+      "target": "Area",
+      "tba": 7.1,
+      "anim": 3.07,
+      "spawn": 71.2,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against floating, metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, metalu2: b1Resistantb2 (only takes 0.25x damage) b1Freezeb2 (100% chance to freeze for 4.0s)"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "id": "648",
+  "name": "Huntress Terun",
+  "forms": [
+    {
+      "number": "648-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Huntress Terun",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 2625,
+      "range": 430,
+      "kb": 4,
+      "speed": 8,
+      "dps": 460,
+      "target": "Area",
+      "tba": 5.7,
+      "anim": 3.07,
+      "spawn": 61.2,
+      "cost": 3000,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2"
+    },
+    {
+      "number": "648-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Huntress Terun ζ",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 3125,
+      "range": 430,
+      "kb": 4,
+      "speed": 8,
+      "dps": 548,
+      "target": "Area",
+      "tba": 5.7,
+      "anim": 3.07,
+      "spawn": 61.2,
+      "cost": 3000,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "20% chance to inflict an attack with 2x damage to non-Metal enemies"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Slowb2 (100% chance to slow for 4.0s) \nu1General Abilitiesu2: b1Savage Blowb2 (20% chance to inflict an attack with 2x damage to non-Metal enemies) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2"
+    },
+    {
+      "number": "648-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Divine Huntress Terun ζ",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 3125,
+      "range": 430,
+      "kb": 4,
+      "speed": 8,
+      "dps": 548,
+      "target": "Area",
+      "tba": 5.7,
+      "anim": 3.07,
+      "spawn": 61.2,
+      "cost": 3000,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "20% chance to inflict an attack with 2x damage to non-Metal enemies"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Slowb2 (100% chance to slow for 4.0s) \nu1General Abilitiesu2: b1Savage Blowb2 (20% chance to inflict an attack with 2x damage to non-Metal enemies) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2"
+    }
+  ]
+}

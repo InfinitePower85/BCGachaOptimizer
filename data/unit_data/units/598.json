@@ -1,0 +1,130 @@
+{
+  "id": "598",
+  "name": "Akane Tendo",
+  "forms": [
+    {
+      "number": "598-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Akane Tendo",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 4775,
+      "range": 400,
+      "kb": 3,
+      "speed": 14,
+      "dps": 528,
+      "target": "Area",
+      "tba": 9.07,
+      "anim": 1.1,
+      "spawn": 97.87,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~650"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "30% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Long Distanceb2 (Effective range 250~650) b1Savage Blowb2 (30% chance to inflict an attack with 2x damage to non-Metal enemies)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2"
+    },
+    {
+      "number": "598-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Akane Tendo (Gi)",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 4775,
+      "range": 400,
+      "kb": 3,
+      "speed": 14,
+      "dps": 528,
+      "target": "Area",
+      "tba": 9.07,
+      "anim": 1.1,
+      "spawn": 97.87,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~650"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "30% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Long Distanceb2 (Effective range 250~650) b1Savage Blowb2 (30% chance to inflict an attack with 2x damage to non-Metal enemies)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2"
+    }
+  ]
+}

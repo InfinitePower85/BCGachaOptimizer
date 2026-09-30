@@ -1,0 +1,94 @@
+{
+  "id": "427",
+  "name": "Mecha-Bun",
+  "forms": [
+    {
+      "number": "427-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mecha-Bun",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 1000,
+      "range": 190,
+      "kb": 2,
+      "speed": 23,
+      "dps": 938,
+      "target": "Area",
+      "tba": 1.07,
+      "anim": 0.67,
+      "spawn": 84.53,
+      "cost": 3600,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "427-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mecha-Bun Mk II",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 1000,
+      "range": 190,
+      "kb": 2,
+      "speed": 23,
+      "dps": 968,
+      "target": "Area",
+      "tba": 1.03,
+      "anim": 0.67,
+      "spawn": 84.53,
+      "cost": 3600,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "427-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Ultimate Mecha-Bun",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 1250,
+      "range": 190,
+      "kb": 2,
+      "speed": 23,
+      "dps": 1138,
+      "target": "Area",
+      "tba": 1.1,
+      "anim": 0.67,
+      "spawn": 84.53,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\r\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

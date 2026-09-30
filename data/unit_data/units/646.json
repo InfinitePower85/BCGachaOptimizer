@@ -1,0 +1,177 @@
+{
+  "id": "646",
+  "name": "Brainwashed Axe Cat",
+  "forms": [
+    {
+      "number": "646-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Brainwashed Axe Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 62,
+      "range": 150,
+      "kb": 1,
+      "speed": 14,
+      "dps": 70,
+      "target": "Single",
+      "tba": 0.9,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Curse",
+              "detail": "30% chance to curse for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Curseb2 (30% chance to curse for 3.0s)\nu1Not affected byu2: b1Freezeb2, b1Slowb2, b1Knockbackb2"
+    },
+    {
+      "number": "646-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Brainwashed Brave Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 62,
+      "range": 150,
+      "kb": 1,
+      "speed": 14,
+      "dps": 70,
+      "target": "Single",
+      "tba": 0.9,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Curse",
+              "detail": "30% chance to curse for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Curseb2 (30% chance to curse for 3.0s) \nu1Not affected byu2: b1Freezeb2, b1Slowb2, b1Knockbackb2"
+    },
+    {
+      "number": "646-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Brainwashed Dark Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 62,
+      "range": 150,
+      "kb": 1,
+      "speed": 14,
+      "dps": 70,
+      "target": "Single",
+      "tba": 0.9,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Curse",
+              "detail": "30% chance to curse for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "Performs a 20% damage Lv.1 Shockwave attack (Range: 332)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Curseb2 (30% chance to curse for 3.0s) \nu1General Abilitiesu2: b1Mini-Waveb2 (Performs a 20% damage Lv.1 Shockwave attack (Range: 332))\nu1Not affected byu2: b1Freezeb2, b1Slowb2, b1Knockbackb2"
+    }
+  ]
+}

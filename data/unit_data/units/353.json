@@ -1,0 +1,139 @@
+{
+  "id": "353",
+  "name": "Hermit Cat",
+  "forms": [
+    {
+      "number": "353-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hermit Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 1800,
+      "range": 255,
+      "kb": 3,
+      "speed": 8,
+      "dps": 425,
+      "target": "Area",
+      "tba": 4.23,
+      "anim": 0.9,
+      "spawn": 51.2,
+      "cost": 2400,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.3 Shockwave attack (Range: 732)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.3 Shockwave attack (Range: 732)) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "353-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Grandmaster Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 1800,
+      "range": 255,
+      "kb": 3,
+      "speed": 8,
+      "dps": 425,
+      "target": "Area",
+      "tba": 4.23,
+      "anim": 0.9,
+      "spawn": 51.2,
+      "cost": 2400,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.3 Shockwave attack (Range: 732)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.3 Shockwave attack (Range: 732)) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "353-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Masked Grandmaster Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 1800,
+      "range": 255,
+      "kb": 3,
+      "speed": 8,
+      "dps": 425,
+      "target": "Area",
+      "tba": 4.23,
+      "anim": 1.73,
+      "spawn": 37.87,
+      "cost": 2400,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Curse",
+              "detail": "20% chance to curse for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.5 Shockwave attack (Range: 1132.5)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Curseb2 (20% chance to curse for 3.0s)\nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.5 Shockwave attack (Range: 1132.5)) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

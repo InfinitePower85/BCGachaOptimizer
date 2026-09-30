@@ -1,0 +1,72 @@
+{
+  "id": "222",
+  "name": "MARS PEOPLE",
+  "forms": [
+    {
+      "number": "222-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "MARS PEOPLE",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1138,
+      "damage": 118,
+      "range": 310,
+      "kb": 3,
+      "speed": 8,
+      "dps": 37,
+      "target": "Single",
+      "tba": 3.2,
+      "anim": 2.57,
+      "spawn": 11.87,
+      "cost": 990,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "222-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "MARS PEOPLE CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1415,
+      "damage": 150,
+      "range": 310,
+      "kb": 3,
+      "speed": 8,
+      "dps": 47,
+      "target": "Single",
+      "tba": 3.2,
+      "anim": 2.57,
+      "spawn": 11.87,
+      "cost": 990,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s)"
+    }
+  ]
+}

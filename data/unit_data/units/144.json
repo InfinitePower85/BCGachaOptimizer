@@ -1,0 +1,117 @@
+{
+  "id": "144",
+  "name": "Nurse Cat",
+  "forms": [
+    {
+      "number": "144-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nurse Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2625,
+      "damage": 2638,
+      "range": 435,
+      "kb": 3,
+      "speed": 6,
+      "dps": 400,
+      "target": "Area",
+      "tba": 6.6,
+      "anim": 3.3,
+      "spawn": 121.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against black, floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, floatingu2: b1Slowb2 (50% chance to slow for 4.0s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "144-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Heartful Nurse Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5625,
+      "damage": 5012,
+      "range": 435,
+      "kb": 3,
+      "speed": 6,
+      "dps": 760,
+      "target": "Area",
+      "tba": 6.6,
+      "anim": 3.3,
+      "spawn": 121.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against black, floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, floatingu2: b1Slowb2 (50% chance to slow for 4.0s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "144-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Joyful Nurse Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7125,
+      "damage": 5638,
+      "range": 460,
+      "kb": 3,
+      "speed": 12,
+      "dps": 855,
+      "target": "Area",
+      "tba": 6.6,
+      "anim": 3.3,
+      "spawn": 121.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against black, floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, floatingu2: b1Slowb2 (50% chance to slow for 4.0s) b1Knockbackb2 (50% chance of knockback)"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "370",
+  "name": "Saber the Cat",
+  "forms": [
+    {
+      "number": "370-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Saber the Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1900,
+      "damage": 250,
+      "range": 155,
+      "kb": 3,
+      "speed": 10,
+      "dps": 182,
+      "target": "Single",
+      "tba": 1.37,
+      "anim": 0.67,
+      "spawn": 7.87,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "370-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Heroic Spirit Saber Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1900,
+      "damage": 250,
+      "range": 155,
+      "kb": 3,
+      "speed": 10,
+      "dps": 182,
+      "target": "Single",
+      "tba": 1.37,
+      "anim": 0.67,
+      "spawn": 7.87,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "370-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Saber Alter Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2850,
+      "damage": 250,
+      "range": 155,
+      "kb": 3,
+      "speed": 10,
+      "dps": 182,
+      "target": "Single",
+      "tba": 1.37,
+      "anim": 0.67,
+      "spawn": 7.87,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\r\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Curseb2, b1Warpb2, b1Waveb2"
+    }
+  ]
+}

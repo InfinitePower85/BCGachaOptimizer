@@ -1,0 +1,123 @@
+{
+  "id": "342",
+  "name": "Lost World Yuki",
+  "forms": [
+    {
+      "number": "342-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Lost World Yuki",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 2125,
+      "range": 445,
+      "kb": 5,
+      "speed": 10,
+      "dps": 270,
+      "target": "Area",
+      "tba": 7.87,
+      "anim": 1.43,
+      "spawn": 104.53,
+      "cost": 4320,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "342-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Lost World Yuki & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 4125,
+      "range": 445,
+      "kb": 5,
+      "speed": 10,
+      "dps": 528,
+      "target": "Area",
+      "tba": 7.83,
+      "anim": 1.87,
+      "spawn": 104.53,
+      "cost": 4320,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "342-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Lost World Catgirl Yuki",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 5000,
+      "range": 445,
+      "kb": 5,
+      "speed": 10,
+      "dps": 638,
+      "target": "Area",
+      "tba": 7.83,
+      "anim": 1.87,
+      "spawn": 104.53,
+      "cost": 4320,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

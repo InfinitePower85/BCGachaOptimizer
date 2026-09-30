@@ -1,0 +1,90 @@
+{
+  "id": "265",
+  "name": "Kuromi",
+  "forms": [
+    {
+      "number": "265-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kuromi",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1050,
+      "damage": 150,
+      "range": 160,
+      "kb": 4,
+      "speed": 12,
+      "dps": 112,
+      "target": "Single",
+      "tba": 1.33,
+      "anim": 0.37,
+      "spawn": 5.2,
+      "cost": 480,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "265-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kuromi and Cats",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1375,
+      "damage": 200,
+      "range": 160,
+      "kb": 4,
+      "speed": 12,
+      "dps": 150,
+      "target": "Single",
+      "tba": 1.33,
+      "anim": 0.37,
+      "spawn": 5.2,
+      "cost": 480,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)"
+    }
+  ]
+}

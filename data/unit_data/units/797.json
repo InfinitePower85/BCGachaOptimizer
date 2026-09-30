@@ -1,0 +1,90 @@
+{
+  "id": "797",
+  "name": "Baki Cat",
+  "forms": [
+    {
+      "number": "797-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Baki Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 250,
+      "range": 200,
+      "kb": 3,
+      "speed": 35,
+      "dps": 85,
+      "target": "Area",
+      "tba": 2.97,
+      "anim": 0.4,
+      "spawn": 14.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -50~250"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -50~250)"
+    },
+    {
+      "number": "797-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Baki Cat CC",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 250,
+      "range": 200,
+      "kb": 3,
+      "speed": 35,
+      "dps": 85,
+      "target": "Area",
+      "tba": 2.97,
+      "anim": 0.4,
+      "spawn": 14.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -50~250"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -50~250)"
+    }
+  ]
+}

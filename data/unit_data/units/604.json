@@ -1,0 +1,124 @@
+{
+  "id": "604",
+  "name": "Tatewaki Kuno (Gi)",
+  "forms": [
+    {
+      "number": "604-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Tatewaki Kuno (Gi)",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3375,
+      "damage": 2535,
+      "range": 260,
+      "kb": 3,
+      "speed": 11,
+      "dps": 535,
+      "target": "Area",
+      "tba": 4.73,
+      "anim": 1.17,
+      "spawn": 23.2,
+      "cost": 1350,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "15% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "15% chance of knockback"
+            },
+            {
+              "name": "Dodge",
+              "detail": "10% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Slowb2 (15% chance to slow for 4.0s) b1Knockbackb2 (15% chance of knockback) b1Dodgeb2 (10% chance to dodge for 2.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Knockbackb2"
+    },
+    {
+      "number": "604-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Tatewaki Kuno",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3375,
+      "damage": 2535,
+      "range": 260,
+      "kb": 3,
+      "speed": 11,
+      "dps": 535,
+      "target": "Area",
+      "tba": 4.73,
+      "anim": 1.17,
+      "spawn": 23.2,
+      "cost": 1350,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "15% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "15% chance of knockback"
+            },
+            {
+              "name": "Dodge",
+              "detail": "10% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Slowb2 (15% chance to slow for 4.0s) b1Knockbackb2 (15% chance of knockback) b1Dodgeb2 (10% chance to dodge for 2.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

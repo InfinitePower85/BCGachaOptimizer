@@ -1,0 +1,98 @@
+{
+  "id": "516",
+  "name": "Blanka",
+  "forms": [
+    {
+      "number": "516-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Blanka",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 3750,
+      "range": 150,
+      "kb": 8,
+      "speed": 55,
+      "dps": 1210,
+      "target": "Area",
+      "tba": 3.1,
+      "anim": 0.17,
+      "spawn": 57.87,
+      "cost": 3300,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~300"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Omni Strikeb2 (Effective range -100~300)"
+    },
+    {
+      "number": "516-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Blanka CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 3750,
+      "range": 150,
+      "kb": 8,
+      "speed": 55,
+      "dps": 1210,
+      "target": "Area",
+      "tba": 3.1,
+      "anim": 0.17,
+      "spawn": 57.87,
+      "cost": 3300,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~300"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Omni Strikeb2 (Effective range -100~300)"
+    }
+  ]
+}

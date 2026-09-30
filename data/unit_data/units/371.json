@@ -1,0 +1,114 @@
+{
+  "id": "371",
+  "name": "Sakura the Cat",
+  "forms": [
+    {
+      "number": "371-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sakura the Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2050,
+      "damage": 318,
+      "range": 165,
+      "kb": 4,
+      "speed": 10,
+      "dps": 232,
+      "target": "Single",
+      "tba": 1.37,
+      "anim": 0.73,
+      "spawn": 7.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "5% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (5% chance of a critical hit)"
+    },
+    {
+      "number": "371-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Apron Sakura Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2050,
+      "damage": 318,
+      "range": 165,
+      "kb": 4,
+      "speed": 10,
+      "dps": 232,
+      "target": "Single",
+      "tba": 1.37,
+      "anim": 0.73,
+      "spawn": 7.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "5% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (5% chance of a critical hit)"
+    },
+    {
+      "number": "371-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Dreaming Sakura Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2550,
+      "damage": 318,
+      "range": 165,
+      "kb": 4,
+      "speed": 10,
+      "dps": 232,
+      "target": "Single",
+      "tba": 1.37,
+      "anim": 0.73,
+      "spawn": 7.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "20% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "5% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Knockbackb2 (20% chance of knockback) \nu1General Abilitiesu2: b1Criticalb2 (5% chance of a critical hit)"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "649",
+  "name": "Lovestruck Lesser Demon",
+  "forms": [
+    {
+      "number": "649-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Lovestruck Lesser Demon",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9750,
+      "damage": 5625,
+      "range": 180,
+      "kb": 3,
+      "speed": 13,
+      "dps": 2482,
+      "target": "Single",
+      "tba": 2.27,
+      "anim": 0.93,
+      "spawn": 28.2,
+      "cost": 3000,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 2.5s"
+            },
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 2.5s"
+            },
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 2.5s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Weakenb2 (30% chance to weaken by 50% for 2.5s) b1Freezeb2 (30% chance to freeze for 2.5s) b1Slowb2 (30% chance to slow for 2.5s) b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "649-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Lovestruck Greater Demon",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9750,
+      "damage": 5625,
+      "range": 180,
+      "kb": 3,
+      "speed": 13,
+      "dps": 2482,
+      "target": "Single",
+      "tba": 2.27,
+      "anim": 0.93,
+      "spawn": 28.2,
+      "cost": 3000,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 2.5s"
+            },
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 2.5s"
+            },
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 2.5s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Weakenb2 (30% chance to weaken by 50% for 2.5s) b1Freezeb2 (30% chance to freeze for 2.5s) b1Slowb2 (30% chance to slow for 2.5s) b1Knockbackb2 (30% chance of knockback)"
+    }
+  ]
+}

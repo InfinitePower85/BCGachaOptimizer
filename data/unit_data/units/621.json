@@ -1,0 +1,144 @@
+{
+  "id": "621",
+  "name": "Hevijak the Wicked",
+  "forms": [
+    {
+      "number": "621-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hevijak the Wicked",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9500,
+      "damage": 4575,
+      "range": 440,
+      "kb": 3,
+      "speed": 12,
+      "dps": 551,
+      "target": "Area",
+      "tba": 8.3,
+      "anim": 3.07,
+      "spawn": 141.53,
+      "cost": 5400,
+      "abilities": [
+        {
+          "group": "Against red, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Shield Piercing",
+              "detail": "50% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, akuu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (50% chance of knockback)\nu1General Abilitiesu2: b1Shield Piercingb2 (50% chance to break Aku shields)"
+    },
+    {
+      "number": "621-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wicked King Hevijak",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 5825,
+      "range": 440,
+      "kb": 3,
+      "speed": 12,
+      "dps": 702,
+      "target": "Area",
+      "tba": 8.3,
+      "anim": 3.07,
+      "spawn": 141.53,
+      "cost": 5400,
+      "abilities": [
+        {
+          "group": "Against red, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Shield Piercing",
+              "detail": "50% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, akuu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (50% chance of knockback)\nu1General Abilitiesu2: b1Shield Piercingb2 (50% chance to break Aku shields)"
+    },
+    {
+      "number": "621-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "God-Emperor Hevijak",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12500,
+      "damage": 7250,
+      "range": 455,
+      "kb": 3,
+      "speed": 12,
+      "dps": 872,
+      "target": "Area",
+      "tba": 8.3,
+      "anim": 3.07,
+      "spawn": 141.2,
+      "cost": 5400,
+      "abilities": [
+        {
+          "group": "Against red, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Shield Piercing",
+              "detail": "50% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, akuu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (100% chance of knockback)\nu1General Abilitiesu2: b1Shield Piercingb2 (50% chance to break Aku shields)"
+    }
+  ]
+}

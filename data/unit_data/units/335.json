@@ -1,0 +1,132 @@
+{
+  "id": "335",
+  "name": "Trickster Himeyuri",
+  "forms": [
+    {
+      "number": "335-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Trickster Himeyuri",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4700,
+      "damage": 4425,
+      "range": 445,
+      "kb": 5,
+      "speed": 11,
+      "dps": 465,
+      "target": "Area",
+      "tba": 9.5,
+      "anim": 2.0,
+      "spawn": 114.53,
+      "cost": 4740,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Slowb2 (50% chance to slow for 5.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "335-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Himeyuri Ninetails",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6675,
+      "damage": 6300,
+      "range": 445,
+      "kb": 5,
+      "speed": 11,
+      "dps": 662,
+      "target": "Area",
+      "tba": 9.5,
+      "anim": 2.0,
+      "spawn": 114.53,
+      "cost": 4740,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Slowb2 (50% chance to slow for 5.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "335-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Fox Queen Himeyuri",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7675,
+      "damage": 7050,
+      "range": 445,
+      "kb": 5,
+      "speed": 11,
+      "dps": 850,
+      "target": "Area",
+      "tba": 8.3,
+      "anim": 3.2,
+      "spawn": 114.53,
+      "cost": 4740,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 6.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Slowb2 (50% chance to slow for 6.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

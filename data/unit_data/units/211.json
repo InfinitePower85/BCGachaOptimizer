@@ -1,0 +1,85 @@
+{
+  "id": "211",
+  "name": "Li'l Tank Cat",
+  "forms": [
+    {
+      "number": "211-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Li'l Tank Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 400,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 6,
+      "dps": 2,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 150,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "211-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Li'l Wall Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 400,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 6,
+      "dps": 2,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 150,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "211-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Li'l Eraser Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1200,
+      "damage": 10,
+      "range": 100,
+      "kb": 1,
+      "speed": 6,
+      "dps": 5,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 150,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Freezeb2"
+    }
+  ]
+}

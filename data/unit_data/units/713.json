@@ -1,0 +1,126 @@
+{
+  "id": "713",
+  "name": "Kaoluga",
+  "forms": [
+    {
+      "number": "713-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kaoluga",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 375,
+      "range": 140,
+      "kb": 5,
+      "speed": 4,
+      "dps": 128,
+      "target": "Single",
+      "tba": 2.97,
+      "anim": 0.67,
+      "spawn": 24.53,
+      "cost": 4500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "713-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kaolan Pasalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 7500,
+      "range": 710,
+      "kb": 1,
+      "speed": 4,
+      "dps": 550,
+      "target": "Area",
+      "tba": 13.63,
+      "anim": 1.67,
+      "spawn": 324.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "20% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Surge",
+              "detail": "100% chance to perform a Mini-Surge for 6s (Range: 150~1050)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Knockbackb2 (20% chance of knockback) \nu1General Abilitiesu2: b1Mini-Surgeb2 (100% chance to perform a Mini-Surge for 6s (Range: 150~1050))"
+    },
+    {
+      "number": "713-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Kaolan Tatalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 7500,
+      "range": 710,
+      "kb": 1,
+      "speed": 4,
+      "dps": 550,
+      "target": "Area",
+      "tba": 13.63,
+      "anim": 1.67,
+      "spawn": 324.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Surge",
+              "detail": "100% chance to perform Mini Surge for 6s (Range: 150~1050)"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Knockbackb2 (30% chance of knockback) \nu1General Abilitiesu2: b1Mini-Surgeb2 (100% chance to perform Mini Surge for 6s (Range: 150~1050)) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

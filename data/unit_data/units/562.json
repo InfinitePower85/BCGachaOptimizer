@@ -1,0 +1,90 @@
+{
+  "id": "562",
+  "name": "MEIKO & Cat",
+  "forms": [
+    {
+      "number": "562-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "MEIKO & Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2550,
+      "damage": 1150,
+      "range": 260,
+      "kb": 3,
+      "speed": 12,
+      "dps": 190,
+      "target": "Area",
+      "tba": 6.03,
+      "anim": 2.0,
+      "spawn": 24.53,
+      "cost": 1170,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 175~425"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 175~425)"
+    },
+    {
+      "number": "562-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "MEIKO & Cat CC",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3375,
+      "damage": 1525,
+      "range": 260,
+      "kb": 3,
+      "speed": 12,
+      "dps": 252,
+      "target": "Area",
+      "tba": 6.03,
+      "anim": 2.0,
+      "spawn": 24.53,
+      "cost": 1170,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 175~425"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 175~425)"
+    }
+  ]
+}

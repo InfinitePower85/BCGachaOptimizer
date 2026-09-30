@@ -1,0 +1,132 @@
+{
+  "id": "453",
+  "name": "Primordial Cat",
+  "forms": [
+    {
+      "number": "453-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Primordial Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1625,
+      "damage": 20,
+      "range": 140,
+      "kb": 1,
+      "speed": 10,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 5.2,
+      "cost": 105,
+      "abilities": [
+        {
+          "group": "Against metal, relic",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metal, relicu2: b1Resistantb2 (only takes 0.25x damage)\nu1Not affected byu2: b1Curseb2"
+    },
+    {
+      "number": "453-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Modern Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1625,
+      "damage": 20,
+      "range": 140,
+      "kb": 1,
+      "speed": 10,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 5.2,
+      "cost": 105,
+      "abilities": [
+        {
+          "group": "Against metal, relic",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metal, relicu2: b1Resistantb2 (only takes 0.25x damage)\nu1Not affected byu2: b1Curseb2"
+    },
+    {
+      "number": "453-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Future Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1625,
+      "damage": 20,
+      "range": 140,
+      "kb": 1,
+      "speed": 10,
+      "dps": 18,
+      "target": "Single",
+      "tba": 1.2,
+      "anim": 0.37,
+      "spawn": 5.2,
+      "cost": 105,
+      "abilities": [
+        {
+          "group": "Against metal, relic",
+          "abilities": [
+            {
+              "name": "Insanely Tough",
+              "detail": "only takes 0.17x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metal, relicu2: b1Insanely Toughb2 (only takes 0.17x damage)\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

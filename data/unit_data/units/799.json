@@ -1,0 +1,90 @@
+{
+  "id": "799",
+  "name": "Doppo Cat",
+  "forms": [
+    {
+      "number": "799-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Doppo Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 875,
+      "damage": 250,
+      "range": 300,
+      "kb": 3,
+      "speed": 8,
+      "dps": 58,
+      "target": "Area",
+      "tba": 4.37,
+      "anim": 1.07,
+      "spawn": 14.53,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~375"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (20% chance to freeze for 3.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~375)"
+    },
+    {
+      "number": "799-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Doppo Cat CC",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 875,
+      "damage": 250,
+      "range": 300,
+      "kb": 3,
+      "speed": 8,
+      "dps": 58,
+      "target": "Area",
+      "tba": 4.37,
+      "anim": 1.07,
+      "spawn": 14.53,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~375"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (20% chance to freeze for 3.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~375)"
+    }
+  ]
+}

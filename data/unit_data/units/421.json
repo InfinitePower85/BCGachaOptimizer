@@ -1,0 +1,72 @@
+{
+  "id": "421",
+  "name": "Ovis",
+  "forms": [
+    {
+      "number": "421-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ovis",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 275,
+      "range": 175,
+      "kb": 2,
+      "speed": 7,
+      "dps": 102,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 0.9,
+      "spawn": 5.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "421-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ovis CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 275,
+      "range": 175,
+      "kb": 2,
+      "speed": 7,
+      "dps": 102,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 0.9,
+      "spawn": 5.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

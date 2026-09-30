@@ -1,0 +1,98 @@
+{
+  "id": "413",
+  "name": "Eva Unit-00",
+  "forms": [
+    {
+      "number": "413-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Eva Unit-00",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 18750,
+      "damage": 6875,
+      "range": 350,
+      "kb": 2,
+      "speed": 11,
+      "dps": 708,
+      "target": "Area",
+      "tba": 9.73,
+      "anim": 1.7,
+      "spawn": 174.53,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Wave Shieldb2 (Protects units behind them from shockwaves) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)"
+    },
+    {
+      "number": "413-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Eva Unit-00 & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 18750,
+      "damage": 6875,
+      "range": 350,
+      "kb": 2,
+      "speed": 11,
+      "dps": 708,
+      "target": "Area",
+      "tba": 9.73,
+      "anim": 1.7,
+      "spawn": 174.53,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Wave Shieldb2 (Protects units behind them from shockwaves) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "795",
+  "name": "Ogre Cat",
+  "forms": [
+    {
+      "number": "795-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ogre Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 1500,
+      "range": 350,
+      "kb": 2,
+      "speed": 10,
+      "dps": 478,
+      "target": "Area",
+      "tba": 3.13,
+      "anim": 0.23,
+      "spawn": 21.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 3.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "10% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Slowb2 (50% chance to slow for 3.0s) b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Savage Blowb2 (10% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    },
+    {
+      "number": "795-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ogre Cat Face",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 1875,
+      "range": 350,
+      "kb": 2,
+      "speed": 10,
+      "dps": 605,
+      "target": "Area",
+      "tba": 3.1,
+      "anim": 0.47,
+      "spawn": 21.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 3.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "10% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Slowb2 (50% chance to slow for 3.0s) b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Savage Blowb2 (10% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    }
+  ]
+}

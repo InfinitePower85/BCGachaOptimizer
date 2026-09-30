@@ -1,0 +1,169 @@
+{
+  "id": "560",
+  "name": "Hell Warden Emma",
+  "forms": [
+    {
+      "number": "560-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hell Warden Emma",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 37500,
+      "damage": 3000,
+      "range": 200,
+      "kb": 10,
+      "speed": 30,
+      "dps": 565,
+      "target": "Area",
+      "tba": 5.3,
+      "anim": 3.27,
+      "spawn": 124.53,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "20% chance to weaken by 50% for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -600~350"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Weakenb2 (20% chance to weaken by 50% for 2.0s) \nu1General Abilitiesu2: b1Wave Shieldb2 (Protects units behind them from shockwaves) b1Omni Strikeb2 (Effective range -600~350) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "560-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hell Sentinel Emma",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 37500,
+      "damage": 3000,
+      "range": 200,
+      "kb": 10,
+      "speed": 30,
+      "dps": 565,
+      "target": "Area",
+      "tba": 5.3,
+      "anim": 3.27,
+      "spawn": 124.53,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "20% chance to weaken by 50% for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -600~350"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Weakenb2 (20% chance to weaken by 50% for 2.0s) \nu1General Abilitiesu2: b1Wave Shieldb2 (Protects units behind them from shockwaves) b1Omni Strikeb2 (Effective range -600~350) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "560-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Hell Commissioner Emma",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 50000,
+      "damage": 3000,
+      "range": 200,
+      "kb": 10,
+      "speed": 30,
+      "dps": 565,
+      "target": "Area",
+      "tba": 5.3,
+      "anim": 3.27,
+      "spawn": 124.53,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "40% chance to weaken by 50% for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -600~350"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Weakenb2 (40% chance to weaken by 50% for 2.0s) \nu1General Abilitiesu2: b1Wave Shieldb2 (Protects units behind them from shockwaves) b1Omni Strikeb2 (Effective range -600~350) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Freezeb2, b1Warpb2"
+    }
+  ]
+}

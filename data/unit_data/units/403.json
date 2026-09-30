@@ -1,0 +1,130 @@
+{
+  "id": "403",
+  "name": "Shinji & Cat",
+  "forms": [
+    {
+      "number": "403-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shinji & Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 825,
+      "range": 160,
+      "kb": 3,
+      "speed": 9,
+      "dps": 218,
+      "target": "Area",
+      "tba": 3.8,
+      "anim": 1.23,
+      "spawn": 21.2,
+      "cost": 375,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "403-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Plug Suit Shinji",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 825,
+      "range": 160,
+      "kb": 3,
+      "speed": 9,
+      "dps": 218,
+      "target": "Area",
+      "tba": 3.8,
+      "anim": 1.23,
+      "spawn": 21.2,
+      "cost": 375,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "403-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Plug Suit Shinji Black",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 1238,
+      "range": 160,
+      "kb": 3,
+      "speed": 9,
+      "dps": 325,
+      "target": "Area",
+      "tba": 3.8,
+      "anim": 1.83,
+      "spawn": 21.2,
+      "cost": 375,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Resistantb2 (only takes 0.25x damage) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

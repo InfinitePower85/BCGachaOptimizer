@@ -1,0 +1,105 @@
+{
+  "id": "043",
+  "name": "Ice Cat",
+  "forms": [
+    {
+      "number": "043-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ice Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 2250,
+      "range": 325,
+      "kb": 3,
+      "speed": 8,
+      "dps": 370,
+      "target": "Area",
+      "tba": 6.1,
+      "anim": 1.8,
+      "spawn": 57.87,
+      "cost": 3300,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (50% chance to freeze for 4.0s)"
+    },
+    {
+      "number": "043-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ice Queen Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 3250,
+      "range": 325,
+      "kb": 3,
+      "speed": 8,
+      "dps": 532,
+      "target": "Area",
+      "tba": 6.1,
+      "anim": 1.8,
+      "spawn": 57.87,
+      "cost": 3300,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (50% chance to freeze for 4.0s)"
+    },
+    {
+      "number": "043-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Ice Crystal Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 4500,
+      "range": 425,
+      "kb": 3,
+      "speed": 8,
+      "dps": 738,
+      "target": "Area",
+      "tba": 6.1,
+      "anim": 1.8,
+      "spawn": 57.87,
+      "cost": 3300,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (100% chance to freeze for 4.0s)"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "267",
+  "name": "Nabaaru-kun",
+  "forms": [
+    {
+      "number": "267-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nabaaru-kun",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1525,
+      "damage": 775,
+      "range": 225,
+      "kb": 3,
+      "speed": 9,
+      "dps": 175,
+      "target": "Area",
+      "tba": 4.43,
+      "anim": 0.93,
+      "spawn": 12.53,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Slowb2 (30% chance to slow for 3.0s)"
+    },
+    {
+      "number": "267-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Nabaaru-kun and Cat",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2050,
+      "damage": 1050,
+      "range": 225,
+      "kb": 3,
+      "speed": 9,
+      "dps": 238,
+      "target": "Area",
+      "tba": 4.43,
+      "anim": 0.93,
+      "spawn": 12.53,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Slowb2 (30% chance to slow for 3.0s)"
+    }
+  ]
+}

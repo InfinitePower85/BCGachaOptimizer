@@ -1,0 +1,170 @@
+{
+  "id": "570",
+  "name": "Gravi",
+  "forms": [
+    {
+      "number": "570-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Gravi",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5700,
+      "damage": 950,
+      "range": 150,
+      "kb": 2,
+      "speed": 8,
+      "dps": 158,
+      "target": "Area",
+      "tba": 6.0,
+      "anim": 1.1,
+      "spawn": 15.87,
+      "cost": 1155,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.2 Shockwave attack (Range: 532))\nu1Not affected byu2: b1Warpb2, b1Waveb2"
+    },
+    {
+      "number": "570-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Gravolo",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14175,
+      "damage": 3525,
+      "range": 230,
+      "kb": 2,
+      "speed": 8,
+      "dps": 588,
+      "target": "Area",
+      "tba": 6.0,
+      "anim": 1.1,
+      "spawn": 77.87,
+      "cost": 3870,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.3 Shockwave attack (Range: 732)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Wave attackb2 (100% chance to perform a Lv.3 Shockwave attack (Range: 732))\nu1Not affected byu2: b1Warpb2, b1Waveb2"
+    },
+    {
+      "number": "570-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Gravolodon",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 17675,
+      "damage": 4525,
+      "range": 230,
+      "kb": 2,
+      "speed": 8,
+      "dps": 755,
+      "target": "Area",
+      "tba": 6.0,
+      "anim": 1.1,
+      "spawn": 77.87,
+      "cost": 3870,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.4 Shockwave attack (Range: 932)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Wave attackb2 (100% chance to perform a Lv.4 Shockwave attack (Range: 932))\nu1Not affected byu2: b1Warpb2, b1Waveb2"
+    }
+  ]
+}

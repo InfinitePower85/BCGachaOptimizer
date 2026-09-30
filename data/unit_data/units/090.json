@@ -1,0 +1,72 @@
+{
+  "id": "090",
+  "name": "Nimue",
+  "forms": [
+    {
+      "number": "090-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nimue",
+      "rarity": "Uber Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1995,
+      "damage": 3108,
+      "range": 408,
+      "kb": 5,
+      "speed": 5,
+      "dps": 230,
+      "target": "Area",
+      "tba": 13.53,
+      "anim": 2.1,
+      "spawn": 106.0,
+      "cost": 4335,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "090-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Neutralization Type Nimue",
+      "rarity": "Uber Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3720,
+      "damage": 6350,
+      "range": 408,
+      "kb": 5,
+      "speed": 5,
+      "dps": 470,
+      "target": "Area",
+      "tba": 13.53,
+      "anim": 2.1,
+      "spawn": 106.0,
+      "cost": 4335,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

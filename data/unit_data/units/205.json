@@ -1,0 +1,72 @@
+{
+  "id": "205",
+  "name": "Airou",
+  "forms": [
+    {
+      "number": "205-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Airou",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 625,
+      "damage": 138,
+      "range": 160,
+      "kb": 3,
+      "speed": 12,
+      "dps": 85,
+      "target": "Single",
+      "tba": 1.63,
+      "anim": 0.4,
+      "spawn": 2.0,
+      "cost": 375,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Weakenb2 (30% chance to weaken by 50% for 5.0s)"
+    },
+    {
+      "number": "205-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Airou & Melaleu",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 625,
+      "damage": 138,
+      "range": 160,
+      "kb": 3,
+      "speed": 12,
+      "dps": 85,
+      "target": "Single",
+      "tba": 1.63,
+      "anim": 0.4,
+      "spawn": 2.0,
+      "cost": 375,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Weakenb2 (30% chance to weaken by 50% for 5.0s)"
+    }
+  ]
+}

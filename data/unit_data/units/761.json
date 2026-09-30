@@ -1,0 +1,132 @@
+{
+  "id": "761",
+  "name": "Gunduros",
+  "forms": [
+    {
+      "number": "761-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Gunduros",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13750,
+      "damage": 8250,
+      "range": 500,
+      "kb": 2,
+      "speed": 4,
+      "dps": 575,
+      "target": "Area",
+      "tba": 14.37,
+      "anim": 7.4,
+      "spawn": 144.53,
+      "cost": 5925,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 8.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a Spirit (Gunduros)"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Slowb2 (50% chance to slow for 8.0s) b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Conjureb2 (Allows summon of a Spirit (Gunduros)) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "761-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ballistic Dragon Gunduros",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 17500,
+      "damage": 10375,
+      "range": 500,
+      "kb": 2,
+      "speed": 4,
+      "dps": 722,
+      "target": "Area",
+      "tba": 14.37,
+      "anim": 7.4,
+      "spawn": 144.53,
+      "cost": 5925,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 8.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a Spirit (Gunduros)"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Slowb2 (100% chance to slow for 8.0s) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Conjureb2 (Allows summon of a Spirit (Gunduros)) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

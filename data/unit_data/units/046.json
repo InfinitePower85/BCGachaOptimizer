@@ -1,0 +1,52 @@
+{
+  "id": "046",
+  "name": "Maiko Cat",
+  "forms": [
+    {
+      "number": "046-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Maiko Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 20,
+      "range": 140,
+      "kb": 3,
+      "speed": 10,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "046-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Geisha Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 875,
+      "damage": 200,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 48,
+      "target": "Single",
+      "tba": 4.27,
+      "anim": 0.3,
+      "spawn": 2.2,
+      "cost": 900,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "709",
+  "name": "Jetpack Cat",
+  "forms": [
+    {
+      "number": "709-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Jetpack Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 500,
+      "range": 180,
+      "kb": 1,
+      "speed": 25,
+      "dps": 172,
+      "target": "Area",
+      "tba": 2.9,
+      "anim": 0.93,
+      "spawn": 3.87,
+      "cost": 390,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "709-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kinjirou Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 500,
+      "range": 180,
+      "kb": 1,
+      "speed": 25,
+      "dps": 172,
+      "target": "Area",
+      "tba": 2.9,
+      "anim": 0.93,
+      "spawn": 3.87,
+      "cost": 390,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Slowb2"
+    }
+  ]
+}

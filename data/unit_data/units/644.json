@@ -1,0 +1,163 @@
+{
+  "id": "644",
+  "name": "Superfeline",
+  "forms": [
+    {
+      "number": "644-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Superfeline",
+      "rarity": "Basic",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 1050,
+      "range": 250,
+      "kb": 10,
+      "speed": 38,
+      "dps": 438,
+      "target": "Area",
+      "tba": 2.4,
+      "anim": 0.23,
+      "spawn": 19.53,
+      "cost": 2400,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~350"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -100~350)\nu1Not affected byu2: b1Curseb2"
+    },
+    {
+      "number": "644-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Superfeline II",
+      "rarity": "Basic",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 1175,
+      "range": 250,
+      "kb": 10,
+      "speed": 38,
+      "dps": 490,
+      "target": "Area",
+      "tba": 2.4,
+      "anim": 0.23,
+      "spawn": 19.53,
+      "cost": 2400,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~350"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -100~350)\nu1Not affected byu2: b1Curseb2"
+    },
+    {
+      "number": "644-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "True Superfeline",
+      "rarity": "Basic",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2125,
+      "damage": 1425,
+      "range": 250,
+      "kb": 10,
+      "speed": 38,
+      "dps": 578,
+      "target": "Area",
+      "tba": 2.47,
+      "anim": 0.23,
+      "spawn": 19.53,
+      "cost": 2400,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~350"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -100~350) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

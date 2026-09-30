@@ -1,0 +1,106 @@
+{
+  "id": "865",
+  "name": "Shirou Emiya",
+  "forms": [
+    {
+      "number": "865-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shirou Emiya",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 12000,
+      "range": 560,
+      "kb": 3,
+      "speed": 12,
+      "dps": 962,
+      "target": "Area",
+      "tba": 12.47,
+      "anim": 5.3,
+      "spawn": 171.2,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.4 Shockwave attack (Range: 932)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.4 Shockwave attack (Range: 932)) b1Multi-hit attackb2 (Attacks twice consecutively)\nu1Not affected byu2: b1Freezeb2, b1Knockbackb2"
+    },
+    {
+      "number": "865-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Shirou Emiya CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 15000,
+      "range": 560,
+      "kb": 3,
+      "speed": 12,
+      "dps": 1202,
+      "target": "Area",
+      "tba": 12.47,
+      "anim": 5.3,
+      "spawn": 171.2,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.4 Shockwave attack (Range: 932)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.4 Shockwave attack (Range: 932)) b1Multi-hit attackb2 (Attacks twice consecutively)\nu1Not affected byu2: b1Freezeb2, b1Knockbackb2"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "851",
+  "name": "Fuma Kotaro",
+  "forms": [
+    {
+      "number": "851-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Fuma Kotaro",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8750,
+      "damage": 1750,
+      "range": 410,
+      "kb": 4,
+      "speed": 42,
+      "dps": 318,
+      "target": "Area",
+      "tba": 5.53,
+      "anim": 1.5,
+      "spawn": 121.2,
+      "cost": 3975,
+      "abilities": [
+        {
+          "group": "Against red, black, angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 1.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Explosion",
+              "detail": "50% chance to create an explosion at 410 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, angelu2: b1Slowb2 (100% chance to slow for 1.67s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively) b1Explosionb2 (50% chance to create an explosion at 410 range)\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "851-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wargod Kotaro",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10750,
+      "damage": 2250,
+      "range": 410,
+      "kb": 4,
+      "speed": 42,
+      "dps": 408,
+      "target": "Area",
+      "tba": 5.53,
+      "anim": 1.5,
+      "spawn": 121.2,
+      "cost": 3975,
+      "abilities": [
+        {
+          "group": "Against red, black, angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 1.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Explosion",
+              "detail": "50% chance to create an explosion at 410 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, angelu2: b1Slowb2 (100% chance to slow for 1.67s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively) b1Explosionb2 (50% chance to create an explosion at 410 range)\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

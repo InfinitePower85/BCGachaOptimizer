@@ -1,0 +1,72 @@
+{
+  "id": "275",
+  "name": "Tropical Kalisa",
+  "forms": [
+    {
+      "number": "275-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Tropical Kalisa",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3800,
+      "damage": 3125,
+      "range": 340,
+      "kb": 5,
+      "speed": 27,
+      "dps": 620,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 1.23,
+      "spawn": 64.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "275-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Tropical Kalisa, type X",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6350,
+      "damage": 5000,
+      "range": 340,
+      "kb": 5,
+      "speed": 27,
+      "dps": 992,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 1.23,
+      "spawn": 64.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

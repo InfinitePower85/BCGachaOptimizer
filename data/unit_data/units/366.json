@@ -1,0 +1,90 @@
+{
+  "id": "366",
+  "name": "Archer",
+  "forms": [
+    {
+      "number": "366-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Archer",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4975,
+      "damage": 3300,
+      "range": 500,
+      "kb": 3,
+      "speed": 15,
+      "dps": 410,
+      "target": "Area",
+      "tba": 8.07,
+      "anim": 2.17,
+      "spawn": 134.53,
+      "cost": 4620,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 400~800"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 400~800)\r\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "366-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Archer CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7125,
+      "damage": 4750,
+      "range": 500,
+      "kb": 3,
+      "speed": 15,
+      "dps": 590,
+      "target": "Area",
+      "tba": 8.07,
+      "anim": 2.17,
+      "spawn": 134.53,
+      "cost": 4620,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 400~800"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 400~800)\r\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

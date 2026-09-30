@@ -1,0 +1,52 @@
+{
+  "id": "167",
+  "name": "Shiratori Shōchikubai",
+  "forms": [
+    {
+      "number": "167-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shiratori Shōchikubai",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1375,
+      "damage": 1950,
+      "range": 295,
+      "kb": 3,
+      "speed": 7,
+      "dps": 360,
+      "target": "Area",
+      "tba": 5.43,
+      "anim": 0.07,
+      "spawn": 34.53,
+      "cost": 1875,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "167-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Matsu & Nyanko",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1375,
+      "damage": 1950,
+      "range": 295,
+      "kb": 3,
+      "speed": 7,
+      "dps": 360,
+      "target": "Area",
+      "tba": 5.43,
+      "anim": 0.07,
+      "spawn": 34.53,
+      "cost": 1875,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

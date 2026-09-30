@@ -1,0 +1,72 @@
+{
+  "id": "206",
+  "name": "Sheria - Kirin",
+  "forms": [
+    {
+      "number": "206-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sheria - Kirin",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2375,
+      "damage": 1875,
+      "range": 330,
+      "kb": 2,
+      "speed": 6,
+      "dps": 392,
+      "target": "Single",
+      "tba": 4.77,
+      "anim": 3.5,
+      "spawn": 39.2,
+      "cost": 1350,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "206-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sheria - KirinX",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2875,
+      "damage": 2375,
+      "range": 330,
+      "kb": 2,
+      "speed": 6,
+      "dps": 498,
+      "target": "Single",
+      "tba": 4.77,
+      "anim": 3.6,
+      "spawn": 39.2,
+      "cost": 1350,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

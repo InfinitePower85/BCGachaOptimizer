@@ -1,0 +1,114 @@
+{
+  "id": "802",
+  "name": "Master of Logic Newton",
+  "forms": [
+    {
+      "number": "802-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Master of Logic Newton",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 4500,
+      "range": 600,
+      "kb": 4,
+      "speed": 4,
+      "dps": 455,
+      "target": "Area",
+      "tba": 9.9,
+      "anim": 1.93,
+      "spawn": 144.53,
+      "cost": 5100,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "100% chance to performs a Lv.5 Shockwave attack (Range: 1132)"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -300~900"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 802"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Slowb2 (100% chance to slow for 4.0s) \nu1General Abilitiesu2: b1Mini-Waveb2 (100% chance to performs a Lv.5 Shockwave attack (Range: 1132)) b1Omni Strikeb2 (Effective range -300~900) b1Conjureb2 (Allows summon of a spirit: Unit number 802) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)"
+    },
+    {
+      "number": "802-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Master of Logic Mewton",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7000,
+      "damage": 5500,
+      "range": 600,
+      "kb": 4,
+      "speed": 4,
+      "dps": 555,
+      "target": "Area",
+      "tba": 9.9,
+      "anim": 1.93,
+      "spawn": 144.53,
+      "cost": 5100,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "100% chance to performs a Lv.5 Shockwave attack (Range: 1132)"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -300~900"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 802"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Slowb2 (100% chance to slow for 4.0s) \nu1General Abilitiesu2: b1Mini-Waveb2 (100% chance to performs a Lv.5 Shockwave attack (Range: 1132)) b1Omni Strikeb2 (Effective range -300~900) b1Conjureb2 (Allows summon of a spirit: Unit number 802) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)"
+    }
+  ]
+}

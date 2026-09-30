@@ -1,0 +1,72 @@
+{
+  "id": "351",
+  "name": "Nisetama Army",
+  "forms": [
+    {
+      "number": "351-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nisetama Army",
+      "rarity": "Uber Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 3498,
+      "range": 410,
+      "kb": 5,
+      "speed": 24,
+      "dps": 812,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 1.93,
+      "spawn": 117.87,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Knockbackb2 (40% chance of knockback)"
+    },
+    {
+      "number": "351-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Nisetama Cat Army",
+      "rarity": "Uber Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 3498,
+      "range": 410,
+      "kb": 5,
+      "speed": 24,
+      "dps": 812,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 1.93,
+      "spawn": 117.87,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Knockbackb2 (40% chance of knockback)"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "149",
+  "name": "Rocker Cat",
+  "forms": [
+    {
+      "number": "149-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rocker Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 80,
+      "range": 120,
+      "kb": 1,
+      "speed": 8,
+      "dps": 240,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.17,
+      "spawn": 3.87,
+      "cost": 315,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "149-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Artist Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1875,
+      "damage": 135,
+      "range": 120,
+      "kb": 1,
+      "speed": 8,
+      "dps": 405,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.17,
+      "spawn": 3.87,
+      "cost": 315,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "149-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Ramen Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2625,
+      "damage": 150,
+      "range": 120,
+      "kb": 1,
+      "speed": 8,
+      "dps": 450,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.17,
+      "spawn": 3.87,
+      "cost": 315,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

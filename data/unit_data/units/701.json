@@ -1,0 +1,117 @@
+{
+  "id": "701",
+  "name": "Ancient Egg N005",
+  "forms": [
+    {
+      "number": "701-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ancient Egg N005",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "701-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mystic Egg N005",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "701-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Hitman Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 2750,
+      "range": 300,
+      "kb": 3,
+      "speed": 15,
+      "dps": 372,
+      "target": "Area",
+      "tba": 7.37,
+      "anim": 1.2,
+      "spawn": 11.2,
+      "cost": 960,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~450"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~450)\nu1Not affected byu2: b1Freezeb2, b1Waveb2"
+    }
+  ]
+}

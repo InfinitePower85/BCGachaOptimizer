@@ -1,0 +1,52 @@
+{
+  "id": "140",
+  "name": "Nekondo",
+  "forms": [
+    {
+      "number": "140-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nekondo",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 175,
+      "range": 300,
+      "kb": 3,
+      "speed": 9,
+      "dps": 105,
+      "target": "Single",
+      "tba": 1.67,
+      "anim": 0.37,
+      "spawn": 4.53,
+      "cost": 750,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "140-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Nekondo HG",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 175,
+      "range": 300,
+      "kb": 3,
+      "speed": 9,
+      "dps": 105,
+      "target": "Single",
+      "tba": 1.67,
+      "anim": 0.37,
+      "spawn": 4.53,
+      "cost": 750,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

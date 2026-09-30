@@ -1,0 +1,105 @@
+{
+  "id": "095",
+  "name": "Crazed Gross Cat",
+  "forms": [
+    {
+      "number": "095-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Crazed Gross Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": true,
+      "level": 1,
+      "health": 3600,
+      "damage": 900,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 215,
+      "target": "Single",
+      "tba": 4.17,
+      "anim": 0.2,
+      "spawn": 28.8,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.3 Shockwave attack (Range: 732)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.3 Shockwave attack (Range: 732))"
+    },
+    {
+      "number": "095-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Crazed Sexy Legs Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": true,
+      "level": 1,
+      "health": 3600,
+      "damage": 900,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 215,
+      "target": "Single",
+      "tba": 4.17,
+      "anim": 0.2,
+      "spawn": 28.8,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.3 Shockwave attack (Range: 732)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.3 Shockwave attack (Range: 732))"
+    },
+    {
+      "number": "095-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Manic Macho Legs",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": true,
+      "level": 1,
+      "health": 4375,
+      "damage": 900,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 215,
+      "target": "Single",
+      "tba": 4.17,
+      "anim": 0.2,
+      "spawn": 28.8,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.4 Shockwave attack (Range: 932)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.4 Shockwave attack (Range: 932))"
+    }
+  ]
+}

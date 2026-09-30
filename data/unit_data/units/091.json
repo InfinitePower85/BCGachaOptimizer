@@ -1,0 +1,52 @@
+{
+  "id": "091",
+  "name": "Monkey King",
+  "forms": [
+    {
+      "number": "091-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Monkey King",
+      "rarity": "Uber Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5450,
+      "damage": 4100,
+      "range": 177,
+      "kb": 3,
+      "speed": 12,
+      "dps": 1835,
+      "target": "Single",
+      "tba": 2.23,
+      "anim": 1.0,
+      "spawn": 28.2,
+      "cost": 2985,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "091-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "SSS Monkey King",
+      "rarity": "Uber Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7125,
+      "damage": 5530,
+      "range": 177,
+      "kb": 3,
+      "speed": 12,
+      "dps": 2475,
+      "target": "Single",
+      "tba": 2.23,
+      "anim": 1.0,
+      "spawn": 28.2,
+      "cost": 2985,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

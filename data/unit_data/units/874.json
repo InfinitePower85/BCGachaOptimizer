@@ -1,0 +1,164 @@
+{
+  "id": "874",
+  "name": "Metal Maiden Koneko",
+  "forms": [
+    {
+      "number": "874-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Metal Maiden Koneko",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5375,
+      "damage": 400,
+      "range": 250,
+      "kb": 2,
+      "speed": 10,
+      "dps": 210,
+      "target": "Single",
+      "tba": 1.9,
+      "anim": 1.0,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "Against red, floating, zombie",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "22% chance to slow for 3.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "22% chance of knockback"
+            },
+            {
+              "name": "Curse",
+              "detail": "22% chance to curse for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 250 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floating, zombieu2: b1Slowb2 (22% chance to slow for 3.0s) b1Knockbackb2 (22% chance of knockback) b1Curseb2 (22% chance to curse for 3.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance) b1Explosionb2 (100% chance to create an explosion at 250 range)\nu1Not affected byu2: b1Freezeb2, b1Curseb2"
+    },
+    {
+      "number": "874-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sonic Siren Koneko",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 600,
+      "range": 450,
+      "kb": 3,
+      "speed": 10,
+      "dps": 530,
+      "target": "Single",
+      "tba": 1.13,
+      "anim": 0.67,
+      "spawn": 191.13,
+      "cost": 2100,
+      "abilities": [
+        {
+          "group": "Against red, floating, zombie",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "22% chance to slow for 3.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "22% chance of knockback"
+            },
+            {
+              "name": "Curse",
+              "detail": "22% chance to curse for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 450 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floating, zombieu2: b1Slowb2 (22% chance to slow for 3.0s) b1Knockbackb2 (22% chance of knockback) b1Curseb2 (22% chance to curse for 3.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance) b1Explosionb2 (100% chance to create an explosion at 450 range)\nu1Not affected byu2: b1Freezeb2, b1Curseb2"
+    }
+  ]
+}

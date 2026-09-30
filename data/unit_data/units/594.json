@@ -1,0 +1,72 @@
+{
+  "id": "594",
+  "name": "Neko Len",
+  "forms": [
+    {
+      "number": "594-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Neko Len",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2175,
+      "damage": 562,
+      "range": 125,
+      "kb": 2,
+      "speed": 20,
+      "dps": 195,
+      "target": "Single",
+      "tba": 2.9,
+      "anim": 0.1,
+      "spawn": 4.87,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Dodgeb2 (30% chance to dodge for 2.0s)"
+    },
+    {
+      "number": "594-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Neko Len CC",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2175,
+      "damage": 562,
+      "range": 125,
+      "kb": 2,
+      "speed": 20,
+      "dps": 195,
+      "target": "Single",
+      "tba": 2.9,
+      "anim": 0.17,
+      "spawn": 4.87,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Dodgeb2 (30% chance to dodge for 2.0s)"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "066",
+  "name": "Cow Princess",
+  "forms": [
+    {
+      "number": "066-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cow Princess",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 75,
+      "range": 161,
+      "kb": 5,
+      "speed": 30,
+      "dps": 225,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 2.0,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "066-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Giraffe Princess",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 75,
+      "range": 161,
+      "kb": 5,
+      "speed": 30,
+      "dps": 225,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 2.0,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

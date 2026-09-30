@@ -1,0 +1,136 @@
+{
+  "id": "706",
+  "name": "King of Doom Phono",
+  "forms": [
+    {
+      "number": "706-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "King of Doom Phono",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 5250,
+      "range": 500,
+      "kb": 5,
+      "speed": 30,
+      "dps": 730,
+      "target": "Area",
+      "tba": 7.2,
+      "anim": 3.0,
+      "spawn": 137.87,
+      "cost": 5100,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~550, 400~750, 490~900"
+            },
+            {
+              "name": "Mini-Surge",
+              "detail": "100% chance to perform a Mini-Surge for 1s (Range: 400~1100)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~550, 400~750, 490~900) b1Mini-Surgeb2 (100% chance to perform a Mini-Surge for 1s (Range: 400~1100)) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Waveb2, b1Surgeb2"
+    },
+    {
+      "number": "706-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "King of Extinction Phono",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8500,
+      "damage": 7500,
+      "range": 500,
+      "kb": 5,
+      "speed": 30,
+      "dps": 1042,
+      "target": "Area",
+      "tba": 7.2,
+      "anim": 3.0,
+      "spawn": 137.87,
+      "cost": 5100,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~550, 400~750, 490~900"
+            },
+            {
+              "name": "Mini-Surge",
+              "detail": "100% chance to perform a Mini-Surge for 1s (Range: 400~1100)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~550, 400~750, 490~900) b1Mini-Surgeb2 (100% chance to perform a Mini-Surge for 1s (Range: 400~1100)) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Curseb2, b1Waveb2, b1Surgeb2"
+    }
+  ]
+}

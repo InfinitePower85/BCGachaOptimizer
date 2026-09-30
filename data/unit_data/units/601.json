@@ -1,0 +1,98 @@
+{
+  "id": "601",
+  "name": "Mousse (Duck)",
+  "forms": [
+    {
+      "number": "601-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mousse (Duck)",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 1500,
+      "range": 300,
+      "kb": 3,
+      "speed": 10,
+      "dps": 248,
+      "target": "Area",
+      "tba": 6.03,
+      "anim": 1.73,
+      "spawn": 17.87,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": "50% chance to curse for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~550"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Curseb2 (50% chance to curse for 3.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Long Distanceb2 (Effective range 250~550)"
+    },
+    {
+      "number": "601-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mousse",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 4125,
+      "range": 550,
+      "kb": 3,
+      "speed": 14,
+      "dps": 462,
+      "target": "Area",
+      "tba": 8.9,
+      "anim": 1.6,
+      "spawn": 131.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 450~900"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Curseb2 (100% chance to curse for 5.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Long Distanceb2 (Effective range 450~900)"
+    }
+  ]
+}

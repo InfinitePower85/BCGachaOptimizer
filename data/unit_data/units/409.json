@@ -1,0 +1,80 @@
+{
+  "id": "409",
+  "name": "Mari Cat",
+  "forms": [
+    {
+      "number": "409-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mari Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1350,
+      "damage": 600,
+      "range": 210,
+      "kb": 3,
+      "speed": 8,
+      "dps": 155,
+      "target": "Single",
+      "tba": 3.87,
+      "anim": 1.17,
+      "spawn": 7.2,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "409-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Special Ops Mari",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1350,
+      "damage": 400,
+      "range": 210,
+      "kb": 3,
+      "speed": 8,
+      "dps": 158,
+      "target": "Single",
+      "tba": 2.53,
+      "anim": 1.17,
+      "spawn": 7.2,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

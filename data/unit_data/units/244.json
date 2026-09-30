@@ -1,0 +1,72 @@
+{
+  "id": "244",
+  "name": "Holy Coppermine",
+  "forms": [
+    {
+      "number": "244-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Holy Coppermine",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4050,
+      "damage": 3225,
+      "range": 375,
+      "kb": 3,
+      "speed": 7,
+      "dps": 512,
+      "target": "Area",
+      "tba": 6.3,
+      "anim": 3.33,
+      "spawn": 57.8,
+      "cost": 3720,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Freezeb2 (50% chance to freeze for 4.67s)"
+    },
+    {
+      "number": "244-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Holy Coppermine, type κ",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5750,
+      "damage": 4375,
+      "range": 375,
+      "kb": 3,
+      "speed": 7,
+      "dps": 695,
+      "target": "Area",
+      "tba": 6.3,
+      "anim": 3.33,
+      "spawn": 57.8,
+      "cost": 3720,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Freezeb2 (50% chance to freeze for 4.67s)"
+    }
+  ]
+}

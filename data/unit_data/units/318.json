@@ -1,0 +1,72 @@
+{
+  "id": "318",
+  "name": "CPAC",
+  "forms": [
+    {
+      "number": "318-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "CPAC",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 150,
+      "range": 150,
+      "kb": 3,
+      "speed": 9,
+      "dps": 68,
+      "target": "Single",
+      "tba": 2.2,
+      "anim": 1.23,
+      "spawn": 2.0,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "318-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "PPAP",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 150,
+      "range": 150,
+      "kb": 3,
+      "speed": 9,
+      "dps": 68,
+      "target": "Single",
+      "tba": 2.2,
+      "anim": 1.23,
+      "spawn": 2.0,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

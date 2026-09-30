@@ -1,0 +1,124 @@
+{
+  "id": "748",
+  "name": "Sanosuke Sagara",
+  "forms": [
+    {
+      "number": "748-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sanosuke Sagara",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 16500,
+      "damage": 3750,
+      "range": 390,
+      "kb": 2,
+      "speed": 10,
+      "dps": 385,
+      "target": "Area",
+      "tba": 9.73,
+      "anim": 2.43,
+      "spawn": 137.87,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -150~440"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "20% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -150~440) b1Savage Blowb2 (20% chance to inflict an attack with 2x damage to non-Metal enemies)\nu1Not affected byu2: b1Freezeb2"
+    },
+    {
+      "number": "748-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sanosuke Sagara CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 22000,
+      "damage": 5000,
+      "range": 390,
+      "kb": 2,
+      "speed": 10,
+      "dps": 512,
+      "target": "Area",
+      "tba": 9.73,
+      "anim": 2.43,
+      "spawn": 137.87,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -150~440"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "20% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -150~440) b1Savage Blowb2 (20% chance to inflict an attack with 2x damage to non-Metal enemies)\nu1Not affected byu2: b1Freezeb2"
+    }
+  ]
+}

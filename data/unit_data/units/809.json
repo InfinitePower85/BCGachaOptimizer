@@ -1,0 +1,90 @@
+{
+  "id": "809",
+  "name": "Tails Cat",
+  "forms": [
+    {
+      "number": "809-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Tails Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 875,
+      "damage": 125,
+      "range": 380,
+      "kb": 3,
+      "speed": 30,
+      "dps": 25,
+      "target": "Single",
+      "tba": 5.0,
+      "anim": 1.03,
+      "spawn": 9.53,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 280~505"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Slowb2 (50% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 280~505)"
+    },
+    {
+      "number": "809-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Tails Cat CC",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 175,
+      "range": 380,
+      "kb": 3,
+      "speed": 30,
+      "dps": 35,
+      "target": "Single",
+      "tba": 5.0,
+      "anim": 1.03,
+      "spawn": 9.53,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 280~505"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 280~505)"
+    }
+  ]
+}

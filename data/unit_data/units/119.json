@@ -1,0 +1,72 @@
+{
+  "id": "119",
+  "name": "Rei",
+  "forms": [
+    {
+      "number": "119-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rei",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 1025,
+      "range": 194,
+      "kb": 3,
+      "speed": 14,
+      "dps": 488,
+      "target": "Area",
+      "tba": 2.1,
+      "anim": 0.8,
+      "spawn": 48.53,
+      "cost": 1545,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "40% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Slowb2 (40% chance to slow for 4.0s)"
+    },
+    {
+      "number": "119-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Rei CC",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 1575,
+      "range": 194,
+      "kb": 3,
+      "speed": 14,
+      "dps": 750,
+      "target": "Area",
+      "tba": 2.1,
+      "anim": 0.8,
+      "spawn": 48.53,
+      "cost": 1545,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "40% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Slowb2 (40% chance to slow for 4.0s)"
+    }
+  ]
+}

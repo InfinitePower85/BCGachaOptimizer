@@ -1,0 +1,126 @@
+{
+  "id": "695",
+  "name": "Brainwashed Titan Cat",
+  "forms": [
+    {
+      "number": "695-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Brainwashed Titan Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 1722,
+      "range": 150,
+      "kb": 1,
+      "speed": 10,
+      "dps": 772,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.6,
+      "spawn": 22.2,
+      "cost": 1950,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "20% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Savage Blowb2 (20% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    },
+    {
+      "number": "695-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Brainwashed Mythic Titan",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 1722,
+      "range": 150,
+      "kb": 1,
+      "speed": 10,
+      "dps": 772,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.6,
+      "spawn": 22.2,
+      "cost": 1950,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "20% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Savage Blowb2 (20% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    },
+    {
+      "number": "695-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Brainwashed Jamiera Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 1722,
+      "range": 150,
+      "kb": 1,
+      "speed": 10,
+      "dps": 772,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.6,
+      "spawn": 22.2,
+      "cost": 1950,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "20% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Savage Blowb2 (20% chance to inflict an attack with 2x damage to non-Metal enemies)\nu1Not affected byu2: b1Weakenb2, b1Slowb2, b1Knockbackb2, b1Surgeb2"
+    }
+  ]
+}

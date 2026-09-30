@@ -1,0 +1,105 @@
+{
+  "id": "059",
+  "name": "Swordsman Cat",
+  "forms": [
+    {
+      "number": "059-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Swordsman Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1375,
+      "damage": 250,
+      "range": 155,
+      "kb": 3,
+      "speed": 11,
+      "dps": 228,
+      "target": "Single",
+      "tba": 1.1,
+      "anim": 0.27,
+      "spawn": 4.53,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "059-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sword Master Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1625,
+      "damage": 275,
+      "range": 155,
+      "kb": 3,
+      "speed": 11,
+      "dps": 250,
+      "target": "Single",
+      "tba": 1.1,
+      "anim": 0.27,
+      "spawn": 4.53,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "059-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Elemental Duelist Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 500,
+      "range": 155,
+      "kb": 3,
+      "speed": 11,
+      "dps": 455,
+      "target": "Single",
+      "tba": 1.1,
+      "anim": 0.27,
+      "spawn": 4.53,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

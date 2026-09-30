@@ -1,0 +1,118 @@
+{
+  "id": "238",
+  "name": "Freshman Cat Jobs",
+  "forms": [
+    {
+      "number": "238-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Freshman Cat Jobs",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 200,
+      "damage": 250,
+      "range": 300,
+      "kb": 3,
+      "speed": 1,
+      "dps": 38,
+      "target": "Single",
+      "tba": 6.63,
+      "anim": 1.13,
+      "spawn": 157.87,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 1% for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (100% chance to weaken by 1% for 5.0s)"
+    },
+    {
+      "number": "238-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Prof. Cat Jobs",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 225,
+      "damage": 312,
+      "range": 300,
+      "kb": 3,
+      "speed": 1,
+      "dps": 48,
+      "target": "Single",
+      "tba": 6.63,
+      "anim": 1.13,
+      "spawn": 157.87,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 99% for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (100% chance to weaken by 99% for 5.0s)"
+    },
+    {
+      "number": "238-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Headmaster Cat Jobs",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 225,
+      "damage": 312,
+      "range": 300,
+      "kb": 3,
+      "speed": 4,
+      "dps": 48,
+      "target": "Single",
+      "tba": 6.63,
+      "anim": 1.13,
+      "spawn": 157.87,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 99% for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 1s (Range: 150~1050)"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (100% chance to weaken by 99% for 5.0s)\nu1General Abilitiesu2: b1Surge Attacksb2 (100% chance to perform Surge Attacks for 1s (Range: 150~1050)) b1Surviveb2 (100% chance to survive a lethal strike)"
+    }
+  ]
+}

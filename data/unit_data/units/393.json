@@ -1,0 +1,140 @@
+{
+  "id": "393",
+  "name": "Hijiri Rokudo",
+  "forms": [
+    {
+      "number": "393-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hijiri Rokudo",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2200,
+      "damage": 1500,
+      "range": 200,
+      "kb": 3,
+      "speed": 18,
+      "dps": 472,
+      "target": "Single",
+      "tba": 3.17,
+      "anim": 0.63,
+      "spawn": 19.2,
+      "cost": 1170,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "393-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hijiri Rokudo CC",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2550,
+      "damage": 1800,
+      "range": 200,
+      "kb": 3,
+      "speed": 18,
+      "dps": 568,
+      "target": "Single",
+      "tba": 3.17,
+      "anim": 0.63,
+      "spawn": 19.2,
+      "cost": 1170,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "393-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Baseball Mask γ",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3400,
+      "damage": 1350,
+      "range": 300,
+      "kb": 3,
+      "speed": 18,
+      "dps": 412,
+      "target": "Area",
+      "tba": 3.27,
+      "anim": 0.63,
+      "spawn": 19.2,
+      "cost": 1170,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "408",
+  "name": "Asuka Cat",
+  "forms": [
+    {
+      "number": "408-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Asuka Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 650,
+      "range": 180,
+      "kb": 3,
+      "speed": 9,
+      "dps": 200,
+      "target": "Single",
+      "tba": 3.27,
+      "anim": 2.2,
+      "spawn": 6.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "408-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Apron Asuka",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 738,
+      "range": 180,
+      "kb": 3,
+      "speed": 9,
+      "dps": 200,
+      "target": "Single",
+      "tba": 3.7,
+      "anim": 2.2,
+      "spawn": 6.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

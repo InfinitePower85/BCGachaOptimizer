@@ -1,0 +1,121 @@
+{
+  "id": "708",
+  "name": "Ancient Egg: N109",
+  "forms": [
+    {
+      "number": "708-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ancient Egg: N109",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "708-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Dark Egg: N109",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 5,
+      "range": 100,
+      "kb": 1,
+      "speed": 5,
+      "dps": 1,
+      "target": "Single",
+      "tba": 15.7,
+      "anim": 1.07,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "708-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Barrel Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 875,
+      "range": 300,
+      "kb": 2,
+      "speed": 8,
+      "dps": 228,
+      "target": "Area",
+      "tba": 3.83,
+      "anim": 1.07,
+      "spawn": 17.87,
+      "cost": 990,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 225~400"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "60% chance to break Aku shields"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 225~400) b1Shield Piercingb2 (60% chance to break Aku shields) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "563",
+  "name": "Luka Cat",
+  "forms": [
+    {
+      "number": "563-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Luka Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2100,
+      "damage": 650,
+      "range": 200,
+      "kb": 3,
+      "speed": 9,
+      "dps": 160,
+      "target": "Single",
+      "tba": 4.03,
+      "anim": 0.53,
+      "spawn": 4.53,
+      "cost": 495,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Dodgeb2 (30% chance to dodge for 2.0s)"
+    },
+    {
+      "number": "563-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Luka Cat CC",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2100,
+      "damage": 650,
+      "range": 200,
+      "kb": 3,
+      "speed": 9,
+      "dps": 160,
+      "target": "Single",
+      "tba": 4.03,
+      "anim": 1.07,
+      "spawn": 4.53,
+      "cost": 495,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Dodgeb2 (30% chance to dodge for 2.0s)"
+    }
+  ]
+}

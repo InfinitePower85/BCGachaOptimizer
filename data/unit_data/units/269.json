@@ -1,0 +1,123 @@
+{
+  "id": "269",
+  "name": "Red Riding Mina",
+  "forms": [
+    {
+      "number": "269-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Red Riding Mina",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 1500,
+      "range": 435,
+      "kb": 4,
+      "speed": 10,
+      "dps": 230,
+      "target": "Area",
+      "tba": 6.5,
+      "anim": 2.53,
+      "spawn": 97.87,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~600"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~600)"
+    },
+    {
+      "number": "269-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Crimson Mina",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 1500,
+      "range": 435,
+      "kb": 4,
+      "speed": 10,
+      "dps": 230,
+      "target": "Area",
+      "tba": 6.5,
+      "anim": 2.53,
+      "spawn": 97.87,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~600"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~600)"
+    },
+    {
+      "number": "269-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Awakened Mina",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 3000,
+      "range": 435,
+      "kb": 4,
+      "speed": 10,
+      "dps": 462,
+      "target": "Area",
+      "tba": 6.5,
+      "anim": 2.53,
+      "spawn": 97.87,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 3.33s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~700"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Weakenb2 (50% chance to weaken by 50% for 3.33s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~700)\r\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

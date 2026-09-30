@@ -1,0 +1,72 @@
+{
+  "id": "158",
+  "name": "Nubobo",
+  "forms": [
+    {
+      "number": "158-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nubobo",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1412,
+      "damage": 175,
+      "range": 125,
+      "kb": 3,
+      "speed": 5,
+      "dps": 65,
+      "target": "Area",
+      "tba": 2.7,
+      "anim": 0.67,
+      "spawn": 9.87,
+      "cost": 225,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "158-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Gorubo",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1412,
+      "damage": 175,
+      "range": 125,
+      "kb": 3,
+      "speed": 5,
+      "dps": 65,
+      "target": "Area",
+      "tba": 2.7,
+      "anim": 0.67,
+      "spawn": 9.87,
+      "cost": 225,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

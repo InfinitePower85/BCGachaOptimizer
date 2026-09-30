@@ -1,0 +1,108 @@
+{
+  "id": "511",
+  "name": "Akuma",
+  "forms": [
+    {
+      "number": "511-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Akuma",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 3788,
+      "range": 450,
+      "kb": 3,
+      "speed": 20,
+      "dps": 768,
+      "target": "Area",
+      "tba": 4.93,
+      "anim": 1.03,
+      "spawn": 124.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Insane Damageb2 (inflicts 5.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Freezeb2"
+    },
+    {
+      "number": "511-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Akuma CC",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 3788,
+      "range": 450,
+      "kb": 3,
+      "speed": 20,
+      "dps": 768,
+      "target": "Area",
+      "tba": 4.93,
+      "anim": 1.03,
+      "spawn": 124.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Insane Damageb2 (inflicts 5.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Freezeb2"
+    }
+  ]
+}

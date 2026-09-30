@@ -1,0 +1,80 @@
+{
+  "id": "742",
+  "name": "Voluptuous Peony - Daji",
+  "forms": [
+    {
+      "number": "742-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Voluptuous Peony - Daji",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 5625,
+      "range": 450,
+      "kb": 4,
+      "speed": 10,
+      "dps": 680,
+      "target": "Area",
+      "tba": 8.27,
+      "anim": 1.5,
+      "spawn": 129.87,
+      "cost": 4320,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Slowb2 (100% chance to slow for 2.0s)"
+    },
+    {
+      "number": "742-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Daji & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 5625,
+      "range": 450,
+      "kb": 4,
+      "speed": 10,
+      "dps": 680,
+      "target": "Area",
+      "tba": 8.27,
+      "anim": 1.5,
+      "spawn": 129.87,
+      "cost": 4320,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Slowb2 (100% chance to slow for 2.0s)"
+    }
+  ]
+}

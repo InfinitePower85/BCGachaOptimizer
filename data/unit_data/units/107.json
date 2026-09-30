@@ -1,0 +1,141 @@
+{
+  "id": "107",
+  "name": "Kai",
+  "forms": [
+    {
+      "number": "107-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kai",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10750,
+      "damage": 7775,
+      "range": 175,
+      "kb": 2,
+      "speed": 8,
+      "dps": 740,
+      "target": "Area",
+      "tba": 10.5,
+      "anim": 2.53,
+      "spawn": 71.2,
+      "cost": 3990,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike)"
+    },
+    {
+      "number": "107-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kai, type μ",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14250,
+      "damage": 12475,
+      "range": 175,
+      "kb": 2,
+      "speed": 8,
+      "dps": 1188,
+      "target": "Area",
+      "tba": 10.5,
+      "anim": 2.53,
+      "spawn": 71.2,
+      "cost": 3990,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike)"
+    },
+    {
+      "number": "107-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Divine Kai",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 28500,
+      "damage": 17475,
+      "range": 175,
+      "kb": 2,
+      "speed": 16,
+      "dps": 1665,
+      "target": "Area",
+      "tba": 10.5,
+      "anim": 2.53,
+      "spawn": 71.2,
+      "cost": 3990,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

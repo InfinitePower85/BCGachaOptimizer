@@ -1,0 +1,127 @@
+{
+  "id": "324",
+  "name": "Miyamoku Musashi",
+  "forms": [
+    {
+      "number": "324-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Miyamoku Musashi",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4750,
+      "damage": 4750,
+      "range": 400,
+      "kb": 3,
+      "speed": 5,
+      "dps": 530,
+      "target": "Area",
+      "tba": 8.97,
+      "anim": 1.4,
+      "spawn": 151.2,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "324-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Heroic Musashi",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4750,
+      "damage": 4750,
+      "range": 400,
+      "kb": 3,
+      "speed": 5,
+      "dps": 530,
+      "target": "Area",
+      "tba": 8.97,
+      "anim": 1.4,
+      "spawn": 151.2,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "324-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Awakened Musashi",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 6250,
+      "range": 400,
+      "kb": 3,
+      "speed": 5,
+      "dps": 698,
+      "target": "Area",
+      "tba": 8.97,
+      "anim": 1.4,
+      "spawn": 151.2,
+      "cost": 4800,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Freezeb2 (30% chance to freeze for 3.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)\nu1Not affected byu2: b1Curseb2, b1Waveb2"
+    }
+  ]
+}

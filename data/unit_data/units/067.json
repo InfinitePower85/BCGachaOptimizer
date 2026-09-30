@@ -1,0 +1,105 @@
+{
+  "id": "067",
+  "name": "PPT48\r",
+  "forms": [
+    {
+      "number": "067-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "PPT48\r",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 450,
+      "range": 380,
+      "kb": 2,
+      "speed": 6,
+      "dps": 65,
+      "target": "Area",
+      "tba": 6.83,
+      "anim": 0.87,
+      "spawn": 50.53,
+      "cost": 2100,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "40% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (40% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "067-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Dark PPT48\r",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 1210,
+      "range": 380,
+      "kb": 2,
+      "speed": 6,
+      "dps": 178,
+      "target": "Area",
+      "tba": 6.83,
+      "anim": 0.87,
+      "spawn": 50.53,
+      "cost": 2100,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "40% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (40% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "067-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "PPT46",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 1210,
+      "range": 380,
+      "kb": 2,
+      "speed": 6,
+      "dps": 315,
+      "target": "Area",
+      "tba": 3.83,
+      "anim": 0.87,
+      "spawn": 20.87,
+      "cost": 2100,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "40% chance to freeze for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (40% chance to freeze for 3.0s)"
+    }
+  ]
+}

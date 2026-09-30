@@ -1,0 +1,72 @@
+{
+  "id": "209",
+  "name": "Kirin Neko",
+  "forms": [
+    {
+      "number": "209-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kirin Neko",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 225,
+      "damage": 18,
+      "range": 140,
+      "kb": 4,
+      "speed": 12,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "209-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kirin Neko Kirin",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 30,
+      "range": 140,
+      "kb": 6,
+      "speed": 36,
+      "dps": 90,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 2.0,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

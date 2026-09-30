@@ -1,0 +1,52 @@
+{
+  "id": "329",
+  "name": "Happy 100",
+  "forms": [
+    {
+      "number": "329-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Happy 100",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 125,
+      "range": 300,
+      "kb": 3,
+      "speed": 10,
+      "dps": 50,
+      "target": "Area",
+      "tba": 2.5,
+      "anim": 1.27,
+      "spawn": 12.53,
+      "cost": 720,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "329-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Heartful Happy 100",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 125,
+      "range": 300,
+      "kb": 3,
+      "speed": 10,
+      "dps": 50,
+      "target": "Area",
+      "tba": 2.5,
+      "anim": 1.27,
+      "spawn": 12.53,
+      "cost": 720,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "429",
+  "name": "Souma Cat",
+  "forms": [
+    {
+      "number": "429-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Souma Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1800,
+      "damage": 500,
+      "range": 300,
+      "kb": 3,
+      "speed": 10,
+      "dps": 108,
+      "target": "Single",
+      "tba": 4.67,
+      "anim": 1.37,
+      "spawn": 16.27,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.3 Shockwave attack (Range: 732)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.3 Shockwave attack (Range: 732))"
+    },
+    {
+      "number": "429-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Stylish Souma Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1800,
+      "damage": 500,
+      "range": 300,
+      "kb": 3,
+      "speed": 10,
+      "dps": 108,
+      "target": "Single",
+      "tba": 4.67,
+      "anim": 1.37,
+      "spawn": 16.27,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.3 Shockwave attack (Range: 732)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.3 Shockwave attack (Range: 732))"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "143",
+  "name": "Tutorial Cat",
+  "forms": [
+    {
+      "number": "143-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Tutorial Cat",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 600,
+      "damage": 75,
+      "range": 160,
+      "kb": 1,
+      "speed": 7,
+      "dps": 60,
+      "target": "Single",
+      "tba": 1.27,
+      "anim": 0.27,
+      "spawn": 10.53,
+      "cost": 540,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "143-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Behind Tutorial",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 600,
+      "damage": 75,
+      "range": 160,
+      "kb": 1,
+      "speed": 7,
+      "dps": 60,
+      "target": "Single",
+      "tba": 1.27,
+      "anim": 0.27,
+      "spawn": 10.53,
+      "cost": 540,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

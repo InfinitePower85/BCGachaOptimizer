@@ -1,0 +1,88 @@
+{
+  "id": "723",
+  "name": "Hatsune Miku XVI",
+  "forms": [
+    {
+      "number": "723-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hatsune Miku XVI",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 1825,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 290,
+      "target": "Area",
+      "tba": 6.27,
+      "anim": 1.63,
+      "spawn": 91.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 1s (Range: 150~750)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Slowb2 (100% chance to slow for 2.0s) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 1s (Range: 150~750))"
+    },
+    {
+      "number": "723-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hatsune Miku XVI CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9750,
+      "damage": 2425,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 388,
+      "target": "Area",
+      "tba": 6.27,
+      "anim": 1.63,
+      "spawn": 91.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 1s (Range: 150~750)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Slowb2 (100% chance to slow for 2.0s) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 1s (Range: 150~750))"
+    }
+  ]
+}

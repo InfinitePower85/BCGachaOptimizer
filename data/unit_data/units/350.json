@@ -1,0 +1,72 @@
+{
+  "id": "350",
+  "name": "Gudegude Pudding",
+  "forms": [
+    {
+      "number": "350-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Gudegude Pudding",
+      "rarity": "Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 1250,
+      "range": 250,
+      "kb": 2,
+      "speed": 6,
+      "dps": 412,
+      "target": "Area",
+      "tba": 3.03,
+      "anim": 0.33,
+      "spawn": 24.53,
+      "cost": 1350,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "350-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Gudegude à la mode",
+      "rarity": "Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 1250,
+      "range": 250,
+      "kb": 2,
+      "speed": 6,
+      "dps": 412,
+      "target": "Area",
+      "tba": 3.03,
+      "anim": 0.33,
+      "spawn": 24.53,
+      "cost": 1350,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

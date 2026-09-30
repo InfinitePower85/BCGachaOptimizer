@@ -1,0 +1,98 @@
+{
+  "id": "584",
+  "name": "Hatsune Miku: MM2020 Tokyo",
+  "forms": [
+    {
+      "number": "584-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hatsune Miku: MM2020 Tokyo",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10750,
+      "damage": 4500,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 612,
+      "target": "Area",
+      "tba": 7.33,
+      "anim": 2.57,
+      "spawn": 144.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against red, angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angelu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Wave Shieldb2 (Protects units behind them from shockwaves) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "584-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hatsune Miku CC: MM2020 Tokyo",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14250,
+      "damage": 6000,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 818,
+      "target": "Area",
+      "tba": 7.33,
+      "anim": 2.57,
+      "spawn": 144.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against red, angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angelu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Wave Shieldb2 (Protects units behind them from shockwaves) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

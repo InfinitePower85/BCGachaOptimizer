@@ -1,0 +1,217 @@
+{
+  "id": "360",
+  "name": "Bora",
+  "forms": [
+    {
+      "number": "360-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Bora",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2850,
+      "damage": 2750,
+      "range": 330,
+      "kb": 3,
+      "speed": 10,
+      "dps": 342,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 2.93,
+      "spawn": 16.53,
+      "cost": 1170,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "360-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Bazibon",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6300,
+      "damage": 4950,
+      "range": 390,
+      "kb": 3,
+      "speed": 8,
+      "dps": 615,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 2.93,
+      "spawn": 81.2,
+      "cost": 3780,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "360-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Bazibastra",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7925,
+      "damage": 6200,
+      "range": 390,
+      "kb": 3,
+      "speed": 8,
+      "dps": 772,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 2.93,
+      "spawn": 81.2,
+      "cost": 3780,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "360-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "Bazifenix",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 6700,
+      "range": 430,
+      "kb": 3,
+      "speed": 12,
+      "dps": 835,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 2.93,
+      "spawn": 81.2,
+      "cost": 3780,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage) b1Weakenb2 (100% chance to weaken by 50% for 4.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "356",
+  "name": "Mighty Rekon Korps",
+  "forms": [
+    {
+      "number": "356-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mighty Rekon Korps",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 11000,
+      "range": 450,
+      "kb": 8,
+      "speed": 8,
+      "dps": 1542,
+      "target": "Area",
+      "tba": 7.13,
+      "anim": 4.43,
+      "spawn": 177.87,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "red",
+              "detail": ""
+            },
+            {
+              "name": "black",
+              "detail": ""
+            },
+            {
+              "name": "floating",
+              "detail": ""
+            },
+            {
+              "name": "metal",
+              "detail": ""
+            },
+            {
+              "name": "angel",
+              "detail": ""
+            },
+            {
+              "name": "alien",
+              "detail": ""
+            },
+            {
+              "name": "zombie",
+              "detail": ""
+            },
+            {
+              "name": "relic",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: u1Attacks onlyu2b1 redb2,b1 blackb2,b1 floatingb2,b1 metalb2,b1 angelb2,b1 alienb2,b1 zombieb2,b1 relicb2 \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "356-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Orbital Platform Armageddon",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 11000,
+      "range": 450,
+      "kb": 8,
+      "speed": 8,
+      "dps": 1542,
+      "target": "Area",
+      "tba": 7.13,
+      "anim": 4.43,
+      "spawn": 177.87,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "red",
+              "detail": ""
+            },
+            {
+              "name": "black",
+              "detail": ""
+            },
+            {
+              "name": "floating",
+              "detail": ""
+            },
+            {
+              "name": "metal",
+              "detail": ""
+            },
+            {
+              "name": "angel",
+              "detail": ""
+            },
+            {
+              "name": "alien",
+              "detail": ""
+            },
+            {
+              "name": "zombie",
+              "detail": ""
+            },
+            {
+              "name": "relic",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: u1Attacks onlyu2b1 redb2,b1 blackb2,b1 floatingb2,b1 metalb2,b1 angelb2,b1 alienb2,b1 zombieb2,b1 relicb2 \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "356-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Orbital Annihilator Ragnarok",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 13000,
+      "range": 470,
+      "kb": 8,
+      "speed": 8,
+      "dps": 1822,
+      "target": "Area",
+      "tba": 7.13,
+      "anim": 4.43,
+      "spawn": 177.87,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "red",
+              "detail": ""
+            },
+            {
+              "name": "black",
+              "detail": ""
+            },
+            {
+              "name": "floating",
+              "detail": ""
+            },
+            {
+              "name": "metal",
+              "detail": ""
+            },
+            {
+              "name": "angel",
+              "detail": ""
+            },
+            {
+              "name": "alien",
+              "detail": ""
+            },
+            {
+              "name": "zombie",
+              "detail": ""
+            },
+            {
+              "name": "relic",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -470~470"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: u1Attacks onlyu2b1 redb2,b1 blackb2,b1 floatingb2,b1 metalb2,b1 angelb2,b1 alienb2,b1 zombieb2,b1 relicb2 \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -470~470)"
+    }
+  ]
+}

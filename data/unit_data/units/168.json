@@ -1,0 +1,52 @@
+{
+  "id": "168",
+  "name": "Yankee Cat",
+  "forms": [
+    {
+      "number": "168-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Yankee Cat",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 375,
+      "damage": 30,
+      "range": 150,
+      "kb": 3,
+      "speed": 5,
+      "dps": 25,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 120,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "168-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sukeban Cat",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 15,
+      "range": 120,
+      "kb": 1,
+      "speed": 5,
+      "dps": 8,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 225,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

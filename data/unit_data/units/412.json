@@ -1,0 +1,108 @@
+{
+  "id": "412",
+  "name": "Mari Illustrious",
+  "forms": [
+    {
+      "number": "412-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mari Illustrious",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3700,
+      "damage": 1650,
+      "range": 325,
+      "kb": 4,
+      "speed": 9,
+      "dps": 395,
+      "target": "Area",
+      "tba": 4.17,
+      "anim": 1.2,
+      "spawn": 21.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)\r\nu1Not affected byu2: b1Freezeb2"
+    },
+    {
+      "number": "412-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Plug Suit Mari",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3700,
+      "damage": 1650,
+      "range": 325,
+      "kb": 4,
+      "speed": 9,
+      "dps": 395,
+      "target": "Area",
+      "tba": 4.17,
+      "anim": 1.2,
+      "spawn": 21.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)\r\nu1Not affected byu2: b1Freezeb2"
+    }
+  ]
+}

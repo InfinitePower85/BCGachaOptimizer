@@ -1,0 +1,114 @@
+{
+  "id": "550",
+  "name": "The 6th Angel",
+  "forms": [
+    {
+      "number": "550-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "The 6th Angel",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 5000,
+      "range": 500,
+      "kb": 1,
+      "speed": 5,
+      "dps": 220,
+      "target": "Area",
+      "tba": 22.77,
+      "anim": 4.33,
+      "spawn": 257.87,
+      "cost": 3825,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 5.0s"
+            },
+            {
+              "name": "Dodge",
+              "detail": "50% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~1500"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 3s (Range: 200~1250)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Slowb2 (100% chance to slow for 5.0s) b1Dodgeb2 (50% chance to dodge for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~1500) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 3s (Range: 200~1250))"
+    },
+    {
+      "number": "550-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "6th Angel Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 5000,
+      "range": 500,
+      "kb": 1,
+      "speed": 5,
+      "dps": 220,
+      "target": "Area",
+      "tba": 22.77,
+      "anim": 4.33,
+      "spawn": 257.87,
+      "cost": 3825,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 5.0s"
+            },
+            {
+              "name": "Dodge",
+              "detail": "50% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~1500"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 3s (Range: 200~1250)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Slowb2 (100% chance to slow for 5.0s) b1Dodgeb2 (50% chance to dodge for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~1500) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 3s (Range: 200~1250))"
+    }
+  ]
+}

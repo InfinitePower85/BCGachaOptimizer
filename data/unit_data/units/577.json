@@ -1,0 +1,116 @@
+{
+  "id": "577",
+  "name": "C. Honda",
+  "forms": [
+    {
+      "number": "577-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "C. Honda",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7000,
+      "damage": 300,
+      "range": 110,
+      "kb": 2,
+      "speed": 18,
+      "dps": 238,
+      "target": "Area",
+      "tba": 1.27,
+      "anim": 0.83,
+      "spawn": 16.53,
+      "cost": 1260,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Slowb2, b1Knockbackb2"
+    },
+    {
+      "number": "577-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "C. Honda CC",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7000,
+      "damage": 300,
+      "range": 110,
+      "kb": 2,
+      "speed": 18,
+      "dps": 238,
+      "target": "Area",
+      "tba": 1.27,
+      "anim": 0.83,
+      "spawn": 16.53,
+      "cost": 1260,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Slowb2, b1Knockbackb2"
+    }
+  ]
+}

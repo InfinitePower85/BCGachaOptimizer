@@ -1,0 +1,52 @@
+{
+  "id": "177",
+  "name": "Marshmallow Cat",
+  "forms": [
+    {
+      "number": "177-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Marshmallow Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1050,
+      "damage": 450,
+      "range": 340,
+      "kb": 3,
+      "speed": 8,
+      "dps": 68,
+      "target": "Single",
+      "tba": 6.7,
+      "anim": 0.73,
+      "spawn": 6.53,
+      "cost": 630,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "177-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Creepmallow",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1050,
+      "damage": 450,
+      "range": 340,
+      "kb": 3,
+      "speed": 8,
+      "dps": 68,
+      "target": "Single",
+      "tba": 6.7,
+      "anim": 0.73,
+      "spawn": 6.53,
+      "cost": 630,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

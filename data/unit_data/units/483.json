@@ -1,0 +1,117 @@
+{
+  "id": "483",
+  "name": "Benevolent Souma",
+  "forms": [
+    {
+      "number": "483-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Benevolent Souma",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 5625,
+      "range": 440,
+      "kb": 6,
+      "speed": 8,
+      "dps": 650,
+      "target": "Area",
+      "tba": 8.67,
+      "anim": 1.43,
+      "spawn": 111.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 5.0s"
+            },
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Weakenb2 (50% chance to weaken by 50% for 5.0s) b1Slowb2 (50% chance to slow for 5.0s)"
+    },
+    {
+      "number": "483-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Souma ＆ Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 6875,
+      "range": 440,
+      "kb": 6,
+      "speed": 8,
+      "dps": 792,
+      "target": "Area",
+      "tba": 8.67,
+      "anim": 1.43,
+      "spawn": 111.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 5.0s"
+            },
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Weakenb2 (50% chance to weaken by 50% for 5.0s) b1Slowb2 (50% chance to slow for 5.0s)"
+    },
+    {
+      "number": "483-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Cat-Eared Souma",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 6875,
+      "range": 440,
+      "kb": 6,
+      "speed": 8,
+      "dps": 792,
+      "target": "Area",
+      "tba": 8.67,
+      "anim": 1.43,
+      "spawn": 111.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against angel, alien, floating",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 5.0s"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alien, floatingu2: b1Weakenb2 (100% chance to weaken by 50% for 5.0s) b1Slowb2 (100% chance to slow for 5.0s)"
+    }
+  ]
+}

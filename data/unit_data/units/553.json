@@ -1,0 +1,80 @@
+{
+  "id": "553",
+  "name": "Kaworu Cat",
+  "forms": [
+    {
+      "number": "553-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kaworu Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 550,
+      "range": 250,
+      "kb": 3,
+      "speed": 9,
+      "dps": 160,
+      "target": "Single",
+      "tba": 3.43,
+      "anim": 1.4,
+      "spawn": 9.53,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "553-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Moon Kaworu Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 550,
+      "range": 350,
+      "kb": 3,
+      "speed": 9,
+      "dps": 80,
+      "target": "Single",
+      "tba": 6.93,
+      "anim": 0.57,
+      "spawn": 9.53,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

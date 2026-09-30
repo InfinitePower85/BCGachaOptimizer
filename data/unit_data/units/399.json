@@ -1,0 +1,72 @@
+{
+  "id": "399",
+  "name": "Honiton",
+  "forms": [
+    {
+      "number": "399-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Honiton",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 165,
+      "range": 120,
+      "kb": 2,
+      "speed": 9,
+      "dps": 150,
+      "target": "Single",
+      "tba": 1.1,
+      "anim": 0.27,
+      "spawn": 7.2,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "399-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Honiton & Cat",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 165,
+      "range": 120,
+      "kb": 2,
+      "speed": 9,
+      "dps": 150,
+      "target": "Single",
+      "tba": 1.1,
+      "anim": 0.27,
+      "spawn": 7.2,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

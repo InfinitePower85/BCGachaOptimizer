@@ -1,0 +1,72 @@
+{
+  "id": "201",
+  "name": "Metal Cat",
+  "forms": [
+    {
+      "number": "201-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Metal Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2.5,
+      "damage": 20,
+      "range": 140,
+      "kb": 2,
+      "speed": 10,
+      "dps": 16,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 17.87,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Metal",
+              "detail": "Only takes 1 damage from any attack, except critical hits"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Metalb2 (Only takes 1 damage from any attack, except critical hits)"
+    },
+    {
+      "number": "201-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Metal Macho",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2.5,
+      "damage": 20,
+      "range": 140,
+      "kb": 2,
+      "speed": 10,
+      "dps": 16,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 17.87,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Metal",
+              "detail": "Only takes 1 damage from any attack, except critical hits"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Metalb2 (Only takes 1 damage from any attack, except critical hits)"
+    }
+  ]
+}

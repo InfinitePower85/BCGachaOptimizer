@@ -1,0 +1,183 @@
+{
+  "id": "441",
+  "name": "Bebe",
+  "forms": [
+    {
+      "number": "441-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Bebe",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2600,
+      "damage": 1275,
+      "range": 350,
+      "kb": 4,
+      "speed": 9,
+      "dps": 308,
+      "target": "Area",
+      "tba": 4.13,
+      "anim": 0.83,
+      "spawn": 17.87,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Witch Killer",
+              "detail": "inflicts 5x damage, takes only 0.1x damage from Witch enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Weakenb2 (100% chance to weaken by 50% for 2.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Witch Killerb2 (inflicts 5x damage, takes only 0.1x damage from Witch enemies)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "441-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Nagisa & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6300,
+      "damage": 5100,
+      "range": 450,
+      "kb": 6,
+      "speed": 12,
+      "dps": 752,
+      "target": "Area",
+      "tba": 6.77,
+      "anim": 2.4,
+      "spawn": 97.87,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 6.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Witch Killer",
+              "detail": "inflicts 5x damage, takes only 0.1x damage from Witch enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Weakenb2 (100% chance to weaken by 50% for 6.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Witch Killerb2 (inflicts 5x damage, takes only 0.1x damage from Witch enemies)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "441-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Law of Cycles Nagisa",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6300,
+      "damage": 5600,
+      "range": 450,
+      "kb": 6,
+      "speed": 12,
+      "dps": 795,
+      "target": "Area",
+      "tba": 7.03,
+      "anim": 2.67,
+      "spawn": 97.87,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 6.0s"
+            },
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "30% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Witch Killer",
+              "detail": "inflicts 5x damage, takes only 0.1x damage from Witch enemies"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Weakenb2 (100% chance to weaken by 50% for 6.0s) b1Dodgeb2 (30% chance to dodge for 2.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Barrier Breakerb2 (30% chance of breaking enemy barriers) b1Witch Killerb2 (inflicts 5x damage, takes only 0.1x damage from Witch enemies) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

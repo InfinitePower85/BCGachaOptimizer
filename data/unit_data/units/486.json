@@ -1,0 +1,90 @@
+{
+  "id": "486",
+  "name": "Calette",
+  "forms": [
+    {
+      "number": "486-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Calette",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 3000,
+      "range": 410,
+      "kb": 3,
+      "speed": 10,
+      "dps": 382,
+      "target": "Area",
+      "tba": 7.83,
+      "anim": 2.4,
+      "spawn": 61.2,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against angel, alien, zombie",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alien, zombieu2: b1Weakenb2 (100% chance to weaken by 50% for 3.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "486-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Calette CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 4000,
+      "range": 410,
+      "kb": 3,
+      "speed": 10,
+      "dps": 510,
+      "target": "Area",
+      "tba": 7.83,
+      "anim": 2.4,
+      "spawn": 61.2,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against angel, alien, zombie",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alien, zombieu2: b1Weakenb2 (100% chance to weaken by 50% for 3.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

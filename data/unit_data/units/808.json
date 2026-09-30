@@ -1,0 +1,81 @@
+{
+  "id": "808",
+  "name": "Sonic Cat",
+  "forms": [
+    {
+      "number": "808-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sonic Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 375,
+      "range": 130,
+      "kb": 2,
+      "speed": 18,
+      "dps": 185,
+      "target": "Single",
+      "tba": 2.03,
+      "anim": 0.33,
+      "spawn": 6.53,
+      "cost": 420,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "808-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sonic Cat CC",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 5,
+      "range": 120,
+      "kb": 1,
+      "speed": 8,
+      "dps": 2,
+      "target": "Single",
+      "tba": 2.23,
+      "anim": 0.27,
+      "spawn": 6.53,
+      "cost": 420,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

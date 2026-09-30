@@ -1,0 +1,124 @@
+{
+  "id": "442",
+  "name": "D'arktanyan",
+  "forms": [
+    {
+      "number": "442-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "D'arktanyan",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 2000,
+      "range": 340,
+      "kb": 5,
+      "speed": 24,
+      "dps": 496,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 1.5,
+      "spawn": 91.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 60% health"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~550"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 60% health) b1Long Distanceb2 (Effective range 200~550)\r\nu1Not affected byu2: b1Warpb2, b1Waveb2"
+    },
+    {
+      "number": "442-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Valiant D'arktanyan",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13500,
+      "damage": 2750,
+      "range": 340,
+      "kb": 5,
+      "speed": 30,
+      "dps": 742,
+      "target": "Area",
+      "tba": 3.7,
+      "anim": 1.17,
+      "spawn": 91.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 60% health"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~550"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 60% health) b1Long Distanceb2 (Effective range 200~550)\r\nu1Not affected byu2: b1Warpb2, b1Waveb2"
+    }
+  ]
+}

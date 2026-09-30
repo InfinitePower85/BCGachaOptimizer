@@ -1,0 +1,124 @@
+{
+  "id": "791",
+  "name": "Retsu Kaioh",
+  "forms": [
+    {
+      "number": "791-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Retsu Kaioh",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 2250,
+      "range": 470,
+      "kb": 4,
+      "speed": 12,
+      "dps": 478,
+      "target": "Area",
+      "tba": 4.7,
+      "anim": 1.0,
+      "spawn": 137.87,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "5% chance to inflict an attack with 2x damage to non-Metal enemies"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (50% chance to freeze for 3.0s) \nu1General Abilitiesu2: b1Savage Blowb2 (5% chance to inflict an attack with 2x damage to non-Metal enemies) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "791-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Retsu Kaioh CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 3000,
+      "range": 470,
+      "kb": 4,
+      "speed": 12,
+      "dps": 638,
+      "target": "Area",
+      "tba": 4.7,
+      "anim": 1.0,
+      "spawn": 137.87,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Savage Blow",
+              "detail": "10% chance to inflict an attack with 2x damage to non-Metal enemies"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (50% chance to freeze for 3.0s) \nu1General Abilitiesu2: b1Savage Blowb2 (10% chance to inflict an attack with 2x damage to non-Metal enemies) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

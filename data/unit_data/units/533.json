@@ -1,0 +1,145 @@
+{
+  "id": "533",
+  "name": "Urs & Fenrir",
+  "forms": [
+    {
+      "number": "533-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Urs & Fenrir",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 2750,
+      "range": 445,
+      "kb": 4,
+      "speed": 8,
+      "dps": 770,
+      "target": "Area",
+      "tba": 3.57,
+      "anim": 2.27,
+      "spawn": 164.53,
+      "cost": 4875,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "20% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (20% chance to weaken by 50% for 3.0s)\nu1Not affected byu2: b1Curseb2"
+    },
+    {
+      "number": "533-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Urs & Minka",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 2750,
+      "range": 445,
+      "kb": 4,
+      "speed": 8,
+      "dps": 770,
+      "target": "Area",
+      "tba": 3.57,
+      "anim": 2.27,
+      "spawn": 164.53,
+      "cost": 4875,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "20% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (20% chance to weaken by 50% for 3.0s)\nu1Not affected byu2: b1Curseb2"
+    },
+    {
+      "number": "533-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Awakened Urs",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 3375,
+      "range": 460,
+      "kb": 4,
+      "speed": 8,
+      "dps": 948,
+      "target": "Area",
+      "tba": 3.57,
+      "anim": 2.27,
+      "spawn": 164.53,
+      "cost": 4875,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "20% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 30% chance to dodge for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (20% chance to weaken by 50% for 3.0s)\nu1General Abilitiesu2: b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 30% chance to dodge for 1.0s)\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "394",
+  "name": "Saki Nijima",
+  "forms": [
+    {
+      "number": "394-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Saki Nijima",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 2875,
+      "range": 325,
+      "kb": 5,
+      "speed": 10,
+      "dps": 460,
+      "target": "Area",
+      "tba": 6.23,
+      "anim": 1.2,
+      "spawn": 107.87,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against black, floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.33s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, floatingu2: b1Slowb2 (100% chance to slow for 3.33s)"
+    },
+    {
+      "number": "394-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Saki Nijima CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8250,
+      "damage": 3625,
+      "range": 325,
+      "kb": 5,
+      "speed": 10,
+      "dps": 582,
+      "target": "Area",
+      "tba": 6.23,
+      "anim": 1.2,
+      "spawn": 107.87,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against black, floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.33s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, floatingu2: b1Slowb2 (100% chance to slow for 3.33s)"
+    },
+    {
+      "number": "394-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Samba Saki CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10500,
+      "damage": 4750,
+      "range": 325,
+      "kb": 5,
+      "speed": 10,
+      "dps": 862,
+      "target": "Area",
+      "tba": 5.5,
+      "anim": 1.2,
+      "spawn": 107.87,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against black, floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.33s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, floatingu2: b1Slowb2 (100% chance to slow for 3.33s)\nu1Not affected byu2: b1Slowb2"
+    }
+  ]
+}

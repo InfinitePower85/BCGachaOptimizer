@@ -1,0 +1,116 @@
+{
+  "id": "492",
+  "name": "Rei Ayanami (???)",
+  "forms": [
+    {
+      "number": "492-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rei Ayanami (???)",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 750,
+      "range": 180,
+      "kb": 2,
+      "speed": 8,
+      "dps": 190,
+      "target": "Area",
+      "tba": 3.93,
+      "anim": 1.17,
+      "spawn": 17.87,
+      "cost": 1185,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (30% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)\nu1Not affected byu2: b1Knockbackb2"
+    },
+    {
+      "number": "492-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Awakened Ayanami",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 750,
+      "range": 180,
+      "kb": 2,
+      "speed": 8,
+      "dps": 190,
+      "target": "Area",
+      "tba": 3.93,
+      "anim": 1.17,
+      "spawn": 17.87,
+      "cost": 1185,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (30% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

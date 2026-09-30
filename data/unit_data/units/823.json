@@ -1,0 +1,98 @@
+{
+  "id": "823",
+  "name": "Consultant Cat",
+  "forms": [
+    {
+      "number": "823-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Consultant Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1450,
+      "damage": 225,
+      "range": 250,
+      "kb": 3,
+      "speed": 16,
+      "dps": 82,
+      "target": "Single",
+      "tba": 2.77,
+      "anim": 0.6,
+      "spawn": 17.87,
+      "cost": 690,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            },
+            {
+              "name": "Metal Killer",
+              "detail": "Decreases 10% of target's current HP"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Slowb2 (30% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies) b1Metal Killerb2 (Decreases 10% of target's current HP)"
+    },
+    {
+      "number": "823-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Business Partner Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1800,
+      "damage": 288,
+      "range": 250,
+      "kb": 3,
+      "speed": 16,
+      "dps": 105,
+      "target": "Single",
+      "tba": 2.77,
+      "anim": 0.6,
+      "spawn": 17.87,
+      "cost": 690,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            },
+            {
+              "name": "Metal Killer",
+              "detail": "Decreases 10% of target's current HP"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Slowb2 (30% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies) b1Metal Killerb2 (Decreases 10% of target's current HP)"
+    }
+  ]
+}

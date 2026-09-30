@@ -1,0 +1,72 @@
+{
+  "id": "208",
+  "name": "Rathian",
+  "forms": [
+    {
+      "number": "208-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rathian",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4600,
+      "damage": 2100,
+      "range": 320,
+      "kb": 2,
+      "speed": 8,
+      "dps": 395,
+      "target": "Area",
+      "tba": 5.33,
+      "anim": 1.5,
+      "spawn": 111.2,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (30% chance to weaken by 50% for 5.0s)"
+    },
+    {
+      "number": "208-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Rathian & Cat",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5850,
+      "damage": 2975,
+      "range": 320,
+      "kb": 2,
+      "speed": 8,
+      "dps": 558,
+      "target": "Area",
+      "tba": 5.33,
+      "anim": 1.5,
+      "spawn": 111.2,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Weakenb2 (30% chance to weaken by 50% for 5.0s)"
+    }
+  ]
+}

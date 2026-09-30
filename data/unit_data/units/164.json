@@ -1,0 +1,52 @@
+{
+  "id": "164",
+  "name": "Saotome Hikaru",
+  "forms": [
+    {
+      "number": "164-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Saotome Hikaru",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 1875,
+      "range": 285,
+      "kb": 3,
+      "speed": 7,
+      "dps": 345,
+      "target": "Area",
+      "tba": 5.43,
+      "anim": 0.07,
+      "spawn": 34.53,
+      "cost": 1800,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "164-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hikaru & Nyanko",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 1875,
+      "range": 285,
+      "kb": 3,
+      "speed": 7,
+      "dps": 345,
+      "target": "Area",
+      "tba": 5.43,
+      "anim": 0.07,
+      "spawn": 34.53,
+      "cost": 1800,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

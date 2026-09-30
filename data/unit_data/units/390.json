@@ -1,0 +1,72 @@
+{
+  "id": "390",
+  "name": "Karin Nekozuka",
+  "forms": [
+    {
+      "number": "390-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Karin Nekozuka",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 900,
+      "damage": 162,
+      "range": 300,
+      "kb": 3,
+      "speed": 20,
+      "dps": 60,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 0.47,
+      "spawn": 13.2,
+      "cost": 495,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "390-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Karin Nekozuka CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 900,
+      "damage": 162,
+      "range": 300,
+      "kb": 3,
+      "speed": 20,
+      "dps": 60,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 0.47,
+      "spawn": 13.2,
+      "cost": 495,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "578",
+  "name": "Balrog Cat (Collab)",
+  "forms": [
+    {
+      "number": "578-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Balrog Cat (Collab)",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1425,
+      "damage": 500,
+      "range": 300,
+      "kb": 3,
+      "speed": 9,
+      "dps": 198,
+      "target": "Single",
+      "tba": 2.53,
+      "anim": 0.23,
+      "spawn": 7.87,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "578-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Balrog Cat CC",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1425,
+      "damage": 500,
+      "range": 300,
+      "kb": 3,
+      "speed": 9,
+      "dps": 198,
+      "target": "Single",
+      "tba": 2.53,
+      "anim": 0.23,
+      "spawn": 7.87,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

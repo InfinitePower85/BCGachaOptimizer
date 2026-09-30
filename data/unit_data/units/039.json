@@ -1,0 +1,105 @@
+{
+  "id": "039",
+  "name": "Wheel Cat",
+  "forms": [
+    {
+      "number": "039-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Wheel Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 550,
+      "range": 170,
+      "kb": 2,
+      "speed": 9,
+      "dps": 242,
+      "target": "Area",
+      "tba": 2.27,
+      "anim": 0.97,
+      "spawn": 11.2,
+      "cost": 1050,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "039-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Solar Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 800,
+      "range": 170,
+      "kb": 2,
+      "speed": 9,
+      "dps": 352,
+      "target": "Area",
+      "tba": 2.27,
+      "anim": 0.97,
+      "spawn": 11.2,
+      "cost": 1050,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "039-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Chill Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 1050,
+      "range": 200,
+      "kb": 2,
+      "speed": 9,
+      "dps": 462,
+      "target": "Area",
+      "tba": 2.27,
+      "anim": 0.97,
+      "spawn": 4.53,
+      "cost": 1050,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

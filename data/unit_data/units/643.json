@@ -1,0 +1,171 @@
+{
+  "id": "643",
+  "name": "Lucifer the Fallen",
+  "forms": [
+    {
+      "number": "643-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Lucifer the Fallen",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4625,
+      "damage": 2950,
+      "range": 550,
+      "kb": 3,
+      "speed": 7,
+      "dps": 415,
+      "target": "Area",
+      "tba": 7.1,
+      "anim": 2.67,
+      "spawn": 117.87,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against floating, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 400~700"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "50% chance to perform Surge Attacks for 1s (Range: 250~650)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 400~700) b1Surge Attacksb2 (50% chance to perform Surge Attacks for 1s (Range: 250~650))\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "643-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Grand Lucifer",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5625,
+      "damage": 3700,
+      "range": 550,
+      "kb": 3,
+      "speed": 7,
+      "dps": 520,
+      "target": "Area",
+      "tba": 7.1,
+      "anim": 2.67,
+      "spawn": 117.87,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against floating, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 400~700"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "50% chance to perform Surge Attacks for 1s (Range: 250~650)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 400~700) b1Surge Attacksb2 (50% chance to perform Surge Attacks for 1s (Range: 250~650))\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "643-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Almighty Lucifer",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6125,
+      "damage": 3700,
+      "range": 550,
+      "kb": 3,
+      "speed": 7,
+      "dps": 520,
+      "target": "Area",
+      "tba": 7.1,
+      "anim": 2.67,
+      "spawn": 117.87,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against floating, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 400~700"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 1s (Range: 250~650)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 400~700) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 1s (Range: 250~650))\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

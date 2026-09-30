@@ -1,0 +1,108 @@
+{
+  "id": "519",
+  "name": "Akuma Giraffe",
+  "forms": [
+    {
+      "number": "519-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Akuma Giraffe",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 125,
+      "range": 300,
+      "kb": 5,
+      "speed": 35,
+      "dps": 80,
+      "target": "Area",
+      "tba": 1.57,
+      "anim": 1.17,
+      "spawn": 17.2,
+      "cost": 840,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~400"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~400)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "519-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Akuma Lion",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 125,
+      "range": 300,
+      "kb": 5,
+      "speed": 35,
+      "dps": 80,
+      "target": "Area",
+      "tba": 1.57,
+      "anim": 1.17,
+      "spawn": 17.2,
+      "cost": 840,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~400"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~400)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

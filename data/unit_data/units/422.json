@@ -1,0 +1,72 @@
+{
+  "id": "422",
+  "name": "Coco",
+  "forms": [
+    {
+      "number": "422-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Coco",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1050,
+      "damage": 125,
+      "range": 300,
+      "kb": 3,
+      "speed": 8,
+      "dps": 38,
+      "target": "Single",
+      "tba": 3.23,
+      "anim": 1.67,
+      "spawn": 11.2,
+      "cost": 555,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "422-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Coco CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1050,
+      "damage": 125,
+      "range": 300,
+      "kb": 3,
+      "speed": 8,
+      "dps": 38,
+      "target": "Single",
+      "tba": 3.23,
+      "anim": 1.67,
+      "spawn": 11.2,
+      "cost": 555,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s)"
+    }
+  ]
+}

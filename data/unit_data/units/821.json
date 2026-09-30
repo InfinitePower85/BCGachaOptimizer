@@ -1,0 +1,116 @@
+{
+  "id": "821",
+  "name": "Seaside Pegasa",
+  "forms": [
+    {
+      "number": "821-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Seaside Pegasa",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 2500,
+      "range": 460,
+      "kb": 5,
+      "speed": 9,
+      "dps": 472,
+      "target": "Area",
+      "tba": 5.3,
+      "anim": 1.53,
+      "spawn": 144.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against white, black",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 3.33s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "Performs a 20% damage Lv.2 Shockwave attack (Range: 532)"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 821"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, blacku2: b1Weakenb2 (100% chance to weaken by 50% for 3.33s) \nu1General Abilitiesu2: b1Mini-Waveb2 (Performs a 20% damage Lv.2 Shockwave attack (Range: 532)) b1Conjureb2 (Allows summon of a spirit: Unit number 821)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "821-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Seaside Pegasa v",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 3375,
+      "range": 460,
+      "kb": 5,
+      "speed": 9,
+      "dps": 638,
+      "target": "Area",
+      "tba": 5.3,
+      "anim": 1.53,
+      "spawn": 144.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against white, black",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 3.33s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Mini-Wave",
+              "detail": "Performs a 20% damage Lv.3 Shockwave attack (Range: 732)"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 821"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, blacku2: b1Weakenb2 (100% chance to weaken by 50% for 3.33s) \nu1General Abilitiesu2: b1Mini-Waveb2 (Performs a 20% damage Lv.3 Shockwave attack (Range: 732)) b1Conjureb2 (Allows summon of a spirit: Unit number 821)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

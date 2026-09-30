@@ -1,0 +1,52 @@
+{
+  "id": "281",
+  "name": "Fortressy",
+  "forms": [
+    {
+      "number": "281-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Fortressy",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 25,
+      "range": 130,
+      "kb": 1,
+      "speed": 7,
+      "dps": 5,
+      "target": "Single",
+      "tba": 4.2,
+      "anim": 1.73,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "281-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Castley",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 25,
+      "range": 130,
+      "kb": 1,
+      "speed": 7,
+      "dps": 5,
+      "target": "Single",
+      "tba": 4.2,
+      "anim": 1.73,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

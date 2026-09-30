@@ -1,0 +1,105 @@
+{
+  "id": "496",
+  "name": "Matador Cat",
+  "forms": [
+    {
+      "number": "496-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Matador Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1685,
+      "damage": 350,
+      "range": 190,
+      "kb": 3,
+      "speed": 14,
+      "dps": 122,
+      "target": "Single",
+      "tba": 2.87,
+      "anim": 0.27,
+      "spawn": 3.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Dodgeb2 (30% chance to dodge for 2s)"
+    },
+    {
+      "number": "496-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Flamenco Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 475,
+      "range": 190,
+      "kb": 3,
+      "speed": 14,
+      "dps": 166,
+      "target": "Single",
+      "tba": 2.87,
+      "anim": 0.27,
+      "spawn": 3.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Dodgeb2 (30% chance to dodge for 2s)"
+    },
+    {
+      "number": "496-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Bellydance Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 475,
+      "range": 190,
+      "kb": 3,
+      "speed": 18,
+      "dps": 165,
+      "target": "Single",
+      "tba": 2.87,
+      "anim": 1.13,
+      "spawn": 3.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Dodgeb2 (30% chance to dodge for 2s)"
+    }
+  ]
+}

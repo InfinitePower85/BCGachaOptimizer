@@ -1,0 +1,144 @@
+{
+  "id": "739",
+  "name": "Izanami of Dusk",
+  "forms": [
+    {
+      "number": "739-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Izanami of Dusk",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12500,
+      "damage": 4125,
+      "range": 400,
+      "kb": 3,
+      "speed": 10,
+      "dps": 658,
+      "target": "Area",
+      "tba": 6.27,
+      "anim": 1.83,
+      "spawn": 124.53,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~401, 400~625, 625~850"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a Spirit (Izanami)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Insane Damageb2 (inflicts 5.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~401, 400~625, 625~850) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Conjureb2 (Allows summon of a Spirit (Izanami))\nu1Not affected byu2: b1Freezeb2, b1Curseb2, b1Surgeb2"
+    },
+    {
+      "number": "739-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Izanami of Eventide",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 17250,
+      "damage": 5250,
+      "range": 400,
+      "kb": 3,
+      "speed": 10,
+      "dps": 838,
+      "target": "Area",
+      "tba": 6.27,
+      "anim": 1.83,
+      "spawn": 124.53,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~401, 400~625, 625~850"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "20% chance to inflict an attack with 2x damage to non-Metal enemies"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a Spirit (Izanami)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Insane Damageb2 (inflicts 5.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~401, 400~625, 625~850) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Savage Blowb2 (20% chance to inflict an attack with 2x damage to non-Metal enemies) b1Conjureb2 (Allows summon of a Spirit (Izanami))\nu1Not affected byu2: b1Freezeb2, b1Curseb2, b1Surgeb2"
+    }
+  ]
+}

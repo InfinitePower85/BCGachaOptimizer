@@ -1,0 +1,90 @@
+{
+  "id": "680",
+  "name": "Chika Amatori & Cat",
+  "forms": [
+    {
+      "number": "680-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Chika Amatori & Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1200,
+      "damage": 300,
+      "range": 450,
+      "kb": 3,
+      "speed": 6,
+      "dps": 50,
+      "target": "Area",
+      "tba": 5.97,
+      "anim": 2.13,
+      "spawn": 27.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~550"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~550)"
+    },
+    {
+      "number": "680-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Chika Amatori & Cat CC",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1200,
+      "damage": 300,
+      "range": 450,
+      "kb": 3,
+      "speed": 6,
+      "dps": 50,
+      "target": "Area",
+      "tba": 5.97,
+      "anim": 2.13,
+      "spawn": 27.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~550"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~550)"
+    }
+  ]
+}

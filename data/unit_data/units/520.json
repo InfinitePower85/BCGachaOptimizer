@@ -1,0 +1,236 @@
+{
+  "id": "520",
+  "name": "Lasvoss",
+  "forms": [
+    {
+      "number": "520-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Lasvoss",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 15000,
+      "range": 320,
+      "kb": 2,
+      "speed": 8,
+      "dps": 900,
+      "target": "Area",
+      "tba": 16.67,
+      "anim": 2.57,
+      "spawn": 71.2,
+      "cost": 5400,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 1% health"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "30% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 1% health) b1Surviveb2 (100% chance to survive a lethal strike) b1Savage Blowb2 (30% chance to inflict an attack with 2x damage to non-Metal enemies)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Curseb2, b1Warpb2, b1Waveb2"
+    },
+    {
+      "number": "520-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ultimate Lasvoss",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 15000,
+      "range": 320,
+      "kb": 2,
+      "speed": 8,
+      "dps": 900,
+      "target": "Area",
+      "tba": 16.67,
+      "anim": 2.57,
+      "spawn": 71.2,
+      "cost": 5400,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 1% health"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "30% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 1% health) b1Surviveb2 (100% chance to survive a lethal strike) b1Savage Blowb2 (30% chance to inflict an attack with 2x damage to non-Metal enemies)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Curseb2, b1Warpb2, b1Waveb2"
+    },
+    {
+      "number": "520-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Lasvoss Reborn",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 22500,
+      "range": 320,
+      "kb": 2,
+      "speed": 8,
+      "dps": 1350,
+      "target": "Area",
+      "tba": 16.67,
+      "anim": 2.57,
+      "spawn": 71.2,
+      "cost": 5400,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 30% health"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "30% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Toxic",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 30% health) b1Surviveb2 (100% chance to survive a lethal strike) b1Savage Blowb2 (30% chance to inflict an attack with 2x damage to non-Metal enemies)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Curseb2, b1Warpb2, b1Waveb2, b1Toxicb2, b1Surgeb2"
+    }
+  ]
+}

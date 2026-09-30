@@ -1,0 +1,72 @@
+{
+  "id": "375",
+  "name": "Li'l Sakura",
+  "forms": [
+    {
+      "number": "375-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Li'l Sakura",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 250,
+      "range": 190,
+      "kb": 4,
+      "speed": 8,
+      "dps": 58,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 1.47,
+      "spawn": 24.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "10% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (10% chance of a critical hit)"
+    },
+    {
+      "number": "375-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Li'l Sakura CC",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 250,
+      "range": 190,
+      "kb": 4,
+      "speed": 8,
+      "dps": 58,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 1.47,
+      "spawn": 24.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "10% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (10% chance of a critical hit)"
+    }
+  ]
+}

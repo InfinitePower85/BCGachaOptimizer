@@ -1,0 +1,72 @@
+{
+  "id": "185",
+  "name": "Mr. Ninja",
+  "forms": [
+    {
+      "number": "185-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mr. Ninja",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 875,
+      "damage": 150,
+      "range": 440,
+      "kb": 2,
+      "speed": 28,
+      "dps": 30,
+      "target": "Area",
+      "tba": 4.97,
+      "anim": 0.33,
+      "spawn": 34.53,
+      "cost": 990,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "185-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mint",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 875,
+      "damage": 150,
+      "range": 440,
+      "kb": 2,
+      "speed": 28,
+      "dps": 30,
+      "target": "Area",
+      "tba": 4.97,
+      "anim": 0.33,
+      "spawn": 34.53,
+      "cost": 990,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

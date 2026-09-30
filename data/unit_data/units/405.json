@@ -1,0 +1,72 @@
+{
+  "id": "405",
+  "name": "Giraffe Unit-01",
+  "forms": [
+    {
+      "number": "405-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Giraffe Unit-01",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 32,
+      "range": 150,
+      "kb": 5,
+      "speed": 33,
+      "dps": 98,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 2.0,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "50% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surviveb2 (50% chance to survive a lethal strike)"
+    },
+    {
+      "number": "405-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Giraffe Unit-02",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 32,
+      "range": 150,
+      "kb": 5,
+      "speed": 33,
+      "dps": 98,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 2.0,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "50% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surviveb2 (50% chance to survive a lethal strike)"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "395",
+  "name": "Subaru Hoshi",
+  "forms": [
+    {
+      "number": "395-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Subaru Hoshi",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 2250,
+      "range": 400,
+      "kb": 4,
+      "speed": 21,
+      "dps": 375,
+      "target": "Area",
+      "tba": 6.0,
+      "anim": 1.03,
+      "spawn": 124.53,
+      "cost": 4140,
+      "abilities": [
+        {
+          "group": "Against red, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~600"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~600)"
+    },
+    {
+      "number": "395-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Subaru Hoshi CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 3000,
+      "range": 400,
+      "kb": 4,
+      "speed": 21,
+      "dps": 500,
+      "target": "Area",
+      "tba": 6.0,
+      "anim": 1.03,
+      "spawn": 124.53,
+      "cost": 4140,
+      "abilities": [
+        {
+          "group": "Against red, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~600"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~600)"
+    },
+    {
+      "number": "395-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Dark Subaru CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7000,
+      "damage": 4500,
+      "range": 425,
+      "kb": 4,
+      "speed": 21,
+      "dps": 675,
+      "target": "Area",
+      "tba": 6.67,
+      "anim": 1.7,
+      "spawn": 124.53,
+      "cost": 4140,
+      "abilities": [
+        {
+          "group": "Against red, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~625"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~625)"
+    }
+  ]
+}

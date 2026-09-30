@@ -1,0 +1,144 @@
+{
+  "id": "336",
+  "name": "Sea Maiden Ruri",
+  "forms": [
+    {
+      "number": "336-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sea Maiden Ruri",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8750,
+      "damage": 6250,
+      "range": 380,
+      "kb": 2,
+      "speed": 8,
+      "dps": 942,
+      "target": "Single",
+      "tba": 6.63,
+      "anim": 1.67,
+      "spawn": 97.87,
+      "cost": 4260,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (100% chance to weaken by 50% for 5.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "336-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sea Mistress Ruri",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12500,
+      "damage": 8750,
+      "range": 380,
+      "kb": 2,
+      "speed": 8,
+      "dps": 1320,
+      "target": "Single",
+      "tba": 6.63,
+      "anim": 1.67,
+      "spawn": 97.87,
+      "cost": 4260,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (100% chance to weaken by 50% for 5.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "336-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Mer-Queen Ruri",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 18750,
+      "damage": 11250,
+      "range": 380,
+      "kb": 2,
+      "speed": 8,
+      "dps": 1695,
+      "target": "Single",
+      "tba": 6.63,
+      "anim": 1.67,
+      "spawn": 97.87,
+      "cost": 4260,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (100% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

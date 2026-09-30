@@ -1,0 +1,105 @@
+{
+  "id": "252",
+  "name": "Ashura",
+  "forms": [
+    {
+      "number": "252-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ashura",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 625,
+      "range": 175,
+      "kb": 2,
+      "speed": 7,
+      "dps": 250,
+      "target": "Single",
+      "tba": 2.5,
+      "anim": 0.53,
+      "spawn": 6.2,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "20% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (20% chance of knockback)"
+    },
+    {
+      "number": "252-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Warrior Ashura",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 625,
+      "range": 175,
+      "kb": 2,
+      "speed": 7,
+      "dps": 250,
+      "target": "Single",
+      "tba": 2.5,
+      "anim": 0.53,
+      "spawn": 6.2,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "20% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (20% chance of knockback)"
+    },
+    {
+      "number": "252-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Sengoku Ashura",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 625,
+      "range": 175,
+      "kb": 2,
+      "speed": 7,
+      "dps": 250,
+      "target": "Single",
+      "tba": 2.5,
+      "anim": 0.53,
+      "spawn": 6.2,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "25% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (25% chance of knockback)"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "540",
+  "name": "Rugby Cat",
+  "forms": [
+    {
+      "number": "540-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rugby Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 382,
+      "range": 325,
+      "kb": 3,
+      "speed": 18,
+      "dps": 112,
+      "target": "Area",
+      "tba": 3.43,
+      "anim": 0.57,
+      "spawn": 15.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 225~475"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 225~475)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "540-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Quarterback Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 510,
+      "range": 325,
+      "kb": 3,
+      "speed": 18,
+      "dps": 148,
+      "target": "Area",
+      "tba": 3.43,
+      "anim": 0.57,
+      "spawn": 15.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 225~475"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 225~475)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "540-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Gridiron Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 638,
+      "range": 325,
+      "kb": 3,
+      "speed": 18,
+      "dps": 185,
+      "target": "Area",
+      "tba": 3.43,
+      "anim": 0.57,
+      "spawn": 15.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against black, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 225~475"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 225~475)\nu1Not affected byu2: b1Waveb2, b1Surgeb2"
+    }
+  ]
+}

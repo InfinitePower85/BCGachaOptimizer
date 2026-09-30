@@ -1,0 +1,144 @@
+{
+  "id": "287",
+  "name": "Strike Unit R.E.I.",
+  "forms": [
+    {
+      "number": "287-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Strike Unit R.E.I.",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 5000,
+      "range": 400,
+      "kb": 5,
+      "speed": 24,
+      "dps": 715,
+      "target": "Area",
+      "tba": 7.0,
+      "anim": 2.37,
+      "spawn": 91.2,
+      "cost": 4110,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "287-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Assault Unit R.E.I.",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 5000,
+      "range": 400,
+      "kb": 5,
+      "speed": 24,
+      "dps": 715,
+      "target": "Area",
+      "tba": 7.0,
+      "anim": 2.37,
+      "spawn": 91.2,
+      "cost": 4110,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "287-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Flight Unit R.E.I.",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 5000,
+      "range": 400,
+      "kb": 5,
+      "speed": 24,
+      "dps": 892,
+      "target": "Area",
+      "tba": 5.6,
+      "anim": 2.37,
+      "spawn": 91.2,
+      "cost": 4110,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Insanely Tough",
+              "detail": "only takes 0.17x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Insanely Toughb2 (only takes 0.17x damage) b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Slowb2"
+    }
+  ]
+}

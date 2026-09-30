@@ -1,0 +1,80 @@
+{
+  "id": "191",
+  "name": "Citrouille",
+  "forms": [
+    {
+      "number": "191-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Citrouille",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 800,
+      "damage": 375,
+      "range": 360,
+      "kb": 2,
+      "speed": 10,
+      "dps": 58,
+      "target": "Area",
+      "tba": 6.47,
+      "anim": 1.17,
+      "spawn": 15.87,
+      "cost": 810,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 3.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Slowb2 (30% chance to slow for 3.0s) b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "191-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Citrouille CC",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1175,
+      "damage": 500,
+      "range": 360,
+      "kb": 2,
+      "speed": 10,
+      "dps": 78,
+      "target": "Area",
+      "tba": 6.47,
+      "anim": 1.17,
+      "spawn": 15.87,
+      "cost": 810,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 3.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Slowb2 (30% chance to slow for 3.0s) b1Knockbackb2 (30% chance of knockback)"
+    }
+  ]
+}

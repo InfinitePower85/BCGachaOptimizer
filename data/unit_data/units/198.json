@@ -1,0 +1,105 @@
+{
+  "id": "198",
+  "name": "Psychocat",
+  "forms": [
+    {
+      "number": "198-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Psychocat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 950,
+      "damage": 125,
+      "range": 365,
+      "kb": 3,
+      "speed": 6,
+      "dps": 35,
+      "target": "Single",
+      "tba": 3.5,
+      "anim": 2.2,
+      "spawn": 7.87,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Slowb2 (50% chance to slow for 4.0s)"
+    },
+    {
+      "number": "198-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Neo Psychocat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1100,
+      "damage": 150,
+      "range": 365,
+      "kb": 3,
+      "speed": 6,
+      "dps": 42,
+      "target": "Single",
+      "tba": 3.5,
+      "anim": 2.2,
+      "spawn": 7.87,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Slowb2 (50% chance to slow for 4.0s)"
+    },
+    {
+      "number": "198-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Corrupted Psychocat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1400,
+      "damage": 150,
+      "range": 365,
+      "kb": 3,
+      "speed": 12,
+      "dps": 62,
+      "target": "Single",
+      "tba": 2.37,
+      "anim": 1.4,
+      "spawn": 7.87,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Slowb2 (50% chance to slow for 4.0s)"
+    }
+  ]
+}

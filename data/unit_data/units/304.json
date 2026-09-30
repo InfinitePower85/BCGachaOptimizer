@@ -1,0 +1,122 @@
+{
+  "id": "304",
+  "name": "Food Stall Cat",
+  "forms": [
+    {
+      "number": "304-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Food Stall Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1388,
+      "damage": 500,
+      "range": 200,
+      "kb": 4,
+      "speed": 21,
+      "dps": 180,
+      "target": "Single",
+      "tba": 2.77,
+      "anim": 0.4,
+      "spawn": 5.87,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "304-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Delivery Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1388,
+      "damage": 500,
+      "range": 200,
+      "kb": 4,
+      "speed": 21,
+      "dps": 180,
+      "target": "Single",
+      "tba": 2.77,
+      "anim": 0.4,
+      "spawn": 5.87,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "304-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Cafeteria Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 1550,
+      "range": 220,
+      "kb": 4,
+      "speed": 25,
+      "dps": 560,
+      "target": "Single",
+      "tba": 2.77,
+      "anim": 0.4,
+      "spawn": 5.87,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Curse",
+              "detail": "50% chance to curse for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": []
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Curseb2 (50% chance to curse for 3.0s) \nu1General Abilitiesu2:\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

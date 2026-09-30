@@ -1,0 +1,109 @@
+{
+  "id": "240",
+  "name": "Sniper the Recruit",
+  "forms": [
+    {
+      "number": "240-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sniper the Recruit",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 25,
+      "range": 1000,
+      "kb": 1,
+      "speed": 2,
+      "dps": 2,
+      "target": "Single",
+      "tba": 10.7,
+      "anim": 0.73,
+      "spawn": 157.87,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "240-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sniper the Heavy",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 312,
+      "damage": 50,
+      "range": 1000,
+      "kb": 1,
+      "speed": 2,
+      "dps": 5,
+      "target": "Single",
+      "tba": 10.7,
+      "anim": 0.73,
+      "spawn": 157.87,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (100% chance of knockback)"
+    },
+    {
+      "number": "240-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Sniper the Deadeye",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 312,
+      "damage": 50,
+      "range": 1200,
+      "kb": 1,
+      "speed": 2,
+      "dps": 8,
+      "target": "Single",
+      "tba": 7.37,
+      "anim": 0.73,
+      "spawn": 157.87,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (100% chance of knockback) b1Slowb2 (100% chance to slow for 3.0s)"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "310",
+  "name": "Neko Hakase",
+  "forms": [
+    {
+      "number": "310-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Neko Hakase",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1425,
+      "damage": 225,
+      "range": 160,
+      "kb": 3,
+      "speed": 14,
+      "dps": 135,
+      "target": "Single",
+      "tba": 1.67,
+      "anim": 0.37,
+      "spawn": 7.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "2% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (2% chance of a critical hit)"
+    },
+    {
+      "number": "310-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Neko Hakase and Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1425,
+      "damage": 225,
+      "range": 160,
+      "kb": 3,
+      "speed": 14,
+      "dps": 135,
+      "target": "Single",
+      "tba": 1.67,
+      "anim": 0.37,
+      "spawn": 7.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "2% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (2% chance of a critical hit)"
+    }
+  ]
+}

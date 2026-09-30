@@ -1,0 +1,132 @@
+{
+  "id": "363",
+  "name": "Saber",
+  "forms": [
+    {
+      "number": "363-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Saber",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 1125,
+      "range": 325,
+      "kb": 6,
+      "speed": 36,
+      "dps": 482,
+      "target": "Area",
+      "tba": 2.33,
+      "anim": 0.5,
+      "spawn": 71.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 150~475"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 150~475)"
+    },
+    {
+      "number": "363-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Saber CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 1500,
+      "range": 325,
+      "kb": 6,
+      "speed": 36,
+      "dps": 642,
+      "target": "Area",
+      "tba": 2.33,
+      "anim": 0.5,
+      "spawn": 71.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 150~475"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 150~475)"
+    },
+    {
+      "number": "363-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Saber Alter CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 1875,
+      "range": 350,
+      "kb": 6,
+      "speed": 36,
+      "dps": 815,
+      "target": "Area",
+      "tba": 2.3,
+      "anim": 0.5,
+      "spawn": 71.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 150~500"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 150~500)"
+    }
+  ]
+}

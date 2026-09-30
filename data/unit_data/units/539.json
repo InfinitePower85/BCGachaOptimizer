@@ -1,0 +1,72 @@
+{
+  "id": "539",
+  "name": "Miku Cat",
+  "forms": [
+    {
+      "number": "539-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Miku Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 375,
+      "range": 140,
+      "kb": 3,
+      "speed": 12,
+      "dps": 102,
+      "target": "Single",
+      "tba": 3.7,
+      "anim": 0.73,
+      "spawn": 5.2,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Dodgeb2 (30% chance to dodge for 2.0s)"
+    },
+    {
+      "number": "539-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Miku Cat CC",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 375,
+      "range": 140,
+      "kb": 3,
+      "speed": 12,
+      "dps": 102,
+      "target": "Single",
+      "tba": 3.7,
+      "anim": 0.73,
+      "spawn": 5.2,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Dodgeb2 (30% chance to dodge for 2.0s)"
+    }
+  ]
+}

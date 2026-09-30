@@ -1,0 +1,147 @@
+{
+  "id": "074",
+  "name": "Oda Nobunaga",
+  "forms": [
+    {
+      "number": "074-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Oda Nobunaga",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2375,
+      "damage": 1125,
+      "range": 410,
+      "kb": 1,
+      "speed": 7,
+      "dps": 305,
+      "target": "Area",
+      "tba": 3.7,
+      "anim": 2.73,
+      "spawn": 87.87,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 6.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (100% chance to freeze for 6.0s)"
+    },
+    {
+      "number": "074-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wargod Nobunaga",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4750,
+      "damage": 2250,
+      "range": 410,
+      "kb": 1,
+      "speed": 7,
+      "dps": 608,
+      "target": "Area",
+      "tba": 3.7,
+      "anim": 2.73,
+      "spawn": 87.87,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 6.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (100% chance to freeze for 6.0s)"
+    },
+    {
+      "number": "074-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Immortal Nobunaga",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9500,
+      "damage": 3000,
+      "range": 410,
+      "kb": 1,
+      "speed": 7,
+      "dps": 810,
+      "target": "Area",
+      "tba": 3.7,
+      "anim": 2.73,
+      "spawn": 87.87,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 8.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (100% chance to freeze for 8.0s)"
+    },
+    {
+      "number": "074-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "Phantasmal Nobunaga",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13750,
+      "damage": 3000,
+      "range": 410,
+      "kb": 2,
+      "speed": 7,
+      "dps": 810,
+      "target": "Area",
+      "tba": 3.7,
+      "anim": 2.73,
+      "spawn": 87.87,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against black, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 8.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Counter Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, akuu2: b1Freezeb2 (100% chance to freeze for 8.0s)\nu1General Abilitiesu2: b1Counter Surgeb2"
+    }
+  ]
+}

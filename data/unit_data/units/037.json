@@ -1,0 +1,105 @@
+{
+  "id": "037",
+  "name": "Swimmer Cat",
+  "forms": [
+    {
+      "number": "037-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Swimmer Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1875,
+      "damage": 1100,
+      "range": 185,
+      "kb": 4,
+      "speed": 25,
+      "dps": 272,
+      "target": "Single",
+      "tba": 4.03,
+      "anim": 0.7,
+      "spawn": 9.87,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "037-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Butterfly Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2625,
+      "damage": 1850,
+      "range": 185,
+      "kb": 4,
+      "speed": 25,
+      "dps": 458,
+      "target": "Single",
+      "tba": 4.03,
+      "anim": 0.7,
+      "spawn": 9.87,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "037-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Fishman Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 2225,
+      "range": 215,
+      "kb": 4,
+      "speed": 36,
+      "dps": 552,
+      "target": "Single",
+      "tba": 4.03,
+      "anim": 0.7,
+      "spawn": 9.87,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

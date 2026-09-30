@@ -1,0 +1,105 @@
+{
+  "id": "078",
+  "name": "Droid Cat",
+  "forms": [
+    {
+      "number": "078-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Droid Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1258,
+      "damage": 150,
+      "range": 110,
+      "kb": 2,
+      "speed": 5,
+      "dps": 18,
+      "target": "Area",
+      "tba": 8.37,
+      "anim": 0.27,
+      "spawn": 21.2,
+      "cost": 150,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "078-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Droid Cat Mk 2",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1258,
+      "damage": 150,
+      "range": 110,
+      "kb": 2,
+      "speed": 5,
+      "dps": 18,
+      "target": "Area",
+      "tba": 8.37,
+      "anim": 0.27,
+      "spawn": 21.2,
+      "cost": 150,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "078-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "SpringDroid",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1258,
+      "damage": 150,
+      "range": 110,
+      "kb": 2,
+      "speed": 5,
+      "dps": 18,
+      "target": "Area",
+      "tba": 8.37,
+      "anim": 0.27,
+      "spawn": 11.2,
+      "cost": 150,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

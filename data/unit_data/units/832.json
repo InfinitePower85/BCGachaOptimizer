@@ -1,0 +1,72 @@
+{
+  "id": "832",
+  "name": "Scarf Cat",
+  "forms": [
+    {
+      "number": "832-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Scarf Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2125,
+      "damage": 175,
+      "range": 295,
+      "kb": 2,
+      "speed": 19,
+      "dps": 220,
+      "target": "Area",
+      "tba": 0.8,
+      "anim": 0.4,
+      "spawn": 23.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "832-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Red Nyanko Ranger",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2375,
+      "damage": 208,
+      "range": 295,
+      "kb": 2,
+      "speed": 19,
+      "dps": 260,
+      "target": "Area",
+      "tba": 0.8,
+      "anim": 0.4,
+      "spawn": 23.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

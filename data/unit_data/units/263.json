@@ -1,0 +1,72 @@
+{
+  "id": "263",
+  "name": "Nyamusu",
+  "forms": [
+    {
+      "number": "263-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nyamusu",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1300,
+      "damage": 600,
+      "range": 300,
+      "kb": 3,
+      "speed": 8,
+      "dps": 120,
+      "target": "Area",
+      "tba": 4.97,
+      "anim": 1.67,
+      "spawn": 11.2,
+      "cost": 840,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (30% chance to freeze for 3.0s)"
+    },
+    {
+      "number": "263-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Neko Nyamusu",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 800,
+      "range": 300,
+      "kb": 3,
+      "speed": 8,
+      "dps": 160,
+      "target": "Area",
+      "tba": 4.97,
+      "anim": 1.67,
+      "spawn": 11.2,
+      "cost": 840,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Freezeb2 (30% chance to freeze for 3.0s)"
+    }
+  ]
+}

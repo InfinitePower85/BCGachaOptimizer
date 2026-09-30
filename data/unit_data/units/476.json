@@ -1,0 +1,72 @@
+{
+  "id": "476",
+  "name": "Wakamiko Cat",
+  "forms": [
+    {
+      "number": "476-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Wakamiko Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3200,
+      "damage": 925,
+      "range": 250,
+      "kb": 3,
+      "speed": 8,
+      "dps": 338,
+      "target": "Area",
+      "tba": 2.73,
+      "anim": 0.57,
+      "spawn": 24.2,
+      "cost": 1230,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "476-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Warrior King Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3200,
+      "damage": 925,
+      "range": 250,
+      "kb": 3,
+      "speed": 8,
+      "dps": 338,
+      "target": "Area",
+      "tba": 2.73,
+      "anim": 0.57,
+      "spawn": 24.2,
+      "cost": 1230,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

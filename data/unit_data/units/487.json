@@ -1,0 +1,72 @@
+{
+  "id": "487",
+  "name": "Hina",
+  "forms": [
+    {
+      "number": "487-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hina",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2925,
+      "damage": 250,
+      "range": 275,
+      "kb": 3,
+      "speed": 10,
+      "dps": 42,
+      "target": "Single",
+      "tba": 5.97,
+      "anim": 1.07,
+      "spawn": 31.2,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.5 Shockwave attack (Range: 1132.5)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.5 Shockwave attack (Range: 1132.5))"
+    },
+    {
+      "number": "487-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Swordswoman Hina",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3900,
+      "damage": 312,
+      "range": 275,
+      "kb": 3,
+      "speed": 10,
+      "dps": 52,
+      "target": "Single",
+      "tba": 5.97,
+      "anim": 1.07,
+      "spawn": 31.2,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.5 Shockwave attack (Range: 1132.5)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.5 Shockwave attack (Range: 1132.5))"
+    }
+  ]
+}

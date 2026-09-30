@@ -1,0 +1,179 @@
+{
+  "id": "661",
+  "name": "Sea Serpent Daliasan",
+  "forms": [
+    {
+      "number": "661-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sea Serpent Daliasan",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8250,
+      "damage": 4000,
+      "range": 510,
+      "kb": 7,
+      "speed": 5,
+      "dps": 522,
+      "target": "Area",
+      "tba": 7.67,
+      "anim": 2.23,
+      "spawn": 151.2,
+      "cost": 6000,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 310~710"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Slowb2 (100% chance to slow for 3.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 310~710) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Knockbackb2"
+    },
+    {
+      "number": "661-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sea King Daliasan",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 5000,
+      "range": 510,
+      "kb": 7,
+      "speed": 5,
+      "dps": 652,
+      "target": "Area",
+      "tba": 7.67,
+      "anim": 2.23,
+      "spawn": 151.2,
+      "cost": 6000,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 310~710"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "20% chance to inflict an attack with 2x damage to non-Metal enemies"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Slowb2 (100% chance to slow for 4.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 310~710) b1Savage Blowb2 (20% chance to inflict an attack with 2x damage to non-Metal enemies) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Knockbackb2"
+    },
+    {
+      "number": "661-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "God-Emperor Daliasan",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 5000,
+      "range": 510,
+      "kb": 7,
+      "speed": 8,
+      "dps": 652,
+      "target": "Area",
+      "tba": 7.67,
+      "anim": 2.23,
+      "spawn": 151.2,
+      "cost": 6000,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 310~710"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "30% chance to inflict an attack with 2x damage to non-Metal enemies"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Slowb2 (100% chance to slow for 4.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 310~710) b1Savage Blowb2 (30% chance to inflict an attack with 2x damage to non-Metal enemies) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

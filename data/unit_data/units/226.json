@@ -1,0 +1,117 @@
+{
+  "id": "226",
+  "name": "HI-DO",
+  "forms": [
+    {
+      "number": "226-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "HI-DO",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8475,
+      "damage": 3485,
+      "range": 420,
+      "kb": 3,
+      "speed": 14,
+      "dps": 608,
+      "target": "Area",
+      "tba": 5.73,
+      "anim": 1.1,
+      "spawn": 154.53,
+      "cost": 5775,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "226-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "HI-DO CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10625,
+      "damage": 4352,
+      "range": 420,
+      "kb": 3,
+      "speed": 14,
+      "dps": 760,
+      "target": "Area",
+      "tba": 5.73,
+      "anim": 1.1,
+      "spawn": 154.53,
+      "cost": 5775,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "226-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "HI-DO MK III",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12375,
+      "damage": 5102,
+      "range": 420,
+      "kb": 3,
+      "speed": 14,
+      "dps": 890,
+      "target": "Area",
+      "tba": 5.73,
+      "anim": 1.1,
+      "spawn": 154.53,
+      "cost": 3525,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Knockbackb2 (50% chance of knockback)"
+    }
+  ]
+}

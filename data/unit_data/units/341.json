@@ -1,0 +1,114 @@
+{
+  "id": "341",
+  "name": "Redhead Yuki Cat",
+  "forms": [
+    {
+      "number": "341-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Redhead Yuki Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 450,
+      "damage": 100,
+      "range": 340,
+      "kb": 3,
+      "speed": 8,
+      "dps": 38,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 1.37,
+      "spawn": 7.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "341-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Redhead Lovely Yuki Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 450,
+      "damage": 100,
+      "range": 340,
+      "kb": 3,
+      "speed": 8,
+      "dps": 38,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 1.37,
+      "spawn": 7.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Freezeb2 (20% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "341-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Redhead Muscled Yuki Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 450,
+      "damage": 100,
+      "range": 340,
+      "kb": 3,
+      "speed": 8,
+      "dps": 38,
+      "target": "Single",
+      "tba": 2.7,
+      "anim": 1.37,
+      "spawn": 7.53,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 1s (Range: 150~600)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Freezeb2 (20% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Surge Attacksb2 (100% chance to perform Surge Attacks for 1s (Range: 150~600))"
+    }
+  ]
+}

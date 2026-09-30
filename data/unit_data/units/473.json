@@ -1,0 +1,106 @@
+{
+  "id": "473",
+  "name": "Fiendish Nero",
+  "forms": [
+    {
+      "number": "473-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Fiendish Nero",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 2438,
+      "range": 225,
+      "kb": 4,
+      "speed": 9,
+      "dps": 395,
+      "target": "Area",
+      "tba": 6.17,
+      "anim": 4.33,
+      "spawn": 28.53,
+      "cost": 1485,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -800~225"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -800~225) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "473-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Beastly Nero",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 3188,
+      "range": 225,
+      "kb": 4,
+      "speed": 9,
+      "dps": 518,
+      "target": "Area",
+      "tba": 6.17,
+      "anim": 4.33,
+      "spawn": 28.53,
+      "cost": 1485,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -800~225"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -800~225) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

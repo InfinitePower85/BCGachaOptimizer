@@ -1,0 +1,123 @@
+{
+  "id": "014",
+  "name": "Dom Cat",
+  "forms": [
+    {
+      "number": "014-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Dom Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 330,
+      "range": 210,
+      "kb": 1,
+      "speed": 5,
+      "dps": 220,
+      "target": "Single",
+      "tba": 1.5,
+      "anim": 0.2,
+      "spawn": 5.87,
+      "cost": 1440,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "014-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Executioner",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 330,
+      "range": 210,
+      "kb": 1,
+      "speed": 5,
+      "dps": 220,
+      "target": "Single",
+      "tba": 1.5,
+      "anim": 0.2,
+      "spawn": 5.87,
+      "cost": 1440,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "014-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Dark Lazer",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 330,
+      "range": 210,
+      "kb": 1,
+      "speed": 5,
+      "dps": 825,
+      "target": "Single",
+      "tba": 0.4,
+      "anim": 0.2,
+      "spawn": 5.87,
+      "cost": 1440,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "118",
+  "name": "Aura",
+  "forms": [
+    {
+      "number": "118-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Aura",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2400,
+      "damage": 1050,
+      "range": 280,
+      "kb": 2,
+      "speed": 7,
+      "dps": 285,
+      "target": "Area",
+      "tba": 3.7,
+      "anim": 1.53,
+      "spawn": 39.2,
+      "cost": 1680,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Knockbackb2 (40% chance of knockback)"
+    },
+    {
+      "number": "118-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Aura CC",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2900,
+      "damage": 1675,
+      "range": 280,
+      "kb": 2,
+      "speed": 7,
+      "dps": 452,
+      "target": "Area",
+      "tba": 3.7,
+      "anim": 1.53,
+      "spawn": 39.2,
+      "cost": 1680,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Knockbackb2 (40% chance of knockback)"
+    }
+  ]
+}

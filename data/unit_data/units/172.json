@@ -1,0 +1,99 @@
+{
+  "id": "172",
+  "name": "Balaluga",
+  "forms": [
+    {
+      "number": "172-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Balaluga",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 375,
+      "range": 140,
+      "kb": 5,
+      "speed": 3,
+      "dps": 138,
+      "target": "Single",
+      "tba": 2.73,
+      "anim": 0.43,
+      "spawn": 24.53,
+      "cost": 4500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "172-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Balalan Pasalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 28,
+      "range": 940,
+      "kb": 1,
+      "speed": 4,
+      "dps": 2,
+      "target": "Area",
+      "tba": 16.43,
+      "anim": 3.13,
+      "spawn": 324.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.33s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Freezeb2 (100% chance to freeze for 2.33s)"
+    },
+    {
+      "number": "172-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Piccolan Pasalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 28,
+      "range": 940,
+      "kb": 1,
+      "speed": 4,
+      "dps": 2,
+      "target": "Area",
+      "tba": 16.43,
+      "anim": 3.13,
+      "spawn": 324.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 6.0s"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Weakenb2 (100% chance to weaken by 50% for 6.0s) b1Freezeb2 (100% chance to freeze for 3.0s)"
+    }
+  ]
+}

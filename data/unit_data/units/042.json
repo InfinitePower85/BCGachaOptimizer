@@ -1,0 +1,85 @@
+{
+  "id": "042",
+  "name": "Salon Cat",
+  "forms": [
+    {
+      "number": "042-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Salon Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1200,
+      "damage": 450,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 108,
+      "target": "Area",
+      "tba": 4.2,
+      "anim": 0.23,
+      "spawn": 2.2,
+      "cost": 900,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "042-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Paris Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1450,
+      "damage": 625,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 150,
+      "target": "Area",
+      "tba": 4.2,
+      "anim": 0.23,
+      "spawn": 2.2,
+      "cost": 900,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "042-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Cyborg Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1450,
+      "damage": 800,
+      "range": 350,
+      "kb": 3,
+      "speed": 10,
+      "dps": 190,
+      "target": "Area",
+      "tba": 4.2,
+      "anim": 0.23,
+      "spawn": 2.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Weakenb2"
+    }
+  ]
+}

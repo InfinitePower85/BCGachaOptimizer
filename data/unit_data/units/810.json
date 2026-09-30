@@ -1,0 +1,72 @@
+{
+  "id": "810",
+  "name": "Shadow Cat",
+  "forms": [
+    {
+      "number": "810-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shadow Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 50,
+      "range": 150,
+      "kb": 1,
+      "speed": 22,
+      "dps": 32,
+      "target": "Single",
+      "tba": 1.57,
+      "anim": 0.6,
+      "spawn": 4.2,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "810-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Shadow Cat CC",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 75,
+      "range": 150,
+      "kb": 1,
+      "speed": 22,
+      "dps": 48,
+      "target": "Single",
+      "tba": 1.57,
+      "anim": 0.6,
+      "spawn": 4.2,
+      "cost": 300,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

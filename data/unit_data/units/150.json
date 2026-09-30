@@ -1,0 +1,132 @@
+{
+  "id": "150",
+  "name": "Mer-Cat",
+  "forms": [
+    {
+      "number": "150-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mer-Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 800,
+      "damage": 675,
+      "range": 190,
+      "kb": 4,
+      "speed": 4,
+      "dps": 195,
+      "target": "Single",
+      "tba": 3.47,
+      "anim": 0.83,
+      "spawn": 3.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "50% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Surviveb2 (50% chance to survive a lethal strike)"
+    },
+    {
+      "number": "150-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Commando Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 950,
+      "damage": 825,
+      "range": 190,
+      "kb": 4,
+      "speed": 4,
+      "dps": 238,
+      "target": "Single",
+      "tba": 3.47,
+      "anim": 0.83,
+      "spawn": 3.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "50% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Surviveb2 (50% chance to survive a lethal strike)"
+    },
+    {
+      "number": "150-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Cameraman Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1425,
+      "damage": 825,
+      "range": 250,
+      "kb": 4,
+      "speed": 6,
+      "dps": 235,
+      "target": "Area",
+      "tba": 3.5,
+      "anim": 0.87,
+      "spawn": 3.87,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "50% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Surviveb2 (50% chance to survive a lethal strike)"
+    }
+  ]
+}

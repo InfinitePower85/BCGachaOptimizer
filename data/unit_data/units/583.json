@@ -1,0 +1,98 @@
+{
+  "id": "583",
+  "name": "Hatsune Miku: MM2020 Osaka",
+  "forms": [
+    {
+      "number": "583-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hatsune Miku: MM2020 Osaka",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 2250,
+      "range": 460,
+      "kb": 3,
+      "speed": 12,
+      "dps": 550,
+      "target": "Area",
+      "tba": 4.1,
+      "anim": 2.63,
+      "spawn": 131.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against red, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "10% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively) b1Savage Blowb2 (10% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    },
+    {
+      "number": "583-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hatsune Miku CC: MM2020 Osaka",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 2812,
+      "range": 460,
+      "kb": 3,
+      "speed": 12,
+      "dps": 685,
+      "target": "Area",
+      "tba": 4.1,
+      "anim": 2.63,
+      "spawn": 131.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against red, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "10% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively) b1Savage Blowb2 (10% chance to inflict an attack with 2x damage to non-Metal enemies)"
+    }
+  ]
+}

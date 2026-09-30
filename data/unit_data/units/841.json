@@ -1,0 +1,132 @@
+{
+  "id": "841",
+  "name": "Tanjiro Kamado",
+  "forms": [
+    {
+      "number": "841-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Tanjiro Kamado",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 1500,
+      "range": 600,
+      "kb": 4,
+      "speed": 12,
+      "dps": 245,
+      "target": "Area",
+      "tba": 6.13,
+      "anim": 0.83,
+      "spawn": 131.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 450~850"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 600 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike) b1Long Distanceb2 (Effective range 450~850) b1Explosionb2 (100% chance to create an explosion at 600 range)\nu1Not affected byu2: b1Slowb2, b1Surgeb2"
+    },
+    {
+      "number": "841-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Tanjiro Kamado CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5750,
+      "damage": 1800,
+      "range": 600,
+      "kb": 4,
+      "speed": 12,
+      "dps": 292,
+      "target": "Area",
+      "tba": 6.13,
+      "anim": 0.83,
+      "spawn": 131.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 450~850"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 600 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike) b1Long Distanceb2 (Effective range 450~850) b1Explosionb2 (100% chance to create an explosion at 600 range)\nu1Not affected byu2: b1Slowb2, b1Surgeb2"
+    }
+  ]
+}

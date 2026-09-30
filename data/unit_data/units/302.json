@@ -1,0 +1,72 @@
+{
+  "id": "302",
+  "name": "Kyubey Cat",
+  "forms": [
+    {
+      "number": "302-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kyubey Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 20,
+      "range": 140,
+      "kb": 3,
+      "speed": 9,
+      "dps": 15,
+      "target": "Single",
+      "tba": 1.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 90,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "40% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surviveb2 (40% chance to survive a lethal strike)"
+    },
+    {
+      "number": "302-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Tank Kyubey Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 5,
+      "range": 110,
+      "kb": 1,
+      "speed": 7,
+      "dps": 2,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 180,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "40% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surviveb2 (40% chance to survive a lethal strike)"
+    }
+  ]
+}

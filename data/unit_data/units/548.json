@@ -1,0 +1,132 @@
+{
+  "id": "548",
+  "name": "Night Oracle Rei",
+  "forms": [
+    {
+      "number": "548-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Night Oracle Rei",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 2875,
+      "range": 350,
+      "kb": 5,
+      "speed": 6,
+      "dps": 570,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 0.5,
+      "spawn": 157.87,
+      "cost": 5250,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~550"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "30% chance to perform Surge Attacks for 1s (Range: 250~550)"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Resistantb2 (only takes 0.25x damage) b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~550) b1Surge Attacksb2 (30% chance to perform Surge Attacks for 1s (Range: 250~550)) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "548-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Heavenly Herald Rei",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 2875,
+      "range": 350,
+      "kb": 5,
+      "speed": 6,
+      "dps": 570,
+      "target": "Area",
+      "tba": 5.03,
+      "anim": 0.5,
+      "spawn": 157.87,
+      "cost": 5250,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~550"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "30% chance to perform Surge Attacks for 1s (Range: 250~550)"
+            },
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Resistantb2 (only takes 0.25x damage) b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~550) b1Surge Attacksb2 (30% chance to perform Surge Attacks for 1s (Range: 250~550)) b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

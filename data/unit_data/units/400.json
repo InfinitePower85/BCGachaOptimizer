@@ -1,0 +1,72 @@
+{
+  "id": "400",
+  "name": "Mentori",
+  "forms": [
+    {
+      "number": "400-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mentori",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1350,
+      "damage": 38,
+      "range": 120,
+      "kb": 3,
+      "speed": 8,
+      "dps": 112,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 6.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "400-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mentori CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1350,
+      "damage": 38,
+      "range": 120,
+      "kb": 3,
+      "speed": 8,
+      "dps": 112,
+      "target": "Single",
+      "tba": 0.33,
+      "anim": 0.2,
+      "spawn": 6.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

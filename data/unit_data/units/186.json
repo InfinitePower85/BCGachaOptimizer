@@ -1,0 +1,132 @@
+{
+  "id": "186",
+  "name": "Hearscht",
+  "forms": [
+    {
+      "number": "186-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hearscht",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 1000,
+      "range": 295,
+      "kb": 3,
+      "speed": 8,
+      "dps": 158,
+      "target": "Single",
+      "tba": 6.3,
+      "anim": 0.47,
+      "spawn": 81.2,
+      "cost": 2550,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "10% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Criticalb2 (10% chance of a critical hit)"
+    },
+    {
+      "number": "186-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hearscht CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 1500,
+      "range": 295,
+      "kb": 3,
+      "speed": 8,
+      "dps": 238,
+      "target": "Single",
+      "tba": 6.3,
+      "anim": 0.47,
+      "spawn": 81.2,
+      "cost": 2550,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "20% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Criticalb2 (20% chance of a critical hit)"
+    },
+    {
+      "number": "186-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Revolutionary Hearscht CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 1500,
+      "range": 345,
+      "kb": 3,
+      "speed": 12,
+      "dps": 238,
+      "target": "Single",
+      "tba": 6.3,
+      "anim": 0.47,
+      "spawn": 81.2,
+      "cost": 2550,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "40% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Criticalb2 (40% chance of a critical hit)"
+    }
+  ]
+}

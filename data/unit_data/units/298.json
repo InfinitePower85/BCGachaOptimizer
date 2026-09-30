@@ -1,0 +1,72 @@
+{
+  "id": "298",
+  "name": "Mami Cat",
+  "forms": [
+    {
+      "number": "298-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mami Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 600,
+      "range": 200,
+      "kb": 4,
+      "speed": 9,
+      "dps": 190,
+      "target": "Single",
+      "tba": 3.17,
+      "anim": 0.53,
+      "spawn": 6.2,
+      "cost": 645,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "298-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Magical Girl Mami Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 600,
+      "range": 250,
+      "kb": 4,
+      "speed": 9,
+      "dps": 190,
+      "target": "Single",
+      "tba": 3.17,
+      "anim": 0.67,
+      "spawn": 6.2,
+      "cost": 645,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

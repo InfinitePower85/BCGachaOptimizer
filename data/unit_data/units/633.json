@@ -1,0 +1,163 @@
+{
+  "id": "633",
+  "name": "Mighty Deth-Troy-R",
+  "forms": [
+    {
+      "number": "633-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mighty Deth-Troy-R",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10250,
+      "damage": 3950,
+      "range": 475,
+      "kb": 3,
+      "speed": 3,
+      "dps": 605,
+      "target": "Area",
+      "tba": 6.53,
+      "anim": 3.83,
+      "spawn": 179.87,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against angel, zombie, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, zombie, akuu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "633-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Siege Walker Diabolosa",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10250,
+      "damage": 3950,
+      "range": 475,
+      "kb": 3,
+      "speed": 3,
+      "dps": 605,
+      "target": "Area",
+      "tba": 6.53,
+      "anim": 3.83,
+      "spawn": 179.87,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against angel, zombie, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, zombie, akuu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "633-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Obliterator Diabolosa",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10250,
+      "damage": 5200,
+      "range": 475,
+      "kb": 3,
+      "speed": 3,
+      "dps": 795,
+      "target": "Area",
+      "tba": 6.53,
+      "anim": 3.83,
+      "spawn": 179.87,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against angel, zombie, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, zombie, akuu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)\nu1Not affected byu2: b1Slowb2 b1Freezeb2"
+    }
+  ]
+}

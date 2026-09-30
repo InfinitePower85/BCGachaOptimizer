@@ -1,0 +1,114 @@
+{
+  "id": "033",
+  "name": "Hip Hop Cat",
+  "forms": [
+    {
+      "number": "033-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hip Hop Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1875,
+      "damage": 1875,
+      "range": 220,
+      "kb": 5,
+      "speed": 11,
+      "dps": 288,
+      "target": "Single",
+      "tba": 6.5,
+      "anim": 1.2,
+      "spawn": 12.53,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "40% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Slowb2 (40% chance to slow for 4.0s)"
+    },
+    {
+      "number": "033-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Dancing Flasher Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 3750,
+      "range": 220,
+      "kb": 5,
+      "speed": 11,
+      "dps": 578,
+      "target": "Single",
+      "tba": 6.5,
+      "anim": 1.2,
+      "spawn": 12.53,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "40% chance to slow for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Slowb2 (40% chance to slow for 4.0s)"
+    },
+    {
+      "number": "033-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Can Can Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5625,
+      "damage": 5625,
+      "range": 220,
+      "kb": 5,
+      "speed": 11,
+      "dps": 865,
+      "target": "Single",
+      "tba": 6.5,
+      "anim": 1.2,
+      "spawn": 12.53,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "60% chance to slow for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Slowb2 (60% chance to slow for 4.0s)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

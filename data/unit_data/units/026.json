@@ -1,0 +1,85 @@
+{
+  "id": "026",
+  "name": "Bahamut Cat",
+  "forms": [
+    {
+      "number": "026-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Bahamut Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 12500,
+      "range": 450,
+      "kb": 3,
+      "speed": 6,
+      "dps": 625,
+      "target": "Area",
+      "tba": 20.0,
+      "anim": 4.03,
+      "spawn": 151.2,
+      "cost": 4500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "026-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Crazed Bahamut Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 12500,
+      "range": 450,
+      "kb": 3,
+      "speed": 6,
+      "dps": 625,
+      "target": "Area",
+      "tba": 20.0,
+      "anim": 4.03,
+      "spawn": 151.2,
+      "cost": 4500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "026-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Awakened Bahamut Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 13750,
+      "range": 200,
+      "kb": 6,
+      "speed": 60,
+      "dps": 4435,
+      "target": "Area",
+      "tba": 3.1,
+      "anim": 0.17,
+      "spawn": 97.87,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

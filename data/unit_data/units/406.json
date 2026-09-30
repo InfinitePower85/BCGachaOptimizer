@@ -1,0 +1,132 @@
+{
+  "id": "406",
+  "name": "Kaworu & Cat",
+  "forms": [
+    {
+      "number": "406-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kaworu & Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1425,
+      "damage": 638,
+      "range": 175,
+      "kb": 3,
+      "speed": 8,
+      "dps": 128,
+      "target": "Single",
+      "tba": 5.03,
+      "anim": 1.6,
+      "spawn": 24.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)"
+    },
+    {
+      "number": "406-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Plug Suit Kaworu",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1425,
+      "damage": 638,
+      "range": 175,
+      "kb": 3,
+      "speed": 8,
+      "dps": 128,
+      "target": "Single",
+      "tba": 5.03,
+      "anim": 1.6,
+      "spawn": 24.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)"
+    },
+    {
+      "number": "406-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Moon Kaworu",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1425,
+      "damage": 638,
+      "range": 250,
+      "kb": 3,
+      "speed": 8,
+      "dps": 115,
+      "target": "Area",
+      "tba": 5.57,
+      "anim": 2.0,
+      "spawn": 24.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Eva Angel Killer",
+              "detail": "Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Eva Angel Killerb2 (Inflicts 5x damage, takes only 0.2x damage from Eva Angel enemies)"
+    }
+  ]
+}

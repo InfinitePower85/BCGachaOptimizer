@@ -1,0 +1,157 @@
+{
+  "id": "569",
+  "name": "Idi:N",
+  "forms": [
+    {
+      "number": "569-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Idi:N",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 7000,
+      "range": 175,
+      "kb": 5,
+      "speed": 44,
+      "dps": 1490,
+      "target": "Area",
+      "tba": 4.7,
+      "anim": 0.13,
+      "spawn": 91.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Curseb2, b1Surgeb2"
+    },
+    {
+      "number": "569-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Idi:N2",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 8750,
+      "range": 175,
+      "kb": 5,
+      "speed": 44,
+      "dps": 1862,
+      "target": "Area",
+      "tba": 4.7,
+      "anim": 0.13,
+      "spawn": 91.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Curseb2, b1Surgeb2"
+    },
+    {
+      "number": "569-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Idi:NX",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 8750,
+      "range": 175,
+      "kb": 5,
+      "speed": 44,
+      "dps": 1862,
+      "target": "Area",
+      "tba": 4.7,
+      "anim": 0.13,
+      "spawn": 91.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            },
+            {
+              "name": "Explosion",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Insane Damageb2 (inflicts 5.0x damage) \nu1General Abilitiesu2: b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Curseb2, b1Surgeb2, b1Explosionb2"
+    }
+  ]
+}

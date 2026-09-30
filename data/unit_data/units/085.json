@@ -1,0 +1,117 @@
+{
+  "id": "085",
+  "name": "Megidora",
+  "forms": [
+    {
+      "number": "085-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Megidora",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9500,
+      "damage": 3745,
+      "range": 410,
+      "kb": 3,
+      "speed": 15,
+      "dps": 780,
+      "target": "Area",
+      "tba": 4.8,
+      "anim": 1.83,
+      "spawn": 151.2,
+      "cost": 5700,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "085-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Holy Dragon Megidora",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9500,
+      "damage": 3745,
+      "range": 410,
+      "kb": 3,
+      "speed": 15,
+      "dps": 780,
+      "target": "Area",
+      "tba": 4.8,
+      "anim": 1.83,
+      "spawn": 151.2,
+      "cost": 5700,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "085-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "God-Emperor Megidora",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 4370,
+      "range": 425,
+      "kb": 3,
+      "speed": 20,
+      "dps": 910,
+      "target": "Area",
+      "tba": 4.8,
+      "anim": 1.83,
+      "spawn": 151.2,
+      "cost": 5700,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 5.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Slowb2 (50% chance to slow for 5.0s) b1Knockbackb2 (50% chance of knockback)"
+    }
+  ]
+}

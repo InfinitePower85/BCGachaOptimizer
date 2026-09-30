@@ -1,0 +1,108 @@
+{
+  "id": "700",
+  "name": "Rabbit Satoru",
+  "forms": [
+    {
+      "number": "700-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rabbit Satoru",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 3650,
+      "range": 470,
+      "kb": 3,
+      "speed": 20,
+      "dps": 420,
+      "target": "Area",
+      "tba": 8.7,
+      "anim": 3.67,
+      "spawn": 84.53,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.33s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 370~770"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Slowb2 (100% chance to slow for 3.33s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 370~770)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "700-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Rabbit Champion Satoru",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5750,
+      "damage": 4650,
+      "range": 470,
+      "kb": 3,
+      "speed": 20,
+      "dps": 535,
+      "target": "Area",
+      "tba": 8.7,
+      "anim": 3.67,
+      "spawn": 84.53,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 370~770"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Slowb2 (100% chance to slow for 5.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 370~770)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

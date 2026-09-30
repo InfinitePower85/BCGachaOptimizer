@@ -1,0 +1,80 @@
+{
+  "id": "407",
+  "name": "Rei Cat",
+  "forms": [
+    {
+      "number": "407-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rei Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1438,
+      "damage": 562,
+      "range": 190,
+      "kb": 3,
+      "speed": 8,
+      "dps": 198,
+      "target": "Single",
+      "tba": 2.83,
+      "anim": 0.93,
+      "spawn": 6.87,
+      "cost": 615,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "407-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ayanami Cat (TBC)",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1438,
+      "damage": 562,
+      "range": 190,
+      "kb": 3,
+      "speed": 8,
+      "dps": 198,
+      "target": "Single",
+      "tba": 2.83,
+      "anim": 0.93,
+      "spawn": 6.87,
+      "cost": 615,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage) b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

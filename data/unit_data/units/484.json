@@ -1,0 +1,72 @@
+{
+  "id": "484",
+  "name": "Kano ＆ Souma",
+  "forms": [
+    {
+      "number": "484-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kano ＆ Souma",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 175,
+      "range": 190,
+      "kb": 2,
+      "speed": 25,
+      "dps": 52,
+      "target": "Area",
+      "tba": 3.37,
+      "anim": 0.73,
+      "spawn": 4.2,
+      "cost": 420,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "484-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kano ＆ Souma ＆ Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 175,
+      "range": 190,
+      "kb": 2,
+      "speed": 25,
+      "dps": 52,
+      "target": "Area",
+      "tba": 3.37,
+      "anim": 0.73,
+      "spawn": 4.2,
+      "cost": 420,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "523",
+  "name": "Nymph Cat",
+  "forms": [
+    {
+      "number": "523-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Nymph Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 900,
+      "damage": 1375,
+      "range": 300,
+      "kb": 4,
+      "speed": 16,
+      "dps": 285,
+      "target": "Area",
+      "tba": 4.83,
+      "anim": 1.47,
+      "spawn": 17.87,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~550"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~550) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "523-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Medalist Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1200,
+      "damage": 1875,
+      "range": 300,
+      "kb": 4,
+      "speed": 16,
+      "dps": 388,
+      "target": "Area",
+      "tba": 4.83,
+      "anim": 1.47,
+      "spawn": 17.87,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~550"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~550) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "523-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Fiend Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1875,
+      "damage": 1875,
+      "range": 300,
+      "kb": 4,
+      "speed": 16,
+      "dps": 388,
+      "target": "Area",
+      "tba": 4.83,
+      "anim": 1.47,
+      "spawn": 17.87,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~550"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Knockbackb2 (30% chance of knockback) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~550) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    }
+  ]
+}

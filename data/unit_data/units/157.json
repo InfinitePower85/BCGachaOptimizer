@@ -1,0 +1,72 @@
+{
+  "id": "157",
+  "name": "Drury Swordsman",
+  "forms": [
+    {
+      "number": "157-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Drury Swordsman",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 450,
+      "damage": 38,
+      "range": 150,
+      "kb": 3,
+      "speed": 9,
+      "dps": 88,
+      "target": "Single",
+      "tba": 0.43,
+      "anim": 0.13,
+      "spawn": 2.0,
+      "cost": 330,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "157-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Drury Witch",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 575,
+      "damage": 388,
+      "range": 210,
+      "kb": 2,
+      "speed": 4,
+      "dps": 108,
+      "target": "Area",
+      "tba": 3.6,
+      "anim": 0.97,
+      "spawn": 3.87,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

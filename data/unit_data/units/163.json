@@ -1,0 +1,72 @@
+{
+  "id": "163",
+  "name": "Ayanokōji Shō",
+  "forms": [
+    {
+      "number": "163-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ayanokōji Shō",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 3250,
+      "range": 290,
+      "kb": 3,
+      "speed": 7,
+      "dps": 598,
+      "target": "Area",
+      "tba": 5.43,
+      "anim": 0.07,
+      "spawn": 34.53,
+      "cost": 2175,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "163-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Shōyan & Nyanko",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 3250,
+      "range": 290,
+      "kb": 3,
+      "speed": 7,
+      "dps": 598,
+      "target": "Area",
+      "tba": 5.43,
+      "anim": 0.07,
+      "spawn": 34.53,
+      "cost": 2175,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

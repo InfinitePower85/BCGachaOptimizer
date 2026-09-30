@@ -1,0 +1,89 @@
+{
+  "id": "599",
+  "name": "Ryoga Hibiki (Pig)",
+  "forms": [
+    {
+      "number": "599-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ryoga Hibiki (Pig)",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 1500,
+      "range": 180,
+      "kb": 2,
+      "speed": 25,
+      "dps": 385,
+      "target": "Area",
+      "tba": 3.9,
+      "anim": 0.23,
+      "spawn": 11.2,
+      "cost": 1020,
+      "abilities": [
+        {
+          "group": "Against black, metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, metalu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "599-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ryoga Hibiki",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 4900,
+      "range": 480,
+      "kb": 2,
+      "speed": 17,
+      "dps": 688,
+      "target": "Area",
+      "tba": 7.13,
+      "anim": 1.9,
+      "spawn": 144.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against black, metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "3% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, metalu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Criticalb2 (3% chance of a critical hit)"
+    }
+  ]
+}

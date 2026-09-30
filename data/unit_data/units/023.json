@@ -1,0 +1,85 @@
+{
+  "id": "023",
+  "name": "Boogie Cat",
+  "forms": [
+    {
+      "number": "023-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Boogie Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 50,
+      "range": 140,
+      "kb": 3,
+      "speed": 6,
+      "dps": 35,
+      "target": "Single",
+      "tba": 1.43,
+      "anim": 0.47,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "023-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Samba Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 50,
+      "range": 140,
+      "kb": 3,
+      "speed": 6,
+      "dps": 35,
+      "target": "Single",
+      "tba": 1.43,
+      "anim": 0.47,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "023-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Gato Amigo",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 500,
+      "damage": 50,
+      "range": 140,
+      "kb": 3,
+      "speed": 6,
+      "dps": 35,
+      "target": "Single",
+      "tba": 1.43,
+      "anim": 0.47,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "5% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (5% chance of knockback)"
+    }
+  ]
+}

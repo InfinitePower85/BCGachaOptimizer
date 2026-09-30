@@ -1,0 +1,72 @@
+{
+  "id": "344",
+  "name": "Slug Jockey Cat",
+  "forms": [
+    {
+      "number": "344-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Slug Jockey Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 150,
+      "range": 210,
+      "kb": 2,
+      "speed": 12,
+      "dps": 25,
+      "target": "Area",
+      "tba": 6.2,
+      "anim": 0.9,
+      "spawn": 23.2,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Slowb2 (100% chance to slow for 1.0s)"
+    },
+    {
+      "number": "344-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Slugcat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 150,
+      "range": 210,
+      "kb": 2,
+      "speed": 12,
+      "dps": 25,
+      "target": "Area",
+      "tba": 6.2,
+      "anim": 0.9,
+      "spawn": 23.2,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Slowb2 (100% chance to slow for 1.0s)"
+    }
+  ]
+}

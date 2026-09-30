@@ -1,0 +1,114 @@
+{
+  "id": "532",
+  "name": "Teacher BearCat",
+  "forms": [
+    {
+      "number": "532-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Teacher BearCat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 1200,
+      "range": 140,
+      "kb": 2,
+      "speed": 10,
+      "dps": 342,
+      "target": "Area",
+      "tba": 3.5,
+      "anim": 0.2,
+      "spawn": 4.53,
+      "cost": 660,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Insane Damageb2 (inflicts 5.0x damage)"
+    },
+    {
+      "number": "532-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Assassin BearCat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 1200,
+      "range": 140,
+      "kb": 2,
+      "speed": 16,
+      "dps": 342,
+      "target": "Area",
+      "tba": 3.5,
+      "anim": 0.2,
+      "spawn": 4.53,
+      "cost": 660,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Insane Damageb2 (inflicts 5.0x damage)"
+    },
+    {
+      "number": "532-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Cadaver BearCat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 1200,
+      "range": 140,
+      "kb": 2,
+      "speed": 10,
+      "dps": 342,
+      "target": "Area",
+      "tba": 3.5,
+      "anim": 0.2,
+      "spawn": 4.53,
+      "cost": 660,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Insane Damageb2 (inflicts 5.0x damage)\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

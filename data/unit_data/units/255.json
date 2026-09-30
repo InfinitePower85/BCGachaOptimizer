@@ -1,0 +1,105 @@
+{
+  "id": "255",
+  "name": "Pretty Cat",
+  "forms": [
+    {
+      "number": "255-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Pretty Cat",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1450,
+      "damage": 375,
+      "range": 180,
+      "kb": 4,
+      "speed": 9,
+      "dps": 240,
+      "target": "Single",
+      "tba": 1.57,
+      "anim": 0.73,
+      "spawn": 5.87,
+      "cost": 990,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "5% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Freezeb2 (5% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "255-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Lovely Pretty Cat",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1450,
+      "damage": 375,
+      "range": 180,
+      "kb": 4,
+      "speed": 9,
+      "dps": 240,
+      "target": "Single",
+      "tba": 1.57,
+      "anim": 0.73,
+      "spawn": 5.87,
+      "cost": 990,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "5% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Freezeb2 (5% chance to freeze for 2.0s)"
+    },
+    {
+      "number": "255-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Cyber Pretty Cat",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1450,
+      "damage": 375,
+      "range": 180,
+      "kb": 4,
+      "speed": 9,
+      "dps": 240,
+      "target": "Single",
+      "tba": 1.57,
+      "anim": 0.73,
+      "spawn": 5.87,
+      "cost": 990,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "10% chance to freeze for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Freezeb2 (10% chance to freeze for 2.0s)"
+    }
+  ]
+}

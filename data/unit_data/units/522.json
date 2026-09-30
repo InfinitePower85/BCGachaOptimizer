@@ -1,0 +1,159 @@
+{
+  "id": "522",
+  "name": "Medusa Cat",
+  "forms": [
+    {
+      "number": "522-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Medusa Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1425,
+      "damage": 300,
+      "range": 350,
+      "kb": 3,
+      "speed": 8,
+      "dps": 90,
+      "target": "Area",
+      "tba": 3.3,
+      "anim": 0.8,
+      "spawn": 7.87,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 1.5s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~450"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Freezeb2 (20% chance to freeze for 1.5s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 275~450)\nu1Not affected byu2: b1Curseb2"
+    },
+    {
+      "number": "522-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Twintail Medusa Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1425,
+      "damage": 300,
+      "range": 350,
+      "kb": 3,
+      "speed": 8,
+      "dps": 90,
+      "target": "Area",
+      "tba": 3.3,
+      "anim": 0.8,
+      "spawn": 7.87,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 1.5s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~450"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Freezeb2 (20% chance to freeze for 1.5s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 275~450)\nu1Not affected byu2: b1Curseb2"
+    },
+    {
+      "number": "522-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Naga Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2138,
+      "damage": 300,
+      "range": 350,
+      "kb": 3,
+      "speed": 8,
+      "dps": 90,
+      "target": "Area",
+      "tba": 3.3,
+      "anim": 0.8,
+      "spawn": 7.87,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 1.5s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~450"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Freezeb2 (30% chance to freeze for 1.5s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 275~450)\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

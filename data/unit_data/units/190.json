@@ -1,0 +1,72 @@
+{
+  "id": "190",
+  "name": "Alois",
+  "forms": [
+    {
+      "number": "190-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Alois",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 600,
+      "range": 351,
+      "kb": 3,
+      "speed": 10,
+      "dps": 142,
+      "target": "Area",
+      "tba": 4.23,
+      "anim": 0.93,
+      "spawn": 11.87,
+      "cost": 1170,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "20% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Knockbackb2 (20% chance of knockback)"
+    },
+    {
+      "number": "190-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Alois CC",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 850,
+      "range": 351,
+      "kb": 3,
+      "speed": 10,
+      "dps": 200,
+      "target": "Area",
+      "tba": 4.23,
+      "anim": 0.93,
+      "spawn": 11.87,
+      "cost": 1170,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "20% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Knockbackb2 (20% chance of knockback)"
+    }
+  ]
+}

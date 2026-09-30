@@ -1,0 +1,90 @@
+{
+  "id": "294",
+  "name": "Kyubey",
+  "forms": [
+    {
+      "number": "294-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kyubey",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2475,
+      "damage": 975,
+      "range": 220,
+      "kb": 3,
+      "speed": 9,
+      "dps": 572,
+      "target": "Single",
+      "tba": 1.7,
+      "anim": 0.87,
+      "spawn": 5.87,
+      "cost": 660,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "50% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Surviveb2 (50% chance to survive a lethal strike)"
+    },
+    {
+      "number": "294-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kyubey & Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2475,
+      "damage": 975,
+      "range": 220,
+      "kb": 3,
+      "speed": 9,
+      "dps": 572,
+      "target": "Single",
+      "tba": 1.7,
+      "anim": 0.87,
+      "spawn": 5.87,
+      "cost": 660,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "50% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Surviveb2 (50% chance to survive a lethal strike)"
+    }
+  ]
+}

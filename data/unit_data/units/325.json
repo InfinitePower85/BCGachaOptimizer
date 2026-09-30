@@ -1,0 +1,165 @@
+{
+  "id": "325",
+  "name": "Curling Cat",
+  "forms": [
+    {
+      "number": "325-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Curling Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 1000,
+      "range": 120,
+      "kb": 1,
+      "speed": 25,
+      "dps": 2,
+      "target": "Single",
+      "tba": 266.7,
+      "anim": 0.1,
+      "spawn": 31.2,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Warpb2, b1Waveb2"
+    },
+    {
+      "number": "325-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Zamboney Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 1250,
+      "range": 120,
+      "kb": 1,
+      "speed": 25,
+      "dps": 5,
+      "target": "Single",
+      "tba": 266.9,
+      "anim": 0.1,
+      "spawn": 31.2,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Warpb2, b1Waveb2"
+    },
+    {
+      "number": "325-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Green Shell Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 15000,
+      "damage": 1250,
+      "range": 120,
+      "kb": 1,
+      "speed": 35,
+      "dps": 5,
+      "target": "Single",
+      "tba": 266.7,
+      "anim": 0.1,
+      "spawn": 31.2,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Warpb2, b1Waveb2"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "830",
+  "name": "Jamie Cat",
+  "forms": [
+    {
+      "number": "830-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Jamie Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3600,
+      "damage": 2100,
+      "range": 340,
+      "kb": 5,
+      "speed": 10,
+      "dps": 362,
+      "target": "Area",
+      "tba": 5.8,
+      "anim": 1.17,
+      "spawn": 12.53,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 40% health"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 40% health) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "830-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Jamie Cat CC",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 2625,
+      "range": 340,
+      "kb": 5,
+      "speed": 10,
+      "dps": 452,
+      "target": "Area",
+      "tba": 5.8,
+      "anim": 1.17,
+      "spawn": 12.53,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 40% health"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 40% health) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

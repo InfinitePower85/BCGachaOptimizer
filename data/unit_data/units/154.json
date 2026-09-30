@@ -1,0 +1,114 @@
+{
+  "id": "154",
+  "name": "Cat Toaster",
+  "forms": [
+    {
+      "number": "154-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cat Toaster",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1550,
+      "damage": 825,
+      "range": 330,
+      "kb": 3,
+      "speed": 11,
+      "dps": 182,
+      "target": "Area",
+      "tba": 4.53,
+      "anim": 1.23,
+      "spawn": 17.87,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Slowb2 (30% chance to slow for 3.0s)"
+    },
+    {
+      "number": "154-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cat Projector",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1800,
+      "damage": 1000,
+      "range": 330,
+      "kb": 3,
+      "speed": 11,
+      "dps": 220,
+      "target": "Area",
+      "tba": 4.53,
+      "anim": 1.23,
+      "spawn": 17.87,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Slowb2 (30% chance to slow for 3.0s)"
+    },
+    {
+      "number": "154-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Catophone",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2700,
+      "damage": 1500,
+      "range": 330,
+      "kb": 3,
+      "speed": 11,
+      "dps": 330,
+      "target": "Area",
+      "tba": 4.53,
+      "anim": 1.23,
+      "spawn": 17.87,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "20% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Slowb2 (30% chance to slow for 5.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (20% chance of breaking enemy barriers)"
+    }
+  ]
+}

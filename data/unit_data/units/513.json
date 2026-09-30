@@ -1,0 +1,90 @@
+{
+  "id": "513",
+  "name": "Chun-Li",
+  "forms": [
+    {
+      "number": "513-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Chun-Li",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 3750,
+      "range": 300,
+      "kb": 4,
+      "speed": 25,
+      "dps": 2885,
+      "target": "Single",
+      "tba": 1.3,
+      "anim": 0.8,
+      "spawn": 91.2,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against red, black, alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, alienu2: b1Knockbackb2 (40% chance of knockback) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "513-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Chun-Li CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 3750,
+      "range": 300,
+      "kb": 4,
+      "speed": 25,
+      "dps": 2885,
+      "target": "Single",
+      "tba": 1.3,
+      "anim": 0.8,
+      "spawn": 91.2,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against red, black, alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, alienu2: b1Knockbackb2 (40% chance of knockback) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

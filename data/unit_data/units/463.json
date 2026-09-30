@@ -1,0 +1,130 @@
+{
+  "id": "463",
+  "name": "Filibuster Cat X",
+  "forms": [
+    {
+      "number": "463-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Filibuster Cat X",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 2500,
+      "range": 575,
+      "kb": 1,
+      "speed": 7,
+      "dps": 130,
+      "target": "Area",
+      "tba": 19.3,
+      "anim": 12.0,
+      "spawn": 151.2,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 4.0s"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -500~575"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Freezeb2 (100% chance to freeze for 4.0s) b1Omni Strikeb2 (Effective range -500~575)"
+    },
+    {
+      "number": "463-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Filibuster Cat Y",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 2500,
+      "range": 575,
+      "kb": 1,
+      "speed": 7,
+      "dps": 130,
+      "target": "Area",
+      "tba": 19.3,
+      "anim": 12.0,
+      "spawn": 151.2,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 4.0s"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -500~575"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Freezeb2 (100% chance to freeze for 4.0s) b1Omni Strikeb2 (Effective range -500~575)"
+    },
+    {
+      "number": "463-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Metafilibuster",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 5000,
+      "range": 575,
+      "kb": 1,
+      "speed": 7,
+      "dps": 338,
+      "target": "Area",
+      "tba": 14.87,
+      "anim": 12.0,
+      "spawn": 151.2,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against relic, white",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 4.0s"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -500~575"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relic, whiteu2: b1Freezeb2 (100% chance to freeze for 4.0s) b1Omni Strikeb2 (Effective range -500~575)\nu1Not affected byu2: b1Surgeb2, b1Curseb2"
+    }
+  ]
+}

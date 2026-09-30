@@ -1,0 +1,90 @@
+{
+  "id": "787",
+  "name": "The Amazing Catman",
+  "forms": [
+    {
+      "number": "787-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "The Amazing Catman",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8750,
+      "damage": 5250,
+      "range": 440,
+      "kb": 5,
+      "speed": 15,
+      "dps": 688,
+      "target": "Area",
+      "tba": 7.63,
+      "anim": 2.33,
+      "spawn": 147.87,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "787-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Illusionist Catman",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8750,
+      "damage": 5250,
+      "range": 440,
+      "kb": 5,
+      "speed": 15,
+      "dps": 688,
+      "target": "Area",
+      "tba": 7.63,
+      "anim": 2.33,
+      "spawn": 147.87,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angelu2: b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

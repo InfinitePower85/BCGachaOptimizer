@@ -1,0 +1,127 @@
+{
+  "id": "775",
+  "name": "Mech Patrol Axel",
+  "forms": [
+    {
+      "number": "775-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mech Patrol Axel",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 5400,
+      "range": 450,
+      "kb": 3,
+      "speed": 12,
+      "dps": 705,
+      "target": "Area",
+      "tba": 7.67,
+      "anim": 2.17,
+      "spawn": 124.53,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against metal, alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 4.0s"
+            },
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~650"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a Spirit (Axel)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metal, alienu2: b1Weakenb2 (30% chance to weaken by 50% for 4.0s) b1Slowb2 (30% chance to slow for 4.0s) b1Knockbackb2 (30% chance of knockback) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~650) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Conjureb2 (Allows summon of a Spirit (Axel))"
+    },
+    {
+      "number": "775-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Steel Sergeant Axel",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 5400,
+      "range": 450,
+      "kb": 3,
+      "speed": 12,
+      "dps": 705,
+      "target": "Area",
+      "tba": 7.67,
+      "anim": 2.17,
+      "spawn": 124.53,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against metal, alien",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "25% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~650"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a Spirit (Axel)"
+            },
+            {
+              "name": "Metal Killer",
+              "detail": "Decreases 10% of target's current HP"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metal, alienu2: b1Freezeb2 (25% chance to freeze for 3.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~650) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Conjureb2 (Allows summon of a Spirit (Axel)) b1Metal Killerb2 (Decreases 10% of target's current HP)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

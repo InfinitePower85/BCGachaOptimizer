@@ -1,0 +1,149 @@
+{
+  "id": "450",
+  "name": "Headmistress Jeanne",
+  "forms": [
+    {
+      "number": "450-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Headmistress Jeanne",
+      "rarity": "Legendary Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 1650,
+      "range": 400,
+      "kb": 4,
+      "speed": 20,
+      "dps": 570,
+      "target": "Area",
+      "tba": 2.9,
+      "anim": 1.6,
+      "spawn": 116.53,
+      "cost": 4830,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~550"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Insane Damageb2 (inflicts 5.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~550)"
+    },
+    {
+      "number": "450-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Headmistress Jeanne ψ",
+      "rarity": "Legendary Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 1650,
+      "range": 400,
+      "kb": 4,
+      "speed": 20,
+      "dps": 570,
+      "target": "Area",
+      "tba": 2.9,
+      "anim": 1.6,
+      "spawn": 116.53,
+      "cost": 4830,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~550"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Insane Damageb2 (inflicts 5.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~550)"
+    },
+    {
+      "number": "450-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Divine Jeanne ψ",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 1815,
+      "range": 400,
+      "kb": 4,
+      "speed": 20,
+      "dps": 625,
+      "target": "Area",
+      "tba": 2.9,
+      "anim": 1.6,
+      "spawn": 116.53,
+      "cost": 4830,
+      "abilities": [
+        {
+          "group": "Against red, floating",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 200~600"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Explosion",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floatingu2: b1Insane Damageb2 (inflicts 5.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 200~600) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Freezeb2, b1Explosionb2"
+    }
+  ]
+}

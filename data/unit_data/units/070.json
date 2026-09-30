@@ -1,0 +1,85 @@
+{
+  "id": "070",
+  "name": "Sleeping Beauty Punt\r",
+  "forms": [
+    {
+      "number": "070-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sleeping Beauty Punt\r",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 700,
+      "range": 160,
+      "kb": 1,
+      "speed": 6,
+      "dps": 345,
+      "target": "Area",
+      "tba": 2.03,
+      "anim": 0.4,
+      "spawn": 18.2,
+      "cost": 1950,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "070-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sleeping Beauty Punt II\r",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 700,
+      "range": 160,
+      "kb": 1,
+      "speed": 6,
+      "dps": 345,
+      "target": "Area",
+      "tba": 2.03,
+      "anim": 0.4,
+      "spawn": 18.2,
+      "cost": 1950,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "070-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Oversleeping Beauty Punt",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 875,
+      "range": 160,
+      "kb": 1,
+      "speed": 6,
+      "dps": 430,
+      "target": "Area",
+      "tba": 2.03,
+      "anim": 0.4,
+      "spawn": 18.2,
+      "cost": 1950,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Slowb2"
+    }
+  ]
+}

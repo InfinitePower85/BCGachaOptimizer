@@ -1,0 +1,132 @@
+{
+  "id": "200",
+  "name": "Surfer Cat",
+  "forms": [
+    {
+      "number": "200-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Surfer Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2375,
+      "damage": 1150,
+      "range": 270,
+      "kb": 4,
+      "speed": 12,
+      "dps": 382,
+      "target": "Area",
+      "tba": 3.0,
+      "anim": 0.37,
+      "spawn": 19.87,
+      "cost": 990,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "50% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Freezeb2 (30% chance to freeze for 4.0s) \nu1General Abilitiesu2: b1Surviveb2 (50% chance to survive a lethal strike)"
+    },
+    {
+      "number": "200-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Castaway Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2750,
+      "damage": 1450,
+      "range": 270,
+      "kb": 4,
+      "speed": 12,
+      "dps": 482,
+      "target": "Area",
+      "tba": 3.0,
+      "anim": 0.37,
+      "spawn": 19.87,
+      "cost": 990,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "50% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Freezeb2 (30% chance to freeze for 4.0s) \nu1General Abilitiesu2: b1Surviveb2 (50% chance to survive a lethal strike)"
+    },
+    {
+      "number": "200-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Seafarer Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3875,
+      "damage": 1450,
+      "range": 270,
+      "kb": 4,
+      "speed": 12,
+      "dps": 482,
+      "target": "Area",
+      "tba": 3.0,
+      "anim": 0.37,
+      "spawn": 19.87,
+      "cost": 990,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "40% chance to freeze for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Freezeb2 (40% chance to freeze for 4.0s) \nu1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike)"
+    }
+  ]
+}

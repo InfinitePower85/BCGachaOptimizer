@@ -1,0 +1,72 @@
+{
+  "id": "593",
+  "name": "Neko Rin",
+  "forms": [
+    {
+      "number": "593-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Neko Rin",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 500,
+      "range": 210,
+      "kb": 3,
+      "speed": 8,
+      "dps": 158,
+      "target": "Single",
+      "tba": 3.17,
+      "anim": 1.6,
+      "spawn": 4.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Dodgeb2 (30% chance to dodge for 2.0s)"
+    },
+    {
+      "number": "593-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Neko Rin CC",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 500,
+      "range": 210,
+      "kb": 3,
+      "speed": 8,
+      "dps": 158,
+      "target": "Single",
+      "tba": 3.17,
+      "anim": 1.6,
+      "spawn": 4.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Dodgeb2 (30% chance to dodge for 2.0s)"
+    }
+  ]
+}

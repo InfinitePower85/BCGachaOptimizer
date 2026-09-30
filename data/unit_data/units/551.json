@@ -1,0 +1,106 @@
+{
+  "id": "551",
+  "name": "The 10th Angel",
+  "forms": [
+    {
+      "number": "551-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "The 10th Angel",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 2778,
+      "range": 400,
+      "kb": 2,
+      "speed": 4,
+      "dps": 170,
+      "target": "Area",
+      "tba": 16.33,
+      "anim": 1.77,
+      "spawn": 191.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -200~900"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 2s (Range: 250~950)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Freezeb2 (100% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -200~900) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 2s (Range: 250~950))"
+    },
+    {
+      "number": "551-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "10th Angel Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 2778,
+      "range": 400,
+      "kb": 2,
+      "speed": 4,
+      "dps": 170,
+      "target": "Area",
+      "tba": 16.33,
+      "anim": 1.77,
+      "spawn": 191.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -200~900"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 2s (Range: 250~950)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Freezeb2 (100% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -200~900) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 2s (Range: 250~950))"
+    }
+  ]
+}

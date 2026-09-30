@@ -1,0 +1,153 @@
+{
+  "id": "524",
+  "name": "Wushu Cat",
+  "forms": [
+    {
+      "number": "524-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Wushu Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1275,
+      "damage": 548,
+      "range": 120,
+      "kb": 1,
+      "speed": 9,
+      "dps": 305,
+      "target": "Single",
+      "tba": 1.8,
+      "anim": 1.17,
+      "spawn": 5.87,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "524-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sifu Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1650,
+      "damage": 682,
+      "range": 120,
+      "kb": 1,
+      "speed": 9,
+      "dps": 380,
+      "target": "Single",
+      "tba": 1.8,
+      "anim": 1.17,
+      "spawn": 5.87,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "524-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Shigong Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2400,
+      "damage": 682,
+      "range": 120,
+      "kb": 1,
+      "speed": 9,
+      "dps": 380,
+      "target": "Single",
+      "tba": 1.8,
+      "anim": 1.17,
+      "spawn": 5.87,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Slowb2"
+    }
+  ]
+}

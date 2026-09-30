@@ -1,0 +1,121 @@
+{
+  "id": "241",
+  "name": "Togeluga",
+  "forms": [
+    {
+      "number": "241-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Togeluga",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 375,
+      "range": 140,
+      "kb": 5,
+      "speed": 4,
+      "dps": 138,
+      "target": "Single",
+      "tba": 2.73,
+      "anim": 0.43,
+      "spawn": 24.53,
+      "cost": 4500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "241-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Togelan Pasalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 125,
+      "damage": 7500,
+      "range": 445,
+      "kb": 1,
+      "speed": 4,
+      "dps": 375,
+      "target": "Area",
+      "tba": 20.0,
+      "anim": 3.5,
+      "spawn": 157.87,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 200% at 1% health"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 200% at 1% health) b1Surviveb2 (100% chance to survive a lethal strike)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "241-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Shishilan Pasalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 7500,
+      "range": 445,
+      "kb": 100,
+      "speed": 4,
+      "dps": 440,
+      "target": "Area",
+      "tba": 17.0,
+      "anim": 3.5,
+      "spawn": 157.87,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 200% at 99% health"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 200% at 99% health) b1Surviveb2 (100% chance to survive a lethal strike)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

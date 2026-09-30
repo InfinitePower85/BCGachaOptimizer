@@ -1,0 +1,90 @@
+{
+  "id": "836",
+  "name": "Ribbon Cat",
+  "forms": [
+    {
+      "number": "836-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ribbon Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 375,
+      "range": 270,
+      "kb": 3,
+      "speed": 11,
+      "dps": 95,
+      "target": "Area",
+      "tba": 3.9,
+      "anim": 0.93,
+      "spawn": 24.53,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against red, black, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 170~520"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, akuu2: b1Weakenb2 (100% chance to weaken by 50% for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 170~520)"
+    },
+    {
+      "number": "836-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Pink Nyanko Ranger",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1375,
+      "damage": 500,
+      "range": 270,
+      "kb": 3,
+      "speed": 11,
+      "dps": 128,
+      "target": "Area",
+      "tba": 3.9,
+      "anim": 0.93,
+      "spawn": 24.53,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against red, black, aku",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 170~520"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, akuu2: b1Weakenb2 (100% chance to weaken by 50% for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 170~520)"
+    }
+  ]
+}

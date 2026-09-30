@@ -1,0 +1,130 @@
+{
+  "id": "545",
+  "name": "Kyosaka Nanaho",
+  "forms": [
+    {
+      "number": "545-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kyosaka Nanaho",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 2500,
+      "range": 400,
+      "kb": 7,
+      "speed": 15,
+      "dps": 648,
+      "target": "Area",
+      "tba": 3.87,
+      "anim": 2.43,
+      "spawn": 117.87,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Insanely Tough",
+              "detail": "only takes 0.17x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Critical",
+              "detail": "50% chance of a critical hit"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~750"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Insanely Toughb2 (only takes 0.17x damage) \nu1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike) b1Criticalb2 (50% chance of a critical hit) b1Zombie Killerb2 (Stops zombies from reviving) b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Long Distanceb2 (Effective range 300~750) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "545-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "True Kyosaka Nanaho",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 2500,
+      "range": 400,
+      "kb": 7,
+      "speed": 15,
+      "dps": 648,
+      "target": "Area",
+      "tba": 3.87,
+      "anim": 2.43,
+      "spawn": 117.87,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Insanely Tough",
+              "detail": "only takes 0.17x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Critical",
+              "detail": "50% chance of a critical hit"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~750"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Insanely Toughb2 (only takes 0.17x damage) \nu1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike) b1Criticalb2 (50% chance of a critical hit) b1Zombie Killerb2 (Stops zombies from reviving) b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Long Distanceb2 (Effective range 300~750) b1Multi-hit attackb2 (Attacks twice consecutively)"
+    }
+  ]
+}

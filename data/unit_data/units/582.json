@@ -1,0 +1,138 @@
+{
+  "id": "582",
+  "name": "Stone Cat",
+  "forms": [
+    {
+      "number": "582-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Stone Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 50000,
+      "damage": 700,
+      "range": 140,
+      "kb": 1,
+      "speed": 84,
+      "dps": 512,
+      "target": "Single",
+      "tba": 1.37,
+      "anim": 0.03,
+      "spawn": 4.87,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Attack Once",
+              "detail": "Attacks a single time, then disappears from the battlefield"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Attack Onceb2 (Attacks a single time, then disappears from the battlefield)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Warpb2, b1Waveb2, b1Surgeb2"
+    },
+    {
+      "number": "582-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Boulder Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 50000,
+      "damage": 700,
+      "range": 140,
+      "kb": 1,
+      "speed": 84,
+      "dps": 512,
+      "target": "Single",
+      "tba": 1.37,
+      "anim": 0.03,
+      "spawn": 4.87,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Attack Once",
+              "detail": "Attacks a single time, then disappears from the battlefield"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Attack Onceb2 (Attacks a single time, then disappears from the battlefield)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Warpb2, b1Waveb2, b1Surgeb2"
+    }
+  ]
+}

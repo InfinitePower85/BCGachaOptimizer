@@ -1,0 +1,132 @@
+{
+  "id": "309",
+  "name": "Gardener Cat",
+  "forms": [
+    {
+      "number": "309-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Gardener Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 38,
+      "range": 200,
+      "kb": 3,
+      "speed": 9,
+      "dps": 125,
+      "target": "Single",
+      "tba": 0.3,
+      "anim": 0.03,
+      "spawn": 11.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "5% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Freezeb2 (5% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "309-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Lumbercat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 50,
+      "range": 200,
+      "kb": 3,
+      "speed": 9,
+      "dps": 168,
+      "target": "Single",
+      "tba": 0.3,
+      "anim": 0.03,
+      "spawn": 11.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "5% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Freezeb2 (5% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "309-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Weedwacker Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 50,
+      "range": 250,
+      "kb": 3,
+      "speed": 9,
+      "dps": 168,
+      "target": "Single",
+      "tba": 0.3,
+      "anim": 0.03,
+      "spawn": 11.2,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "5% chance to freeze for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Freezeb2 (5% chance to freeze for 4.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

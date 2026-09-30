@@ -1,0 +1,105 @@
+{
+  "id": "041",
+  "name": "Bath Cat",
+  "forms": [
+    {
+      "number": "041-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Bath Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 1000,
+      "range": 400,
+      "kb": 3,
+      "speed": 9,
+      "dps": 155,
+      "target": "Single",
+      "tba": 6.47,
+      "anim": 1.17,
+      "spawn": 31.2,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "041-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sexy Bathtub Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 1500,
+      "range": 400,
+      "kb": 3,
+      "speed": 9,
+      "dps": 232,
+      "target": "Single",
+      "tba": 6.47,
+      "anim": 1.17,
+      "spawn": 31.2,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "041-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Luxury Bath Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 1500,
+      "range": 400,
+      "kb": 3,
+      "speed": 9,
+      "dps": 312,
+      "target": "Single",
+      "tba": 4.8,
+      "anim": 1.17,
+      "spawn": 31.2,
+      "cost": 750,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "418",
+  "name": "Mighty Thermae D-Lux",
+  "forms": [
+    {
+      "number": "418-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mighty Thermae D-Lux",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12500,
+      "damage": 5250,
+      "range": 425,
+      "kb": 5,
+      "speed": 4,
+      "dps": 802,
+      "target": "Area",
+      "tba": 6.53,
+      "anim": 1.97,
+      "spawn": 174.53,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -675~425"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (100% chance to freeze for 1.0s) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -675~425) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "418-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Subterra Guardians",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12500,
+      "damage": 5250,
+      "range": 425,
+      "kb": 5,
+      "speed": 4,
+      "dps": 802,
+      "target": "Area",
+      "tba": 6.53,
+      "anim": 1.97,
+      "spawn": 174.53,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -675~425"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (100% chance to freeze for 1.0s) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -675~425) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "418-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Subterra Sentinels",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12500,
+      "damage": 5775,
+      "range": 425,
+      "kb": 5,
+      "speed": 4,
+      "dps": 885,
+      "target": "Area",
+      "tba": 6.53,
+      "anim": 1.97,
+      "spawn": 174.53,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -675~425"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (100% chance to freeze for 1.0s) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -675~425) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "418-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "Subterra Saviors",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 18750,
+      "damage": 6375,
+      "range": 425,
+      "kb": 5,
+      "speed": 4,
+      "dps": 975,
+      "target": "Area",
+      "tba": 6.53,
+      "anim": 4.1,
+      "spawn": 174.53,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against zombie, relic",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 1.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -725~475"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombie, relicu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (100% chance to freeze for 1.67s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -725~475) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Toxicb2"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "196",
+  "name": "Mekako Saionji",
+  "forms": [
+    {
+      "number": "196-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mekako Saionji",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14250,
+      "damage": 5000,
+      "range": 445,
+      "kb": 2,
+      "speed": 7,
+      "dps": 690,
+      "target": "Area",
+      "tba": 7.23,
+      "anim": 2.27,
+      "spawn": 144.53,
+      "cost": 5925,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: b1Resistantb2 (only takes 0.25x damage) \nu1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike)"
+    },
+    {
+      "number": "196-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Dr. Mekako",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14250,
+      "damage": 5000,
+      "range": 445,
+      "kb": 2,
+      "speed": 7,
+      "dps": 690,
+      "target": "Area",
+      "tba": 7.23,
+      "anim": 2.27,
+      "spawn": 144.53,
+      "cost": 5925,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 8.33s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Weakenb2 (50% chance to weaken by 50% for 8.33s) b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "196-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Mission Control Mekako",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14250,
+      "damage": 5000,
+      "range": 445,
+      "kb": 2,
+      "speed": 7,
+      "dps": 690,
+      "target": "Area",
+      "tba": 7.23,
+      "anim": 2.27,
+      "spawn": 144.53,
+      "cost": 5925,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 5.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Slowb2 (100% chance to slow for 5.0s)"
+    }
+  ]
+}

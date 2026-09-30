@@ -1,0 +1,91 @@
+{
+  "id": "462",
+  "name": "Legeluga",
+  "forms": [
+    {
+      "number": "462-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Legeluga",
+      "rarity": "Legendary Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 375,
+      "range": 140,
+      "kb": 5,
+      "speed": 4,
+      "dps": 75,
+      "target": "Single",
+      "tba": 5.0,
+      "anim": 0.23,
+      "spawn": 324.53,
+      "cost": 4500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "462-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Legelan Pasalan",
+      "rarity": "Legendary Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 6250,
+      "range": 300,
+      "kb": 5,
+      "speed": 20,
+      "dps": 1785,
+      "target": "Area",
+      "tba": 3.5,
+      "anim": 0.17,
+      "spawn": 124.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -700~300"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "b1Omni Strikeb2 (Effective range -700~300)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Warpb2, b1Waveb2"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "065",
+  "name": "Swordsman",
+  "forms": [
+    {
+      "number": "065-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Swordsman",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 700,
+      "damage": 100,
+      "range": 170,
+      "kb": 3,
+      "speed": 6,
+      "dps": 22,
+      "target": "Single",
+      "tba": 4.53,
+      "anim": 0.9,
+      "spawn": 3.87,
+      "cost": 240,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "065-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Swordsman Johnny",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1400,
+      "damage": 225,
+      "range": 170,
+      "kb": 3,
+      "speed": 6,
+      "dps": 50,
+      "target": "Single",
+      "tba": 4.53,
+      "anim": 0.9,
+      "spawn": 3.87,
+      "cost": 240,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

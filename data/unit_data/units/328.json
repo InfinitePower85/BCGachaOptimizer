@@ -1,0 +1,72 @@
+{
+  "id": "328",
+  "name": "Belial",
+  "forms": [
+    {
+      "number": "328-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Belial",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2375,
+      "damage": 750,
+      "range": 300,
+      "kb": 6,
+      "speed": 33,
+      "dps": 185,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 1.87,
+      "spawn": 51.2,
+      "cost": 1800,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 50% health"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 50% health)"
+    },
+    {
+      "number": "328-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Reckless Belial",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3625,
+      "damage": 1125,
+      "range": 300,
+      "kb": 6,
+      "speed": 33,
+      "dps": 280,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 1.87,
+      "spawn": 51.2,
+      "cost": 1800,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 50% health"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 50% health)"
+    }
+  ]
+}

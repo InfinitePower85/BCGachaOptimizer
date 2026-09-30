@@ -1,0 +1,114 @@
+{
+  "id": "181",
+  "name": "Mystery Girl Yuki",
+  "forms": [
+    {
+      "number": "181-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mystery Girl Yuki",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3050,
+      "damage": 3162,
+      "range": 430,
+      "kb": 5,
+      "speed": 9,
+      "dps": 298,
+      "target": "Area",
+      "tba": 10.67,
+      "anim": 1.43,
+      "spawn": 104.53,
+      "cost": 4320,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "181-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mystery Yuki ＆ Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6125,
+      "damage": 6325,
+      "range": 430,
+      "kb": 5,
+      "speed": 9,
+      "dps": 592,
+      "target": "Area",
+      "tba": 10.67,
+      "anim": 1.43,
+      "spawn": 104.53,
+      "cost": 4320,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "181-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Mystery Catgirl Yuki",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6125,
+      "damage": 6325,
+      "range": 460,
+      "kb": 5,
+      "speed": 9,
+      "dps": 702,
+      "target": "Area",
+      "tba": 9.0,
+      "anim": 1.43,
+      "spawn": 104.53,
+      "cost": 4320,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Weakenb2"
+    }
+  ]
+}

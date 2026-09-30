@@ -1,0 +1,85 @@
+{
+  "id": "082",
+  "name": "Doll Cats",
+  "forms": [
+    {
+      "number": "082-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Doll Cats",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 418,
+      "range": 190,
+      "kb": 4,
+      "speed": 10,
+      "dps": 158,
+      "target": "Area",
+      "tba": 2.67,
+      "anim": 1.7,
+      "spawn": 2.0,
+      "cost": 975,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "082-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cat-o-tron",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 418,
+      "range": 190,
+      "kb": 4,
+      "speed": 10,
+      "dps": 158,
+      "target": "Area",
+      "tba": 2.67,
+      "anim": 1.7,
+      "spawn": 2.0,
+      "cost": 975,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "082-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Nyalladin",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 418,
+      "range": 190,
+      "kb": 4,
+      "speed": 10,
+      "dps": 158,
+      "target": "Area",
+      "tba": 2.67,
+      "anim": 1.7,
+      "spawn": 2.0,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.1 Shockwave attack (Range: 332)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.1 Shockwave attack (Range: 332))"
+    }
+  ]
+}

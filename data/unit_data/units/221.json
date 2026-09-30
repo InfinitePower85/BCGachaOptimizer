@@ -1,0 +1,72 @@
+{
+  "id": "221",
+  "name": "ALLEN O'NEIL",
+  "forms": [
+    {
+      "number": "221-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "ALLEN O'NEIL",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2500,
+      "damage": 750,
+      "range": 400,
+      "kb": 2,
+      "speed": 10,
+      "dps": 188,
+      "target": "Single",
+      "tba": 4.0,
+      "anim": 0.03,
+      "spawn": 16.87,
+      "cost": 1575,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike)"
+    },
+    {
+      "number": "221-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "ALLEN O'NEIL CC",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2812,
+      "damage": 855,
+      "range": 400,
+      "kb": 2,
+      "speed": 10,
+      "dps": 215,
+      "target": "Single",
+      "tba": 4.0,
+      "anim": 0.03,
+      "spawn": 16.87,
+      "cost": 1575,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike)"
+    }
+  ]
+}

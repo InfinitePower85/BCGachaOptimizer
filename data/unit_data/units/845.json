@@ -1,0 +1,140 @@
+{
+  "id": "845",
+  "name": "Giyu Tomioka",
+  "forms": [
+    {
+      "number": "845-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Giyu Tomioka",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9800,
+      "damage": 2350,
+      "range": 430,
+      "kb": 4,
+      "speed": 10,
+      "dps": 362,
+      "target": "Area",
+      "tba": 6.47,
+      "anim": 0.9,
+      "spawn": 124.53,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against white, red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~431,1~431,330~680"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Slowb2 (100% chance to slow for 4.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~431,1~431,330~680), b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Slowb2, b1Curseb2, b1Surgeb2"
+    },
+    {
+      "number": "845-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Giyu Tomioka CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12250,
+      "damage": 2950,
+      "range": 430,
+      "kb": 4,
+      "speed": 10,
+      "dps": 455,
+      "target": "Area",
+      "tba": 6.47,
+      "anim": 0.9,
+      "spawn": 124.53,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against white, red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~431,1~431,330~680"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Slowb2 (100% chance to slow for 5.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~431,1~431,330~680), b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Slowb2, b1Curseb2, b1Surgeb2"
+    }
+  ]
+}

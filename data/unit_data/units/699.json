@@ -1,0 +1,159 @@
+{
+  "id": "699",
+  "name": "Thunder Jack",
+  "forms": [
+    {
+      "number": "699-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Thunder Jack",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 17500,
+      "damage": 3750,
+      "range": 250,
+      "kb": 1,
+      "speed": 30,
+      "dps": 2678,
+      "target": "Single",
+      "tba": 1.4,
+      "anim": 0.8,
+      "spawn": 77.87,
+      "cost": 3150,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Weakenb2"
+    },
+    {
+      "number": "699-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Bloody Jack",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 17500,
+      "damage": 3750,
+      "range": 250,
+      "kb": 1,
+      "speed": 30,
+      "dps": 2678,
+      "target": "Single",
+      "tba": 1.4,
+      "anim": 0.8,
+      "spawn": 77.87,
+      "cost": 3150,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Freezeb2"
+    },
+    {
+      "number": "699-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Lightning Jack",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 17500,
+      "damage": 3750,
+      "range": 250,
+      "kb": 1,
+      "speed": 30,
+      "dps": 2678,
+      "target": "Single",
+      "tba": 1.4,
+      "anim": 0.8,
+      "spawn": 77.87,
+      "cost": 3150,
+      "abilities": [
+        {
+          "group": "Against alien, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, akuu2: b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

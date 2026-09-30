@@ -1,0 +1,126 @@
+{
+  "id": "333",
+  "name": "Easter Neneko",
+  "forms": [
+    {
+      "number": "333-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Easter Neneko",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 250,
+      "range": 310,
+      "kb": 3,
+      "speed": 5,
+      "dps": 98,
+      "target": "Single",
+      "tba": 2.57,
+      "anim": 0.93,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "10% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (10% chance of a critical hit)"
+    },
+    {
+      "number": "333-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hoppity Neneko",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 375,
+      "range": 310,
+      "kb": 3,
+      "speed": 5,
+      "dps": 145,
+      "target": "Single",
+      "tba": 2.57,
+      "anim": 0.93,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "10% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (10% chance of a critical hit)"
+    },
+    {
+      "number": "333-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Blossoming Neneko",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 375,
+      "range": 310,
+      "kb": 3,
+      "speed": 5,
+      "dps": 145,
+      "target": "Single",
+      "tba": 2.57,
+      "anim": 0.93,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "15% chance to weaken by 50% for 1.5s"
+            },
+            {
+              "name": "Freeze",
+              "detail": "15% chance to freeze for 1.5s"
+            },
+            {
+              "name": "Slow",
+              "detail": "15% chance to freeze for 1.5s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "15% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "10% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Weakenb2 (15% chance to weaken by 50% for 1.5s) b1Freezeb2 (15% chance to freeze for 1.5s) b1Slowb2 (15% chance to freeze for 1.5s) b1Knockbackb2 (15% chance of knockback)\nu1General Abilitiesu2: b1Criticalb2 (10% chance of a critical hit)"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "218",
+  "name": "ERI",
+  "forms": [
+    {
+      "number": "218-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "ERI",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 240,
+      "range": 170,
+      "kb": 3,
+      "speed": 10,
+      "dps": 248,
+      "target": "Area",
+      "tba": 0.97,
+      "anim": 0.2,
+      "spawn": 11.2,
+      "cost": 998,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "218-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "ERI CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1625,
+      "damage": 350,
+      "range": 170,
+      "kb": 3,
+      "speed": 10,
+      "dps": 362,
+      "target": "Area",
+      "tba": 0.97,
+      "anim": 0.2,
+      "spawn": 11.2,
+      "cost": 998,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

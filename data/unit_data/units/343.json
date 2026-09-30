@@ -1,0 +1,72 @@
+{
+  "id": "343",
+  "name": "Maneki Cat",
+  "forms": [
+    {
+      "number": "343-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Maneki Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 248,
+      "range": 200,
+      "kb": 3,
+      "speed": 8,
+      "dps": 72,
+      "target": "Single",
+      "tba": 3.43,
+      "anim": 1.13,
+      "spawn": 12.53,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "343-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Neo Maneki Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 248,
+      "range": 200,
+      "kb": 3,
+      "speed": 8,
+      "dps": 72,
+      "target": "Single",
+      "tba": 3.43,
+      "anim": 1.13,
+      "spawn": 12.53,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    }
+  ]
+}

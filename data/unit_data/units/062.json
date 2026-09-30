@@ -1,0 +1,117 @@
+{
+  "id": "062",
+  "name": "Sushi Cat",
+  "forms": [
+    {
+      "number": "062-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sushi Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 200,
+      "range": 130,
+      "kb": 2,
+      "speed": 16,
+      "dps": 85,
+      "target": "Area",
+      "tba": 2.37,
+      "anim": 0.4,
+      "spawn": 9.87,
+      "cost": 1425,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "20% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (20% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "062-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Fried Shrimp Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4750,
+      "damage": 450,
+      "range": 130,
+      "kb": 2,
+      "speed": 16,
+      "dps": 190,
+      "target": "Area",
+      "tba": 2.37,
+      "anim": 0.4,
+      "spawn": 9.87,
+      "cost": 1425,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "20% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (20% chance to weaken by 50% for 6.67s)"
+    },
+    {
+      "number": "062-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Roe Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9500,
+      "damage": 450,
+      "range": 130,
+      "kb": 2,
+      "speed": 16,
+      "dps": 190,
+      "target": "Area",
+      "tba": 2.37,
+      "anim": 0.4,
+      "spawn": 9.87,
+      "cost": 1425,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "20% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (20% chance to weaken by 50% for 6.67s)"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "339",
+  "name": "Imagawa Yoshimoto",
+  "forms": [
+    {
+      "number": "339-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Imagawa Yoshimoto",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4325,
+      "damage": 3025,
+      "range": 425,
+      "kb": 3,
+      "speed": 8,
+      "dps": 322,
+      "target": "Area",
+      "tba": 9.4,
+      "anim": 3.77,
+      "spawn": 131.2,
+      "cost": 4440,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 6.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~700"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (100% chance to weaken by 50% for 6.0s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~700)"
+    },
+    {
+      "number": "339-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wargod Yoshimoto",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6150,
+      "damage": 4300,
+      "range": 425,
+      "kb": 3,
+      "speed": 8,
+      "dps": 458,
+      "target": "Area",
+      "tba": 9.4,
+      "anim": 3.77,
+      "spawn": 131.2,
+      "cost": 4440,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 6.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~700"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (100% chance to weaken by 50% for 6.0s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~700)"
+    },
+    {
+      "number": "339-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Immortal Yoshimoto",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7975,
+      "damage": 4300,
+      "range": 450,
+      "kb": 3,
+      "speed": 8,
+      "dps": 458,
+      "target": "Area",
+      "tba": 9.4,
+      "anim": 3.77,
+      "spawn": 131.2,
+      "cost": 4440,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 9.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~700"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (100% chance to weaken by 50% for 9.0s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~700)"
+    }
+  ]
+}

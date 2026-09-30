@@ -1,0 +1,127 @@
+{
+  "id": "120",
+  "name": "Wyvern",
+  "forms": [
+    {
+      "number": "120-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Wyvern",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3125,
+      "damage": 2675,
+      "range": 370,
+      "kb": 3,
+      "speed": 8,
+      "dps": 662,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 1.83,
+      "spawn": 94.53,
+      "cost": 4470,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "120-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wyvern Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5750,
+      "damage": 3950,
+      "range": 370,
+      "kb": 3,
+      "speed": 8,
+      "dps": 980,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 1.83,
+      "spawn": 94.53,
+      "cost": 4470,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "120-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Wyvern and Alec",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11500,
+      "damage": 3950,
+      "range": 370,
+      "kb": 3,
+      "speed": 8,
+      "dps": 980,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 1.83,
+      "spawn": 94.53,
+      "cost": 4470,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage) b1Weakenb2 (50% chance to weaken by 50% for 3.0s) \nu1General Abilitiesu2: b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Slowb2"
+    }
+  ]
+}

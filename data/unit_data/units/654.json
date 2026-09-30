@@ -1,0 +1,215 @@
+{
+  "id": "654",
+  "name": "Elder Beast Naala",
+  "forms": [
+    {
+      "number": "654-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Elder Beast Naala",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10500,
+      "damage": 12600,
+      "range": 300,
+      "kb": 2,
+      "speed": 16,
+      "dps": 2210,
+      "target": "Area",
+      "tba": 5.7,
+      "anim": 2.67,
+      "spawn": 121.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~301, 300~500, 500~700"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (30% chance to weaken by 50% for 3.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~301, 300~500, 500~700) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Curseb2, b1Waveb2, b1Surgeb2"
+    },
+    {
+      "number": "654-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Storm Beast Naala",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10500,
+      "damage": 12600,
+      "range": 300,
+      "kb": 2,
+      "speed": 16,
+      "dps": 2210,
+      "target": "Area",
+      "tba": 5.7,
+      "anim": 2.67,
+      "spawn": 121.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~301, 300~500, 500~700"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (30% chance to weaken by 50% for 3.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~301, 300~500, 500~700) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Curseb2, b1Waveb2, b1Surgeb2"
+    },
+    {
+      "number": "654-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Awakened Naala",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12500,
+      "damage": 12600,
+      "range": 300,
+      "kb": 2,
+      "speed": 16,
+      "dps": 2210,
+      "target": "Area",
+      "tba": 5.7,
+      "anim": 2.67,
+      "spawn": 121.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~301, 300~500, 500~700"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (100% chance to weaken by 50% for 4.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~301, 300~500, 500~700) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)\nu1Not affected byu2: b1Curseb2, b1Waveb2, b1Surgeb2"
+    }
+  ]
+}

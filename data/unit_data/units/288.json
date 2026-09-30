@@ -1,0 +1,140 @@
+{
+  "id": "288",
+  "name": "Little Leaguer Cat",
+  "forms": [
+    {
+      "number": "288-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Little Leaguer Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1725,
+      "damage": 725,
+      "range": 275,
+      "kb": 2,
+      "speed": 10,
+      "dps": 208,
+      "target": "Area",
+      "tba": 3.5,
+      "anim": 1.0,
+      "spawn": 13.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 425~550"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 425~550)"
+    },
+    {
+      "number": "288-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Major Leaguer Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2225,
+      "damage": 975,
+      "range": 275,
+      "kb": 2,
+      "speed": 10,
+      "dps": 278,
+      "target": "Area",
+      "tba": 3.5,
+      "anim": 1.0,
+      "spawn": 13.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "35% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 425~550"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) \r\nu1General Abilitiesu2: b1Barrier Breakerb2 (35% chance of breaking enemy barriers) b1Long Distanceb2 (Effective range 425~550)"
+    },
+    {
+      "number": "288-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Golfer Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2725,
+      "damage": 975,
+      "range": 275,
+      "kb": 2,
+      "speed": 10,
+      "dps": 278,
+      "target": "Area",
+      "tba": 3.5,
+      "anim": 1.0,
+      "spawn": 13.2,
+      "cost": 1200,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "35% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 425~650"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage) \r\nu1General Abilitiesu2: b1Barrier Breakerb2 (35% chance of breaking enemy barriers) b1Long Distanceb2 (Effective range 425~650)"
+    }
+  ]
+}

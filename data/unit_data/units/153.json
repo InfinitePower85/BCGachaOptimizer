@@ -1,0 +1,94 @@
+{
+  "id": "153",
+  "name": "Figure Skating Cats",
+  "forms": [
+    {
+      "number": "153-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Figure Skating Cats",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1275,
+      "damage": 600,
+      "range": 355,
+      "kb": 3,
+      "speed": 7,
+      "dps": 195,
+      "target": "Area",
+      "tba": 3.07,
+      "anim": 0.43,
+      "spawn": 7.2,
+      "cost": 1155,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "153-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Drama Cats",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1538,
+      "damage": 850,
+      "range": 355,
+      "kb": 3,
+      "speed": 7,
+      "dps": 278,
+      "target": "Area",
+      "tba": 3.07,
+      "anim": 0.43,
+      "spawn": 7.2,
+      "cost": 1155,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "153-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Slapstick Cats",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2062,
+      "damage": 1225,
+      "range": 355,
+      "kb": 3,
+      "speed": 7,
+      "dps": 400,
+      "target": "Area",
+      "tba": 3.07,
+      "anim": 0.43,
+      "spawn": 7.2,
+      "cost": 1155,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\r\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

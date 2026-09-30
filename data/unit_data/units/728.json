@@ -1,0 +1,106 @@
+{
+  "id": "728",
+  "name": "SOL DAE ROKKER",
+  "forms": [
+    {
+      "number": "728-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "SOL DAE ROKKER",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10250,
+      "damage": 8250,
+      "range": 400,
+      "kb": 3,
+      "speed": 16,
+      "dps": 995,
+      "target": "Area",
+      "tba": 8.3,
+      "anim": 4.13,
+      "spawn": 111.2,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "Against red, angel, alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -150~450,-300~300,-599~1"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angel, alienu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -150~450,-300~300,-599~1) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)"
+    },
+    {
+      "number": "728-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "SOL DAE ROKKER CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13500,
+      "damage": 11250,
+      "range": 400,
+      "kb": 3,
+      "speed": 16,
+      "dps": 1355,
+      "target": "Area",
+      "tba": 8.3,
+      "anim": 4.13,
+      "spawn": 111.2,
+      "cost": 4425,
+      "abilities": [
+        {
+          "group": "Against red, angel, alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -150~450,-300~300,-599~1"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angel, alienu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -150~450,-300~300,-599~1) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)"
+    }
+  ]
+}

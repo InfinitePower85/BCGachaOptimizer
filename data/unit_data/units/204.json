@@ -1,0 +1,109 @@
+{
+  "id": "204",
+  "name": "Kachi-Kachi",
+  "forms": [
+    {
+      "number": "204-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kachi-Kachi",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 175,
+      "range": 290,
+      "kb": 4,
+      "speed": 16,
+      "dps": 278,
+      "target": "Area",
+      "tba": 0.63,
+      "anim": 0.1,
+      "spawn": 7.2,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "15% chance to weaken by 50% for 2.33s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Weakenb2 (15% chance to weaken by 50% for 2.33s)"
+    },
+    {
+      "number": "204-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Fire Squad Kachiyama",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 2998,
+      "range": 460,
+      "kb": 2,
+      "speed": 38,
+      "dps": 530,
+      "target": "Area",
+      "tba": 5.67,
+      "anim": 2.03,
+      "spawn": 71.2,
+      "cost": 5100,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 4.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Weakenb2 (100% chance to weaken by 50% for 4.67s)"
+    },
+    {
+      "number": "204-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Kachiyama Assault Brigade",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 2998,
+      "range": 460,
+      "kb": 2,
+      "speed": 48,
+      "dps": 530,
+      "target": "Area",
+      "tba": 5.67,
+      "anim": 2.03,
+      "spawn": 71.2,
+      "cost": 5100,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 4.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (100% chance to weaken by 50% for 4.67s)"
+    }
+  ]
+}

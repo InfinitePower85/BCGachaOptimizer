@@ -1,0 +1,72 @@
+{
+  "id": "814",
+  "name": "Tasmanian Giant Crab",
+  "forms": [
+    {
+      "number": "814-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Tasmanian Giant Crab",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 700,
+      "damage": 2500,
+      "range": 180,
+      "kb": 1,
+      "speed": 5,
+      "dps": 375,
+      "target": "Single",
+      "tba": 6.67,
+      "anim": 0.03,
+      "spawn": 13.2,
+      "cost": 480,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "50% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Barrier Breakerb2 (50% chance of breaking enemy barriers)"
+    },
+    {
+      "number": "814-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Tasmanian Giant Crab CC",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 800,
+      "damage": 3500,
+      "range": 180,
+      "kb": 1,
+      "speed": 5,
+      "dps": 525,
+      "target": "Single",
+      "tba": 6.67,
+      "anim": 0.03,
+      "spawn": 13.2,
+      "cost": 480,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "50% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Barrier Breakerb2 (50% chance of breaking enemy barriers)"
+    }
+  ]
+}

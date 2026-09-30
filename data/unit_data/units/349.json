@@ -1,0 +1,72 @@
+{
+  "id": "349",
+  "name": "Gudetama Plate",
+  "forms": [
+    {
+      "number": "349-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Gudetama Plate",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 600,
+      "range": 150,
+      "kb": 1,
+      "speed": 12,
+      "dps": 152,
+      "target": "Single",
+      "tba": 3.93,
+      "anim": 0.7,
+      "spawn": 3.87,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "349-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Gudetama Bacon Plate",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 600,
+      "range": 150,
+      "kb": 1,
+      "speed": 12,
+      "dps": 152,
+      "target": "Single",
+      "tba": 3.93,
+      "anim": 0.7,
+      "spawn": 3.87,
+      "cost": 360,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "077",
+  "name": "Thundia",
+  "forms": [
+    {
+      "number": "077-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Thundia",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 3138,
+      "range": 410,
+      "kb": 5,
+      "speed": 5,
+      "dps": 238,
+      "target": "Area",
+      "tba": 13.23,
+      "anim": 3.0,
+      "spawn": 106.0,
+      "cost": 4410,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "077-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Thundia, type β",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3750,
+      "damage": 6388,
+      "range": 410,
+      "kb": 5,
+      "speed": 5,
+      "dps": 482,
+      "target": "Area",
+      "tba": 13.23,
+      "anim": 3.0,
+      "spawn": 106.0,
+      "cost": 4410,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "077-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Divine Thundia",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 10138,
+      "range": 440,
+      "kb": 5,
+      "speed": 10,
+      "dps": 765,
+      "target": "Area",
+      "tba": 13.23,
+      "anim": 3.0,
+      "spawn": 106.0,
+      "cost": 4410,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "077-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "Ultimate Thundia",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9500,
+      "damage": 15188,
+      "range": 460,
+      "kb": 5,
+      "speed": 15,
+      "dps": 1042,
+      "target": "Area",
+      "tba": 14.57,
+      "anim": 4.33,
+      "spawn": 97.87,
+      "cost": 4410,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~461, 460~920"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike) b1Long Distanceb2 (Effective range 1~461, 460~920) b1Multi-hit attackb2 (Attacks twice consecutively)\nu1Not affected byu2: b1Weakenb2, b1Slowb2"
+    }
+  ]
+}

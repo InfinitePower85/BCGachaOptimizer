@@ -1,0 +1,90 @@
+{
+  "id": "471",
+  "name": "Satanmaria",
+  "forms": [
+    {
+      "number": "471-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Satanmaria",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 4950,
+      "range": 370,
+      "kb": 4,
+      "speed": 14,
+      "dps": 952,
+      "target": "Area",
+      "tba": 5.2,
+      "anim": 1.7,
+      "spawn": 84.53,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "471-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wondermaria",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4200,
+      "damage": 5775,
+      "range": 370,
+      "kb": 4,
+      "speed": 28,
+      "dps": 1110,
+      "target": "Area",
+      "tba": 5.2,
+      "anim": 1.7,
+      "spawn": 84.53,
+      "cost": 4050,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

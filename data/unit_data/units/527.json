@@ -1,0 +1,90 @@
+{
+  "id": "527",
+  "name": "Snow Angel Twinstars",
+  "forms": [
+    {
+      "number": "527-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Snow Angel Twinstars",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2750,
+      "damage": 2325,
+      "range": 350,
+      "kb": 4,
+      "speed": 27,
+      "dps": 578,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 2.73,
+      "spawn": 66.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "527-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Snow Angel Twinstars, type Φ",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5500,
+      "damage": 3450,
+      "range": 350,
+      "kb": 4,
+      "speed": 27,
+      "dps": 855,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 2.73,
+      "spawn": 66.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

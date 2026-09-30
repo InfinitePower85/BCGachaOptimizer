@@ -1,0 +1,109 @@
+{
+  "id": "315",
+  "name": "Years-End Neneko",
+  "forms": [
+    {
+      "number": "315-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Years-End Neneko",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 250,
+      "range": 220,
+      "kb": 3,
+      "speed": 5,
+      "dps": 60,
+      "target": "Area",
+      "tba": 4.23,
+      "anim": 0.93,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "15% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (15% chance of a critical hit)"
+    },
+    {
+      "number": "315-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "New Year Neneko",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 375,
+      "range": 220,
+      "kb": 3,
+      "speed": 5,
+      "dps": 88,
+      "target": "Area",
+      "tba": 4.23,
+      "anim": 0.93,
+      "spawn": 57.8,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "15% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (15% chance of a critical hit)"
+    },
+    {
+      "number": "315-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Festive New Year Neneko",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 1125,
+      "range": 220,
+      "kb": 3,
+      "speed": 5,
+      "dps": 210,
+      "target": "Area",
+      "tba": 5.37,
+      "anim": 2.07,
+      "spawn": 43.0,
+      "cost": 148,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "15% chance of a critical hit"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (15% chance of a critical hit) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "864",
+  "name": "The Invisible Cat",
+  "forms": [
+    {
+      "number": "864-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "The Invisible Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1550,
+      "damage": 900,
+      "range": 300,
+      "kb": 3,
+      "speed": 12,
+      "dps": 150,
+      "target": "Area",
+      "tba": 5.97,
+      "anim": 1.33,
+      "spawn": 11.2,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Against angel, zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "864-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Groom Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1950,
+      "damage": 1125,
+      "range": 300,
+      "kb": 3,
+      "speed": 12,
+      "dps": 188,
+      "target": "Area",
+      "tba": 5.97,
+      "anim": 1.33,
+      "spawn": 11.2,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Against angel, zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

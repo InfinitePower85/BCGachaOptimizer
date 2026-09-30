@@ -1,0 +1,105 @@
+{
+  "id": "637",
+  "name": "Brainwashed Tank Cat",
+  "forms": [
+    {
+      "number": "637-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Brainwashed Tank Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 5,
+      "range": 110,
+      "kb": 1,
+      "speed": 14,
+      "dps": 2,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.27,
+      "spawn": 4.2,
+      "cost": 210,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "637-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Brainwashed Wall Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 5,
+      "range": 110,
+      "kb": 1,
+      "speed": 14,
+      "dps": 2,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.27,
+      "spawn": 4.2,
+      "cost": 210,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "637-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Brainwashed Eraser Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 5,
+      "range": 110,
+      "kb": 1,
+      "speed": 18,
+      "dps": 2,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.27,
+      "spawn": 4.2,
+      "cost": 210,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Insanely Tough",
+              "detail": "only takes 0.17x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Insanely Toughb2 (only takes 0.17x damage)"
+    }
+  ]
+}

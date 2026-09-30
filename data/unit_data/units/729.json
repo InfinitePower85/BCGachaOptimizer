@@ -1,0 +1,106 @@
+{
+  "id": "729",
+  "name": "Master of Mind Soractes",
+  "forms": [
+    {
+      "number": "729-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Master of Mind Soractes",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 500,
+      "range": 250,
+      "kb": 4,
+      "speed": 18,
+      "dps": 715,
+      "target": "Area",
+      "tba": 0.7,
+      "anim": 0.4,
+      "spawn": 131.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "20% chance to freeze for 1.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -400~400"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a Spirit (Master of Mind)"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, 70% debuff resistance, ignores enemy debuff resistance"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Freezeb2 (20% chance to freeze for 1.67s) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -400~400) b1Conjureb2 (Allows summon of a Spirit (Master of Mind)) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, 70% debuff resistance, ignores enemy debuff resistance)"
+    },
+    {
+      "number": "729-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Master of Mind Catcrates",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13750,
+      "damage": 625,
+      "range": 250,
+      "kb": 4,
+      "speed": 18,
+      "dps": 892,
+      "target": "Area",
+      "tba": 0.7,
+      "anim": 0.4,
+      "spawn": 131.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 1.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -400~400"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a Spirit (Master of Mind)"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, 70% debuff resistance, ignores enemy debuff resistance"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Freezeb2 (30% chance to freeze for 1.67s) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -400~400) b1Conjureb2 (Allows summon of a Spirit (Master of Mind)) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, 70% debuff resistance, ignores enemy debuff resistance)"
+    }
+  ]
+}

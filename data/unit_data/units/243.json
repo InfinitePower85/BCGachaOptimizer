@@ -1,0 +1,72 @@
+{
+  "id": "243",
+  "name": "Santa Kuu",
+  "forms": [
+    {
+      "number": "243-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Santa Kuu",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 7500,
+      "range": 400,
+      "kb": 5,
+      "speed": 12,
+      "dps": 450,
+      "target": "Area",
+      "tba": 16.63,
+      "anim": 2.0,
+      "spawn": 124.47,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "243-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Santa Kuu, type γ",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8250,
+      "damage": 10500,
+      "range": 400,
+      "kb": 5,
+      "speed": 12,
+      "dps": 632,
+      "target": "Area",
+      "tba": 16.63,
+      "anim": 2.0,
+      "spawn": 124.47,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

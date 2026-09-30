@@ -1,0 +1,235 @@
+{
+  "id": "383",
+  "name": "Glass Cat",
+  "forms": [
+    {
+      "number": "383-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Glass Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 250,
+      "range": 140,
+      "kb": 1,
+      "speed": 40,
+      "dps": 0,
+      "target": "Single",
+      "tba": 0.0,
+      "anim": 0.03,
+      "spawn": 24.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 8.33s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Metal",
+              "detail": "Only takes 1 damage from any attack, except critical hits"
+            },
+            {
+              "name": "Attack Once",
+              "detail": "Attacks a single time, then disappears from the battlefield"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Slowb2 (100% chance to slow for 8.33s) \nu1General Abilitiesu2: b1Metalb2 (Only takes 1 damage from any attack, except critical hits) b1Attack Onceb2 (Attacks a single time, then disappears from the battlefield)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Warpb2, b1Waveb2"
+    },
+    {
+      "number": "383-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Macho Glass Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 250,
+      "range": 140,
+      "kb": 1,
+      "speed": 40,
+      "dps": 0,
+      "target": "Single",
+      "tba": 0.0,
+      "anim": 0.03,
+      "spawn": 24.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 8.33s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Metal",
+              "detail": "Only takes 1 damage from any attack, except critical hits"
+            },
+            {
+              "name": "Attack Once",
+              "detail": "Attacks a single time, then disappears from the battlefield"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Slowb2 (100% chance to slow for 8.33s) \nu1General Abilitiesu2: b1Metalb2 (Only takes 1 damage from any attack, except critical hits) b1Attack Onceb2 (Attacks a single time, then disappears from the battlefield)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Warpb2, b1Waveb2"
+    },
+    {
+      "number": "383-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Macho Crystal Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 250,
+      "range": 140,
+      "kb": 1,
+      "speed": 40,
+      "dps": 0,
+      "target": "Single",
+      "tba": 0.0,
+      "anim": 0.03,
+      "spawn": 24.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 10.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Metal",
+              "detail": "Only takes 1 damage from any attack, except critical hits"
+            },
+            {
+              "name": "Attack Once",
+              "detail": "Attacks a single time, then disappears from the battlefield"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Slowb2 (100% chance to slow for 10.0s) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Metalb2 (Only takes 1 damage from any attack, except critical hits) b1Attack Onceb2 (Attacks a single time, then disappears from the battlefield)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Warpb2, b1Waveb2"
+    }
+  ]
+}

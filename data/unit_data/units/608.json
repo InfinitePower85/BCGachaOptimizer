@@ -1,0 +1,160 @@
+{
+  "id": "608",
+  "name": "Adventurer Kanna",
+  "forms": [
+    {
+      "number": "608-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Adventurer Kanna",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 2175,
+      "range": 400,
+      "kb": 3,
+      "speed": 12,
+      "dps": 290,
+      "target": "Area",
+      "tba": 5.17,
+      "anim": 0.67,
+      "spawn": 131.2,
+      "cost": 4725,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~800, 250~750, 500~1000"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "attacks thrice consecutively"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 2s (Range: 400~700)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~800, 250~750, 500~1000) b1Multi-hit attackb2 (attacks thrice consecutively) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 2s (Range: 400~700))"
+    },
+    {
+      "number": "608-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Swashbuckler Kanna",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6975,
+      "damage": 2850,
+      "range": 400,
+      "kb": 3,
+      "speed": 12,
+      "dps": 380,
+      "target": "Area",
+      "tba": 5.17,
+      "anim": 0.67,
+      "spawn": 131.2,
+      "cost": 4725,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~800, 250~750, 500~1000"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "attacks thrice consecutively"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 2s (Range: 400~700)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~800, 250~750, 500~1000) b1Multi-hit attackb2 (attacks thrice consecutively) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 2s (Range: 400~700))"
+    },
+    {
+      "number": "608-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Fabled Adventure Girl Kanna",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6975,
+      "damage": 2850,
+      "range": 400,
+      "kb": 3,
+      "speed": 12,
+      "dps": 380,
+      "target": "Area",
+      "tba": 5.17,
+      "anim": 0.67,
+      "spawn": 131.2,
+      "cost": 4725,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~800, 250~750, 500~1000"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "attacks thrice consecutively"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 3s (Range: 400~700)"
+            },
+            {
+              "name": "Behemoth Slayer",
+              "detail": "inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~800, 250~750, 500~1000) b1Multi-hit attackb2 (attacks thrice consecutively) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 3s (Range: 400~700)) b1Behemoth Slayerb2 (inflicts 2.5x damage, takes only 0.6x damage, 5% chance to dodge for 1.0s)"
+    }
+  ]
+}

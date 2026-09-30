@@ -1,0 +1,114 @@
+{
+  "id": "173",
+  "name": "Li'l Nyandam",
+  "forms": [
+    {
+      "number": "173-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Li'l Nyandam",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 2300,
+      "range": 551,
+      "kb": 2,
+      "speed": 5,
+      "dps": 158,
+      "target": "Area",
+      "tba": 14.53,
+      "anim": 2.57,
+      "spawn": 167.87,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Slowb2 (30% chance to slow for 3.0s)"
+    },
+    {
+      "number": "173-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Dark Emperor Catdam",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 2300,
+      "range": 551,
+      "kb": 2,
+      "speed": 5,
+      "dps": 158,
+      "target": "Area",
+      "tba": 14.53,
+      "anim": 2.57,
+      "spawn": 167.87,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "30% chance to slow for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Slowb2 (30% chance to slow for 3.0s)"
+    },
+    {
+      "number": "173-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Schoolbus Nyandam",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 3450,
+      "range": 551,
+      "kb": 2,
+      "speed": 5,
+      "dps": 310,
+      "target": "Area",
+      "tba": 11.13,
+      "anim": 2.57,
+      "spawn": 167.87,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Slowb2 (50% chance to slow for 3.0s)\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

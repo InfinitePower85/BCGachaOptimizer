@@ -1,0 +1,90 @@
+{
+  "id": "416",
+  "name": "Shinji Cat",
+  "forms": [
+    {
+      "number": "416-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shinji Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14250,
+      "damage": 5625,
+      "range": 240,
+      "kb": 2,
+      "speed": 9,
+      "dps": 848,
+      "target": "Area",
+      "tba": 6.63,
+      "anim": 2.0,
+      "spawn": 57.87,
+      "cost": 3000,
+      "abilities": [
+        {
+          "group": "Against black, metal",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, metalu2: b1Knockbackb2 (30% chance of knockback) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.2 Shockwave attack (Range: 532))"
+    },
+    {
+      "number": "416-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Toji & Kensuke Cats",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14250,
+      "damage": 5625,
+      "range": 240,
+      "kb": 2,
+      "speed": 9,
+      "dps": 848,
+      "target": "Area",
+      "tba": 6.63,
+      "anim": 2.0,
+      "spawn": 57.87,
+      "cost": 3000,
+      "abilities": [
+        {
+          "group": "Against black, metal",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, metalu2: b1Knockbackb2 (30% chance of knockback) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.2 Shockwave attack (Range: 532))"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "518",
+  "name": "Ken",
+  "forms": [
+    {
+      "number": "518-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ken",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 5400,
+      "range": 250,
+      "kb": 3,
+      "speed": 19,
+      "dps": 905,
+      "target": "Area",
+      "tba": 5.77,
+      "anim": 0.2,
+      "spawn": 84.53,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against red, floating, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -150~350"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floating, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively) b1Omni Strikeb2 (Effective range -150~350)"
+    },
+    {
+      "number": "518-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ken CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 5400,
+      "range": 250,
+      "kb": 3,
+      "speed": 19,
+      "dps": 905,
+      "target": "Area",
+      "tba": 5.77,
+      "anim": 0.2,
+      "spawn": 84.53,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against red, floating, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -150~350"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floating, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks thrice consecutively) b1Omni Strikeb2 (Effective range -150~350)"
+    },
+    {
+      "number": "518-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Crimson King of Battle Ken",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14400,
+      "damage": 3600,
+      "range": 250,
+      "kb": 3,
+      "speed": 19,
+      "dps": 662,
+      "target": "Area",
+      "tba": 5.43,
+      "anim": 0.2,
+      "spawn": 84.53,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against red, floating, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 4.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -150~350"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floating, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (100% chance to weaken by 50% for 4.0s) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -150~350)\nu1Not affected byu2: b1Slowb2"
+    }
+  ]
+}

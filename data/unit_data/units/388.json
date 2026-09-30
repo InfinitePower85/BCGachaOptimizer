@@ -1,0 +1,72 @@
+{
+  "id": "388",
+  "name": "Misaki Konno",
+  "forms": [
+    {
+      "number": "388-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Misaki Konno",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 625,
+      "range": 125,
+      "kb": 1,
+      "speed": 10,
+      "dps": 288,
+      "target": "Single",
+      "tba": 2.17,
+      "anim": 0.93,
+      "spawn": 14.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "388-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Misaki Konno CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 625,
+      "range": 125,
+      "kb": 1,
+      "speed": 10,
+      "dps": 288,
+      "target": "Single",
+      "tba": 2.17,
+      "anim": 0.93,
+      "spawn": 14.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

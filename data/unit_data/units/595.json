@@ -1,0 +1,152 @@
+{
+  "id": "595",
+  "name": "Mighty Aethur Ltd.",
+  "forms": [
+    {
+      "number": "595-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mighty Aethur Ltd.",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 1875,
+      "range": 370,
+      "kb": 3,
+      "speed": 8,
+      "dps": 312,
+      "target": "Area",
+      "tba": 6.0,
+      "anim": 1.77,
+      "spawn": 51.2,
+      "cost": 2010,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -730~370"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Insane Damageb2 (inflicts 5.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -730~370)"
+    },
+    {
+      "number": "595-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Atlantis Logistix",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 1875,
+      "range": 370,
+      "kb": 3,
+      "speed": 8,
+      "dps": 312,
+      "target": "Area",
+      "tba": 6.0,
+      "anim": 1.77,
+      "spawn": 51.2,
+      "cost": 2010,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -730~370"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Insane Damageb2 (inflicts 5.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -730~370)"
+    },
+    {
+      "number": "595-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Ultra Atlantis Logistix",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5000,
+      "damage": 1875,
+      "range": 370,
+      "kb": 3,
+      "speed": 8,
+      "dps": 312,
+      "target": "Area",
+      "tba": 6.0,
+      "anim": 1.77,
+      "spawn": 51.2,
+      "cost": 2010,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            },
+            {
+              "name": "Dodge",
+              "detail": "30% chance to dodge for 2s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -730~370"
+            },
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Insane Damageb2 (inflicts 5.0x damage) b1Dodgeb2 (30% chance to dodge for 2s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -730~370) b1Surviveb2 (100% chance to survive a lethal strike)"
+    }
+  ]
+}

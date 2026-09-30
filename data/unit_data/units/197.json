@@ -1,0 +1,156 @@
+{
+  "id": "197",
+  "name": "Catman",
+  "forms": [
+    {
+      "number": "197-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Catman",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9875,
+      "damage": 6250,
+      "range": 440,
+      "kb": 5,
+      "speed": 12,
+      "dps": 672,
+      "target": "Area",
+      "tba": 9.3,
+      "anim": 2.33,
+      "spawn": 147.87,
+      "cost": 5520,
+      "abilities": [
+        {
+          "group": "Against floating, alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "197-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Dark Catman",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9875,
+      "damage": 6250,
+      "range": 440,
+      "kb": 5,
+      "speed": 12,
+      "dps": 672,
+      "target": "Area",
+      "tba": 9.3,
+      "anim": 2.33,
+      "spawn": 147.87,
+      "cost": 5520,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "197-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Ultimate Catman",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9875,
+      "damage": 6250,
+      "range": 440,
+      "kb": 5,
+      "speed": 12,
+      "dps": 672,
+      "target": "Area",
+      "tba": 9.3,
+      "anim": 2.33,
+      "spawn": 147.87,
+      "cost": 5520,
+      "abilities": [
+        {
+          "group": "Against alien, relic",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, relicu2: b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Curseb2"
+    },
+    {
+      "number": "197-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "Catman Forever",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13125,
+      "damage": 6250,
+      "range": 440,
+      "kb": 5,
+      "speed": 12,
+      "dps": 1008,
+      "target": "Area",
+      "tba": 6.2,
+      "anim": 2.33,
+      "spawn": 114.53,
+      "cost": 5520,
+      "abilities": [
+        {
+          "group": "Against angel, alien, relic",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alien, relicu2: b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

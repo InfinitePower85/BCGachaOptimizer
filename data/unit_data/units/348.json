@@ -1,0 +1,114 @@
+{
+  "id": "348",
+  "name": "Gudetama Cat",
+  "forms": [
+    {
+      "number": "348-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Gudetama Cat",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 250,
+      "range": 150,
+      "kb": 3,
+      "speed": 5,
+      "dps": 110,
+      "target": "Single",
+      "tba": 2.27,
+      "anim": 0.87,
+      "spawn": 2.0,
+      "cost": 375,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "348-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Gude Omelet Cat",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 250,
+      "range": 150,
+      "kb": 3,
+      "speed": 5,
+      "dps": 110,
+      "target": "Single",
+      "tba": 2.27,
+      "anim": 0.87,
+      "spawn": 2.0,
+      "cost": 375,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "348-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Gudebene Cat",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 250,
+      "range": 150,
+      "kb": 3,
+      "speed": 5,
+      "dps": 110,
+      "target": "Single",
+      "tba": 2.27,
+      "anim": 0.87,
+      "spawn": 2.0,
+      "cost": 375,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\r\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

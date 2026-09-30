@@ -1,0 +1,132 @@
+{
+  "id": "772",
+  "name": "Master of Life Dr. Nova",
+  "forms": [
+    {
+      "number": "772-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Master of Life Dr. Nova",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13250,
+      "damage": 2500,
+      "range": 350,
+      "kb": 4,
+      "speed": 7,
+      "dps": 342,
+      "target": "Area",
+      "tba": 7.3,
+      "anim": 2.0,
+      "spawn": 131.2,
+      "cost": 4950,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.33s"
+            },
+            {
+              "name": "Curse",
+              "detail": "30% chance to curse for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~550"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 350 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Slowb2 (100% chance to slow for 3.33s) b1Curseb2 (30% chance to curse for 4.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~550) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance) b1Explosionb2 (100% chance to create an explosion at 350 range)\nu1Not affected byu2: b1Curseb2"
+    },
+    {
+      "number": "772-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Master of Life Catnova",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 15250,
+      "damage": 3250,
+      "range": 350,
+      "kb": 4,
+      "speed": 7,
+      "dps": 445,
+      "target": "Area",
+      "tba": 7.3,
+      "anim": 2.0,
+      "spawn": 131.2,
+      "cost": 4950,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.33s"
+            },
+            {
+              "name": "Curse",
+              "detail": "30% chance to curse for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~550"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 350 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Slowb2 (100% chance to slow for 3.33s) b1Curseb2 (30% chance to curse for 4.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~550) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance) b1Explosionb2 (100% chance to create an explosion at 350 range)\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

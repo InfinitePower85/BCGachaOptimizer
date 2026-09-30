@@ -1,0 +1,140 @@
+{
+  "id": "195",
+  "name": "Akira",
+  "forms": [
+    {
+      "number": "195-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Akira",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 3750,
+      "range": 430,
+      "kb": 3,
+      "speed": 13,
+      "dps": 718,
+      "target": "Area",
+      "tba": 5.23,
+      "anim": 3.6,
+      "spawn": 137.87,
+      "cost": 4860,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Freezeb2 (50% chance to freeze for 4.0s)\nu1Not affected byu2: b1Weakenb2"
+    },
+    {
+      "number": "195-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Shadow Akira",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 3750,
+      "range": 430,
+      "kb": 3,
+      "speed": 13,
+      "dps": 718,
+      "target": "Area",
+      "tba": 5.23,
+      "anim": 3.6,
+      "spawn": 137.87,
+      "cost": 4860,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 50% health"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 50% health)\nu1Not affected byu2: b1Weakenb2, b1Waveb2"
+    },
+    {
+      "number": "195-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Inferno Akira",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 3750,
+      "range": 430,
+      "kb": 3,
+      "speed": 13,
+      "dps": 718,
+      "target": "Area",
+      "tba": 5.23,
+      "anim": 3.6,
+      "spawn": 137.87,
+      "cost": 4860,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\r\nu1Not affected byu2: b1Weakenb2, b1Waveb2"
+    }
+  ]
+}

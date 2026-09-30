@@ -1,0 +1,116 @@
+{
+  "id": "694",
+  "name": "White Butler Vigler",
+  "forms": [
+    {
+      "number": "694-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "White Butler Vigler",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7000,
+      "damage": 4500,
+      "range": 360,
+      "kb": 6,
+      "speed": 15,
+      "dps": 435,
+      "target": "Area",
+      "tba": 10.37,
+      "anim": 4.0,
+      "spawn": 97.87,
+      "cost": 4410,
+      "abilities": [
+        {
+          "group": "Against red, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.3 Shockwave attack (Range: 732)"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "50% chance to break Aku shields"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, akuu2: b1Freezeb2 (50% chance to freeze for 5.0s) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.3 Shockwave attack (Range: 732)) b1Shield Piercingb2 (50% chance to break Aku shields)\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "694-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Black Butler Vigler",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7000,
+      "damage": 4500,
+      "range": 360,
+      "kb": 6,
+      "speed": 15,
+      "dps": 435,
+      "target": "Area",
+      "tba": 10.37,
+      "anim": 4.0,
+      "spawn": 97.87,
+      "cost": 4410,
+      "abilities": [
+        {
+          "group": "Against black, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.3 Shockwave attack (Range: 732)"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "50% chance to break Aku shields"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, akuu2: b1Freezeb2 (50% chance to freeze for 5.0s) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.3 Shockwave attack (Range: 732)) b1Shield Piercingb2 (50% chance to break Aku shields)\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

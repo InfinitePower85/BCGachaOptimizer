@@ -1,0 +1,132 @@
+{
+  "id": "790",
+  "name": "Baki Hanma",
+  "forms": [
+    {
+      "number": "790-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Baki Hanma",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5750,
+      "damage": 1625,
+      "range": 450,
+      "kb": 3,
+      "speed": 12,
+      "dps": 775,
+      "target": "Area",
+      "tba": 2.1,
+      "anim": 0.23,
+      "spawn": 77.87,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "75% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "5% chance of a critical hit"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "30% chance to break Aku shields"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Explosion",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Knockbackb2 (75% chance of knockback) \nu1General Abilitiesu2: b1Criticalb2 (5% chance of a critical hit) b1Zombie Killerb2 (Stops zombies from reviving) b1Shield Piercingb2 (30% chance to break Aku shields)\nu1Not affected byu2: b1Slowb2, b1Explosionb2"
+    },
+    {
+      "number": "790-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Baki Hanma CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 2030,
+      "range": 450,
+      "kb": 3,
+      "speed": 12,
+      "dps": 968,
+      "target": "Area",
+      "tba": 2.1,
+      "anim": 0.23,
+      "spawn": 77.87,
+      "cost": 4650,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "75% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "5% chance of a critical hit"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "30% chance to break Aku shields"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Explosion",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Knockbackb2 (75% chance of knockback) \nu1General Abilitiesu2: b1Criticalb2 (5% chance of a critical hit) b1Zombie Killerb2 (Stops zombies from reviving) b1Shield Piercingb2 (30% chance to break Aku shields)\nu1Not affected byu2: b1Slowb2, b1Explosionb2"
+    }
+  ]
+}

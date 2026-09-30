@@ -1,0 +1,72 @@
+{
+  "id": "495",
+  "name": "Seabreeze Coppermine",
+  "forms": [
+    {
+      "number": "495-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Seabreeze Coppermine",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4050,
+      "damage": 3225,
+      "range": 375,
+      "kb": 3,
+      "speed": 7,
+      "dps": 512,
+      "target": "Area",
+      "tba": 6.3,
+      "anim": 3.33,
+      "spawn": 65.87,
+      "cost": 3720,
+      "abilities": [
+        {
+          "group": "Against red, black, metal",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 3.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, metalu2: b1Freezeb2 (50% chance to freeze for 3.67s)"
+    },
+    {
+      "number": "495-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Seabreeze Coppermine, type κ",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5750,
+      "damage": 4375,
+      "range": 375,
+      "kb": 3,
+      "speed": 7,
+      "dps": 695,
+      "target": "Area",
+      "tba": 6.3,
+      "anim": 3.33,
+      "spawn": 65.87,
+      "cost": 3720,
+      "abilities": [
+        {
+          "group": "Against red, black, metal",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 3.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, metalu2: b1Freezeb2 (50% chance to freeze for 3.67s)"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "807",
+  "name": "Shadow",
+  "forms": [
+    {
+      "number": "807-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shadow",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 1150,
+      "range": 520,
+      "kb": 5,
+      "speed": 95,
+      "dps": 690,
+      "target": "Area",
+      "tba": 1.67,
+      "anim": 0.67,
+      "spawn": 111.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against black, zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)\nu1Not affected byu2: b1Slowb2, b1Toxicb2"
+    },
+    {
+      "number": "807-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Shadow & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 1150,
+      "range": 520,
+      "kb": 5,
+      "speed": 95,
+      "dps": 690,
+      "target": "Area",
+      "tba": 1.67,
+      "anim": 0.67,
+      "spawn": 111.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against black, zombie",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, zombieu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)\nu1Not affected byu2: b1Slowb2, b1Toxicb2"
+    }
+  ]
+}

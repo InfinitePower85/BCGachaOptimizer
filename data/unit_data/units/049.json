@@ -1,0 +1,105 @@
+{
+  "id": "049",
+  "name": "Pirate Cat",
+  "forms": [
+    {
+      "number": "049-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Pirate Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 762,
+      "damage": 82,
+      "range": 270,
+      "kb": 3,
+      "speed": 8,
+      "dps": 55,
+      "target": "Single",
+      "tba": 1.5,
+      "anim": 0.33,
+      "spawn": 5.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "049-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Captain Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 875,
+      "damage": 108,
+      "range": 270,
+      "kb": 3,
+      "speed": 8,
+      "dps": 72,
+      "target": "Single",
+      "tba": 1.5,
+      "anim": 0.33,
+      "spawn": 5.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "049-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Dread Pirate Catley",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 108,
+      "range": 300,
+      "kb": 3,
+      "speed": 8,
+      "dps": 72,
+      "target": "Single",
+      "tba": 1.5,
+      "anim": 0.33,
+      "spawn": 5.87,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Knockbackb2 (40% chance of knockback)"
+    }
+  ]
+}

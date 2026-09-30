@@ -1,0 +1,179 @@
+{
+  "id": "554",
+  "name": "Bakery Cat",
+  "forms": [
+    {
+      "number": "554-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Bakery Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1300,
+      "damage": 500,
+      "range": 280,
+      "kb": 3,
+      "speed": 6,
+      "dps": 340,
+      "target": "Single",
+      "tba": 1.47,
+      "anim": 0.43,
+      "spawn": 14.53,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Against angel, alien, zombie",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~500"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alien, zombieu2: b1Curseb2 (100% chance to curse for 3.0s)\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~500)\nu1Not affected byu2: b1Freezeb2, b1Warpb2"
+    },
+    {
+      "number": "554-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Boomerang Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1300,
+      "damage": 500,
+      "range": 280,
+      "kb": 3,
+      "speed": 6,
+      "dps": 340,
+      "target": "Single",
+      "tba": 1.47,
+      "anim": 0.43,
+      "spawn": 14.53,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Against angel, alien, zombie",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~500"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alien, zombieu2: b1Curseb2 (100% chance to curse for 3.0s)\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~500) \nu1Not affected byu2: b1Freezeb2, b1Warpb2"
+    },
+    {
+      "number": "554-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Fried Chicken Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2600,
+      "damage": 500,
+      "range": 320,
+      "kb": 3,
+      "speed": 6,
+      "dps": 340,
+      "target": "Area",
+      "tba": 1.47,
+      "anim": 0.43,
+      "spawn": 14.53,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Against angel, alien, zombie, relic",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~500"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alien, zombie, relicu2: b1Curseb2 (100% chance to curse for 3.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Long Distanceb2 (Effective range 250~500)\nu1Not affected byu2: b1Freezeb2, b1Curseb2, b1Warpb2"
+    }
+  ]
+}

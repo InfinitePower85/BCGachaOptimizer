@@ -1,0 +1,72 @@
+{
+  "id": "232",
+  "name": "Oden",
+  "forms": [
+    {
+      "number": "232-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Oden",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 438,
+      "damage": 120,
+      "range": 255,
+      "kb": 2,
+      "speed": 10,
+      "dps": 45,
+      "target": "Single",
+      "tba": 2.67,
+      "anim": 0.37,
+      "spawn": 4.53,
+      "cost": 375,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "232-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Oden CC",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 438,
+      "damage": 120,
+      "range": 255,
+      "kb": 2,
+      "speed": 10,
+      "dps": 45,
+      "target": "Single",
+      "tba": 2.67,
+      "anim": 0.37,
+      "spawn": 4.53,
+      "cost": 375,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

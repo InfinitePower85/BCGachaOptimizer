@@ -1,0 +1,175 @@
+{
+  "id": "618",
+  "name": "Summoner Satoru",
+  "forms": [
+    {
+      "number": "618-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Summoner Satoru",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4625,
+      "damage": 3150,
+      "range": 470,
+      "kb": 3,
+      "speed": 20,
+      "dps": 362,
+      "target": "Area",
+      "tba": 8.7,
+      "anim": 3.67,
+      "spawn": 84.87,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 370~770"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "20% chance to break Aku shields"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Slowb2 (100% chance to slow for 4.0s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 370~770) b1Shield Piercingb2 (20% chance to break Aku shields)\r\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "618-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Dark Summoner Satoru",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5375,
+      "damage": 4150,
+      "range": 470,
+      "kb": 3,
+      "speed": 20,
+      "dps": 477,
+      "target": "Area",
+      "tba": 8.7,
+      "anim": 3.67,
+      "spawn": 84.87,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 6.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 370~770"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "20% chance to break Aku shields"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Slowb2 (100% chance to slow for 6.0s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 370~770) b1Shield Piercingb2 (20% chance to break Aku shields)\r\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "618-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Devil Hunter Satoru",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6125,
+      "damage": 4150,
+      "range": 470,
+      "kb": 3,
+      "speed": 20,
+      "dps": 478,
+      "target": "Area",
+      "tba": 8.7,
+      "anim": 3.67,
+      "spawn": 84.53,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 6.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 370~770"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "50% chance to break Aku shields"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Slowb2 (100% chance to slow for 6.0s) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 370~770) b1Shield Piercingb2 (50% chance to break Aku shields)\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "482",
+  "name": "Doktor Heaven",
+  "forms": [
+    {
+      "number": "482-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Doktor Heaven",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 27500,
+      "damage": 6775,
+      "range": 400,
+      "kb": 3,
+      "speed": 8,
+      "dps": 847,
+      "target": "Area",
+      "tba": 8.0,
+      "anim": 2.03,
+      "spawn": 167.87,
+      "cost": 5400,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "Insanely Tough",
+              "detail": "only takes 0.17x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: b1Insanely Toughb2 (only takes 0.17x damage)"
+    },
+    {
+      "number": "482-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Professor Abyss",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 27500,
+      "damage": 6775,
+      "range": 400,
+      "kb": 3,
+      "speed": 8,
+      "dps": 847,
+      "target": "Area",
+      "tba": 8.0,
+      "anim": 2.03,
+      "spawn": 167.87,
+      "cost": 5400,
+      "abilities": [
+        {
+          "group": "Against black, alien",
+          "abilities": [
+            {
+              "name": "Insane Damage",
+              "detail": "inflicts 5.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, alienu2: b1Insane Damageb2 (inflicts 5.0x damage)"
+    }
+  ]
+}

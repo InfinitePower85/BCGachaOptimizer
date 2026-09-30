@@ -1,0 +1,113 @@
+{
+  "id": "188",
+  "name": "Juvens",
+  "forms": [
+    {
+      "number": "188-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Juvens",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11500,
+      "damage": 4500,
+      "range": 210,
+      "kb": 2,
+      "speed": 10,
+      "dps": 1338,
+      "target": "Single",
+      "tba": 3.37,
+      "anim": 0.73,
+      "spawn": 37.87,
+      "cost": 2850,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "188-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Juvens CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 16750,
+      "damage": 5375,
+      "range": 210,
+      "kb": 2,
+      "speed": 10,
+      "dps": 1598,
+      "target": "Single",
+      "tba": 3.37,
+      "anim": 0.73,
+      "spawn": 37.87,
+      "cost": 2850,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "188-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Holiday Juvens CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 19500,
+      "damage": 5375,
+      "range": 210,
+      "kb": 2,
+      "speed": 10,
+      "dps": 1598,
+      "target": "Single",
+      "tba": 3.37,
+      "anim": 1.13,
+      "spawn": 37.87,
+      "cost": 2850,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Dodge",
+              "detail": "20% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Resistantb2 (only takes 0.25x damage) b1Multi-hit attackb2 (Attacks twice consecutively) b1Dodgeb2 (20% chance to dodge for 2.0s)"
+    }
+  ]
+}

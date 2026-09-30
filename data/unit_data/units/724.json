@@ -1,0 +1,142 @@
+{
+  "id": "724",
+  "name": "Lightmother Aset",
+  "forms": [
+    {
+      "number": "724-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Lightmother Aset",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14000,
+      "damage": 875,
+      "range": 300,
+      "kb": 3,
+      "speed": 15,
+      "dps": 430,
+      "target": "Area",
+      "tba": 2.03,
+      "anim": 0.97,
+      "spawn": 111.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 66% health"
+            },
+            {
+              "name": "Wave attack",
+              "detail": "50% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 66% health) b1Wave attackb2 (50% chance to perform a Lv.2 Shockwave attack (Range: 532)) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)"
+    },
+    {
+      "number": "724-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Nefer Aset",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 17750,
+      "damage": 1050,
+      "range": 300,
+      "kb": 3,
+      "speed": 15,
+      "dps": 518,
+      "target": "Area",
+      "tba": 2.03,
+      "anim": 0.97,
+      "spawn": 111.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 66% health"
+            },
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 66% health) b1Wave attackb2 (100% chance to perform a Lv.2 Shockwave attack (Range: 532)) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)"
+    },
+    {
+      "number": "724-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Almighty Aset",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 23075,
+      "damage": 1155,
+      "range": 350,
+      "kb": 3,
+      "speed": 15,
+      "dps": 568,
+      "target": "Area",
+      "tba": 2.03,
+      "anim": 0.97,
+      "spawn": 111.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 66% health"
+            },
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.3 Shockwave attack (Range: 732)"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 66% health) b1Wave attackb2 (100% chance to perform a Lv.3 Shockwave attack (Range: 732)) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Freezeb2, b1Toxicb2"
+    }
+  ]
+}

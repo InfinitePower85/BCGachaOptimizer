@@ -1,0 +1,52 @@
+{
+  "id": "063",
+  "name": "Toy Machine Cat",
+  "forms": [
+    {
+      "number": "063-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Toy Machine Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 25,
+      "range": 110,
+      "kb": 1,
+      "speed": 8,
+      "dps": 10,
+      "target": "Area",
+      "tba": 2.27,
+      "anim": 0.3,
+      "spawn": 2.0,
+      "cost": 150,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "063-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Vendor Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1125,
+      "damage": 25,
+      "range": 110,
+      "kb": 1,
+      "speed": 8,
+      "dps": 10,
+      "target": "Area",
+      "tba": 2.27,
+      "anim": 0.3,
+      "spawn": 2.0,
+      "cost": 150,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

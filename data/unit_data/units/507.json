@@ -1,0 +1,148 @@
+{
+  "id": "507",
+  "name": "Eyewaltz",
+  "forms": [
+    {
+      "number": "507-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Eyewaltz",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 2750,
+      "range": 360,
+      "kb": 3,
+      "speed": 12,
+      "dps": 585,
+      "target": "Area",
+      "tba": 4.7,
+      "anim": 1.07,
+      "spawn": 101.2,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "15% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike) b1Savage Blowb2 (15% chance to inflict an attack with 2x damage to non-Metal enemies)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "507-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Eyewaltz CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 3750,
+      "range": 360,
+      "kb": 3,
+      "speed": 12,
+      "dps": 798,
+      "target": "Area",
+      "tba": 4.7,
+      "anim": 1.07,
+      "spawn": 101.2,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "15% chance to inflict an attack with 2x damage to non-Metal enemies"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike) b1Savage Blowb2 (15% chance to inflict an attack with 2x damage to non-Metal enemies)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "507-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Nameless Eyewaltz CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9000,
+      "damage": 3750,
+      "range": 360,
+      "kb": 3,
+      "speed": 12,
+      "dps": 792,
+      "target": "Area",
+      "tba": 4.73,
+      "anim": 1.17,
+      "spawn": 101.2,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "15% chance to inflict an attack with 2x damage to non-Metal enemies"
+            },
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.2 Shockwave attack (Range: 532)"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike) b1Savage Blowb2 (15% chance to inflict an attack with 2x damage to non-Metal enemies) b1Wave attackb2 (100% chance to perform a Lv.2 Shockwave attack (Range: 532))\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

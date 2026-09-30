@@ -1,0 +1,72 @@
+{
+  "id": "372",
+  "name": "Rin the Cat",
+  "forms": [
+    {
+      "number": "372-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rin the Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2025,
+      "damage": 375,
+      "range": 275,
+      "kb": 3,
+      "speed": 10,
+      "dps": 122,
+      "target": "Single",
+      "tba": 3.03,
+      "anim": 0.4,
+      "spawn": 7.2,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "372-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mage Rin Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2025,
+      "damage": 375,
+      "range": 275,
+      "kb": 3,
+      "speed": 10,
+      "dps": 122,
+      "target": "Single",
+      "tba": 3.03,
+      "anim": 0.4,
+      "spawn": 7.2,
+      "cost": 525,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Knockbackb2 (50% chance of knockback)"
+    }
+  ]
+}

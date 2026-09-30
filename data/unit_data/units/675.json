@@ -1,0 +1,211 @@
+{
+  "id": "675",
+  "name": "Mighty Carrowsell",
+  "forms": [
+    {
+      "number": "675-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mighty Carrowsell",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11000,
+      "damage": 5625,
+      "range": 400,
+      "kb": 4,
+      "speed": 5,
+      "dps": 655,
+      "target": "Area",
+      "tba": 8.6,
+      "anim": 3.1,
+      "spawn": 144.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against black, zombie",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            },
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 8.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range 1~401,-35~435, -70-470"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, zombieu2: b1Slowb2 (50% chance to slow for 4.0s) b1Curseb2 (100% chance to curse for 8.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range 1~401,-35~435, -70-470) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Toxicb2"
+    },
+    {
+      "number": "675-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Extraterrestrial Envanz",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11000,
+      "damage": 5625,
+      "range": 400,
+      "kb": 4,
+      "speed": 5,
+      "dps": 655,
+      "target": "Area",
+      "tba": 8.6,
+      "anim": 3.1,
+      "spawn": 144.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against black, zombie",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            },
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 8.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range 1~401,-35~435, -70-470"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, zombieu2: b1Slowb2 (50% chance to slow for 4.0s) b1Curseb2 (100% chance to curse for 8.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range 1~401,-35~435, -70-470) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Toxicb2"
+    },
+    {
+      "number": "675-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Extradimensional Envanz",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11000,
+      "damage": 7500,
+      "range": 400,
+      "kb": 4,
+      "speed": 5,
+      "dps": 872,
+      "target": "Area",
+      "tba": 8.6,
+      "anim": 3.1,
+      "spawn": 144.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against black, zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 4.0s"
+            },
+            {
+              "name": "Curse",
+              "detail": "100% chance to curse for 8.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range 1~401, -35~435, -70~470"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, zombieu2: b1Resistantb2 (only takes 0.25x damage) b1Slowb2 (50% chance to slow for 4.0s) b1Curseb2 (100% chance to curse for 8.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range 1~401, -35~435, -70~470) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Toxicb2"
+    }
+  ]
+}

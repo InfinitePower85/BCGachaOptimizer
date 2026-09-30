@@ -1,0 +1,117 @@
+{
+  "id": "346",
+  "name": "Michelia",
+  "forms": [
+    {
+      "number": "346-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Michelia",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5625,
+      "damage": 4125,
+      "range": 415,
+      "kb": 4,
+      "speed": 8,
+      "dps": 508,
+      "target": "Area",
+      "tba": 8.13,
+      "anim": 0.97,
+      "spawn": 134.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (50% chance to freeze for 4.0s)"
+    },
+    {
+      "number": "346-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Michelia CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 5625,
+      "range": 415,
+      "kb": 4,
+      "speed": 8,
+      "dps": 692,
+      "target": "Area",
+      "tba": 8.13,
+      "anim": 0.97,
+      "spawn": 134.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (50% chance to freeze for 4.0s)"
+    },
+    {
+      "number": "346-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Naptime Michelia CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9375,
+      "damage": 7125,
+      "range": 415,
+      "kb": 4,
+      "speed": 8,
+      "dps": 815,
+      "target": "Area",
+      "tba": 8.73,
+      "anim": 0.97,
+      "spawn": 134.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (100% chance to freeze for 4.0s)"
+    }
+  ]
+}

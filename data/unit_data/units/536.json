@@ -1,0 +1,80 @@
+{
+  "id": "536",
+  "name": "Hatsune Miku",
+  "forms": [
+    {
+      "number": "536-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Hatsune Miku",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4750,
+      "damage": 2375,
+      "range": 350,
+      "kb": 4,
+      "speed": 15,
+      "dps": 425,
+      "target": "Area",
+      "tba": 5.6,
+      "anim": 1.63,
+      "spawn": 71.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against red, floating, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floating, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (100% chance to weaken by 50% for 2.0s)"
+    },
+    {
+      "number": "536-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hatsune Miku CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 3125,
+      "range": 350,
+      "kb": 4,
+      "speed": 15,
+      "dps": 558,
+      "target": "Area",
+      "tba": 5.6,
+      "anim": 1.63,
+      "spawn": 71.2,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against red, floating, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, floating, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Weakenb2 (100% chance to weaken by 50% for 2.0s)"
+    }
+  ]
+}

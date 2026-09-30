@@ -1,0 +1,105 @@
+{
+  "id": "137",
+  "name": "Momotaro",
+  "forms": [
+    {
+      "number": "137-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Momotaro",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1800,
+      "damage": 765,
+      "range": 280,
+      "kb": 3,
+      "speed": 10,
+      "dps": 290,
+      "target": "Area",
+      "tba": 2.63,
+      "anim": 0.67,
+      "spawn": 4.53,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against red, angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 2.33s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angelu2: b1Freezeb2 (30% chance to freeze for 2.33s)"
+    },
+    {
+      "number": "137-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "The Peach Angels",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 1875,
+      "range": 405,
+      "kb": 4,
+      "speed": 44,
+      "dps": 418,
+      "target": "Area",
+      "tba": 4.5,
+      "anim": 1.2,
+      "spawn": 57.87,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against red, angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 3.33s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angelu2: b1Freezeb2 (30% chance to freeze for 3.33s)"
+    },
+    {
+      "number": "137-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "The Peach Devils",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 2875,
+      "range": 435,
+      "kb": 4,
+      "speed": 48,
+      "dps": 640,
+      "target": "Area",
+      "tba": 4.5,
+      "anim": 1.2,
+      "spawn": 57.87,
+      "cost": 3600,
+      "abilities": [
+        {
+          "group": "Against red, angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "40% chance to freeze for 3.33s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angelu2: b1Freezeb2 (40% chance to freeze for 3.33s)"
+    }
+  ]
+}

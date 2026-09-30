@@ -1,0 +1,146 @@
+{
+  "id": "436",
+  "name": "Li'l Valkyrie",
+  "forms": [
+    {
+      "number": "436-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Li'l Valkyrie",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 7250,
+      "range": 345,
+      "kb": 2,
+      "speed": 32,
+      "dps": 1685,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 1.2,
+      "spawn": 51.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "30% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Barrier Breakerb2 (30% chance of breaking enemy barriers)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Curseb2, b1Warpb2, b1Waveb2"
+    },
+    {
+      "number": "436-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wind Dancer Valkyrie",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 7250,
+      "range": 345,
+      "kb": 2,
+      "speed": 32,
+      "dps": 1685,
+      "target": "Area",
+      "tba": 4.3,
+      "anim": 1.2,
+      "spawn": 51.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "30% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Barrier Breakerb2 (30% chance of breaking enemy barriers)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Curseb2, b1Warpb2, b1Waveb2"
+    }
+  ]
+}

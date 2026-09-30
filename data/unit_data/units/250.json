@@ -1,0 +1,105 @@
+{
+  "id": "250",
+  "name": "C&D Swordsman",
+  "forms": [
+    {
+      "number": "250-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "C&D Swordsman",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 25,
+      "range": 140,
+      "kb": 2,
+      "speed": 9,
+      "dps": 18,
+      "target": "Single",
+      "tba": 1.53,
+      "anim": 0.37,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 50% health"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 50% health)"
+    },
+    {
+      "number": "250-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sailor Swordsman",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 25,
+      "range": 140,
+      "kb": 2,
+      "speed": 9,
+      "dps": 18,
+      "target": "Single",
+      "tba": 1.53,
+      "anim": 0.37,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 50% health"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 50% health)"
+    },
+    {
+      "number": "250-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Swordsman of the Ming Emperor",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 25,
+      "range": 140,
+      "kb": 2,
+      "speed": 9,
+      "dps": 18,
+      "target": "Single",
+      "tba": 1.53,
+      "anim": 0.37,
+      "spawn": 2.0,
+      "cost": 75,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 150% at 50% health"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 150% at 50% health)"
+    }
+  ]
+}

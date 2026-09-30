@@ -1,0 +1,72 @@
+{
+  "id": "266",
+  "name": "Setsuko",
+  "forms": [
+    {
+      "number": "266-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Setsuko",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1100,
+      "damage": 225,
+      "range": 240,
+      "kb": 1,
+      "speed": 5,
+      "dps": 38,
+      "target": "Area",
+      "tba": 5.97,
+      "anim": 1.0,
+      "spawn": 8.53,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "266-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Setsuko Love Mackerel",
+      "rarity": "Special",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1450,
+      "damage": 300,
+      "range": 240,
+      "kb": 1,
+      "speed": 5,
+      "dps": 50,
+      "target": "Area",
+      "tba": 5.97,
+      "anim": 1.0,
+      "spawn": 8.53,
+      "cost": 540,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Knockbackb2 (30% chance of knockback)"
+    }
+  ]
+}

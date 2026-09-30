@@ -1,0 +1,105 @@
+{
+  "id": "061",
+  "name": "Bronze Cat",
+  "forms": [
+    {
+      "number": "061-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Bronze Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 245,
+      "range": 160,
+      "kb": 2,
+      "speed": 8,
+      "dps": 145,
+      "target": "Area",
+      "tba": 1.7,
+      "anim": 0.4,
+      "spawn": 10.07,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "20% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Knockbackb2 (20% chance of knockback)"
+    },
+    {
+      "number": "061-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Michelangelo Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 320,
+      "range": 160,
+      "kb": 2,
+      "speed": 8,
+      "dps": 188,
+      "target": "Area",
+      "tba": 1.7,
+      "anim": 0.4,
+      "spawn": 10.07,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "20% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Knockbackb2 (20% chance of knockback)"
+    },
+    {
+      "number": "061-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Quizmaster Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 470,
+      "range": 190,
+      "kb": 2,
+      "speed": 8,
+      "dps": 100,
+      "target": "Area",
+      "tba": 4.73,
+      "anim": 0.9,
+      "spawn": 10.07,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Knockbackb2 (30% chance of knockback)"
+    }
+  ]
+}

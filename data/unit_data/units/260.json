@@ -1,0 +1,132 @@
+{
+  "id": "260",
+  "name": "Radiant Aphrodite",
+  "forms": [
+    {
+      "number": "260-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Radiant Aphrodite",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4875,
+      "damage": 4500,
+      "range": 600,
+      "kb": 4,
+      "speed": 7,
+      "dps": 375,
+      "target": "Area",
+      "tba": 11.97,
+      "anim": 4.07,
+      "spawn": 131.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 450~850"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 450~850)"
+    },
+    {
+      "number": "260-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Megaphrodite",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 6000,
+      "range": 600,
+      "kb": 4,
+      "speed": 7,
+      "dps": 502,
+      "target": "Area",
+      "tba": 11.97,
+      "anim": 4.07,
+      "spawn": 131.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 450~850"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 450~850)"
+    },
+    {
+      "number": "260-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Almighty Aphrodite",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7750,
+      "damage": 6000,
+      "range": 600,
+      "kb": 4,
+      "speed": 7,
+      "dps": 502,
+      "target": "Area",
+      "tba": 11.97,
+      "anim": 4.07,
+      "spawn": 131.2,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 450~850"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 450~850)"
+    }
+  ]
+}

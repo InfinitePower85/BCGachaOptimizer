@@ -1,0 +1,98 @@
+{
+  "id": "292",
+  "name": "Mami Tomoe",
+  "forms": [
+    {
+      "number": "292-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mami Tomoe",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6600,
+      "damage": 5850,
+      "range": 475,
+      "kb": 4,
+      "speed": 9,
+      "dps": 645,
+      "target": "Area",
+      "tba": 9.07,
+      "anim": 1.1,
+      "spawn": 134.53,
+      "cost": 4410,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~700"
+            },
+            {
+              "name": "Witch Killer",
+              "detail": "inflicts 5x damage, takes only 0.1x damage from Witch enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~700) b1Witch Killerb2 (inflicts 5x damage, takes only 0.1x damage from Witch enemies)"
+    },
+    {
+      "number": "292-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mami & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6600,
+      "damage": 5850,
+      "range": 475,
+      "kb": 4,
+      "speed": 9,
+      "dps": 645,
+      "target": "Area",
+      "tba": 9.07,
+      "anim": 1.1,
+      "spawn": 134.53,
+      "cost": 4410,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~700"
+            },
+            {
+              "name": "Witch Killer",
+              "detail": "inflicts 5x damage, takes only 0.1x damage from Witch enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~700) b1Witch Killerb2 (inflicts 5x damage, takes only 0.1x damage from Witch enemies)"
+    }
+  ]
+}

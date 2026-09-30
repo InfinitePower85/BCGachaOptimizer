@@ -1,0 +1,72 @@
+{
+  "id": "282",
+  "name": "Futenyan",
+  "forms": [
+    {
+      "number": "282-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Futenyan",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 218,
+      "range": 150,
+      "kb": 2,
+      "speed": 6,
+      "dps": 100,
+      "target": "Single",
+      "tba": 2.2,
+      "anim": 0.9,
+      "spawn": 3.2,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "282-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Massaging Futenyan",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 148,
+      "range": 150,
+      "kb": 2,
+      "speed": 12,
+      "dps": 68,
+      "target": "Single",
+      "tba": 2.2,
+      "anim": 0.9,
+      "spawn": 3.2,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    }
+  ]
+}

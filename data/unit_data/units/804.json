@@ -1,0 +1,114 @@
+{
+  "id": "804",
+  "name": "Sonic",
+  "forms": [
+    {
+      "number": "804-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sonic",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3875,
+      "damage": 5250,
+      "range": 190,
+      "kb": 7,
+      "speed": 95,
+      "dps": 870,
+      "target": "Area",
+      "tba": 6.03,
+      "anim": 0.17,
+      "spawn": 54.53,
+      "cost": 3000,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Slowb2 (100% chance to slow for 2.0s) b1Knockbackb2 (100% chance of knockback)\nu1Not affected byu2: b1Freezeb2, b1Slowb2"
+    },
+    {
+      "number": "804-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sonic & Cat",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3875,
+      "damage": 5250,
+      "range": 190,
+      "kb": 7,
+      "speed": 95,
+      "dps": 870,
+      "target": "Area",
+      "tba": 6.03,
+      "anim": 0.17,
+      "spawn": 54.53,
+      "cost": 3000,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Slowb2 (100% chance to slow for 2.0s) b1Knockbackb2 (100% chance of knockback)\nu1Not affected byu2: b1Freezeb2, b1Slowb2"
+    }
+  ]
+}

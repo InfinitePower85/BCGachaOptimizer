@@ -1,0 +1,105 @@
+{
+  "id": "147",
+  "name": "Stilts Cat",
+  "forms": [
+    {
+      "number": "147-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Stilts Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 838,
+      "damage": 115,
+      "range": 310,
+      "kb": 3,
+      "speed": 6,
+      "dps": 45,
+      "target": "Single",
+      "tba": 2.53,
+      "anim": 0.57,
+      "spawn": 8.53,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "147-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Totem Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 995,
+      "damage": 165,
+      "range": 310,
+      "kb": 3,
+      "speed": 6,
+      "dps": 65,
+      "target": "Single",
+      "tba": 2.53,
+      "anim": 0.57,
+      "spawn": 8.53,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "147-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Acrobat Cats",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1990,
+      "damage": 330,
+      "range": 310,
+      "kb": 3,
+      "speed": 6,
+      "dps": 130,
+      "target": "Single",
+      "tba": 2.53,
+      "anim": 0.57,
+      "spawn": 8.53,
+      "cost": 570,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Knockbackb2 (50% chance of knockback)"
+    }
+  ]
+}

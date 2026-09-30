@@ -1,0 +1,72 @@
+{
+  "id": "745",
+  "name": "Felix the Cat Duke Cat",
+  "forms": [
+    {
+      "number": "745-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Felix the Cat Duke Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 60,
+      "range": 200,
+      "kb": 3,
+      "speed": 10,
+      "dps": 8,
+      "target": "Single",
+      "tba": 8.5,
+      "anim": 1.2,
+      "spawn": 32.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "100% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (100% chance of a critical hit)"
+    },
+    {
+      "number": "745-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mercenary Leader Felix Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 60,
+      "range": 200,
+      "kb": 3,
+      "speed": 10,
+      "dps": 8,
+      "target": "Single",
+      "tba": 8.5,
+      "anim": 1.2,
+      "spawn": 32.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "100% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (100% chance of a critical hit)"
+    }
+  ]
+}

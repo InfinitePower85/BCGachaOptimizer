@@ -1,0 +1,262 @@
+{
+  "id": "398",
+  "name": "Sakura Sonic",
+  "forms": [
+    {
+      "number": "398-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sakura Sonic",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 4000,
+      "range": 420,
+      "kb": 4,
+      "speed": 12,
+      "dps": 580,
+      "target": "Area",
+      "tba": 6.9,
+      "anim": 2.53,
+      "spawn": 111.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 3.33s"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.33s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "5% chance of a critical hit"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (100% chance to weaken by 50% for 3.33s) b1Slowb2 (100% chance to slow for 3.33s) \nu1General Abilitiesu2: b1Criticalb2 (5% chance of a critical hit)\nu1Not affected byu2: b1Weakenb2, b1Slowb2"
+    },
+    {
+      "number": "398-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Afterschool Sakura",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 4000,
+      "range": 420,
+      "kb": 4,
+      "speed": 12,
+      "dps": 580,
+      "target": "Area",
+      "tba": 6.9,
+      "anim": 2.53,
+      "spawn": 111.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 3.33s"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.33s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "5% chance of a critical hit"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (100% chance to weaken by 50% for 3.33s) b1Slowb2 (100% chance to slow for 3.33s) \nu1General Abilitiesu2: b1Criticalb2 (5% chance of a critical hit)\nu1Not affected byu2: b1Weakenb2, b1Slowb2"
+    },
+    {
+      "number": "398-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Sacred Blade Sakura",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 4000,
+      "range": 420,
+      "kb": 4,
+      "speed": 12,
+      "dps": 580,
+      "target": "Area",
+      "tba": 6.9,
+      "anim": 2.53,
+      "spawn": 111.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Insanely Tough",
+              "detail": "only takes 0.17x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 3.33s"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.33s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "5% chance of a critical hit"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Insanely Toughb2 (only takes 0.17x damage) b1Weakenb2 (100% chance to weaken by 50% for 3.33s) b1Slowb2 (100% chance to slow for 3.33s) \nu1General Abilitiesu2: b1Criticalb2 (5% chance of a critical hit)\nu1Not affected byu2: b1Weakenb2, b1Slowb2"
+    },
+    {
+      "number": "398-4",
+      "form_no": 4,
+      "form": "Ultra",
+      "name": "Sacred Blade Sakura Z",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 4500,
+      "range": 420,
+      "kb": 4,
+      "speed": 12,
+      "dps": 652,
+      "target": "Area",
+      "tba": 6.9,
+      "anim": 2.53,
+      "spawn": 111.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Insanely Tough",
+              "detail": "only takes 0.17x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 4.33s"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.33s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "8% chance of a critical hit"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~470"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Insanely Toughb2 (only takes 0.17x damage) b1Weakenb2 (100% chance to weaken by 50% for 4.33s) b1Slowb2 (100% chance to slow for 4.33s) \nu1General Abilitiesu2: b1Criticalb2 (8% chance of a critical hit) b1Omni Strikeb2 (Effective range -100~470)\nu1Not affected byu2: b1Weakenb2, b1Slowb2"
+    }
+  ]
+}

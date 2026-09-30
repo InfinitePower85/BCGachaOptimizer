@@ -1,0 +1,114 @@
+{
+  "id": "101",
+  "name": "Maiden Cat",
+  "forms": [
+    {
+      "number": "101-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Maiden Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2485,
+      "damage": 692,
+      "range": 152,
+      "kb": 1,
+      "speed": 9,
+      "dps": 300,
+      "target": "Area",
+      "tba": 2.3,
+      "anim": 0.6,
+      "spawn": 19.87,
+      "cost": 1935,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "101-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Sportsgirl Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2485,
+      "damage": 692,
+      "range": 152,
+      "kb": 1,
+      "speed": 9,
+      "dps": 300,
+      "target": "Area",
+      "tba": 2.3,
+      "anim": 0.6,
+      "spawn": 19.87,
+      "cost": 1935,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)"
+    },
+    {
+      "number": "101-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Wrestling Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4970,
+      "damage": 692,
+      "range": 152,
+      "kb": 1,
+      "speed": 9,
+      "dps": 300,
+      "target": "Area",
+      "tba": 2.3,
+      "anim": 0.6,
+      "spawn": 19.87,
+      "cost": 1935,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\r\nu1Not affected byu2: b1Freezeb2"
+    }
+  ]
+}

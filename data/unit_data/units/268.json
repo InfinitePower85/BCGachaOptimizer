@@ -1,0 +1,105 @@
+{
+  "id": "268",
+  "name": "Catornado",
+  "forms": [
+    {
+      "number": "268-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Catornado",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1725,
+      "damage": 60,
+      "range": 180,
+      "kb": 3,
+      "speed": 9,
+      "dps": 300,
+      "target": "Area",
+      "tba": 0.2,
+      "anim": 0.03,
+      "spawn": 19.2,
+      "cost": 1350,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "5% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (5% chance of a critical hit)"
+    },
+    {
+      "number": "268-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Hurricat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 75,
+      "range": 180,
+      "kb": 3,
+      "speed": 9,
+      "dps": 375,
+      "target": "Area",
+      "tba": 0.2,
+      "anim": 0.03,
+      "spawn": 19.2,
+      "cost": 1350,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "5% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (5% chance of a critical hit)"
+    },
+    {
+      "number": "268-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Catyphoon",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3825,
+      "damage": 75,
+      "range": 180,
+      "kb": 3,
+      "speed": 14,
+      "dps": 375,
+      "target": "Area",
+      "tba": 0.2,
+      "anim": 0.03,
+      "spawn": 19.2,
+      "cost": 1350,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "5% chance of a critical hit"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (5% chance of a critical hit)"
+    }
+  ]
+}

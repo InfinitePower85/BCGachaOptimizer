@@ -1,0 +1,105 @@
+{
+  "id": "162",
+  "name": "Crazed Princess Punt\r",
+  "forms": [
+    {
+      "number": "162-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Crazed Princess Punt\r",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 750,
+      "range": 680,
+      "kb": 2,
+      "speed": 32,
+      "dps": 92,
+      "target": "Area",
+      "tba": 8.1,
+      "anim": 0.13,
+      "spawn": 119.2,
+      "cost": 3300,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Knockbackb2 (40% chance of knockback)"
+    },
+    {
+      "number": "162-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Crazed Princess Punt CC\r",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 1050,
+      "range": 680,
+      "kb": 2,
+      "speed": 32,
+      "dps": 130,
+      "target": "Area",
+      "tba": 8.1,
+      "anim": 0.13,
+      "spawn": 119.2,
+      "cost": 3300,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Knockbackb2 (40% chance of knockback)"
+    },
+    {
+      "number": "162-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Manic Princess Punt",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 1050,
+      "range": 780,
+      "kb": 2,
+      "speed": 32,
+      "dps": 155,
+      "target": "Area",
+      "tba": 6.77,
+      "anim": 0.13,
+      "spawn": 119.2,
+      "cost": 3300,
+      "abilities": [
+        {
+          "group": "Against metal",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against metalu2: b1Knockbackb2 (50% chance of knockback)"
+    }
+  ]
+}

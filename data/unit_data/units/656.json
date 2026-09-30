@@ -1,0 +1,223 @@
+{
+  "id": "656",
+  "name": "Bliza",
+  "forms": [
+    {
+      "number": "656-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Bliza",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3025,
+      "damage": 1800,
+      "range": 250,
+      "kb": 3,
+      "speed": 12,
+      "dps": 219,
+      "target": "Area",
+      "tba": 8.23,
+      "anim": 2.0,
+      "spawn": 17.2,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "50% chance to slow for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -250~250,-350~350,-450~450"
+            },
+            {
+              "name": "Multi-hit Attack",
+              "detail": "Attack thrice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Slowb2 (50% chance to slow for 3.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -250~250,-350~350,-450~450) b1Multi-hit Attackb2 (Attack thrice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Slowb2, b1Warpb2"
+    },
+    {
+      "number": "656-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Blizana",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7300,
+      "damage": 4800,
+      "range": 350,
+      "kb": 3,
+      "speed": 12,
+      "dps": 583,
+      "target": "Area",
+      "tba": 8.23,
+      "anim": 2.0,
+      "spawn": 79.87,
+      "cost": 3630,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -350~350,-450~450,-550~550"
+            },
+            {
+              "name": "Multi-hit Attack",
+              "detail": "Attack thrice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Resistantb2 (only takes 0.25x damage) b1Slowb2 (100% chance to slow for 3.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Omni Strikeb2 (Effective range -350~350,-450~450,-550~550) b1Multi-hit Attackb2 (Attack thrice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Slowb2, b1Warpb2"
+    },
+    {
+      "number": "656-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Blizarena",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10950,
+      "damage": 5000,
+      "range": 350,
+      "kb": 3,
+      "speed": 12,
+      "dps": 608,
+      "target": "Area",
+      "tba": 8.23,
+      "anim": 2.0,
+      "spawn": 79.87,
+      "cost": 3630,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -350~350,-450~450,-550~550"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Toxic",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Resistantb2 (only takes 0.25x damage) b1Slowb2 (100% chance to slow for 4.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Omni Strikeb2 (Effective range -350~350,-450~450,-550~550) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Slowb2, b1Warpb2, b1Toxicb2"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "514",
+  "name": "Guile",
+  "forms": [
+    {
+      "number": "514-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Guile",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 5375,
+      "range": 380,
+      "kb": 2,
+      "speed": 21,
+      "dps": 790,
+      "target": "Area",
+      "tba": 6.8,
+      "anim": 1.1,
+      "spawn": 124.53,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 3.33s"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.33s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (100% chance to weaken by 50% for 3.33s) b1Slowb2 (100% chance to slow for 3.33s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)"
+    },
+    {
+      "number": "514-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Guile CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 5375,
+      "range": 380,
+      "kb": 2,
+      "speed": 21,
+      "dps": 790,
+      "target": "Area",
+      "tba": 6.8,
+      "anim": 1.1,
+      "spawn": 124.53,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 3.33s"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 3.33s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (100% chance to weaken by 50% for 3.33s) b1Slowb2 (100% chance to slow for 3.33s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "id": "456",
+  "name": "Wonder MOMOCO",
+  "forms": [
+    {
+      "number": "456-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Wonder MOMOCO",
+      "rarity": "Legendary Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 9000,
+      "range": 375,
+      "kb": 2,
+      "speed": 13,
+      "dps": 1343,
+      "target": "Area",
+      "tba": 6.7,
+      "anim": 0.93,
+      "spawn": 124.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, black, angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.8 Shockwave attack (Range: 1732)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, angelu2: b1Freezeb2 (100% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.8 Shockwave attack (Range: 1732)) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "456-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cutie MOMOCO",
+      "rarity": "Legendary Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 10000,
+      "damage": 9000,
+      "range": 375,
+      "kb": 2,
+      "speed": 13,
+      "dps": 1343,
+      "target": "Area",
+      "tba": 6.7,
+      "anim": 0.93,
+      "spawn": 124.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, black, angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.8 Shockwave attack (Range: 1732)"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, angelu2: b1Freezeb2 (100% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.8 Shockwave attack (Range: 1732)) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "456-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Starlight MOMOCO",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13000,
+      "damage": 750,
+      "range": 375,
+      "kb": 2,
+      "speed": 13,
+      "dps": 112,
+      "target": "Area",
+      "tba": 6.7,
+      "anim": 0.93,
+      "spawn": 124.53,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against red, black, angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.8 Shockwave attack (Range: 1732)"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, angelu2: b1Freezeb2 (100% chance to freeze for 3.0s) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.8 Shockwave attack (Range: 1732)) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Waveb2"
+    }
+  ]
+}

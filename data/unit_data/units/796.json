@@ -1,0 +1,72 @@
+{
+  "id": "796",
+  "name": "Li'l Baki",
+  "forms": [
+    {
+      "number": "796-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Li'l Baki",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1700,
+      "damage": 350,
+      "range": 200,
+      "kb": 3,
+      "speed": 12,
+      "dps": 178,
+      "target": "Single",
+      "tba": 1.97,
+      "anim": 0.53,
+      "spawn": 14.53,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Metal Killer",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Metal Killerb2"
+    },
+    {
+      "number": "796-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Li'l Baki CC",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1700,
+      "damage": 350,
+      "range": 200,
+      "kb": 3,
+      "speed": 12,
+      "dps": 178,
+      "target": "Single",
+      "tba": 1.97,
+      "anim": 0.53,
+      "spawn": 14.53,
+      "cost": 630,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Metal Killer",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Metal Killerb2"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "691",
+  "name": "Child of Destiny Phono",
+  "forms": [
+    {
+      "number": "691-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Child of Destiny Phono",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1750,
+      "damage": 1875,
+      "range": 350,
+      "kb": 3,
+      "speed": 25,
+      "dps": 260,
+      "target": "Area",
+      "tba": 7.2,
+      "anim": 3.0,
+      "spawn": 13.2,
+      "cost": 870,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 100~350, 250~500, 350~600"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 100~350, 250~500, 350~600) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "691-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "King of Destiny Phonoa",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 4500,
+      "range": 600,
+      "kb": 5,
+      "speed": 30,
+      "dps": 625,
+      "target": "Area",
+      "tba": 7.2,
+      "anim": 3.0,
+      "spawn": 137.87,
+      "cost": 5100,
+      "abilities": [
+        {
+          "group": "Against red, black, floating, metal, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~600, 450~800, 590~1000"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, black, floating, metal, angel, alien, zombie, relic, akuu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~600, 450~800, 590~1000) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Waveb2, b1Surgeb2"
+    }
+  ]
+}

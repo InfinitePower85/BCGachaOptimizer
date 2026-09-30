@@ -1,0 +1,90 @@
+{
+  "id": "848",
+  "name": "Li'l Sakonji Urokodaki",
+  "forms": [
+    {
+      "number": "848-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Li'l Sakonji Urokodaki",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4700,
+      "damage": 600,
+      "range": 150,
+      "kb": 2,
+      "speed": 11,
+      "dps": 202,
+      "target": "Area",
+      "tba": 2.97,
+      "anim": 1.0,
+      "spawn": 12.53,
+      "cost": 1095,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Resistantb2 (only takes 0.25x damage)\nu1Not affected byu2: b1Warpb2"
+    },
+    {
+      "number": "848-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Li'l Sakonji Urokodaki CC",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5875,
+      "damage": 750,
+      "range": 150,
+      "kb": 2,
+      "speed": 11,
+      "dps": 252,
+      "target": "Area",
+      "tba": 2.97,
+      "anim": 1.0,
+      "spawn": 12.53,
+      "cost": 1095,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Resistantb2 (only takes 0.25x damage)\nu1Not affected byu2: b1Warpb2"
+    }
+  ]
+}

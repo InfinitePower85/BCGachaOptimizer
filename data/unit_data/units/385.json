@@ -1,0 +1,72 @@
+{
+  "id": "385",
+  "name": "Satori Hikami & Cat",
+  "forms": [
+    {
+      "number": "385-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Satori Hikami & Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1350,
+      "damage": 225,
+      "range": 160,
+      "kb": 3,
+      "speed": 12,
+      "dps": 132,
+      "target": "Single",
+      "tba": 1.7,
+      "anim": 0.7,
+      "spawn": 13.2,
+      "cost": 480,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "385-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Satori Hikami & Cat CC",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1350,
+      "damage": 225,
+      "range": 160,
+      "kb": 3,
+      "speed": 12,
+      "dps": 132,
+      "target": "Single",
+      "tba": 1.7,
+      "anim": 0.7,
+      "spawn": 13.2,
+      "cost": 480,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Knockbackb2 (30% chance of knockback)"
+    }
+  ]
+}

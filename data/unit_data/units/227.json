@@ -1,0 +1,152 @@
+{
+  "id": "227",
+  "name": "Warlock and Pierre",
+  "forms": [
+    {
+      "number": "227-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Warlock and Pierre",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 15500,
+      "damage": 16025,
+      "range": 430,
+      "kb": 2,
+      "speed": 8,
+      "dps": 2012,
+      "target": "Area",
+      "tba": 7.97,
+      "anim": 2.33,
+      "spawn": 164.53,
+      "cost": 6135,
+      "abilities": [
+        {
+          "group": "Against floating, alien",
+          "abilities": [
+            {
+              "name": "floating",
+              "detail": ""
+            },
+            {
+              "name": "alien",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Base Destroyer",
+              "detail": "4x damage to enemy base"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, alienu2: u1Attacks onlyu2b1 floatingb2,b1 alienb2 \nu1General Abilitiesu2: b1Base Destroyerb2 (4x damage to enemy base)"
+    },
+    {
+      "number": "227-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Dark Merchant Babil",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 15500,
+      "damage": 16025,
+      "range": 430,
+      "kb": 2,
+      "speed": 8,
+      "dps": 2012,
+      "target": "Area",
+      "tba": 7.97,
+      "anim": 2.33,
+      "spawn": 164.53,
+      "cost": 6135,
+      "abilities": [
+        {
+          "group": "Against angel, alien",
+          "abilities": [
+            {
+              "name": "angel",
+              "detail": ""
+            },
+            {
+              "name": "alien",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, alienu2: u1Attacks onlyu2b1 angelb2,b1 alienb2 \nu1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "227-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Mad Doctor Klay",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 23250,
+      "damage": 24038,
+      "range": 430,
+      "kb": 2,
+      "speed": 8,
+      "dps": 3018,
+      "target": "Area",
+      "tba": 7.97,
+      "anim": 2.33,
+      "spawn": 164.53,
+      "cost": 6135,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "alien",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: u1Attacks onlyu2b1 alienb2\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2"
+    }
+  ]
+}

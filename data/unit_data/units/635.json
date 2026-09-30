@@ -1,0 +1,158 @@
+{
+  "id": "635",
+  "name": "White Knight Cyclops",
+  "forms": [
+    {
+      "number": "635-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "White Knight Cyclops",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 5150,
+      "range": 460,
+      "kb": 3,
+      "speed": 15,
+      "dps": 566,
+      "target": "Area",
+      "tba": 9.1,
+      "anim": 1.5,
+      "spawn": 151.2,
+      "cost": 5325,
+      "abilities": [
+        {
+          "group": "Against alien, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "50% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, akuu2: b1Freezeb2 (50% chance to freeze for 3.0s) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively) b1Shield Piercingb2 (50% chance to break Aku shields)"
+    },
+    {
+      "number": "635-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Black Knight Kyklops",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 5150,
+      "range": 460,
+      "kb": 3,
+      "speed": 15,
+      "dps": 566,
+      "target": "Area",
+      "tba": 9.1,
+      "anim": 1.5,
+      "spawn": 151.2,
+      "cost": 5325,
+      "abilities": [
+        {
+          "group": "Against alien, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage)\nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "635-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Demon Knight Kyklops",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 5150,
+      "range": 460,
+      "kb": 3,
+      "speed": 15,
+      "dps": 566,
+      "target": "Area",
+      "tba": 9.1,
+      "anim": 1.5,
+      "spawn": 151.2,
+      "cost": 5325,
+      "abilities": [
+        {
+          "group": "Against aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "50% chance to break Aku shields"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against akuu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Multi-hit attackb2 (Attacks twice consecutively) b1Shield Piercingb2 (50% chance to break Aku shields)\nu1Not affected byu2: b1Freezeb2"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "125",
+  "name": "Date Masamune",
+  "forms": [
+    {
+      "number": "125-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Date Masamune",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3500,
+      "damage": 1690,
+      "range": 395,
+      "kb": 3,
+      "speed": 16,
+      "dps": 478,
+      "target": "Area",
+      "tba": 3.53,
+      "anim": 1.57,
+      "spawn": 123.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Knockbackb2 (40% chance of knockback)"
+    },
+    {
+      "number": "125-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wargod Masamune",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5750,
+      "damage": 2470,
+      "range": 395,
+      "kb": 3,
+      "speed": 16,
+      "dps": 692,
+      "target": "Area",
+      "tba": 3.57,
+      "anim": 1.6,
+      "spawn": 123.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Knockbackb2 (40% chance of knockback)"
+    },
+    {
+      "number": "125-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Immortal Masamune",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 3250,
+      "range": 425,
+      "kb": 3,
+      "speed": 16,
+      "dps": 910,
+      "target": "Area",
+      "tba": 3.57,
+      "anim": 1.6,
+      "spawn": 123.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against red, black",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "40% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, blacku2: b1Knockbackb2 (40% chance of knockback)"
+    }
+  ]
+}

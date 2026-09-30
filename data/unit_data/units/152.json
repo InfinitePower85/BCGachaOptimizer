@@ -1,0 +1,105 @@
+{
+  "id": "152",
+  "name": "Weightlifter Cat",
+  "forms": [
+    {
+      "number": "152-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Weightlifter Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3375,
+      "damage": 1262,
+      "range": 220,
+      "kb": 2,
+      "speed": 6,
+      "dps": 312,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 0.6,
+      "spawn": 19.2,
+      "cost": 1365,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "152-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Ring Girl Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3875,
+      "damage": 1788,
+      "range": 220,
+      "kb": 2,
+      "speed": 6,
+      "dps": 442,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 0.6,
+      "spawn": 19.2,
+      "cost": 1365,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "152-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Pizza Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4875,
+      "damage": 2312,
+      "range": 270,
+      "kb": 4,
+      "speed": 6,
+      "dps": 572,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 0.6,
+      "spawn": 19.2,
+      "cost": 1365,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

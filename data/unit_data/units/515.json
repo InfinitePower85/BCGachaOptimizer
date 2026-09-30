@@ -1,0 +1,132 @@
+{
+  "id": "515",
+  "name": "Zangief",
+  "forms": [
+    {
+      "number": "515-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Zangief",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 20000,
+      "damage": 5000,
+      "range": 210,
+      "kb": 2,
+      "speed": 9,
+      "dps": 1458,
+      "target": "Area",
+      "tba": 3.43,
+      "anim": 0.6,
+      "spawn": 111.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "20% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -840~210"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Dodgeb2 (20% chance to dodge for 2.0s) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -840~210) b1Multi-hit attackb2 (Attacks twice consecutively)\r\nu1Not affected byu2: b1Slowb2, b1Knockbackb2"
+    },
+    {
+      "number": "515-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Zangief CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 20000,
+      "damage": 5000,
+      "range": 210,
+      "kb": 2,
+      "speed": 9,
+      "dps": 1458,
+      "target": "Area",
+      "tba": 3.43,
+      "anim": 0.6,
+      "spawn": 111.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Dodge",
+              "detail": "20% chance to dodge for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -840~210"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Dodgeb2 (20% chance to dodge for 2.0s) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -840~210) b1Multi-hit attackb2 (Attacks twice consecutively)\r\nu1Not affected byu2: b1Slowb2, b1Knockbackb2"
+    }
+  ]
+}

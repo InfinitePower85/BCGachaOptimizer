@@ -1,0 +1,98 @@
+{
+  "id": "491",
+  "name": "Ritsuko Akagi",
+  "forms": [
+    {
+      "number": "491-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ritsuko Akagi",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 3000,
+      "range": 300,
+      "kb": 3,
+      "speed": 9,
+      "dps": 472,
+      "target": "Area",
+      "tba": 6.33,
+      "anim": 2.23,
+      "spawn": 19.87,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s)\nu1Not affected byu2: b1Weakenb2, b1Warpb2"
+    },
+    {
+      "number": "491-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "First Officer Ritsuko",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4000,
+      "damage": 3000,
+      "range": 300,
+      "kb": 3,
+      "speed": 9,
+      "dps": 472,
+      "target": "Area",
+      "tba": 6.33,
+      "anim": 2.23,
+      "spawn": 19.87,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Weakenb2 (50% chance to weaken by 50% for 6.67s)\nu1Not affected byu2: b1Weakenb2, b1Warpb2"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "151",
+  "name": "Juliet Cat",
+  "forms": [
+    {
+      "number": "151-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Juliet Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3125,
+      "damage": 1650,
+      "range": 220,
+      "kb": 3,
+      "speed": 8,
+      "dps": 582,
+      "target": "Area",
+      "tba": 2.83,
+      "anim": 2.33,
+      "spawn": 10.53,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "40% chance to freeze for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Freezeb2 (40% chance to freeze for 3.0s)"
+    },
+    {
+      "number": "151-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Princess Juliet Cat",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3125,
+      "damage": 1775,
+      "range": 220,
+      "kb": 3,
+      "speed": 8,
+      "dps": 628,
+      "target": "Area",
+      "tba": 2.83,
+      "anim": 2.33,
+      "spawn": 10.53,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "40% chance to freeze for 3.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Freezeb2 (40% chance to freeze for 3.0s)"
+    },
+    {
+      "number": "151-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Juliet the Maiko",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3125,
+      "damage": 1775,
+      "range": 250,
+      "kb": 3,
+      "speed": 8,
+      "dps": 628,
+      "target": "Area",
+      "tba": 2.83,
+      "anim": 2.33,
+      "spawn": 7.53,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "40% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Freezeb2 (40% chance to freeze for 4.0s)"
+    }
+  ]
+}

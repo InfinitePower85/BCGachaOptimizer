@@ -1,0 +1,89 @@
+{
+  "id": "689",
+  "name": "Brainwashed Lizard Cat",
+  "forms": [
+    {
+      "number": "689-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Brainwashed Lizard Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4050,
+      "damage": 1800,
+      "range": 400,
+      "kb": 3,
+      "speed": 10,
+      "dps": 418,
+      "target": "Single",
+      "tba": 4.3,
+      "anim": 0.33,
+      "spawn": 16.87,
+      "cost": 1500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "689-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Brainwashed Dragon Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4050,
+      "damage": 1800,
+      "range": 400,
+      "kb": 3,
+      "speed": 10,
+      "dps": 425,
+      "target": "Single",
+      "tba": 4.23,
+      "anim": 0.27,
+      "spawn": 16.87,
+      "cost": 1500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "689-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Brainwashed King Dragon Cat",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4050,
+      "damage": 1800,
+      "range": 400,
+      "kb": 3,
+      "speed": 10,
+      "dps": 425,
+      "target": "Single",
+      "tba": 4.23,
+      "anim": 0.27,
+      "spawn": 16.87,
+      "cost": 1500,
+      "abilities": [
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Not affected byu2: b1Freezeb2, b1Waveb2"
+    }
+  ]
+}

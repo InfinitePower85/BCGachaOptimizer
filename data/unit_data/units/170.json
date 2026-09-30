@@ -1,0 +1,108 @@
+{
+  "id": "170",
+  "name": "Kubiluga",
+  "forms": [
+    {
+      "number": "170-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Kubiluga",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1250,
+      "damage": 375,
+      "range": 140,
+      "kb": 5,
+      "speed": 4,
+      "dps": 138,
+      "target": "Single",
+      "tba": 2.73,
+      "anim": 0.43,
+      "spawn": 24.53,
+      "cost": 4500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "170-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Kubilan Pasalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 125,
+      "range": 450,
+      "kb": 1,
+      "speed": 4,
+      "dps": 10,
+      "target": "Single",
+      "tba": 12.8,
+      "anim": 3.5,
+      "spawn": 324.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against white, red, black, floating, angel, alien, zombie, relic, aku",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.8 Shockwave attack (Range: 1732)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, red, black, floating, angel, alien, zombie, relic, akuu2: b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Wave attackb2 (100% chance to perform a Lv.8 Shockwave attack (Range: 1732))"
+    },
+    {
+      "number": "170-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "E. Kubilan Pasalan",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 125,
+      "range": 450,
+      "kb": 1,
+      "speed": 4,
+      "dps": 10,
+      "target": "Single",
+      "tba": 12.8,
+      "anim": 3.5,
+      "spawn": 324.53,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Critical",
+              "detail": "100% chance of a critical hit"
+            },
+            {
+              "name": "Wave attack",
+              "detail": "100% chance to perform a Lv.8 Shockwave attack (Range: 1732)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Criticalb2 (100% chance of a critical hit) b1Wave attackb2 (100% chance to perform a Lv.8 Shockwave attack (Range: 1732))"
+    }
+  ]
+}

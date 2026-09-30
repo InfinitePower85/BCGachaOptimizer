@@ -1,0 +1,160 @@
+{
+  "id": "838",
+  "name": "Squire Luno",
+  "forms": [
+    {
+      "number": "838-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Squire Luno",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 1450,
+      "range": 150,
+      "kb": 1,
+      "speed": 13,
+      "dps": 285,
+      "target": "Area",
+      "tba": 5.1,
+      "anim": 1.47,
+      "spawn": 9.87,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against black, angel, relic, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -320~250"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 839"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, angel, relic, akuu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -320~250) b1Conjureb2 (Allows summon of a spirit: Unit number 839)\nu1Not affected byu2: b1Slowb2, b1Knockbackb2, b1Curseb2, b1Surgeb2"
+    },
+    {
+      "number": "838-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Lunos the Luminous",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11500,
+      "damage": 4125,
+      "range": 250,
+      "kb": 2,
+      "speed": 9,
+      "dps": 810,
+      "target": "Area",
+      "tba": 5.1,
+      "anim": 1.47,
+      "spawn": 9.87,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against black, angel, relic, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -320~350"
+            },
+            {
+              "name": "Savage Blow",
+              "detail": "10% chance to inflict an attack with 2x damage to non-Metal enemies"
+            },
+            {
+              "name": "Conjure",
+              "detail": "Allows summon of a spirit: Unit number 840"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, angel, relic, akuu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (100% chance of knockback) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -320~350) b1Savage Blowb2 (10% chance to inflict an attack with 2x damage to non-Metal enemies) b1Conjureb2 (Allows summon of a spirit: Unit number 840)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Curseb2, b1Surgeb2"
+    }
+  ]
+}

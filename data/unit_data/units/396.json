@@ -1,0 +1,114 @@
+{
+  "id": "396",
+  "name": "Miyabi Oyama",
+  "forms": [
+    {
+      "number": "396-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Miyabi Oyama",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5775,
+      "damage": 3550,
+      "range": 380,
+      "kb": 4,
+      "speed": 12,
+      "dps": 562,
+      "target": "Area",
+      "tba": 6.3,
+      "anim": 0.67,
+      "spawn": 111.2,
+      "cost": 4020,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 50% health"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 50% health)"
+    },
+    {
+      "number": "396-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Miyabi Oyama CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7000,
+      "damage": 4225,
+      "range": 380,
+      "kb": 4,
+      "speed": 12,
+      "dps": 670,
+      "target": "Area",
+      "tba": 6.3,
+      "anim": 0.67,
+      "spawn": 111.2,
+      "cost": 4020,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 50% health"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 50% health)"
+    },
+    {
+      "number": "396-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Baseball Mask δ",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9450,
+      "damage": 5575,
+      "range": 380,
+      "kb": 4,
+      "speed": 12,
+      "dps": 885,
+      "target": "Area",
+      "tba": 6.3,
+      "anim": 0.67,
+      "spawn": 111.2,
+      "cost": 4020,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 50% at 50% health"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Strengthenb2 (attack power increases by 50% at 50% health)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

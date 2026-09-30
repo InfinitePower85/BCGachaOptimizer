@@ -1,0 +1,72 @@
+{
+  "id": "236",
+  "name": "Freya",
+  "forms": [
+    {
+      "number": "236-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Freya",
+      "rarity": "Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1175,
+      "damage": 162,
+      "range": 400,
+      "kb": 3,
+      "speed": 7,
+      "dps": 25,
+      "target": "Area",
+      "tba": 6.63,
+      "anim": 1.33,
+      "spawn": 16.53,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "Against black, angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "40% chance to slow for 3.33s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, angelu2: b1Slowb2 (40% chance to slow for 3.33s)"
+    },
+    {
+      "number": "236-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Freya CC",
+      "rarity": "Super Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1675,
+      "damage": 225,
+      "range": 400,
+      "kb": 3,
+      "speed": 7,
+      "dps": 35,
+      "target": "Area",
+      "tba": 6.63,
+      "anim": 1.33,
+      "spawn": 16.53,
+      "cost": 825,
+      "abilities": [
+        {
+          "group": "Against black, angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "40% chance to slow for 3.33s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, angelu2: b1Slowb2 (40% chance to slow for 3.33s)"
+    }
+  ]
+}

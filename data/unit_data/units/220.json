@@ -1,0 +1,52 @@
+{
+  "id": "220",
+  "name": "SV-001",
+  "forms": [
+    {
+      "number": "220-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "SV-001",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1400,
+      "damage": 380,
+      "range": 355,
+      "kb": 3,
+      "speed": 15,
+      "dps": 178,
+      "target": "Area",
+      "tba": 2.13,
+      "anim": 0.5,
+      "spawn": 13.87,
+      "cost": 1365,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "220-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "SV-001 CC",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1700,
+      "damage": 535,
+      "range": 355,
+      "kb": 3,
+      "speed": 15,
+      "dps": 250,
+      "target": "Area",
+      "tba": 2.13,
+      "anim": 0.5,
+      "spawn": 13.87,
+      "cost": 1365,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

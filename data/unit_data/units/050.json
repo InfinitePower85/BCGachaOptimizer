@@ -1,0 +1,105 @@
+{
+  "id": "050",
+  "name": "Thief Cat",
+  "forms": [
+    {
+      "number": "050-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Thief Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1155,
+      "damage": 135,
+      "range": 170,
+      "kb": 3,
+      "speed": 13,
+      "dps": 135,
+      "target": "Single",
+      "tba": 1.0,
+      "anim": 0.5,
+      "spawn": 5.2,
+      "cost": 495,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "050-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Phantom Thief Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1350,
+      "damage": 160,
+      "range": 170,
+      "kb": 3,
+      "speed": 13,
+      "dps": 160,
+      "target": "Single",
+      "tba": 1.0,
+      "anim": 0.5,
+      "spawn": 5.2,
+      "cost": 495,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "050-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Goemon Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1350,
+      "damage": 240,
+      "range": 200,
+      "kb": 3,
+      "speed": 13,
+      "dps": 240,
+      "target": "Area",
+      "tba": 1.0,
+      "anim": 0.5,
+      "spawn": 5.2,
+      "cost": 495,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    }
+  ]
+}

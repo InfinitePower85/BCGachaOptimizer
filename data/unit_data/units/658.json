@@ -1,0 +1,196 @@
+{
+  "id": "658",
+  "name": "Iz the Dancer of Grief",
+  "forms": [
+    {
+      "number": "658-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Iz the Dancer of Grief",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 2100,
+      "range": 300,
+      "kb": 2,
+      "speed": 20,
+      "dps": 480,
+      "target": "Area",
+      "tba": 4.37,
+      "anim": 2.67,
+      "spawn": 52.53,
+      "cost": 3150,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 100% at 50% health"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -350~350"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 100% at 50% health) b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -350~350) b1Multi-hit attackb2 (Attacks thrice consecutively)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Waveb2, b1Surgeb2"
+    },
+    {
+      "number": "658-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Iz the Lady of Mourning",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 2550,
+      "range": 300,
+      "kb": 2,
+      "speed": 20,
+      "dps": 585,
+      "target": "Area",
+      "tba": 4.37,
+      "anim": 2.67,
+      "spawn": 52.53,
+      "cost": 3150,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Strengthen",
+              "detail": "attack power increases by 150% at 50% health"
+            },
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -350~350"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            },
+            {
+              "name": "Shield Piercing",
+              "detail": "100% chance to break Aku shields"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": ""
+            },
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Knockback",
+              "detail": ""
+            },
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            },
+            {
+              "name": "Wave",
+              "detail": ""
+            },
+            {
+              "name": "Toxic",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Strengthenb2 (attack power increases by 150% at 50% health) b1Zombie Killerb2 (Stops zombies from reviving) b1Barrier Breakerb2 (100% chance of breaking enemy barriers) b1Omni Strikeb2 (Effective range -350~350) b1Multi-hit attackb2 (Attacks thrice consecutively) b1Shield Piercingb2 (100% chance to break Aku shields) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Weakenb2, b1Freezeb2, b1Slowb2, b1Knockbackb2, b1Curseb2, b1Warpb2, b1Waveb2, b1Toxicb2, b1Surgeb2"
+    }
+  ]
+}

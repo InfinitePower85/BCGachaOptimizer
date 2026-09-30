@@ -1,0 +1,72 @@
+{
+  "id": "217",
+  "name": "TARMA",
+  "forms": [
+    {
+      "number": "217-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "TARMA",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 675,
+      "damage": 128,
+      "range": 315,
+      "kb": 3,
+      "speed": 9,
+      "dps": 32,
+      "target": "Area",
+      "tba": 3.97,
+      "anim": 0.07,
+      "spawn": 11.2,
+      "cost": 998,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Knockbackb2 (30% chance of knockback)"
+    },
+    {
+      "number": "217-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "TARMA CC",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 800,
+      "damage": 182,
+      "range": 315,
+      "kb": 3,
+      "speed": 9,
+      "dps": 45,
+      "target": "Area",
+      "tba": 3.97,
+      "anim": 0.07,
+      "spawn": 11.2,
+      "cost": 998,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "30% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Knockbackb2 (30% chance of knockback)"
+    }
+  ]
+}

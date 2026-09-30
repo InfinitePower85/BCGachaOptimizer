@@ -1,0 +1,29 @@
+{
+  "id": "674",
+  "name": "ネコチーター",
+  "forms": [
+    {
+      "number": "674-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "ネコチーター",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2,
+      "damage": 2,
+      "range": 1,
+      "kb": 1,
+      "speed": 0,
+      "dps": 0,
+      "target": "Single",
+      "tba": 3.3,
+      "anim": 3.33,
+      "spawn": 657.8,
+      "cost": 2,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "084",
+  "name": "Sodom",
+  "forms": [
+    {
+      "number": "084-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sodom",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14875,
+      "damage": 10862,
+      "range": 390,
+      "kb": 2,
+      "speed": 3,
+      "dps": 788,
+      "target": "Area",
+      "tba": 13.8,
+      "anim": 2.17,
+      "spawn": 131.2,
+      "cost": 6450,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (50% chance of knockback)\nu1Not affected byu2: b1Knockbackb2"
+    },
+    {
+      "number": "084-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Earth King Sodom",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14875,
+      "damage": 10862,
+      "range": 390,
+      "kb": 2,
+      "speed": 3,
+      "dps": 788,
+      "target": "Area",
+      "tba": 13.8,
+      "anim": 2.17,
+      "spawn": 131.2,
+      "cost": 6450,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (50% chance of knockback)\nu1Not affected byu2: b1Knockbackb2"
+    },
+    {
+      "number": "084-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "God-Emperor Sodom",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 17375,
+      "damage": 10862,
+      "range": 415,
+      "kb": 2,
+      "speed": 4,
+      "dps": 895,
+      "target": "Area",
+      "tba": 12.13,
+      "anim": 2.17,
+      "spawn": 131.2,
+      "cost": 6450,
+      "abilities": [
+        {
+          "group": "Against floating",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Knockback",
+              "detail": "100% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floatingu2: b1Resistantb2 (only takes 0.25x damage) b1Knockbackb2 (100% chance of knockback)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "142",
+  "name": "God",
+  "forms": [
+    {
+      "number": "142-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "God",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 8,
+      "range": 540,
+      "kb": 2,
+      "speed": 8,
+      "dps": 0,
+      "target": "Single",
+      "tba": 8.73,
+      "anim": 2.1,
+      "spawn": 65.27,
+      "cost": 1166,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 0.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Freezeb2 (100% chance to freeze for 0.67s)"
+    },
+    {
+      "number": "142-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Secret God",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 250,
+      "damage": 8,
+      "range": 540,
+      "kb": 2,
+      "speed": 8,
+      "dps": 0,
+      "target": "Single",
+      "tba": 8.73,
+      "anim": 2.1,
+      "spawn": 65.27,
+      "cost": 1166,
+      "abilities": [
+        {
+          "group": "Against all",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 0.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against allu2: b1Freezeb2 (100% chance to freeze for 0.67s)"
+    }
+  ]
+}

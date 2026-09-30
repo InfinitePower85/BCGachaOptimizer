@@ -1,0 +1,116 @@
+{
+  "id": "862",
+  "name": "Vornado",
+  "forms": [
+    {
+      "number": "862-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Vornado",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12500,
+      "damage": 4625,
+      "range": 455,
+      "kb": 4,
+      "speed": 14,
+      "dps": 602,
+      "target": "Area",
+      "tba": 7.67,
+      "anim": 1.7,
+      "spawn": 144.53,
+      "cost": 5550,
+      "abilities": [
+        {
+          "group": "Against red, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~675"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, akuu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 275~675)\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "862-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Tempest King Vornado",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 15000,
+      "damage": 5625,
+      "range": 455,
+      "kb": 4,
+      "speed": 14,
+      "dps": 732,
+      "target": "Area",
+      "tba": 7.67,
+      "anim": 1.7,
+      "spawn": 144.53,
+      "cost": 5550,
+      "abilities": [
+        {
+          "group": "Against red, aku",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 275~675"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, akuu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Slowb2 (100% chance to slow for 2.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 275~675)\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

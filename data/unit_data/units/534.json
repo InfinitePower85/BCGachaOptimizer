@@ -1,0 +1,157 @@
+{
+  "id": "534",
+  "name": "Sharpshooter Saki",
+  "forms": [
+    {
+      "number": "534-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sharpshooter Saki",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 10000,
+      "range": 600,
+      "kb": 3,
+      "speed": 21,
+      "dps": 1110,
+      "target": "Area",
+      "tba": 9.0,
+      "anim": 2.63,
+      "spawn": 57.87,
+      "cost": 6300,
+      "abilities": [
+        {
+          "group": "Against red, alien",
+          "abilities": [
+            {
+              "name": "red",
+              "detail": ""
+            },
+            {
+              "name": "alien",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 500~900"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alienu2: u1Attacks onlyu2b1 redb2,b1 alienb2 \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 500~900)"
+    },
+    {
+      "number": "534-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Nighthunter Saki",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 10000,
+      "range": 600,
+      "kb": 3,
+      "speed": 21,
+      "dps": 1110,
+      "target": "Area",
+      "tba": 9.0,
+      "anim": 2.63,
+      "spawn": 57.87,
+      "cost": 6300,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "alien",
+              "detail": ""
+            },
+            {
+              "name": "zombie",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 500~900"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: u1Attacks onlyu2b1 alienb2,b1 zombieb2 \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Long Distanceb2 (Effective range 500~900)"
+    },
+    {
+      "number": "534-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Bad Blaster Saki",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6750,
+      "damage": 10000,
+      "range": 600,
+      "kb": 3,
+      "speed": 21,
+      "dps": 1110,
+      "target": "Area",
+      "tba": 9.0,
+      "anim": 2.63,
+      "spawn": 57.87,
+      "cost": 6300,
+      "abilities": [
+        {
+          "group": "Against alien, relic",
+          "abilities": [
+            {
+              "name": "alien",
+              "detail": ""
+            },
+            {
+              "name": "relic",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 500~900"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, relicu2: u1Attacks onlyu2b1 alienb2,b1 relicb2 \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 500~900)\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "846",
+  "name": "Shinobu Kocho",
+  "forms": [
+    {
+      "number": "846-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Shinobu Kocho",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7250,
+      "damage": 2500,
+      "range": 390,
+      "kb": 3,
+      "speed": 10,
+      "dps": 532,
+      "target": "Area",
+      "tba": 4.7,
+      "anim": 1.9,
+      "spawn": 91.2,
+      "cost": 3300,
+      "abilities": [
+        {
+          "group": "Against floating, metal, angel",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Critical",
+              "detail": "10% chance of a critical hit"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 290~640,290~640"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, metal, angelu2: b1Weakenb2 (50% chance to weaken by 50% for 5.0s) \nu1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike) b1Criticalb2 (10% chance of a critical hit) b1Long Distanceb2 (Effective range 290~640,290~640) b1Multi-hit attackb2 (Attacks twice consecutively) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "846-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Shinobu Kocho CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 3000,
+      "range": 390,
+      "kb": 3,
+      "speed": 10,
+      "dps": 638,
+      "target": "Area",
+      "tba": 4.7,
+      "anim": 1.9,
+      "spawn": 91.2,
+      "cost": 3300,
+      "abilities": [
+        {
+          "group": "Against floating, metal, angel",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Survive",
+              "detail": "100% chance to survive a lethal strike"
+            },
+            {
+              "name": "Critical",
+              "detail": "10% chance of a critical hit"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 290~640,290~640"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Sage Slayer",
+              "detail": "inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, metal, angelu2: b1Weakenb2 (50% chance to weaken by 50% for 5.0s) \nu1General Abilitiesu2: b1Surviveb2 (100% chance to survive a lethal strike) b1Criticalb2 (10% chance of a critical hit) b1Long Distanceb2 (Effective range 290~640,290~640) b1Multi-hit attackb2 (Attacks twice consecutively) b1Sage Slayerb2 (inflicts 1.2x damage, takes only 0.5x damage, ignores enemy debuff resistance)\nu1Not affected byu2: b1Slowb2"
+    }
+  ]
+}

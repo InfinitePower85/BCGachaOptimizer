@@ -1,0 +1,154 @@
+{
+  "id": "693",
+  "name": "Issun Boshi",
+  "forms": [
+    {
+      "number": "693-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Issun Boshi",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2775,
+      "damage": 1125,
+      "range": 150,
+      "kb": 8,
+      "speed": 40,
+      "dps": 258,
+      "target": "Area",
+      "tba": 4.37,
+      "anim": 0.17,
+      "spawn": 12.53,
+      "cost": 675,
+      "abilities": [
+        {
+          "group": "Against white, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, angelu2: b1Massive Damageb2 (inflicts 3.0x damage)\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "693-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Oni Landshaker Kozuchimaru",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 2750,
+      "range": 150,
+      "kb": 8,
+      "speed": 50,
+      "dps": 630,
+      "target": "Area",
+      "tba": 4.37,
+      "anim": 0.17,
+      "spawn": 61.2,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against white, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~300"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -100~300)\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "693-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Oni Battlepod Kozuchimaru",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 4125,
+      "range": 150,
+      "kb": 8,
+      "speed": 60,
+      "dps": 945,
+      "target": "Area",
+      "tba": 4.37,
+      "anim": 0.17,
+      "spawn": 61.2,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against white, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~300"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Omni Strikeb2 (Effective range -100~300)\nu1Not affected byu2: b1Freezeb2, b1Surgeb2"
+    }
+  ]
+}

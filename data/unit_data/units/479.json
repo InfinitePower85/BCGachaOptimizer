@@ -1,0 +1,124 @@
+{
+  "id": "479",
+  "name": "Lumina",
+  "forms": [
+    {
+      "number": "479-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Lumina",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3125,
+      "damage": 1250,
+      "range": 330,
+      "kb": 3,
+      "speed": 32,
+      "dps": 275,
+      "target": "Area",
+      "tba": 4.53,
+      "anim": 1.37,
+      "spawn": 14.53,
+      "cost": 1110,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Insanely Tough",
+              "detail": "only takes 0.17x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "50% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Insanely Toughb2 (only takes 0.17x damage) b1Weakenb2 (50% chance to weaken by 50% for 5.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (50% chance of breaking enemy barriers)\nu1Not affected byu2: b1Slowb2, b1Warpb2"
+    },
+    {
+      "number": "479-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Luminalia",
+      "rarity": "Legendary Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 20000,
+      "damage": 4588,
+      "range": 375,
+      "kb": 3,
+      "speed": 30,
+      "dps": 1012,
+      "target": "Area",
+      "tba": 4.53,
+      "anim": 1.37,
+      "spawn": 74.53,
+      "cost": 3675,
+      "abilities": [
+        {
+          "group": "Against alien",
+          "abilities": [
+            {
+              "name": "Insanely Tough",
+              "detail": "only takes 0.17x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            },
+            {
+              "name": "Warp",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alienu2: b1Insanely Toughb2 (only takes 0.17x damage) b1Weakenb2 (100% chance to weaken by 50% for 5.0s) \nu1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)\nu1Not affected byu2: b1Slowb2, b1Warpb2"
+    }
+  ]
+}

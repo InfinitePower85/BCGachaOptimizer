@@ -1,0 +1,72 @@
+{
+  "id": "607",
+  "name": "Panda Cat",
+  "forms": [
+    {
+      "number": "607-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Panda Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1388,
+      "damage": 1200,
+      "range": 225,
+      "kb": 3,
+      "speed": 10,
+      "dps": 182,
+      "target": "Single",
+      "tba": 6.53,
+      "anim": 1.23,
+      "spawn": 11.2,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    },
+    {
+      "number": "607-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Genma Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1388,
+      "damage": 1200,
+      "range": 225,
+      "kb": 3,
+      "speed": 10,
+      "dps": 182,
+      "target": "Single",
+      "tba": 6.53,
+      "anim": 1.23,
+      "spawn": 11.2,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Extra money",
+              "detail": "2x money gained from defeated enemies"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Extra moneyb2 (2x money gained from defeated enemies)"
+    }
+  ]
+}

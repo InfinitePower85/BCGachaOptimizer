@@ -1,0 +1,85 @@
+{
+  "id": "015",
+  "name": "Cats in a Box",
+  "forms": [
+    {
+      "number": "015-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cats in a Box",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 750,
+      "range": 140,
+      "kb": 3,
+      "speed": 35,
+      "dps": 222,
+      "target": "Area",
+      "tba": 3.37,
+      "anim": 0.27,
+      "spawn": 6.53,
+      "cost": 1125,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "015-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Cat Gang",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 750,
+      "range": 140,
+      "kb": 3,
+      "speed": 35,
+      "dps": 222,
+      "target": "Area",
+      "tba": 3.37,
+      "anim": 0.27,
+      "spawn": 6.53,
+      "cost": 1125,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "015-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Heavy Assault C.A.T.",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2000,
+      "damage": 750,
+      "range": 199,
+      "kb": 3,
+      "speed": 30,
+      "dps": 222,
+      "target": "Area",
+      "tba": 3.37,
+      "anim": 0.27,
+      "spawn": 6.53,
+      "cost": 1125,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "30% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Weakenb2 (30% chance to weaken by 50% for 6.67s)"
+    }
+  ]
+}

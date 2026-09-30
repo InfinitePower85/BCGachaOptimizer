@@ -1,0 +1,98 @@
+{
+  "id": "757",
+  "name": "Cake Machine",
+  "forms": [
+    {
+      "number": "757-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Cake Machine",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 13750,
+      "damage": 8375,
+      "range": 190,
+      "kb": 1,
+      "speed": 9,
+      "dps": 1088,
+      "target": "Area",
+      "tba": 7.7,
+      "anim": 3.07,
+      "spawn": 71.2,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against angel, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Shield Piercing",
+              "detail": "75% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, akuu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (50% chance to weaken by 50% for 4.0s) \nu1General Abilitiesu2: b1Shield Piercingb2 (75% chance to break Aku shields)"
+    },
+    {
+      "number": "757-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Wedding Cake Machine",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 18750,
+      "damage": 11000,
+      "range": 190,
+      "kb": 1,
+      "speed": 9,
+      "dps": 1428,
+      "target": "Area",
+      "tba": 7.7,
+      "anim": 3.07,
+      "spawn": 71.2,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against angel, aku",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "50% chance to weaken by 50% for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Shield Piercing",
+              "detail": "75% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, akuu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (50% chance to weaken by 50% for 4.0s) \nu1General Abilitiesu2: b1Shield Piercingb2 (75% chance to break Aku shields)"
+    }
+  ]
+}

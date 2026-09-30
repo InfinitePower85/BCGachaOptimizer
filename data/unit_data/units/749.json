@@ -1,0 +1,116 @@
+{
+  "id": "749",
+  "name": "Aoshi Shinomori",
+  "forms": [
+    {
+      "number": "749-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Aoshi Shinomori",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5750,
+      "damage": 3000,
+      "range": 400,
+      "kb": 3,
+      "speed": 15,
+      "dps": 422,
+      "target": "Area",
+      "tba": 7.1,
+      "anim": 2.0,
+      "spawn": 117.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~650"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (50% chance to freeze for 5.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~650)\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "749-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Aoshi Shinomori CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 4000,
+      "range": 400,
+      "kb": 3,
+      "speed": 15,
+      "dps": 562,
+      "target": "Area",
+      "tba": 7.1,
+      "anim": 2.0,
+      "spawn": 117.87,
+      "cost": 3750,
+      "abilities": [
+        {
+          "group": "Against floating, angel",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 250~650"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against floating, angelu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (50% chance to freeze for 5.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 250~650)\nu1Not affected byu2: b1Slowb2"
+    }
+  ]
+}

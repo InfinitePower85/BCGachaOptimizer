@@ -1,0 +1,106 @@
+{
+  "id": "531",
+  "name": "Herme",
+  "forms": [
+    {
+      "number": "531-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Herme",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 3938,
+      "range": 375,
+      "kb": 4,
+      "speed": 8,
+      "dps": 540,
+      "target": "Area",
+      "tba": 7.3,
+      "anim": 3.0,
+      "spawn": 87.87,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range -800~375"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Long Distanceb2 (Effective range -800~375) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    },
+    {
+      "number": "531-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Herme CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8000,
+      "damage": 5212,
+      "range": 375,
+      "kb": 4,
+      "speed": 8,
+      "dps": 715,
+      "target": "Area",
+      "tba": 7.3,
+      "anim": 3.0,
+      "spawn": 87.87,
+      "cost": 3450,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Long Distance",
+              "detail": "Effective range -800~375"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks thrice consecutively"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Long Distanceb2 (Effective range -800~375) b1Multi-hit attackb2 (Attacks thrice consecutively)"
+    }
+  ]
+}

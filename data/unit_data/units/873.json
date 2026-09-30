@@ -1,0 +1,132 @@
+{
+  "id": "873",
+  "name": "Jungle Gourmet Tomoe",
+  "forms": [
+    {
+      "number": "873-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Jungle Gourmet Tomoe",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 8250,
+      "damage": 3950,
+      "range": 420,
+      "kb": 4,
+      "speed": 20,
+      "dps": 655,
+      "target": "Area",
+      "tba": 6.03,
+      "anim": 2.07,
+      "spawn": 111.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against red, angel, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~421,550~850"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angel, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (50% chance to freeze for 4.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~421,550~850) b1Multi-hit attackb2 (Attacks twice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Waveb2"
+    },
+    {
+      "number": "873-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Canopy Queen Tomoe",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9500,
+      "damage": 4950,
+      "range": 420,
+      "kb": 4,
+      "speed": 20,
+      "dps": 820,
+      "target": "Area",
+      "tba": 6.03,
+      "anim": 2.07,
+      "spawn": 111.2,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "Against red, angel, alien",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~421,550~850"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            },
+            {
+              "name": "Colossus Slayer",
+              "detail": "inflicts 1.6x damage, takes only 0.7x damage"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Wave",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, angel, alienu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (50% chance to freeze for 4.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~421,550~850) b1Multi-hit attackb2 (Attacks twice consecutively) b1Colossus Slayerb2 (inflicts 1.6x damage, takes only 0.7x damage)\nu1Not affected byu2: b1Waveb2"
+    }
+  ]
+}

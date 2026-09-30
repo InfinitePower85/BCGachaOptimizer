@@ -1,0 +1,90 @@
+{
+  "id": "364",
+  "name": "Rin Tohsaka",
+  "forms": [
+    {
+      "number": "364-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Rin Tohsaka",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4625,
+      "damage": 3750,
+      "range": 450,
+      "kb": 4,
+      "speed": 11,
+      "dps": 560,
+      "target": "Area",
+      "tba": 6.7,
+      "anim": 2.93,
+      "spawn": 124.53,
+      "cost": 4260,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    },
+    {
+      "number": "364-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Rin Tohsaka CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6500,
+      "damage": 5250,
+      "range": 450,
+      "kb": 4,
+      "speed": 11,
+      "dps": 782,
+      "target": "Area",
+      "tba": 6.7,
+      "anim": 2.93,
+      "spawn": 124.53,
+      "cost": 4260,
+      "abilities": [
+        {
+          "group": "Against alien, zombie",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against alien, zombieu2: b1Knockbackb2 (50% chance of knockback) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

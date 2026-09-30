@@ -1,0 +1,105 @@
+{
+  "id": "392",
+  "name": "Mizuki Tachibana",
+  "forms": [
+    {
+      "number": "392-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mizuki Tachibana",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2750,
+      "damage": 1125,
+      "range": 200,
+      "kb": 3,
+      "speed": 22,
+      "dps": 318,
+      "target": "Area",
+      "tba": 3.53,
+      "anim": 0.5,
+      "spawn": 25.2,
+      "cost": 1290,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "392-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Mizuki Tachibana CC",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3625,
+      "damage": 1500,
+      "range": 200,
+      "kb": 3,
+      "speed": 22,
+      "dps": 425,
+      "target": "Area",
+      "tba": 3.53,
+      "anim": 0.5,
+      "spawn": 25.2,
+      "cost": 1290,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    },
+    {
+      "number": "392-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Baseball Mask β",
+      "rarity": "Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3625,
+      "damage": 1500,
+      "range": 300,
+      "kb": 3,
+      "speed": 22,
+      "dps": 460,
+      "target": "Area",
+      "tba": 3.27,
+      "anim": 0.7,
+      "spawn": 25.2,
+      "cost": 1290,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Massive Damageb2 (inflicts 3.0x damage)"
+    }
+  ]
+}

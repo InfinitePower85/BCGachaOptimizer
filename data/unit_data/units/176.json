@@ -1,0 +1,72 @@
+{
+  "id": "176",
+  "name": "Meowla Meowla",
+  "forms": [
+    {
+      "number": "176-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Meowla Meowla",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 350,
+      "range": 140,
+      "kb": 4,
+      "speed": 9,
+      "dps": 118,
+      "target": "Area",
+      "tba": 2.97,
+      "anim": 1.0,
+      "spawn": 2.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage)"
+    },
+    {
+      "number": "176-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Catorpedo",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 350,
+      "range": 140,
+      "kb": 4,
+      "speed": 9,
+      "dps": 118,
+      "target": "Area",
+      "tba": 2.97,
+      "anim": 1.0,
+      "spawn": 2.53,
+      "cost": 450,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Resistantb2 (only takes 0.25x damage)"
+    }
+  ]
+}

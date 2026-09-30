@@ -1,0 +1,72 @@
+{
+  "id": "367",
+  "name": "Lancer",
+  "forms": [
+    {
+      "number": "367-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Lancer",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4750,
+      "damage": 2250,
+      "range": 480,
+      "kb": 4,
+      "speed": 13,
+      "dps": 500,
+      "target": "Area",
+      "tba": 4.5,
+      "anim": 1.47,
+      "spawn": 127.87,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)"
+    },
+    {
+      "number": "367-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Lancer CC",
+      "rarity": "Uber Super Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7250,
+      "damage": 3375,
+      "range": 480,
+      "kb": 4,
+      "speed": 13,
+      "dps": 750,
+      "target": "Area",
+      "tba": 4.5,
+      "anim": 1.47,
+      "spawn": 127.87,
+      "cost": 4350,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Barrier Breaker",
+              "detail": "100% chance of breaking enemy barriers"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Barrier Breakerb2 (100% chance of breaking enemy barriers)"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "557",
+  "name": "Holy Knight Alibaba",
+  "forms": [
+    {
+      "number": "557-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Holy Knight Alibaba",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1688,
+      "damage": 762,
+      "range": 275,
+      "kb": 3,
+      "speed": 12,
+      "dps": 198,
+      "target": "Area",
+      "tba": 3.87,
+      "anim": 0.83,
+      "spawn": 21.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 225~475"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 225~475)\nu1Not affected byu2: b1Freezeb2"
+    },
+    {
+      "number": "557-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Holy King Alibaba",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2250,
+      "damage": 1025,
+      "range": 275,
+      "kb": 3,
+      "speed": 12,
+      "dps": 265,
+      "target": "Area",
+      "tba": 3.87,
+      "anim": 0.83,
+      "spawn": 21.2,
+      "cost": 900,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 225~475"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 225~475)\nu1Not affected byu2: b1Freezeb2"
+    },
+    {
+      "number": "557-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Ghost Alibaba",
+      "rarity": "Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 1288,
+      "range": 350,
+      "kb": 3,
+      "speed": 12,
+      "dps": 332,
+      "target": "Area",
+      "tba": 3.87,
+      "anim": 0.83,
+      "spawn": 44.53,
+      "cost": 2700,
+      "abilities": [
+        {
+          "group": "Against black, angel",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 175~475"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against black, angelu2: b1Massive Damageb2 (inflicts 3.0x damage) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 175~475)\nu1Not affected byu2: b1Knockbackb2"
+    }
+  ]
+}

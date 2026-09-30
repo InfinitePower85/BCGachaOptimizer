@@ -1,0 +1,136 @@
+{
+  "id": "620",
+  "name": "Lilin",
+  "forms": [
+    {
+      "number": "620-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Lilin",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 5250,
+      "damage": 2875,
+      "range": 350,
+      "kb": 3,
+      "speed": 11,
+      "dps": 460,
+      "target": "Area",
+      "tba": 6.23,
+      "anim": 2.13,
+      "spawn": 84.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against angel, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Shield Piercing",
+              "detail": "100% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Shield Piercingb2 (100% chance to break Aku shields)"
+    },
+    {
+      "number": "620-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Lilin π",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6250,
+      "damage": 3625,
+      "range": 350,
+      "kb": 3,
+      "speed": 11,
+      "dps": 582,
+      "target": "Area",
+      "tba": 6.23,
+      "anim": 2.13,
+      "spawn": 84.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against angel, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Shield Piercing",
+              "detail": "100% chance to break Aku shields"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Shield Piercingb2 (100% chance to break Aku shields)"
+    },
+    {
+      "number": "620-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Divine Lilin π",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 9500,
+      "damage": 3625,
+      "range": 350,
+      "kb": 3,
+      "speed": 11,
+      "dps": 582,
+      "target": "Area",
+      "tba": 6.23,
+      "anim": 2.13,
+      "spawn": 84.53,
+      "cost": 3900,
+      "abilities": [
+        {
+          "group": "Against angel, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Shield Piercing",
+              "detail": "100% chance to break Aku shields"
+            },
+            {
+              "name": "Surge Attacks",
+              "detail": "100% chance to perform Surge Attacks for 1s (Range: 150~950)"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angel, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \nu1General Abilitiesu2: b1Shield Piercingb2 (100% chance to break Aku shields) b1Surge Attacksb2 (100% chance to perform Surge Attacks for 1s (Range: 150~950)"
+    }
+  ]
+}

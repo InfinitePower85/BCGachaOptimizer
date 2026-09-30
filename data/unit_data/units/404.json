@@ -1,0 +1,52 @@
+{
+  "id": "404",
+  "name": "Gendo & Fuyutsuki Cats",
+  "forms": [
+    {
+      "number": "404-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Gendo & Fuyutsuki Cats",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 75,
+      "range": 110,
+      "kb": 2,
+      "speed": 8,
+      "dps": 30,
+      "target": "Area",
+      "tba": 2.57,
+      "anim": 1.3,
+      "spawn": 2.0,
+      "cost": 225,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "404-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Moon Gendo & Fuyutsuki Cats",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1500,
+      "damage": 75,
+      "range": 110,
+      "kb": 2,
+      "speed": 8,
+      "dps": 30,
+      "target": "Area",
+      "tba": 2.57,
+      "anim": 1.3,
+      "spawn": 2.0,
+      "cost": 225,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

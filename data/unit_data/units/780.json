@@ -1,0 +1,144 @@
+{
+  "id": "780",
+  "name": "Celestial Child Luna",
+  "forms": [
+    {
+      "number": "780-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Celestial Child Luna",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 3000,
+      "damage": 1375,
+      "range": 200,
+      "kb": 3,
+      "speed": 18,
+      "dps": 340,
+      "target": "Area",
+      "tba": 4.03,
+      "anim": 0.5,
+      "spawn": 10.2,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "Against red, alien, zombie, relic",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 1.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~250"
+            },
+            {
+              "name": "Explosion",
+              "detail": "50% chance to create an explosion at 200 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Explosion",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alien, zombie, relicu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (50% chance to freeze for 1.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Omni Strikeb2 (Effective range -100~250) b1Explosionb2 (50% chance to create an explosion at 200 range)\nu1Not affected byu2: b1Curseb2, b1Explosionb2"
+    },
+    {
+      "number": "780-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Salvation's Daughter Lunacia",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 11250,
+      "damage": 2625,
+      "range": 400,
+      "kb": 5,
+      "speed": 16,
+      "dps": 490,
+      "target": "Area",
+      "tba": 5.37,
+      "anim": 1.33,
+      "spawn": 97.87,
+      "cost": 4500,
+      "abilities": [
+        {
+          "group": "Against red, alien, zombie, relic",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "100% chance to freeze for 2.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            },
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            },
+            {
+              "name": "Omni Strike",
+              "detail": "Effective range -100~450"
+            },
+            {
+              "name": "Explosion",
+              "detail": "100% chance to create an explosion at 400 range"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Explosion",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against red, alien, zombie, relicu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (100% chance to freeze for 2.0s) \nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving) b1Wave Shieldb2 (Protects units behind them from shockwaves) b1Omni Strikeb2 (Effective range -100~450) b1Explosionb2 (100% chance to create an explosion at 400 range)\nu1Not affected byu2: b1Curseb2, b1Explosionb2"
+    }
+  ]
+}

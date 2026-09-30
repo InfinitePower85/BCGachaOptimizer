@@ -1,0 +1,52 @@
+{
+  "id": "696",
+  "name": "Killer Tank Cat",
+  "forms": [
+    {
+      "number": "696-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Killer Tank Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 5,
+      "range": 110,
+      "kb": 1,
+      "speed": 8,
+      "dps": 2,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 7500,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "696-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "True Killer Tank Cat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1000,
+      "damage": 5,
+      "range": 110,
+      "kb": 1,
+      "speed": 8,
+      "dps": 2,
+      "target": "Area",
+      "tba": 2.23,
+      "anim": 0.27,
+      "spawn": 2.0,
+      "cost": 7500,
+      "abilities": [],
+      "ability_raw": ""
+    }
+  ]
+}

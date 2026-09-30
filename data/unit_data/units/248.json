@@ -1,0 +1,94 @@
+{
+  "id": "248",
+  "name": "Li'l Bird Cat",
+  "forms": [
+    {
+      "number": "248-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Li'l Bird Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 300,
+      "damage": 350,
+      "range": 160,
+      "kb": 4,
+      "speed": 8,
+      "dps": 215,
+      "target": "Area",
+      "tba": 1.63,
+      "anim": 0.33,
+      "spawn": 2.0,
+      "cost": 975,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "248-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Li'l UFO Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 300,
+      "damage": 412,
+      "range": 160,
+      "kb": 4,
+      "speed": 8,
+      "dps": 218,
+      "target": "Area",
+      "tba": 1.9,
+      "anim": 0.6,
+      "spawn": 2.0,
+      "cost": 975,
+      "abilities": [],
+      "ability_raw": ""
+    },
+    {
+      "number": "248-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Li'l Flying Cat",
+      "rarity": "Special",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1200,
+      "damage": 825,
+      "range": 170,
+      "kb": 4,
+      "speed": 8,
+      "dps": 435,
+      "target": "Area",
+      "tba": 1.9,
+      "anim": 0.6,
+      "spawn": 3.53,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "Against zombie",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Zombie Killer",
+              "detail": "Stops zombies from reviving"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against zombieu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) \r\nu1General Abilitiesu2: b1Zombie Killerb2 (Stops zombies from reviving)"
+    }
+  ]
+}

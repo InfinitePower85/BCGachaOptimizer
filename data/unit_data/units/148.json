@@ -1,0 +1,105 @@
+{
+  "id": "148",
+  "name": "Tin Cat",
+  "forms": [
+    {
+      "number": "148-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Tin Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1512,
+      "damage": 192,
+      "range": 295,
+      "kb": 3,
+      "speed": 8,
+      "dps": 75,
+      "target": "Single",
+      "tba": 2.53,
+      "anim": 0.83,
+      "spawn": 6.53,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "148-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Plane Cat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1875,
+      "damage": 268,
+      "range": 295,
+      "kb": 3,
+      "speed": 15,
+      "dps": 105,
+      "target": "Single",
+      "tba": 2.53,
+      "anim": 0.83,
+      "spawn": 6.53,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Knockbackb2 (50% chance of knockback)"
+    },
+    {
+      "number": "148-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Robocat",
+      "rarity": "Rare",
+      "version_available": "all",
+      "is_crazed": false,
+      "level": 1,
+      "health": 2238,
+      "damage": 342,
+      "range": 345,
+      "kb": 3,
+      "speed": 10,
+      "dps": 135,
+      "target": "Single",
+      "tba": 2.53,
+      "anim": 0.83,
+      "spawn": 6.53,
+      "cost": 510,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Knockback",
+              "detail": "50% chance of knockback"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Knockbackb2 (50% chance of knockback)"
+    }
+  ]
+}

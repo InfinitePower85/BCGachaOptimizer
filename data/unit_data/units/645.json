@@ -1,0 +1,114 @@
+{
+  "id": "645",
+  "name": "Sweet Love Mekako",
+  "forms": [
+    {
+      "number": "645-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Sweet Love Mekako",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14250,
+      "damage": 5000,
+      "range": 445,
+      "kb": 2,
+      "speed": 7,
+      "dps": 690,
+      "target": "Area",
+      "tba": 7.23,
+      "anim": 2.27,
+      "spawn": 144.53,
+      "cost": 5925,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Freezeb2 (50% chance to freeze for 4.0s)"
+    },
+    {
+      "number": "645-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Bittersweet Mekako",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14250,
+      "damage": 5000,
+      "range": 445,
+      "kb": 2,
+      "speed": 7,
+      "dps": 690,
+      "target": "Area",
+      "tba": 7.23,
+      "anim": 2.27,
+      "spawn": 144.53,
+      "cost": 5925,
+      "abilities": [
+        {
+          "group": "Against black",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against blacku2: b1Freezeb2 (50% chance to freeze for 4.0s)"
+    },
+    {
+      "number": "645-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Minty Love Mekako",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 14250,
+      "damage": 5000,
+      "range": 445,
+      "kb": 2,
+      "speed": 7,
+      "dps": 690,
+      "target": "Area",
+      "tba": 7.23,
+      "anim": 2.27,
+      "spawn": 144.53,
+      "cost": 5925,
+      "abilities": [
+        {
+          "group": "Against relic",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 4.0s"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against relicu2: b1Freezeb2 (50% chance to freeze for 4.0s)\nu1Not affected byu2: b1Curseb2"
+    }
+  ]
+}

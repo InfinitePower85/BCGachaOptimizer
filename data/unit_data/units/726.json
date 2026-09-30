@@ -1,0 +1,175 @@
+{
+  "id": "726",
+  "name": "Ninja Girl Tomoe",
+  "forms": [
+    {
+      "number": "726-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Ninja Girl Tomoe",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 3375,
+      "range": 420,
+      "kb": 4,
+      "speed": 22,
+      "dps": 560,
+      "target": "Area",
+      "tba": 6.03,
+      "anim": 2.07,
+      "spawn": 111.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against white, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "30% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~421, 550~850"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, akuu2: b1Freezeb2 (30% chance to freeze for 3.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~421, 550~850) b1Multi-hit attackb2 (Attacks twice consecutively)\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "726-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Gourmand Ninja Girl Tomoe",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 5400,
+      "range": 420,
+      "kb": 4,
+      "speed": 22,
+      "dps": 895,
+      "target": "Area",
+      "tba": 6.03,
+      "anim": 2.07,
+      "spawn": 111.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against white, aku",
+          "abilities": [
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 3.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~421, 550~850"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, akuu2: b1Freezeb2 (50% chance to freeze for 3.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~421, 550~850) b1Multi-hit attackb2 (Attacks twice consecutively)\nu1Not affected byu2: b1Surgeb2"
+    },
+    {
+      "number": "726-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Sugar Rush Shinobi Tomoe",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 12000,
+      "damage": 6000,
+      "range": 420,
+      "kb": 4,
+      "speed": 22,
+      "dps": 995,
+      "target": "Area",
+      "tba": 6.03,
+      "anim": 2.07,
+      "spawn": 111.2,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against white, aku",
+          "abilities": [
+            {
+              "name": "Strong",
+              "detail": "inflicts 1.5x damage, takes only 0.5x damage"
+            },
+            {
+              "name": "Freeze",
+              "detail": "50% chance to freeze for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 1~421,550~850"
+            },
+            {
+              "name": "Multi-hit attack",
+              "detail": "Attacks twice consecutively"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against white, akuu2: b1Strongb2 (inflicts 1.5x damage, takes only 0.5x damage) b1Freezeb2 (50% chance to freeze for 5.0s) \nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 1~421,550~850) b1Multi-hit attackb2 (Attacks twice consecutively)\nu1Not affected byu2: b1Surgeb2"
+    }
+  ]
+}

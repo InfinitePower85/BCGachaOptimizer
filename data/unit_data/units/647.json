@@ -1,0 +1,80 @@
+{
+  "id": "647",
+  "name": "Firecracker Cat",
+  "forms": [
+    {
+      "number": "647-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Firecracker Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 350,
+      "range": 170,
+      "kb": 4,
+      "speed": 10,
+      "dps": 215,
+      "target": "Area",
+      "tba": 1.63,
+      "anim": 0.47,
+      "spawn": 11.2,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Dodge",
+              "detail": "20% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Dodgeb2 (20% chance to dodge for 2.0s)"
+    },
+    {
+      "number": "647-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Macho Firecracker Cat",
+      "rarity": "Special",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 750,
+      "damage": 350,
+      "range": 170,
+      "kb": 4,
+      "speed": 10,
+      "dps": 215,
+      "target": "Area",
+      "tba": 1.63,
+      "anim": 0.47,
+      "spawn": 11.2,
+      "cost": 975,
+      "abilities": [
+        {
+          "group": "Against red",
+          "abilities": [
+            {
+              "name": "Massive Damage",
+              "detail": "inflicts 3.0x damage"
+            },
+            {
+              "name": "Dodge",
+              "detail": "20% chance to dodge for 2.0s"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against redu2: b1Massive Damageb2 (inflicts 3.0x damage) b1Dodgeb2 (20% chance to dodge for 2.0s)"
+    }
+  ]
+}

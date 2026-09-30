@@ -1,0 +1,72 @@
+{
+  "id": "423",
+  "name": "Uzumasa Moe & Cat",
+  "forms": [
+    {
+      "number": "423-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Uzumasa Moe & Cat",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1062,
+      "damage": 438,
+      "range": 375,
+      "kb": 3,
+      "speed": 10,
+      "dps": 65,
+      "target": "Area",
+      "tba": 6.83,
+      "anim": 1.87,
+      "spawn": 17.87,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~425"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~425)"
+    },
+    {
+      "number": "423-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Uzumasa Moe & Cat CC",
+      "rarity": "Rare",
+      "version_available": "jp",
+      "is_crazed": false,
+      "level": 1,
+      "health": 1062,
+      "damage": 438,
+      "range": 375,
+      "kb": 3,
+      "speed": 10,
+      "dps": 65,
+      "target": "Area",
+      "tba": 6.83,
+      "anim": 1.87,
+      "spawn": 17.87,
+      "cost": 600,
+      "abilities": [
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 300~425"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1General Abilitiesu2: b1Long Distanceb2 (Effective range 300~425)"
+    }
+  ]
+}

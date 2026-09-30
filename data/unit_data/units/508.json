@@ -1,0 +1,149 @@
+{
+  "id": "508",
+  "name": "Mightycat",
+  "forms": [
+    {
+      "number": "508-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Mightycat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 500,
+      "range": 140,
+      "kb": 10,
+      "speed": 60,
+      "dps": 100,
+      "target": "Single",
+      "tba": 5.03,
+      "anim": 0.03,
+      "spawn": 21.2,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Weakenb2 (100% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Wave Shieldb2 (Protects units behind them from shockwaves)"
+    },
+    {
+      "number": "508-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Supercat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 500,
+      "range": 140,
+      "kb": 10,
+      "speed": 60,
+      "dps": 100,
+      "target": "Single",
+      "tba": 5.03,
+      "anim": 0.03,
+      "spawn": 21.2,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Weakenb2 (100% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Wave Shieldb2 (Protects units behind them from shockwaves)"
+    },
+    {
+      "number": "508-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Ironcat",
+      "rarity": "Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 500,
+      "range": 140,
+      "kb": 10,
+      "speed": 80,
+      "dps": 100,
+      "target": "Single",
+      "tba": 5.03,
+      "anim": 0.03,
+      "spawn": 21.2,
+      "cost": 720,
+      "abilities": [
+        {
+          "group": "Against white",
+          "abilities": [
+            {
+              "name": "Resistant",
+              "detail": "only takes 0.25x damage"
+            },
+            {
+              "name": "Weaken",
+              "detail": "100% chance to weaken by 50% for 6.67s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Wave Shield",
+              "detail": "Protects units behind them from shockwaves"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Curse",
+              "detail": ""
+            },
+            {
+              "name": "Surge",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against whiteu2: b1Resistantb2 (only takes 0.25x damage) b1Weakenb2 (100% chance to weaken by 50% for 6.67s) \nu1General Abilitiesu2: b1Wave Shieldb2 (Protects units behind them from shockwaves)\nu1Not affected byu2: b1Curseb2, b1Surgeb2"
+    }
+  ]
+}

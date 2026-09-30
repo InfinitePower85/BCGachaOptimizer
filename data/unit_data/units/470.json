@@ -1,0 +1,159 @@
+{
+  "id": "470",
+  "name": "Super Devil",
+  "forms": [
+    {
+      "number": "470-1",
+      "form_no": 1,
+      "form": "Normal",
+      "name": "Super Devil",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 4500,
+      "damage": 3000,
+      "range": 550,
+      "kb": 3,
+      "speed": 4,
+      "dps": 372,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 2.0,
+      "spawn": 124.53,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 400~800"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Slowb2 (100% chance to slow for 5.0s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 400~800)\r\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "470-2",
+      "form_no": 2,
+      "form": "Evolved",
+      "name": "Imposter Super Devil",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 6000,
+      "damage": 4000,
+      "range": 550,
+      "kb": 3,
+      "speed": 4,
+      "dps": 498,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 2.0,
+      "spawn": 124.53,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 400~800"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Slowb2 (100% chance to slow for 5.0s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 400~800))\r\nu1Not affected byu2: b1Slowb2"
+    },
+    {
+      "number": "470-3",
+      "form_no": 3,
+      "form": "True",
+      "name": "Super D-Devil",
+      "rarity": "Uber Super Rare",
+      "version_available": "en",
+      "is_crazed": false,
+      "level": 1,
+      "health": 7500,
+      "damage": 4000,
+      "range": 550,
+      "kb": 5,
+      "speed": 7,
+      "dps": 498,
+      "target": "Area",
+      "tba": 8.03,
+      "anim": 2.0,
+      "spawn": 124.53,
+      "cost": 4200,
+      "abilities": [
+        {
+          "group": "Against angel",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": "100% chance to slow for 5.0s"
+            }
+          ]
+        },
+        {
+          "group": "General Abilities",
+          "abilities": [
+            {
+              "name": "Long Distance",
+              "detail": "Effective range 400~800"
+            }
+          ]
+        },
+        {
+          "group": "Not affected by",
+          "abilities": [
+            {
+              "name": "Slow",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "ability_raw": "u1Against angelu2: b1Slowb2 (100% chance to slow for 5.0s) \r\nu1General Abilitiesu2: b1Long Distanceb2 (Effective range 400~800))\r\nu1Not affected byu2: b1Slowb2"
+    }
+  ]
+}
