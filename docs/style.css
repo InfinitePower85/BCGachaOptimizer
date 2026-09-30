@@ -193,7 +193,6 @@ button:disabled { opacity: 0.5; cursor: default; }
 }
 
 .row label.inline { flex: 0 1 220px; }
-#meow-out { margin-top: 8px; resize: vertical; }
 
 /* Roll viewer: rarity colors copied from bc.godfat.org's own scheme, which assumes
    a dark surface, so the table keeps that surface regardless of page theme. */

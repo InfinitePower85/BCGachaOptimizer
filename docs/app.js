@@ -1050,29 +1050,4 @@ $("opt-set-guide-btn").addEventListener("click", async () => {
   say("viewer-status", `Guided moveset set from the optimizer's route for ${lastOptimizeDatasetId}. Use 1 Draw / 11 Draw to follow it.`, "ok");
 });
 
-// ---- Meow (server connection test) -------------------------------------------
-const MEOW_MAX = 100;
-
-$("meow-btn").addEventListener("click", async () => {
-  const raw = $("meow-n").value.trim();
-  const out = $("meow-out");
-  out.value = "";
-  if (!/^\d+$/.test(raw) || Number(raw) < 1 || Number(raw) > MEOW_MAX) {
-    return say("meow-status", `Enter a whole number from 1 to ${MEOW_MAX}.`, "err");
-  }
-
-  const btn = $("meow-btn");
-  btn.disabled = true;
-  say("meow-status", "Sending...");
-  try {
-    out.value = await apiGet("/meow", { n: raw }, () =>
-      say("meow-status", "Still waiting. The server may be waking up, which can take up to a minute..."));
-    say("meow-status", "Got a reply.", "ok");
-  } catch (e) {
-    say("meow-status", e.message || "Request failed.", "err");
-  } finally {
-    btn.disabled = false;
-  }
-});
-
 refresh().catch(() => say("data-status", "Browser storage is unavailable here.", "err"));
