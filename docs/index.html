@@ -45,18 +45,31 @@
             <button id="sim-eleven-btn" disabled>11 Draw</button>
             <button id="sim-undo-btn" class="secondary" disabled>Undo</button>
           </div>
-          <p id="sim-position" class="sim-position"></p>
-          <p id="sim-status" class="status" role="status"></p>
-          <div class="sim-collected-header">
-            <h3>Collected</h3>
-            <label class="sim-collab-toggle">
-              <input type="checkbox" id="sim-collab-only">
-              Collab units only
-            </label>
+          <p id="sim-mismatch-banner" class="sim-mismatch-banner"></p>
+          <div class="sim-columns">
+            <div class="sim-col-status">
+              <p id="sim-position" class="sim-position"></p>
+              <p id="sim-last-collected" class="sim-guidance-line"></p>
+              <p id="sim-next-move" class="sim-guidance-line"></p>
+              <p id="sim-status" class="status" role="status"></p>
+              <div class="sim-collected-header">
+                <h3>Collected</h3>
+                <label class="sim-collab-toggle">
+                  <input type="checkbox" id="sim-collab-only">
+                  Collab units only
+                </label>
+              </div>
+              <div id="sim-collected" class="sim-collected"></div>
+            </div>
+            <div class="sim-col-moves">
+              <div class="row sim-guide-controls">
+                <button id="sim-set-guide-btn" class="secondary" disabled>Use current moves as guide</button>
+                <button id="sim-clear-guide-btn" class="secondary" hidden>Clear guide</button>
+              </div>
+              <h3 id="sim-moves-heading">Moves used</h3>
+              <ol id="sim-moves" class="result"></ol>
+            </div>
           </div>
-          <div id="sim-collected" class="sim-collected"></div>
-          <h3>Moves used</h3>
-          <ol id="sim-moves" class="result"></ol>
         </div>
       </div>
     </section>
@@ -99,17 +112,24 @@
         <button id="opt-btn">Run optimizer</button>
       </div>
       <p id="opt-status" class="status" role="status"></p>
-      <div class="sim-collected-header">
-        <h3>Collected</h3>
-        <label class="sim-collab-toggle">
-          <input type="checkbox" id="opt-collab-only">
-          Collab units only
-        </label>
-      </div>
-      <div id="opt-collected" class="sim-collected"></div>
-      <ol id="opt-result" class="result"></ol>
-      <div class="row">
-        <button id="opt-simulate-btn" class="secondary" disabled>Simulate this route in viewer</button>
+      <div class="sim-columns">
+        <div class="sim-col-status">
+          <div class="sim-collected-header">
+            <h3>Collected</h3>
+            <label class="sim-collab-toggle">
+              <input type="checkbox" id="opt-collab-only">
+              Collab units only
+            </label>
+          </div>
+          <div id="opt-collected" class="sim-collected"></div>
+        </div>
+        <div class="sim-col-moves">
+          <div class="row sim-guide-controls">
+            <button id="opt-set-guide-btn" class="secondary" disabled>Set guided moveset</button>
+          </div>
+          <h3>Route</h3>
+          <ol id="opt-result" class="result"></ol>
+        </div>
       </div>
     </section>
 

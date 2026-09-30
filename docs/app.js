@@ -243,14 +243,53 @@ function simHasEleven(pool, track, roll) {
   return true;
 }
 
+// A loaded plan to follow: { steps: [{type, track, roll, units}], index }, index being how
+// many steps have been consumed so far (matched or not -- see simPushMove). null means no
+// guide is active, which is the default and keeps every guidance UI element empty/hidden
+// (see renderSim/updateGuidanceStatus) -- loading a guide is what turns "guided mode" on,
+// there's no separate toggle for it.
+let guidance = null;
+
+function setGuidance(steps) {
+  guidance = { steps, index: 0 };
+  renderSim();
+}
+
+function clearGuidance() {
+  guidance = null;
+  renderSim();
+}
+
 function initSim(csvText) {
   sim = { pool: buildSimPool(csvText), track: "A", roll: 1, moves: [], animating: false };
+  guidance = null; // a guide's steps are tied to the pool that produced them
   say("sim-status", "", "");
   renderSim();
 }
 
+/** guidanceStatus is one of:
+ *   "matched"   -- guided, and this move's type matched the guide's step here
+ *   "mismatch"  -- guided, but it didn't (see below for what counts as "wrong")
+ *   "unguided"  -- no guide step to compare against, either because no guide is loaded at
+ *                  all, or because this move goes past the end of one that is
+ * A "wrong move" is specifically a single-vs-eleven mismatch (see the discussion this
+ * followed): an 11-draw claims the guaranteed pick and can jump tracks in a way a 1-draw
+ * fundamentally can't reproduce, so that's the one divergence worth flagging -- not which
+ * unit came out, since the pool is deterministic and matches if the position does. */
 function simPushMove(type, track, roll, units, to) {
-  sim.moves.push({ type, track, roll, units, from: { track, roll }, to });
+  const move = { type, track, roll, units, from: { track, roll }, to };
+  if (guidance) {
+    move.guidanceIndexBefore = guidance.index; // so simUndo can restore it exactly
+    if (guidance.index < guidance.steps.length) {
+      move.guidanceStatus = guidance.steps[guidance.index].type === type ? "matched" : "mismatch";
+      guidance.index++;
+    } else {
+      move.guidanceStatus = "unguided"; // past the end of the plan
+    }
+  } else {
+    move.guidanceStatus = "unguided"; // no guide loaded
+  }
+  sim.moves.push(move);
   sim.track = to.track;
   sim.roll = to.roll;
 }
@@ -322,21 +361,7 @@ function simUndo() {
   const last = sim.moves.pop();
   sim.track = last.from.track;
   sim.roll = last.from.roll;
-  renderSim();
-}
-
-/** Replay a route from the optimizer (see the "Simulate this route in viewer" button
- * below), which arrives as [{type, track, roll, units}] with no "next" position -- we
- * recompute each step's destination from sim's own pool, same as a manual draw would. */
-function simApplyRoute(route) {
-  if (!sim) return;
-  for (const step of route) {
-    const { track, roll, pool } = sim;
-    const to = step.type === "guaranteed_eleven"
-      ? pool.guaranteed[track]?.[roll]?.link_target ?? { track, roll }
-      : { track, roll: roll + 1 };
-    simPushMove(step.type, track, roll, step.units, to);
-  }
+  if (guidance && last.guidanceIndexBefore !== undefined) guidance.index = last.guidanceIndexBefore;
   renderSim();
 }
 
@@ -346,9 +371,9 @@ function updateSimHighlight() {
   if (!sim) return;
   const cells = document.querySelectorAll(`#viewer-table td[data-track="${sim.track}"][data-roll="${sim.roll}"]`);
   cells.forEach((td) => td.classList.add("sim-current"));
-  // Keep the marker in view as it moves -- a single draw, an undo, the end of the 11-draw
-  // animation, and a replayed route (simApplyRoute) all funnel through here via renderSim().
-  // only use a "nearest" scroll approach here 
+  // Keep the marker in view as it moves -- a single draw, an undo, and the end of the
+  // 11-draw animation all funnel through here via renderSim().
+  // only use a "nearest" scroll approach here
   cells[0]?.scrollIntoView({ block: "nearest", inline: "nearest"});
 
 
@@ -448,17 +473,78 @@ function renderSimCollected() {
   renderCollectedUnits("sim-collected", "sim-collab-only", sim ? sim.moves.flatMap((m) => m.units) : []);
 }
 
+const DRAW_KIND_LABEL = { guaranteed_eleven: "Guaranteed 11", single: "Single roll" };
+const DRAW_BUTTON_LABEL = { guaranteed_eleven: "11 Draw", single: "1 Draw" };
+
+/** The status lines above the moves list: current position (always), and -- only while a
+ * guide is loaded -- the last unit actually collected and what the guide says to do next
+ * (or that it's finished). All empty/hidden when there's no guidance (see the :empty rules
+ * in style.css). The mismatch banner (full width, spans both columns) is separate --
+ * see updateMismatchBanner(). */
+function updateGuidanceStatus() {
+  const lastEl = $("sim-last-collected");
+  const nextEl = $("sim-next-move");
+  if (!sim || !guidance) {
+    lastEl.textContent = "";
+    nextEl.textContent = "";
+    return;
+  }
+
+  const lastMove = sim.moves[sim.moves.length - 1];
+  lastEl.textContent = lastMove ? `Last collected: ${lastMove.units[lastMove.units.length - 1]}` : "";
+
+  if (guidance.index < guidance.steps.length) {
+    const next = guidance.steps[guidance.index];
+    nextEl.textContent = `Next: ${DRAW_BUTTON_LABEL[next.type]} @ ${next.roll}${next.track}`;
+  } else {
+    nextEl.textContent = "Guide complete!";
+  }
+}
+
+/** Pops up only right after a mismatched move -- see the "mismatch" case of
+ * simPushMove's guidanceStatus -- rather than reserving space permanently. */
+function updateMismatchBanner() {
+  const banner = $("sim-mismatch-banner");
+  const lastMove = sim?.moves[sim.moves.length - 1];
+  banner.textContent = lastMove?.guidanceStatus === "mismatch"
+    ? `Wrong move -- the guide expected ${DRAW_BUTTON_LABEL[lastMove.type === "single" ? "guaranteed_eleven" : "single"]} `
+      + "here. If this was only a website slip, Undo and redo it right. If you already made "
+      + "this move in-game, the guide is out of sync -- re-optimize from your real position."
+    : "";
+}
+
+/** One <li> in the merged moves timeline: a <details> so only "<kind> @ <roll><track>"
+ * shows by default, with the units drawn tucked behind it -- expand to see them. */
+function buildMoveLi(type, track, roll, units, statusClass, note) {
+  const li = document.createElement("li");
+  li.className = statusClass;
+  const details = document.createElement("details");
+  const summary = document.createElement("summary");
+  summary.textContent = `${DRAW_KIND_LABEL[type]} @ ${roll}${track}` + (note ? ` ${note}` : "");
+  const unitsEl = document.createElement("span");
+  unitsEl.className = "sim-move-units";
+  unitsEl.textContent = units.join(", ");
+  details.append(summary, unitsEl);
+  li.append(details);
+  return li;
+}
+
 function renderSim() {
   updateSimHighlight();
   renderSimCollected();
+  updateGuidanceStatus();
+  updateMismatchBanner();
   const movesEl = $("sim-moves");
   movesEl.replaceChildren();
+  $("sim-moves-heading").textContent = guidance ? "Guided moves" : "Moves used";
+  $("sim-clear-guide-btn").hidden = !guidance;
 
   if (!sim) {
     $("sim-position").textContent = "";
     $("sim-single-btn").disabled = true;
     $("sim-eleven-btn").disabled = true;
     $("sim-undo-btn").disabled = true;
+    $("sim-set-guide-btn").disabled = true;
     return;
   }
 
@@ -466,12 +552,27 @@ function renderSim() {
   $("sim-single-btn").disabled = sim.animating || !simHasSingle(sim.pool, sim.track, sim.roll);
   $("sim-eleven-btn").disabled = sim.animating || !simHasEleven(sim.pool, sim.track, sim.roll);
   $("sim-undo-btn").disabled = sim.animating || !sim.moves.length;
+  $("sim-set-guide-btn").disabled = sim.animating || !sim.moves.length;
 
+  // One continuous list: moves already made, then -- if a guide is loaded -- the steps
+  // it still expects, so there's a single timeline instead of a separate "what I did" and
+  // "what I'm supposed to do" panel eating twice the sidebar space. guidanceStatus (set by
+  // simPushMove) colors real moves; "unguided" covers both no-guide-at-all and
+  // past-the-end-of-guide the same way, per the request that those read alike.
   for (const move of sim.moves) {
-    const li = document.createElement("li");
-    const kind = move.type === "guaranteed_eleven" ? "Guaranteed 11" : "Single roll";
-    li.textContent = `${kind} @ ${move.roll}${move.track}: ${move.units.join(", ")}`;
-    movesEl.append(li);
+    const note = move.guidanceStatus === "mismatch"
+      ? `-- wrong move (guide expected ${DRAW_BUTTON_LABEL[move.type === "single" ? "guaranteed_eleven" : "single"]})`
+      : "";
+    movesEl.append(buildMoveLi(move.type, move.track, move.roll, move.units, `guidance-${move.guidanceStatus}`, note));
+  }
+  if (guidance) {
+    for (let i = guidance.index; i < guidance.steps.length; i++) {
+      const step = guidance.steps[i];
+      const statusClass = i === guidance.index ? "guidance-planned guidance-next" : "guidance-planned";
+      const li = buildMoveLi(step.type, step.track, step.roll, step.units, statusClass, "(planned)");
+      movesEl.append(li);
+      if (i === guidance.index) li.scrollIntoView({ block: "nearest" }); // only works once attached to the DOM
+    }
   }
 }
 
@@ -479,6 +580,23 @@ $("sim-single-btn").addEventListener("click", simDrawSingle);
 $("sim-eleven-btn").addEventListener("click", simDrawEleven);
 $("sim-undo-btn").addEventListener("click", simUndo);
 $("sim-collab-only").addEventListener("change", renderSimCollected);
+
+// Build a guide from what you've already clicked through: e.g. work out the moves by hand
+// first, then lock them in and replay the same track for real (on-site or in-game) with
+// guidance on. Keeps the same pool -- only the position/history resets, not the dataset.
+$("sim-set-guide-btn").addEventListener("click", () => {
+  if (!sim || sim.animating || !sim.moves.length) return;
+  const steps = sim.moves.map((m) => ({ type: m.type, track: m.track, roll: m.roll, units: m.units }));
+  sim.track = "A";
+  sim.roll = 1;
+  sim.moves = [];
+  setGuidance(steps);
+  say("sim-status", "Guide set from your moves. Redo them for real to follow along.", "ok");
+});
+$("sim-clear-guide-btn").addEventListener("click", () => {
+  clearGuidance();
+  say("sim-status", "", "");
+});
 
 // ---- UI ---------------------------------------------------------------------
 async function refresh() {
@@ -749,8 +867,8 @@ loadGachaEvents();
 loadUnitRarities();
 loadCollabUnitNames();
 
-// Filled in on a successful optimize, so "Simulate this route in viewer" (below) can
-// replay it without a second server call.
+// Filled in on a successful optimize, so "Set guided moveset" (below) can hand it to the
+// viewer's simulator without a second server call.
 let lastOptimizeRoute = null;
 let lastOptimizeDatasetId = null;
 let lastOptimizeCsv = null;
@@ -767,7 +885,7 @@ $("opt-btn").addEventListener("click", async () => {
   const targets = getSelectedTargets();
   const out = $("opt-result");
   out.replaceChildren();
-  $("opt-simulate-btn").disabled = true;
+  $("opt-set-guide-btn").disabled = true;
   lastOptimizeRoute = null;
   renderOptCollected();
   if (!datasetId) return say("opt-status", "Save or import a dataset first.", "err");
@@ -812,7 +930,7 @@ $("opt-btn").addEventListener("click", async () => {
     lastOptimizeDatasetId = datasetId;
     lastOptimizeCsv = rec.csv;
     renderOptCollected();
-    $("opt-simulate-btn").disabled = !res.route.length;
+    $("opt-set-guide-btn").disabled = !res.route.length;
   } catch (e) {
     say("opt-status", e.message || "Optimizer failed.", "err");
   } finally {
@@ -820,15 +938,15 @@ $("opt-btn").addEventListener("click", async () => {
   }
 });
 
-$("opt-simulate-btn").addEventListener("click", async () => {
+$("opt-set-guide-btn").addEventListener("click", async () => {
   if (!lastOptimizeRoute) return;
   const select = $("viewer-dataset");
   if ([...select.options].some((o) => o.value === lastOptimizeDatasetId)) select.value = lastOptimizeDatasetId;
   renderRollViewer(lastOptimizeCsv);
-  initSim(lastOptimizeCsv);
-  simApplyRoute(lastOptimizeRoute); // ends in renderSim(), which scrolls to the landed cell
+  initSim(lastOptimizeCsv); // fresh position/history; setGuidance below loads the plan, doesn't play it
+  setGuidance(lastOptimizeRoute.map((step) => ({ type: step.type, track: step.track, roll: step.roll, units: step.units })));
   await onViewerDatasetChange();
-  say("viewer-status", `Simulating the optimizer's route for ${lastOptimizeDatasetId}.`, "ok");
+  say("viewer-status", `Guided moveset set from the optimizer's route for ${lastOptimizeDatasetId}. Use 1 Draw / 11 Draw to follow it.`, "ok");
 });
 
 // ---- Meow (server connection test) -------------------------------------------

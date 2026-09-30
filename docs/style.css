@@ -19,6 +19,7 @@
   --legend_fest: #8a5a1f;
   --basic: #5d6673;
   --special: #0e7490;
+  --info: #2563eb;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,6 +42,7 @@
     --legend_fest: #d8a56f;
     --basic: #9aa4b0;
     --special: #22d3ee;
+    --info: #60a5fa;
   }
 }
 
@@ -54,7 +56,7 @@ body {
 }
 
 header, main, footer {
-  max-width: 1100px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -239,24 +241,76 @@ button:disabled { opacity: 0.5; cursor: default; }
 .roll-table td.sim-current-bonus { outline: 2px solid #2ecc71; outline-offset: -2px; background: rgba(46, 204, 113, 0.25); }
 
 /* Roll simulator (built on the roll viewer above): a wide table (so a whole track's
-   columns fit without horizontal scrolling) plus a sidebar of controls + moves tracker.
-   The sidebar sticks near the top of the viewport as you scroll through a long table,
-   but only within .sim-layout's own height -- it can't drift into section 3 below. */
-.sim-layout { display: flex; gap: 16px; align-items: flex-start; }
-.sim-layout .roll-viewer { flex: 1 1 auto; min-width: 0; }
-.sim-sidebar { flex: 0 0 220px; max-width: 100%; }
-.sim-controls { display: flex; flex-direction: column; gap: 8px; }
-.sim-controls button { width: 100%; }
+   columns fit without horizontal scrolling) plus an info panel of controls, status, and
+   two columns (status+collected / guide+moves). The panel sticks near the top of the
+   viewport as you scroll through a long table, but only within .sim-layout's own height
+   -- it can't drift into section 3 below. */
+.sim-layout { display: flex; gap: 16px; align-items: flex-start; flex-wrap: wrap; }
+.sim-layout .roll-viewer { flex: 3 1 500px; min-width: 0; }
+.sim-sidebar { flex: 2 1 560px; max-width: 100%; }
+
+/* Full-width action row: the highest-frequency click target, kept in one constant place
+   regardless of what the two columns below are showing. */
+.sim-controls { display: flex; flex-direction: row; gap: 8px; }
+.sim-controls button { flex: 1 1 0; }
+
+/* Pops up only on an actual mismatch (see updateGuidanceStatus) -- full-width so the
+   message never has to wrap into the cramped multi-line block a single narrow column
+   forced it into. */
+.sim-mismatch-banner {
+  margin: 8px 0 0; padding: 8px 10px; border-radius: 6px; font-size: 0.85rem; font-weight: 600;
+  color: var(--err); background: rgba(179, 38, 30, 0.1); border: 1px solid var(--err);
+}
+.sim-mismatch-banner:empty { display: none; margin: 0; padding: 0; border: 0; }
+
+/* The two-column info split: status+collected on the left, guide controls+moves on the
+   right. Wraps to stacked below sim-col-status's own basis once the sidebar itself gets
+   too narrow for both (e.g. the table has claimed most of the width on a medium screen),
+   independent of the outer table/sidebar wrap. */
+.sim-columns { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
+.sim-col-status { flex: 1 1 240px; min-width: 0; }
+.sim-col-moves { flex: 1 1 280px; min-width: 0; }
+
 .sim-position { min-height: 1.4em; margin: 8px 0 0; font-weight: 600; }
-.sim-sidebar h3 { margin: 8px 0 4px; font-size: 0.95rem; color: var(--muted); }
-.sim-sidebar .result { max-height: 320px; overflow-y: auto; font-size: 0.85rem; }
+.sim-sidebar h3, .sim-columns h3 { margin: 8px 0 4px; font-size: 0.95rem; color: var(--muted); }
+.sim-sidebar .result, .sim-columns .result { max-height: 480px; overflow-y: auto; font-size: 0.85rem; }
+
+/* Guided mode: current position / last unit collected / next planned move. Empty whenever
+   no guide is loaded (see updateGuidanceStatus), so this costs zero space until it's
+   actually in use -- guided mode has no separate on/off switch, loading a guide IS what
+   turns it on. */
+.sim-guidance-line { margin: 2px 0 0; font-size: 0.85rem; }
+.sim-guidance-line:empty { display: none; }
+.sim-guide-controls { margin: 0 0 8px; }
+.sim-guide-controls button { font-size: 0.8rem; padding: 6px 10px; }
+
+/* The merged moves timeline: real moves first, then (while guided) the plan's remaining
+   steps -- one list instead of a separate past/future panel, see renderSim(). Each entry
+   is a <details> so only the move's name shows by default; expand for the units drawn. */
+.result li { margin: 2px 0; }
+.result details { cursor: default; }
+.result summary { cursor: pointer; }
+.result summary:hover { text-decoration: underline; }
+.result .sim-move-units { display: block; padding: 2px 0 2px 1em; color: var(--text); font-style: normal; }
+/* Matched (guided, correct) moves get no extra color -- the default text color. Real
+   moves outside the guide (no guide loaded at all, or made after it ran out) get this
+   blue instead, so "not part of the plan" reads the same way everywhere, per the request
+   that a guide-less move and a past-the-end-of-guide move should look alike. */
+.result li.guidance-unguided { color: var(--info); }
+.result li.guidance-mismatch { color: var(--err); }
+.result li.guidance-planned { color: var(--muted); font-style: italic; }
+.result li.guidance-planned .sim-move-units { color: var(--muted); }
+.result li.guidance-next {
+  color: var(--text); font-style: normal; font-weight: 600;
+  background: rgba(255, 204, 0, 0.18); border-radius: 4px;
+}
 
 /* Collected units, grouped by rarity with counts (see renderSimCollected). */
 .sim-collected-header { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
 .sim-collected-header h3 { margin: 8px 0 4px; }
 .sim-collab-toggle { display: flex; flex-direction: row; align-items: center; gap: 4px; font-size: 0.8rem; color: var(--muted); }
 .sim-collab-toggle input { width: auto; flex: 0 0 auto; }
-.sim-collected { max-height: 280px; overflow-y: auto; font-size: 0.85rem; }
+.sim-collected { max-height: 400px; overflow-y: auto; font-size: 0.85rem; }
 .sim-collected h4 { margin: 8px 0 2px; font-size: 0.85rem; }
 .sim-collected h4:first-child { margin-top: 0; }
 .sim-collected ul { margin: 0 0 4px; padding-left: 1.2em; color: var(--text); }
@@ -267,7 +321,7 @@ button:disabled { opacity: 0.5; cursor: default; }
 }
 
 @media (max-width: 699px) {
-  .sim-layout { flex-wrap: wrap; }
+  .sim-controls { flex-direction: column; }
   .sim-sidebar { flex-basis: 100%; }
 }
 
