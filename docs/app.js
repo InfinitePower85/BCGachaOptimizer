@@ -396,24 +396,24 @@ const UNIT_RARITY_CLASS = {
   "Uber Super Rare": "uber", "Legendary Rare": "legend", Special: "special",
 };
 
-/** Every unit collected so far (across all of sim.moves, manual or replayed), deduped by
- * name with a count, grouped by rarity -- the same idea as the target-groups checkboxes
- * in part 4, but built from draw history instead of a fetched roster. */
-function renderSimCollected() {
-  const container = $("sim-collected");
+/** Render `unitNames` (with repeats -- one entry per pull, not pre-deduped) into
+ * `containerId` as a rarity-grouped, deduped-with-counts list, optionally narrowed to
+ * collab units via the `collabCheckboxId` checkbox. Shared by the roll simulator's
+ * "Collected" panel (from sim.moves) and part 4's optimizer result (from its route) --
+ * same idea, two different sources of unit names. */
+function renderCollectedUnits(containerId, collabCheckboxId, unitNames) {
+  const container = $(containerId);
   container.replaceChildren();
-  if (!sim || !sim.moves.length) return;
+  if (!unitNames.length) return;
 
-  const collabOnly = $("sim-collab-only").checked;
+  const collabOnly = $(collabCheckboxId).checked;
   const counts = new Map(); // name -> count
-  for (const move of sim.moves) {
-    for (const name of move.units) {
-      if (collabOnly && !collabUnitNames.has(name)) continue; // display filter only -- sim.moves is untouched
-      counts.set(name, (counts.get(name) || 0) + 1);
-    }
+  for (const name of unitNames) {
+    if (collabOnly && !collabUnitNames.has(name)) continue; // display filter only -- the source list is untouched
+    counts.set(name, (counts.get(name) || 0) + 1);
   }
   if (collabOnly && !counts.size) {
-    container.textContent = "No collab units collected yet.";
+    container.textContent = "No collab units collected.";
     return;
   }
 
@@ -442,6 +442,10 @@ function renderSimCollected() {
     }
     container.append(ul);
   }
+}
+
+function renderSimCollected() {
+  renderCollectedUnits("sim-collected", "sim-collab-only", sim ? sim.moves.flatMap((m) => m.units) : []);
 }
 
 function renderSim() {
@@ -751,6 +755,12 @@ let lastOptimizeRoute = null;
 let lastOptimizeDatasetId = null;
 let lastOptimizeCsv = null;
 
+function renderOptCollected() {
+  const unitNames = lastOptimizeRoute ? lastOptimizeRoute.flatMap((step) => step.units) : [];
+  renderCollectedUnits("opt-collected", "opt-collab-only", unitNames);
+}
+$("opt-collab-only").addEventListener("change", renderOptCollected);
+
 $("opt-btn").addEventListener("click", async () => {
   const datasetId = $("opt-dataset").value;
   const limit = Number($("opt-limit").value);
@@ -759,6 +769,7 @@ $("opt-btn").addEventListener("click", async () => {
   out.replaceChildren();
   $("opt-simulate-btn").disabled = true;
   lastOptimizeRoute = null;
+  renderOptCollected();
   if (!datasetId) return say("opt-status", "Save or import a dataset first.", "err");
   if (!Number.isInteger(limit) || limit < 1 || limit > 200) return say("opt-status", "Roll limit must be 1-200.", "err");
   if (!targets.length) return say("opt-status", "Check at least one target unit.", "err");
@@ -800,6 +811,7 @@ $("opt-btn").addEventListener("click", async () => {
     lastOptimizeRoute = res.route;
     lastOptimizeDatasetId = datasetId;
     lastOptimizeCsv = rec.csv;
+    renderOptCollected();
     $("opt-simulate-btn").disabled = !res.route.length;
   } catch (e) {
     say("opt-status", e.message || "Optimizer failed.", "err");
