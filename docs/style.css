@@ -67,7 +67,7 @@ h2 { margin: 0 0 4px; font-size: 1.1rem; }
 .sub, .hint, footer { color: var(--muted); }
 .sub { margin: 4px 0 20px; }
 .hint { margin: 0 0 12px; font-size: 0.9rem; }
-.hint.banner { font-style: italic; margin-top: -4px; }
+.hint.banner { font-style: italic; margin-top: 4px; }
 .hint.banner:empty { display: none; }
 
 .card {
@@ -78,7 +78,10 @@ h2 { margin: 0 0 4px; font-size: 1.1rem; }
   margin-bottom: 16px;
 }
 
-.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+/* flex-end (not center): a <label> wrapping text-above-input is taller than a bare
+   button next to it, so centering the row leaves the input sitting lower than the
+   button's middle. Bottom-aligning both makes the input and button line up instead. */
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: flex-end; }
 .row input { flex: 1 1 260px; }
 
 .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
@@ -86,6 +89,12 @@ h2 { margin: 0 0 4px; font-size: 1.1rem; }
 @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }
 
 label { display: flex; flex-direction: column; gap: 4px; font-size: 0.9rem; color: var(--muted); }
+/* A grid row's two <label>s get the same overall height for free (grid rows always
+   match), but not the same split between their label text and their input -- one
+   label's text (e.g. "Max 11-draws (optional)") can render taller than a plain one-word
+   label ("Event"), pushing just that column's input down. Reserving the same height for
+   every grid label's text regardless of content keeps the inputs level. */
+.grid .field-label { display: block; min-height: 1.3em; }
 .hint-inline { font-size: 0.85em; font-style: italic; }
 
 input, select, textarea {
@@ -136,7 +145,7 @@ button:disabled { opacity: 0.5; cursor: default; }
 .datasets .empty { color: var(--muted); border: 0; }
 .datasets button { padding: 4px 10px; font-size: 0.85rem; }
 
-.result { margin: 12px 0 0; padding-left: 1.4em; }
+.result { margin: 12px 0 0; padding-left: 2em; }
 
 .target-groups {
   display: flex;
@@ -310,7 +319,9 @@ button:disabled { opacity: 0.5; cursor: default; }
 .sim-collected-header h3 { margin: 8px 0 4px; }
 .sim-collab-toggle { display: flex; flex-direction: row; align-items: center; gap: 4px; font-size: 0.8rem; color: var(--muted); }
 .sim-collab-toggle input { width: auto; flex: 0 0 auto; }
-.sim-collected { max-height: 400px; overflow-y: auto; font-size: 0.85rem; }
+/* Same max height as .sim-columns .result (480px) -- the Collected and Route/Moves
+   columns should read as a matched pair, not one visibly shorter than the other. */
+.sim-collected { max-height: 480px; overflow-y: auto; font-size: 0.85rem; }
 .sim-collected h4 { margin: 8px 0 2px; font-size: 0.85rem; }
 .sim-collected h4:first-child { margin-top: 0; }
 .sim-collected ul { margin: 0 0 4px; padding-left: 1.2em; color: var(--text); }

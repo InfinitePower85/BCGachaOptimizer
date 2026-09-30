@@ -535,6 +535,13 @@ function renderSim() {
   updateGuidanceStatus();
   updateMismatchBanner();
   const movesEl = $("sim-moves");
+  // The whole list is rebuilt from scratch below (simplest way to keep it in sync with
+  // sim.moves + guidance), but replaceChildren() resets scrollTop to 0 -- if left alone,
+  // the "nearest" scrollIntoView below would always compute against a freshly-scrolled-to-
+  // top list, making it look like a forced scroll-to-bottom every time. Restoring the
+  // scroll position first means "nearest" only moves the list when the next step actually
+  // isn't visible, exactly like the table's own current-position marker.
+  const prevScrollTop = movesEl.scrollTop;
   movesEl.replaceChildren();
   $("sim-moves-heading").textContent = guidance ? "Guided moves" : "Moves used";
   $("sim-clear-guide-btn").hidden = !guidance;
@@ -566,13 +573,18 @@ function renderSim() {
     movesEl.append(buildMoveLi(move.type, move.track, move.roll, move.units, `guidance-${move.guidanceStatus}`, note));
   }
   if (guidance) {
+    let nextLi = null;
     for (let i = guidance.index; i < guidance.steps.length; i++) {
       const step = guidance.steps[i];
       const statusClass = i === guidance.index ? "guidance-planned guidance-next" : "guidance-planned";
       const li = buildMoveLi(step.type, step.track, step.roll, step.units, statusClass, "(planned)");
       movesEl.append(li);
-      if (i === guidance.index) li.scrollIntoView({ block: "nearest" }); // only works once attached to the DOM
+      if (i === guidance.index) nextLi = li;
     }
+    movesEl.scrollTop = prevScrollTop; // restore before computing "nearest", see the comment above
+    nextLi?.scrollIntoView({ block: "nearest" });
+  } else {
+    movesEl.scrollTop = prevScrollTop;
   }
 }
 
