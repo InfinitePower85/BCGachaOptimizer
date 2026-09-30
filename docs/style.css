@@ -252,6 +252,10 @@ button:disabled { opacity: 0.5; cursor: default; }
 .sim-sidebar .result { max-height: 320px; overflow-y: auto; font-size: 0.85rem; }
 
 /* Collected units, grouped by rarity with counts (see renderSimCollected). */
+.sim-collected-header { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.sim-collected-header h3 { margin: 8px 0 4px; }
+.sim-collab-toggle { display: flex; flex-direction: row; align-items: center; gap: 4px; font-size: 0.8rem; color: var(--muted); }
+.sim-collab-toggle input { width: auto; flex: 0 0 auto; }
 .sim-collected { max-height: 280px; overflow-y: auto; font-size: 0.85rem; }
 .sim-collected h4 { margin: 8px 0 2px; font-size: 0.85rem; }
 .sim-collected h4:first-child { margin-top: 0; }

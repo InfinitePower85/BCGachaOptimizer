@@ -219,6 +219,25 @@ def test_gacha_events_cors_allows_pages_and_localhost(origin):
     assert response.headers["access-control-allow-origin"] == origin
 
 
+# ---------- /collab-units ----------
+
+def test_collab_units_spans_events_deduplicated_and_sorted(gacha_pools_dir):
+    write_units_csv(gacha_pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Uber Super Rare", "name": "Saber", "description": "", "cat_id": "1"},
+    ])
+    write_units_csv(gacha_pools_dir, "Street Fighters", 1, [
+        {"rarity": "Uber Super Rare", "name": "Ryu", "description": "", "cat_id": "2"},
+        {"rarity": "Uber Super Rare", "name": "Saber", "description": "", "cat_id": "1"},
+    ])
+    response = client.get("/collab-units")
+    assert response.status_code == 200
+    assert response.json() == ["Ryu", "Saber"]
+
+
+def test_collab_units_empty_when_nothing_fetched(gacha_pools_dir):
+    assert client.get("/collab-units").json() == []
+
+
 # ---------- /match-event ----------
 
 def test_match_event_finds_the_named_unit(gacha_pools_dir):

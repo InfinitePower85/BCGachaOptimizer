@@ -6,7 +6,13 @@ never the real data/gacha_pools.
 import pytest
 
 import gacha_units
-from gacha_units import group_by_rarity, list_gacha_events, load_gacha_units, suggest_event
+from gacha_units import (
+    group_by_rarity,
+    list_all_collab_unit_names,
+    list_gacha_events,
+    load_gacha_units,
+    suggest_event,
+)
 
 UNIT_CSV_HEADER = "rarity,name,description,cat_id\n"
 
@@ -204,6 +210,33 @@ def test_suggest_event_none_when_no_unit_named(pools_dir):
         {"rarity": "Uber Super Rare", "name": "Shirou Emiya", "description": "", "cat_id": "864"},
     ])
     assert suggest_event("2026-03-23 ~ 2026-03-27: Zombie Outbreak Warning!") is None
+
+
+# ---------- list_all_collab_unit_names ----------
+
+def test_collab_names_span_multiple_events(pools_dir):
+    write_units_csv(pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Uber Super Rare", "name": "Shirou Emiya", "description": "", "cat_id": "864"},
+    ])
+    write_units_csv(pools_dir, "Street Fighters", 1, [
+        {"rarity": "Uber Super Rare", "name": "Ryu", "description": "", "cat_id": "1"},
+    ])
+    assert list_all_collab_unit_names() == ["Ryu", "Shirou Emiya"]
+
+
+def test_collab_names_deduplicated_and_sorted(pools_dir):
+    write_units_csv(pools_dir, "Fate Stay Night", 1, [
+        {"rarity": "Uber Super Rare", "name": "Saber", "description": "", "cat_id": "1"},
+    ])
+    write_units_csv(pools_dir, "Fate Stay Night", 2, [
+        {"rarity": "Uber Super Rare", "name": "Archer", "description": "", "cat_id": "2"},
+        {"rarity": "Uber Super Rare", "name": "Saber", "description": "", "cat_id": "1"},
+    ])
+    assert list_all_collab_unit_names() == ["Archer", "Saber"]
+
+
+def test_no_events_gives_empty_list(pools_dir):
+    assert list_all_collab_unit_names() == []
 
 
 def test_suggest_event_none_for_blank_banner(pools_dir):

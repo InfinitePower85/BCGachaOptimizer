@@ -372,6 +372,21 @@ async function loadUnitRarities() {
   if (sim) renderSim(); // refresh with real rarities if any draws happened before this resolved
 }
 
+// Every unit name that appears in any fetched event's collab roster (see
+// gacha_units.list_all_collab_unit_names()), fetched once and cached here. Backs the
+// "Collected" panel's "Collab units only" checkbox -- a display-only filter, so it never
+// touches sim.moves or the "Moves used" list, only which names renderSimCollected shows.
+let collabUnitNames = new Set();
+
+async function loadCollabUnitNames() {
+  try {
+    collabUnitNames = new Set(await apiGet("/collab-units"));
+  } catch {
+    collabUnitNames = new Set(); // best-effort; checking the box would then just show nothing
+  }
+  if (sim) renderSimCollected();
+}
+
 // Highest rarity first, since that's what a user checking "what did I get" cares about
 // most. Matches unit_rarity.py's vocabulary (a unit's Normal-form rarity), not
 // RARITY_LABEL's bc.godfat pull-slot scheme used elsewhere on this page.
@@ -389,9 +404,17 @@ function renderSimCollected() {
   container.replaceChildren();
   if (!sim || !sim.moves.length) return;
 
+  const collabOnly = $("sim-collab-only").checked;
   const counts = new Map(); // name -> count
   for (const move of sim.moves) {
-    for (const name of move.units) counts.set(name, (counts.get(name) || 0) + 1);
+    for (const name of move.units) {
+      if (collabOnly && !collabUnitNames.has(name)) continue; // display filter only -- sim.moves is untouched
+      counts.set(name, (counts.get(name) || 0) + 1);
+    }
+  }
+  if (collabOnly && !counts.size) {
+    container.textContent = "No collab units collected yet.";
+    return;
   }
 
   const byRarity = new Map(); // rarity -> [[name, count], ...]
@@ -451,6 +474,7 @@ function renderSim() {
 $("sim-single-btn").addEventListener("click", simDrawSingle);
 $("sim-eleven-btn").addEventListener("click", simDrawEleven);
 $("sim-undo-btn").addEventListener("click", simUndo);
+$("sim-collab-only").addEventListener("change", renderSimCollected);
 
 // ---- UI ---------------------------------------------------------------------
 async function refresh() {
@@ -719,6 +743,7 @@ $("opt-dataset").addEventListener("change", onOptDatasetChange);
 $("opt-event").addEventListener("change", (ev) => loadGachaUnits(ev.target.value));
 loadGachaEvents();
 loadUnitRarities();
+loadCollabUnitNames();
 
 // Filled in on a successful optimize, so "Simulate this route in viewer" (below) can
 // replay it without a second server call.

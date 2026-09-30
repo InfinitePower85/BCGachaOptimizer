@@ -92,6 +92,20 @@ def group_by_rarity(units):
     ]
 
 
+def list_all_collab_unit_names():
+    """Every unit name across every fetched event's collab roster (data/gacha_pools/*),
+    deduplicated. fetch_gacha_units.py only ever records collab units in the first place
+    (see its own docstring), so this is just "every name in any roster" -- used by the
+    frontend roll simulator to tell an actual named collab pull apart from a generic pool
+    filler in its "Collected" panel."""
+    names = set()
+    for event in list_gacha_events():
+        for unit in load_gacha_units(event):
+            if unit["name"]:
+                names.add(unit["name"])
+    return sorted(names)
+
+
 def suggest_event(banner_text):
     """Best-effort guess at which known event a Godfat banner's display text is for.
 

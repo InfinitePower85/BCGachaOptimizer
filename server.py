@@ -28,7 +28,13 @@ from data_download import (
     validate_url,
 )
 from fetch_gacha_units import ICONS_DIR
-from gacha_units import group_by_rarity, list_gacha_events, load_gacha_units, suggest_event
+from gacha_units import (
+    group_by_rarity,
+    list_all_collab_unit_names,
+    list_gacha_events,
+    load_gacha_units,
+    suggest_event,
+)
 from route_optimizer import parse_pool, solve
 from unit_rarity import load_unit_rarities
 
@@ -130,6 +136,14 @@ def get_unit_rarities() -> dict:
     """name -> rarity for every unit's Normal form (see unit_rarity.py), for the
     frontend roll simulator's "Collected" panel. {} if data/unit_data isn't present."""
     return load_unit_rarities()
+
+
+@app.get("/collab-units")
+def get_collab_units() -> list[str]:
+    """Every unit name across all fetched events' collab rosters (see
+    gacha_units.list_all_collab_unit_names()), for the frontend roll simulator's
+    "collab units only" filter on its Collected panel."""
+    return list_all_collab_unit_names()
 
 
 @app.get("/match-event")
