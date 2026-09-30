@@ -147,6 +147,46 @@ function pivotByRoll(cells) {
 
 const LEGEND_RARITIES = new Set(["legend", "legend_fest"]);
 
+// A guaranteed-11 (and the "two dupes in a row" mechanic more generally) can switch which
+// track you're on, but only with enough rolls left to set it up -- get too close to a
+// Legend Rare slot without already being lined up for it and there's no longer room to
+// switch tracks to reach it, so it's effectively already missed. 12 is an approximation
+// ("not exact, handles most edge cases" -- see the discussion this followed), not derived
+// from the game's actual switch mechanics, and doesn't account for a banner where the
+// Legend Rare is itself a target the route is already trying to hit.
+const LEGEND_APPROACH_WINDOW = 12;
+
+/** Every roll number (either track, normal or guaranteed cell) where pool has a Legend
+ * Rare pull slot -- the same per-cell class LEGEND_RARITIES/.legend-pick already use,
+ * not a unit's true rarity from unit_rarity.py. */
+function legendRareRolls(pool) {
+  const rolls = new Set();
+  for (const track of ["A", "B"]) {
+    for (const kind of ["normal", "guaranteed"]) {
+      for (const [rollStr, cell] of Object.entries(pool[kind][track])) {
+        if (LEGEND_RARITIES.has(cell.rarity)) rolls.add(Number(rollStr));
+      }
+    }
+  }
+  return rolls;
+}
+
+const isNearLegendRare = (roll, legendRolls) =>
+  [...legendRolls].some((legendRoll) => legendRoll - roll >= 0 && legendRoll - roll <= LEGEND_APPROACH_WINDOW);
+
+/** A purple (not another highlight box -- see the discussion this followed) inline marker
+ * for a move/step that's within LEGEND_APPROACH_WINDOW rolls of a Legend Rare slot,
+ * appended alongside whatever other status coloring a <li> already has. */
+function legendWarningSpan() {
+  const span = document.createElement("span");
+  span.className = "legend-near-warning";
+  span.textContent = " ⚠ Legend Rare in reach";
+  span.title = `Within ${LEGEND_APPROACH_WINDOW} rolls of a Legend Rare pull slot on either track. `
+    + "This close, there's likely no room left to track-switch into position for it -- continuing "
+    + "risks missing that Legend Rare for this seed. (Approximate, not exact.)";
+  return span;
+}
+
 function cellNode(cell, track, roll, kind) {
   const td = document.createElement("td");
   td.dataset.track = track;
@@ -243,35 +283,48 @@ function simHasEleven(pool, track, roll) {
   return true;
 }
 
-// A loaded plan to follow: { steps: [{type, track, roll, units}], index }, index being how
-// many steps have been consumed so far (matched or not -- see simPushMove). null means no
-// guide is active, which is the default and keeps every guidance UI element empty/hidden
-// (see renderSim/updateGuidanceStatus) -- loading a guide is what turns "guided mode" on,
+// A loaded plan to follow: { steps: [{type, track, roll, units}], index, broken }.
+// index is how many steps have been consumed while still on-plan (see simPushMove);
+// it stops advancing once broken becomes true, since the guide's remaining steps were
+// only ever valid for the position they assumed you'd be at, and one wrong-type move
+// (see simPushMove's comment) leaves you somewhere else. null means no guide is active,
+// which is the default and keeps every guidance UI element empty/hidden (see
+// renderSim/updateGuidanceStatus) -- loading a guide is what turns "guided mode" on,
 // there's no separate toggle for it.
 let guidance = null;
 
 function setGuidance(steps) {
-  guidance = { steps, index: 0 };
+  guidance = { steps, index: 0, broken: false };
   renderSim();
 }
 
 function clearGuidance() {
   guidance = null;
+  // Past moves' guidanceStatus was only ever meaningful relative to the guide that's now
+  // gone; leaving e.g. a stale "mismatch" red on them once there's nothing to have
+  // mismatched against would look like a bug, not a fact about history.
+  if (sim) for (const move of sim.moves) move.guidanceStatus = "unguided";
   renderSim();
 }
 
 function initSim(csvText) {
-  sim = { pool: buildSimPool(csvText), track: "A", roll: 1, moves: [], animating: false };
+  const pool = buildSimPool(csvText);
+  sim = { pool, legendRolls: legendRareRolls(pool), track: "A", roll: 1, moves: [], animating: false };
   guidance = null; // a guide's steps are tied to the pool that produced them
   say("sim-status", "", "");
   renderSim();
 }
 
 /** guidanceStatus is one of:
- *   "matched"   -- guided, and this move's type matched the guide's step here
- *   "mismatch"  -- guided, but it didn't (see below for what counts as "wrong")
+ *   "matched"   -- guided, on-plan, and this move's type matched the guide's step here
+ *   "mismatch"  -- guided, but either this move's type didn't match the guide's step (see
+ *                  below for what counts as "wrong"), or the guide was *already* broken by
+ *                  an earlier mismatch -- once one move diverges, the guide's remaining
+ *                  steps were only ever computed for the position that move skipped past,
+ *                  so every move after it is just as off-plan even if its own type happens
+ *                  to coincide with whatever the (now-irrelevant) next step says
  *   "unguided"  -- no guide step to compare against, either because no guide is loaded at
- *                  all, or because this move goes past the end of one that is
+ *                  all, or because this move goes past the end of one that finished cleanly
  * A "wrong move" is specifically a single-vs-eleven mismatch (see the discussion this
  * followed): an 11-draw claims the guaranteed pick and can jump tracks in a way a 1-draw
  * fundamentally can't reproduce, so that's the one divergence worth flagging -- not which
@@ -279,12 +332,18 @@ function initSim(csvText) {
 function simPushMove(type, track, roll, units, to) {
   const move = { type, track, roll, units, from: { track, roll }, to };
   if (guidance) {
-    move.guidanceIndexBefore = guidance.index; // so simUndo can restore it exactly
-    if (guidance.index < guidance.steps.length) {
-      move.guidanceStatus = guidance.steps[guidance.index].type === type ? "matched" : "mismatch";
+    // So simUndo can restore both exactly, however many wrong moves deep it's undoing.
+    move.guidanceIndexBefore = guidance.index;
+    move.guidanceBrokenBefore = guidance.broken;
+    if (guidance.broken) {
+      move.guidanceStatus = "mismatch"; // already off-plan; see the guidanceStatus doc above
+    } else if (guidance.index < guidance.steps.length) {
+      const matched = guidance.steps[guidance.index].type === type;
+      move.guidanceStatus = matched ? "matched" : "mismatch";
       guidance.index++;
+      if (!matched) guidance.broken = true;
     } else {
-      move.guidanceStatus = "unguided"; // past the end of the plan
+      move.guidanceStatus = "unguided"; // finished the plan cleanly; not broken, just done
     }
   } else {
     move.guidanceStatus = "unguided"; // no guide loaded
@@ -361,7 +420,10 @@ function simUndo() {
   const last = sim.moves.pop();
   sim.track = last.from.track;
   sim.roll = last.from.roll;
-  if (guidance && last.guidanceIndexBefore !== undefined) guidance.index = last.guidanceIndexBefore;
+  if (guidance && last.guidanceIndexBefore !== undefined) {
+    guidance.index = last.guidanceIndexBefore;
+    guidance.broken = last.guidanceBrokenBefore;
+  }
   renderSim();
 }
 
@@ -493,7 +555,9 @@ function updateGuidanceStatus() {
   const lastMove = sim.moves[sim.moves.length - 1];
   lastEl.textContent = lastMove ? `Last collected: ${lastMove.units[lastMove.units.length - 1]}` : "";
 
-  if (guidance.index < guidance.steps.length) {
+  if (guidance.broken) {
+    nextEl.textContent = "Off guide -- Undo back to the wrong move to recover, or Clear guide to stop tracking it.";
+  } else if (guidance.index < guidance.steps.length) {
     const next = guidance.steps[guidance.index];
     nextEl.textContent = `Next: ${DRAW_BUTTON_LABEL[next.type]} @ ${next.roll}${next.track}`;
   } else {
@@ -501,26 +565,39 @@ function updateGuidanceStatus() {
   }
 }
 
-/** Pops up only right after a mismatched move -- see the "mismatch" case of
- * simPushMove's guidanceStatus -- rather than reserving space permanently. */
+/** Pops up right after a mismatched move and stays up through every move after it, since
+ * they're all off-plan too once the guide is broken (see simPushMove) -- rather than
+ * reserving space permanently when nothing's wrong. The wording only names what the guide
+ * expected for the move that actually caused the break (guidanceBrokenBefore false);
+ * later moves get the more general "undo back to it" message instead, since "the guide
+ * expected X" is only true of that first divergence. */
 function updateMismatchBanner() {
   const banner = $("sim-mismatch-banner");
   const lastMove = sim?.moves[sim.moves.length - 1];
-  banner.textContent = lastMove?.guidanceStatus === "mismatch"
-    ? `Wrong move -- the guide expected ${DRAW_BUTTON_LABEL[lastMove.type === "single" ? "guaranteed_eleven" : "single"]} `
+  if (lastMove?.guidanceStatus !== "mismatch") {
+    banner.textContent = "";
+    return;
+  }
+  banner.textContent = lastMove.guidanceBrokenBefore
+    ? "Still off the guide from an earlier wrong move. Undo back to that move and redo it "
+      + "right, or Clear guide if those moves already happened in-game -- then re-optimize "
+      + "from your real position."
+    : `Wrong move -- the guide expected ${DRAW_BUTTON_LABEL[lastMove.type === "single" ? "guaranteed_eleven" : "single"]} `
       + "here. If this was only a website slip, Undo and redo it right. If you already made "
-      + "this move in-game, the guide is out of sync -- re-optimize from your real position."
-    : "";
+      + "this move in-game, the guide is out of sync -- re-optimize from your real position.";
 }
 
 /** One <li> in the merged moves timeline: a <details> so only "<kind> @ <roll><track>"
- * shows by default, with the units drawn tucked behind it -- expand to see them. */
-function buildMoveLi(type, track, roll, units, statusClass, note) {
+ * shows by default, with the units drawn tucked behind it -- expand to see them.
+ * nearLegend appends the purple "Legend Rare in reach" marker alongside whatever other
+ * status coloring statusClass already gives the <li> -- see legendWarningSpan(). */
+function buildMoveLi(type, track, roll, units, statusClass, note, nearLegend) {
   const li = document.createElement("li");
   li.className = statusClass;
   const details = document.createElement("details");
   const summary = document.createElement("summary");
   summary.textContent = `${DRAW_KIND_LABEL[type]} @ ${roll}${track}` + (note ? ` ${note}` : "");
+  if (nearLegend) summary.append(legendWarningSpan());
   const unitsEl = document.createElement("span");
   unitsEl.className = "sim-move-units";
   unitsEl.textContent = units.join(", ");
@@ -567,19 +644,29 @@ function renderSim() {
   // simPushMove) colors real moves; "unguided" covers both no-guide-at-all and
   // past-the-end-of-guide the same way, per the request that those read alike.
   for (const move of sim.moves) {
-    const note = move.guidanceStatus === "mismatch"
-      ? `-- wrong move (guide expected ${DRAW_BUTTON_LABEL[move.type === "single" ? "guaranteed_eleven" : "single"]})`
-      : "";
-    movesEl.append(buildMoveLi(move.type, move.track, move.roll, move.units, `guidance-${move.guidanceStatus}`, note));
+    let note = "";
+    if (move.guidanceStatus === "mismatch") {
+      // Only the move that actually caused the break has a real "expected X" to report;
+      // later ones are just as off-plan but didn't diverge from anything themselves.
+      note = move.guidanceBrokenBefore
+        ? "-- off guide (see the earlier wrong move)"
+        : `-- wrong move (guide expected ${DRAW_BUTTON_LABEL[move.type === "single" ? "guaranteed_eleven" : "single"]})`;
+    }
+    const nearLegend = isNearLegendRare(move.roll, sim.legendRolls);
+    movesEl.append(buildMoveLi(move.type, move.track, move.roll, move.units, `guidance-${move.guidanceStatus}`, note, nearLegend));
   }
   if (guidance) {
     let nextLi = null;
     for (let i = guidance.index; i < guidance.steps.length; i++) {
       const step = guidance.steps[i];
-      const statusClass = i === guidance.index ? "guidance-planned guidance-next" : "guidance-planned";
-      const li = buildMoveLi(step.type, step.track, step.roll, step.units, statusClass, "(planned)");
+      // No "next" marker once broken -- the remaining steps are a frozen snapshot of what
+      // the plan used to expect, not an actionable "do this now" (that's what Undo is for).
+      const isNext = !guidance.broken && i === guidance.index;
+      const statusClass = isNext ? "guidance-planned guidance-next" : "guidance-planned";
+      const nearLegend = isNearLegendRare(step.roll, sim.legendRolls);
+      const li = buildMoveLi(step.type, step.track, step.roll, step.units, statusClass, "(planned)", nearLegend);
       movesEl.append(li);
-      if (i === guidance.index) nextLi = li;
+      if (isNext) nextLi = li;
     }
     movesEl.scrollTop = prevScrollTop; // restore before computing "nearest", see the comment above
     nextLi?.scrollIntoView({ block: "nearest" });
@@ -932,10 +1019,12 @@ $("opt-btn").addEventListener("click", async () => {
       ? `${res.elevens_used} guaranteed-11(s) used`
       : `${res.elevens_used}/${maxElevens} guaranteed-11(s) used`;
     say("opt-status", `Found ${res.score} of ${targets.length} target unit(s), ${elevensNote}.`, "ok");
+    const legendRolls = legendRareRolls(buildSimPool(rec.csv));
     for (const step of res.route) {
       const li = document.createElement("li");
       const kind = step.type === "guaranteed_eleven" ? "Guaranteed 11" : "Single roll";
       li.textContent = `${kind} @ ${step.roll}${step.track}: ${step.units.join(", ")}`;
+      if (isNearLegendRare(step.roll, legendRolls)) li.append(legendWarningSpan());
       out.append(li);
     }
     lastOptimizeRoute = res.route;

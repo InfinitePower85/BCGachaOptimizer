@@ -309,6 +309,11 @@ button:disabled { opacity: 0.5; cursor: default; }
 .result li.guidance-mismatch { color: var(--err); }
 .result li.guidance-planned { color: var(--muted); font-style: italic; }
 .result li.guidance-planned .sim-move-units { color: var(--muted); }
+/* Purple text, not another highlight box, so it layers cleanly on top of whatever other
+   status color/background a move already has (matched/mismatch/unguided/next) instead of
+   competing with it -- see the discussion this followed. Its own color always wins over
+   the ancestor <li>'s inherited one, so it stays purple even inside a red/blue/muted line. */
+.legend-near-warning { color: var(--legend); font-weight: 600; }
 .result li.guidance-next {
   color: var(--text); font-style: normal; font-weight: 600;
   background: rgba(255, 204, 0, 0.18); border-radius: 4px;
