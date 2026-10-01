@@ -79,16 +79,23 @@ def load_gacha_units(event):
     return units
 
 
+# Highest tier first. The wiki's own table order can't be trusted for this -- e.g. the
+# Street Fighters / Evangelion pages list Uber Super Rare *before* Legend Rare.
+RARITY_ORDER = ["Legend Rare", "Uber Super Rare", "Super Rare", "Rare"]
+
+
 def group_by_rarity(units):
-    """Group units by rarity, preserving the order rarities first appear in `units`
-    (fetch_gacha_units.py writes the source page's own high-to-low tier order), with
-    unit names sorted alphabetically within each group."""
+    """Group units by rarity in RARITY_ORDER (highest tier first), with unit names sorted
+    alphabetically within each group. A rarity outside RARITY_ORDER (an unexpected wiki
+    heading) goes after the known ones, in the order it first appears in `units`."""
     groups = {}
     for unit in units:
         groups.setdefault(unit["rarity"], []).append(unit)
+    rank = {rarity: i for i, rarity in enumerate(RARITY_ORDER)}
+    ordered = sorted(groups, key=lambda r: rank.get(r, len(RARITY_ORDER)))  # stable: unknowns keep first-appearance order
     return [
-        {"rarity": rarity, "units": sorted(items, key=lambda u: u["name"].casefold())}
-        for rarity, items in groups.items()
+        {"rarity": rarity, "units": sorted(groups[rarity], key=lambda u: u["name"].casefold())}
+        for rarity in ordered
     ]
 
 

@@ -170,17 +170,28 @@ def test_groups_and_sorts_names_alphabetically_within_group():
         {"rarity": "Uber Super Rare", "name": "Bob", "description": "", "cat_id": ""},
     ]
     groups = group_by_rarity(units)
-    assert [g["rarity"] for g in groups] == ["Rare", "Uber Super Rare"]
-    assert [u["name"] for u in groups[0]["units"]] == ["Amy", "Zed"]
+    assert [g["rarity"] for g in groups] == ["Uber Super Rare", "Rare"]
+    assert [u["name"] for u in groups[1]["units"]] == ["Amy", "Zed"]
 
 
-def test_group_order_matches_first_appearance():
+def test_groups_are_ordered_legend_uber_super_rare_regardless_of_input_order():
+    # The wiki lists Uber Super Rare before Legend Rare on e.g. the Street Fighters page.
     units = [
+        {"rarity": "Rare", "name": "D", "description": "", "cat_id": ""},
         {"rarity": "Uber Super Rare", "name": "A", "description": "", "cat_id": ""},
-        {"rarity": "Super Rare", "name": "B", "description": "", "cat_id": ""},
-        {"rarity": "Rare", "name": "C", "description": "", "cat_id": ""},
+        {"rarity": "Super Rare", "name": "C", "description": "", "cat_id": ""},
+        {"rarity": "Legend Rare", "name": "B", "description": "", "cat_id": ""},
     ]
-    assert [g["rarity"] for g in group_by_rarity(units)] == ["Uber Super Rare", "Super Rare", "Rare"]
+    assert [g["rarity"] for g in group_by_rarity(units)] == ["Legend Rare", "Uber Super Rare", "Super Rare", "Rare"]
+
+
+def test_unknown_rarities_go_last_in_first_appearance_order():
+    units = [
+        {"rarity": "Mystery B", "name": "A", "description": "", "cat_id": ""},
+        {"rarity": "Rare", "name": "B", "description": "", "cat_id": ""},
+        {"rarity": "Mystery A", "name": "C", "description": "", "cat_id": ""},
+    ]
+    assert [g["rarity"] for g in group_by_rarity(units)] == ["Rare", "Mystery B", "Mystery A"]
 
 
 def test_alphabetical_sort_is_case_insensitive():
