@@ -156,35 +156,53 @@ const LEGEND_RARITIES = new Set(["legend", "legend_fest"]);
 // Legend Rare is itself a target the route is already trying to hit.
 const LEGEND_APPROACH_WINDOW = 12;
 
-/** Every roll number (either track, normal or guaranteed cell) where pool has a Legend
- * Rare pull slot -- the same per-cell class LEGEND_RARITIES/.legend-pick already use,
- * not a unit's true rarity from unit_rarity.py. */
-function legendRareRolls(pool) {
-  const rolls = new Set();
+/** Every Legend Rare pull slot in pool (either track, normal or guaranteed cell), as
+ * [{roll, track, kind, name, natural}], sorted by roll -- the same per-cell class
+ * LEGEND_RARITIES/.legend-pick already use, not a unit's true rarity from unit_rarity.py.
+ * natural: a plain "legend" slot is a Legend Rare on any banner; a "legend_fest" slot only
+ * becomes one while a "Double Legend chance" gacha is running. */
+function legendRareSlots(pool) {
+  const slots = [];
   for (const track of ["A", "B"]) {
     for (const kind of ["normal", "guaranteed"]) {
       for (const [rollStr, cell] of Object.entries(pool[kind][track])) {
-        if (LEGEND_RARITIES.has(cell.rarity)) rolls.add(Number(rollStr));
+        if (!LEGEND_RARITIES.has(cell.rarity)) continue;
+        slots.push({ roll: Number(rollStr), track, kind, name: cell.cat_name, natural: cell.rarity === "legend" });
       }
     }
   }
-  return rolls;
+  return slots.sort((a, b) => a.roll - b.roll || a.track.localeCompare(b.track));
 }
 
-const isNearLegendRare = (roll, legendRolls) =>
-  [...legendRolls].some((legendRoll) => legendRoll - roll >= 0 && legendRoll - roll <= LEGEND_APPROACH_WINDOW);
+/** The Legend Rare slots within LEGEND_APPROACH_WINDOW rolls ahead of `roll` (either track). */
+const legendRaresInReach = (roll, legendSlots) =>
+  legendSlots.filter((slot) => slot.roll - roll >= 0 && slot.roll - roll <= LEGEND_APPROACH_WINDOW);
 
-/** A purple (not another highlight box -- see the discussion this followed) inline marker
- * for a move/step that's within LEGEND_APPROACH_WINDOW rolls of a Legend Rare slot,
- * appended alongside whatever other status coloring a <li> already has. */
-function legendWarningSpan() {
-  const span = document.createElement("span");
-  span.className = "legend-near-warning";
-  span.textContent = " ⚠ Legend Rare in reach";
-  span.title = `Within ${LEGEND_APPROACH_WINDOW} rolls of a Legend Rare pull slot on either track. `
-    + "This close, there's likely no room left to track-switch into position for it -- continuing "
-    + "risks missing that Legend Rare for this seed. (Approximate, not exact.)";
-  return span;
+/** Inline markers (not another highlight box -- see the discussion this followed) for a
+ * move/step within LEGEND_APPROACH_WINDOW rolls of Legend Rare slots: one line per slot,
+ * naming it and its position, appended alongside whatever other status coloring a <li>
+ * already has. Returns null when `slots` is empty. A natural Legend Rare is darker purple,
+ * a Double-Legend-only one lighter purple, matching their text in the roll table. */
+function legendWarnings(slots) {
+  if (!slots.length) return null;
+  const wrap = document.createElement("span");
+  wrap.className = "legend-near-warnings";
+  for (const slot of slots) {
+    const span = document.createElement("span");
+    span.className = "legend-near-warning" + (slot.natural ? "" : " legend-fest");
+    const where = `${slot.roll}${slot.track}` + (slot.kind === "guaranteed" ? " (guaranteed)" : "");
+    span.textContent = slot.natural
+      ? `⚠ Legend Rare in reach: ${slot.name} @ ${where}`
+      : `⚠ Legend Rare in reach (Double Legend chance only): ${slot.name} @ ${where}`;
+    span.title = `Within ${LEGEND_APPROACH_WINDOW} rolls of this Legend Rare pull slot. `
+      + "This close, there's likely no room left to track-switch into position for it -- continuing "
+      + "risks missing it for this seed. (Approximate, not exact.)"
+      + (slot.natural
+        ? ""
+        : " This slot is only a Legend Rare while a Double Legend chance gacha is running; otherwise it gives the unit shown.");
+    wrap.append(span);
+  }
+  return wrap;
 }
 
 function cellNode(cell, track, roll, kind) {
@@ -198,6 +216,7 @@ function cellNode(cell, track, roll, kind) {
   // guaranteed-11 slot. Flag those in purple so a legend doesn't get missed for an uber
   // pulled some other way.
   if (LEGEND_RARITIES.has(cell.rarity)) td.classList.add("legend-pick");
+  if (cell.rarity === "legend") td.classList.add("legend-natural"); // darker purple than legend_fest
   const name = document.createElement("span");
   name.className = "rarity-" + (cell.rarity || "none");
   name.textContent = cell.cat_name;
@@ -309,7 +328,7 @@ function clearGuidance() {
 
 function initSim(csvText) {
   const pool = buildSimPool(csvText);
-  sim = { pool, legendRolls: legendRareRolls(pool), track: "A", roll: 1, moves: [], animating: false };
+  sim = { pool, legendSlots: legendRareSlots(pool), track: "A", roll: 1, moves: [], animating: false };
   guidance = null; // a guide's steps are tied to the pool that produced them
   say("sim-status", "", "");
   renderSim();
@@ -589,15 +608,17 @@ function updateMismatchBanner() {
 
 /** One <li> in the merged moves timeline: a <details> so only "<kind> @ <roll><track>"
  * shows by default, with the units drawn tucked behind it -- expand to see them.
- * nearLegend appends the purple "Legend Rare in reach" marker alongside whatever other
- * status coloring statusClass already gives the <li> -- see legendWarningSpan(). */
-function buildMoveLi(type, track, roll, units, statusClass, note, nearLegend) {
+ * nearLegends (Legend Rare slots in reach) appends a "Legend Rare in reach" marker per
+ * slot alongside whatever other status coloring statusClass already gives the <li> -- see
+ * legendWarnings(). */
+function buildMoveLi(type, track, roll, units, statusClass, note, nearLegends) {
   const li = document.createElement("li");
   li.className = statusClass;
   const details = document.createElement("details");
   const summary = document.createElement("summary");
   summary.textContent = `${DRAW_KIND_LABEL[type]} @ ${roll}${track}` + (note ? ` ${note}` : "");
-  if (nearLegend) summary.append(legendWarningSpan());
+  const warnings = legendWarnings(nearLegends);
+  if (warnings) summary.append(warnings);
   const unitsEl = document.createElement("span");
   unitsEl.className = "sim-move-units";
   unitsEl.textContent = units.join(", ");
@@ -652,8 +673,8 @@ function renderSim() {
         ? "-- off guide (see the earlier wrong move)"
         : `-- wrong move (guide expected ${DRAW_BUTTON_LABEL[move.type === "single" ? "guaranteed_eleven" : "single"]})`;
     }
-    const nearLegend = isNearLegendRare(move.roll, sim.legendRolls);
-    movesEl.append(buildMoveLi(move.type, move.track, move.roll, move.units, `guidance-${move.guidanceStatus}`, note, nearLegend));
+    const nearLegends = legendRaresInReach(move.roll, sim.legendSlots);
+    movesEl.append(buildMoveLi(move.type, move.track, move.roll, move.units, `guidance-${move.guidanceStatus}`, note, nearLegends));
   }
   if (guidance) {
     let nextLi = null;
@@ -663,8 +684,8 @@ function renderSim() {
       // the plan used to expect, not an actionable "do this now" (that's what Undo is for).
       const isNext = !guidance.broken && i === guidance.index;
       const statusClass = isNext ? "guidance-planned guidance-next" : "guidance-planned";
-      const nearLegend = isNearLegendRare(step.roll, sim.legendRolls);
-      const li = buildMoveLi(step.type, step.track, step.roll, step.units, statusClass, "(planned)", nearLegend);
+      const nearLegends = legendRaresInReach(step.roll, sim.legendSlots);
+      const li = buildMoveLi(step.type, step.track, step.roll, step.units, statusClass, "(planned)", nearLegends);
       movesEl.append(li);
       if (isNext) nextLi = li;
     }
@@ -1021,12 +1042,13 @@ $("opt-btn").addEventListener("click", async () => {
       ? `${res.elevens_used} guaranteed-11(s) used`
       : `${res.elevens_used}/${maxElevens} guaranteed-11(s) used`;
     say("opt-status", `Found ${res.score} of ${targets.length} target unit(s), ${elevensNote}.`, "ok");
-    const legendRolls = legendRareRolls(buildSimPool(rec.csv));
+    const legendSlots = legendRareSlots(buildSimPool(rec.csv));
     for (const step of res.route) {
       const li = document.createElement("li");
       const kind = step.type === "guaranteed_eleven" ? "Guaranteed 11" : "Single roll";
       li.textContent = `${kind} @ ${step.roll}${step.track}: ${step.units.join(", ")}`;
-      if (isNearLegendRare(step.roll, legendRolls)) li.append(legendWarningSpan());
+      const warnings = legendWarnings(legendRaresInReach(step.roll, legendSlots));
+      if (warnings) li.append(warnings);
       out.append(li);
     }
     lastOptimizeRoute = res.route;

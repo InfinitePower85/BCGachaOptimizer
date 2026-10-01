@@ -15,8 +15,9 @@
   --supa_fest: #9a6b00;
   --uber: #c0392b;
   --uber_fest: #b5651d;
-  --legend: #7c3aed;
-  --legend_fest: #8a5a1f;
+  /* Natural Legend Rare darker, Double-Legend-only (legend_fest) lighter -- myGamatoto's scheme. */
+  --legend: #5b21b6;
+  --legend_fest: #7c3aed;
   --basic: #5d6673;
   --special: #0e7490;
   --info: #2563eb;
@@ -38,8 +39,8 @@
     --supa_fest: #ffff66;
     --uber: #ff6b6b;
     --uber_fest: #ff9a76;
-    --legend: #b388ff;
-    --legend_fest: #d8a56f;
+    --legend: #8b5cf6;
+    --legend_fest: #b388ff;
     --basic: #9aa4b0;
     --special: #22d3ee;
     --info: #60a5fa;
@@ -203,8 +204,8 @@ button:disabled { opacity: 0.5; cursor: default; }
   --supa_fest: #ffff66;
   --uber: #ff4d4d;
   --uber_fest: #ff9a76;
-  --legend: #b388ff;
-  --legend_fest: #d8a56f;
+  --legend: #8b5cf6;
+  --legend_fest: #b388ff;
   overflow-x: auto;
 }
 .roll-table {
@@ -237,9 +238,14 @@ button:disabled { opacity: 0.5; cursor: default; }
 .rarity-none { color: inherit; }
 
 /* A cell that's a Legend Rare, not just an Uber -- see the JS comment by LEGEND_RARITIES.
-   A box, not just text color, so it's visible scanning down the table at a glance
-   (legend_fest's own text color isn't purple like legend's is). */
+   A box, not just text color, so it's visible scanning down the table at a glance. Light
+   purple for a Double-Legend-only (legend_fest) slot, darker purple for a natural one,
+   matching --legend_fest / --legend. */
 .roll-table td.legend-pick { background: rgba(179, 136, 255, 0.3); box-shadow: inset 0 0 0 2px #b388ff; }
+/* Natural: a faint fill so its darker-purple name stays legible against it, with a thicker,
+   brighter border carrying the emphasis instead -- a natural Legend Rare should stand out
+   more than a Double-Legend-only one, not less. */
+.roll-table td.legend-pick.legend-natural { background: rgba(139, 92, 246, 0.12); box-shadow: inset 0 0 0 3px #8b5cf6; }
 
 .roll-table td { transition: background-color 0.06s linear, outline-color 0.06s linear; }
 .roll-table td.sim-current { outline: 2px solid #ffcc00; outline-offset: -2px; background: rgba(255, 204, 0, 0.2); }
@@ -309,11 +315,15 @@ button:disabled { opacity: 0.5; cursor: default; }
 .result li.guidance-mismatch { color: var(--err); }
 .result li.guidance-planned { color: var(--muted); font-style: italic; }
 .result li.guidance-planned .sim-move-units { color: var(--muted); }
-/* Purple text, not another highlight box, so it layers cleanly on top of whatever other
-   status color/background a move already has (matched/mismatch/unguided/next) instead of
+/* Purple text (darker for a natural Legend Rare, lighter for a Double-Legend-only one),
+   not another highlight box, so it layers cleanly on top of whatever other status
+   color/background a move already has (matched/mismatch/unguided/next) instead of
    competing with it -- see the discussion this followed. Its own color always wins over
    the ancestor <li>'s inherited one, so it stays purple even inside a red/blue/muted line. */
 .legend-near-warning { color: var(--legend); font-weight: 600; }
+.legend-near-warning.legend-fest { color: var(--legend_fest); }
+/* One line per Legend Rare in reach, so several don't run together on the move's line. */
+.legend-near-warnings .legend-near-warning { display: block; }
 .result li.guidance-next {
   color: var(--text); font-style: normal; font-weight: 600;
   background: rgba(255, 204, 0, 0.18); border-radius: 4px;
