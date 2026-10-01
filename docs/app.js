@@ -486,7 +486,7 @@ const UNIT_RARITY_CLASS = {
 /** Render `unitNames` (with repeats -- one entry per pull, not pre-deduped) into
  * `containerId` as a rarity-grouped, deduped-with-counts list, optionally narrowed to
  * collab units via the `collabCheckboxId` checkbox. Shared by the roll simulator's
- * "Collected" panel (from sim.moves) and part 4's optimizer result (from its route) --
+ * "Collected" panel (from sim.moves) and part 3's optimizer result (from its route) --
  * same idea, two different sources of unit names. */
 function renderCollectedUnits(containerId, collabCheckboxId, unitNames) {
   const container = $(containerId);
@@ -754,19 +754,19 @@ $("fetch-btn").addEventListener("click", async () => {
   const btn = $("fetch-btn");
   const url = $("godfat-url").value.trim();
   btn.disabled = true;
-  say("fetch-status", "Fetching...");
-  showBanner("fetch-banner", "");
+  say("data-status", "Fetching...");
+  showBanner("data-banner", "");
   try {
     const body = await apiGet("/tracks", { url }, () =>
-      say("fetch-status", "Still waiting. The server may be waking up, which can take up to a minute..."));
+      say("data-status", "Still waiting. The server may be waking up, which can take up to a minute..."));
     const rec = { id: `${body.meta.seed}_${body.meta.event}`, meta: body.meta, csv: body.csv, savedAt: Date.now() };
     await store.put(rec);
-    say("fetch-status", `Saved ${rec.id} (${body.meta.cells} cells).`, "ok");
-    showBanner("fetch-banner", body.meta.banner);
+    say("data-status", `Saved ${rec.id} (${body.meta.cells} cells).`, "ok");
+    showBanner("data-banner", body.meta.banner);
     refresh();
     suggestEventFromBanner(body.meta.banner);
   } catch (e) {
-    say("fetch-status", e.message || "Fetch failed.", "err");
+    say("data-status", e.message || "Fetch failed.", "err");
   } finally {
     btn.disabled = false;
   }
@@ -783,6 +783,7 @@ $("viewer-btn").addEventListener("click", async () => {
 });
 
 $("export-btn").addEventListener("click", async () => {
+  showBanner("data-banner", ""); // the fetch/import/export actions share one status line
   const items = await store.all();
   if (!items.length) return say("data-status", "Nothing to export.", "err");
   download("bc-route-planner-export.json", JSON.stringify({ version: 1, datasets: items }, null, 2), "application/json");
@@ -793,6 +794,7 @@ $("import-file").addEventListener("change", async (ev) => {
   const file = ev.target.files[0];
   ev.target.value = "";
   if (!file) return;
+  showBanner("data-banner", "");
   try {
     if (file.size > 5 * 1024 * 1024) throw new Error("File is too large (5 MB max).");
     const text = await file.text();

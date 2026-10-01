@@ -130,6 +130,7 @@ button:disabled { opacity: 0.5; cursor: default; }
 .status.ok { color: var(--ok); }
 .status.err { color: var(--err); }
 
+.datasets-heading { margin: 16px 0 6px; font-size: 0.95rem; color: var(--muted); }
 .datasets { list-style: none; margin: 0 0 12px; padding: 0; }
 .datasets li {
   display: flex;
@@ -252,7 +253,7 @@ button:disabled { opacity: 0.5; cursor: default; }
    columns fit without horizontal scrolling) plus an info panel of controls, status, and
    two columns (status+collected / guide+moves). The panel sticks near the top of the
    viewport as you scroll through a long table, but only within .sim-layout's own height
-   -- it can't drift into section 3 below. */
+   -- it can't drift into the optimizer section below. */
 .sim-layout { display: flex; gap: 16px; align-items: flex-start; flex-wrap: wrap; }
 .sim-layout .roll-viewer { flex: 3 1 500px; min-width: 0; }
 .sim-sidebar { flex: 2 1 560px; max-width: 100%; }

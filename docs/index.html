@@ -14,14 +14,25 @@
 
   <main>
     <section class="card">
-      <h2>1. Get tracks</h2>
-      <p class="hint">Paste a bc.godfat.org link that includes a seed and event.</p>
+      <h2>1. Datasets</h2>
+      <p class="hint">Fetch tracks from a bc.godfat.org link that includes a seed and event, or import a
+        previously exported file. Datasets are stored in this browser only (IndexedDB) -- export them as a
+        backup, or to move them to another device.</p>
       <div class="row">
         <input id="godfat-url" type="url" placeholder="https://bc.godfat.org/?seed=...&amp;event=...">
         <button id="fetch-btn">Fetch tracks</button>
       </div>
-      <p id="fetch-status" class="status" role="status"></p>
-      <p id="fetch-banner" class="hint banner"></p>
+      <p id="data-status" class="status" role="status"></p>
+      <p id="data-banner" class="hint banner"></p>
+      <h3 class="datasets-heading">Saved datasets</h3>
+      <ul id="dataset-list" class="datasets"></ul>
+      <div class="row">
+        <label class="file-btn secondary">
+          Import
+          <input id="import-file" type="file" accept=".json,.csv" hidden>
+        </label>
+        <button id="export-btn" class="secondary">Export all</button>
+      </div>
     </section>
 
     <section class="card">
@@ -75,21 +86,7 @@
     </section>
 
     <section class="card">
-      <h2>3. Your saved data</h2>
-      <p class="hint">Stored in this browser only (IndexedDB). Export it as a backup, and import it on another device or after clearing browser data.</p>
-      <ul id="dataset-list" class="datasets"></ul>
-      <div class="row">
-        <button id="export-btn" class="secondary">Export all</button>
-        <label class="file-btn secondary">
-          Import
-          <input id="import-file" type="file" accept=".json,.csv" hidden>
-        </label>
-      </div>
-      <p id="data-status" class="status" role="status"></p>
-    </section>
-
-    <section class="card">
-      <h2>4. Optimize</h2>
+      <h2>3. Optimize</h2>
       <p class="hint">Find the route that collects the most target units within a roll limit.</p>
       <div class="grid">
         <label><span class="field-label">Dataset</span>
