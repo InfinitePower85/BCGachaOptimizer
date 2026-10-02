@@ -7,13 +7,17 @@ then open http://127.0.0.1:8000/  (interactive docs at /docs)
 
 On Render, the Start Command is:
     uvicorn server:app --host 0.0.0.0 --port $PORT
+and REDIS_URL should be set to the Key Value instance's internal URL (see rate_limit.py).
+Don't add --proxy-headers / --forwarded-allow-ips: rate_limit.ClientIPMiddleware handles
+X-Forwarded-For instead (uvicorn's "*" trusts the client-controlled leftmost entry).
 """
 
 import csv
+import os
 from typing import Literal
 
 import requests
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import Depends, FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
@@ -35,14 +39,14 @@ from gacha_units import (
     load_gacha_units,
     suggest_event,
 )
+from rate_limit import ClientIPMiddleware, godfat_fetch_gate, optimize_slot, rate_limited
 from route_optimizer import parse_pool, solve
 from unit_rarity import load_unit_rarities
 
 MAX_MEOWS = 100
 
-# /optimize is CPU-heavy (a full DFS search), so its inputs are capped defensively.
-# These aren't the per-IP/concurrency throttling service_plan.md calls for -- that's
-# still a TODO -- just static bounds so one request can't run unbounded.
+# /optimize is CPU-heavy (a full DFS search), so its inputs are capped defensively, on
+# top of the per-IP and concurrency limits in rate_limit.py.
 MAX_OPTIMIZE_CSV_CHARS = 2_000_000  # a full 120-roll event's tracks.csv is ~18 KB
 MAX_TARGET_UNITS = 25
 MAX_ROLL_LIMIT = 200  # matches the frontend's roll-limit input (docs/index.html)
@@ -59,7 +63,15 @@ app.add_middleware(
     allow_origin_regex=r"http://(localhost|127\.0\.0\.1)(:\d+)?",
     allow_methods=["GET", "POST"],
     allow_headers=["Content-Type"],
+    expose_headers=["Retry-After"],
 )
+# Added last so it runs first: everything after it (incl. rate limiting) sees the real client IP.
+app.add_middleware(ClientIPMiddleware)
+
+# /whoami echoes the client IP the server sees. Off by default; turn on briefly after a
+# deploy (ENABLE_WHOAMI=1) to check ClientIPMiddleware against Render's real proxy -- a
+# forged X-Forwarded-For must not change the "ip" it reports. See rate_limit.py.
+ENABLE_WHOAMI = os.environ.get("ENABLE_WHOAMI") == "1"
 
 
 class CachedStaticFiles(StaticFiles):
@@ -83,22 +95,30 @@ def hello_world() -> str:
     return "Hello World"
 
 
-@app.get("/meow")
+if ENABLE_WHOAMI:
+    @app.get("/whoami")
+    def whoami(request: Request) -> dict:
+        return {"ip": request.client.host if request.client else None,
+                "x_forwarded_for": request.headers.get("x-forwarded-for")}
+
+
+@app.get("/meow", dependencies=[rate_limited("low")])
 def meow(n: int = Query(ge=1, le=MAX_MEOWS)) -> str:
     return " ".join(["meow"] * n)
 
 
-@app.get("/tracks")
+@app.get("/tracks", dependencies=[rate_limited("tracks")])
 def get_tracks(url: str) -> dict:
-    """Fetch and parse a bc.godfat.org tracks link. Reuses data_download.py as-is,
-    including its own cache and hourly-request cap (see that file for details)."""
+    """Fetch and parse a bc.godfat.org tracks link. Reuses data_download.py's parsing and
+    cache; its shared hourly cap is counted via rate_limit.godfat_fetch_gate, so it
+    survives restarts."""
     try:
         query = validate_url(url)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
     try:
-        html = download(url)
+        html = download(url, record_fetch=godfat_fetch_gate)
     except RateLimitError as e:
         raise HTTPException(status_code=429, detail=str(e))
     except requests.RequestException as e:
@@ -113,14 +133,14 @@ def get_tracks(url: str) -> dict:
     return {"meta": meta, "csv": cells_to_csv(cells)}
 
 
-@app.get("/gacha-events")
+@app.get("/gacha-events", dependencies=[rate_limited("low")])
 def get_gacha_events() -> list[str]:
     """Event folder names under data/gacha_pools that have a units CSV (see
     fetch_gacha_units.py), for the frontend's event dropdown."""
     return list_gacha_events()
 
 
-@app.get("/gacha-units")
+@app.get("/gacha-units", dependencies=[rate_limited("low")])
 def get_gacha_units(event: str) -> dict:
     """That event's unit roster, grouped by rarity (sorted alphabetically within each
     group), for the frontend's target-unit checkboxes."""
@@ -131,14 +151,14 @@ def get_gacha_units(event: str) -> dict:
     return {"event": event, "rarities": group_by_rarity(units)}
 
 
-@app.get("/unit-rarities")
+@app.get("/unit-rarities", dependencies=[rate_limited("low")])
 def get_unit_rarities() -> dict:
     """name -> rarity for every unit's Normal form (see unit_rarity.py), for the
     frontend roll simulator's "Collected" panel. {} if data/unit_data isn't present."""
     return load_unit_rarities()
 
 
-@app.get("/collab-units")
+@app.get("/collab-units", dependencies=[rate_limited("low")])
 def get_collab_units() -> list[str]:
     """Every unit name across all fetched events' collab rosters (see
     gacha_units.list_all_collab_unit_names()), for the frontend roll simulator's
@@ -146,7 +166,7 @@ def get_collab_units() -> list[str]:
     return list_all_collab_unit_names()
 
 
-@app.get("/match-event")
+@app.get("/match-event", dependencies=[rate_limited("low")])
 def get_match_event(text: str) -> dict:
     """Best-effort guess at which known event a Godfat banner's display text (meta.banner
     from /tracks) is for -- see gacha_units.suggest_event(). A convenience pre-selection
@@ -163,7 +183,7 @@ class OptimizeRequest(BaseModel):
     max_elevens: int | None = Field(ge=0, default=None)  # None: unlimited guaranteed-11s
 
 
-@app.post("/optimize")
+@app.post("/optimize", dependencies=[rate_limited("optimize"), Depends(optimize_slot)])
 def optimize(req: OptimizeRequest) -> dict:
     """Run the route optimizer against a tracks CSV the client sends us -- nothing is
     looked up or stored server-side. See route_optimizer.py and the CSV-vs-URL

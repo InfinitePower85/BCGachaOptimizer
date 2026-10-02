@@ -7,7 +7,7 @@ Usage:
 BC Godfat is a small fan site, so this is deliberately gentle:
   - only bc.godfat.org links with a seed and event are accepted
   - raw pages are cached by URL (see below) and reused while fresh (1 day)
-  - CAP: at most 10 real requests per rolling hour. Only real requests count;
+  - CAP: at most 100 real requests per rolling hour. Only real requests count;
     cache hits are free, and failed requests still count.
   - --force is a dev tool: it skips BOTH the freshness check and the hourly cap.
     Forced requests are still logged, so they count toward the cap for normal runs.
@@ -37,9 +37,10 @@ import requests
 SEED_TRACKS_DIR = Path(__file__).parent / "data" / "seed_tracks"  # per-user seed data; gitignored
 TRACKS_CSV_FIELDS = ["position", "roll", "track", "guaranteed", "cat_id", "cat_name", "rarity", "link"]
 CACHE_MAX_AGE = 24 * 60 * 60   # seconds a cached page counts as fresh
-MAX_FETCHES_PER_HOUR = 10      # cap on real requests (--force bypasses it)
+MAX_FETCHES_PER_HOUR = 100     # cap on real requests (--force bypasses it); the server
+                               # applies the same number across all users (rate_limit.py)
 RATE_WINDOW = 60 * 60          # seconds; the rolling window the cap applies to
-USER_AGENT = "export my rolls - 10 Requests per hour max"
+USER_AGENT = f"export my rolls - {MAX_FETCHES_PER_HOUR} Requests per hour max"
 
 POSITION_RE = re.compile(r"pick\('(\d+)([AB])(G?)'\)")
 CAT_ID_RE = re.compile(r"/cats/(\d+)")
@@ -196,15 +197,17 @@ def parse_tracks(html):
     return parser.cells, event_name
 
 
-def download(url, force=False):
+def download(url, force=False, record_fetch=check_and_record_fetch):
     """Return the page HTML: from the URL-keyed cache if fresh, else one real request.
-    force skips both the freshness check and the hourly cap."""
+    force skips both the freshness check and the hourly cap. record_fetch enforces and
+    records the cap before a real request; server.py swaps in a version whose counter
+    survives restarts (rate_limit.godfat_fetch_gate)."""
     raw_path = cache_path(url)
     if raw_path.exists() and not force and time.time() - raw_path.stat().st_mtime < CACHE_MAX_AGE:
         print("Using cached page; pass --force to re-fetch.")
         return raw_path.read_text(encoding="utf-8")
 
-    check_and_record_fetch(url, time.time(), enforce=not force)
+    record_fetch(url, time.time(), enforce=not force)
     print("Fetching from bc.godfat.org (one request)...")
     resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
     resp.raise_for_status()

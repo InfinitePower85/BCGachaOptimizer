@@ -5,6 +5,7 @@ from fastapi.testclient import TestClient
 
 import data_download
 import gacha_units
+import rate_limit
 from server import MAX_MEOWS, MAX_ROLL_LIMIT, MAX_TARGET_UNITS, app
 
 client = TestClient(app)
@@ -12,6 +13,12 @@ client = TestClient(app)
 PAGES_ORIGIN = "https://infinitepower85.github.io"
 GOOD_URL = "https://bc.godfat.org/?seed=1234567890&event=2026-09-28_1081"
 FIXTURE_HTML = (Path(__file__).parent / "fixtures" / "mini_tracks.html").read_text(encoding="utf-8")
+
+
+@pytest.fixture(autouse=True)
+def fresh_rate_limits(monkeypatch):
+    """Every test starts with empty rate-limit counters (all TestClient calls share one IP)."""
+    monkeypatch.setattr(rate_limit, "store", rate_limit.MemoryStore())
 
 
 @pytest.fixture(autouse=True)
@@ -147,11 +154,25 @@ def test_tracks_502_when_page_has_no_cells(monkeypatch, fake_web):
     assert response.status_code == 502
 
 
-def test_tracks_429_when_hourly_cap_reached(monkeypatch, fake_web):
-    monkeypatch.setattr(data_download, "MAX_FETCHES_PER_HOUR", 0)
+def test_tracks_429_when_shared_godfat_cap_reached(monkeypatch, fake_web):
+    monkeypatch.setattr(rate_limit, "GODFAT_GLOBAL_LIMIT", 0)
     response = client.get("/tracks", params={"url": GOOD_URL})
     assert response.status_code == 429
+    assert "site-wide" in response.json()["detail"]
     assert fake_web == []
+
+
+def test_tracks_uses_the_shared_cap_not_the_file_cap(monkeypatch, fake_web):
+    """On the server the file-based cap (lost on every Render spin-down) is replaced."""
+    monkeypatch.setattr(data_download, "MAX_FETCHES_PER_HOUR", 0)
+    assert client.get("/tracks", params={"url": GOOD_URL}).status_code == 200
+
+
+def test_tracks_cache_hits_dont_use_the_shared_cap(monkeypatch, fake_web):
+    monkeypatch.setattr(rate_limit, "GODFAT_GLOBAL_LIMIT", 1)
+    for _ in range(3):
+        assert client.get("/tracks", params={"url": GOOD_URL}).status_code == 200
+    assert fake_web == [GOOD_URL]
 
 
 # ---------- /gacha-events, /gacha-units ----------

@@ -318,6 +318,19 @@ def test_real_request_saves_cache_and_sends_user_agent(seed_dir, html, fake_web)
 
 
 # ---------- download(): hourly cap ----------
+# The cap tests (here and in main() below) are written around a cap of 10, whatever the
+# real MAX_FETCHES_PER_HOUR is; this autouse fixture applies to the whole module.
+REAL_CAP = data_download.MAX_FETCHES_PER_HOUR  # read at import, before the fixture patches it
+
+
+@pytest.fixture(autouse=True)
+def cap_of_ten(monkeypatch):
+    monkeypatch.setattr(data_download, "MAX_FETCHES_PER_HOUR", 10)
+
+
+def test_user_agent_states_the_real_cap():
+    assert f"{REAL_CAP} Requests per hour" in data_download.USER_AGENT
+
 
 def test_real_request_is_logged(seed_dir, fake_web):
     data_download.download(GOOD_URL)

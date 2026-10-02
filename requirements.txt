@@ -20,6 +20,7 @@ starlette==1.6.0
 typing-inspection==0.4.4
 typing_extensions==4.16.0
 uvicorn==0.53.0
+redis==8.1.0
 
 # --- dev tools only (testing); not needed to run the project ---
 pytest==9.1.1
@@ -30,3 +31,5 @@ pluggy==1.6.0
 Pygments==2.21.0
 httpx==0.28.1
 httpcore==1.0.9
+fakeredis==2.39.0
+sortedcontainers==2.4.0
