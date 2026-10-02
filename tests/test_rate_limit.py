@@ -258,3 +258,22 @@ def test_godfat_gate_refuses_past_the_shared_limit(monkeypatch):
     rate_limit.godfat_fetch_gate("u", 1001)
     with pytest.raises(data_download.RateLimitError, match="site-wide"):
         rate_limit.godfat_fetch_gate("u", 1002)
+
+
+# ---------- /whoami ----------
+
+def test_whoami_is_off_by_default():
+    assert client.get("/whoami").status_code == 404
+
+
+def test_whoami_reports_what_decided_the_ip(monkeypatch):
+    import server
+    monkeypatch.setenv("RENDER", "true")
+    monkeypatch.delenv("TRUSTED_PROXY_HOPS", raising=False)
+    monkeypatch.setenv("RENDER_GIT_COMMIT", "abc123")
+    mini = FastAPI()
+    mini.add_middleware(ClientIPMiddleware)  # hops from the env above
+    mini.get("/whoami")(server.whoami)
+    body = TestClient(mini).get("/whoami", headers={"X-Forwarded-For": RENDER_XFF}).json()
+    assert body == {"ip": "203.0.113.7", "x_forwarded_for": RENDER_XFF, "trusted_hops": 3,
+                    "render_env": "true", "trusted_proxy_hops_env": None, "commit": "abc123"}

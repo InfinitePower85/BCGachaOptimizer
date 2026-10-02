@@ -39,7 +39,13 @@ from gacha_units import (
     load_gacha_units,
     suggest_event,
 )
-from rate_limit import ClientIPMiddleware, godfat_fetch_gate, optimize_slot, rate_limited
+from rate_limit import (
+    ClientIPMiddleware,
+    default_trusted_hops,
+    godfat_fetch_gate,
+    optimize_slot,
+    rate_limited,
+)
 from route_optimizer import parse_pool, solve
 from unit_rarity import load_unit_rarities
 
@@ -95,11 +101,19 @@ def hello_world() -> str:
     return "Hello World"
 
 
+def whoami(request: Request) -> dict:
+    """The client IP as rate limiting sees it, plus what decided it: the raw header, the
+    hop count in effect, and the deployed commit (Render sets RENDER_GIT_COMMIT)."""
+    return {"ip": request.client.host if request.client else None,
+            "x_forwarded_for": request.headers.get("x-forwarded-for"),
+            "trusted_hops": default_trusted_hops(),
+            "render_env": os.environ.get("RENDER"),
+            "trusted_proxy_hops_env": os.environ.get("TRUSTED_PROXY_HOPS"),
+            "commit": os.environ.get("RENDER_GIT_COMMIT")}
+
+
 if ENABLE_WHOAMI:
-    @app.get("/whoami")
-    def whoami(request: Request) -> dict:
-        return {"ip": request.client.host if request.client else None,
-                "x_forwarded_for": request.headers.get("x-forwarded-for")}
+    app.get("/whoami")(whoami)
 
 
 @app.get("/meow", dependencies=[rate_limited("low")])
