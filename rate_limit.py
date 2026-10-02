@@ -6,17 +6,24 @@ in Render's Key Value store (Redis-compatible) when REDIS_URL is set. Without it
 dev), or whenever Redis errors, an in-process MemoryStore is used instead: requests are
 never refused just because Redis is down, and counting carries on, less durably.
 
-Client IP: Render's proxy sits in front of the app, so the connection's address is the
-proxy's. ClientIPMiddleware replaces it with the X-Forwarded-For entry that Render's
-proxy appended -- counted from the RIGHT, one entry per trusted proxy hop. The leftmost
-entry is never trusted: a client can put anything there. (uvicorn's own
+Client IP: proxies sit in front of the app, so the connection's address is a proxy's.
+ClientIPMiddleware replaces it with the X-Forwarded-For entry the outermost trusted proxy
+appended -- counted from the RIGHT, one entry per trusted proxy hop. The leftmost entry
+is never trusted: a client can put anything there. On Render (checked with /whoami on
+2026-10-01) a request arrives as
+
+    X-Forwarded-For: <anything the client sent>, <client>, <Cloudflare edge>, <Render 10.x>
+
+i.e. Cloudflare appends the real client, then two more hops are appended after it, so
+the client is 3rd from the right; a forged header only adds entries on the left. (uvicorn's own
 --forwarded-allow-ips="*" returns exactly that leftmost entry, which is why it isn't
 used.) After deploying, check this with /whoami -- see ENABLE_WHOAMI in server.py.
 
 Environment:
     REDIS_URL             Render Key Value internal URL. Unset: in-memory counters.
-    TRUSTED_PROXY_HOPS    Proxies in front of the app. Defaults to 1 on Render (which
-                          sets RENDER=true), else 0 (local: use the connection address).
+    TRUSTED_PROXY_HOPS    X-Forwarded-For entries to count from the right. Defaults to 3
+                          on Render (which sets RENDER=true; see above), else 0 (local:
+                          use the connection address).
 """
 
 import ipaddress
@@ -149,10 +156,13 @@ store = make_store()  # module-level so tests can swap it
 
 # ---- Client IP ------------------------------------------------------------------
 
+RENDER_TRUSTED_HOPS = 3  # client, Cloudflare edge, Render internal; see the module docstring
+
+
 def default_trusted_hops():
     if "TRUSTED_PROXY_HOPS" in os.environ:
         return int(os.environ["TRUSTED_PROXY_HOPS"])
-    return 1 if os.environ.get("RENDER") else 0
+    return RENDER_TRUSTED_HOPS if os.environ.get("RENDER") else 0
 
 
 class ClientIPMiddleware:

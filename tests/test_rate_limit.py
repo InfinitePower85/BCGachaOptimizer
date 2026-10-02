@@ -48,6 +48,21 @@ def test_one_hop_takes_the_rightmost_entry(xff, expected):
     assert ip_app(1).get("/ip", headers={"X-Forwarded-For": xff}).json() == expected
 
 
+# The shape Render actually delivers (seen via /whoami), with documentation-range IPs:
+# <forged>, <client>, <Cloudflare edge>, <Render internal>. Note the forged entry is
+# joined with "," and no space.
+RENDER_XFF = "6.6.6.6,203.0.113.7, 162.158.79.5, 10.0.0.1"
+
+
+def test_render_default_finds_the_client_behind_cloudflare_and_render():
+    assert ip_app(rate_limit.RENDER_TRUSTED_HOPS).get("/ip", headers={"X-Forwarded-For": RENDER_XFF}).json() == "203.0.113.7"
+
+
+def test_render_default_without_a_forged_entry():
+    xff = "203.0.113.7, 104.23.211.157, 10.0.0.1"
+    assert ip_app(rate_limit.RENDER_TRUSTED_HOPS).get("/ip", headers={"X-Forwarded-For": xff}).json() == "203.0.113.7"
+
+
 def test_two_hops_takes_the_second_from_the_right():
     assert ip_app(2).get("/ip", headers={"X-Forwarded-For": "6.6.6.6, 1.2.3.4, 10.0.0.1"}).json() == "1.2.3.4"
 
@@ -71,7 +86,7 @@ def test_zero_hops_ignores_the_header():
 
 @pytest.mark.parametrize("env, expected", [
     ({}, 0),
-    ({"RENDER": "true"}, 1),
+    ({"RENDER": "true"}, 3),
     ({"RENDER": "true", "TRUSTED_PROXY_HOPS": "2"}, 2),
     ({"TRUSTED_PROXY_HOPS": "0", "RENDER": "true"}, 0),
 ])
