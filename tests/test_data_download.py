@@ -147,30 +147,26 @@ def test_rejects_bad_seed(query):
         validate_url(f"https://bc.godfat.org/?{query}")
 
 
-def test_rejects_missing_event():
-    with pytest.raises(ValueError, match="event"):
-        validate_url("https://bc.godfat.org/?seed=1")
+def test_event_is_optional():
+    # Godfat pre-selects a default banner for a link like this (see fetch_tracks)
+    assert "event" not in validate_url("https://bc.godfat.org/?seed=1111")
 
 
-@pytest.mark.parametrize("url", [
-    "https://bc.godfat.org/?seed=1234567890",   # what the shell passes when '&' is unquoted
-    "https://bc.godfat.org/?event=x",
-])
-def test_truncated_link_errors_suggest_quoting(url):
+def test_truncated_link_errors_suggest_quoting():
     with pytest.raises(ValueError, match="in quotes"):
-        validate_url(url)
+        validate_url("https://bc.godfat.org/?event=x")
 
 
 # ---------- parse_tracks ----------
 
 def test_banner_name_is_selected_event_only(html):
-    _, event_name = parse_tracks(html)
+    _, event_name, _ = parse_tracks(html)
     # whitespace collapsed; not the other banner or the language option
     assert event_name == "2026-09-28 ~ 2026-10-05: Test banner ★ Tap!"
 
 
 def test_only_cat_cells_are_kept(html):
-    cells, _ = parse_tracks(html)
+    cells, *_ = parse_tracks(html)
     # score cells (1AX, 1AGX, 1BX, 1BGX) are empty placeholders and must be skipped
     assert [c["position"] for c in cells] == ["1A", "1A", "1B", "1B", "2A"]
 
@@ -198,7 +194,7 @@ def test_guaranteed_cell_has_backward_link(html):
 
 
 def test_name_is_the_first_link_not_the_paw_link(html):
-    cells, _ = parse_tracks(html)
+    cells, *_ = parse_tracks(html)
     assert all(c["cat_name"] and c["cat_name"] != "🐾" for c in cells)
 
 
@@ -224,11 +220,25 @@ def test_cell_without_cat_id_link_is_kept_with_blank_id():
 
 @pytest.mark.parametrize("html", ["", "<html></html>", "<table><tr><td>nothing</td></tr></table>"])
 def test_page_without_cells_parses_to_nothing(html):
-    assert parse_tracks(html) == ([], "")
+    assert parse_tracks(html) == ([], "", None)
+
+
+def test_selected_event_id_is_parsed(html):
+    assert parse_tracks(html)[2] == "2026-09-28_1081"
+
+
+def test_selected_option_outside_the_event_select_is_not_the_event(html):
+    # the fixture's lang select also has a selected option ("en")
+    assert parse_tracks(html.replace('<option value="2026-09-28_1081" selected="selected">',
+                                     '<option value="2026-09-28_1081">'))[2] is None
+
+
+def test_unsafe_selected_event_id_is_dropped(html):
+    assert parse_tracks(html.replace('value="2026-09-28_1081"', 'value="../x"'))[2] is None
 
 
 def test_truncated_html_does_not_crash(html):
-    cells, _ = parse_tracks(html[: len(html) // 2])
+    cells, *_ = parse_tracks(html[: len(html) // 2])
     assert isinstance(cells, list)
 
 
@@ -315,6 +325,69 @@ def test_real_request_saves_cache_and_sends_user_agent(seed_dir, html, fake_web)
     assert len(fake_web.calls) == 1
     assert fake_web.calls[0][1]["headers"]["User-Agent"] == data_download.USER_AGENT
     assert data_download.USER_AGENT.strip()
+
+
+# ---------- fetch_tracks(): links without an event ----------
+
+NO_EVENT_URL = "https://bc.godfat.org/?seed=1234567890"
+
+
+def test_link_without_event_takes_the_pages_selected_event(seed_dir, fake_web):
+    cells, meta = data_download.fetch_tracks(NO_EVENT_URL)
+    assert len(cells) == 5
+    assert meta["event"] == "2026-09-28_1081"
+    assert meta["seed"] == "1234567890"
+    assert "Test banner" in meta["banner"]
+
+
+def test_link_without_event_records_the_explicit_link(seed_dir, fake_web):
+    _, meta = data_download.fetch_tracks(NO_EVENT_URL)
+    assert meta["source_url"] == "https://bc.godfat.org/?seed=1234567890&event=2026-09-28_1081"
+
+
+def test_link_without_event_also_caches_under_the_explicit_link(seed_dir, fake_web):
+    _, meta = data_download.fetch_tracks(NO_EVENT_URL)
+    data_download.fetch_tracks(meta["source_url"])
+    assert len(fake_web.calls) == 1  # the explicit link was served from cache
+
+
+def test_link_without_event_is_cached_for_ten_minutes_only(seed_dir, html, fake_web):
+    stale = time.time() - data_download.NO_EVENT_CACHE_MAX_AGE - 5
+    raw = write_cache(NO_EVENT_URL, html)
+    os.utime(raw, (stale, stale))
+    data_download.fetch_tracks(NO_EVENT_URL)
+    assert len(fake_web.calls) == 1  # Godfat's default banner may have moved on
+
+    raw = write_cache(GOOD_URL, html)
+    os.utime(raw, (stale, stale))
+    data_download.fetch_tracks(GOOD_URL)
+    assert len(fake_web.calls) == 1  # an explicit link keeps the 1-day cache
+
+
+def test_link_with_event_is_kept_as_is(seed_dir, html):
+    write_cache(GOOD_URL, html)
+    _, meta = data_download.fetch_tracks(GOOD_URL)
+    assert meta["source_url"] == GOOD_URL
+    assert meta["event"] == "2026-09-28_1081"
+
+
+def test_link_event_wins_over_the_pages(seed_dir, html):
+    other = GOOD_URL.replace("2026-09-28_1081", "2026-09-30_947")
+    write_cache(other, html)  # the fixture page has 1081 selected
+    assert data_download.fetch_tracks(other)[1]["event"] == "2026-09-30_947"
+
+
+def test_no_event_anywhere_is_a_layout_error(seed_dir, html, monkeypatch):
+    no_selection = html.replace('<option value="2026-09-28_1081" selected="selected">', '<option value="2026-09-28_1081">')
+    monkeypatch.setattr(data_download.requests, "get", FakeWeb(no_selection))
+    with pytest.raises(data_download.PageLayoutError, match="which banner"):
+        data_download.fetch_tracks(NO_EVENT_URL)
+
+
+def test_page_without_cells_is_a_layout_error(seed_dir):
+    write_cache(GOOD_URL, "<html></html>")
+    with pytest.raises(data_download.PageLayoutError, match="0 cells"):
+        data_download.fetch_tracks(GOOD_URL)
 
 
 # ---------- download(): hourly cap ----------
@@ -473,6 +546,13 @@ def test_main_exits_on_bad_link_without_touching_disk(monkeypatch, seed_dir):
     with pytest.raises(SystemExit, match="Bad link"):
         run_main(monkeypatch, "https://example.com/?seed=1&event=x")
     assert list(seed_dir.iterdir()) == []
+
+
+def test_main_without_event_uses_the_pages_banner_and_says_so(monkeypatch, seed_dir, fake_web, capsys):
+    run_main(monkeypatch, NO_EVENT_URL)
+    assert (seed_dir / "1234567890" / "2026-09-28_1081" / "tracks.csv").exists()
+    out = capsys.readouterr().out
+    assert "no event" in out and "2026-09-28_1081" in out and "in quotes" in out
 
 
 def test_main_exits_when_page_has_no_cells(monkeypatch, seed_dir):

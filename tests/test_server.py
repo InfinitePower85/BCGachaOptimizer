@@ -131,6 +131,14 @@ def test_tracks_returns_meta_and_csv(fake_web):
     assert len(rows) == 1 + 5
 
 
+def test_tracks_accepts_a_link_without_an_event(fake_web):
+    response = client.get("/tracks", params={"url": "https://bc.godfat.org/?seed=1234567890"})
+    assert response.status_code == 200
+    meta = response.json()["meta"]
+    assert meta["event"] == "2026-09-28_1081"  # the banner the page pre-selected
+    assert meta["source_url"] == "https://bc.godfat.org/?seed=1234567890&event=2026-09-28_1081"
+
+
 def test_tracks_second_call_uses_the_cache(fake_web):
     client.get("/tracks", params={"url": GOOD_URL})
     client.get("/tracks", params={"url": GOOD_URL})

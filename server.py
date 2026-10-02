@@ -23,12 +23,10 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from data_download import (
+    PageLayoutError,
     RateLimitError,
-    build_meta,
     cells_to_csv,
-    download,
-    fetched_at_of,
-    parse_tracks,
+    fetch_tracks,
     validate_url,
 )
 from fetch_gacha_units import ICONS_DIR
@@ -123,27 +121,22 @@ def meow(n: int = Query(ge=1, le=MAX_MEOWS)) -> str:
 
 @app.get("/tracks", dependencies=[rate_limited("tracks")])
 def get_tracks(url: str) -> dict:
-    """Fetch and parse a bc.godfat.org tracks link. Reuses data_download.py's parsing and
-    cache; its shared hourly cap is counted via rate_limit.godfat_fetch_gate, so it
-    survives restarts."""
+    """Fetch and parse a bc.godfat.org tracks link (the event is optional; see
+    data_download.fetch_tracks). Reuses data_download.py's parsing and cache; its shared
+    hourly cap is counted via rate_limit.godfat_fetch_gate, so it survives restarts."""
     try:
-        query = validate_url(url)
+        validate_url(url)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
     try:
-        html = download(url, record_fetch=godfat_fetch_gate)
+        cells, meta = fetch_tracks(url, record_fetch=godfat_fetch_gate)
     except RateLimitError as e:
         raise HTTPException(status_code=429, detail=str(e))
     except requests.RequestException as e:
         raise HTTPException(status_code=502, detail=f"Could not reach bc.godfat.org: {e}")
-
-    cells, event_name = parse_tracks(html)
-    if not cells:
-        raise HTTPException(status_code=502, detail="Parsed 0 cells; the page layout may have changed.")
-
-    event_id = query["event"][0]
-    meta = build_meta(query["seed"][0], event_id, event_name, url, fetched_at_of(url), len(cells))
+    except PageLayoutError as e:
+        raise HTTPException(status_code=502, detail=str(e))
     return {"meta": meta, "csv": cells_to_csv(cells)}
 
 

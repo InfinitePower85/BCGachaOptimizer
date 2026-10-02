@@ -4,9 +4,14 @@ Download the roll tracks for one gacha banner from a BC Godfat link.
 Usage:
     python data_download.py "<godfat link>" [--force]
 
+A link without an event (e.g. https://bc.godfat.org/?seed=1111) is valid: Godfat then
+pre-selects a default banner -- server-side, the same for every visitor, and changing as
+events rotate. The banner actually shown is read back from the page's event dropdown.
+
 BC Godfat is a small fan site, so this is deliberately gentle:
   - only bc.godfat.org links with a seed and event are accepted
-  - raw pages are cached by URL (see below) and reused while fresh (1 day)
+  - raw pages are cached by URL (see below) and reused while fresh (1 day; 10 minutes
+    for a link without an event, since Godfat's default banner changes over time)
   - CAP: at most 100 real requests per rolling hour. Only real requests count;
     cache hits are free, and failed requests still count.
   - --force is a dev tool: it skips BOTH the freshness check and the hourly cap.
@@ -37,6 +42,7 @@ import requests
 SEED_TRACKS_DIR = Path(__file__).parent / "data" / "seed_tracks"  # per-user seed data; gitignored
 TRACKS_CSV_FIELDS = ["position", "roll", "track", "guaranteed", "cat_id", "cat_name", "rarity", "link"]
 CACHE_MAX_AGE = 24 * 60 * 60   # seconds a cached page counts as fresh
+NO_EVENT_CACHE_MAX_AGE = 10 * 60  # same, for a link without an event (matches Godfat's own max-age)
 MAX_FETCHES_PER_HOUR = 100     # cap on real requests (--force bypasses it); the server
                                # applies the same number across all users (rate_limit.py)
 RATE_WINDOW = 60 * 60          # seconds; the rolling window the cap applies to
@@ -66,15 +72,17 @@ def validate_url(url):
     query = parse_qs(parsed.query)
     if "seed" not in query or not query["seed"][0].isdigit():
         raise ValueError("Link has no numeric 'seed' parameter." + QUOTE_HINT)
-    if "event" not in query:
-        raise ValueError("Link has no 'event' parameter (which banner to show)." + QUOTE_HINT)
-    if not SAFE_NAME_RE.fullmatch(query["event"][0]):
+    if "event" in query and not SAFE_NAME_RE.fullmatch(query["event"][0]):
         raise ValueError("The 'event' parameter has unexpected characters.")
     return query
 
 
 class RateLimitError(Exception):
     """Raised when the hourly cap on real requests has been reached."""
+
+
+class PageLayoutError(Exception):
+    """Raised when a fetched page doesn't have the tracks or banner we expect."""
 
 
 def normalize_url(url):
@@ -131,6 +139,7 @@ class TrackParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.cells = []
         self.event_name = None
+        self.event_id = None     # value of the selected event option
         self._cell = None        # cell currently being read
         self._in_cell_link = False
         self._in_selected_option = False
@@ -140,6 +149,7 @@ class TrackParser(HTMLParser):
         attrs = dict(attrs)
         if tag == "option" and "selected" in attrs and self._in_event_select:
             self._in_selected_option = True
+            self.event_id = attrs.get("value")
         elif tag == "select":
             self._in_event_select = attrs.get("id") == "event_select"
         elif tag == "td":
@@ -191,10 +201,13 @@ class TrackParser(HTMLParser):
 
 
 def parse_tracks(html):
+    """(cells, banner display text, selected event id). The id is None if the page has
+    no selected event, or one that isn't safe to use as a folder name."""
     parser = TrackParser()
     parser.feed(html)
     event_name = " ".join((parser.event_name or "").split())
-    return parser.cells, event_name
+    event_id = parser.event_id if parser.event_id and SAFE_NAME_RE.fullmatch(parser.event_id) else None
+    return parser.cells, event_name, event_id
 
 
 def download(url, force=False, record_fetch=check_and_record_fetch):
@@ -203,7 +216,8 @@ def download(url, force=False, record_fetch=check_and_record_fetch):
     records the cap before a real request; server.py swaps in a version whose counter
     survives restarts (rate_limit.godfat_fetch_gate)."""
     raw_path = cache_path(url)
-    if raw_path.exists() and not force and time.time() - raw_path.stat().st_mtime < CACHE_MAX_AGE:
+    max_age = CACHE_MAX_AGE if "event" in parse_qs(urlparse(url).query) else NO_EVENT_CACHE_MAX_AGE
+    if raw_path.exists() and not force and time.time() - raw_path.stat().st_mtime < max_age:
         print("Using cached page; pass --force to re-fetch.")
         return raw_path.read_text(encoding="utf-8")
 
@@ -215,6 +229,40 @@ def download(url, force=False, record_fetch=check_and_record_fetch):
     raw_path.parent.mkdir(parents=True, exist_ok=True)
     raw_path.write_text(resp.text, encoding="utf-8")
     return resp.text
+
+
+def with_event(url, event_id):
+    """url with its event parameter set to event_id (added if missing)."""
+    parsed = urlparse(url)
+    query = parse_qs(parsed.query)
+    query["event"] = [event_id]
+    return parsed._replace(query=urlencode(query, doseq=True)).geturl()
+
+
+def fetch_tracks(url, force=False, record_fetch=check_and_record_fetch):
+    """Download (see download()) and parse a validated tracks link. Returns (cells, meta).
+
+    A link without an event gets the one the page pre-selected (Godfat's current default);
+    meta's source_url is then the explicit link, and the page is also cached under it, so
+    fetching that link next reuses it."""
+    html = download(url, force, record_fetch)
+    cells, event_name, page_event = parse_tracks(html)
+    if not cells:
+        raise PageLayoutError("Parsed 0 cells; the page layout may have changed.")
+    query = parse_qs(urlparse(url).query)
+    url_event = query.get("event", [None])[0]
+    event_id = url_event or page_event
+    if not event_id:
+        raise PageLayoutError("Couldn't tell which banner the page shows; the page layout may have changed.")
+
+    source_url = url if url_event else with_event(url, event_id)
+    if not url_event:
+        explicit = cache_path(source_url)
+        explicit.parent.mkdir(parents=True, exist_ok=True)
+        explicit.write_text(html, encoding="utf-8")
+
+    meta = build_meta(query["seed"][0], event_id, event_name, source_url, fetched_at_of(url), len(cells))
+    return cells, meta
 
 
 def cells_to_csv(cells):
@@ -245,7 +293,7 @@ def fetched_at_of(url):
 def main():
     sys.stdout.reconfigure(errors="replace")  # banner names contain symbols the Windows console can't print
     ap = argparse.ArgumentParser(description="Download a gacha banner's tracks from BC Godfat.")
-    ap.add_argument("url", help="a bc.godfat.org link containing seed and event")
+    ap.add_argument("url", help="a bc.godfat.org link containing a seed (and usually an event)")
     ap.add_argument("--force", action="store_true", help="dev tool: re-fetch even if cached, and ignore the hourly cap")
     args = ap.parse_args()
 
@@ -254,24 +302,20 @@ def main():
     except ValueError as e:
         sys.exit(f"Bad link: {e}")
 
-    event_id = query["event"][0]
     try:
-        html = download(args.url, args.force)
-    except RateLimitError as e:
+        cells, meta = fetch_tracks(args.url, args.force)
+    except (RateLimitError, PageLayoutError) as e:
         sys.exit(str(e))
 
-    cells, event_name = parse_tracks(html)
-    if not cells:
-        sys.exit("Parsed 0 cells; the page layout may have changed.")
-
-    out_dir = SEED_TRACKS_DIR / query["seed"][0] / event_id
+    out_dir = SEED_TRACKS_DIR / meta["seed"] / meta["event"]
     out_dir.mkdir(parents=True, exist_ok=True)
     with open(out_dir / "tracks.csv", "w", newline="", encoding="utf-8") as f:
         f.write(cells_to_csv(cells))
 
-    meta = build_meta(query["seed"][0], event_id, event_name, args.url, fetched_at_of(args.url), len(cells))
     (out_dir / "meta.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
-    print(f"Banner: {event_name}")
+    if "event" not in query:
+        print(f"Link has no event, so this is Godfat's current default banner ({meta['event']})." + QUOTE_HINT)
+    print(f"Banner: {meta['banner']}")
     print(f"Wrote {len(cells)} cells to {out_dir}")
 
 
