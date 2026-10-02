@@ -193,8 +193,8 @@ class OptimizeRequest(BaseModel):
 @app.post("/optimize", dependencies=[rate_limited("optimize"), Depends(optimize_slot)])
 def optimize(req: OptimizeRequest) -> dict:
     """Run the route optimizer against a tracks CSV the client sends us -- nothing is
-    looked up or stored server-side. See route_optimizer.py and the CSV-vs-URL
-    discussion in service_plan.md for why the client sends the data itself."""
+    looked up or stored server-side: user data lives only in the browser (see readme.md's
+    design decisions), so the client sends it. See route_optimizer.py for the search."""
     try:
         pool = parse_pool(req.csv)
     except (csv.Error, KeyError, ValueError) as e:
