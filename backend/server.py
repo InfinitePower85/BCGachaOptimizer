@@ -2,11 +2,11 @@
 Minimal web server for the Battle Cats route planner.
 
 Run locally:
-    uvicorn server:app --reload
+    uvicorn server:app --app-dir backend --reload
 then open http://127.0.0.1:8000/  (interactive docs at /docs)
 
 On Render, the Start Command is:
-    uvicorn server:app --host 0.0.0.0 --port $PORT
+    uvicorn server:app --app-dir backend --host 0.0.0.0 --port $PORT
 and REDIS_URL should be set to the Key Value instance's internal URL (see rate_limit.py).
 Don't add --proxy-headers / --forwarded-allow-ips: rate_limit.ClientIPMiddleware handles
 X-Forwarded-For instead (uvicorn's "*" trusts the client-controlled leftmost entry).

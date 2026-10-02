@@ -8,7 +8,7 @@ A companion tool to [BC Godfat's Battle Cats seed tracker](https://bc.godfat.org
 
 ## Commands
 
-Run from the repo root (`pytest.ini` sets `pythonpath = .`):
+Run from the repo root (`pytest.ini` sets `pythonpath = backend`):
 
 ```
 pytest                                    # full suite
@@ -20,17 +20,19 @@ No lint or build step is configured for either the Python side or `docs/`.
 
 Local dev (two terminals, from repo root):
 ```
-uvicorn server:app --reload               # backend, http://127.0.0.1:8000
+uvicorn server:app --app-dir backend --reload   # backend, http://127.0.0.1:8000
 python -m http.server 8080 --directory docs   # frontend, http://localhost:8080 (must differ from 8000)
 ```
 
 CLI tools (see each file's docstring for full usage):
 ```
-python data_download.py "<bc.godfat.org link>" [--force]      # fetch/cache one seed's rolled tracks
-python fetch_gacha_units.py <url> [<url2> ...] <event_name>    # scrape a wiki gacha page's unit roster + icons
+python backend/data_download.py "<bc.godfat.org link>" [--force]      # fetch/cache one seed's rolled tracks
+python backend/fetch_gacha_units.py <url> [<url2> ...] <event_name>    # scrape a wiki gacha page's unit roster + icons
 ```
 
 ## Architecture
+
+All Python modules live in `backend/` as flat, top-level modules that import each other by bare name (`from data_download import ...`), which works because `--app-dir backend`, `pytest.ini`'s `pythonpath` and running a CLI as `python backend/x.py` each put `backend/` on `sys.path`. `data/` stays at the repo root; `backend/paths.py`'s `DATA_DIR` is the one place that locates it (`tests/test_paths.py` checks the real folders resolve).
 
 Three independent pipelines meet in `server.py`:
 

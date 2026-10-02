@@ -10,11 +10,10 @@ route_optimizer.py for the seed-tracks side the frontend's optimizer runs agains
 
 import csv
 import re
-from pathlib import Path
-
 from fetch_gacha_units import ICONS_DIR, sanitize_name
+from paths import DATA_DIR
 
-GACHA_POOLS_DIR = Path(__file__).parent / "data" / "gacha_pools"
+GACHA_POOLS_DIR = DATA_DIR / "gacha_pools"
 
 # Event folder names are user-supplied (see fetch_gacha_units.py's sanitize_name) and
 # end up as part of a filesystem path here, so they're checked against an allowlist

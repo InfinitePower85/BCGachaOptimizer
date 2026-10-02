@@ -3,10 +3,10 @@ Fetch the event (collab) units listed on a Battle Cats wiki gacha drop page and 
 them as CSV.
 
 Usage:
-    python fetch_gacha_units.py <url> [<url2> ...] <event_name>
+    python backend/fetch_gacha_units.py <url> [<url2> ...] <event_name>
 
 Example:
-    python fetch_gacha_units.py "https://battlecats.miraheze.org/wiki/..." "Fate Stay Night"
+    python backend/fetch_gacha_units.py "https://battlecats.miraheze.org/wiki/..." "Fate Stay Night"
 
 Pages like https://battlecats.miraheze.org/wiki/.../Gacha_Drop list units under an
 "Event" section, one rarity-tier table at a time. Within a tier, the collab/event units
@@ -40,8 +40,10 @@ from urllib.parse import urlparse
 
 import requests
 
-GACHA_POOLS_DIR = Path(__file__).parent / "data" / "gacha_pools"
-ICONS_DIR = Path(__file__).parent / "data" / "icons" / "unit_icons"
+from paths import DATA_DIR
+
+GACHA_POOLS_DIR = DATA_DIR / "gacha_pools"
+ICONS_DIR = DATA_DIR / "icons" / "unit_icons"
 UNIT_CSV_FIELDS = ["rarity", "name", "description", "cat_id"]
 USER_AGENT = "fetch_gacha_units.py - one-off Battle Cats wiki gacha page fetcher"
 

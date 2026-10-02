@@ -18,9 +18,10 @@ roster, and in turn what data_download.py's cat_name always is.
 """
 
 import json
-from pathlib import Path
 
-UNIT_DATA_DIR = Path(__file__).parent / "data" / "unit_data"
+from paths import DATA_DIR
+
+UNIT_DATA_DIR = DATA_DIR / "unit_data"
 UNITS_DIR = UNIT_DATA_DIR / "units"
 
 

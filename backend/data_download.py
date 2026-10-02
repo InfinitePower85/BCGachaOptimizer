@@ -2,7 +2,7 @@
 Download the roll tracks for one gacha banner from a BC Godfat link.
 
 Usage:
-    python data_download.py "<godfat link>" [--force]
+    python backend/data_download.py "<godfat link>" [--force]
 
 A link without an event (e.g. https://bc.godfat.org/?seed=1111) is valid: Godfat then
 pre-selects a default banner -- server-side, the same for every visitor, and changing as
@@ -34,12 +34,13 @@ import re
 import sys
 import time
 from html.parser import HTMLParser
-from pathlib import Path
 from urllib.parse import parse_qs, urlencode, urlparse
 
 import requests
 
-SEED_TRACKS_DIR = Path(__file__).parent / "data" / "seed_tracks"  # per-user seed data; gitignored
+from paths import DATA_DIR
+
+SEED_TRACKS_DIR = DATA_DIR / "seed_tracks"  # per-user seed data; gitignored
 TRACKS_CSV_FIELDS = ["position", "roll", "track", "guaranteed", "cat_id", "cat_name", "rarity", "link"]
 CACHE_MAX_AGE = 24 * 60 * 60   # seconds a cached page counts as fresh
 NO_EVENT_CACHE_MAX_AGE = 10 * 60  # same, for a link without an event (matches Godfat's own max-age)
