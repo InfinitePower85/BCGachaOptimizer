@@ -3,137 +3,155 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BC Route Planner (demo)</title>
+  <title>BC Route Planner</title>
+  <link rel="preload" href="fonts/mplus-rounded-1c-800-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>BC Route Planner</h1>
-    <p class="sub">Companion to BC Godfat's seed tracker.</p>
-  </header>
+  <div class="page">
+    <header class="site-header">
+      <div class="logo-badge"><img src="img/lil-cat.webp" alt=""></div>
+      <div class="site-title">
+        <h1>BC Route Planner</h1>
+        <p class="tagline">Companion to BC Godfat's seed tracker</p>
+      </div>
+    </header>
 
-  <main>
-    <section class="card">
-      <h2>1. Datasets</h2>
-      <p class="hint">Fetch tracks from a bc.godfat.org link with your seed (a link without an event gets the banner
-        Godfat shows by default), or import a
-        previously exported file. Datasets are stored in this browser only (IndexedDB) -- export them as a
-        backup, or to move them to another device.</p>
-      <div class="row">
-        <input id="godfat-url" type="url" placeholder="https://bc.godfat.org/?seed=...&amp;event=...">
-        <button id="fetch-btn">Fetch tracks</button>
-      </div>
-      <p id="data-status" class="status" role="status"></p>
-      <p id="data-banner" class="hint banner"></p>
-      <h3 class="datasets-heading">Saved datasets</h3>
-      <ul id="dataset-list" class="datasets"></ul>
-      <div class="row">
-        <label class="file-btn secondary">
-          Import
-          <input id="import-file" type="file" accept=".json,.csv" hidden>
-        </label>
-        <button id="export-btn" class="secondary">Export all</button>
-      </div>
-    </section>
+    <main>
+      <section class="card">
+        <h2>Datasets</h2>
+        <div class="row">
+          <label for="godfat-url" class="visually-hidden">bc.godfat.org link</label>
+          <input id="godfat-url" class="grow" type="url" placeholder="https://bc.godfat.org/?seed=...&amp;event=...">
+          <button id="fetch-btn" type="button">Fetch tracks</button>
+          <label class="file-btn secondary">
+            Import
+            <input id="import-file" type="file" accept=".json,.csv" hidden>
+          </label>
+          <button id="export-btn" type="button" class="secondary">Export all</button>
+        </div>
+        <p id="data-status" class="status" role="status"></p>
+        <p class="hint">Fetch from a bc.godfat.org link with your seed (a link without an event gets the banner
+          Godfat shows by default), or import a previously exported file. Datasets are stored in this browser
+          only (IndexedDB) -- export them as a backup, or to move them to another device.
+          Pick one to use: the roll viewer and the optimizer both work from it.</p>
+        <ul id="dataset-list" class="datasets" role="radiogroup" aria-label="Active dataset"></ul>
+        <div class="event-row">
+          <label for="event-select">Event</label>
+          <select id="event-select"></select>
+          <span class="hint">Whose units the roll viewer shows as icons, Collected shows as cards, and the optimizer
+            offers as targets. Guessed from the dataset's banner when possible.</span>
+        </div>
+        <p id="event-status" class="status" role="status"></p>
+      </section>
 
-    <section class="card">
-      <h2>2. Roll viewer</h2>
-      <p class="hint">One row per roll number, A/B tracks side by side. Colors follow BC Godfat's rarity scheme.</p>
-      <div class="row">
-        <label class="inline">Dataset
-          <select id="viewer-dataset"></select>
-        </label>
-        <button id="viewer-btn">View</button>
-      </div>
-      <p id="viewer-banner" class="hint banner"></p>
-      <p id="viewer-status" class="status" role="status"></p>
-      <p class="hint">Simulate rolling, fully offline (nothing here is sent to the server). The
-        highlighted cell is your current position.</p>
-      <div class="sim-layout">
-        <div id="viewer-table" class="roll-viewer"></div>
-        <div class="sim-sidebar">
-          <div class="sim-controls">
-            <button id="sim-single-btn" disabled>1 Draw</button>
-            <button id="sim-eleven-btn" disabled>11 Draw</button>
-            <button id="sim-undo-btn" class="secondary" disabled>Undo</button>
+      <section class="card">
+        <div class="card-head">
+          <h2>Roll viewer</h2>
+          <span class="using" id="viewer-using"></span>
+          <div class="rarity-key" aria-label="Color key">
+            <span class="key"><i class="k-rare"></i>Rare</span>
+            <span class="key"><i class="k-supa"></i>Super Rare</span>
+            <span class="key"><i class="k-supa_fest"></i>Super Rare (fest slot)</span>
+            <span class="key"><i class="k-uber"></i>Uber</span>
+            <span class="key"><i class="k-uber_fest"></i>Uber (fest slot)</span>
+            <span class="key"><i class="k-legend"></i>Legend</span>
+            <span class="key"><i class="k-legend_fest"></i>Legend (fest slot)</span>
+            <span class="key"><i class="k-guaranteed"></i>Guaranteed</span>
           </div>
-          <p id="sim-mismatch-banner" class="sim-mismatch-banner"></p>
+        </div>
+        <p class="hint">Simulate rolling, fully offline (nothing here is sent to the server). The lil cat marks
+          your current position.</p>
+        <div class="sim-layout">
+          <div id="viewer-table" class="roll-viewer"></div>
+          <aside class="sim-sidebar">
+            <div class="pos-box">
+              <div class="pos-badge"><span>ROLL</span><strong id="sim-pos-label">--</strong></div>
+              <div class="pos-lines">
+                <span id="sim-next-single" class="pos-main"></span>
+                <span id="sim-next-eleven" class="pos-sub"></span>
+                <span id="sim-guide-line" class="pos-guide"></span>
+              </div>
+            </div>
+            <div class="sim-controls">
+              <button id="sim-single-btn" type="button" class="big" disabled>1x Draw</button>
+              <button id="sim-eleven-btn" type="button" class="big" disabled>11x Draw</button>
+              <button id="sim-undo-btn" type="button" class="secondary" disabled>Undo</button>
+              <button id="sim-reset-btn" type="button" class="secondary" disabled>Reset</button>
+            </div>
+            <p id="sim-mismatch-banner" class="sim-mismatch-banner" role="status"></p>
+            <p id="sim-status" class="status" role="status"></p>
+            <div class="sim-columns">
+              <div class="sim-col">
+                <div class="col-head">
+                  <h3>Collected <span class="count" id="sim-collected-count"></span></h3>
+                  <label class="toggle"><input type="checkbox" id="sim-collab-only">Collab units only</label>
+                </div>
+                <div id="sim-collected" class="collected scroll"></div>
+              </div>
+              <div class="sim-col">
+                <div class="col-head">
+                  <h3 id="sim-moves-heading">Moves used</h3>
+                  <div class="col-head-btns">
+                    <button id="sim-set-guide-btn" type="button" class="secondary small" disabled>Use as guide</button>
+                    <button id="sim-clear-guide-btn" type="button" class="secondary small" hidden>Clear guide</button>
+                  </div>
+                </div>
+                <ol id="sim-moves" class="moves scroll"></ol>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2>Optimize</h2>
+          <span class="using" id="opt-using"></span>
+        </div>
+        <p class="hint">Find the route that collects the most target units within a roll limit.</p>
+        <div class="grid">
+          <label><span class="field-label">Roll limit</span>
+            <input id="opt-limit" type="number" min="1" max="200" value="60">
+          </label>
+          <label><span class="field-label">Max 11x Draws <span class="hint-inline">(optional)</span></span>
+            <input id="opt-max-elevens" type="number" min="0" step="1" placeholder="unlimited">
+          </label>
+        </div>
+        <div class="targets-bar">
+          <h3>Targets</h3>
+          <span id="opt-target-count" class="muted"></span>
+          <button id="opt-select-all" type="button" class="secondary small">Select all</button>
+          <button id="opt-deselect-all" type="button" class="secondary small">Deselect all</button>
+        </div>
+        <div id="opt-targets" class="target-groups"></div>
+        <div class="row">
+          <button id="opt-btn" type="button" class="big">Run optimizer</button>
+        </div>
+        <p id="opt-status" class="status" role="status"></p>
+        <div id="opt-results" class="opt-results" hidden>
           <div class="sim-columns">
-            <div class="sim-col-status">
-              <p id="sim-position" class="sim-position"></p>
-              <p id="sim-last-collected" class="sim-guidance-line"></p>
-              <p id="sim-next-move" class="sim-guidance-line"></p>
-              <p id="sim-status" class="status" role="status"></p>
-              <div class="sim-collected-header">
-                <h3>Collected</h3>
-                <label class="sim-collab-toggle">
-                  <input type="checkbox" id="sim-collab-only">
-                  Collab units only
-                </label>
+            <div class="sim-col">
+              <div class="col-head">
+                <h3>Collected <span class="count" id="opt-collected-count"></span></h3>
+                <label class="toggle"><input type="checkbox" id="opt-collab-only">Collab units only</label>
               </div>
-              <div id="sim-collected" class="sim-collected"></div>
+              <div id="opt-collected" class="collected scroll"></div>
             </div>
-            <div class="sim-col-moves">
-              <div class="row sim-guide-controls">
-                <button id="sim-set-guide-btn" class="secondary" disabled>Use current moves as guide</button>
-                <button id="sim-clear-guide-btn" class="secondary" hidden>Clear guide</button>
+            <div class="sim-col">
+              <div class="col-head">
+                <h3>Route</h3>
+                <button id="opt-set-guide-btn" type="button" class="secondary small" disabled>Use as guide in the roll viewer</button>
               </div>
-              <h3 id="sim-moves-heading">Moves used</h3>
-              <ol id="sim-moves" class="result"></ol>
+              <ol id="opt-result" class="route scroll"></ol>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
-    <section class="card">
-      <h2>3. Optimize</h2>
-      <p class="hint">Find the route that collects the most target units within a roll limit.</p>
-      <div class="grid">
-        <label><span class="field-label">Dataset</span>
-          <select id="opt-dataset"></select>
-        </label>
-        <label><span class="field-label">Roll limit</span>
-          <input id="opt-limit" type="number" min="1" max="200" value="60">
-        </label>
-        <label><span class="field-label">Event</span>
-          <select id="opt-event"></select>
-        </label>
-        <label><span class="field-label">Max 11-draws <span class="hint-inline">(optional)</span></span>
-          <input id="opt-max-elevens" type="number" min="0" step="1" placeholder="unlimited">
-        </label>
-      </div>
-      <p id="opt-dataset-banner" class="hint banner"></p>
-      <p id="opt-event-status" class="status" role="status"></p>
-      <div id="opt-targets" class="target-groups"></div>
-      <div class="row">
-        <button id="opt-btn">Run optimizer</button>
-      </div>
-      <p id="opt-status" class="status" role="status"></p>
-      <div class="sim-columns">
-        <div class="sim-col-status">
-          <div class="sim-collected-header">
-            <h3>Collected</h3>
-            <label class="sim-collab-toggle">
-              <input type="checkbox" id="opt-collab-only">
-              Collab units only
-            </label>
-          </div>
-          <div id="opt-collected" class="sim-collected"></div>
-        </div>
-        <div class="sim-col-moves">
-          <div class="row sim-guide-controls">
-            <button id="opt-set-guide-btn" class="secondary" disabled>Set guided moveset</button>
-          </div>
-          <h3>Route</h3>
-          <ol id="opt-result" class="result"></ol>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer>Not affiliated with BC Godfat or PONOS.</footer>
+    <footer>Not affiliated with BC Godfat or PONOS.</footer>
+  </div>
   <script src="app.js"></script>
 </body>
 </html>
