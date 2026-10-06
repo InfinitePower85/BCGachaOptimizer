@@ -66,9 +66,12 @@ const store = {
 // Which saved dataset is in use is a per-browser convenience, so plain localStorage is
 // enough -- and it may be unavailable (private windows, blocked storage), hence the guards.
 const ACTIVE_KEY = "bc-route-planner.active-dataset";
+const ROLL_WINDOW_KEY = "bc-route-planner.roll-window";
 const prefs = {
   getActive() { try { return localStorage.getItem(ACTIVE_KEY); } catch { return null; } },
   setActive(id) { try { id ? localStorage.setItem(ACTIVE_KEY, id) : localStorage.removeItem(ACTIVE_KEY); } catch { /* ignore */ } },
+  getRollWindow() { try { return localStorage.getItem(ROLL_WINDOW_KEY) === "1"; } catch { return false; } },
+  setRollWindow(on) { try { localStorage.setItem(ROLL_WINDOW_KEY, on ? "1" : "0"); } catch { /* ignore */ } },
 };
 
 // ---- Helpers ----------------------------------------------------------------
@@ -294,6 +297,7 @@ function renderRollViewer(csvText) {
   container.replaceChildren();
   cellEls = new Map();
   stoneEls = new Map();
+  rowEls = new Map();
   if (!cells.length) { container.append(make("p", "empty", "No rows to show.")); return; }
 
   const lanes = make("div", "lanes");
@@ -304,21 +308,71 @@ function renderRollViewer(csvText) {
     make("div", "lane-head b", "Track B"),
     make("div", "lane-head g", "B · guaranteed"),
   );
+  windowNotes.before = make("p", "window-note");
+  lanes.append(windowNotes.before);
   for (const [roll, tracks] of pivotByRoll(cells)) {
     const spine = make("div", "spine");
     const stone = make("span", "stone", String(roll));
     spine.append(stone);
     stoneEls.set(roll, stone);
-    lanes.append(
+    const row = [
       laneCell(tracks.A?.guaranteed, "A", roll, "guaranteed"),
       laneCell(tracks.A?.normal, "A", roll, "normal"),
       spine,
       laneCell(tracks.B?.normal, "B", roll, "normal"),
       laneCell(tracks.B?.guaranteed, "B", roll, "guaranteed"),
-    );
+    ];
+    rowEls.set(roll, row);
+    lanes.append(...row);
   }
+  windowNotes.after = make("p", "window-note");
+  lanes.append(windowNotes.after);
   container.append(lanes);
 }
+
+// ---- Roll window ----------------------------------------------------------------
+// Optionally show only ROLL_WINDOW_SIZE rolls that follow the cat, so the whole roll
+// viewer fits on one screen and is easy to scroll past. It's purely a display filter:
+// the simulator and everything else still see the full dataset.
+const ROLL_WINDOW_SIZE = 20;
+const ROLL_WINDOW_LOOKBACK = 2; // rolls kept above the cat, so the last pull or two stays in view
+
+let rowEls = new Map(); // roll -> that row's 5 cells, rebuilt by renderRollViewer
+const windowNotes = { before: null, after: null };
+
+/** Hide every row outside the window around `anchorRoll` (or show them all when the
+ * option is off), with a note above/below saying which rolls are hidden. */
+function applyRollWindow(anchorRoll) {
+  const rolls = [...rowEls.keys()];
+  const on = $("roll-window").checked && rolls.length > ROLL_WINDOW_SIZE;
+  let start = -Infinity;
+  let end = Infinity;
+  if (on) {
+    const first = rolls[0];
+    const last = rolls[rolls.length - 1];
+    start = Math.max(first, anchorRoll - ROLL_WINDOW_LOOKBACK);
+    end = start + ROLL_WINDOW_SIZE - 1;
+    if (end > last) { end = last; start = Math.max(first, end - ROLL_WINDOW_SIZE + 1); }
+    windowNotes.before.textContent = start > first ? `▲ Rolls ${first}–${start - 1} hidden` : "";
+    windowNotes.after.textContent = end < last ? `▼ Rolls ${end + 1}–${last} hidden` : "";
+  }
+  for (const [roll, row] of rowEls) {
+    const hidden = roll < start || roll > end;
+    for (const el of row) el.classList.toggle("out-of-window", hidden);
+  }
+  // Tighter rows while windowed, so the 20 rolls fit a typical laptop screen.
+  windowNotes.before?.parentElement.classList.toggle("compact", on);
+  if (!on && windowNotes.before) {
+    windowNotes.before.textContent = "";
+    windowNotes.after.textContent = "";
+  }
+}
+
+$("roll-window").checked = prefs.getRollWindow();
+$("roll-window").addEventListener("change", (ev) => {
+  prefs.setRollWindow(ev.target.checked);
+  paintTrack();
+});
 
 /** Re-add unit icons after the event roster changes, without rebuilding the table. */
 function refreshCellIcons() {
@@ -551,6 +605,10 @@ function paintTrack() {
     if (roll === markerRoll) stone.classList.add("now");
     else if (roll < markerRoll) stone.classList.add("past");
   }
+  // Anchored on the position the move started from (sim.roll doesn't change until an
+  // 11x Draw finishes), so the window holds still while the cat walks its block -- the
+  // block and the guaranteed pick's landing spot both fit inside it.
+  applyRollWindow(sim.roll);
 
   const host = cellEls.get(markerKey);
   if (host) {
@@ -918,6 +976,7 @@ function showDataset(rec) {
     guidance = null;
     cellEls = new Map();
     stoneEls = new Map();
+    rowEls = new Map();
     $("viewer-table").replaceChildren(make("p", "empty", "Fetch or import a dataset to see its rolls."));
     renderSim();
     return;
