@@ -334,7 +334,7 @@ function renderRollViewer(csvText) {
 // Optionally show only ROLL_WINDOW_SIZE rolls that follow the cat, so the whole roll
 // viewer fits on one screen and is easy to scroll past. It's purely a display filter:
 // the simulator and everything else still see the full dataset.
-const ROLL_WINDOW_SIZE = 20;
+const ROLL_WINDOW_SIZE = 15;
 const ROLL_WINDOW_LOOKBACK = 2; // rolls kept above the cat, so the last pull or two stays in view
 
 let rowEls = new Map(); // roll -> that row's 5 cells, rebuilt by renderRollViewer
