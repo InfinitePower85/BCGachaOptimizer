@@ -32,6 +32,7 @@ async function apiCall(path, { method = "GET", params, body, onSlow } = {}) {
   }
 }
 const apiGet = (path, params, onSlow) => apiCall(path, { params, onSlow });
+const iconUrl = (icon) => `${API_BASE}/icons/${encodeURIComponent(icon)}`;
 
 // ---- IndexedDB store --------------------------------------------------------
 const DB_NAME = "bc-route-planner";
@@ -62,23 +63,29 @@ const store = {
   remove: (id) => tx("readwrite", (s) => s.delete(id)),
 };
 
+// Which saved dataset is in use is a per-browser convenience, so plain localStorage is
+// enough -- and it may be unavailable (private windows, blocked storage), hence the guards.
+const ACTIVE_KEY = "bc-route-planner.active-dataset";
+const prefs = {
+  getActive() { try { return localStorage.getItem(ACTIVE_KEY); } catch { return null; } },
+  setActive(id) { try { id ? localStorage.setItem(ACTIVE_KEY, id) : localStorage.removeItem(ACTIVE_KEY); } catch { /* ignore */ } },
+};
+
 // ---- Helpers ----------------------------------------------------------------
 const $ = (id) => document.getElementById(id);
+
+/** createElement + className + textContent in one call. */
+function make(tag, className = "", text = "") {
+  const el = document.createElement(tag);
+  if (className) el.className = className;
+  if (text) el.textContent = text;
+  return el;
+}
 
 function say(id, msg, kind = "") {
   const el = $(id);
   el.textContent = msg;
   el.className = "status " + kind;
-}
-
-/** Show a dataset's banner name in a reserved <p id="...">, or clear it if there isn't one. */
-function showBanner(id, banner) {
-  $(id).textContent = banner ? `Banner: ${banner}` : "";
-}
-
-/** Look up a saved dataset record by id (the value of a #*-dataset <select>). */
-async function findDataset(id) {
-  return id ? (await store.all()).find((r) => r.id === id) : undefined;
 }
 
 function countRows(csv) {
@@ -124,13 +131,47 @@ function parseCsv(text) {
   return rows.slice(1).map((r) => Object.fromEntries(header.map((h, i) => [h, r[i] ?? ""])));
 }
 
+// ---- Event roster -------------------------------------------------------------
+// The selected event's collab units (data/gacha_pools/<event>, see fetch_gacha_units.py),
+// grouped server-side by rarity. Shared by the optimizer's target picker, both "Collected"
+// panels' banner cards, and the roll viewer's unit icons.
+let eventRoster = [];           // [{rarity, units: [{name, icon, description}]}]
+let rosterByName = new Map();   // name -> {rarity, icon}
+
+function setEventRoster(rarities) {
+  eventRoster = rarities;
+  rosterByName = new Map();
+  for (const group of rarities) {
+    for (const unit of group.units) rosterByName.set(unit.name, { rarity: group.rarity, icon: unit.icon });
+  }
+}
+
+// A rarity name (either vocabulary: the wiki roster's "Legend Rare" or unit_rarity.py's
+// "Legendary Rare") -> the .rar-* color set used by banner cards, target tiles and dots.
+const RARITY_COLOR_CLASS = {
+  "Legend Rare": "rar-legend", "Legendary Rare": "rar-legend",
+  "Uber Super Rare": "rar-uber", "Super Rare": "rar-super", Rare: "rar-rare",
+};
+
+function unitIcon(name, className) {
+  const icon = rosterByName.get(name)?.icon;
+  if (!icon) return null;
+  const img = make("img", className);
+  img.src = iconUrl(icon);
+  img.alt = "";          // decorative: the unit's name is always shown next to it
+  img.loading = "lazy";
+  img.onerror = () => img.remove();
+  return img;
+}
+
 // ---- Roll viewer --------------------------------------------------------------
-// Mirrors bc.godfat.org's tracks table: one row per roll number, a column per
-// track (A/B) x (normal/guaranteed) pick, cells colored by rarity.
+// bc.godfat.org's tracks, laid out as two lanes mirrored around a path of roll numbers:
+// [A guaranteed | A] (roll) [B | B guaranteed]. Each cell is colored by its pull-slot
+// rarity class.
 const RARITY_LABEL = {
-  rare: "Rare", supa: "Super Rare", supa_fest: "Super Rare (fest)",
-  uber: "Uber Rare", uber_fest: "Uber Rare (fest)",
-  legend: "Legend Rare", legend_fest: "Legend Rare (fest)",
+  rare: "Rare", supa: "Super Rare", supa_fest: "Super Rare (fest slot)",
+  uber: "Uber Rare", uber_fest: "Uber Rare (fest slot)",
+  legend: "Legend Rare", legend_fest: "Legend Rare (fest slot)",
 };
 
 function pivotByRoll(cells) {
@@ -158,7 +199,7 @@ const LEGEND_APPROACH_WINDOW = 12;
 
 /** Every Legend Rare pull slot in pool (either track, normal or guaranteed cell), as
  * [{roll, track, kind, name, natural}], sorted by roll -- the same per-cell class
- * LEGEND_RARITIES/.legend-pick already use, not a unit's true rarity from unit_rarity.py.
+ * LEGEND_RARITIES/.r-legend already use, not a unit's true rarity from unit_rarity.py.
  * natural: a plain "legend" slot is a Legend Rare on any banner; a "legend_fest" slot only
  * becomes one while a "Double Legend chance" gacha is running. */
 function legendRareSlots(pool) {
@@ -178,18 +219,15 @@ function legendRareSlots(pool) {
 const legendRaresInReach = (roll, legendSlots) =>
   legendSlots.filter((slot) => slot.roll - roll >= 0 && slot.roll - roll <= LEGEND_APPROACH_WINDOW);
 
-/** Inline markers (not another highlight box -- see the discussion this followed) for a
- * move/step within LEGEND_APPROACH_WINDOW rolls of Legend Rare slots: one line per slot,
- * naming it and its position, appended alongside whatever other status coloring a <li>
- * already has. Returns null when `slots` is empty. A natural Legend Rare is darker purple,
- * a Double-Legend-only one lighter purple, matching their text in the roll table. */
+/** Inline markers for a move/step within LEGEND_APPROACH_WINDOW rolls of Legend Rare
+ * slots: one line per slot, naming it and its position, appended alongside whatever other
+ * status coloring a <li> already has. Returns null when `slots` is empty. A natural Legend
+ * Rare is darker purple, a Double-Legend-only one lighter purple, matching the roll table. */
 function legendWarnings(slots) {
   if (!slots.length) return null;
-  const wrap = document.createElement("span");
-  wrap.className = "legend-near-warnings";
+  const wrap = make("span", "legend-near-warnings");
   for (const slot of slots) {
-    const span = document.createElement("span");
-    span.className = "legend-near-warning" + (slot.natural ? "" : " legend-fest");
+    const span = make("span", "legend-near-warning" + (slot.natural ? "" : " legend-fest"));
     const where = `${slot.roll}${slot.track}` + (slot.kind === "guaranteed" ? " (guaranteed)" : "");
     span.textContent = slot.natural
       ? `⚠ Legend Rare in reach: ${slot.name} @ ${where}`
@@ -205,72 +243,103 @@ function legendWarnings(slots) {
   return wrap;
 }
 
-function cellNode(cell, track, roll, kind) {
-  const td = document.createElement("td");
-  td.dataset.track = track;
-  td.dataset.roll = roll;
-  td.dataset.kind = kind;
-  if (!cell || !cell.cat_name) { td.className = "roll-empty"; return td; }
+const PAW_SVG = '<svg class="paw" width="15" height="15" viewBox="0 0 16 16" aria-hidden="true">'
+  + '<circle cx="8" cy="10.5" r="3.6" fill="currentColor"/><circle cx="3.2" cy="6" r="1.7" fill="currentColor"/>'
+  + '<circle cx="6.2" cy="3.4" r="1.7" fill="currentColor"/><circle cx="9.8" cy="3.4" r="1.7" fill="currentColor"/>'
+  + '<circle cx="12.8" cy="6" r="1.7" fill="currentColor"/></svg>';
+
+// The rendered table, indexed for paintTrack(): "<track><roll><kind>" -> cell element,
+// roll -> the roll number's stone. Rebuilt by renderRollViewer.
+let cellEls = new Map();
+let stoneEls = new Map();
+const cellKey = (track, roll, kind) => `${track}${roll}${kind}`;
+
+// The lil cat (current position) and its faded twin (where the guide's next move lands):
+// one <img> each, moved into whichever cell they belong to.
+const markerImg = Object.assign(make("img", "marker"), { src: "img/lil-cat.webp", alt: "You are here" });
+const ghostImg = Object.assign(make("img", "ghost"), { src: "img/lil-cat.webp", alt: "Where the guide's next move lands" });
+
+/** bc.godfat's link text ("-> 11B", "<- 12A") with real arrows. */
+const prettyLink = (link) => link.replace("->", "→").replace("<-", "←");
+
+function laneCell(cell, track, roll, kind) {
+  const guaranteed = kind === "guaranteed";
+  const el = make("div", `${guaranteed ? "tk" : "tile"} lane-${track.toLowerCase()}`);
+  if (!cell || !cell.cat_name) { el.classList.add("empty"); return el; }
   // A cell (normal or guaranteed) can be a Legend Rare, not just an Uber -- bc.godfat
   // predicts what you'd actually get at that position, and that's not limited to the
-  // guaranteed-11 slot. Flag those in purple so a legend doesn't get missed for an uber
-  // pulled some other way.
-  if (LEGEND_RARITIES.has(cell.rarity)) td.classList.add("legend-pick");
-  if (cell.rarity === "legend") td.classList.add("legend-natural"); // darker purple than legend_fest
-  const name = document.createElement("span");
-  name.className = "rarity-" + (cell.rarity || "none");
-  name.textContent = cell.cat_name;
-  name.title = RARITY_LABEL[cell.rarity] || cell.rarity || "";
-  td.append(name);
-  if (cell.link) {
-    const link = document.createElement("span");
-    link.className = "roll-link";
-    link.textContent = " " + cell.link;
-    td.append(link);
+  // guaranteed-11 slot. Guaranteed cells otherwise keep their own ticket look.
+  if (!guaranteed || LEGEND_RARITIES.has(cell.rarity)) el.classList.add("r-" + (cell.rarity || "none"));
+  el.title = guaranteed
+    ? `${cell.cat_name}: guaranteed pick of an 11x Draw from ${roll}${track}` + (LEGEND_RARITIES.has(cell.rarity) ? ` (${RARITY_LABEL[cell.rarity]})` : "")
+    : RARITY_LABEL[cell.rarity] || cell.rarity || "";
+  el.dataset.name = cell.cat_name;
+  if (!guaranteed) el.append(make("span", "bar"));
+  const icon = unitIcon(cell.cat_name, "uicon");
+  if (icon) el.append(icon);
+  el.append(make("span", "nm", cell.cat_name));
+  if (guaranteed) {
+    if (cell.link) el.append(make("span", "jump", prettyLink(cell.link)));
+    el.append(make("span", "plus", "+1"));
+  } else {
+    el.insertAdjacentHTML("beforeend", PAW_SVG);
   }
-  return td;
+  cellEls.set(cellKey(track, roll, kind), el);
+  return el;
 }
 
 function renderRollViewer(csvText) {
   const cells = parseCsv(csvText);
   const container = $("viewer-table");
   container.replaceChildren();
-  if (!cells.length) { container.textContent = "No rows to show."; return; }
+  cellEls = new Map();
+  stoneEls = new Map();
+  if (!cells.length) { container.append(make("p", "empty", "No rows to show.")); return; }
 
-  const table = document.createElement("table");
-  table.className = "roll-table";
-  const thead = document.createElement("thead");
-  thead.innerHTML = "<tr><th>No.</th><th>A</th><th>A (guaranteed)</th><th>B</th><th>B (guaranteed)</th></tr>";
-  table.append(thead);
-
-  const tbody = document.createElement("tbody");
+  const lanes = make("div", "lanes");
+  lanes.append(
+    make("div", "lane-head g", "A · guaranteed"),
+    make("div", "lane-head a", "Track A"),
+    make("div", "lane-head no", "No."),
+    make("div", "lane-head b", "Track B"),
+    make("div", "lane-head g", "B · guaranteed"),
+  );
   for (const [roll, tracks] of pivotByRoll(cells)) {
-    const tr = document.createElement("tr");
-    const no = document.createElement("td");
-    no.className = "roll-no";
-    no.textContent = roll;
-    tr.append(
-      no,
-      cellNode(tracks.A?.normal, "A", roll, "normal"),
-      cellNode(tracks.A?.guaranteed, "A", roll, "guaranteed"),
-      cellNode(tracks.B?.normal, "B", roll, "normal"),
-      cellNode(tracks.B?.guaranteed, "B", roll, "guaranteed"),
+    const spine = make("div", "spine");
+    const stone = make("span", "stone", String(roll));
+    spine.append(stone);
+    stoneEls.set(roll, stone);
+    lanes.append(
+      laneCell(tracks.A?.guaranteed, "A", roll, "guaranteed"),
+      laneCell(tracks.A?.normal, "A", roll, "normal"),
+      spine,
+      laneCell(tracks.B?.normal, "B", roll, "normal"),
+      laneCell(tracks.B?.guaranteed, "B", roll, "guaranteed"),
     );
-    tbody.append(tr);
   }
-  table.append(tbody);
-  container.append(table);
+  container.append(lanes);
+}
+
+/** Re-add unit icons after the event roster changes, without rebuilding the table. */
+function refreshCellIcons() {
+  for (const el of cellEls.values()) {
+    el.querySelector(".uicon")?.remove();
+    const icon = unitIcon(el.dataset.name, "uicon");
+    if (icon) el.querySelector(".nm").before(icon);
+  }
 }
 
 // ---- Roll simulator -----------------------------------------------------------
-// Lets the user click through single rolls / guaranteed-11s from the currently
-// viewed dataset, entirely client-side (no server calls). Mirrors the roll rules
-// route_optimizer.py implements server-side, but here we only ever step forward
-// or undo one step -- there's no search.
+// Lets the user click through single rolls / guaranteed-11s from the active dataset,
+// entirely client-side (no server calls). Mirrors the roll rules route_optimizer.py
+// implements server-side, but here we only ever step forward or undo one step --
+// there's no search.
 //
-// sim: { pool, track, roll, moves: [{type, track, roll, units, from, to}] }
+// sim: { pool, legendSlots, track, roll, moves: [{type, track, roll, units, from, to}], animating, anim }
 // pool: { normal: {A:{roll:cell}, B:{...}}, guaranteed: {...} }, same shape as
 // route_optimizer.Pool, built straight from the dataset's CSV (see buildSimPool).
+// anim: while an 11x Draw animates, {track, roll, k} -- k is how many of the block's
+// picks have been drawn so far (10 = on the guaranteed bonus pick).
 let sim = null;
 
 function buildSimPool(csvText) {
@@ -302,14 +371,18 @@ function simHasEleven(pool, track, roll) {
   return true;
 }
 
+/** Where a move/step of `type` from track/roll leaves you. */
+function landing(pool, type, track, roll) {
+  return type === "single" ? { track, roll: roll + 1 } : pool.guaranteed[track][roll]?.link_target || null;
+}
+
 // A loaded plan to follow: { steps: [{type, track, roll, units}], index, broken }.
 // index is how many steps have been consumed while still on-plan (see simPushMove);
 // it stops advancing once broken becomes true, since the guide's remaining steps were
 // only ever valid for the position they assumed you'd be at, and one wrong-type move
 // (see simPushMove's comment) leaves you somewhere else. null means no guide is active,
-// which is the default and keeps every guidance UI element empty/hidden (see
-// renderSim/updateGuidanceStatus) -- loading a guide is what turns "guided mode" on,
-// there's no separate toggle for it.
+// which is the default and keeps every guidance UI element empty/hidden -- loading a
+// guide is what turns "guided mode" on, there's no separate toggle for it.
 let guidance = null;
 
 function setGuidance(steps) {
@@ -328,7 +401,7 @@ function clearGuidance() {
 
 function initSim(csvText) {
   const pool = buildSimPool(csvText);
-  sim = { pool, legendSlots: legendRareSlots(pool), track: "A", roll: 1, moves: [], animating: false };
+  sim = { pool, legendSlots: legendRareSlots(pool), track: "A", roll: 1, moves: [], animating: false, anim: null };
   guidance = null; // a guide's steps are tied to the pool that produced them
   say("sim-status", "", "");
   renderSim();
@@ -377,32 +450,13 @@ function simDrawSingle() {
   const { track, roll } = sim;
   const cell = sim.pool.normal[track][roll];
   simPushMove("single", track, roll, [cell.cat_name], { track, roll: roll + 1 });
+  say("sim-status", "", ""); // e.g. "Guide loaded..." is stale once you've moved
   renderSim();
 }
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-const ELEVEN_STEP_MS = 70;       // fast enough to read as "11 quick draws", not a real wait
-const ELEVEN_BONUS_PAUSE_MS = 260; // lingers on the guaranteed pick so the color/text swap registers
-
-const SIM_FLASH_CLASSES = ["sim-current", "sim-current-bonus"];
-
-/** Flash exactly one cell (by track/roll/kind), independent of sim's actual position --
- * used mid-animation, before the position itself has moved. updateSimHighlight() (the
- * static "you are here" indicator) takes over again once renderSim() next runs.
- * className picks the color: "sim-current" (yellow, the normal 10) or "sim-current-bonus"
- * (green, the guaranteed 11th) -- the color swap is the main cue that this last pick isn't
- * "next in sequence" the way the first 10 were, it's the forced bonus unit for the block. */
-function flashCell(track, roll, kind, className = "sim-current") {
-  document.querySelectorAll("#viewer-table td.sim-current, #viewer-table td.sim-current-bonus")
-    .forEach((td) => td.classList.remove(...SIM_FLASH_CLASSES));
-  const td = document.querySelector(`#viewer-table td[data-track="${track}"][data-roll="${roll}"][data-kind="${kind}"]`);
-  if (td) {
-    td.classList.add(className);
-    // "nearest" + instant: only moves the page if the cell isn't already visible, and
-    // doesn't queue up a slow smooth-scroll animation for every ~70ms animation step.
-    td.scrollIntoView({ block: "nearest", inline: "nearest" });
-  }
-}
+const ELEVEN_STEP_MS = 90;         // fast enough to read as "11 quick draws", not a real wait
+const ELEVEN_BONUS_PAUSE_MS = 450; // lingers on the guaranteed pick so the color swap registers
 
 async function simDrawEleven() {
   if (!sim || sim.animating || !simHasEleven(sim.pool, sim.track, sim.roll)) return;
@@ -415,23 +469,27 @@ async function simDrawEleven() {
   sim.animating = true;
   renderSim(); // disables the buttons for the duration of the animation
 
-  for (let i = 0; i < 10; i++) {
-    say("sim-status", `Drawing ${i + 1}/10...`, "");
-    flashCell(track, roll + i, "normal");
+  // The cat walks down the block leaving a paw print on each pick...
+  for (let k = 0; k < 10; k++) {
+    sim.anim = { track, roll, k };
+    say("sim-status", `Drawing ${k + 1}/10...`, "");
+    paintTrack();
     await sleep(ELEVEN_STEP_MS);
   }
-  // The guaranteed cell lives at the top of this block's row (same roll the draw started
-  // at), so the highlight jumps back up for it -- that's a real, not a mistake: this pick
-  // is the block's bonus 11th unit, drawn last despite its position in the table. The
-  // green color + label call that out instead of reading as backtracking.
+  // ...then jumps back up for the guaranteed cell, which lives at the top of this block's
+  // row (same roll the draw started at). It's the block's bonus 11th unit, drawn last
+  // despite its position -- the green + "+1" call that out instead of reading as
+  // backtracking.
+  sim.anim = { track, roll, k: 10 };
   say("sim-status", "Guaranteed pick (bonus 11th unit)!", "ok");
-  flashCell(track, roll, "guaranteed", "sim-current-bonus");
+  paintTrack();
   await sleep(ELEVEN_BONUS_PAUSE_MS);
 
+  sim.anim = null;
   sim.animating = false;
   simPushMove("guaranteed_eleven", track, roll, units, { track: dest.track, roll: dest.roll });
   say("sim-status", "", "");
-  renderSim(); // lands the highlight on the post-jump (possibly other-track) position
+  renderSim(); // lands the cat on the post-jump (possibly other-track) position
 }
 
 function simUndo() {
@@ -446,20 +504,80 @@ function simUndo() {
   renderSim();
 }
 
-function updateSimHighlight() {
-  document.querySelectorAll("#viewer-table td.sim-current, #viewer-table td.sim-current-bonus")
-    .forEach((td) => td.classList.remove(...SIM_FLASH_CLASSES));
-  if (!sim) return;
-  const cells = document.querySelectorAll(`#viewer-table td[data-track="${sim.track}"][data-roll="${sim.roll}"]`);
-  cells.forEach((td) => td.classList.add("sim-current"));
-  // Keep the marker in view as it moves -- a single draw, an undo, and the end of the
-  // 11-draw animation all funnel through here via renderSim().
-  // only use a "nearest" scroll approach here
-  cells[0]?.scrollIntoView({ block: "nearest", inline: "nearest"});
-
-
+/** Back to 1A with no moves; a loaded guide stays, restarted from its first step. */
+function simReset() {
+  if (!sim || sim.animating) return;
+  sim.track = "A";
+  sim.roll = 1;
+  sim.moves = [];
+  if (guidance) { guidance.index = 0; guidance.broken = false; }
+  say("sim-status", "", "");
+  renderSim();
 }
 
+/** The guide's next step, or null when there's nothing actionable (none loaded, broken, done). */
+function nextGuideStep() {
+  if (!guidance || guidance.broken || guidance.index >= guidance.steps.length) return null;
+  return guidance.steps[guidance.index];
+}
+
+/** Bring the table in line with sim: pulled cells, the cat, the roll path, the guide. */
+function paintTrack() {
+  for (const el of cellEls.values()) el.classList.remove("cur", "bonus", "done", "guide", "ghosted");
+  for (const stone of stoneEls.values()) stone.classList.remove("now", "past");
+  markerImg.remove();
+  ghostImg.remove();
+  if (!sim) return;
+
+  const markDone = (track, roll, kind) => cellEls.get(cellKey(track, roll, kind))?.classList.add("done");
+  for (const m of sim.moves) {
+    if (m.type === "single") { markDone(m.track, m.roll, "normal"); continue; }
+    for (let i = 0; i < 10; i++) markDone(m.track, m.roll + i, "normal");
+    markDone(m.track, m.roll, "guaranteed");
+  }
+
+  let markerKey = cellKey(sim.track, sim.roll, "normal");
+  let markerRoll = sim.roll;
+  let bonus = false;
+  const anim = sim.anim;
+  if (anim) {
+    for (let i = 0; i < Math.min(anim.k, 10); i++) markDone(anim.track, anim.roll + i, "normal");
+    bonus = anim.k >= 10;
+    markerRoll = bonus ? anim.roll : anim.roll + anim.k;
+    markerKey = cellKey(anim.track, markerRoll, bonus ? "guaranteed" : "normal");
+  }
+
+  for (const [roll, stone] of stoneEls) {
+    if (roll === markerRoll) stone.classList.add("now");
+    else if (roll < markerRoll) stone.classList.add("past");
+  }
+
+  const host = cellEls.get(markerKey);
+  if (host) {
+    host.classList.remove("done");
+    host.classList.add(bonus ? "bonus" : "cur");
+    markerImg.className = "marker " + (host.classList.contains("lane-a") ? "m-a" : "m-b");
+    host.prepend(markerImg);
+    // "nearest" + instant: only moves the page if the cell isn't already visible, and
+    // doesn't queue up a slow smooth-scroll for every animation step.
+    host.scrollIntoView({ block: "nearest", inline: "nearest" });
+  }
+
+  const next = !anim && nextGuideStep();
+  if (next) {
+    const kind = next.type === "guaranteed_eleven" ? "guaranteed" : "normal";
+    cellEls.get(cellKey(next.track, next.roll, kind))?.classList.add("guide");
+    const to = landing(sim.pool, next.type, next.track, next.roll);
+    const ghostHost = to && cellEls.get(cellKey(to.track, to.roll, "normal"));
+    if (ghostHost && ghostHost !== host) {
+      ghostHost.classList.add("ghosted");
+      ghostImg.className = "ghost " + (ghostHost.classList.contains("lane-a") ? "m-a" : "m-b");
+      ghostHost.prepend(ghostImg);
+    }
+  }
+}
+
+// ---- Collected ----------------------------------------------------------------
 // name -> rarity for every unit in the game (its Normal form, which is what a gacha pull
 // always yields -- see unit_rarity.py), fetched once from the server and cached here.
 // This is the game's real per-unit rarity, distinct from bc.godfat's own per-cell class
@@ -475,112 +593,171 @@ async function loadUnitRarities() {
   } catch {
     unitRarityByName = {}; // best-effort; the collected panel just falls back to "Unknown"
   }
-  if (sim) renderSim(); // refresh with real rarities if any draws happened before this resolved
+  renderAllCollected(); // refresh with real rarities if any draws happened before this resolved
 }
 
 // Every unit name that appears in any fetched event's collab roster (see
 // gacha_units.list_all_collab_unit_names()), fetched once and cached here. Backs the
-// "Collected" panel's "Collab units only" checkbox -- a display-only filter, so it never
-// touches sim.moves or the "Moves used" list, only which names renderSimCollected shows.
+// "Collab units only" checkboxes -- a display-only filter, so it never touches sim.moves
+// or the moves list, only which names the Collected panels show.
 let collabUnitNames = new Set();
 
 async function loadCollabUnitNames() {
   try {
     collabUnitNames = new Set(await apiGet("/collab-units"));
   } catch {
-    collabUnitNames = new Set(); // best-effort; checking the box would then just show nothing
+    collabUnitNames = new Set(); // best-effort; checking the box then only keeps the banner cards
   }
-  if (sim) renderSimCollected();
+  renderAllCollected();
 }
 
 // Highest rarity first, since that's what a user checking "what did I get" cares about
 // most. Matches unit_rarity.py's vocabulary (a unit's Normal-form rarity), not
-// RARITY_LABEL's bc.godfat pull-slot scheme used elsewhere on this page.
+// RARITY_LABEL's bc.godfat pull-slot scheme used by the roll viewer.
 const UNIT_RARITY_ORDER = ["Legendary Rare", "Uber Super Rare", "Super Rare", "Rare", "Special", "Basic"];
-const UNIT_RARITY_CLASS = {
-  Basic: "basic", Rare: "rare", "Super Rare": "supa",
-  "Uber Super Rare": "uber", "Legendary Rare": "legend", Special: "special",
-};
+
+// Per panel, which rarity groups the user has opened/closed -- the panel is rebuilt on
+// every move, and it'd be annoying for a group to snap shut each time.
+const groupOpenState = { "sim-collected": new Map(), "opt-collected": new Map() };
 
 /** Render `unitNames` (with repeats -- one entry per pull, not pre-deduped) into
- * `containerId` as a rarity-grouped, deduped-with-counts list, optionally narrowed to
- * collab units via the `collabCheckboxId` checkbox. Shared by the roll simulator's
- * "Collected" panel (from sim.moves) and part 3's optimizer result (from its route) --
- * same idea, two different sources of unit names. */
-function renderCollectedUnits(containerId, collabCheckboxId, unitNames) {
+ * `containerId`: first the selected event's roster as cards (pale until collected, bright
+ * once you have one), then every other unit in collapsible rarity groups. Built to stay
+ * compact at 100-200 pulls -- the cards are a fixed set, and the long tail of regular units
+ * stays folded until wanted. Shared by the roll simulator (from sim.moves) and the
+ * optimizer result (from its route). */
+function renderCollectedUnits(containerId, countId, collabCheckboxId, unitNames) {
   const container = $(containerId);
+  const prevScrollTop = container.scrollTop;
   container.replaceChildren();
-  if (!unitNames.length) return;
 
   const collabOnly = $(collabCheckboxId).checked;
   const counts = new Map(); // name -> count
-  for (const name of unitNames) {
-    if (collabOnly && !collabUnitNames.has(name)) continue; // display filter only -- the source list is untouched
-    counts.set(name, (counts.get(name) || 0) + 1);
+  for (const name of unitNames) counts.set(name, (counts.get(name) || 0) + 1);
+  const isCollab = (name) => rosterByName.has(name) || collabUnitNames.has(name);
+  let shownTotal = 0;
+  for (const [name, count] of counts) if (!collabOnly || isCollab(name)) shownTotal += count;
+  $(countId).textContent = unitNames.length ? `(${shownTotal})` : "";
+
+  if (eventRoster.length) {
+    const cards = [];
+    let have = 0;
+    for (const group of eventRoster) {
+      for (const unit of group.units) {
+        const count = counts.get(unit.name) || 0;
+        if (count) have++;
+        const card = make("div", `bt ${RARITY_COLOR_CLASS[group.rarity] || "rar-rare"}` + (count ? " has" : ""));
+        card.title = `${unit.name} (${group.rarity})` + (count ? ` ×${count}` : " -- not collected");
+        const icon = unitIcon(unit.name, "");
+        if (icon) card.append(icon);
+        if (count) card.append(make("span", "bt-count", `×${count}`));
+        card.append(make("span", "bt-name", unit.name));
+        cards.push(card);
+      }
+    }
+    const grid = make("div", "bt-grid");
+    grid.append(...cards);
+    const section = make("div");
+    section.append(make("span", "banner-head", `This banner · ${have} of ${cards.length}`), grid);
+    container.append(section);
   }
-  if (collabOnly && !counts.size) {
-    container.textContent = "No collab units collected.";
+
+  if (!unitNames.length) {
+    container.append(make("p", "empty", "Nothing collected yet."));
+    container.scrollTop = prevScrollTop;
     return;
   }
 
   const byRarity = new Map(); // rarity -> [[name, count], ...]
   for (const [name, count] of counts) {
+    if (rosterByName.has(name)) continue; // already shown as a card
+    if (collabOnly && !collabUnitNames.has(name)) continue; // display filter only -- the source list is untouched
     const rarity = unitRarityByName[name] || "Unknown";
     if (!byRarity.has(rarity)) byRarity.set(rarity, []);
     byRarity.get(rarity).push([name, count]);
   }
 
+  const openState = groupOpenState[containerId];
   const rarities = [...UNIT_RARITY_ORDER, ...[...byRarity.keys()].filter((r) => !UNIT_RARITY_ORDER.includes(r))];
+  let first = true;
   for (const rarity of rarities) {
     const group = byRarity.get(rarity);
     if (!group) continue;
-    const total = group.reduce((n, [, count]) => n + count, 0);
-    const h4 = document.createElement("h4");
-    h4.className = "rarity-" + (UNIT_RARITY_CLASS[rarity] || "none");
-    h4.textContent = `${rarity} (${total})`;
-    container.append(h4);
+    const details = make("details", "grp");
+    details.open = openState.has(rarity) ? openState.get(rarity) : first;
+    first = false;
+    details.addEventListener("toggle", () => openState.set(rarity, details.open));
 
-    const ul = document.createElement("ul");
-    for (const [name, count] of group.sort((a, b) => a[0].localeCompare(b[0]))) {
-      const li = document.createElement("li");
-      li.textContent = count > 1 ? `${name} ×${count}` : name;
+    const total = group.reduce((n, [, count]) => n + count, 0);
+    const summary = make("summary");
+    summary.append(
+      make("span", `dot ${RARITY_COLOR_CLASS[rarity] || ""}`),
+      make("span", "label", rarity),
+      make("span", "gct", `${total} pull${total === 1 ? "" : "s"} · ${group.length} unit${group.length === 1 ? "" : "s"}`),
+    );
+    const ul = make("ul");
+    for (const [name, count] of group.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))) {
+      const li = make("li");
+      li.append(make("span", "nm", name), make("span", "n", `×${count}`));
       ul.append(li);
     }
-    container.append(ul);
+    details.append(summary, ul);
+    container.append(details);
   }
+  if (collabOnly && !byRarity.size && !eventRoster.length) {
+    container.append(make("p", "empty", "No collab units collected."));
+  }
+  container.scrollTop = prevScrollTop;
 }
 
 function renderSimCollected() {
-  renderCollectedUnits("sim-collected", "sim-collab-only", sim ? sim.moves.flatMap((m) => m.units) : []);
+  renderCollectedUnits("sim-collected", "sim-collected-count", "sim-collab-only",
+    sim ? sim.moves.flatMap((m) => m.units) : []);
 }
 
-const DRAW_KIND_LABEL = { guaranteed_eleven: "Guaranteed 11", single: "Single roll" };
-const DRAW_BUTTON_LABEL = { guaranteed_eleven: "11 Draw", single: "1 Draw" };
+function renderAllCollected() {
+  renderSimCollected();
+  renderOptCollected();
+}
 
-/** The status lines above the moves list: current position (always), and -- only while a
- * guide is loaded -- the last unit actually collected and what the guide says to do next
- * (or that it's finished). All empty/hidden when there's no guidance (see the :empty rules
- * in style.css). The mismatch banner (full width, spans both columns) is separate --
- * see updateMismatchBanner(). */
-function updateGuidanceStatus() {
-  const lastEl = $("sim-last-collected");
-  const nextEl = $("sim-next-move");
-  if (!sim || !guidance) {
-    lastEl.textContent = "";
-    nextEl.textContent = "";
+// ---- Simulator sidebar --------------------------------------------------------
+const DRAW_LABEL = { guaranteed_eleven: "11x Draw", single: "1x Draw" };
+
+/** "4A" for a single, "4A → 14B" for an 11x Draw (where its guaranteed pick sends you). */
+function moveWhere(pool, type, track, roll) {
+  const to = type === "guaranteed_eleven" ? landing(pool, type, track, roll) : null;
+  return `${roll}${track}` + (to ? ` → ${to.roll}${to.track}` : "");
+}
+
+/** The position box: where you are, what each button would give, and (only while a
+ * guide is loaded) what the guide says to do next. */
+function updatePositionBox() {
+  const guideEl = $("sim-guide-line");
+  if (!sim) {
+    $("sim-pos-label").textContent = "--";
+    $("sim-next-single").textContent = "Pick a dataset to start rolling.";
+    $("sim-next-eleven").textContent = "";
+    guideEl.textContent = "";
     return;
   }
+  const { pool, track, roll } = sim;
+  const single = pool.normal[track][roll];
+  $("sim-pos-label").textContent = single ? `${roll}${track}` : "end";
+  $("sim-next-single").textContent = single ? `1x Draw: ${single.cat_name}` : "1x Draw: past the end of this dataset";
+  const g = pool.guaranteed[track][roll];
+  $("sim-next-eleven").textContent = simHasEleven(pool, track, roll)
+    ? `11x Draw: ${g.cat_name} guaranteed, lands on ${g.link_target.roll}${g.link_target.track}`
+    : "11x Draw: not enough rolls left in this dataset";
 
-  const lastMove = sim.moves[sim.moves.length - 1];
-  lastEl.textContent = lastMove ? `Last collected: ${lastMove.units[lastMove.units.length - 1]}` : "";
-
-  if (guidance.broken) {
-    nextEl.textContent = "Off guide -- Undo back to the wrong move to recover, or Clear guide to stop tracking it.";
+  if (!guidance) {
+    guideEl.textContent = "";
+  } else if (guidance.broken) {
+    guideEl.textContent = "Off guide -- Undo back to the wrong move to recover, or Clear guide to stop tracking it.";
   } else if (guidance.index < guidance.steps.length) {
     const next = guidance.steps[guidance.index];
-    nextEl.textContent = `Next: ${DRAW_BUTTON_LABEL[next.type]} @ ${next.roll}${next.track}`;
+    guideEl.textContent = `Guide says: ${DRAW_LABEL[next.type]} @ ${next.roll}${next.track}`;
   } else {
-    nextEl.textContent = "Guide complete!";
+    guideEl.textContent = "Guide complete!";
   }
 }
 
@@ -601,36 +778,32 @@ function updateMismatchBanner() {
     ? "Still off the guide from an earlier wrong move. Undo back to that move and redo it "
       + "right, or Clear guide if those moves already happened in-game -- then re-optimize "
       + "from your real position."
-    : `Wrong move -- the guide expected ${DRAW_BUTTON_LABEL[lastMove.type === "single" ? "guaranteed_eleven" : "single"]} `
+    : `Wrong move -- the guide expected ${DRAW_LABEL[lastMove.type === "single" ? "guaranteed_eleven" : "single"]} `
       + "here. If this was only a website slip, Undo and redo it right. If you already made "
       + "this move in-game, the guide is out of sync -- re-optimize from your real position.";
 }
 
-/** One <li> in the merged moves timeline: a <details> so only "<kind> @ <roll><track>"
- * shows by default, with the units drawn tucked behind it -- expand to see them.
- * nearLegends (Legend Rare slots in reach) appends a "Legend Rare in reach" marker per
- * slot alongside whatever other status coloring statusClass already gives the <li> -- see
- * legendWarnings(). */
+/** One <li> in the merged moves timeline: a <details> so only "<kind> <where>" shows by
+ * default, with the units drawn tucked behind it -- expand to see them. nearLegends
+ * (Legend Rare slots in reach) appends a "Legend Rare in reach" marker per slot alongside
+ * whatever other status coloring statusClass already gives the <li> -- see legendWarnings(). */
 function buildMoveLi(type, track, roll, units, statusClass, note, nearLegends) {
-  const li = document.createElement("li");
-  li.className = statusClass;
-  const details = document.createElement("details");
-  const summary = document.createElement("summary");
-  summary.textContent = `${DRAW_KIND_LABEL[type]} @ ${roll}${track}` + (note ? ` ${note}` : "");
+  const li = make("li", statusClass);
+  const details = make("details");
+  const summary = make("summary");
+  summary.append(make("span", "k", DRAW_LABEL[type]), " ", make("span", "w", moveWhere(sim.pool, type, track, roll)));
+  if (note) summary.append(" " + note);
   const warnings = legendWarnings(nearLegends);
   if (warnings) summary.append(warnings);
-  const unitsEl = document.createElement("span");
-  unitsEl.className = "sim-move-units";
-  unitsEl.textContent = units.join(", ");
-  details.append(summary, unitsEl);
+  details.append(summary, make("span", "units", units.join(", ")));
   li.append(details);
   return li;
 }
 
 function renderSim() {
-  updateSimHighlight();
+  paintTrack();
   renderSimCollected();
-  updateGuidanceStatus();
+  updatePositionBox();
   updateMismatchBanner();
   const movesEl = $("sim-moves");
   // The whole list is rebuilt from scratch below (simplest way to keep it in sync with
@@ -645,18 +818,14 @@ function renderSim() {
   $("sim-clear-guide-btn").hidden = !guidance;
 
   if (!sim) {
-    $("sim-position").textContent = "";
-    $("sim-single-btn").disabled = true;
-    $("sim-eleven-btn").disabled = true;
-    $("sim-undo-btn").disabled = true;
-    $("sim-set-guide-btn").disabled = true;
+    for (const id of ["sim-single-btn", "sim-eleven-btn", "sim-undo-btn", "sim-reset-btn", "sim-set-guide-btn"]) $(id).disabled = true;
     return;
   }
 
-  $("sim-position").textContent = `Position: ${sim.roll}${sim.track}`;
   $("sim-single-btn").disabled = sim.animating || !simHasSingle(sim.pool, sim.track, sim.roll);
   $("sim-eleven-btn").disabled = sim.animating || !simHasEleven(sim.pool, sim.track, sim.roll);
   $("sim-undo-btn").disabled = sim.animating || !sim.moves.length;
+  $("sim-reset-btn").disabled = sim.animating || !sim.moves.length;
   $("sim-set-guide-btn").disabled = sim.animating || !sim.moves.length;
 
   // One continuous list: moves already made, then -- if a guide is loaded -- the steps
@@ -664,18 +833,18 @@ function renderSim() {
   // "what I'm supposed to do" panel eating twice the sidebar space. guidanceStatus (set by
   // simPushMove) colors real moves; "unguided" covers both no-guide-at-all and
   // past-the-end-of-guide the same way, per the request that those read alike.
-  for (const move of sim.moves) {
+  sim.moves.forEach((move) => {
     let note = "";
     if (move.guidanceStatus === "mismatch") {
       // Only the move that actually caused the break has a real "expected X" to report;
       // later ones are just as off-plan but didn't diverge from anything themselves.
       note = move.guidanceBrokenBefore
         ? "-- off guide (see the earlier wrong move)"
-        : `-- wrong move (guide expected ${DRAW_BUTTON_LABEL[move.type === "single" ? "guaranteed_eleven" : "single"]})`;
+        : `-- wrong move (guide expected ${DRAW_LABEL[move.type === "single" ? "guaranteed_eleven" : "single"]})`;
     }
     const nearLegends = legendRaresInReach(move.roll, sim.legendSlots);
     movesEl.append(buildMoveLi(move.type, move.track, move.roll, move.units, `guidance-${move.guidanceStatus}`, note, nearLegends));
-  }
+  });
   if (guidance) {
     let nextLi = null;
     for (let i = guidance.index; i < guidance.steps.length; i++) {
@@ -699,6 +868,7 @@ function renderSim() {
 $("sim-single-btn").addEventListener("click", simDrawSingle);
 $("sim-eleven-btn").addEventListener("click", simDrawEleven);
 $("sim-undo-btn").addEventListener("click", simUndo);
+$("sim-reset-btn").addEventListener("click", simReset);
 $("sim-collab-only").addEventListener("change", renderSimCollected);
 
 // Build a guide from what you've already clicked through: e.g. work out the moves by hand
@@ -718,57 +888,82 @@ $("sim-clear-guide-btn").addEventListener("click", () => {
   say("sim-status", "", "");
 });
 
-// ---- UI ---------------------------------------------------------------------
-async function refresh() {
-  const items = await store.all();
-  const list = $("dataset-list");
-  const selects = [$("opt-dataset"), $("viewer-dataset")];
-  list.replaceChildren();
-  selects.forEach((s) => s.replaceChildren());
+// ---- Datasets -----------------------------------------------------------------
+// One dataset is "in use" at a time: the roll viewer shows it and the optimizer runs on it.
+let activeId = prefs.getActive();
+// The dataset the roll viewer / simulator currently hold: null once showDataset() has
+// shown "nothing", undefined before the first refresh() so that one always renders.
+let shownId;
 
-  if (!items.length) {
-    const li = document.createElement("li");
-    li.className = "empty";
-    li.textContent = "Nothing saved yet.";
-    list.append(li);
-    selects.forEach((s) => s.append(new Option("(no data)", "")));
-    $("viewer-table").replaceChildren();
-    showBanner("viewer-banner", "");
-    showBanner("opt-dataset-banner", "");
+/** "Using <dataset> · <event>" on the roll viewer and optimizer, since both now take
+ * those from the Datasets section rather than having their own pickers. */
+function updateUsingChips() {
+  const event = $("event-select").value;
+  for (const id of ["viewer-using", "opt-using"]) {
+    const chip = $(id);
+    chip.replaceChildren();
+    if (!shownId) continue;
+    chip.append("Using ", make("b", "", shownId));
+    if (event) chip.append(" · ", make("b", "", event));
+  }
+}
+
+/** Point the page at dataset `rec` (or nothing): roll viewer, simulator, "Using" chips. */
+function showDataset(rec) {
+  shownId = rec ? rec.id : null;
+  updateUsingChips();
+  if (lastOptimizeDatasetId !== shownId) clearOptimizeResult(); // a route only means anything for its own dataset
+  if (!rec) {
+    sim = null;
+    guidance = null;
+    cellEls = new Map();
+    stoneEls = new Map();
+    $("viewer-table").replaceChildren(make("p", "empty", "Fetch or import a dataset to see its rolls."));
+    renderSim();
     return;
   }
+  renderRollViewer(rec.csv);
+  initSim(rec.csv);
+  suggestEventFromBanner(rec.meta?.banner);
+}
+
+/** Re-list saved datasets. Re-points the page only if the dataset in use changed (or
+ * `reshow` says its contents did, e.g. a re-fetch of the same seed/event). */
+async function refresh({ reshow = false } = {}) {
+  const items = await store.all();
+  if (!items.some((r) => r.id === activeId)) activeId = items[0]?.id ?? null;
+  prefs.setActive(activeId);
+
+  const list = $("dataset-list");
+  list.replaceChildren();
+  if (!items.length) list.append(make("li", "empty", "Nothing saved yet."));
 
   for (const rec of items) {
-    const li = document.createElement("li");
-    const info = document.createElement("div");
-    const name = document.createElement("div");
-    name.className = "name";
-    name.textContent = rec.id;
-    const meta = document.createElement("div");
-    meta.className = "meta";
-    meta.textContent = `${countRows(rec.csv)} rows, saved ${new Date(rec.savedAt).toLocaleString()}`;
-    info.append(name, meta);
-    if (rec.meta?.banner) {
-      const banner = document.createElement("div");
-      banner.className = "meta banner";
-      banner.textContent = rec.meta.banner;
-      info.append(banner);
-    }
+    const li = make("li");
+    const row = make("label", "ds" + (rec.id === activeId ? " on" : ""));
+    const radio = make("input");
+    radio.type = "radio";
+    radio.name = "active-dataset";
+    radio.checked = rec.id === activeId;
+    radio.addEventListener("change", () => { activeId = rec.id; refresh(); });
+    row.append(radio, make("span", "name", rec.id),
+      make("span", "meta", `${countRows(rec.csv)} rows · saved ${new Date(rec.savedAt).toLocaleString()}`));
+    if (rec.meta?.banner) row.append(make("span", "banner", rec.meta.banner));
+    if (rec.id === activeId) row.append(make("span", "in-use", "In use"));
 
-    const del = document.createElement("button");
-    del.className = "secondary";
-    del.textContent = "Delete";
-    del.addEventListener("click", async () => { await store.remove(rec.id); refresh(); });
-
-    li.append(info, del);
+    const del = make("button", "secondary small", "Delete");
+    del.type = "button";
+    del.addEventListener("click", async (ev) => {
+      ev.preventDefault(); // inside the <label>: don't also select this dataset
+      await store.remove(rec.id);
+      refresh();
+    });
+    row.append(del);
+    li.append(row);
     list.append(li);
-    selects.forEach((s) => s.append(new Option(rec.id, rec.id)));
   }
 
-  // Selects default to their first option; reflect that option's banner right away
-  // rather than waiting for the user to explicitly change the selection.
-  onViewerDatasetChange();
-  onOptDatasetChange();
+  if (reshow || activeId !== shownId) showDataset(items.find((r) => r.id === activeId) || null);
 }
 
 $("fetch-btn").addEventListener("click", async () => {
@@ -776,16 +971,14 @@ $("fetch-btn").addEventListener("click", async () => {
   const url = $("godfat-url").value.trim();
   btn.disabled = true;
   say("data-status", "Fetching...");
-  showBanner("data-banner", "");
   try {
     const body = await apiGet("/tracks", { url }, () =>
       say("data-status", "Still waiting. The server may be waking up, which can take up to a minute..."));
     const rec = { id: `${body.meta.seed}_${body.meta.event}`, meta: body.meta, csv: body.csv, savedAt: Date.now() };
     await store.put(rec);
-    say("data-status", `Saved ${rec.id} (${body.meta.cells} cells).`, "ok");
-    showBanner("data-banner", body.meta.banner);
-    refresh();
-    suggestEventFromBanner(body.meta.banner);
+    say("data-status", `Saved ${rec.id} (${body.meta.cells} cells) and switched to it.` + (body.meta.banner ? ` Banner: ${body.meta.banner}` : ""), "ok");
+    activeId = rec.id;
+    await refresh({ reshow: true });
   } catch (e) {
     say("data-status", e.message || "Fetch failed.", "err");
   } finally {
@@ -793,18 +986,7 @@ $("fetch-btn").addEventListener("click", async () => {
   }
 });
 
-$("viewer-btn").addEventListener("click", async () => {
-  const id = $("viewer-dataset").value;
-  if (!id) return say("viewer-status", "Save or import a dataset first.", "err");
-  const rec = (await store.all()).find((r) => r.id === id);
-  if (!rec) return say("viewer-status", "Dataset not found; it may have been deleted.", "err");
-  renderRollViewer(rec.csv);
-  initSim(rec.csv);
-  say("viewer-status", `Showing ${id}.`, "ok");
-});
-
 $("export-btn").addEventListener("click", async () => {
-  showBanner("data-banner", ""); // the fetch/import/export actions share one status line
   const items = await store.all();
   if (!items.length) return say("data-status", "Nothing to export.", "err");
   download("bc-route-planner-export.json", JSON.stringify({ version: 1, datasets: items }, null, 2), "application/json");
@@ -815,7 +997,6 @@ $("import-file").addEventListener("change", async (ev) => {
   const file = ev.target.files[0];
   ev.target.value = "";
   if (!file) return;
-  showBanner("data-banner", "");
   try {
     if (file.size > 5 * 1024 * 1024) throw new Error("File is too large (5 MB max).");
     const text = await file.text();
@@ -832,187 +1013,213 @@ $("import-file").addEventListener("change", async (ev) => {
       await store.put({ id: r.id, meta: r.meta || {}, csv: r.csv, savedAt: Date.now() });
     }
     say("data-status", `Imported ${records.length} dataset(s).`, "ok");
-    refresh();
+    // Re-importing the dataset in use may have replaced its contents.
+    await refresh({ reshow: records.some((r) => r.id === activeId) });
   } catch (e) {
     say("data-status", e.message || "Import failed.", "err");
   }
 });
 
+// ---- Event units (target picker) ----------------------------------------------
 const OPT_MAX_TARGETS = 25; // matches the server's MAX_TARGET_UNITS
 
-// ---- Event units (target checkboxes) -----------------------------------------
-// Unit rosters come from data/gacha_pools/<event> (see fetch_gacha_units.py), grouped
-// server-side by rarity with names sorted alphabetically within each group.
-function renderTargetGroups(rarities) {
+const targetCheckboxes = () => [...$("opt-targets").querySelectorAll("input[type=checkbox]")];
+
+function getSelectedTargets() {
+  return targetCheckboxes().filter((cb) => cb.checked).map((cb) => cb.value);
+}
+
+/** Sync tile highlight, per-group "n/total" + Select/Deselect labels, and the overall count. */
+function updateTargetCounts() {
+  for (const cb of targetCheckboxes()) cb.closest(".tgt").classList.toggle("on", cb.checked);
+  for (const fieldset of $("opt-targets").querySelectorAll(".tg")) {
+    const boxes = [...fieldset.querySelectorAll("input[type=checkbox]")];
+    const selected = boxes.filter((cb) => cb.checked).length;
+    fieldset.querySelector(".tg-count").textContent = `${selected}/${boxes.length}`;
+    fieldset.querySelector(".tg-toggle").textContent = selected === boxes.length ? "Deselect all" : "Select all";
+  }
+  const all = targetCheckboxes();
+  const selected = all.filter((cb) => cb.checked).length;
+  $("opt-target-count").textContent = all.length ? `${selected} of ${all.length} selected` : "";
+  $("opt-select-all").disabled = !all.length || selected === all.length;
+  $("opt-deselect-all").disabled = selected === 0;
+}
+
+function setAllTargets(checked) {
+  targetCheckboxes().forEach((cb) => { cb.checked = checked; });
+  updateTargetCounts();
+}
+
+// One fieldset per rarity (server-ordered, highest first), each unit a card colored by
+// its rarity: pale until selected, bright once it is.
+function renderTargetGroups() {
   const container = $("opt-targets");
   const checked = new Set(getSelectedTargets()); // preserve selections across a re-render
   container.replaceChildren();
-  if (!rarities.length) {
-    container.textContent = "No units found for this event.";
+  if (!eventRoster.length) {
+    container.append(make("p", "empty", "No units found for this event."));
+    updateTargetCounts();
     return;
   }
-  for (const group of rarities) {
-    const fieldset = document.createElement("fieldset");
-    fieldset.className = "target-group";
-    const legend = document.createElement("legend");
-    legend.textContent = group.rarity || "Unknown rarity";
-    fieldset.append(legend);
-
-    const selectAllBtn = document.createElement("button");
-    selectAllBtn.type = "button"; // not "submit": this isn't inside a <form>, but stay explicit
-    selectAllBtn.className = "select-all-btn secondary";
-    fieldset.append(selectAllBtn);
-
-    const checkboxes = [];
-    const updateSelectAllLabel = () => {
-      const allChecked = checkboxes.every((cb) => cb.checked);
-      selectAllBtn.textContent = allChecked ? "Deselect all" : "Select all";
-    };
-
+  for (const group of eventRoster) {
+    const colorClass = RARITY_COLOR_CLASS[group.rarity] || "rar-rare";
+    const fieldset = make("fieldset", "tg");
+    const legend = make("legend");
+    legend.append(make("span", `dot ${colorClass}`), group.rarity || "Unknown rarity", make("span", "muted tg-count"));
+    const toggle = make("button", "secondary small tg-toggle");
+    toggle.type = "button"; // not "submit": this isn't inside a <form>, but stay explicit
+    const units = make("div", "tg-units");
+    const boxes = [];
     for (const unit of group.units) {
-      // Everything (checkbox, icon, name) lives inside one <label>, so clicking the
-      // icon toggles the checkbox exactly like clicking the name does.
-      const label = document.createElement("label");
-      label.className = "target-checkbox";
-      const cb = document.createElement("input");
+      // Everything (checkbox, icon, name) lives inside one <label>, so clicking the icon
+      // toggles the checkbox exactly like clicking the name does.
+      const label = make("label", `tgt ${colorClass}`);
+      const cb = make("input");
       cb.type = "checkbox";
       cb.value = unit.name;
       cb.checked = checked.has(unit.name);
-      cb.addEventListener("change", updateSelectAllLabel);
-      checkboxes.push(cb);
+      cb.addEventListener("change", updateTargetCounts);
+      boxes.push(cb);
       label.append(cb);
-
-      if (unit.icon) {
-        const img = document.createElement("img");
-        img.className = "target-icon";
-        img.src = `${API_BASE}/icons/${encodeURIComponent(unit.icon)}`;
-        img.alt = "";               // decorative: the unit's name is already shown as text
-        img.width = 28;
-        img.height = 28;
-        img.loading = "lazy";       // most units are off-screen until you scroll to them
-        img.onerror = () => img.remove();
-        label.append(img);
-      }
-
-      const span = document.createElement("span");
-      span.textContent = unit.name;
-      if (unit.description) span.title = unit.description;
-      label.append(span);
-
-      fieldset.append(label);
+      const icon = unitIcon(unit.name, "");
+      if (icon) label.append(icon);
+      const name = make("span", "", unit.name);
+      if (unit.description) label.title = unit.description;
+      label.append(name);
+      units.append(label);
     }
-
     // Toggles based on current state: select every box in this group, unless they're
     // all already checked, in which case it clears the group instead.
-    selectAllBtn.addEventListener("click", () => {
-      const nextChecked = !checkboxes.every((cb) => cb.checked);
-      checkboxes.forEach((cb) => { cb.checked = nextChecked; });
-      updateSelectAllLabel();
+    toggle.addEventListener("click", () => {
+      const next = !boxes.every((cb) => cb.checked);
+      boxes.forEach((cb) => { cb.checked = next; });
+      updateTargetCounts();
     });
-    updateSelectAllLabel();
-
+    const body = make("div", "tg-body");
+    const toggleRow = make("div");
+    toggleRow.append(toggle);
+    body.append(toggleRow, units);
+    fieldset.append(legend, body);
     container.append(fieldset);
   }
+  updateTargetCounts();
 }
 
-function getSelectedTargets() {
-  return [...$("opt-targets").querySelectorAll("input[type=checkbox]:checked")].map((cb) => cb.value);
-}
+$("opt-select-all").addEventListener("click", () => setAllTargets(true));
+$("opt-deselect-all").addEventListener("click", () => setAllTargets(false));
 
 async function loadGachaEvents() {
-  const select = $("opt-event");
+  const select = $("event-select");
   select.replaceChildren();
   try {
     const events = await apiGet("/gacha-events");
     if (!events.length) {
       select.append(new Option("(no events fetched yet)", ""));
-      renderTargetGroups([]);
+      await loadGachaUnits("");
       return;
     }
     for (const event of events) select.append(new Option(event, event));
     await loadGachaUnits(select.value);
   } catch (e) {
-    say("opt-event-status", e.message || "Could not load events.", "err");
+    say("event-status", e.message || "Could not load events.", "err");
   }
 }
 
 async function loadGachaUnits(event) {
-  if (!event) return renderTargetGroups([]);
-  say("opt-event-status", "Loading units...");
-  try {
-    const body = await apiGet("/gacha-units", { event });
-    renderTargetGroups(body.rarities);
-    say("opt-event-status", "");
-  } catch (e) {
-    say("opt-event-status", e.message || "Could not load units.", "err");
+  if (!event) {
+    setEventRoster([]);
+  } else {
+    say("event-status", "Loading units...");
+    try {
+      const body = await apiGet("/gacha-units", { event });
+      setEventRoster(body.rarities);
+      say("event-status", "");
+    } catch (e) {
+      say("event-status", e.message || "Could not load units.", "err");
+      return;
+    }
   }
+  renderTargetGroups();
+  refreshCellIcons();
+  renderAllCollected();
+  updateUsingChips();
 }
 
-/** After fetching tracks, best-effort guess which event the banner is for (see
+/** When a dataset comes into use, best-effort guess which event its banner is for (see
  * gacha_units.suggest_event()) and pre-select it -- the user can still change it. There's
  * no real id linking a Godfat banner to a wiki event name, so a failed/absent guess is
  * expected and not worth bothering the user about. */
 async function suggestEventFromBanner(bannerText) {
   if (!bannerText) return;
-  const select = $("opt-event");
+  const select = $("event-select");
   try {
     const { event } = await apiGet("/match-event", { text: bannerText });
     if (!event || select.value === event) return;
     if (![...select.options].some((o) => o.value === event)) return; // not a known option
     select.value = event;
     await loadGachaUnits(event);
-    say("opt-event-status", `Guessed event "${event}" from the fetched banner text.`, "ok");
+    say("event-status", `Guessed event "${event}" from the dataset's banner text.`, "ok");
   } catch {
     // best-effort only
   }
 }
 
-// Both dataset <select>s show only the id (seed_eventid, e.g. "1651985299_2026-09-28_1081"),
-// since a banner's full text doesn't fit well in an <option>. These look the record back
-// up on each change and show its meta.banner in a reserved <p id="*-banner"> instead.
-async function onViewerDatasetChange() {
-  const rec = await findDataset($("viewer-dataset").value);
-  showBanner("viewer-banner", rec?.meta?.banner);
-}
+$("event-select").addEventListener("change", (ev) => loadGachaUnits(ev.target.value));
 
-async function onOptDatasetChange() {
-  const rec = await findDataset($("opt-dataset").value);
-  showBanner("opt-dataset-banner", rec?.meta?.banner);
-  suggestEventFromBanner(rec?.meta?.banner);
-}
-
-$("viewer-dataset").addEventListener("change", onViewerDatasetChange);
-$("opt-dataset").addEventListener("change", onOptDatasetChange);
-
-$("opt-event").addEventListener("change", (ev) => loadGachaUnits(ev.target.value));
-loadGachaEvents();
-loadUnitRarities();
-loadCollabUnitNames();
-
-// Filled in on a successful optimize, so "Set guided moveset" (below) can hand it to the
-// viewer's simulator without a second server call.
+// ---- Optimize -----------------------------------------------------------------
+// Filled in on a successful optimize, so "Use as guide" (below) can hand it to the
+// simulator without a second server call.
 let lastOptimizeRoute = null;
 let lastOptimizeDatasetId = null;
-let lastOptimizeCsv = null;
 
 function renderOptCollected() {
   const unitNames = lastOptimizeRoute ? lastOptimizeRoute.flatMap((step) => step.units) : [];
-  renderCollectedUnits("opt-collected", "opt-collab-only", unitNames);
+  renderCollectedUnits("opt-collected", "opt-collected-count", "opt-collab-only", unitNames);
 }
 $("opt-collab-only").addEventListener("change", renderOptCollected);
 
+function clearOptimizeResult() {
+  lastOptimizeRoute = null;
+  lastOptimizeDatasetId = null;
+  $("opt-result").replaceChildren();
+  $("opt-results").hidden = true;
+  $("opt-set-guide-btn").disabled = true;
+  say("opt-status", "");
+}
+
+/** One route step: "<kind> <where> <what>", expandable to every unit it draws. */
+function buildRouteLi(step, pool, legendSlots) {
+  const eleven = step.type === "guaranteed_eleven";
+  const details = make("details");
+  const summary = make("summary");
+  summary.append(
+    make("span", "k", DRAW_LABEL[step.type]),
+    make("span", "w", moveWhere(pool, step.type, step.track, step.roll)),
+    make("span", "", eleven ? `${step.units[step.units.length - 1]} + ${step.units.length - 1} more` : step.units[0]),
+    make("span", "more", "units"),
+  );
+  const warnings = legendWarnings(legendRaresInReach(step.roll, legendSlots));
+  if (warnings) summary.append(warnings);
+  const ol = make("ol");
+  step.units.forEach((unit, i) => {
+    const li = make("li", "", unit);
+    if (eleven && i === step.units.length - 1) li.append(make("span", "gtag", "guaranteed"));
+    ol.append(li);
+  });
+  details.append(summary, ol);
+  const li = make("li");
+  li.append(details);
+  return li;
+}
+
 $("opt-btn").addEventListener("click", async () => {
-  const datasetId = $("opt-dataset").value;
   const limit = Number($("opt-limit").value);
   const targets = getSelectedTargets();
-  const out = $("opt-result");
-  out.replaceChildren();
-  $("opt-set-guide-btn").disabled = true;
-  lastOptimizeRoute = null;
+  clearOptimizeResult();
   renderOptCollected();
-  if (!datasetId) return say("opt-status", "Save or import a dataset first.", "err");
+  if (!activeId) return say("opt-status", "Save or import a dataset first.", "err");
   if (!Number.isInteger(limit) || limit < 1 || limit > 200) return say("opt-status", "Roll limit must be 1-200.", "err");
-  if (!targets.length) return say("opt-status", "Check at least one target unit.", "err");
+  if (!targets.length) return say("opt-status", "Select at least one target unit.", "err");
   if (targets.length > OPT_MAX_TARGETS) return say("opt-status", `At most ${OPT_MAX_TARGETS} target units.`, "err");
 
   // Blank means unlimited (sent as null); otherwise a whole number >= 0, matching the
@@ -1022,10 +1229,11 @@ $("opt-btn").addEventListener("click", async () => {
   if (maxElevensRaw !== "") {
     maxElevens = Number(maxElevensRaw);
     if (!Number.isInteger(maxElevens) || maxElevens < 0) {
-      return say("opt-status", "Max 11-draws must be a whole number 0 or greater (or blank for unlimited).", "err");
+      return say("opt-status", "Max 11x Draws must be a whole number 0 or greater (or blank for unlimited).", "err");
     }
   }
 
+  const datasetId = activeId;
   const rec = (await store.all()).find((r) => r.id === datasetId);
   if (!rec) return say("opt-status", "Dataset not found; it may have been deleted.", "err");
 
@@ -1038,22 +1246,23 @@ $("opt-btn").addEventListener("click", async () => {
       body: { csv: rec.csv, target_units: targets, max_rolls: limit, max_elevens: maxElevens },
       onSlow: () => say("opt-status", "Still waiting. The server may be waking up, which can take up to a minute..."),
     });
-    const elevensNote = maxElevens === null
-      ? `${res.elevens_used} guaranteed-11(s) used`
-      : `${res.elevens_used}/${maxElevens} guaranteed-11(s) used`;
-    say("opt-status", `Found ${res.score} of ${targets.length} target unit(s), ${elevensNote}.`, "ok");
-    const legendSlots = legendRareSlots(buildSimPool(rec.csv));
-    for (const step of res.route) {
-      const li = document.createElement("li");
-      const kind = step.type === "guaranteed_eleven" ? "Guaranteed 11" : "Single roll";
-      li.textContent = `${kind} @ ${step.roll}${step.track}: ${step.units.join(", ")}`;
-      const warnings = legendWarnings(legendRaresInReach(step.roll, legendSlots));
-      if (warnings) li.append(warnings);
-      out.append(li);
-    }
+    const pool = buildSimPool(rec.csv);
+    // The roll limit caps the roll number reached (see route_optimizer.solve), not the
+    // number of units pulled -- an 11x Draw pulls 11 -- so report both separately.
+    const pulls = res.route.reduce((n, step) => n + step.units.length, 0);
+    const last = res.route[res.route.length - 1];
+    const end = last && landing(pool, last.type, last.track, last.roll);
+    const elevensNote = `11x Draws used: ${res.elevens_used}` + (maxElevens === null ? "" : `/${maxElevens}`);
+    say("opt-status", `Done: ${res.score} of ${targets.length} target unit(s) collected · ${pulls} pulls`
+      + (end ? `, ending at ${end.roll}${end.track}` : "") + ` · ${elevensNote}.`, "ok");
+
+    const legendSlots = legendRareSlots(pool);
+    const out = $("opt-result");
+    res.route.forEach((step) => out.append(buildRouteLi(step, pool, legendSlots)));
+    if (!res.route.length) out.append(make("li", "empty", "No route collects any of the targets within the limit."));
     lastOptimizeRoute = res.route;
     lastOptimizeDatasetId = datasetId;
-    lastOptimizeCsv = rec.csv;
+    $("opt-results").hidden = false;
     renderOptCollected();
     $("opt-set-guide-btn").disabled = !res.route.length;
   } catch (e) {
@@ -1065,13 +1274,22 @@ $("opt-btn").addEventListener("click", async () => {
 
 $("opt-set-guide-btn").addEventListener("click", async () => {
   if (!lastOptimizeRoute) return;
-  const select = $("viewer-dataset");
-  if ([...select.options].some((o) => o.value === lastOptimizeDatasetId)) select.value = lastOptimizeDatasetId;
-  renderRollViewer(lastOptimizeCsv);
-  initSim(lastOptimizeCsv); // fresh position/history; setGuidance below loads the plan, doesn't play it
-  setGuidance(lastOptimizeRoute.map((step) => ({ type: step.type, track: step.track, roll: step.roll, units: step.units })));
-  await onViewerDatasetChange();
-  say("viewer-status", `Guided moveset set from the optimizer's route for ${lastOptimizeDatasetId}. Use 1 Draw / 11 Draw to follow it.`, "ok");
+  const route = lastOptimizeRoute;
+  // The route only applies to the dataset it was computed for; showDataset() clears it
+  // on a switch, so the simulator should already hold that dataset.
+  if (!sim || sim.animating || shownId !== lastOptimizeDatasetId) return;
+  // Fresh position/history; setGuidance loads the plan, it doesn't play it.
+  sim.track = "A";
+  sim.roll = 1;
+  sim.moves = [];
+  setGuidance(route.map((step) => ({ type: step.type, track: step.track, roll: step.roll, units: step.units })));
+  say("sim-status", "Guide loaded from the optimizer's route. Use 1x Draw / 11x Draw to follow it.", "ok");
+  $("viewer-table").scrollIntoView({ behavior: "smooth", block: "start" });
 });
 
+// ---- Startup ------------------------------------------------------------------
+renderSim();
+loadGachaEvents();
+loadUnitRarities();
+loadCollabUnitNames();
 refresh().catch(() => say("data-status", "Browser storage is unavailable here.", "err"));
