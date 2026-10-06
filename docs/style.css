@@ -200,6 +200,14 @@ button[hidden] { display: none; }
 .lane-head.b { background: var(--track-b); color: #fff; }
 .lane-head.g { background: var(--surface); border-style: dashed; }
 .lane-head.no { border-color: transparent; color: var(--muted); }
+/* "Show 20 rolls at a time": rows outside the window, and the notes saying which. */
+.lanes .out-of-window { display: none; }
+.window-note { grid-column: 1 / -1; margin: 2px 0 4px; text-align: center; font-size: 0.8rem; font-weight: 700; color: var(--muted); }
+.window-note:empty { display: none; }
+.lanes.compact .tile, .lanes.compact .tk { min-height: 34px; margin: 2px 0; padding-top: 2px; padding-bottom: 2px; }
+.lanes.compact .uicon { width: 24px; height: 24px; }
+.lanes.compact .tk .uicon { width: 20px; height: 20px; }
+.lanes.compact .stone { width: 28px; height: 28px; font-size: 0.75rem; }
 
 .spine {
   display: flex; align-items: center; justify-content: center;

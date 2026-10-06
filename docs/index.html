@@ -39,8 +39,7 @@
         <div class="event-row">
           <label for="event-select">Event</label>
           <select id="event-select"></select>
-          <span class="hint">Whose units the roll viewer shows as icons, Collected shows as cards, and the optimizer
-            offers as targets. Guessed from the dataset's banner when possible.</span>
+          <span class="hint"> Select manually if the gacha event auto-selection fails. </span>
         </div>
         <p id="event-status" class="status" role="status"></p>
       </section>
@@ -49,6 +48,7 @@
         <div class="card-head">
           <h2>Roll viewer</h2>
           <span class="using" id="viewer-using"></span>
+          <label class="toggle"><input type="checkbox" id="roll-window">Show 15 rolls at a time</label>
           <div class="rarity-key" aria-label="Color key">
             <span class="key"><i class="k-rare"></i>Rare</span>
             <span class="key"><i class="k-supa"></i>Super Rare</span>
@@ -60,8 +60,8 @@
             <span class="key"><i class="k-guaranteed"></i>Guaranteed</span>
           </div>
         </div>
-        <p class="hint">Simulate rolling, fully offline (nothing here is sent to the server). The lil cat marks
-          your current position.</p>
+        <!-- <p class="hint">Simulate rolling, fully offline (nothing here is sent to the server). The lil cat marks
+          your current position.</p> -->
         <div class="sim-layout">
           <div id="viewer-table" class="roll-viewer"></div>
           <aside class="sim-sidebar">
